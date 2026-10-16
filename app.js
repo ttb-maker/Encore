@@ -156,7 +156,12 @@ const notice = (msg, kind = 'error') => { if (!state.notices.some(n => n.msg ===
 
 /* ---------- Apple Music (MusicKit JS) ---------- */
 const Apple = {
-  configured: () => !!(CFG.appleDeveloperToken || CFG.appleTokenEndpoint),
+  available: null, // null = ikke tjekket endnu
+  configured() { return !!CFG.appleDeveloperToken || (!!CFG.appleTokenEndpoint && this.available !== false); },
+  async probe() {
+    if (CFG.appleDeveloperToken || !CFG.appleTokenEndpoint) return;
+    try { const r = await fetch(CFG.appleTokenEndpoint); this.available = r.ok; } catch { this.available = false; }
+  },
   mk: null,
   async token() {
     if (CFG.appleDeveloperToken) return CFG.appleDeveloperToken;
@@ -980,6 +985,7 @@ async function boot() {
   try { await Spotify.handleCallback(); } catch (e) { notice('Spotify: ' + e.message); }
   if (state.demo) loadDemo(); else loadFromCache();
   render();
+  Apple.probe().then(() => { if (Apple.available === false) render(); });
   if (!state.demo && hasSources()) {
     const stale = Date.now() - state.updatedAt > TTL_RELEASES || !Object.keys(state.rel).length;
     if (stale || Date.now() - state.artistsAt > TTL_ARTISTS) refreshAll();
