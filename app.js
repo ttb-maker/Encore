@@ -385,7 +385,9 @@ const TM = {
     let r;
     try { r = await this.limit(() => fetch(url)); } catch { throw new Error('Kunne ikke kontakte Ticketmaster'); }
     if (r.status === 429 && retry) { await sleep(1500); return this.get(path, params, retry - 1); }
-    if ([401, 403, 404, 501].includes(r.status)) throw new SetupError('Koncerter er ikke sat op i denne app endnu (mangler Ticketmaster-nøgle).');
+    if (r.status === 501) throw new SetupError('Serveren har ikke fået Ticketmaster-nøglen. Tjek at TICKETMASTER_API_KEY står i Vercel for "Production", og lav en Redeploy.');
+    if (r.status === 404 && !CFG.ticketmasterApiKey) throw new SetupError('Serverfunktionen til koncerter (/api/tm) blev ikke fundet. Ligger appen på Vercel?');
+    if (r.status === 401 || r.status === 403) throw new SetupError('Ticketmaster afviste nøglen. Tjek at det er "Consumer Key" (ikke Secret), kopieret helt uden ekstra tegn.');
     if (!r.ok) throw new Error('Ticketmaster svarede ' + r.status);
     return r.json();
   },
@@ -707,7 +709,7 @@ function viewConcerts() {
   return `
     ${banners()}
     <div class="page-head"><h2>Koncerter</h2><p>Kommende shows i ${CFG.countries.map(c => COUNTRY[c] || c).join(', ').replace(/, ([^,]*)$/, ' og $1')}</p></div>
-    ${concertsBlocked() ? `<div class="banner"><p>${esc(concertsBlocked())}</p></div>` : ''}
+    ${concertsBlocked() ? `<div class="banner"><p>${esc(concertsBlocked())}</p><button class="btn small" data-action="refresh">Prøv igen</button></div>` : ''}
     <div class="chips" role="group" aria-label="Lande">${CFG.countries.map(c => `<button class="chip stamp" data-action="country" data-v="${c}" aria-pressed="${state.f.countries.includes(c)}">${c} <span class="n">${counts[c]}</span></button>`).join('')}</div>
     <label class="search">${I.search}<input id="q-concerts" type="search" placeholder="Søg kunstner, spillested eller by" value="${esc(state.f.qc)}" data-q="qc" autocomplete="off"></label>
     <div id="list" class="view" style="padding:0">${listConcerts()}</div>`;

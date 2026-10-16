@@ -3,7 +3,7 @@
 const ALLOWED = new Set(['events.json', 'attractions.json']);
 
 module.exports = async (req, res) => {
-  const key = process.env.TICKETMASTER_API_KEY;
+  const key = (process.env.TICKETMASTER_API_KEY || '').trim();
   if (!key) { res.status(501).json({ error: 'Ticketmaster er ikke konfigureret på serveren.' }); return; }
   const { path, ...params } = req.query || {};
   if (!ALLOWED.has(path)) { res.status(400).json({ error: 'Ukendt sti' }); return; }

@@ -5,7 +5,9 @@ const crypto = require('crypto');
 let cached = null;
 
 module.exports = (req, res) => {
-  const { APPLE_TEAM_ID, APPLE_KEY_ID, APPLE_PRIVATE_KEY } = process.env;
+  const APPLE_TEAM_ID = (process.env.APPLE_TEAM_ID || '').trim();
+  const APPLE_KEY_ID = (process.env.APPLE_KEY_ID || '').trim();
+  const APPLE_PRIVATE_KEY = (process.env.APPLE_PRIVATE_KEY || '').trim();
   if (!APPLE_TEAM_ID || !APPLE_KEY_ID || !APPLE_PRIVATE_KEY) {
     res.status(501).json({ error: 'Apple Music er ikke konfigureret på serveren.' });
     return;
