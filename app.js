@@ -759,7 +759,10 @@ function viewArtists() {
       <input id="add-artist" placeholder="Tilføj kunstner, fx Mø" autocomplete="off" aria-label="Kunstnernavn">
       <button class="btn primary" type="submit">Tilføj</button>
     </form>
-    <details class="card"><summary>Importer en liste</summary>
+    <div class="actions" style="display:flex;gap:8px;flex-wrap:wrap">
+      <button class="btn" type="button" data-action="copy-list" ${state.artists.length ? '' : 'aria-disabled="true"'}>Kopiér min liste</button>
+    </div>
+    <details class="card" id="import-card"><summary>Importer en liste</summary>
       <form data-form="import" style="display:grid;gap:10px">
         <textarea id="import-list" placeholder="Én kunstner pr. linje, eller adskilt med komma"></textarea>
         <button class="btn" type="submit">Tilføj alle</button>
@@ -910,6 +913,20 @@ document.addEventListener('click', e => {
       state.artists = store.get('artists', []); loadFromCache(); state.tab = 'releases'; render();
       if (hasSources()) refreshAll();
       break;
+    case 'copy-list': {
+      const names = state.artists.map(a => a.name);
+      if (!names.length) break;
+      const text = names.join('\n');
+      const fallback = () => {
+        const card = $('#import-card'), ta = $('#import-list');
+        if (card && ta) { card.open = true; ta.value = text; ta.focus(); ta.select(); }
+        b.textContent = 'Markeret – vælg Kopiér';
+      };
+      try {
+        navigator.clipboard.writeText(text).then(() => { b.textContent = `Kopieret: ${names.length} kunstnere`; }, fallback);
+      } catch { fallback(); }
+      break;
+    }
     case 'dismiss': state.notices = state.notices.filter(n => n.msg !== b.dataset.msg); render(); break;
     case 'reset': {
       if (b.dataset.armed !== '1') { b.dataset.armed = '1'; b.textContent = 'Tryk igen for at slette alt'; return; }
