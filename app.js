@@ -481,7 +481,13 @@ async function concertsFor(a, force) {
 
 /* ---------- Opdatering ---------- */
 let renderTimer = 0;
-function scheduleRender() { if (!renderTimer) renderTimer = setTimeout(() => { renderTimer = 0; update(); }, 350); }
+function scheduleRender() {
+  if (renderTimer) return;
+  // Under indlæsning: kun listen og menuen, og sjældnere – ellers blinker skærmen
+  renderTimer = setTimeout(() => { renderTimer = 0; if (state.busy) { renderNav(); renderList(); } else update(); }, state.busy ? 1500 : 350);
+}
+// Skriv kun ny HTML, når indholdet faktisk har ændret sig
+function setHTML(el, html) { if (el && el._html !== html) { el.innerHTML = html; el._html = html; } }
 function setProgress(done, total, label) {
   state.progress = Object.assign(state.progress || {}, label != null ? { label } : {}, done != null ? { done } : {}, total != null ? { total } : {});
   renderTop();
@@ -600,13 +606,16 @@ function renderTop() {
     : hasSources() ? `<b>${n}</b> kunstnere<br>${when}` : '';
   const p = state.progress;
   const pct = p && p.total ? Math.round((p.done / p.total) * 100) : 6;
-  top.innerHTML = `
-    <div class="top-row">
+  if (!top.firstElementChild) top.innerHTML = '<div class="top-row" id="top-row"></div><div id="top-progress"></div>';
+  setHTML($('#top-row'), `
       <h1 class="wordmark"><span class="dot"></span>Encore</h1>
       <div class="top-meta">${meta}</div>
-      ${hasSources() || state.demo ? `<button class="icon-btn ${state.busy ? 'spin' : ''}" data-action="refresh" aria-label="Opdater">${I.refresh}</button>` : ''}
-    </div>
-    ${p ? `<div class="progress" role="status"><div class="progress-track"><div class="progress-bar" style="width:${pct}%"></div></div><div class="progress-label">${esc(p.label || '')}${p.total ? ` ${p.done}/${p.total}` : ''}</div></div>` : ''}`;
+      ${hasSources() || state.demo ? `<button class="icon-btn ${state.busy ? 'spin' : ''}" data-action="refresh" aria-label="Opdater">${I.refresh}</button>` : ''}`);
+  const box = $('#top-progress');
+  if (!p) { setHTML(box, ''); return; }
+  if (!box.querySelector('.progress')) setHTML(box, '<div class="progress" role="status"><div class="progress-track"><div class="progress-bar"></div></div><div class="progress-label"></div></div>');
+  box.querySelector('.progress-bar').style.width = pct + '%';
+  box.querySelector('.progress-label').textContent = (p.label || '') + (p.total ? ` ${p.done}/${p.total}` : '');
 }
 
 function renderNav() {
@@ -620,10 +629,10 @@ function renderNav() {
     ['artists', 'Kunstnere', I.mic, 0],
     ['settings', 'Konto', I.user, 0],
   ];
-  nav.innerHTML = `<div class="nav-inner">${tabs.map(([id, label, icon, badge]) => `
+  setHTML(nav, `<div class="nav-inner">${tabs.map(([id, label, icon, badge]) => `
     <button data-action="tab" data-tab="${id}" ${state.tab === id ? 'aria-current="page"' : ''}>
       ${icon}<span>${label}</span>${badge ? `<span class="badge">${badge > 99 ? '99+' : badge}</span>` : ''}
-    </button>`).join('')}</div>`;
+    </button>`).join('')}</div>`);
 }
 
 function banners() {
@@ -831,14 +840,14 @@ function update() {
 function renderList() {
   const el = $('#list');
   if (!el) return;
-  el.innerHTML = { releases: listReleases, concerts: listConcerts, artists: listArtists }[state.tab]?.() ?? '';
+  setHTML(el, { releases: listReleases, concerts: listConcerts, artists: listArtists }[state.tab]?.() ?? '');
 }
 function render() {
   renderTop();
   renderNav();
   const v = $('#view');
-  if (!hasSources() && !state.demo) { v.innerHTML = viewOnboarding(); return; }
-  v.innerHTML = ({ releases: viewReleases, concerts: viewConcerts, artists: viewArtists, settings: viewSettings }[state.tab] || viewReleases)();
+  if (!hasSources() && !state.demo) { setHTML(v, viewOnboarding()); return; }
+  setHTML(v, ({ releases: viewReleases, concerts: viewConcerts, artists: viewArtists, settings: viewSettings }[state.tab] || viewReleases)());
 }
 
 /* ---------- Handlinger ---------- */
