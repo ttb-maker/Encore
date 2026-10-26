@@ -32,6 +32,18 @@ const cache = {
   set(k, v) { store.set('c:' + k, { t: Date.now(), v }); },
 };
 
+/* Husker opslag af kunstner-id'er. "Ikke fundet" huskes kun i 3 dage, så et uheldigt opslag prøves igen. */
+const ids = {
+  get(map, k) {
+    const v = store.get(map, {})[k];
+    if (v === undefined || v === null) return undefined; // gamle "ikke fundet" prøves igen
+    if (typeof v !== 'object') return v;
+    if (v.id) return v.id;
+    return Date.now() - v.t < 3 * DAY ? null : undefined;
+  },
+  set(map, k, id) { const m = store.get(map, {}); m[k] = id ? { id } : { id: null, t: Date.now() }; store.set(map, m); },
+};
+
 /* ---------- Hjælpere ---------- */
 const $ = s => document.querySelector(s);
 const sleep = ms => new Promise(r => setTimeout(r, ms));
@@ -348,17 +360,20 @@ const Spotify = {
 
 /* ---------- iTunes-søgning (uden login, til manuelle kunstnere) ---------- */
 const ITunes = {
-  limit: rateLimiter(2600), // Apple tillader ca. 20 opslag i minuttet
+  limit: rateLimiter(3300), // Apple tillader ca. 20 opslag i minuttet; vi holder os under
   base: 'https://itunes.apple.com/',
   async artistId(name) {
-    const map = store.get('itunesIds', {});
     const k = norm(name);
-    if (k in map) return map[k];
-    const d = await this.limit(() => jsonp(`${this.base}search?term=${encodeURIComponent(name)}&entity=musicArtist&limit=10&country=${CFG.storefront}`));
-    const hit = (d.results || []).find(r => norm(r.artistName) === k) || null;
-    map[k] = hit ? hit.artistId : null;
-    store.set('itunesIds', map);
-    return map[k];
+    const known = ids.get('itunesIds', k);
+    if (known !== undefined) return known;
+    let hit = null;
+    for (const country of [CFG.storefront, 'us']) {
+      const d = await this.limit(() => jsonp(`${this.base}search?term=${encodeURIComponent(name)}&entity=musicArtist&attribute=artistTerm&limit=15&country=${country}`));
+      hit = (d.results || []).find(r => norm(r.artistName) === k) || null;
+      if (hit) break;
+    }
+    ids.set('itunesIds', k, hit && hit.artistId);
+    return hit ? hit.artistId : null;
   },
   async releases(a) {
     const id = a.appleId || await this.artistId(a.name);
@@ -370,6 +385,49 @@ const ITunes = {
       type: releaseType(r.collectionName, r.trackCount, r.collectionType === 'Compilation' ? 'compilation' : ''),
       cover: (r.artworkUrl100 || '').replace('100x100', '300x300'), url: r.collectionViewUrl || '', source: 'itunes',
     }));
+  },
+};
+
+/* ---------- MusicBrainz (kommende udgivelser, som streamingtjenesterne ikke viser endnu) ---------- */
+const MB = {
+  limit: rateLimiter(1100), // MusicBrainz tillader 1 opslag i sekundet
+  base: 'https://musicbrainz.org/ws/2/',
+  async get(path, retry = 1) {
+    const r = await this.limit(() => fetch(this.base + path + '&fmt=json', { headers: { Accept: 'application/json' } }));
+    if (r.status === 503 && retry) { await sleep(2500); return this.get(path, retry - 1); }
+    if (!r.ok) throw new Error('MusicBrainz svarede ' + r.status);
+    return r.json();
+  },
+  async artistId(name) {
+    const k = norm(name);
+    const known = ids.get('mbIds', k);
+    if (known !== undefined) return known;
+    const d = await this.get(`artist?query=${encodeURIComponent(`artist:"${name}"`)}&limit=10`);
+    const hit = (d.artists || []).filter(x => norm(x.name) === k && (x.score ?? 100) >= 90)
+      .sort((x, y) => (y.score || 0) - (x.score || 0))[0] || null;
+    ids.set('mbIds', k, hit && hit.id);
+    return hit ? hit.id : null;
+  },
+  async releases(a) {
+    const id = await this.artistId(a.name);
+    if (!id) return [];
+    const d = await this.get(`release-group?artist=${id}&type=album%7Cep%7Csingle&limit=100`);
+    const from = isoDay(new Date(Date.now() - 90 * DAY));
+    return (d['release-groups'] || [])
+      .filter(g => g['first-release-date'] && g['first-release-date'] >= from)
+      .filter(g => !(g['secondary-types'] || []).some(t => ['Compilation', 'DJ-mix', 'Mixtape/Street', 'Remix', 'Demo'].includes(t)))
+      .map(g => {
+        const date = g['first-release-date'];
+        return {
+          id: 'mb' + g.id, title: g.title, artist: a.name, artistKey: a.key,
+          date: date.length === 4 ? date + '-12-31' : date.length === 7 ? date + '-01' : date,
+          precision: date.length === 4 ? 'year' : date.length === 7 ? 'month' : 'day',
+          type: { Album: 'Album', EP: 'EP', Single: 'Single' }[g['primary-type']] || 'Album',
+          cover: `https://coverartarchive.org/release-group/${g.id}/front-250`,
+          url: `https://music.apple.com/${CFG.storefront}/search?term=${encodeURIComponent(a.name + ' ' + g.title)}`,
+          source: 'musicbrainz',
+        };
+      });
   },
 };
 
@@ -397,16 +455,15 @@ const TM = {
     return r.json();
   },
   async attraction(name) {
-    const map = store.get('tmIds', {});
     const k = norm(name);
-    if (k in map) return map[k];
+    const known = ids.get('tmIds', k);
+    if (known !== undefined) return known;
     const d = await this.get('attractions.json', { keyword: name, classificationName: 'music', size: 20 });
     const list = d._embedded?.attractions || [];
     const hit = list.filter(x => norm(x.name) === k)
       .sort((x, y) => (y.upcomingEvents?._total || 0) - (x.upcomingEvents?._total || 0))[0];
-    map[k] = hit ? hit.id : null;
-    store.set('tmIds', map);
-    return map[k];
+    ids.set('tmIds', k, hit && hit.id);
+    return hit ? hit.id : null;
   },
   async events(a) {
     const id = await this.attraction(a.name);
@@ -460,20 +517,29 @@ async function syncArtists(force) {
   store.set('artists', state.artists);
 }
 
-async function releasesFor(a, force) {
+async function releasesFor(a, maxAge = TTL_RELEASES) {
   const ck = 'rel:' + a.key;
-  if (!force) { const c = cache.get(ck, TTL_RELEASES); if (c) return c; }
-  let list;
-  if (a.spotifyId && state.sources.spotify) list = await Spotify.releases(a);
-  else if (a.appleId && state.sources.apple) list = await Apple.releases(a);
-  else list = await ITunes.releases(a);
+  const c = cache.get(ck, maxAge); if (c) return c;
+  const main = a.spotifyId && state.sources.spotify ? Spotify.releases(a)
+    : a.appleId && state.sources.apple ? Apple.releases(a)
+    : ITunes.releases(a);
+  const [m, extra] = await Promise.allSettled([main, MB.releases(a)]);
+  if (m.status === 'rejected' && (extra.status === 'rejected' || m.reason instanceof SetupError)) throw m.reason;
+  let list = m.status === 'fulfilled' ? m.value : (state.rel[a.key] || []).filter(r => r.source !== 'musicbrainz');
+  // Tilføj kun MusicBrainz-udgivelser, som hovedkilden ikke allerede har
+  const have = list.map(r => norm(r.title));
+  for (const r of extra.status === 'fulfilled' ? extra.value : []) {
+    const t = norm(r.title);
+    if (!have.some(h => h === t || h.startsWith(t + ' ') || t.startsWith(h + ' '))) list.push(r);
+  }
   list = dedupeReleases(list).sort((x, y) => y.date.localeCompare(x.date)).slice(0, 80);
-  cache.set(ck, list);
+  if (m.status === 'fulfilled') cache.set(ck, list); // et halvt resultat prøves igen næste gang
+  else throw Object.assign(new Error('delvist'), { partial: list });
   return list;
 }
-async function concertsFor(a, force) {
+async function concertsFor(a, maxAge = TTL_CONCERTS) {
   const ck = 'ev:' + a.key;
-  if (!force) { const c = cache.get(ck, TTL_CONCERTS); if (c) return c; }
+  const c = cache.get(ck, maxAge); if (c) return c;
   const list = await TM.events(a);
   cache.set(ck, list);
   return list;
@@ -500,16 +566,23 @@ function loadFromCache() {
   }
 }
 
+let retryTimer = 0, retryRound = 0;
 async function refreshAll(force = false) {
   if (state.demo) { loadDemo(); render(); return; }
-  if (state.busy || !hasSources()) return;
-  state.busy = true; state.notices = []; state.concertsBlocked = '';
+  if (!hasSources()) return;
+  // Kører der allerede en opdatering, så kør en ny lige bagefter (fx når en kunstner er tilføjet)
+  if (state.busy) { state.again = true; return; }
+  clearTimeout(retryTimer);
+  const maxRel = force ? 30 * 60e3 : TTL_RELEASES, maxEv = force ? 30 * 60e3 : TTL_CONCERTS;
+  state.busy = true; state.again = false; state.notices = state.notices.filter(n => n.kind === 'error' && !n.retry); state.concertsBlocked = '';
+  const failed = new Set();
   setProgress(0, 0, 'Henter dine kunstnere …');
   try {
     await syncArtists(force);
     loadFromCache();
     render();
-    const list = visibleArtists();
+    // Kunstnere uden data først, så en ny kunstner dukker op med det samme
+    const list = visibleArtists().slice().sort((x, y) => (state.rel[x.key] ? 1 : 0) - (state.rel[y.key] ? 1 : 0));
     const doConcerts = TM.configured();
     if (!doConcerts) state.concertsBlocked = 'Koncerter er ikke sat op i denne app endnu (mangler Ticketmaster-nøgle).';
     let done = 0;
@@ -518,24 +591,37 @@ async function refreshAll(force = false) {
     setProgress(0, total, `Opdaterer ${list.length} kunstnere …`);
     await Promise.all([
       pool(list, 3, async a => {
-        try { state.rel[a.key] = await releasesFor(a, force); }
-        catch (e) { if (e instanceof SetupError) notice(e.message); }
+        try { state.rel[a.key] = await releasesFor(a, maxRel); }
+        catch (e) {
+          if (e.partial) state.rel[a.key] = e.partial;
+          if (e instanceof SetupError) notice(e.message); else failed.add(a.name);
+        }
         tick();
       }),
       doConcerts && pool(list, 2, async a => {
         if (!state.concertsBlocked) {
-          try { state.ev[a.key] = await concertsFor(a, force); }
+          try { state.ev[a.key] = await concertsFor(a, maxEv); }
           catch (e) { if (e instanceof SetupError) state.concertsBlocked = e.message; }
         }
         tick();
       }),
     ]);
     state.updatedAt = Date.now(); store.set('updatedAt', state.updatedAt);
+    if (failed.size && retryRound < 4) {
+      retryRound++;
+      const names = [...failed];
+      state.notices.push({ kind: 'info', retry: true, msg: `${names.length} ${names.length === 1 ? 'kunstner' : 'kunstnere'} kunne ikke hentes lige nu (${names.slice(0, 3).join(', ')}${names.length > 3 ? ' …' : ''}). Apple begrænser antallet af opslag, så appen prøver igen om et minut.` });
+      retryTimer = setTimeout(() => refreshAll(), 75e3);
+    } else if (failed.size) {
+      state.notices.push({ kind: 'info', retry: true, msg: `${failed.size} kunstnere kunne ikke hentes. Prøv igen senere med ↻.` });
+      retryRound = 0;
+    } else retryRound = 0;
   } catch (e) {
     notice(e.message || 'Noget gik galt under opdateringen.');
   } finally {
     state.busy = false; state.progress = null;
     render();
+    if (state.again) setTimeout(() => refreshAll(), 0);
   }
 }
 
@@ -890,7 +976,7 @@ document.addEventListener('click', e => {
   switch (action) {
     case 'tab': state.tab = b.dataset.tab; state.limit = PAGE; store.set('tab', state.tab); render(); window.scrollTo({ top: 0 }); break;
     case 'refresh': refreshAll(true); break;
-    case 'hard-refresh': store.clearCache(); state.rel = {}; state.ev = {}; state.artistsAt = 0; refreshAll(true); break;
+    case 'hard-refresh': store.clearCache(); ['itunesIds', 'mbIds', 'tmIds'].forEach(k => store.del(k)); state.rel = {}; state.ev = {}; state.artistsAt = 0; refreshAll(true); break;
     case 'resync': state.artistsAt = 0; refreshAll(false); break;
     case 'period': state.f.period = v; state.limit = PAGE; saveFilters(); render(); break;
     case 'type': state.f.type = v; state.limit = PAGE; saveFilters(); render(); break;
@@ -1012,10 +1098,11 @@ async function boot() {
   if (state.demo) loadDemo(); else loadFromCache();
   render();
   Apple.probe().then(() => { if (Apple.available === false) render(); });
-  if (!state.demo && hasSources()) {
-    const stale = Date.now() - state.updatedAt > TTL_RELEASES || !Object.keys(state.rel).length;
-    if (stale || Date.now() - state.artistsAt > TTL_ARTISTS) refreshAll();
-  }
+  // Hver kunstner har sin egen cache, så en opdatering er billig: kun forældede og nye kunstnere hentes
+  if (!state.demo && hasSources()) refreshAll();
+  document.addEventListener('visibilitychange', () => {
+    if (document.visibilityState === 'visible' && !state.demo && hasSources() && Date.now() - state.updatedAt > 10 * 60e3) refreshAll();
+  });
   if ('serviceWorker' in navigator && location.protocol === 'https:' && window.top === window.self && !CFG.demoOnly) {
     navigator.serviceWorker.register('sw.js').catch(() => {});
   }

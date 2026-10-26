@@ -103,6 +103,8 @@ npx serve .        # eller: python3 -m http.server 8080
 ## Godt at vide
 
 - **Dækning af koncerter:** Data kommer fra Ticketmaster (Ticketmaster.dk, .se og .de). Koncerter, der kun sælges hos andre (fx Billetlugen, Tix, Eventim-only), kan mangle. Flere kilder kan tilføjes i `app.js` ved siden af `TM`.
+- **Kommende udgivelser:** Streamingtjenesterne viser ofte først et album, når det udkommer. Encore supplerer derfor med [MusicBrainz](https://musicbrainz.org), en åben musikdatabase, hvor kommende udgivelser typisk registreres i forvejen.
+- **Opdatering:** Appen tjekker for nyt, hver gang den åbnes eller kommer frem fra baggrunden. Hver kunstner hentes højst hver 12. time (koncerter hver 6. time), og nye kunstnere hentes først.
 - **Udgivelser:** Spotify-brugere får diskografien fra Spotify. Apple Music-brugere og manuelle lister bruger Apple Musics katalog. Opslag i det åbne katalog (manuelle lister) er begrænset til ca. 20 i minuttet, så første indlæsning af en lang manuel liste tager et par minutter. Bagefter gemmes resultaterne i 12 timer.
 - **Privatliv:** Der er ingen server-database. Login-nøgler, kunstnerlister og cache ligger i telefonens browserlager og kan slettes under **Konto › Nulstil appen**.
 
