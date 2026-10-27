@@ -1,0 +1,2174 @@
+{
+ "url": "https://malmolive.se/program",
+ "status": 200,
+ "err": "",
+ "finalUrl": "https://malmolive.se/program",
+ "calls": [
+  {
+   "url": "https://consentcdn.cookiebot.com/consentconfig/72ffda33-9bf7-4f98-b016-707e33b26f4d/settings.json",
+   "method": "GET",
+   "post": "",
+   "status": 200,
+   "ct": "application/json",
+   "body": "{\"widget\":{\"enabled\":true,\"position\":{\"position\":\"bottom-right\",\"distanceVerticalPx\":6,\"distanceHorizontalPx\":6},\"theme\":{\"closed\":{\"backgroundColor\":\"#141414\",\"foregroundColor\":\"#FFFFFF\"},\"opened\":{\"backgroundColor\":\"#FFFFFF\",\"foregroundColor\":\"#141414\",\"highlightColor\":\"#1032CF\",\"shadeColor\":\"#D6D6D6\",\"changeBackgroundColor\":\"#1032CF\",\"changeTextColor\":\"#FFFFFF\",\"changeBorderColor\":\"#1032CF\",\"withdrawBackgroundColor\":\"#FFFFFF\",\"withdrawTextColor\":\"#141414\",\"withdrawBorderColor\":\"#1032CF\",\"detailsBackgroundColor\":\"#F2F2F2\"}},\"content\":{\"cultures\":[\"sv\",\"en\"],\"default\":\"en\",\"autodetectLanguage\":true}},\"twipla\":null}"
+  },
+  {
+   "url": "https://malmolive.se/core/modules/statistics/statistics.php",
+   "method": "POST",
+   "post": "nid=1113",
+   "status": 200,
+   "ct": "text/html; charset=UTF-8",
+   "body": ""
+  },
+  {
+   "url": "https://malmolive.se/api/events",
+   "method": "GET",
+   "post": "",
+   "status": 200,
+   "ct": "application/json",
+   "body": "[{\"field_media_image\":\"4185\",\"title\":\"Verdis Requiem\",\"field_text_plain_long\":\"Giuseppe Verdis oerh\\u00f6rt storslagna m\\u00e4sterverk med dubbla k\\u00f6rer, fyra s\\u00e5ngare och Malm\\u00f6 SymfoniOrkester, alla under ledning av chefsdirigent Martyn Brabbins.  \",\"langcode_1\":\"Swedish\",\"field_date_time\":\"2026-10-29T19:00:00\",\"price_low\":\"185.00\",\"price_high\":\"485.00\",\"price_currency\":\"SEK\",\"availability\":\"3\",\"field_venue\":\"Konsertsalen\",\"tessitura_event_id\":\"30089\",\"tessitura_instance_id\":\"30164\",\"buy_link__uri\":\"\",\"buy_link__title\":\"\",\"sold_out\":\"0\",\"field_media_image_1\":\"\\/sites\\/default\\/files\\/styles\\/large\\/public\\/2026\\/02\\/Verdi_Requiem_MSO_26-27_Webbilder_920%20x%20640_7.jpg.webp?itok=BHO00ph3\",\"field_alt\":\"Abstrakt illustration av en m\\u00e4nniska till konserten Verdis Requiem med Malm\\u00f6 Symfoniorkester.\",\"field_focal_area\":\"mc\",\"field_live_event\":\"0\",\"view_node\":\"\\/program\\/verdis-requiem-2026\",\"field_concert_series\":\"\\u003Ca href=\\u0022\\/taxonomy\\/term\\/250\\u0022 hreflang=\\u0022sv\\u0022\\u003EPlatina\\u003C\\/a\\u003E, \\u003Ca href=\\u0022\\/taxonomy\\/term\\/252\\u0022 hreflang=\\u0022sv\\u0022\\u003ESilver\\u003C\\/a\\u003E\",\"field_keywords_target_id\":\"Malm\\u00f6 SymfoniOrkester\",\"field_schedule_buy_button\":\"\",\"field_scheduling_text\":\"\"},{\"field_media_image\":\"4315\",\"title\":\"En kv\\u00e4ll med Shan Atci\",\"field_text_plain_long\":\"Shan levererar tr\\u00e4ffs\\u00e4ker humor, h\\u00f6g energi och personliga ber\\u00e4ttelser som ber\\u00f6r och underh\\u00e5ller. Hans unika publiksnack g\\u00f6r varje kv\\u00e4ll levande \\u2013 d\\u00e4r publiken inte bara tittar, utan blir en del av sj\\u00e4lva f\\u00f6rest\\u00e4llningen.\",\"langcode_1\":\"Swedish\",\"field_date_time\":\"2026-10-30T19:00:00\",\"price_low\":\"275.00\",\"price_high\":\"275.00\",\"price_currency\":\"SEK\",\"availability\":\"74\",\"field_venue\":\"Kuben\",\"tessitura_event_id\":\"30551\",\"tessitura_instance_id\":\"30552\",\"buy_link__uri\":\"\",\"buy_link__title\":\"\",\"sold_out\":\"\",\"field_media_image_1\":\"\\/sites\\/default\\/files\\/styles\\/large\\/public\\/2026\\/04\\/920x640%20px.jpg.webp?itok=Ldn7p9S1\",\"field_alt\":\"Shan Atci sittandes i kostym och fluga representerar showen\",\"field_focal_area\":\"mc\",\"field_live_event\":\"0\",\"view_node\":\"\\/program\\/en-kvall-med-shan-atci\",\"field_concert_series\":\"\",\"field_keywords_target_id\":\"Underh\\u00e5llning och Humor\",\"field_schedule_buy_button\":\"\",\"field_scheduling_text\":\"\"},{\"field_media_image\":\"4185\",\"title\":\"Verdis Requiem\",\"field_text_plain_long\":\"Giuseppe Verdis oerh\\u00f6rt storslagna m\\u00e4sterverk med dubbla k\\u00f6rer, fyra s\\u00e5ngare och Malm\\u00f6 SymfoniOrkester, alla under ledning av chefsdirigent Martyn Brabbins.  \",\"langcode_1\":\"Swedish\",\"field_date_time\":\"2026-10-30T19:00:00\",\"price_low\":\"185.00\",\"price_high\":\"485.00\",\"price_currency\":\"SEK\",\"availability\":\"250\",\"field_venue\":\"Konsertsalen\",\"tessitura_event_id\":\"30089\",\"tessitura_instance_id\":\"30165\",\"buy_link__uri\":\"\",\"buy_link__title\":\"\",\"sold_out\":\"0\",\"field_media_image_1\":\"\\/sites\\/default\\/files\\/styles\\/large\\/public\\/2026\\/02\\/Verdi_Requiem_MSO_26-27_Webbilder_920%20x%20640_7.jpg.webp?itok=BHO00ph3\",\"field_alt\":\"Abstrakt illustration av en m\\u00e4nniska till konserten Verdis Requiem med Malm\\u00f6 Symfoniorkester.\",\"field_focal_area\":\"mc\",\"field_live_event\":\"0\",\"view_node\":\"\\/program\\/verdis-requiem-2026\",\"field_concert_series\":\"\\u003Ca href=\\u0022\\/taxonomy\\/term\\/250\\u0022 hreflang=\\u0022sv\\u0022\\u003EPlatina\\u003C\\/a\\u003E, \\u003Ca href=\\u0022\\/taxonomy\\/term\\/252\\u0022 hreflang=\\u0022sv\\u0022\\u003ESilver\\u003C\\/a\\u003E\",\"field_keywords_target_id\":\"Malm\\u00f6 SymfoniOrkester\",\"field_schedule_buy_button\":\"\",\"field_scheduling_text\":\"\"},{\"field_media_image\":\"4352\",\"title\":\"Sp\\u00f6ktimmen presenterar 10 \\u00e5r av skr\\u00e4ck\",\"field_text_plain_long\":\"Sedan starten har journalisterna Linn Ek och Jenny Borg tagit med lyssnarna in i en v\\u00e4rld fylld av true crime, ol\\u00f6sta mysterier och det \\u00f6vernaturliga. \",\"langcode_1\":\"Swedish\",\"field_date_time\":\"2026-11-01T20:30:00\",\"price_low\":\"485.00\",\"price_high\":\"795.00\",\"price_currency\":\"SEK\",\"availability\":\"186\",\"field_venue\":\"Konsertsalen\",\"tessitura_event_id\":\"30633\",\"tessitura_instance_id\":\"30635\",\"buy_link__uri\":\"\",\"buy_link__title\":\"\",\"sold_out\":\"\",\"field_media_image_1\":\"\\/sites\\/default\\/files\\/styles\\/large\\/public\\/2026\\/05\\/SPOKTIMMEN_920x640.jpg.webp?itok=IZZKqdc4\",\"field_alt\":\"Portr\\u00e4tt av sp\\u00f6timmens journalister Linn Ek och Jenny Borg\",\"field_focal_area\":\"mc\",\"field_live_event\":\"0\",\"view_node\":\"\\/program\\/spoktimmen-presenterar-10-ar-av-skrack\",\"field_concert_series\":\"\",\"field_keywords_target_id\":\"Underh\\u00e5llning och Humor, Samtal \\u0026amp; Workshop\",\"field_schedule_buy_button\":\"\",\"field_scheduling_text\":\"\"},{\"field_media_image\":\"2969\",\"title\":\"Babyrytmik omg\\u00e5ng 2 \\/\\/ H\\u00f6sten 2026\",\"field_text_plain_long\":\"V\\u00e4lkommen till Malm\\u00f6 Lives Babyrytmik! Genom s\\u00e5ng, rytm, ramsor och r\\u00f6relse skapar vi tillsammans ett rum f\\u00f6r kommunikation. H\\u00e4r musicerar du med ditt barn och med andra. \",\"langcode_1\":\"Swedish\",\"field_date_time\":\"2026-11-05T09:30:00\",\"price_low\":\"525.00\",\"price_high\":\"525.00\",\"price_currency\":\"SEK\",\"availability\":\"0\",\"field_venue\":\"MLK Kanalscenen\",\"tessitura_event_id\":\"30777\",\"tessitura_instance_id\":\"30778\",\"buy_link__uri\":\"\",\"buy_link__title\":\"\",\"sold_out\":\"\",\"field_media_image_1\":\"\\/sites\\/default\\/files\\/styles\\/large\\/public\\/2024\\/08\\/Babyrytmik920x640.jpg.webp?itok=W6Juf4BW\",\"field_alt\":\"Babyrytmik\",\"field_focal_area\":\"mc\",\"field_live_event\":\"0\",\"view_node\":\"\\/program\\/babyrytmik-omgang-2-hosten-2026\",\"field_concert_series\":\"\",\"field_keywords_target_id\":\"Barn \\u0026amp; familj\",\"field_schedule_buy_button\":\"\",\"field_scheduling_text\":\"\"},{\"field_media_image\":\"2969\",\"title\":\"Babyrytmik omg\\u00e5ng 2 \\/\\/ H\\u00f6sten 2026\",\"field_text_plain_long\":\"V\\u00e4lkommen till Malm\\u00f6 Lives Babyrytmik! Genom s\\u00e5ng, rytm, ramsor och r\\u00f6relse skapar vi tillsammans ett rum f\\u00f6r kommunikation. H\\u00e4r musicerar du med ditt barn och med andra. \",\"langc\n…[afkortet]"
+  },
+  {
+   "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=11&frm=0&apvc=1&tid=AW-960870447&en=page_view&dl=https%3A%2F%2Fmalmolive.se%2Fprogram&scrsrc=www.googletagmanager.com&rnd=1384025848.1793092580&navt=n&npa=1&us_privacy=1---&did=dMWZhNz&gdid=dMWZhNz&_tu=CA&gtm=45be6an1v9181464991za20ozb842744507zd842744507xecxf1&gcs=G100&gcd=13p3p3p3p5l1&dma_cps=-&dma=0&tag_exp=115938465~115938469~118897920~118897930~120213116~120385422~120412528~120420415~120469145~120469153~121246026~121246034~123620775&tft=1793092579604&tfd=940&tids=AW-960870447&fmt=8",
+   "method": "POST",
+   "post": "",
+   "status": 200,
+   "ct": "",
+   "body": ""
+  }
+ ],
+ "links": [
+  {
+   "h": "https://malmolive.se/program#",
+   "t": "Consent"
+  },
+  {
+   "h": "https://malmolive.se/program#",
+   "t": "Details"
+  },
+  {
+   "h": "https://malmolive.se/program#",
+   "t": "[#IABV2SETTINGS#]"
+  },
+  {
+   "h": "https://malmolive.se/program#",
+   "t": "About"
+  },
+  {
+   "h": "https://malmolive.se/program#",
+   "t": "Show details"
+  },
+  {
+   "h": "https://malmolive.se/program#",
+   "t": "Cookiebot2"
+  },
+  {
+   "h": "https://www.cookiebot.com/goto/privacy-policy/",
+   "t": "Learn more about this provider"
+  },
+  {
+   "h": "https://malmolive.se/program#",
+   "t": "Google1"
+  },
+  {
+   "h": "https://business.safety.google/privacy/",
+   "t": "Learn more about this provider"
+  },
+  {
+   "h": "https://malmolive.se/program#",
+   "t": "Soundcloud1"
+  },
+  {
+   "h": "https://soundcloud.com/pages/privacy",
+   "t": "Learn more about this provider"
+  },
+  {
+   "h": "https://malmolive.se/program#",
+   "t": "biljetter.malmolive.se4"
+  },
+  {
+   "h": "https://malmolive.se/program#",
+   "t": "malmolive.se4"
+  },
+  {
+   "h": "https://malmolive.se/program#",
+   "t": "Acast1"
+  },
+  {
+   "h": "https://www.acast.com/privacy",
+   "t": "Learn more about this provider"
+  },
+  {
+   "h": "https://malmolive.se/program#",
+   "t": "biljetter.malmolive.se1"
+  },
+  {
+   "h": "https://malmolive.se/program#",
+   "t": "New Relic1"
+  },
+  {
+   "h": "https://newrelic.com/termsandconditions/privacy",
+   "t": "Learn more about this provider"
+  },
+  {
+   "h": "https://malmolive.se/program#",
+   "t": "Meta Platforms, Inc.3"
+  },
+  {
+   "h": "https://www.facebook.com/policy.php/",
+   "t": "Learn more about this provider"
+  },
+  {
+   "h": "https://malmolive.se/program#",
+   "t": "Google5"
+  },
+  {
+   "h": "https://business.safety.google/privacy/",
+   "t": "Learn more about this provider"
+  },
+  {
+   "h": "https://malmolive.se/program#",
+   "t": "Issuu13"
+  },
+  {
+   "h": "https://issuu.com/legal/privacy",
+   "t": "Learn more about this provider"
+  },
+  {
+   "h": "https://malmolive.se/program#",
+   "t": "SociableKit1"
+  },
+  {
+   "h": "https://www.sociablekit.com/privacy-policy/",
+   "t": "Learn more about this provider"
+  },
+  {
+   "h": "https://malmolive.se/program#",
+   "t": "Soundcloud2"
+  },
+  {
+   "h": "https://soundcloud.com/pages/privacy",
+   "t": "Learn more about this provider"
+  },
+  {
+   "h": "https://malmolive.se/program#",
+   "t": "Spotify2"
+  },
+  {
+   "h": "https://www.spotify.com/uk/legal/privacy-policy/",
+   "t": "Learn more about this provider"
+  },
+  {
+   "h": "https://malmolive.se/program#",
+   "t": "YouTube18"
+  },
+  {
+   "h": "https://business.safety.google/privacy/",
+   "t": "Learn more about this provider"
+  },
+  {
+   "h": "https://malmolive.se/program#",
+   "t": "embed-cdn.spotifycdn.com1"
+  },
+  {
+   "h": "https://malmolive.se/program#",
+   "t": "widget.sndcdn.com2"
+  },
+  {
+   "h": "https://malmolive.se/program#",
+   "t": "malmolive.se2"
+  },
+  {
+   "h": "https://malmolive.se/program#",
+   "t": "Cross-domain consent2"
+  },
+  {
+   "h": "https://malmolive.se/",
+   "t": "malmolive.se"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/",
+   "t": "biljetter.malmolive.se"
+  },
+  {
+   "h": "https://www.cookiebot.com/",
+   "t": "Cookiebot"
+  },
+  {
+   "h": "https://malmolive.se/program#main-content",
+   "t": "Gå till det huvudsakliga innehållet"
+  },
+  {
+   "h": "https://malmolive.se/en",
+   "t": "English"
+  },
+  {
+   "h": "https://malmolive.se/program?browsealoud=on",
+   "t": "Talande webb"
+  },
+  {
+   "h": "https://malmolive.se/kontakt",
+   "t": "Kontakt & öppettider"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/checkout/basket",
+   "t": "Varukorg"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/account/your-details",
+   "t": "Mina sidor"
+  },
+  {
+   "h": "https://malmolive.se/program#",
+   "t": "Stäng"
+  },
+  {
+   "h": "https://malmolive.se/program",
+   "t": "Biljetter"
+  },
+  {
+   "h": "https://malmolive.se/kommande-konserter-med-mso?keyword%5B0%5D=165",
+   "t": "Malmö SymfoniOrkester"
+  },
+  {
+   "h": "https://malmolive.se/kommande-evenemang-for-barn-familj",
+   "t": "Barn & Familj"
+  },
+  {
+   "h": "https://malmolive.se/kommande-pop-rock-pa-malmo-live-konserthus",
+   "t": "Pop & Rock"
+  },
+  {
+   "h": "https://malmolive.se/kommande-jazz-pa-malmo-live-konserthus",
+   "t": "Jazz"
+  },
+  {
+   "h": "https://malmolive.se/jazz-i-kuben",
+   "t": "Jazz i Kuben"
+  },
+  {
+   "h": "https://malmolive.se/kommande-underhallning-humor-pa-malmo-live-konserthus",
+   "t": "Underhållning & Humor"
+  },
+  {
+   "h": "https://malmolive.se/kommande-dans-balett-pa-malmo-live-konserthus",
+   "t": "Dans & Balett"
+  },
+  {
+   "h": "https://malmolive.se/lunchkor",
+   "t": "Lunchkören"
+  },
+  {
+   "h": "https://malmolive.se/xplore-konsertserie-for-oppna-sinnen",
+   "t": "Xplore kammarmusik"
+  },
+  {
+   "h": "https://malmolive.se/program",
+   "t": "Se alla konserter och evenemang"
+  },
+  {
+   "h": "https://malmolive.se/mitt-besok",
+   "t": "Inför mitt besök"
+  },
+  {
+   "h": "https://malmolive.se/mitt-besok/biljettinformation",
+   "t": "Biljettinformation"
+  },
+  {
+   "h": "https://malmolive.se/mitt-besok/mat-dryck",
+   "t": "Pausbeställning"
+  },
+  {
+   "h": "https://malmolive.se/mitt-besok/hitta-hit",
+   "t": "Hitta hit"
+  },
+  {
+   "h": "https://malmolive.se/oppettider",
+   "t": "Öppettider & kontakt"
+  },
+  {
+   "h": "https://malmolive.se/mitt-besok/kartor",
+   "t": "Kartor & Salongsplaner"
+  },
+  {
+   "h": "https://malmolive.se/mitt-besok/tillganglighet",
+   "t": "Tillgänglighet"
+  },
+  {
+   "h": "https://malmolive.se/om",
+   "t": "Malmö Live Konserthus"
+  },
+  {
+   "h": "https://malmolive.se/om",
+   "t": "Om Malmö Live Konserthus"
+  },
+  {
+   "h": "https://malmolive.se/kontakt",
+   "t": "Organisation & kontakt"
+  },
+  {
+   "h": "https://malmolive.se/om/bolagsstyrning-ekonomi",
+   "t": "Bolagsstyrning & Ekonomi"
+  },
+  {
+   "h": "https://malmolive.se/om/jobba-har",
+   "t": "Jobba här"
+  },
+  {
+   "h": "https://malmolive.se/om/samarbeten-sponsring-och-donationer",
+   "t": "Samarbeten, sponsring och donationer"
+  },
+  {
+   "h": "https://malmolive.se/om/vd-och-konstnarlig-ledare",
+   "t": "VD och konstnärlig ledare"
+  },
+  {
+   "h": "https://malmolive.se/mso/artists-in-association",
+   "t": "Artists in Association"
+  },
+  {
+   "h": "https://malmolive.se/mso",
+   "t": "Malmö SymfoniOrkester"
+  },
+  {
+   "h": "https://malmolive.se/kommande-konserter-med-mso?keyword%5B0%5D=165",
+   "t": "Konserter med Malmö SymfoniOrkester"
+  },
+  {
+   "h": "https://malmolive.se/mso/konsertserier",
+   "t": "Konsertserier"
+  },
+  {
+   "h": "https://malmolive.se/konsertintroduktioner",
+   "t": "Konsertintroduktioner"
+  },
+  {
+   "h": "https://malmolive.se/om/malmo-symfoniorkester",
+   "t": "Om Malmö SymfoniOrkester"
+  },
+  {
+   "h": "https://malmolive.se/mso/orkestern",
+   "t": "Musikerna i MSO"
+  },
+  {
+   "h": "https://malmolive.se/mso/mso-vanner",
+   "t": "MSO Vänner"
+  },
+  {
+   "h": "https://malmolive.se/mso/artists-in-association",
+   "t": "Artists in Association"
+  },
+  {
+   "h": "https://malmolive.se/barnens-live",
+   "t": "Barn & Unga"
+  },
+  {
+   "h": "https://malmolive.se/barnens-live/babyrytmik",
+   "t": "Babyrytmik"
+  },
+  {
+   "h": "https://malmolive.se/barnens-live/nalle",
+   "t": "Nalle"
+  },
+  {
+   "h": "https://malmolive.se/skola/tvaornas-kor",
+   "t": "Tvåornas kör"
+  },
+  {
+   "h": "https://malmolive.se/skola/sida-vid-sida-el-sistema",
+   "t": "Sida vid sida & El Sistema"
+  },
+  {
+   "h": "https://malmolive.se/unga/skuso-skanes-ungdomssymfoniorkester",
+   "t": "SKUSO"
+  },
+  {
+   "h": "https://malmolive.se/barnens-live/nyfiken-pa",
+   "t": "Nyfiken på"
+  },
+  {
+   "h": "https://malmolive.se/bistro",
+   "t": "Bistro Live"
+  },
+  {
+   "h": "https://malmolive.se/bistro/meny",
+   "t": "Meny"
+  },
+  {
+   "h": "https://malmolive.se/bistro/oppettider",
+   "t": "Öppettider"
+  },
+  {
+   "h": "https://malmolive.se/brunch",
+   "t": "Brunch"
+  },
+  {
+   "h": "https://malmolive.se/mitt-besok/mat-dryck",
+   "t": "Pausbeställning"
+  },
+  {
+   "h": "https://malmolive.se/om-musiken",
+   "t": "Om musiken"
+  },
+  {
+   "h": "https://malmolive.se/artiklar",
+   "t": "Artiklar & Intervjuer"
+  },
+  {
+   "h": "https://malmolive.se/larande/biografier",
+   "t": "Biografier"
+  },
+  {
+   "h": "https://malmolive.se/larande/verk",
+   "t": "Verk"
+  },
+  {
+   "h": "https://malmolive.se/mso/allt-du-behover-veta-om-en-symfoniorkester",
+   "t": "Om symfoniorkestrar"
+  },
+  {
+   "h": "https://malmolive.se/om-musiken/podcasten-ljudcirklar",
+   "t": "Podcasten Ljudcirklar"
+  },
+  {
+   "h": "https://malmolive.se/",
+   "t": "Hem"
+  },
+  {
+   "h": "https://malmolive.se/oppettider",
+   "t": "Biljettcenter"
+  },
+  {
+   "h": "https://malmolive.se/presentkort",
+   "t": "Presentkort"
+  },
+  {
+   "h": "https://malmolive.se/nyhetsbrev",
+   "t": "Nyhetsbrev"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/login",
+   "t": "Mina sidor"
+  },
+  {
+   "h": "https://malmolive.se/kontakt",
+   "t": "Kontakt"
+  },
+  {
+   "h": "https://malmolive.se/en/program",
+   "t": "This page in English"
+  },
+  {
+   "h": "https://malmolive.se/program/maksim-segmenti",
+   "t": "Maksim Segmenti 8 november 2026"
+  },
+  {
+   "h": "https://malmolive.se/program/love-actually",
+   "t": "Love Actually 4-5 december, 2026"
+  },
+  {
+   "h": "https://malmolive.se/program/verdis-requiem-2026",
+   "t": "Verdis Requiem 29–30 oktober 2026"
+  },
+  {
+   "h": "https://malmolive.se/program/svansjon",
+   "t": "Svansjön"
+  },
+  {
+   "h": "https://malmolive.se/program/singelquiz",
+   "t": "Singelquiz"
+  },
+  {
+   "h": "https://malmolive.se/program/pontus-lindman-levande-begravd",
+   "t": "Pontus Lindman - Levande begravd"
+  },
+  {
+   "h": "https://malmolive.se/program/malmo-mass-choir",
+   "t": "Malmö Mass Choir"
+  },
+  {
+   "h": "https://malmolive.se/program/happy-voices",
+   "t": "Happy Voices"
+  },
+  {
+   "h": "https://malmolive.se/program/brynolf-ljung-signal",
+   "t": "Brynolf & Ljung - Signal"
+  },
+  {
+   "h": "https://malmolive.se/jul",
+   "t": "Till julens konserter"
+  },
+  {
+   "h": "https://malmolive.se/program/verdis-requiem-2026",
+   "t": "Verdis Requiem"
+  },
+  {
+   "h": "https://malmolive.se/taxonomy/term/250",
+   "t": "Platina"
+  },
+  {
+   "h": "https://malmolive.se/taxonomy/term/252",
+   "t": "Silver"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/30089/30164?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/verdis-requiem-2026",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/en-kvall-med-shan-atci",
+   "t": "En kväll med Shan Atci"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/30551/30552?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/en-kvall-med-shan-atci",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/verdis-requiem-2026",
+   "t": "Verdis Requiem"
+  },
+  {
+   "h": "https://malmolive.se/taxonomy/term/250",
+   "t": "Platina"
+  },
+  {
+   "h": "https://malmolive.se/taxonomy/term/252",
+   "t": "Silver"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/30089/30165?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/verdis-requiem-2026",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/spoktimmen-presenterar-10-ar-av-skrack",
+   "t": "Spöktimmen presenterar 10 år av skräck"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/30633/30635?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/spoktimmen-presenterar-10-ar-av-skrack",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/babyrytmik-omgang-2-hosten-2026",
+   "t": "Babyrytmik omgång 2 // Hösten 2026"
+  },
+  {
+   "h": "https://malmolive.se/program/babyrytmik-omgang-2-hosten-2026",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/babyrytmik-omgang-2-hosten-2026",
+   "t": "Babyrytmik omgång 2 // Hösten 2026"
+  },
+  {
+   "h": "https://malmolive.se/program/babyrytmik-omgang-2-hosten-2026",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/babyrytmik-omgang-2-hosten-2026",
+   "t": "Babyrytmik omgång 2 // Hösten 2026"
+  },
+  {
+   "h": "https://malmolive.se/program/babyrytmik-omgang-2-hosten-2026",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/waterbaby",
+   "t": "waterbaby"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/30743/30744?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/waterbaby",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/fly-me-to-the-moon-en-hyllning-till-frank-sinatra",
+   "t": "Fly Me to the Moon – en hyllning till Frank Sinatra"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/30938/30940?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/fly-me-to-the-moon-en-hyllning-till-frank-sinatra",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/fly-me-to-the-moon-en-hyllning-till-frank-sinatra",
+   "t": "Fly Me to the Moon – en hyllning till Frank Sinatra"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/30938/30941?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/fly-me-to-the-moon-en-hyllning-till-frank-sinatra",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/snacks",
+   "t": "Snacks"
+  },
+  {
+   "h": "https://malmolive.se/program/snacks",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/maksim-segmenti",
+   "t": "Maksim Segmenti"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/30607/30608?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/maksim-segmenti",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/paus-morgonkonsert-bruno-bavota",
+   "t": "PAUS: Morgonkonsert // Bruno Bavota"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/30248/30249/price-selection",
+   "t": "BOKA BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/paus-morgonkonsert-bruno-bavota",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/lunchkoren-firar-10-ar-koren-for-alla-som-vill-sjunga-tillsammans",
+   "t": "Lunchkören firar 10 år - kören för alla som vill sjunga tillsammans"
+  },
+  {
+   "h": "https://malmolive.se/lunchkor",
+   "t": "FRI ENTRÉ"
+  },
+  {
+   "h": "https://malmolive.se/program/lunchkoren-firar-10-ar-koren-for-alla-som-vill-sjunga-tillsammans",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/malmo-live-comedy",
+   "t": "Malmö Live Comedy"
+  },
+  {
+   "h": "https://malmolive.se/program/malmo-live-comedy",
+   "t": "FRI ENTRÉ"
+  },
+  {
+   "h": "https://malmolive.se/program/malmo-live-comedy",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/vinterdrommar-torsdagskonsert",
+   "t": "Vinterdrömmar"
+  },
+  {
+   "h": "https://malmolive.se/taxonomy/term/250",
+   "t": "Platina"
+  },
+  {
+   "h": "https://malmolive.se/taxonomy/term/252",
+   "t": "Silver"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/30095/30166?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/vinterdrommar-torsdagskonsert",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/snacks",
+   "t": "Snacks"
+  },
+  {
+   "h": "https://malmolive.se/program/snacks",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/vinterdrommar-lordagskonsert",
+   "t": "Vinterdrömmar"
+  },
+  {
+   "h": "https://malmolive.se/taxonomy/term/350",
+   "t": "Lilla lördag"
+  },
+  {
+   "h": "https://malmolive.se/taxonomy/term/351",
+   "t": "Stora lördag"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/30096/30182?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/vinterdrommar-lordagskonsert",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/happy-voices",
+   "t": "Happy Voices"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/31458/31459?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/happy-voices",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/musik-i-syd-trio-theros",
+   "t": "Musik i Syd: Trio Theros"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/30682/30683?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/musik-i-syd-trio-theros",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/saltstank-smuggelsprit-turne",
+   "t": "Saltstänk & Smuggelsprit turné"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/30718/30719?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/saltstank-smuggelsprit-turne",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/lunchkoren-firar-10-ar-koren-for-alla-som-vill-sjunga-tillsammans",
+   "t": "Lunchkören firar 10 år - kören för alla som vill sjunga tillsammans"
+  },
+  {
+   "h": "https://malmolive.se/lunchkor",
+   "t": "FRI ENTRÉ"
+  },
+  {
+   "h": "https://malmolive.se/program/lunchkoren-firar-10-ar-koren-for-alla-som-vill-sjunga-tillsammans",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/musikquiz-lite-bredare",
+   "t": "Musikquiz (lite bredare)"
+  },
+  {
+   "h": "https://malmolive.se/program/musikquiz-lite-bredare",
+   "t": "FRI ENTRÉ"
+  },
+  {
+   "h": "https://malmolive.se/program/musikquiz-lite-bredare",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/mozarts-elvira-madigan",
+   "t": "Mozarts Elvira Madigan"
+  },
+  {
+   "h": "https://malmolive.se/taxonomy/term/250",
+   "t": "Platina"
+  },
+  {
+   "h": "https://malmolive.se/taxonomy/term/349",
+   "t": "Torsdagsfavoriter"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/30099/30167?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/mozarts-elvira-madigan",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/jazz-i-kuben-mondag",
+   "t": "Jazz i Kuben: Mondag"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/30535/30536?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/jazz-i-kuben-mondag",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/singelquiz",
+   "t": "Singelquiz"
+  },
+  {
+   "h": "https://forms.gle/2EBuh1XUsnq7g96n8",
+   "t": "ANMÄL DIG HÄR"
+  },
+  {
+   "h": "https://malmolive.se/program/singelquiz",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/bokens-dag-2026",
+   "t": "Bokens Dag 2026"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/30577/30578?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/bokens-dag-2026",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/xplore-directions",
+   "t": "Xplore: Directions"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/30480/30497?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/xplore-directions",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/notknapparen-2026-kultur-for-folket",
+   "t": "Nötknäpparen"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/30251/30252?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/notknapparen-2026-kultur-for-folket",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/lunchkoren-firar-10-ar-koren-for-alla-som-vill-sjunga-tillsammans",
+   "t": "Lunchkören firar 10 år - kören för alla som vill sjunga tillsammans"
+  },
+  {
+   "h": "https://malmolive.se/lunchkor",
+   "t": "FRI ENTRÉ"
+  },
+  {
+   "h": "https://malmolive.se/program/lunchkoren-firar-10-ar-koren-for-alla-som-vill-sjunga-tillsammans",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/sissels-jul-2026",
+   "t": "Sissels Jul"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/30490/30491?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/sissels-jul-2026",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/bruckners-atta",
+   "t": "Bruckners åtta"
+  },
+  {
+   "h": "https://malmolive.se/taxonomy/term/250",
+   "t": "Platina"
+  },
+  {
+   "h": "https://malmolive.se/taxonomy/term/251",
+   "t": "Guld"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/30102/30168?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/bruckners-atta",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/en-innerlig-jul-med-andreas-aleman-och-tareq-taylor",
+   "t": "En innerlig jul med Andreas Aleman och Tareq Taylor"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/30638/30639?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/en-innerlig-jul-med-andreas-aleman-och-tareq-taylor",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/malmo-mass-choir",
+   "t": "Malmö Mass Choir"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/31336/31337?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/malmo-mass-choir",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/snacks",
+   "t": "Snacks"
+  },
+  {
+   "h": "https://malmolive.se/program/snacks",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/love-actually",
+   "t": "Love Actually"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/30787/30789?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/love-actually",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/love-actually",
+   "t": "Love Actually"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/30787/30790?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/love-actually",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/jag-ar-carola-en-musikalisk-unik-livsberattelse",
+   "t": "Jag är Carola – en musikalisk unik livsberättelse"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/31108/31109?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/jag-ar-carola-en-musikalisk-unik-livsberattelse",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/jazz-i-kuben-bobbe-big-band-och-peter-asplund",
+   "t": "Jazz i Kuben: Bobbe Big Band och Peter Asplund"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/31089/31090?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/jazz-i-kuben-bobbe-big-band-och-peter-asplund",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/lunchkoren-firar-10-ar-koren-for-alla-som-vill-sjunga-tillsammans",
+   "t": "Lunchkören firar 10 år - kören för alla som vill sjunga tillsammans"
+  },
+  {
+   "h": "https://malmolive.se/lunchkor",
+   "t": "FRI ENTRÉ"
+  },
+  {
+   "h": "https://malmolive.se/program/lunchkoren-firar-10-ar-koren-for-alla-som-vill-sjunga-tillsammans",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/julstamning-for-familjen",
+   "t": "Julstämning för familjen"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/30294/30296?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/julstamning-for-familjen",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/julstamning-for-familjen",
+   "t": "Julstämning för familjen"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/30294/30297?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/julstamning-for-familjen",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/nalles-adventskalender2026",
+   "t": "Nalles adventskalender"
+  },
+  {
+   "h": "https://malmolive.se/taxonomy/term/256",
+   "t": "Nalleserien"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/30105/30186?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/nalles-adventskalender2026",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/nalles-adventskalender2026",
+   "t": "Nalles adventskalender"
+  },
+  {
+   "h": "https://malmolive.se/taxonomy/term/256",
+   "t": "Nalleserien"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/30105/30189?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/nalles-adventskalender2026",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/nalles-adventskalender2026",
+   "t": "Nalles adventskalender"
+  },
+  {
+   "h": "https://malmolive.se/taxonomy/term/256",
+   "t": "Nalleserien"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/30105/30190?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/nalles-adventskalender2026",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/nalles-adventskalender2026",
+   "t": "Nalles adventskalender"
+  },
+  {
+   "h": "https://malmolive.se/taxonomy/term/256",
+   "t": "Nalleserien"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/30105/30229?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/nalles-adventskalender2026",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/nalles-adventskalender2026",
+   "t": "Nalles adventskalender"
+  },
+  {
+   "h": "https://malmolive.se/taxonomy/term/256",
+   "t": "Nalleserien"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/30105/30230?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/nalles-adventskalender2026",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/julstamning-for-familjen",
+   "t": "Julstämning för familjen"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/30294/30298?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/julstamning-for-familjen",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/lunchkoren-firar-10-ar-koren-for-alla-som-vill-sjunga-tillsammans",
+   "t": "Lunchkören firar 10 år - kören för alla som vill sjunga tillsammans"
+  },
+  {
+   "h": "https://malmolive.se/lunchkor",
+   "t": "FRI ENTRÉ"
+  },
+  {
+   "h": "https://malmolive.se/program/lunchkoren-firar-10-ar-koren-for-alla-som-vill-sjunga-tillsammans",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/musikquiz-lite-bredare",
+   "t": "Musikquiz (lite bredare)"
+  },
+  {
+   "h": "https://malmolive.se/program/musikquiz-lite-bredare",
+   "t": "FRI ENTRÉ"
+  },
+  {
+   "h": "https://malmolive.se/program/musikquiz-lite-bredare",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/jazz-i-kuben-radiojazzgruppen-under-karl-martin-almqvist",
+   "t": "Jazz i Kuben: Radiojazzgruppen under Karl-Martin Almqvist"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/31096/31097?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/jazz-i-kuben-radiojazzgruppen-under-karl-martin-almqvist",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/musikhogskolan-i-malmos-julkonsert",
+   "t": "Musikhögskolan i Malmös Julkonsert"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/31150/31151?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/musikhogskolan-i-malmos-julkonsert",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/musikhogskolan-i-malmos-julkonsert",
+   "t": "Musikhögskolan i Malmös Julkonsert"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/31150/31152?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/musikhogskolan-i-malmos-julkonsert",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/julkonserten-en-stilla-natt",
+   "t": "JULKONSERTEN “EN STILLA NATT”"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/30599/30600?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/julkonserten-en-stilla-natt",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/weeping-willows-christmas-2026",
+   "t": "Weeping Willows Christmas 2026"
+  },
+  {
+   "h": "https://nortic.se/ticket/event/82303",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/weeping-willows-christmas-2026",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/nyarsgala-2026",
+   "t": "Nyårsgala 2026"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/30302/30303?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/nyarsgala-2026",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/nyarsgala-2026",
+   "t": "Nyårsgala 2026"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/30302/30304?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/nyarsgala-2026",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/nyarsgala-2026",
+   "t": "Nyårsgala 2026"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/30302/30305?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/nyarsgala-2026",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/kurser-i-wienervals-2027",
+   "t": "Kurser i Wienervals 2027"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/31082/31083?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/kurser-i-wienervals-2027",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/kurser-i-wienervals-2027",
+   "t": "Kurser i Wienervals 2027"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/31082/31084?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/kurser-i-wienervals-2027",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/wienerafton-2027",
+   "t": "Wienerafton 2027"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/30307/30308?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/wienerafton-2027",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/tjajkovskijs-violinkonsert",
+   "t": "Tjajkovskijs Violinkonsert"
+  },
+  {
+   "h": "https://malmolive.se/taxonomy/term/250",
+   "t": "Platina"
+  },
+  {
+   "h": "https://malmolive.se/taxonomy/term/252",
+   "t": "Silver"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/30108/30169?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/tjajkovskijs-violinkonsert",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/beethoven-sjostakovitj",
+   "t": "Beethoven & Sjostakovitj"
+  },
+  {
+   "h": "https://malmolive.se/taxonomy/term/250",
+   "t": "Platina"
+  },
+  {
+   "h": "https://malmolive.se/taxonomy/term/251",
+   "t": "Guld"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/30111/30170?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/beethoven-sjostakovitj",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/jesper-ronndahl-och-marie-agerhall",
+   "t": "Jesper Rönndahl och Marie Agerhäll"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/30750/30751?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/jesper-ronndahl-och-marie-agerhall",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/jesper-ronndahl-och-marie-agerhall",
+   "t": "Jesper Rönndahl och Marie Agerhäll"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/30750/31105?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/jesper-ronndahl-och-marie-agerhall",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/jesper-ronndahl-och-marie-agerhall",
+   "t": "Jesper Rönndahl och Marie Agerhäll"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/30750/30752?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/jesper-ronndahl-och-marie-agerhall",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/jesper-ronndahl-och-marie-agerhall",
+   "t": "Jesper Rönndahl och Marie Agerhäll"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/30750/31522?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/jesper-ronndahl-och-marie-agerhall",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/philip-glass-bowie",
+   "t": "Philip Glass & Bowie"
+  },
+  {
+   "h": "https://malmolive.se/taxonomy/term/250",
+   "t": "Platina"
+  },
+  {
+   "h": "https://malmolive.se/taxonomy/term/252",
+   "t": "Silver"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/30114/30171?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/philip-glass-bowie",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/nalle-pa-de-sju-haven",
+   "t": "Nalle på de sju haven"
+  },
+  {
+   "h": "https://malmolive.se/taxonomy/term/256",
+   "t": "Nalleserien"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/30117/30187?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/nalle-pa-de-sju-haven",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/nalle-pa-de-sju-haven",
+   "t": "Nalle på de sju haven"
+  },
+  {
+   "h": "https://malmolive.se/taxonomy/term/256",
+   "t": "Nalleserien"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/30117/30191?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/nalle-pa-de-sju-haven",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/nalle-pa-de-sju-haven",
+   "t": "Nalle på de sju haven"
+  },
+  {
+   "h": "https://malmolive.se/taxonomy/term/256",
+   "t": "Nalleserien"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/30117/30192?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/nalle-pa-de-sju-haven",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/fredrik-andersson-too-soon",
+   "t": "Fredrik Andersson - Too Soon"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/30377/30378?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/fredrik-andersson-too-soon",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/djungelboken-the-musical-2027",
+   "t": "DJUNGELBOKEN – THE MUSICAL"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/29962/29963?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/djungelboken-the-musical-2027",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/xplore-invisible-curve",
+   "t": "Xplore: Invisible Curve"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/30479/30498?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/xplore-invisible-curve",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/djungelboken-the-musical-2027",
+   "t": "DJUNGELBOKEN – THE MUSICAL"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/29962/29964?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/djungelboken-the-musical-2027",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/tommy-korberg-unplugged",
+   "t": "Tommy Körberg Unplugged"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/31144/31145?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/tommy-korberg-unplugged",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/tommy-korberg-unplugged",
+   "t": "Tommy Körberg Unplugged"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/31144/31147?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/tommy-korberg-unplugged",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/musikhogskolan-i-malmos-symfoniorkester-2027",
+   "t": "Musikhögskolan i Malmös Symfoniorkester"
+  },
+  {
+   "h": "https://malmolive.se/program/musikhogskolan-i-malmos-symfoniorkester-2027",
+   "t": "BILJETTSLÄPP 4/8 KL. 12"
+  },
+  {
+   "h": "https://malmolive.se/program/musikhogskolan-i-malmos-symfoniorkester-2027",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/mendelssohns-violinkonsert-torsdag",
+   "t": "Mendelssohns Violinkonsert"
+  },
+  {
+   "h": "https://malmolive.se/taxonomy/term/250",
+   "t": "Platina"
+  },
+  {
+   "h": "https://malmolive.se/taxonomy/term/251",
+   "t": "Guld"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/30120/30172?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/mendelssohns-violinkonsert-torsdag",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/10cc",
+   "t": "10cc"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/30280/30281?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/10cc",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/nyfiken-pa-mendelssohns-violinkonsert",
+   "t": "Nyfiken på: Mendelssohns Violinkonsert"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/30122/30183",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/nyfiken-pa-mendelssohns-violinkonsert",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/mendelssohns-violinkonsert-lordag",
+   "t": "Mendelssohns Violinkonsert"
+  },
+  {
+   "h": "https://malmolive.se/taxonomy/term/350",
+   "t": "Lilla lördag"
+  },
+  {
+   "h": "https://malmolive.se/taxonomy/term/351",
+   "t": "Stora lördag"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/30122/30183?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/mendelssohns-violinkonsert-lordag",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/tva-en-steinway",
+   "t": "Två & en Steinway"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/31172/31173?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/tva-en-steinway",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/svansjon",
+   "t": "Svansjön"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/31544/31546?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/svansjon",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/beethovens-sjua",
+   "t": "Beethovens sjua"
+  },
+  {
+   "h": "https://malmolive.se/taxonomy/term/250",
+   "t": "Platina"
+  },
+  {
+   "h": "https://malmolive.se/taxonomy/term/349",
+   "t": "Torsdagsfavoriter"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/30125/30173?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/beethovens-sjua",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/no-business-like-show-business-2027",
+   "t": "No Business Like Show Business"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/30333/30334?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/no-business-like-show-business-2027",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/alskade-spion",
+   "t": "Älskade spion"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/31281/31284?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/alskade-spion",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/alskade-spion",
+   "t": "Älskade spion"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/31281/31285?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/alskade-spion",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/alskade-spion",
+   "t": "Älskade spion"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/31281/31286?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/alskade-spion",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/jazz-i-kuben-tilde-schweitzer-big-band",
+   "t": "Jazz i Kuben: Tilde Schweitzer Big Band"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/31100/31101?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/jazz-i-kuben-tilde-schweitzer-big-band",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/kammarkonsert-3",
+   "t": "Kammarkonsert #3"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/30649/30653?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/kammarkonsert-3",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/pink-floyds-the-wall-dark-side-of-the-moon-in-concert",
+   "t": "Pink Floyd’s The Wall & Dark Side of the Moon – in concert"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/29846/29851?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/pink-floyds-the-wall-dark-side-of-the-moon-in-concert",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/brahms-pianokonsert-nr-1-torsdag",
+   "t": "Brahms Pianokonsert nr 1"
+  },
+  {
+   "h": "https://malmolive.se/taxonomy/term/250",
+   "t": "Platina"
+  },
+  {
+   "h": "https://malmolive.se/taxonomy/term/251",
+   "t": "Guld"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/30130/30174?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/brahms-pianokonsert-nr-1-torsdag",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/nanne-gronwall-har-ar-jag",
+   "t": "Nanne Grönwall - Här är jag"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/30239/30240?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/nanne-gronwall-har-ar-jag",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/brahms-pianokonsert-nr-1-lordag",
+   "t": "Brahms Pianokonsert nr 1"
+  },
+  {
+   "h": "https://malmolive.se/taxonomy/term/350",
+   "t": "Lilla lördag"
+  },
+  {
+   "h": "https://malmolive.se/taxonomy/term/351",
+   "t": "Stora lördag"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/30129/30184?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/brahms-pianokonsert-nr-1-lordag",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/orsa-spelman-tina-ahlin-bengan-janson",
+   "t": "Orsa spelmän, Tina Ahlin & Bengan Janson"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/31156/31157?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/orsa-spelman-tina-ahlin-bengan-janson",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/radiosymfonikerna-radiokoren-malin-bystrom",
+   "t": "Radiosymfonikerna, Radiokören & Malin Byström"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/30547/30548?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/radiosymfonikerna-radiokoren-malin-bystrom",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/leva-och-lata-bli-att-do",
+   "t": "Leva och låta bli att dö"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/30755/30756?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/leva-och-lata-bli-att-do",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/debussy-john-adams",
+   "t": "Debussy & John Adams"
+  },
+  {
+   "h": "https://malmolive.se/taxonomy/term/250",
+   "t": "Platina"
+  },
+  {
+   "h": "https://malmolive.se/taxonomy/term/252",
+   "t": "Silver"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/30133/30175?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/debussy-john-adams",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/laleh-varturne-2027",
+   "t": "Laleh vårturné 2027"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/31166/31167?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/laleh-varturne-2027",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/laleh-varturne-2027",
+   "t": "Laleh vårturné 2027"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/31166/31168?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/laleh-varturne-2027",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/sibelius-tanaka",
+   "t": "Sibelius & Tanaka"
+  },
+  {
+   "h": "https://malmolive.se/taxonomy/term/250",
+   "t": "Platina"
+  },
+  {
+   "h": "https://malmolive.se/taxonomy/term/251",
+   "t": "Guld"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/30136/30176?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/sibelius-tanaka",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/nalle-pa-safari",
+   "t": "Nalle på safari"
+  },
+  {
+   "h": "https://malmolive.se/taxonomy/term/256",
+   "t": "Nalleserien"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/30139/30188?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/nalle-pa-safari",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/nalle-pa-safari",
+   "t": "Nalle på safari"
+  },
+  {
+   "h": "https://malmolive.se/taxonomy/term/256",
+   "t": "Nalleserien"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/30139/30193?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/nalle-pa-safari",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/nalle-pa-safari",
+   "t": "Nalle på safari"
+  },
+  {
+   "h": "https://malmolive.se/taxonomy/term/256",
+   "t": "Nalleserien"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/30139/30194?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/nalle-pa-safari",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/brynolf-ljung-signal",
+   "t": "Brynolf & Ljung - Signal"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/31180/31181?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/brynolf-ljung-signal",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/brynolf-ljung-signal",
+   "t": "Brynolf & Ljung - Signal"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/31180/31182?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/brynolf-ljung-signal",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/brynolf-ljung-signal",
+   "t": "Brynolf & Ljung - Signal"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/31180/31183?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/brynolf-ljung-signal",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/brahms-etta",
+   "t": "Brahms etta"
+  },
+  {
+   "h": "https://malmolive.se/taxonomy/term/250",
+   "t": "Platina"
+  },
+  {
+   "h": "https://malmolive.se/taxonomy/term/349",
+   "t": "Torsdagsfavoriter"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/30141/30177?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/brahms-etta",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/jazz-i-kuben-johnathan-blake",
+   "t": "Jazz i Kuben: Johnathan Blake"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/30689/30690?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/jazz-i-kuben-johnathan-blake",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/jan-garbarek-featuring-trilok-gurtu",
+   "t": "Jan Garbarek featuring Trilok Gurtu"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/30674/30675?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/jan-garbarek-featuring-trilok-gurtu",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/xplore-ny-kammarmusik",
+   "t": "Xplore: Ny kammarmusik"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/30477/30499?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/xplore-ny-kammarmusik",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/dvorak-rymden",
+   "t": "Dvořák & rymden"
+  },
+  {
+   "h": "https://malmolive.se/taxonomy/term/250",
+   "t": "Platina"
+  },
+  {
+   "h": "https://malmolive.se/taxonomy/term/251",
+   "t": "Guld"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/30144/30178?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/dvorak-rymden",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/world-of-soul-2027",
+   "t": "World of Soul 2027"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/30493/30494?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/world-of-soul-2027",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/world-of-soul-2027",
+   "t": "World of Soul 2027"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/30493/30495?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/world-of-soul-2027",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/kammarkonsert-4",
+   "t": "Kammarkonsert #4"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/30651/30654?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/kammarkonsert-4",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/mozart-unlimited",
+   "t": "Mozart unlimited"
+  },
+  {
+   "h": "https://malmolive.se/taxonomy/term/250",
+   "t": "Platina"
+  },
+  {
+   "h": "https://malmolive.se/taxonomy/term/252",
+   "t": "Silver"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/30147/30179?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/mozart-unlimited",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/rumours-of-fleetwood-mac",
+   "t": "Rumours of Fleetwood Mac"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/30714/30715?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/rumours-of-fleetwood-mac",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/stravinsky-beethoven-torsdag",
+   "t": "Stravinsky & Beethoven"
+  },
+  {
+   "h": "https://malmolive.se/taxonomy/term/250",
+   "t": "Platina"
+  },
+  {
+   "h": "https://malmolive.se/taxonomy/term/251",
+   "t": "Guld"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/30149/30180?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/stravinsky-beethoven-torsdag",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/stravinsky-beethoven-lordag",
+   "t": "Stravinsky & Beethoven"
+  },
+  {
+   "h": "https://malmolive.se/taxonomy/term/351",
+   "t": "Stora lördag"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/30151/30185?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/stravinsky-beethoven-lordag",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/pontus-lindman-levande-begravd",
+   "t": "Pontus Lindman - Levande begravd"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/31520/31521?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/pontus-lindman-levande-begravd",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "mailto:biljettcenter@malmolive.se",
+   "t": "biljettcenter@malmolive.se"
+  },
+  {
+   "h": "https://malmolive.se/personuppgiftspolicy-generell",
+   "t": "Generell personuppgiftspolicy"
+  },
+  {
+   "h": "https://malmolive.se/personuppgiftspolicy-allmanna-villkor-biljettkop",
+   "t": "Personuppgiftspolicy & allmänna villkor för biljettköp"
+  },
+  {
+   "h": "https://malmolive.se/om-cookies",
+   "t": "Om cookies"
+  },
+  {
+   "h": "https://malmolive.se/tillganglighetsredogorelse",
+   "t": "Tillgänglighetsredogörelse"
+  },
+  {
+   "h": "https://malmolive.se/pressrum",
+   "t": "Pressrum"
+  },
+  {
+   "h": "https://malmolive.se/en",
+   "t": "English"
+  },
+  {
+   "h": "https://malmolive.se/program?browsealoud=on",
+   "t": "Talande webb"
+  },
+  {
+   "h": "https://malmolive.se/kontakt",
+   "t": "Kontakt & öppettider"
+  }
+ ]
+}

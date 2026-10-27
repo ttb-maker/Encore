@@ -1,0 +1,154 @@
+{
+ "url": "https://soundvenue.com/koncerter",
+ "status": 404,
+ "err": "",
+ "finalUrl": "https://soundvenue.com/koncerter",
+ "calls": [
+  {
+   "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-DJQGXNYXYN&gtm=45je6an1v9132026906za208zd9132026906xf1&_p=1793092564174&gcs=G100&gcd=13p3p3l3l5l1&npa=0&dma=0&tcfd=10000&are=1&cid=1546754422.1793092564&frm=0&ngs=1&pscdl=denied&rcb=14&sr=1280x2000&uaa=arm&uab=64&uafvl=Chromium%3B130.0.6723.31%7CHeadlessChrome%3B130.0.6723.31%7CNot%253FA_Brand%3B99.0.0.0&uam=&uamb=0&uap=iOS&uapv=18_0&uaw=0&ul=da-dk&_s=1&tag_exp=115616986~115938465~115938468~118897920~118897930~120213116~120385422~120412527~120420414~120469145~120469153~121246026~121246034~123620777&sid=1793092564&sct=1&seg=0&dl=https%3A%2F%2Fsoundvenue.com%2Fkoncerter&dt=Siden%20blev%20ikke%20fundet&en=page_view&_fv=1&_ss=1&_ee=1&tfd=593",
+   "method": "POST",
+   "post": "",
+   "status": 204,
+   "ct": "text/plain",
+   "body": ""
+  },
+  {
+   "url": "https://cmp.inmobi.com/geoip",
+   "method": "GET",
+   "post": "",
+   "status": 200,
+   "ct": "application/json",
+   "body": "{\"country\":\"usa\",\"region\":\"va\",\"city\":\"dulles\"}"
+  },
+  {
+   "url": "https://cmp.inmobi.com/GVL-v3/vendor-list-trimmed-v1.json",
+   "method": "GET",
+   "post": "",
+   "status": 200,
+   "ct": "application/json",
+   "body": "{\"gvlSpecificationVersion\":3,\"vendorListVersion\":182,\"tcfPolicyVersion\":5,\"lastUpdated\":\"2026-10-22T16:00:18Z\",\"purposes\":{\"1\":{\"id\":1,\"name\":\"Store and/or access information on a device\",\"description\":\"Cookies, device or similar online identifiers (e.g. login-based identifiers, randomly assigned identifiers, network based identifiers) together with other information (e.g. browser type and information, language, screen size, supported technologies etc.) can be stored or read on your device to recognise it each time it connects to an app or to a website, for one or several of the purposes presented here.\",\"illustrations\":[\"Most purposes explained in this notice rely on the storage or accessing of information from your device when you use an app or visit a website. For example, a vendor or publisher might need to store a cookie on your device during your first visit on a website, to be able to recognise your device during your next visits (by accessing this cookie each time).\"]},\"2\":{\"id\":2,\"name\":\"Use limited data to select advertising\",\"description\":\"Advertising presented to you on this service can be based on limited data, such as the website or app you are using, your non-precise location, your device type or which content you are (or have been) interacting with (for example, to limit the number of times an ad is presented to you).\",\"illustrations\":[\"A car manufacturer wants to promote its electric vehicles to environmentally conscious users living in the city after office hours. The advertising is presented on a page with related content (such as an article on climate change actions) after 6:30 p.m. to users whose non-precise location suggests that they are in an urban zone.\",\"A large producer of watercolour paints wants to carry out an online advertising campaign for its latest watercolour range, diversifying its audience to reach as many amateur and professional artists as possible and avoiding showing the ad next to mismatched content (for instance, articles about how to paint your house). The number of times that the ad has been presented to you is detected and limited, to avoid presenting it too often.\"]},\"3\":{\"id\":3,\"name\":\"Create profiles for personalised advertising\",\"description\":\"Information about your activity on this service (such as forms you submit, content you look at) can be stored and combined with other information about you (for example, information from your previous activity on this service and other websites or apps) or similar users. This is then used to build or improve a profile about you (that might include possible interests and personal aspects). Your profile can be used (also later) to present advertising that appears more relevant based on your possible interests by this and other entities.\",\"illustrations\":[\"If you read several articles about the best bike accessories to buy, this information could be used to create a profile about your interest in bike accessories. Such a profile may be used or improved later on, on the same or a different website or app to present you with advertising for a particular bike accessory brand. If you also look at a configurator for a vehicle on a luxury car manufacturer website, this information could be combined with your interest in bikes to refine your profile and make an assumption that you are interested in luxury cycling gear.\",\"An apparel company wishes to promote its new line of high-end baby clothes. It gets in touch with an agency that has a network of clients with high income customers (such as high-end supermarkets) and asks the agency to create profiles of young parents or couples who can be assumed to be wealthy and to have a new child, so that these can later be used to present advertising within partner apps based on those profiles.\"]},\"4\":{\"id\":4,\"name\":\"Use profiles to select personalised advertising\",\"description\":\"Advertising presented to you on this service can be based on your advertising profiles, which can reflect your activity on this service or other websites or apps (like the forms you submit, content you look at), possible interests and personal aspects.\",\"illustrations\":[\"An online retailer wants to advertise a limited sale on running shoes. It wants to target advertising to users who previously looked at running shoes on its mobile app. Tracking technologies might be used to recognise that you have previously used the mobile app to consult running shoes, in order to present you with the corresponding advertisement on the app.\",\"A profile created for personalised advertising in relation to a person having searched for bike accessories on a website can be used to present the relevant advertisement for bike accessories on a mobile app of another organisation.\"]},\"5\":{\"id\":5,\"name\":\"Create profiles to personalise content\",\"description\":\"Information about your activity on this service (for instance, forms you submit, non-advertising content you look at) can be stored and combined with other information about you (such as your previous activity on this service or other websites or apps) or similar users. This is then used to build or improve a profile about you (which might for example include possible interests and personal aspects). Your profile can be used (also later) to present content that appears more relevant based on your possible interests, such as by adapting the order in which content is shown to you, so that it is even easier for you to find content that matches your interests.\",\"illustrations\":[\"You read several articles on how to build a treehouse on a social media platform. This information might be added to a profile to mark your interest in content related to outdoors as well as do-it-yourself guides (with the objective of allowing the personalisation of content, so that for example you are presented with more blog posts and articles on treehouses and wood cabins in the future).\",\"You have viewed three videos on space exploration across different TV apps. An unrelated news platform\n…[afkortet]"
+  },
+  {
+   "url": "https://delivery.soundvenue.com/i?tzo=0&abv=92ca43&network=nhjy&noCookies=true&gdpr=0&tt=multi&screen=1280x2000&viewport=1280x2000",
+   "method": "POST",
+   "post": "{\"adUnits\":[{\"auId\":\"41e707\",\"targetId\":\"sva-mob1\",\"kv\":{\"svTags\":[\"all\"],\"svHeadtrack\":[\"all\"],\"svType\":[\"other\"],\"svSite\":\"soundvenue.com\",\"svDeviceSize\":\"desktop\",\"svUnit\":\"top\",\"svUnitGroup\":\"top\"}},{\"auId\":\"41e6ff\",\"targetId\":\"sva-mob_1x1\",\"kv\":{\"svTags\":[\"all\"],\"svHeadtrack\":[\"all\"],\"svType\":[\"other\"],\"svSite\":\"soundvenue.com\",\"svDeviceSize\":\"desktop\",\"svUnit\":\"ol\",\"svUnitGroup\":\"ol\"}}],\"headerBids\":[],\"context\":\"https://soundvenue.com/koncerter\"}",
+   "status": 200,
+   "ct": "application/json;charset=utf-8",
+   "body": "{\n\n    \"adUnits\": [\n    \n        {\n        \"auId\": \"41e6ff\",\n        \"targetId\": \"sva-mob_1x1\",\n        \n        \"html\": \"\\u003C!DOCTYPE html\\u003E\\n\\u003Chtml\\u003E\\n\\u003Chead\\u003E\\n    \\u003Cmeta charset=\\\"utf-8\\\"\\u003E\\n    \\u003Cstyle media=\\\"all\\\"\\u003E\\n        html, body, .responseCtr {\\n            margin: 0;\\n            padding: 0;\\n            outline: 0;\\n            border: 0;\\n            overflow: hidden;\\n        }\\n\\n        .responseCtr {\\n            display: inline-block;\\n            line-height: 0;\\n            vertical-align: top;\\n        }\\n\\n        .responseCtr a {\\n            line-height: 0;\\n        }\\n\\n        .responseCtr *, .responseCtr a * {\\n            line-height: normal;\\n        }\\n\\n        .responseCtr .contentWrapperPerItem {\\n            margin: 0;\\n            padding: 0;\\n            outline: 0;\\n            border: 0;\\n            display: inline-block;\\n            line-height: 0;\\n            vertical-align: top;\\n        }\\n\\n        a img {\\n            border: none;\\n            outline: none;\\n        }\\n\\n        img {\\n            margin: 0;\\n            padding: 0;\\n        }\\n\\n        /* need this displayNone class to ensure images are preloaded for smooth transition */\\n        img.displayNone {\\n            position: absolute;\\n            top: -99999px;\\n            left: -99999px;\\n        }\\n\\n        .contentWrapperTrailer {\\n            clear: both;\\n        }\\n    \\u003C/style\\u003E\\u003Cscript src=\\\"https://cdn.adnuntius.com/adn.js\\\"\\u003E\\u003C/script\\u003E\\n\\n\\u003C/head\\u003E\\n\\u003Cbody\\u003E\\n\\u003Cdiv id=\\\"adn-rsp--1094247534\\\" data-network=\\\"41d30c\\\" data-au-id=\\\"41e6ff\\\" data-target-id=\\\"sva-mob_1x1\\\" data-adserver-host=\\\"delivery.soundvenue.com\\\" class=\\\"responseCtr\\\"\\u003E\\n    \\u003Cdiv class=\\\"contentWrapperPerItem\\\" id=\\\"adn-id-914572980\\\" data-line-item-id=\\\"7tg6hrr8nsoeewe8\\\" data-creative-id=\\\"a74imcpnn6eyup11\\\" data-creative-width=\\\"1\\\" data-creative-height=\\\"1\\\" data-response-token=\\\"QmeF3FKL5nuvLTLSyUl-H8TG7sqnewqglGUXNw_GnYAAAAAQCtjQz9kbGWD4nuZy3q6HaHGLDtj9qfqQV0CFar3deYqlphtWawT7DJnfwf-0R3wdyw39Izhf_hi15TahwT476_Pw2QxHeI6dqYwhCJBloDwX4HxU51dQZS6pMq83EjV1UJMTANIf-0dgtriXXbzE6Lt5fov3aGrJNEKXURsplvDDox8HWuOPY-cqUq5jJp_MGiki9WnKY7H1w5h9m-UpeUFfossG5K5zGsMoA2b06LHNok7Bt_O6r2A8MptgFug7L7636ucf7BTbUdcWER4xEpI\\\" \\u003E\\u003C!-- adnOptionContainerDiv --\\u003E\\n\\u003Ca href=\\\"https://delivery.soundvenue.com/c/QmeF3FKL5nuvLTLSyUl-H8TG7sqnewqglGUXNw_GnYAAAAAQCtjQz9kbGWD4nuZy3q6HaHGLDtj9qfqQV0CFar3deYqlphtWawT7DJnfwf-0R3wdyw39Izhf_hi15TahwT476_Pw2QxHeI6dqYwhCJBloDwX4HxU51dQZS6pMq83EjV1UJMTANIf-0dgtriXXbzE6Lt5fov3aGrJNEKXURsplvDDox8HWuOPY-cqUq5jJp_MGiki9WnKY7H1w5h9m-UpeUFfossG5K5zGsMoA2b06LHNok7Bt_O6r2A8MptgFug7L7636ucf7BTbUdcWER4xEpI?ct=2501\\u0026r=https%3A%2F%2Fparajumpers.soundvenue.com%2Fparajumpers-fylder-20-aar%3Futm_source%3DSoundvenue%26utm_medium%3DBanner%26utm_campaign%3DParajumpers%2520-%2520Jubil%25C3%25A6umsudstilling%26utm_content%3DOverlay\\\" target=\\\"_BLANK\\\" class=\\\"svps_overlay-container w-inline-block Campaign Campaign-idadn-id-914572980\\\" style=\\\"display:none;\\\"\\u003E\\n  \\u003Cdiv class=\\\"svps_overlay-wrapper\\\"\\u003E\\n    \\u003Cdiv class=\\\"svps_overlay-scroll-timer\\\"\\u003E\\u003C/div\\u003E\\n    \\u003Cdiv class=\\\"svps_overlay-content-left\\\"\\u003E\\n      \\u003Cdiv class=\\\"svps_overlay-text\\\"\\u003EFra Alaska til Milano Fashion Week – kom bag kulissen på Parajumpers’ 20-års jubilæum\\u003C/div\\u003E\\n      \\u003Cdiv class=\\\"svps_overlay-tag\\\"\\u003ESPONSORERET\\u003C/div\\u003E\\n    \\u003C/div\\u003E\\n    \\u003Cdiv class=\\\"svps_overlay-content-right\\\"\\u003E\\u003Cimg src=\\\"https://assets.soundvenue.com/cgbabe/c6w55xn5nvfvv7nhxn523grzjfdq519m630y798n5wzpttx6lz.jpg\\\" loading=\\\"eager\\\" alt=\\\"\\\" class=\\\"svps_overlay-image\\\"/\\u003E\\n      \\u003Cdiv style=\\\"clip-path:polygon(100% 0%, 0% 100%, 100% 100%)\\\" class=\\\"svns_brandlabel-container svns_brandlabel-container-coloradn-id-914572980\\\"\\u003E\\n        \\u003Cdiv class=\\\"svns__brandlabel-gradient\\\"\\u003E\\u003C/div\\u003E\\n        \\u003Cimg src=\\\"https://assets.soundvenue.com/cgbabe/v2b6jln288k10dhgbgbpp5vqyt2s5wwhy06xkfsfttrtk8lfvb.png\\\" loading=\\\"lazy\\\" alt=\\\"\\\" class=\\\"svns__brandlabel-logo\\\"/\\u003E\\u003C/div\\u003E\\n    \\u003C/div\\u003E\\n  \\u003C/div\\u003E\\n\\u003C/a\\u003E\\n\\n\\n\\u003Cstyle\\u003E\\n   .svns_brandlabel-container-coloradn-id-914572980{\\n     background-color: #E7B61F !important;\\n   }\\n\\n\\n\\t.svps_overlay-container{\\n      font-size: 1.1111111111111112vw;\\n      font-family: Gt America, sans-serif;\\n      line-height: 1.5;    \\n    }\\n\\n\\t.svps_overlay-container img{\\n      aspect-ratio: auto;\\n      object-fit: cover;\\n      width: 100%;\\n      display: inline-block;\\n    }\\n\\t\\n\\n    .svns__brandlabel-logo{\\n          border-radius: 100vw;   \\n     }\\n\\n\\n\\n\\n\\n  .svps_site-wrapper {\\n    padding-top: 80vh;\\n    position: relative;\\n  }\\n\\n  .svps_background-video {\\n    z-index: -1;\\n    width: 100vw;\\n    height: 100vh;\\n    position: fixed;\\n    top: 0%;\\n    bottom: 0%;\\n    left: 0%;\\n    right: 0%;\\n  }\\n\\n  .svps_overlay-container {\\n    z-index: 99999;\\n    cursor: pointer;\\n    width: 32%;\\n    height: 8.5em;\\n    position: fixed;\\n    top: auto;\\n    bottom: 1.5em;\\n    left: auto;\\n    right: 1.5em;\\n    box-shadow: 0 0 20px 5px rgba(0, 0, 0, .25);\\n  }\\n\\n  .svps_overlay-container.is-floating {\\n    bottom: 1.5em;\\n    right: 1.5em;\\n    box-shadow: 0 0 20px 9px rgba(0, 0, 0, .25);\\n  }\\n\\n  .svps_image {\\n    object-fit: cover;\\n    width: 100%;\\n    height: 100%;\\n    position: absolute;\\n    top: 0%;\\n    bottom: 0%;\\n    left: 0%;\\n    right: 0%;\\n  }\\n\\n  .svps_text {\\n    color: #fff;\\n    max-width: 50%;\\n    position: relative;\\n  }\\n\\n  .svps_text._2 {\\n    color: #fff;\\n    text-align: center;\\n    max-width: 80%;\\n    margin-top: 0;\\n    margin-bottom: 2vw;\\n    font-size: 1.2vw;\\n    font-weight: 500;\\n    line-height: 1.4;\\n    text-decoration: underline;\\n  }\\n\\n  .svps_text._1 {\\n    color: #fff;\\n    text-align: center;\n…[afkortet]"
+  },
+  {
+   "url": "https://delivery.soundvenue.com/s?tzo=0&screen=1280x2000&rt=QmeF3FKL5nuvLTLSyUl-H8TG7sqnewqglGUXNw_GnYAAAAAQCtjQz9kbGWD4nuZy3q6HaHGLDtj9qfqQV0CFar3deYqlphtWawT7DJnfwf-0R3wdyw39Izhf_hi15TahwT476_Pw2QxHeI6dqYwhCJBloDwX4HxU51dQZS6pMq83EjV1UJMTANIf-0dgtriXXbzE6Lt5fov3aGrJNEKXURsplvDDox8HWuOPY-cqUq5jJp_MGiki9WnKY7H1w5h9m-UpeUFfossG5K5zGsMoA2b06LHNok7Bt_O6r2A8MptgFug7L7636ucf7BTbUdcWER4xEpI",
+   "method": "POST",
+   "post": "{\"metaData\":{\"i\":\"0AAAAAdTXgdcGAQAAAADuoqMFAA==\",\"usi\":\"41d30c!adnckd0281b6b64c802a1\"}}",
+   "status": 200,
+   "ct": "application/json",
+   "body": "{\"metaData\":{},\"network\":\"41d30c\"}"
+  },
+  {
+   "url": "https://delivery.soundvenue.com/b?tzo=0&tripTime=302&screen=1280x2000",
+   "method": "POST",
+   "post": "{\"rts\":[\"QmeF3FKL5nuvLTLSyUl-H8TG7sqnewqglGUXNw_GnYAAAAAQCtjQz9kbGWD4nuZy3q6HaHGLDtj9qfqQV0CFar3deYqlphtWawT7DJnfwf-0R3wdyw39Izhf_hi15TahwT476_Pw2QxHeI6dqYwhCJBloDwX4HxU51dQZS6pMq83EjV1UJMTANIf-0dgtriXXbzE6Lt5fov3aGrJNEKXURsplvDDox8HWuOPY-cqUq5jJp_MGiki9WnKY7H1w5h9m-UpeUFfossG5K5zGsMoA2b06LHNok7Bt_O6r2A8MptgFug7L7636ucf7BTbUdcWER4xEpI\",\"-P0JJxk2xKPEXm2EJZ7TRKLgxsRdYq4aKGHHCIAxpAEAAAAQCtjQz9kbGWD4nuZy3q6HaHGLDtj9qfqQV0CFar3deYqlphtWawT7DJnfwf-0R3wdyw39Izhf_hi1qWmdwfZ9a7ppTw2j7_oqOwWhaBp1WQsPGFPQLxJLXTSh8kWpSU53X5lAWY4eq0kz4rqWU7iVsbrPHEqMbJsWUAPHCUkmkqKe9URTDeOJNrB4VvY6fJ6YEngqpzLNMrTmncxhn-JjJVQD4s0H9bZyAtMjWGC15vHL4kvNvOKruGZSM-VyTeR5II7koxsd88c2Ttprj54wlg\"]}",
+   "status": 200,
+   "ct": "application/json",
+   "body": "{\"metaData\":{\"usi\":\"41d30c!adnckd0281b6b64c802a1\"},\"network\":\"41d30c\"}"
+  },
+  {
+   "url": "https://delivery.soundvenue.com/v?tzo=0&screen=1280x2000&rt=QmeF3FKL5nuvLTLSyUl-H8TG7sqnewqglGUXNw_GnYAAAAAQCtjQz9kbGWD4nuZy3q6HaHGLDtj9qfqQV0CFar3deYqlphtWawT7DJnfwf-0R3wdyw39Izhf_hi15TahwT476_Pw2QxHeI6dqYwhCJBloDwX4HxU51dQZS6pMq83EjV1UJMTANIf-0dgtriXXbzE6Lt5fov3aGrJNEKXURsplvDDox8HWuOPY-cqUq5jJp_MGiki9WnKY7H1w5h9m-UpeUFfossG5K5zGsMoA2b06LHNok7Bt_O6r2A8MptgFug7L7636ucf7BTbUdcWER4xEpI&v60=1&v70=1&v80=1&v90=1&v95=1&v100=1",
+   "method": "POST",
+   "post": "{\"metaData\":{\"usi\":\"41d30c!adnckd0281b6b64c802a1\"}}",
+   "status": 200,
+   "ct": "application/json",
+   "body": "{\"metaData\":{},\"network\":\"41d30c\"}"
+  }
+ ],
+ "links": [
+  {
+   "h": "https://delivery.soundvenue.com/c/QmeF3FKL5nuvLTLSyUl-H8TG7sqnewqglGUXNw_GnYAAAAAQCtjQz9kbGWD4nuZy3q6HaHGLDtj9qfqQV0CFar3deYqlphtWawT7DJnfwf-0R3wdyw39Izhf_hi15TahwT476_Pw2QxHeI6dqYwhCJBloDwX4HxU51dQZS6pMq83EjV1UJMTANIf-0dgtriXXbzE6Lt5fov3aGrJNEKXURsplvDDox8HWuOPY-cqUq5jJp_MGiki9WnKY7H1w5h9m-UpeUFfossG5K5zGsMoA2b06LHNok7Bt_O6r2A8MptgFug7L7636ucf7BTbUdcWER4xEpI?ct=2501&r=https%3A%2F%2Fparajumpers.soundvenue.com%2Fparajumpers-fylder-20-aar%3Futm_source%3DSoundvenue%26utm_medium%3DBanner%26utm_campaign%3DParajumpers%2520-%2520Jubil%25C3%25A6umsudstilling%26utm_content%3DOverlay",
+   "t": "Fra Alaska til Milano Fashion Week – kom bag kulissen på Parajumpers’ 20-års jubilæum SPONSORERET"
+  },
+  {
+   "h": "https://soundvenue.com/",
+   "t": "Soundvenue"
+  },
+  {
+   "h": "https://soundvenue.com/musik",
+   "t": "MUSIK"
+  },
+  {
+   "h": "https://soundvenue.com/film",
+   "t": "FILM+SERIER"
+  },
+  {
+   "h": "https://soundvenue.com/kultur",
+   "t": "KULTUR"
+  },
+  {
+   "h": "https://live.soundvenue.com/",
+   "t": "SOUNDVENUE LIVE"
+  },
+  {
+   "h": "https://soundvenue.com/tilmeld-nyhedsbrev",
+   "t": "NYHEDSBREVE"
+  },
+  {
+   "h": "https://soundvenue.com/om-soundvenue",
+   "t": "OM SOUNDVENUE"
+  },
+  {
+   "h": "https://media.soundvenue.com/?utm_source=Soundvenue&utm_medium=Link&utm_campaign=Soundvenue%20-%20Mediasite&utm_content=Menu",
+   "t": "ANNONCERING"
+  },
+  {
+   "h": "https://soundvenue.com/kontakt",
+   "t": "KONTAKT"
+  },
+  {
+   "h": "https://soundvenue.com/",
+   "t": "forsiden"
+  },
+  {
+   "h": "https://soundvenue.com/privacy-policy",
+   "t": "privatlivspolitikken"
+  },
+  {
+   "h": "https://soundvenue.com/kontakt",
+   "t": "KONTAKT"
+  },
+  {
+   "h": "https://media.soundvenue.com/?utm_source=Soundvenue&utm_medium=Link&utm_campaign=Soundvenue%20-%20Mediasite&utm_content=Footer",
+   "t": "ANNONCERING"
+  },
+  {
+   "h": "https://studio.soundvenue.com/",
+   "t": "STUDIO"
+  },
+  {
+   "h": "https://soundvenue.com/persondata",
+   "t": "PERSONDATA"
+  },
+  {
+   "h": "javascript:svRepromt();",
+   "t": "ÆNDRE SAMTYKKE"
+  },
+  {
+   "h": "https://soundvenue.com/kontakt",
+   "t": "KONTAKT"
+  },
+  {
+   "h": "https://media.soundvenue.com/?utm_source=Soundvenue&utm_medium=Link&utm_campaign=Soundvenue%20-%20Mediasite&utm_content=Footer",
+   "t": "ANNONCERING"
+  },
+  {
+   "h": "https://studio.soundvenue.com/",
+   "t": "STUDIO"
+  },
+  {
+   "h": "https://soundvenue.com/persondata",
+   "t": "PERSONDATA"
+  },
+  {
+   "h": "javascript:svRepromt();",
+   "t": "ÆNDRE SAMTYKKE"
+  }
+ ]
+}

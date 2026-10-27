@@ -1,0 +1,950 @@
+{
+ "url": "https://soundvenue.com/",
+ "status": 200,
+ "err": "",
+ "finalUrl": "https://soundvenue.com/",
+ "calls": [
+  {
+   "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-DJQGXNYXYN&gtm=45je6an1v9132026906za208zd9132026906xf1&_p=1793092551510&gcs=G100&gcd=13p3p3l3l5l1&npa=0&dma=0&tcfd=10000&are=1&cid=293031601.1793092552&frm=0&ngs=1&pscdl=denied&rcb=12&sr=1280x2000&uaa=arm&uab=64&uafvl=Chromium%3B130.0.6723.31%7CHeadlessChrome%3B130.0.6723.31%7CNot%253FA_Brand%3B99.0.0.0&uam=&uamb=0&uap=iOS&uapv=18_0&uaw=0&ul=da-dk&_s=1&tag_exp=115938466~115938468~118897920~118897930~120213116~120385423~120412526~120469145~120469153~121246026~121246034~123620775&sid=1793092551&sct=1&seg=0&dl=https%3A%2F%2Fsoundvenue.com%2F&dt=Soundvenue%20-%20bliv%20inspireret&en=page_view&_fv=1&_ss=1&_ee=1&tfd=750",
+   "method": "POST",
+   "post": "",
+   "status": 204,
+   "ct": "text/plain",
+   "body": ""
+  },
+  {
+   "url": "https://cmp.inmobi.com/geoip",
+   "method": "GET",
+   "post": "",
+   "status": 200,
+   "ct": "application/json",
+   "body": "{\"country\":\"usa\",\"region\":\"va\",\"city\":\"dulles\"}"
+  },
+  {
+   "url": "https://cmp.inmobi.com/GVL-v3/vendor-list-trimmed-v1.json",
+   "method": "GET",
+   "post": "",
+   "status": 200,
+   "ct": "application/json",
+   "body": "{\"gvlSpecificationVersion\":3,\"vendorListVersion\":182,\"tcfPolicyVersion\":5,\"lastUpdated\":\"2026-10-22T16:00:18Z\",\"purposes\":{\"1\":{\"id\":1,\"name\":\"Store and/or access information on a device\",\"description\":\"Cookies, device or similar online identifiers (e.g. login-based identifiers, randomly assigned identifiers, network based identifiers) together with other information (e.g. browser type and information, language, screen size, supported technologies etc.) can be stored or read on your device to recognise it each time it connects to an app or to a website, for one or several of the purposes presented here.\",\"illustrations\":[\"Most purposes explained in this notice rely on the storage or accessing of information from your device when you use an app or visit a website. For example, a vendor or publisher might need to store a cookie on your device during your first visit on a website, to be able to recognise your device during your next visits (by accessing this cookie each time).\"]},\"2\":{\"id\":2,\"name\":\"Use limited data to select advertising\",\"description\":\"Advertising presented to you on this service can be based on limited data, such as the website or app you are using, your non-precise location, your device type or which content you are (or have been) interacting with (for example, to limit the number of times an ad is presented to you).\",\"illustrations\":[\"A car manufacturer wants to promote its electric vehicles to environmentally conscious users living in the city after office hours. The advertising is presented on a page with related content (such as an article on climate change actions) after 6:30 p.m. to users whose non-precise location suggests that they are in an urban zone.\",\"A large producer of watercolour paints wants to carry out an online advertising campaign for its latest watercolour range, diversifying its audience to reach as many amateur and professional artists as possible and avoiding showing the ad next to mismatched content (for instance, articles about how to paint your house). The number of times that the ad has been presented to you is detected and limited, to avoid presenting it too often.\"]},\"3\":{\"id\":3,\"name\":\"Create profiles for personalised advertising\",\"description\":\"Information about your activity on this service (such as forms you submit, content you look at) can be stored and combined with other information about you (for example, information from your previous activity on this service and other websites or apps) or similar users. This is then used to build or improve a profile about you (that might include possible interests and personal aspects). Your profile can be used (also later) to present advertising that appears more relevant based on your possible interests by this and other entities.\",\"illustrations\":[\"If you read several articles about the best bike accessories to buy, this information could be used to create a profile about your interest in bike accessories. Such a profile may be used or improved later on, on the same or a different website or app to present you with advertising for a particular bike accessory brand. If you also look at a configurator for a vehicle on a luxury car manufacturer website, this information could be combined with your interest in bikes to refine your profile and make an assumption that you are interested in luxury cycling gear.\",\"An apparel company wishes to promote its new line of high-end baby clothes. It gets in touch with an agency that has a network of clients with high income customers (such as high-end supermarkets) and asks the agency to create profiles of young parents or couples who can be assumed to be wealthy and to have a new child, so that these can later be used to present advertising within partner apps based on those profiles.\"]},\"4\":{\"id\":4,\"name\":\"Use profiles to select personalised advertising\",\"description\":\"Advertising presented to you on this service can be based on your advertising profiles, which can reflect your activity on this service or other websites or apps (like the forms you submit, content you look at), possible interests and personal aspects.\",\"illustrations\":[\"An online retailer wants to advertise a limited sale on running shoes. It wants to target advertising to users who previously looked at running shoes on its mobile app. Tracking technologies might be used to recognise that you have previously used the mobile app to consult running shoes, in order to present you with the corresponding advertisement on the app.\",\"A profile created for personalised advertising in relation to a person having searched for bike accessories on a website can be used to present the relevant advertisement for bike accessories on a mobile app of another organisation.\"]},\"5\":{\"id\":5,\"name\":\"Create profiles to personalise content\",\"description\":\"Information about your activity on this service (for instance, forms you submit, non-advertising content you look at) can be stored and combined with other information about you (such as your previous activity on this service or other websites or apps) or similar users. This is then used to build or improve a profile about you (which might for example include possible interests and personal aspects). Your profile can be used (also later) to present content that appears more relevant based on your possible interests, such as by adapting the order in which content is shown to you, so that it is even easier for you to find content that matches your interests.\",\"illustrations\":[\"You read several articles on how to build a treehouse on a social media platform. This information might be added to a profile to mark your interest in content related to outdoors as well as do-it-yourself guides (with the objective of allowing the personalisation of content, so that for example you are presented with more blog posts and articles on treehouses and wood cabins in the future).\",\"You have viewed three videos on space exploration across different TV apps. An unrelated news platform\n…[afkortet]"
+  },
+  {
+   "url": "https://delivery.soundvenue.com/i?tzo=0&abv=92ca43&network=nhjy&noCookies=true&gdpr=0&tt=multi&screen=1280x2000&viewport=1280x2000",
+   "method": "POST",
+   "post": "{\"adUnits\":[{\"auId\":\"41e707\",\"targetId\":\"sva-mob1\",\"kv\":{\"svTags\":[\"all\",\"svforside\",\"id702030\",\"forside_forside\"],\"svHeadtrack\":[\"all\",\"forside\"],\"svType\":[\"other\"],\"svSite\":\"soundvenue.com\",\"svDeviceSize\":\"desktop\",\"svUnit\":\"top\",\"svUnitGroup\":\"top\"}},{\"auId\":\"41e6ff\",\"targetId\":\"sva-mob_1x1\",\"kv\":{\"svTags\":[\"all\",\"svforside\",\"id702030\",\"forside_forside\"],\"svHeadtrack\":[\"all\",\"forside\"],\"svType\":[\"other\"],\"svSite\":\"soundvenue.com\",\"svDeviceSize\":\"desktop\",\"svUnit\":\"ol\",\"svUnitGroup\":\"ol\"}},{\"auId\":\"43a92f\",\"targetId\":\"sva-nativelist_frontpage_mob\",\"kv\":{\"svTags\":[\"all\",\"svforside\",\"id702030\",\"forside_forside\"],\"svHeadtrack\":[\"all\",\"forside\"],\"svType\":[\"other\"],\"svSite\":\"soundvenue.com\",\"svDeviceSize\":\"desktop\",\"svUnit\":\"nl-list-frontpage\",\"svUnitGroup\":\"nl-list\"}}],\"headerBids\":[],\"context\":\"https://soundvenue.com/\"}",
+   "status": 200,
+   "ct": "application/json;charset=utf-8",
+   "body": "{\n\n    \"adUnits\": [\n    \n        {\n        \"auId\": \"41e6ff\",\n        \"targetId\": \"sva-mob_1x1\",\n        \n        \"html\": \"\\u003C!DOCTYPE html\\u003E\\n\\u003Chtml\\u003E\\n\\u003Chead\\u003E\\n    \\u003Cmeta charset=\\\"utf-8\\\"\\u003E\\n    \\u003Cstyle media=\\\"all\\\"\\u003E\\n        html, body, .responseCtr {\\n            margin: 0;\\n            padding: 0;\\n            outline: 0;\\n            border: 0;\\n            overflow: hidden;\\n        }\\n\\n        .responseCtr {\\n            display: inline-block;\\n            line-height: 0;\\n            vertical-align: top;\\n        }\\n\\n        .responseCtr a {\\n            line-height: 0;\\n        }\\n\\n        .responseCtr *, .responseCtr a * {\\n            line-height: normal;\\n        }\\n\\n        .responseCtr .contentWrapperPerItem {\\n            margin: 0;\\n            padding: 0;\\n            outline: 0;\\n            border: 0;\\n            display: inline-block;\\n            line-height: 0;\\n            vertical-align: top;\\n        }\\n\\n        a img {\\n            border: none;\\n            outline: none;\\n        }\\n\\n        img {\\n            margin: 0;\\n            padding: 0;\\n        }\\n\\n        /* need this displayNone class to ensure images are preloaded for smooth transition */\\n        img.displayNone {\\n            position: absolute;\\n            top: -99999px;\\n            left: -99999px;\\n        }\\n\\n        .contentWrapperTrailer {\\n            clear: both;\\n        }\\n    \\u003C/style\\u003E\\u003Cscript src=\\\"https://cdn.adnuntius.com/adn.js\\\"\\u003E\\u003C/script\\u003E\\n\\n\\u003C/head\\u003E\\n\\u003Cbody\\u003E\\n\\u003Cdiv id=\\\"adn-rsp-1472022136\\\" data-network=\\\"41d30c\\\" data-au-id=\\\"41e6ff\\\" data-target-id=\\\"sva-mob_1x1\\\" data-adserver-host=\\\"delivery.soundvenue.com\\\" class=\\\"responseCtr\\\"\\u003E\\n    \\u003Cdiv class=\\\"contentWrapperPerItem\\\" id=\\\"adn-id-1021873286\\\" data-line-item-id=\\\"flhxlgbl9qbu2pvz\\\" data-creative-id=\\\"gyxr5xa4e7zb9uxq\\\" data-creative-width=\\\"1\\\" data-creative-height=\\\"1\\\" data-response-token=\\\"GBtgTwIbWb5-F0hrKWj-MrAQJJD98cqbxckRbDrQkvgAAAAQCtjQz9kbGWD4nuZy3q6HaHGLV96q-fvDBUXWbr-PKN7y8B0ANFT5CZ3dlqy7HSkfnF_jXThf_hi1h3edwU41qvfw2QxHeI6dqYwhCJBloDwX4HxU51dQZS6pMq83EjV1UMFGAtwYrUFh473CBumVu78gfov3aGrJbhPGWEkslazLqUoFXL2EZ7YvVaNpJsDNGnco-D2aYebCw5h9m-UpeUFfossG5K5zGsMoA2b06LGtvlbD_-yhqE0GOdzAykpWolYrDddivME\\\" \\u003E\\u003C!-- adnOptionContainerDiv --\\u003E\\n\\u003Ca href=\\\"https://delivery.soundvenue.com/c/GBtgTwIbWb5-F0hrKWj-MrAQJJD98cqbxckRbDrQkvgAAAAQCtjQz9kbGWD4nuZy3q6HaHGLV96q-fvDBUXWbr-PKN7y8B0ANFT5CZ3dlqy7HSkfnF_jXThf_hi1h3edwU41qvfw2QxHeI6dqYwhCJBloDwX4HxU51dQZS6pMq83EjV1UMFGAtwYrUFh473CBumVu78gfov3aGrJbhPGWEkslazLqUoFXL2EZ7YvVaNpJsDNGnco-D2aYebCw5h9m-UpeUFfossG5K5zGsMoA2b06LGtvlbD_-yhqE0GOdzAykpWolYrDddivME?ct=2501\\u0026r=https%3A%2F%2Fkunsthalcharlottenborg.soundvenue.com%2Famalie-smith%3Futm_source%3DSoundvenue%26utm_medium%3DBanner%26utm_campaign%3DKunsthal%2520Charlottenborg%2520-%2520Amalie%2520Smith%26utm_content%3DOverlay\\\" target=\\\"_BLANK\\\" class=\\\"svps_overlay-container w-inline-block Campaign Campaign-idadn-id-1021873286\\\" style=\\\"display:none;\\\"\\u003E\\n  \\u003Cdiv class=\\\"svps_overlay-wrapper\\\"\\u003E\\n    \\u003Cdiv class=\\\"svps_overlay-scroll-timer\\\"\\u003E\\u003C/div\\u003E\\n    \\u003Cdiv class=\\\"svps_overlay-content-left\\\"\\u003E\\n      \\u003Cdiv class=\\\"svps_overlay-text\\\"\\u003EAmalie Smith søger efter livets tilblivelse med soloudstilling på Kunsthal Charlottenborg\\u003C/div\\u003E\\n      \\u003Cdiv class=\\\"svps_overlay-tag\\\"\\u003ESPONSORERET\\u003C/div\\u003E\\n    \\u003C/div\\u003E\\n    \\u003Cdiv class=\\\"svps_overlay-content-right\\\"\\u003E\\u003Cimg src=\\\"https://assets.soundvenue.com/cgbaaf/zqk06b2z001bhzchgg1sw8cgjdtvr73q1lb0fh3c6bvmszl3mr.jpg\\\" loading=\\\"eager\\\" alt=\\\"\\\" class=\\\"svps_overlay-image\\\"/\\u003E\\n      \\u003Cdiv style=\\\"clip-path:polygon(100% 0%, 0% 100%, 100% 100%)\\\" class=\\\"svns_brandlabel-container svns_brandlabel-container-coloradn-id-1021873286\\\"\\u003E\\n        \\u003Cdiv class=\\\"svns__brandlabel-gradient\\\"\\u003E\\u003C/div\\u003E\\n        \\u003Cimg src=\\\"https://assets.soundvenue.com/cgbaaf/grx9975yt7yt275zq1y7w5n5fkz9xp691s0bygmz7wnctz8qn6.png\\\" loading=\\\"lazy\\\" alt=\\\"\\\" class=\\\"svns__brandlabel-logo\\\"/\\u003E\\u003C/div\\u003E\\n    \\u003C/div\\u003E\\n  \\u003C/div\\u003E\\n\\u003C/a\\u003E\\n\\n\\n\\u003Cstyle\\u003E\\n   .svns_brandlabel-container-coloradn-id-1021873286{\\n     background-color: #000000 !important;\\n   }\\n\\n\\n\\t.svps_overlay-container{\\n      font-size: 1.1111111111111112vw;\\n      font-family: Gt America, sans-serif;\\n      line-height: 1.5;    \\n    }\\n\\n\\t.svps_overlay-container img{\\n      aspect-ratio: auto;\\n      object-fit: cover;\\n      width: 100%;\\n      display: inline-block;\\n    }\\n\\t\\n\\n    .svns__brandlabel-logo{\\n          border-radius: 100vw;   \\n     }\\n\\n\\n\\n\\n\\n  .svps_site-wrapper {\\n    padding-top: 80vh;\\n    position: relative;\\n  }\\n\\n  .svps_background-video {\\n    z-index: -1;\\n    width: 100vw;\\n    height: 100vh;\\n    position: fixed;\\n    top: 0%;\\n    bottom: 0%;\\n    left: 0%;\\n    right: 0%;\\n  }\\n\\n  .svps_overlay-container {\\n    z-index: 99999;\\n    cursor: pointer;\\n    width: 32%;\\n    height: 8.5em;\\n    position: fixed;\\n    top: auto;\\n    bottom: 1.5em;\\n    left: auto;\\n    right: 1.5em;\\n    box-shadow: 0 0 20px 5px rgba(0, 0, 0, .25);\\n  }\\n\\n  .svps_overlay-container.is-floating {\\n    bottom: 1.5em;\\n    right: 1.5em;\\n    box-shadow: 0 0 20px 9px rgba(0, 0, 0, .25);\\n  }\\n\\n  .svps_image {\\n    object-fit: cover;\\n    width: 100%;\\n    height: 100%;\\n    position: absolute;\\n    top: 0%;\\n    bottom: 0%;\\n    left: 0%;\\n    right: 0%;\\n  }\\n\\n  .svps_text {\\n    color: #fff;\\n    max-width: 50%;\\n    position: relative;\\n  }\\n\\n  .svps_text._2 {\\n    color: #fff;\\n    text-align: center;\\n    max-width: 80%;\\n    margin-top: 0;\\n    margin-bottom: 2vw;\\n    font-size: 1.2vw;\\n    font-weight: 500;\\n    line-height: 1.4;\\n    text-decoration: underline;\\n  }\\n\\n  .svps_text._1 {\\n    color: #fff;\\n    text-align: center;\\n    text-tran\n…[afkortet]"
+  },
+  {
+   "url": "https://delivery.soundvenue.com/s?tzo=0&screen=1280x2000&rt=GBtgTwIbWb5-F0hrKWj-MrAQJJD98cqbxckRbDrQkvgAAAAQCtjQz9kbGWD4nuZy3q6HaHGLV96q-fvDBUXWbr-PKN7y8B0ANFT5CZ3dlqy7HSkfnF_jXThf_hi1h3edwU41qvfw2QxHeI6dqYwhCJBloDwX4HxU51dQZS6pMq83EjV1UMFGAtwYrUFh473CBumVu78gfov3aGrJbhPGWEkslazLqUoFXL2EZ7YvVaNpJsDNGnco-D2aYebCw5h9m-UpeUFfossG5K5zGsMoA2b06LGtvlbD_-yhqE0GOdzAykpWolYrDddivME",
+   "method": "POST",
+   "post": "{\"metaData\":{\"i\":\"0AAAAAcjXgdcGAgAAAACM458FiOOfBQAA\",\"usi\":\"41d30c!adnck6e06640cc16cec25\"}}",
+   "status": 200,
+   "ct": "application/json",
+   "body": "{\"metaData\":{},\"network\":\"41d30c\"}"
+  },
+  {
+   "url": "https://delivery.soundvenue.com/b?tzo=0&tripTime=593&screen=1280x2000",
+   "method": "POST",
+   "post": "{\"rts\":[\"GBtgTwIbWb5-F0hrKWj-MrAQJJD98cqbxckRbDrQkvgAAAAQCtjQz9kbGWD4nuZy3q6HaHGLV96q-fvDBUXWbr-PKN7y8B0ANFT5CZ3dlqy7HSkfnF_jXThf_hi1h3edwU41qvfw2QxHeI6dqYwhCJBloDwX4HxU51dQZS6pMq83EjV1UMFGAtwYrUFh473CBumVu78gfov3aGrJbhPGWEkslazLqUoFXL2EZ7YvVaNpJsDNGnco-D2aYebCw5h9m-UpeUFfossG5K5zGsMoA2b06LGtvlbD_-yhqE0GOdzAykpWolYrDddivME\",\"dWipqa944bGDIxRRPhs5vDge5sQV3NkXh3RojETQdCsAAAAQCtjQz9kbGWD4nuZy3q6HaHGLV96q-fvDBUXWbr-PKN7y8B0ANFT5CZ3dlqy7HSkfnF_jXThf_hi1g3edwQgX0-Xw2QxHeI6dqYwhCJBl4FI04HwUmXtQZS6pMq83EjV1UMFGAtwYrUFh473CBumVu78gfov3aGrJbhPGWEkslazLqUoFXL2EZ7YvVaNpJsDNGnco-D2aYebCw5h9m-UpeUFfossG5K5zGsMoA2b06LG6vlbD_--vvntBJIFoSPELK5Pp_KKTXaK8ui-b7N5BXZQPmQxytlN1ZQ\",\"r-j8j-rt8zhgeGTcugs_1CqCMsQCnV6YzfiHZB5r83QAAAAQCtjQz9kbGWD4nuZy3q6HaHGLV96q-fvDBUXWbr-PKN7y8B0ANFT5CZ3dlqy7HSkfnF_jXThf_hi122ydwSodsffw2QxHeY6dqYwhCJBlwCMX4Hw06FdQZS6pMq83EjV1UMFGAtwYrUFh473CBumVu78gfov3aEvQZ0GUW0l5y6TDpxhTVryKZOYtB6U4I5DKE3wi92jIMZC935h5mKw8eR1DuNAM9r14AdNjTmr2qpbVu0GPv-6s-7XLju-1-Q3LTGAGlg\"]}",
+   "status": 200,
+   "ct": "application/json",
+   "body": "{\"metaData\":{\"usi\":\"41d30c!adnck6e06640cc16cec25\"},\"network\":\"41d30c\"}"
+  },
+  {
+   "url": "https://delivery.soundvenue.com/v?tzo=0&screen=1280x2000&rt=GBtgTwIbWb5-F0hrKWj-MrAQJJD98cqbxckRbDrQkvgAAAAQCtjQz9kbGWD4nuZy3q6HaHGLV96q-fvDBUXWbr-PKN7y8B0ANFT5CZ3dlqy7HSkfnF_jXThf_hi1h3edwU41qvfw2QxHeI6dqYwhCJBloDwX4HxU51dQZS6pMq83EjV1UMFGAtwYrUFh473CBumVu78gfov3aGrJbhPGWEkslazLqUoFXL2EZ7YvVaNpJsDNGnco-D2aYebCw5h9m-UpeUFfossG5K5zGsMoA2b06LGtvlbD_-yhqE0GOdzAykpWolYrDddivME&v60=1&v70=1&v80=1&v90=1&v95=1&v100=1",
+   "method": "POST",
+   "post": "{\"metaData\":{\"usi\":\"41d30c!adnck6e06640cc16cec25\"}}",
+   "status": 200,
+   "ct": "application/json",
+   "body": "{\"metaData\":{},\"network\":\"41d30c\"}"
+  },
+  {
+   "url": "https://delivery.soundvenue.com/i?tzo=0&abv=92ca43&network=nhjy&noCookies=true&gdpr=0&tt=multi&screen=1280x2000&viewport=1280x2000",
+   "method": "POST",
+   "post": "{\"adUnits\":[{\"auId\":\"41e6f7\",\"targetId\":\"sva-midscroll-mob_2\"}],\"kv\":{\"svTags\":[\"all\",\"svforside\",\"id702030\",\"forside_forside\"],\"svHeadtrack\":[\"all\",\"forside\"],\"svType\":[\"other\"],\"svSite\":\"soundvenue.com\",\"svDeviceSize\":\"desktop\",\"svUnit\":\"between-modules-2\",\"svUnitGroup\":\"between-modules\"},\"headerBids\":[],\"duplicateFilter\":\"AAAAAwAAAAAAU/4oAAAAAABT+MYAAAAAAFP4xAAAAAA=\",\"context\":\"https://soundvenue.com/\"}",
+   "status": 200,
+   "ct": "application/json;charset=utf-8",
+   "body": "{\n\n    \"adUnits\": [\n    \n        {\n        \"auId\": \"41e6f7\",\n        \"targetId\": \"sva-midscroll-mob_2\",\n        \n        \"html\": \"\\u003C!DOCTYPE html\\u003E\\n\\u003Chtml\\u003E\\n\\u003Chead\\u003E\\n    \\u003Cmeta charset=\\\"utf-8\\\"\\u003E\\n    \\u003Cstyle media=\\\"all\\\"\\u003E\\n        html, body, .responseCtr {\\n            margin: 0;\\n            padding: 0;\\n            outline: 0;\\n            border: 0;\\n            overflow: hidden;\\n        }\\n\\n        .responseCtr {\\n            display: inline-block;\\n            line-height: 0;\\n            vertical-align: top;\\n        }\\n\\n        .responseCtr a {\\n            line-height: 0;\\n        }\\n\\n        .responseCtr *, .responseCtr a * {\\n            line-height: normal;\\n        }\\n\\n        .responseCtr .contentWrapperPerItem {\\n            margin: 0;\\n            padding: 0;\\n            outline: 0;\\n            border: 0;\\n            display: inline-block;\\n            line-height: 0;\\n            vertical-align: top;\\n        }\\n\\n        a img {\\n            border: none;\\n            outline: none;\\n        }\\n\\n        img {\\n            margin: 0;\\n            padding: 0;\\n        }\\n\\n        /* need this displayNone class to ensure images are preloaded for smooth transition */\\n        img.displayNone {\\n            position: absolute;\\n            top: -99999px;\\n            left: -99999px;\\n        }\\n\\n        .contentWrapperTrailer {\\n            clear: both;\\n        }\\n    \\u003C/style\\u003E\\u003Cscript src=\\\"https://cdn.adnuntius.com/adn.js\\\"\\u003E\\u003C/script\\u003E\\n\\n\\u003C/head\\u003E\\n\\u003Cbody\\u003E\\n\\u003Cdiv id=\\\"adn-rsp-503852127\\\" data-network=\\\"41d30c\\\" data-au-id=\\\"41e6f7\\\" data-target-id=\\\"sva-midscroll-mob_2\\\" data-adserver-host=\\\"delivery.soundvenue.com\\\" class=\\\"responseCtr\\\"\\u003E\\n    \\u003Cdiv class=\\\"contentWrapperPerItem\\\" id=\\\"adn-id-1835771597\\\" data-line-item-id=\\\"b30mtnxdp9ibdhql\\\" data-creative-id=\\\"tjt5klh7sdswqidu\\\" data-creative-width=\\\"1\\\" data-creative-height=\\\"1\\\" data-response-token=\\\"Ve1msWKZh0TXHhAUuqhycvVedQo5GpGnArBYmYHlYowAAAAQCtjQz9kbGWD4nuZy3q6HaHGLB4v-q_nDWRKFaeiOfdql_kpRNVWoWciOlqa_EyhMmVvUaDhf_hi1q2mdwfZ9a5xpTw2j7_oqOwWhaBp1WQtPB1PQLxILUjSh8kWpSU53X5lAWY8WoRRj4ejEBrnOvOzNSR27bZsWUAPCWxh-y6LPoB0FC72IaLN5VfZoIMOYGCp5p2qYNLXtnvthn-JjJVQD4s0H9bZyAtMjWGC15vHL4jPRpODjp3tTMo5zVOk4YIzp8InR8TsW561fFoCxExa_\\\" \\u003E\\u003C!-- adnOptionContainerIframe --\\u003E\\n\\u003C!-- Size: Normal --\\u003E\\n\\u003Cins data-adnm-session=\\\"1793092555278\\\" data-adnm-click=\\\"https://delivery.soundvenue.com/c/Ve1msWKZh0TXHhAUuqhycvVedQo5GpGnArBYmYHlYowAAAAQCtjQz9kbGWD4nuZy3q6HaHGLB4v-q_nDWRKFaeiOfdql_kpRNVWoWciOlqa_EyhMmVvUaDhf_hi1q2mdwfZ9a5xpTw2j7_oqOwWhaBp1WQtPB1PQLxILUjSh8kWpSU53X5lAWY8WoRRj4ejEBrnOvOzNSR27bZsWUAPCWxh-y6LPoB0FC72IaLN5VfZoIMOYGCp5p2qYNLXtnvthn-JjJVQD4s0H9bZyAtMjWGC15vHL4jPRpODjp3tTMo5zVOk4YIzp8InR8TsW561fFoCxExa_?r=\\\" class=\\\"adnm-tag\\\" style=\\\"display:inline-block;width:300px;height:240px;\\\" data-adnm-cc=\\\"9d28db2c-0536-41cd-81e7-0043c61eabea\\\" data-adnm-custom-adnami-tag=\\\"adnuntius\\\" data-adnm-type=\\\"canvasmobile\\\" data-adnm-gdpr-applies=\\\"gdpr=0\\\" data-adnm-gdpr-consent=\\\"gdpr_consent=\\\" data-adnm-addtl-consent=\\\"addtl_consent=${ADDTL_CONSENT}\\\"\\u003E\\n    \\u003Cscript async=\\\"\\\" src=\\\"https://macro.adnami.io/macro/gen/adnm.ads.v2.js\\\"\\u003E\\u003C/script\\u003E\\n\\u003C/ins\\u003E\\n\\u003Cscript\\u003E\\nconsole.log(\\\"#######!!!!!! TEST NEW IFRAME !!!!! ID: tjt5klh7sdswqidu ########\\\");\\n(function(){\\n    // ---- Guard mod Adnamis 80vh-kollaps af artikel-containeren ----\\n    function svGuard(){\\n        try {\\n            var P = window.parent, pdoc = P.document;\\n\\n            // A) Selektor-kirurgi: fjern kryds-kreativ-delene af Adnamis 80vh-regler.\\n            //    Ingen pins/frysning — Adnamis egne inline-hoejder (200vh/80vh/dynamiske) gaelder igen.\\n            var sheets = pdoc.styleSheets;\\n            for (var s = 0; s \\u003C sheets.length; s++) {\\n                var rules; try { rules = sheets[s].cssRules; } catch(e) { continue; }\\n                if (!rules) continue;\\n                for (var i = rules.length - 1; i \\u003E= 0; i--) {\\n                    var r = rules[i];\\n                    if (!r.selectorText) continue;\\n                    if (!/\\\\.adnm-html-interscroll\\\\s/.test(r.selectorText)) continue;  // kun generiske descendant-selektorer\\n                    if (!/80vh/.test(r.style.cssText)) continue;                      // kun 80vh-reglerne\\n                    var dele = r.selectorText.split(\\u0027,\\u0027);\\n                    var behold = [];\\n                    for (var k = 0; k \\u003C dele.length; k++) {\\n                        if (!/^\\\\s*\\\\.adnm-html-interscroll\\\\s/.test(dele[k])) behold.push(dele[k]);\\n                    }\\n                    var css = r.style.cssText;\\n                    sheets[s].deleteRule(i);\\n                    if (behold.length) sheets[s].insertRule(behold.join(\\u0027,\\u0027) + \\u0027 { \\u0027 + css + \\u0027 }\\u0027, i);\\n                }\\n            }\\n\\n            // B) Sikkerhedsnet (kun desktop): artiklen maa aldrig kollapses\\n            if (!pdoc.getElementById(\\u0027sv-adnm-guard\\u0027)) {\\n                var st = pdoc.createElement(\\u0027style\\u0027);\\n                st.id = \\u0027sv-adnm-guard\\u0027;\\n                st.textContent = \\u0027@media (min-width: 768px) { html .Article-description.adnm-interscroll-parent { height: auto !important; max-height: none !important; } }\\u0027;\\n                pdoc.head.appendChild(st);\\n            }\\n        } catch(e) {}\\n    }\\n\\n    function svSlot(){\\n        var ifr = window.frameElement;\\n        return ifr ? ifr.parentElement : null;\\n    }\\n    function svContainer(slot){\\n        var el = slot;\\n        while (el \\u0026\\u0026 !/sv-inarticle-container/.test(el.className || \\u0027\\u0027)) el = el.parentElement;\\n        return el;\\n    }\\n    function svFixHeight(){\\n        var slot = svSlot();\\n        if (slot) slot.style.height = \\u0027auto\\u0027;\\n    }\\n    funct\n…[afkortet]"
+  },
+  {
+   "url": "https://delivery.soundvenue.com/b?tzo=0&tripTime=101&screen=1280x2000",
+   "method": "POST",
+   "post": "{\"rts\":[\"Ve1msWKZh0TXHhAUuqhycvVedQo5GpGnArBYmYHlYowAAAAQCtjQz9kbGWD4nuZy3q6HaHGLB4v-q_nDWRKFaeiOfdql_kpRNVWoWciOlqa_EyhMmVvUaDhf_hi1q2mdwfZ9a5xpTw2j7_oqOwWhaBp1WQtPB1PQLxILUjSh8kWpSU53X5lAWY8WoRRj4ejEBrnOvOzNSR27bZsWUAPCWxh-y6LPoB0FC72IaLN5VfZoIMOYGCp5p2qYNLXtnvthn-JjJVQD4s0H9bZyAtMjWGC15vHL4jPRpODjp3tTMo5zVOk4YIzp8InR8TsW561fFoCxExa_\"]}",
+   "status": 200,
+   "ct": "application/json",
+   "body": "{\"metaData\":{\"usi\":\"41d30c!adncke88eaad0c585f04f\"},\"network\":\"41d30c\"}"
+  },
+  {
+   "url": "https://delivery.soundvenue.com/s?tzo=0&screen=1280x2000&rt=Ve1msWKZh0TXHhAUuqhycvVedQo5GpGnArBYmYHlYowAAAAQCtjQz9kbGWD4nuZy3q6HaHGLB4v-q_nDWRKFaeiOfdql_kpRNVWoWciOlqa_EyhMmVvUaDhf_hi1q2mdwfZ9a5xpTw2j7_oqOwWhaBp1WQtPB1PQLxILUjSh8kWpSU53X5lAWY8WoRRj4ejEBrnOvOzNSR27bZsWUAPCWxh-y6LPoB0FC72IaLN5VfZoIMOYGCp5p2qYNLXtnvthn-JjJVQD4s0H9bZyAtMjWGC15vHL4jPRpODjp3tTMo5zVOk4YIzp8InR8TsW561fFoCxExa_",
+   "method": "POST",
+   "post": "",
+   "status": 200,
+   "ct": "application/json",
+   "body": "{\"metaData\":{},\"network\":\"41d30c\"}"
+  },
+  {
+   "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-DJQGXNYXYN&gtm=45je6an1v9132026906za200zd9132026906xf1&_p=1793092551510&gcs=G100&gcd=13p3p3l3l5l1&npa=0&dma=0&tcfd=10000&_eu=gA&are=1&cid=293031601.1793092552&frm=0&ngs=1&pscdl=denied&rcb=12&sr=1280x2000&uaa=arm&uab=64&uafvl=Chromium%3B130.0.6723.31%7CHeadlessChrome%3B130.0.6723.31%7CNot%253FA_Brand%3B99.0.0.0&uam=&uamb=0&uap=iOS&uapv=18_0&uaw=0&ul=da-dk&_s=2&tag_exp=115938466~115938468~118897920~118897930~120213116~120385423~120412526~120469145~120469153~121246026~121246034~123620775&sid=1793092551&sct=1&seg=0&dl=https%3A%2F%2Fsoundvenue.com%2F&dt=Soundvenue%20-%20bliv%20inspireret&en=Pageload&ep.event_category=Consent&ep.event_label=Deny&epn.value=1&_et=232&tfd=5982",
+   "method": "POST",
+   "post": "",
+   "status": 204,
+   "ct": "text/plain",
+   "body": ""
+  }
+ ],
+ "links": [
+  {
+   "h": "https://delivery.soundvenue.com/c/GBtgTwIbWb5-F0hrKWj-MrAQJJD98cqbxckRbDrQkvgAAAAQCtjQz9kbGWD4nuZy3q6HaHGLV96q-fvDBUXWbr-PKN7y8B0ANFT5CZ3dlqy7HSkfnF_jXThf_hi1h3edwU41qvfw2QxHeI6dqYwhCJBloDwX4HxU51dQZS6pMq83EjV1UMFGAtwYrUFh473CBumVu78gfov3aGrJbhPGWEkslazLqUoFXL2EZ7YvVaNpJsDNGnco-D2aYebCw5h9m-UpeUFfossG5K5zGsMoA2b06LGtvlbD_-yhqE0GOdzAykpWolYrDddivME?ct=2501&r=https%3A%2F%2Fkunsthalcharlottenborg.soundvenue.com%2Famalie-smith%3Futm_source%3DSoundvenue%26utm_medium%3DBanner%26utm_campaign%3DKunsthal%2520Charlottenborg%2520-%2520Amalie%2520Smith%26utm_content%3DOverlay",
+   "t": "Amalie Smith søger efter livets tilblivelse med soloudstilling på Kunsthal Charlottenborg SPONSORERET"
+  },
+  {
+   "h": "https://soundvenue.com/",
+   "t": "Soundvenue"
+  },
+  {
+   "h": "https://soundvenue.com/musik",
+   "t": "MUSIK"
+  },
+  {
+   "h": "https://soundvenue.com/film",
+   "t": "FILM+SERIER"
+  },
+  {
+   "h": "https://soundvenue.com/kultur",
+   "t": "KULTUR"
+  },
+  {
+   "h": "https://live.soundvenue.com/",
+   "t": "SOUNDVENUE LIVE"
+  },
+  {
+   "h": "https://soundvenue.com/tilmeld-nyhedsbrev",
+   "t": "NYHEDSBREVE"
+  },
+  {
+   "h": "https://soundvenue.com/om-soundvenue",
+   "t": "OM SOUNDVENUE"
+  },
+  {
+   "h": "https://media.soundvenue.com/?utm_source=Soundvenue&utm_medium=Link&utm_campaign=Soundvenue%20-%20Mediasite&utm_content=Menu",
+   "t": "ANNONCERING"
+  },
+  {
+   "h": "https://soundvenue.com/kontakt",
+   "t": "KONTAKT"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/bekraeftet-jay-z-staar-for-naeste-aars-super-bowl-show-702026",
+   "t": "Nyhed"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/bekraeftet-jay-z-staar-for-naeste-aars-super-bowl-show-702026",
+   "t": "NYHED Bekræftet: Jay-Z står for næste års Super Bowl-show"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/nikolaj-coster-waldau-lander-hovedrolle-i-amerikansk-gyserserie-baseret-paa-podcasthit-702030",
+   "t": "Nyhed"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/nikolaj-coster-waldau-lander-hovedrolle-i-amerikansk-gyserserie-baseret-paa-podcasthit-702030",
+   "t": "NYHED Nikolaj Coster-Waldau lander hovedrolle i amerikansk gyserserie baseret på podcasthit"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/mohamed-djeziri-faar-sit-gennembrud-jeg-er-her-for-at-repraesentere-nogle-af-de-skaebner-som-vi-kigger-vaek-fra-paa-gaden-701618",
+   "t": "Interview"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/mohamed-djeziri-faar-sit-gennembrud-jeg-er-her-for-at-repraesentere-nogle-af-de-skaebner-som-vi-kigger-vaek-fra-paa-gaden-701618",
+   "t": "INTERVIEW »Jeg er her for at repræsentere nogle af de skæbner, som vi kigger væk fra på gaden«"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/droem-og-virkelighed-smelter-sammen-i-roegfyldte-lokaler-paa-fines-mystiske-jazz-dreams-700656",
+   "t": "Album"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/droem-og-virkelighed-smelter-sammen-i-roegfyldte-lokaler-paa-fines-mystiske-jazz-dreams-700656",
+   "t": "ALBUM Det er et hovedværk fra Københavns alternative musikscene"
+  },
+  {
+   "h": "https://delivery.soundvenue.com/c/dWipqa944bGDIxRRPhs5vDge5sQV3NkXh3RojETQdCsAAAAQCtjQz9kbGWD4nuZy3q6HaHGLV96q-fvDBUXWbr-PKN7y8B0ANFT5CZ3dlqy7HSkfnF_jXThf_hi1g3edwQgX0-Xw2QxHeI6dqYwhCJBl4FI04HwUmXtQZS6pMq83EjV1UMFGAtwYrUFh473CBumVu78gfov3aGrJbhPGWEkslazLqUoFXL2EZ7YvVaNpJsDNGnco-D2aYebCw5h9m-UpeUFfossG5K5zGsMoA2b06LG6vlbD_--vvntBJIFoSPELK5Pp_KKTXaK8ui-b7N5BXZQPmQxytlN1ZQ?ct=2501&r=https%3A%2F%2Fkunsthalcharlottenborg.soundvenue.com%2Famalie-smith%3Futm_source%3DSoundvenue%26utm_medium%3DBanner%26utm_campaign%3DKunsthal%2520Charlottenborg%2520-%2520Amalie%2520Smith%26utm_content%3DNativelist",
+   "t": "Sponsoreret indhold"
+  },
+  {
+   "h": "https://delivery.soundvenue.com/c/dWipqa944bGDIxRRPhs5vDge5sQV3NkXh3RojETQdCsAAAAQCtjQz9kbGWD4nuZy3q6HaHGLV96q-fvDBUXWbr-PKN7y8B0ANFT5CZ3dlqy7HSkfnF_jXThf_hi1g3edwQgX0-Xw2QxHeI6dqYwhCJBl4FI04HwUmXtQZS6pMq83EjV1UMFGAtwYrUFh473CBumVu78gfov3aGrJbhPGWEkslazLqUoFXL2EZ7YvVaNpJsDNGnco-D2aYebCw5h9m-UpeUFfossG5K5zGsMoA2b06LG6vlbD_--vvntBJIFoSPELK5Pp_KKTXaK8ui-b7N5BXZQPmQxytlN1ZQ?ct=2501&r=https%3A%2F%2Fkunsthalcharlottenborg.soundvenue.com%2Famalie-smith%3Futm_source%3DSoundvenue%26utm_medium%3DBanner%26utm_campaign%3DKunsthal%2520Charlottenborg%2520-%2520Amalie%2520Smith%26utm_content%3DNativelist",
+   "t": "Sponsoreret indhold Amalie Smith søger efter livets tilblivelse – oplev hendes soloudstilling på Kunsthal Charlottenborg"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/her-er-koncerterne-du-skal-opleve-i-november-en-sjaelden-mulighed-for-at-hoere-et-af-aarets-bedste-danske-album-live-701188",
+   "t": "GUIDE"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/her-er-koncerterne-du-skal-opleve-i-november-en-sjaelden-mulighed-for-at-hoere-et-af-aarets-bedste-danske-album-live-701188",
+   "t": "HER ER KONCERTERNE, DU SKAL OPLEVE I NOVEMBER – EN SJÆLDEN MULIGHED FOR AT HØRE ET AF ÅRETS BEDSTE DANSKE ALBUM LIVE"
+  },
+  {
+   "h": "https://soundvenue.com/tag/oesten",
+   "t": "ALT OM ØSTEN"
+  },
+  {
+   "h": "https://soundvenue.com/tag/oesten",
+   "t": "Mere"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/unikt-koncertformat-paa-noerrebro-teater-var-en-helt-fantastisk-maade-at-moede-oestens-nye-musik-paa-701183",
+   "t": "Koncert"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/unikt-koncertformat-paa-noerrebro-teater-var-en-helt-fantastisk-maade-at-moede-oestens-nye-musik-paa-701183",
+   "t": "Koncert Unikt koncertformat var en helt fantastisk måde at møde Østens nye musik på"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/unikt-koncertformat-paa-noerrebro-teater-var-en-helt-fantastisk-maade-at-moede-oestens-nye-musik-paa-701183",
+   "t": "Koncert"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/unikt-koncertformat-paa-noerrebro-teater-var-en-helt-fantastisk-maade-at-moede-oestens-nye-musik-paa-701183",
+   "t": "KONCERT Unikt koncertformat var en helt fantastisk måde at møde Østens nye musik på"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/det-er-ambivalensen-der-gor-ostens-nar-vi-taler-om-solen-til-noget-helt-saerligt-700652",
+   "t": "Album"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/det-er-ambivalensen-der-gor-ostens-nar-vi-taler-om-solen-til-noget-helt-saerligt-700652",
+   "t": "ALBUM Kan melankolikeren Østen finde ud af mørket?"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/06/sidste-aar-ville-oesten-have-det-hele-paa-hvor-svaert-kan-det-vaere-vil-han-have-mere-endnu-681610",
+   "t": "Track"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/06/sidste-aar-ville-oesten-have-det-hele-paa-hvor-svaert-kan-det-vaere-vil-han-have-mere-endnu-681610",
+   "t": "TRACK Top Track: Sidste års bedste danske sang har fået sig en værdig opfølger"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/jeg-taenkte-over-slutningen-paa-emma-rosenzweigs-nye-videovaerk-laenge-efter-jeg-forlod-det-701787",
+   "t": "ANBEFALING"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/jeg-taenkte-over-slutningen-paa-emma-rosenzweigs-nye-videovaerk-laenge-efter-jeg-forlod-det-701787",
+   "t": "JEG TÆNKTE OVER SLUTNINGEN PÅ EMMA ROSENZWEIGS NYE VIDEOVÆRK, LÆNGE EFTER JEG FORLOD DET"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/nathan-fielders-you-can-see-everything-har-endelig-faaet-dansk-premieredato-701886",
+   "t": "Tidens mest omtalte film har endelig fået dansk premieredato!"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/the-minds-of-99-starter-deres-eget-pladeselskab-701801",
+   "t": "The Minds of 99 starter deres eget pladeselskab"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/sylvester-stallone-forsvarer-at-caste-sin-egen-datter-selvfoelgelig-er-det-nepotisme-din-idiot-701781",
+   "t": "Sylvester Stallone forsvarer at caste sin egen datter: »Selvfølgelig er det nepotisme, din idiot«"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/noah-carter-optraadte-for-82-000-seere-paa-soenderthon-2-0-701756",
+   "t": "Noah Carter optrådte for 82.000 seere på Sønderthon 2.0"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/macklemore-afviser-at-han-er-politisk-det-er-menneskeligt-at-have-et-hjerte-701752",
+   "t": "Macklemore afviser, at han er politisk: »Det er menneskeligt at have et hjerte«"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/amanda-seyfried-takkede-nej-til-hovedrolle-i-guardians-of-the-galaxy-det-her-bliver-ikke-et-hit-701749",
+   "t": "Amanda Seyfried takkede nej til hovedrolle i ‘Guardians of the Galaxy’: »Det her bliver ikke et hit«"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/amanda-seyfried-takkede-nej-til-hovedrolle-i-guardians-of-the-galaxy-det-her-bliver-ikke-et-hit-701749",
+   "t": "Amanda Seyfried takkede nej til hovedrolle i ‘Guardians of the Galaxy’: »Det her bliver ikke et hit«"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/cynthia-erivo-giver-oprejsning-til-glinda-elphaba-shippere-med-wicked-parodi-701742",
+   "t": "Cynthia Erivo giver oprejsning til Glinda/Elphaba-shippere med ‘Wicked’-parodi"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/cynthia-erivo-giver-oprejsning-til-glinda-elphaba-shippere-med-wicked-parodi-701742",
+   "t": "Cynthia Erivo giver oprejsning til Glinda/Elphaba-shippere med ‘Wicked’-parodi"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/en-heldig-gruppe-har-set-de-foerste-17-minutter-af-once-upon-a-time-in-hollywood-toer-701722",
+   "t": "En heldig gruppe har set de første 17 minutter af ‘Once Upon a Time in Hollywood’-toer"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/en-heldig-gruppe-har-set-de-foerste-17-minutter-af-once-upon-a-time-in-hollywood-toer-701722",
+   "t": "En heldig gruppe har set de første 17 minutter af ‘Once Upon a Time in Hollywood’-toer"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/slayyyter-aflyser-resten-af-sin-turne-grundet-helbredsproblemer-701674",
+   "t": "Slayyyter aflyser resten af sin turné grundet helbredsproblemer"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/slayyyter-aflyser-resten-af-sin-turne-grundet-helbredsproblemer-701674",
+   "t": "Slayyyter aflyser resten af sin turné grundet helbredsproblemer"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/se-chappell-roan-optraede-med-tre-af-tidens-staerkeste-popnavne-701669",
+   "t": "Se Chappell Roan optræde med tre af tidens stærkeste popnavne"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/se-chappell-roan-optraede-med-tre-af-tidens-staerkeste-popnavne-701669",
+   "t": "Se Chappell Roan optræde med tre af tidens stærkeste popnavne"
+  },
+  {
+   "h": "https://soundvenue.com/nyheder",
+   "t": "FLERE NYHEDER"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/jeg-taenkte-over-slutningen-paa-emma-rosenzweigs-nye-videovaerk-laenge-efter-jeg-forlod-det-701787",
+   "t": "Anbefaling"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/jeg-taenkte-over-slutningen-paa-emma-rosenzweigs-nye-videovaerk-laenge-efter-jeg-forlod-det-701787",
+   "t": "Anbefaling Jeg tænkte over slutningen på Emma Rosenzweigs nye videoværk, længe efter jeg forlod det"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/jeg-taenkte-over-slutningen-paa-emma-rosenzweigs-nye-videovaerk-laenge-efter-jeg-forlod-det-701787",
+   "t": "Emma Rosenzweig har skabt et hypnotiserende halv times videoværk, som tager en voldsom drejning. Fang endelig det rigtige starttidspunkt i Nikolaj…"
+  },
+  {
+   "h": "https://soundvenue.com/film/anmeldelser",
+   "t": "FLERE"
+  },
+  {
+   "h": "https://soundvenue.com/film/anmeldelser",
+   "t": "Mere"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/yaga-liderlig-heksethriller-med-heated-rivalry-stjerne-vil-saa-gerne-vaere-cool-701069",
+   "t": "Serie"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/yaga-liderlig-heksethriller-med-heated-rivalry-stjerne-vil-saa-gerne-vaere-cool-701069",
+   "t": "Serie ‘Yaga’: Liderlig heksethriller med ’Heated Rivalry’-stjerne vil så gerne være cool"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/yaga-liderlig-heksethriller-med-heated-rivalry-stjerne-vil-saa-gerne-vaere-cool-701069",
+   "t": "SERIE"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/yaga-liderlig-heksethriller-med-heated-rivalry-stjerne-vil-saa-gerne-vaere-cool-701069",
+   "t": "‘Yaga’: Liderlig heksethriller med ’Heated Rivalry’-stjerne vil så gerne være cool"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/clayface-friskt-talent-er-umuligt-at-tage-oejnene-fra-som-slimet-monster-i-dcs-vellykkede-body-horror-700893",
+   "t": "FILM"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/clayface-friskt-talent-er-umuligt-at-tage-oejnene-fra-som-slimet-monster-i-dcs-vellykkede-body-horror-700893",
+   "t": "’Clayface’: Friskt talent er umuligt at tage øjnene fra som slimet monster i DC’s vellykkede body horror"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/klara-and-the-sun-taika-waititi-skuffer-igen-med-jenna-ortega-og-usmagelig-patos-701045",
+   "t": "FILM"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/klara-and-the-sun-taika-waititi-skuffer-igen-med-jenna-ortega-og-usmagelig-patos-701045",
+   "t": "’Klara and the Sun’: Taika Waititi skuffer igen med Jenna Ortega og usmagelig patos"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/fornuft-og-foelelse-ny-filmatisering-af-jane-austen-klassiker-emmer-af-passion-701046",
+   "t": "FILM"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/fornuft-og-foelelse-ny-filmatisering-af-jane-austen-klassiker-emmer-af-passion-701046",
+   "t": "’Fornuft og følelse’: Ny filmatisering af Jane Austen-klassiker emmer af passion"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/la-grazia-mesterinstruktoer-goer-skaden-god-igen-med-sit-mindst-liderlige-magtportraet-700741",
+   "t": "FILM"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/la-grazia-mesterinstruktoer-goer-skaden-god-igen-med-sit-mindst-liderlige-magtportraet-700741",
+   "t": "’La Grazia’: Mesterinstruktør gør skaden god igen med sit mindst liderlige magtportræt"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/whalefall-intens-hvalthriller-saetter-en-ny-barre-for-klaustrofobi-700085",
+   "t": "FILM"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/whalefall-intens-hvalthriller-saetter-en-ny-barre-for-klaustrofobi-700085",
+   "t": "’Whalefall’: Intens hvalthriller sætter en ny barre for klaustrofobi"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/crystal-lake-genoplivet-slasherklassiker-er-imponerende-blodig-og-lidt-roerende-699575",
+   "t": "SERIE"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/crystal-lake-genoplivet-slasherklassiker-er-imponerende-blodig-og-lidt-roerende-699575",
+   "t": "‘Crystal Lake’: Genoplivet slasherklassiker er imponerende blodig og (lidt) rørende"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/visionquest-marvel-siger-farvel-til-sit-serieunivers-med-en-omgang-technobabblende-tomgang-699801",
+   "t": "SERIE"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/visionquest-marvel-siger-farvel-til-sit-serieunivers-med-en-omgang-technobabblende-tomgang-699801",
+   "t": "’VisionQuest’: Marvel siger farvel til sit serieunivers med en omgang technobabblende tomgang"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/hope-vanvittig-sydkoreansk-sci-fi-basker-efterlader-en-ovenud-forbloeffet-699591",
+   "t": "FILM"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/hope-vanvittig-sydkoreansk-sci-fi-basker-efterlader-en-ovenud-forbloeffet-699591",
+   "t": "’Hope’: Vanvittig sydkoreansk sci-fi-basker efterlader én ovenud forbløffet"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/her-private-hell-kaere-nicolas-winding-refn-please-kom-tilbage-til-jorden-698451",
+   "t": "FILM"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/her-private-hell-kaere-nicolas-winding-refn-please-kom-tilbage-til-jorden-698451",
+   "t": "’Her Private Hell’: Kære Nicolas Winding Refn – please kom tilbage til Jorden!"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/the-devils-ingen-skal-laengere-snydes-for-at-se-en-nonne-onanere-med-en-braendt-menneskeknogle-gudskelov-699751",
+   "t": "FILM"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/the-devils-ingen-skal-laengere-snydes-for-at-se-en-nonne-onanere-med-en-braendt-menneskeknogle-gudskelov-699751",
+   "t": "’The Devils’: Ingen skal længere snydes for at se en nonne onanere med en brændt menneskeknogle – gudskelov!"
+  },
+  {
+   "h": "https://soundvenue.com/musik/anmeldelser",
+   "t": "FLERE"
+  },
+  {
+   "h": "https://soundvenue.com/musik/anmeldelser",
+   "t": "Mere"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/lisas-tarantino-er-saa-veludfoert-en-hyldest-at-man-ligefrem-kan-se-blodet-701551",
+   "t": "Track"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/lisas-tarantino-er-saa-veludfoert-en-hyldest-at-man-ligefrem-kan-se-blodet-701551",
+   "t": "Track Lisas ‘Tarantino’ er så veludført en hyldest, at man ligefrem kan se blodet"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/lisas-tarantino-er-saa-veludfoert-en-hyldest-at-man-ligefrem-kan-se-blodet-701551",
+   "t": "TRACK"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/lisas-tarantino-er-saa-veludfoert-en-hyldest-at-man-ligefrem-kan-se-blodet-701551",
+   "t": "Lisas ‘Tarantino’ er så veludført en hyldest, at man ligefrem kan se blodet"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/saveus-viste-i-royal-arena-at-han-er-klar-til-at-vaere-martin-fra-oerum-paa-dansk-701185",
+   "t": "KONCERT"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/saveus-viste-i-royal-arena-at-han-er-klar-til-at-vaere-martin-fra-oerum-paa-dansk-701185",
+   "t": "I Royal Arena viste Saveus, at han er klar til at være Martin fra Ørum igen"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/miaws-ciao-er-som-en-droem-jeg-ikke-kan-huske-men-gerne-vil-tilbage-til-701108",
+   "t": "EP"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/miaws-ciao-er-som-en-droem-jeg-ikke-kan-huske-men-gerne-vil-tilbage-til-701108",
+   "t": "Miaws ‘Ciao’ er som en drøm, jeg ikke kan huske, men gerne vil tilbage til"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/ozzy-siger-alt-det-forkerte-paa-natsvaermer-sin-hidtil-bedste-udgivelse-701435",
+   "t": "EP"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/ozzy-siger-alt-det-forkerte-paa-natsvaermer-sin-hidtil-bedste-udgivelse-701435",
+   "t": "Ozzy siger alt det forkerte på ‘Natsværmer’ – sin hidtil bedste udgivelse"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/med-debutalbummet-vqff-beviser-von-quar-at-hooligan-rock-ogsaa-fungerer-uden-et-stadion-700646",
+   "t": "ALBUM"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/med-debutalbummet-vqff-beviser-von-quar-at-hooligan-rock-ogsaa-fungerer-uden-et-stadion-700646",
+   "t": "Med debutalbummet ‘VQFF’ beviser Von Quar, at hooligan-rock også fungerer uden et stadion"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/tate-mcraes-housewife-faar-naeppe-maga-beskyldningerne-til-at-forstumme-701016",
+   "t": "TRACK"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/tate-mcraes-housewife-faar-naeppe-maga-beskyldningerne-til-at-forstumme-701016",
+   "t": "Tate McRaes ‘Housewife’ får næppe MAGA-beskyldningerne til at forstumme"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/lord-siva-og-gilli-faar-flammerne-til-at-danse-paa-lighter-699793",
+   "t": "TRACK"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/lord-siva-og-gilli-faar-flammerne-til-at-danse-paa-lighter-699793",
+   "t": "Lord Siva og Gillis første samarbejde er slet ikke, hvad jeg havde forventet"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/stevie-wonder-lod-royal-arena-opleve-verden-som-han-selv-goer-det-700474",
+   "t": "KONCERT"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/stevie-wonder-lod-royal-arena-opleve-verden-som-han-selv-goer-det-700474",
+   "t": "Stevie Wonder lod Royal Arena opleve verden, som han selv gør det"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/hvorfor-spillede-topgunn-lige-praecis-den-sang-akustisk-i-royal-arena-699787",
+   "t": "KONCERT"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/hvorfor-spillede-topgunn-lige-praecis-den-sang-akustisk-i-royal-arena-699787",
+   "t": "Hvorfor spillede TopGunn lige præcis dén sang akustisk i Royal Arena?"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/fontaines-d-c-har-aldrig-lydt-saa-obskure-eller-inderlige-som-paa-dopamine-chamber-699307",
+   "t": "ALBUM"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/fontaines-d-c-har-aldrig-lydt-saa-obskure-eller-inderlige-som-paa-dopamine-chamber-699307",
+   "t": "Fontaines D.C. har aldrig lydt så obskure eller inderlige som på ‘Dopamine Chamber’"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/annikas-nye-single-kommer-nok-foerst-til-sin-ret-naar-hun-indtager-royal-arena-699748",
+   "t": "TRACK"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/annikas-nye-single-kommer-nok-foerst-til-sin-ret-naar-hun-indtager-royal-arena-699748",
+   "t": "Annikas nye single kommer nok først til sin ret, når hun indtager Royal Arena"
+  },
+  {
+   "h": "https://soundvenue.com/kultur/kulturanmeldelser",
+   "t": "FLERE"
+  },
+  {
+   "h": "https://soundvenue.com/kultur/kulturanmeldelser",
+   "t": "Mere"
+  },
+  {
+   "h": "https://soundvenue.com/kultur/2026/10/i-gaylienation-deltager-george-michael-i-en-uanstaendig-handling-paa-et-offentligt-toilet-og-skammer-sig-ikke-701017",
+   "t": "Bøger"
+  },
+  {
+   "h": "https://soundvenue.com/kultur/2026/10/i-gaylienation-deltager-george-michael-i-en-uanstaendig-handling-paa-et-offentligt-toilet-og-skammer-sig-ikke-701017",
+   "t": "Bøger I ’Gaylienation’ deltager George Michael i en uanstændig handling på et offentligt toilet og skammer sig ikke"
+  },
+  {
+   "h": "https://soundvenue.com/kultur/2026/10/i-gaylienation-deltager-george-michael-i-en-uanstaendig-handling-paa-et-offentligt-toilet-og-skammer-sig-ikke-701017",
+   "t": "BØGER"
+  },
+  {
+   "h": "https://soundvenue.com/kultur/2026/10/i-gaylienation-deltager-george-michael-i-en-uanstaendig-handling-paa-et-offentligt-toilet-og-skammer-sig-ikke-701017",
+   "t": "I ’Gaylienation’ deltager George Michael i en uanstændig handling på et offentligt toilet og skammer sig ikke"
+  },
+  {
+   "h": "https://soundvenue.com/kultur/2026/10/ny-thomas-korsgaard-roman-sidder-fast-i-sin-kransekagefascination-698673",
+   "t": "BØGER"
+  },
+  {
+   "h": "https://soundvenue.com/kultur/2026/10/ny-thomas-korsgaard-roman-sidder-fast-i-sin-kransekagefascination-698673",
+   "t": "Ny Thomas Korsgaard-roman sidder fast i sin kransekagefascination"
+  },
+  {
+   "h": "https://soundvenue.com/kultur/2026/10/maria-atlantis-uforudsigelige-asta-olivia-nordenhof-strikes-again-697405",
+   "t": "BØGER"
+  },
+  {
+   "h": "https://soundvenue.com/kultur/2026/10/maria-atlantis-uforudsigelige-asta-olivia-nordenhof-strikes-again-697405",
+   "t": "‘Maria, Atlantis’: Uforudsigelige Asta Olivia Nordenhof strikes again"
+  },
+  {
+   "h": "https://soundvenue.com/kultur/2026/10/mit-aar-i-paris-med-gertrude-stein-i-sin-nye-bog-mangler-deborah-levy-mod-og-nysgerrighed-693916",
+   "t": "BØGER"
+  },
+  {
+   "h": "https://soundvenue.com/kultur/2026/10/mit-aar-i-paris-med-gertrude-stein-i-sin-nye-bog-mangler-deborah-levy-mod-og-nysgerrighed-693916",
+   "t": "‘Mit år i Paris med Gertrude Stein’: I sin nye bog mangler Deborah Levy mod og nysgerrighed"
+  },
+  {
+   "h": "https://soundvenue.com/kultur/2026/09/1-spoerger-hvad-der-kunne-ske-hvis-kvinder-fik-al-magt-696058",
+   "t": "BØGER"
+  },
+  {
+   "h": "https://soundvenue.com/kultur/2026/09/1-spoerger-hvad-der-kunne-ske-hvis-kvinder-fik-al-magt-696058",
+   "t": "‘1%’ spørger, hvad der kunne ske, hvis kvinder fik al magt"
+  },
+  {
+   "h": "https://soundvenue.com/kultur/2026/09/yesteryear-sparker-til-sin-tradwife-naar-hun-ligger-ned-696347",
+   "t": "BØGER"
+  },
+  {
+   "h": "https://soundvenue.com/kultur/2026/09/yesteryear-sparker-til-sin-tradwife-naar-hun-ligger-ned-696347",
+   "t": "’Yesteryear’ sparker til sin tradwife, når hun ligger ned"
+  },
+  {
+   "h": "https://soundvenue.com/kultur/2026/09/et-sted-mellem-boen-og-skrig-maerker-man-hvad-det-er-familien-hassan-vil-fortaelle-695671",
+   "t": "TEATER"
+  },
+  {
+   "h": "https://soundvenue.com/kultur/2026/09/et-sted-mellem-boen-og-skrig-maerker-man-hvad-det-er-familien-hassan-vil-fortaelle-695671",
+   "t": "Et sted mellem bøn og skrig mærker man, hvad det er, ’Familien Hassan’ vil fortælle"
+  },
+  {
+   "h": "https://soundvenue.com/kultur/2026/09/ti-vilde-heste-stine-pilgaards-nye-roman-er-modgift-til-alle-momfluencere-i-dit-feed-694190",
+   "t": "BØGER"
+  },
+  {
+   "h": "https://soundvenue.com/kultur/2026/09/ti-vilde-heste-stine-pilgaards-nye-roman-er-modgift-til-alle-momfluencere-i-dit-feed-694190",
+   "t": "‘Ti vilde heste’: Stine Pilgaards nye roman er modgift til alle momfluencere i dit feed"
+  },
+  {
+   "h": "https://soundvenue.com/kultur/2026/08/optagelse-da-han-taber-sin-telefon-i-haandvasken-faar-det-alvorlige-konsekvenser-692366",
+   "t": "BØGER"
+  },
+  {
+   "h": "https://soundvenue.com/kultur/2026/08/optagelse-da-han-taber-sin-telefon-i-haandvasken-faar-det-alvorlige-konsekvenser-692366",
+   "t": "‘Optagelse’: Da han taber sin telefon i håndvasken, får det alvorlige konsekvenser"
+  },
+  {
+   "h": "https://soundvenue.com/kultur/2026/08/ms-liv-hvad-har-natalie-portman-gjort-rachel-cusk-691835",
+   "t": "BØGER"
+  },
+  {
+   "h": "https://soundvenue.com/kultur/2026/08/ms-liv-hvad-har-natalie-portman-gjort-rachel-cusk-691835",
+   "t": "‘M’s liv’: Hvad har Natalie Portman gjort Rachel Cusk?"
+  },
+  {
+   "h": "https://soundvenue.com/kultur/2026/08/hamloeber-endelig-findes-der-en-dansk-roman-der-har-fattet-internettet-691129",
+   "t": "BØGER"
+  },
+  {
+   "h": "https://soundvenue.com/kultur/2026/08/hamloeber-endelig-findes-der-en-dansk-roman-der-har-fattet-internettet-691129",
+   "t": "‘Hamløber’: Endelig findes der en dansk roman, der har fattet internettet"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/disse-gyserperler-skal-du-se-i-selskab-med-dine-venner-denne-halloween-700615",
+   "t": "GUIDE"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/disse-gyserperler-skal-du-se-i-selskab-med-dine-venner-denne-halloween-700615",
+   "t": "DISSE GYSERPERLER SKAL DU SE I SELSKAB MED DINE VENNER DENNE HALLOWEEN"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/disse-gyserperler-skal-du-se-i-selskab-med-dine-venner-denne-halloween-700615",
+   "t": "Horrorfilm er ofte kun så gode som de folk, vi ser dem sammen med. Uanset om du er skrigeren eller nybegynderen i din vennegruppe, garanterer vi en…"
+  },
+  {
+   "h": "https://soundvenue.com/tag/top-track",
+   "t": "FLERE TOP TRACKS"
+  },
+  {
+   "h": "https://soundvenue.com/tag/top-track",
+   "t": "Mere"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/norske-marstein-har-lavet-en-banger-om-yahya-hassan-701313",
+   "t": "Track"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/norske-marstein-har-lavet-en-banger-om-yahya-hassan-701313",
+   "t": "Track Top Track: Norsk rapstjerne har lavet en banger om Yahya Hassan"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/norske-marstein-har-lavet-en-banger-om-yahya-hassan-701313",
+   "t": "Track"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/norske-marstein-har-lavet-en-banger-om-yahya-hassan-701313",
+   "t": "TRACK Top Track: Norsk rapstjerne har lavet en banger om Yahya Hassan"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/det-er-ikke-for-sjov-naar-lea-romea-og-lamin-moedes-paa-dansegulvet-701210",
+   "t": "Track"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/det-er-ikke-for-sjov-naar-lea-romea-og-lamin-moedes-paa-dansegulvet-701210",
+   "t": "TRACK Top Track: Lea Romea slipper afsted med noget, som de færreste popnavne kan"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/zach-bryan-og-lana-del-rey-har-en-god-ide-og-de-udnytter-den-til-perfektion-699917",
+   "t": "Track"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/zach-bryan-og-lana-del-rey-har-en-god-ide-og-de-udnytter-den-til-perfektion-699917",
+   "t": "TRACK Top Track: Zach Bryan og Lana Del Rey har én god idé – og de udnytter den til perfektion"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/karoline-mousings-nye-single-genopliver-en-lyd-jeg-ikke-vidste-jeg-savnede-698945",
+   "t": "Track"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/karoline-mousings-nye-single-genopliver-en-lyd-jeg-ikke-vidste-jeg-savnede-698945",
+   "t": "TRACK Top Track: Karoline Mousings nye single genopliver en lyd, jeg ikke vidste, jeg savnede"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/danske-yvonnes-har-mestret-less-is-more-konceptet-med-postponement-699140",
+   "t": "Track"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/danske-yvonnes-har-mestret-less-is-more-konceptet-med-postponement-699140",
+   "t": "TRACK Top Track: Garvede danske musikere har mestret less is more-konceptet"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/karoline-funder-synger-om-roesnaes-som-krigsveteraner-i-amerikanske-film-taler-om-vietnam-698716",
+   "t": "Track"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/karoline-funder-synger-om-roesnaes-som-krigsveteraner-i-amerikanske-film-taler-om-vietnam-698716",
+   "t": "TRACK Top Track: Karoline Funder synger om Røsnæs, som krigsveteraner i amerikanske film taler om Vietnam"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/maaske-boer-vi-sende-alle-bedsteforaeldre-til-sydkorea-med-en-youtuber-701571",
+   "t": "SÅ DU DET?"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/maaske-boer-vi-sende-alle-bedsteforaeldre-til-sydkorea-med-en-youtuber-701571",
+   "t": "MÅSKE BØR VI SENDE ALLE BEDSTEFORÆLDRE TIL SYDKOREA MED EN YOUTUBER"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/manden-bag-tidens-mest-hypede-film-har-gjort-sindssyge-ting-i-aarevis-701155",
+   "t": "GUIDE"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/manden-bag-tidens-mest-hypede-film-har-gjort-sindssyge-ting-i-aarevis-701155",
+   "t": "MANDEN BAG TIDENS MEST HYPEDE FILM HAR GJORT SINDSSYGE TING I ÅREVIS"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/soundvenue-streamer-tre-weekendanbefalinger-det-er-saa-godt-at-det-danske-forraeder-er-doedt-for-mig-701222",
+   "t": "SOUNDVENUE STREAMER"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/soundvenue-streamer-tre-weekendanbefalinger-det-er-saa-godt-at-det-danske-forraeder-er-doedt-for-mig-701222",
+   "t": "Weekendens tre streamingtip: Det er så godt, at det danske 'Forræder' er dødt for mig"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/tre-soundvenue-skribenter-han-boer-blive-den-nye-bond-701552",
+   "t": "CALLUM, JOSH, JACK?"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/tre-soundvenue-skribenter-han-boer-blive-den-nye-bond-701552",
+   "t": "Tre Soundvenue-skribenter: Han bør blive den nye Bond"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/hitproduceren-margo-xs-infiltrerer-popmaskinen-med-transpropaganda-og-hun-indroemmer-det-gerne-700858",
+   "t": "PORTRÆT"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/hitproduceren-margo-xs-infiltrerer-popmaskinen-med-transpropaganda-og-hun-indroemmer-det-gerne-700858",
+   "t": "Hitproducer infiltrerer popmaskinen med transpropaganda – og hun indrømmer det gerne"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/de-siger-monstrene-i-nyt-actionmestervaerk-er-grimme-der-er-noget-de-har-misforstaaet-701862",
+   "t": "KOMMENTAR"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/de-siger-monstrene-i-nyt-actionmestervaerk-er-grimme-der-er-noget-de-har-misforstaaet-701862",
+   "t": "De siger, monstrene i nyt actionmesterværk er grimme. Der er noget, de har misforstået"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/drs-kriseshow-afsloerer-at-danskere-taenker-ualmindeligt-meget-paa-deres-lort-700919",
+   "t": "SÅ DU DET?"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/drs-kriseshow-afsloerer-at-danskere-taenker-ualmindeligt-meget-paa-deres-lort-700919",
+   "t": "DR’s kriseshow afslører, at danskere tænker ualmindeligt meget på deres lort"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/et-land-spytter-lige-nu-det-ene-staerke-rockband-ud-efter-det-andet-700695",
+   "t": "BØLGE"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/et-land-spytter-lige-nu-det-ene-staerke-rockband-ud-efter-det-andet-700695",
+   "t": "Ét land spytter lige nu det ene stærke rockband ud efter det andet"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/tom-cruises-bedste-rolle-var-en-blodig-homoerotisk-triumf-og-naesten-glemt-i-dag-700585",
+   "t": "ANBEFALING"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/tom-cruises-bedste-rolle-var-en-blodig-homoerotisk-triumf-og-naesten-glemt-i-dag-700585",
+   "t": "Tom Cruises bedste rolle var en blodig homoerotisk triumf – og næsten glemt i dag"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/to-nye-danske-comeback-album-giver-mig-haab-i-en-kaotisk-verden-700093",
+   "t": "FEATURE"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/to-nye-danske-comeback-album-giver-mig-haab-i-en-kaotisk-verden-700093",
+   "t": "To nye danske comeback-album giver mig håb i en kaotisk verden"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/sacha-baron-cohens-originale-gangster-er-tilbage-og-folk-opfordrer-oejeblikkeligt-til-boykot-696567",
+   "t": "Feature"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/sacha-baron-cohens-originale-gangster-er-tilbage-og-folk-opfordrer-oejeblikkeligt-til-boykot-696567",
+   "t": "Feature Sacha Baron Cohens originale gangster er tilbage – og folk opfordrer øjeblikkeligt til boykot"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/grimes-nye-sange-viser-hvorfor-det-er-en-fejl-at-afskrive-hende-700045",
+   "t": "Kommentar"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/grimes-nye-sange-viser-hvorfor-det-er-en-fejl-at-afskrive-hende-700045",
+   "t": "Kommentar Desværre er Grimes det bedste, vi har"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/for-10-aar-siden-sluttede-serien-perfekt-den-boer-aldrig-genoplives-697995",
+   "t": "Anbefaling"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/for-10-aar-siden-sluttede-serien-perfekt-den-boer-aldrig-genoplives-697995",
+   "t": "Anbefaling For 10 år siden sluttede serien perfekt – den bør aldrig genoplives"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/elliott-crosset-hoves-filmfavoritter-vi-var-helt-faerdige-af-grin-og-vi-var-naermest-lykkelige-bagefter-697433",
+   "t": "Filmfavoritter"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/elliott-crosset-hoves-filmfavoritter-vi-var-helt-faerdige-af-grin-og-vi-var-naermest-lykkelige-bagefter-697433",
+   "t": "Filmfavoritter Elliott Crosset Hoves filmfavoritter: »Vi var helt færdige af grin, og vi var nærmest lykkelige bagefter«"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/kvinderne-var-i-undertal-til-p3-guld-det-stoppede-ikke-en-af-dem-i-at-stjaele-hele-showet-700228",
+   "t": "Kommentar"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/kvinderne-var-i-undertal-til-p3-guld-det-stoppede-ikke-en-af-dem-i-at-stjaele-hele-showet-700228",
+   "t": "Kommentar Kvinderne var i undertal til P3 Guld – det stoppede ikke én af dem i at stjæle hele showet"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/haab-for-digger-fem-ikoniske-filmklassikere-der-blev-savet-over-af-anmelderne-699995",
+   "t": "Feature"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/haab-for-digger-fem-ikoniske-filmklassikere-der-blev-savet-over-af-anmelderne-699995",
+   "t": "Feature Håb for ‘Digger’: Fem ikoniske filmklassikere, der blev savet over af anmelderne"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/soundvenue-streamer-tre-weekendanbefalinger-maa-denne-sjove-skoege-aldrig-laegge-mikrofonen-699758",
+   "t": "Soundvenue Streamer"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/soundvenue-streamer-tre-weekendanbefalinger-maa-denne-sjove-skoege-aldrig-laegge-mikrofonen-699758",
+   "t": "Soundvenue Streamer Weekendens tre streaming-tip: Må denne sjove skøge aldrig lægge mikrofonen"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/nyere-tids-syv-bedste-live-album-fra-fantastiske-cameron-winter-til-dansk-roskilde-triumf-699411",
+   "t": "Liste"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/nyere-tids-syv-bedste-live-album-fra-fantastiske-cameron-winter-til-dansk-roskilde-triumf-699411",
+   "t": "Liste Nyere tids syv bedste live-album – fra fantastiske Cameron Winter til dansk Roskilde-triumf"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/mere-girls-virker-som-verdens-bedste-ide-med-et-stort-men-699720",
+   "t": "Kommentar"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/mere-girls-virker-som-verdens-bedste-ide-med-et-stort-men-699720",
+   "t": "Kommentar Mere ‘Girls’ virker som verdens bedste idé – med ét stort men"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/censureret-mestervaerk-med-jesus-voldtaegt-blev-kaldt-satanisk-nu-kan-du-se-hele-herligheden-699390",
+   "t": "Feature"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/censureret-mestervaerk-med-jesus-voldtaegt-blev-kaldt-satanisk-nu-kan-du-se-hele-herligheden-699390",
+   "t": "Feature Mesterværk med Jesus-voldtægt blev kaldt satanisk – nu er hele herligheden tilbage i biografen"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/det-er-et-af-verdens-mest-toneangivende-filmselskaber-nu-gaar-de-ind-i-musikken-697999",
+   "t": "A24 Music"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/det-er-et-af-verdens-mest-toneangivende-filmselskaber-nu-gaar-de-ind-i-musikken-697999",
+   "t": "A24 Music Det er et af verdens mest toneangivende filmselskaber. Nu går de ind i musikken"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/prisen-for-at-vaere-fodboldfan-er-blevet-alt-alt-for-hoej-698588",
+   "t": "Kommentar"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/prisen-for-at-vaere-fodboldfan-er-blevet-alt-alt-for-hoej-698588",
+   "t": "Kommentar Prisen for at være fodboldfan er blevet alt, alt for høj"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/er-dansegulvet-doedt-det-lader-nogle-af-verdens-stoerste-popstjerner-i-hvert-fald-til-at-mene-699377",
+   "t": "Kommentar"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/er-dansegulvet-doedt-det-lader-nogle-af-verdens-stoerste-popstjerner-i-hvert-fald-til-at-mene-699377",
+   "t": "Kommentar Er dansegulvet dødt? Det mener flere af verdens største popstjerner i hvert fald"
+  },
+  {
+   "h": "https://soundvenue.com/kultur/2026/10/10-boeger-vi-vil-laese-denne-maaned-om-kim-kardashian-doeden-politisk-revolution-og-utroskab-698941",
+   "t": "Bøger"
+  },
+  {
+   "h": "https://soundvenue.com/kultur/2026/10/10-boeger-vi-vil-laese-denne-maaned-om-kim-kardashian-doeden-politisk-revolution-og-utroskab-698941",
+   "t": "Bøger 10 bøger vi vil læse denne måned: Om Kim Kardashian, politisk revolution og utroskab"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/de-14-afsnit-varer-i-alt-265-minutter-men-ny-dansk-serie-lykkes-med-mere-end-de-fleste-699049",
+   "t": "Kommentar"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/de-14-afsnit-varer-i-alt-265-minutter-men-ny-dansk-serie-lykkes-med-mere-end-de-fleste-699049",
+   "t": "Kommentar De 14 afsnit varer i alt 26,5 minutter. Men ny dansk serie lykkes med mere end de fleste"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/hun-blev-filmhistoriens-mest-ufrivillige-gyserikon-nu-vender-hendes-karakter-tilbage-i-ny-serie-697893",
+   "t": "Feature"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/hun-blev-filmhistoriens-mest-ufrivillige-gyserikon-nu-vender-hendes-karakter-tilbage-i-ny-serie-697893",
+   "t": "Feature Hun blev filmhistoriens mest ufrivillige gyserikon – nu vender hendes karakter tilbage i ny serie"
+  },
+  {
+   "h": "https://soundvenue.com/privacy-policy",
+   "t": "privatlivspolitikken"
+  },
+  {
+   "h": "https://soundvenue.com/kontakt",
+   "t": "KONTAKT"
+  },
+  {
+   "h": "https://media.soundvenue.com/?utm_source=Soundvenue&utm_medium=Link&utm_campaign=Soundvenue%20-%20Mediasite&utm_content=Footer",
+   "t": "ANNONCERING"
+  },
+  {
+   "h": "https://studio.soundvenue.com/",
+   "t": "STUDIO"
+  },
+  {
+   "h": "https://soundvenue.com/persondata",
+   "t": "PERSONDATA"
+  },
+  {
+   "h": "javascript:svRepromt();",
+   "t": "ÆNDRE SAMTYKKE"
+  },
+  {
+   "h": "https://soundvenue.com/kontakt",
+   "t": "KONTAKT"
+  },
+  {
+   "h": "https://media.soundvenue.com/?utm_source=Soundvenue&utm_medium=Link&utm_campaign=Soundvenue%20-%20Mediasite&utm_content=Footer",
+   "t": "ANNONCERING"
+  },
+  {
+   "h": "https://studio.soundvenue.com/",
+   "t": "STUDIO"
+  },
+  {
+   "h": "https://soundvenue.com/persondata",
+   "t": "PERSONDATA"
+  },
+  {
+   "h": "javascript:svRepromt();",
+   "t": "ÆNDRE SAMTYKKE"
+  }
+ ]
+}
