@@ -29,7 +29,9 @@ const decode = s => String(s || '')
   .replace(/<[^>]+>/g, ' ')
   .replace(/&amp;/g, '&').replace(/&quot;/g, '"').replace(/&#0?39;|&apos;|&#8217;|&rsquo;/g, "'")
   .replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&nbsp;/g, ' ').replace(/&#8211;|&ndash;/g, '–')
+  .replace(/&([a-zA-Z]+);/g, (m, n) => NAMED[n] || m)
   .replace(/&#(\d+);/g, (_, n) => String.fromCharCode(+n)).replace(/\s+/g, ' ').trim();
+const NAMED = { aelig: 'æ', oslash: 'ø', aring: 'å', AElig: 'Æ', Oslash: 'Ø', Aring: 'Å', auml: 'ä', ouml: 'ö', uuml: 'ü', Auml: 'Ä', Ouml: 'Ö', Uuml: 'Ü', eacute: 'é', egrave: 'è', szlig: 'ß', laquo: '«', raquo: '»', lsquo: '‘', rsquo: '’', ldquo: '“', rdquo: '”', hellip: '…', mdash: '—' };
 const abs = (u, base) => { try { return u ? new URL(decode(u), base).href : ''; } catch { return ''; } };
 const pad = n => String(n).padStart(2, '0');
 const todayISO = () => new Date().toISOString().slice(0, 10);
@@ -328,6 +330,32 @@ async function slagthuset() {
   return { url: used || 'slagthuset.se', events: found };
 }
 
+// Soundvenue: månedlig artikel "Her er koncerterne, du skal opleve i …"
+// Hver koncert står som <h2>Kunstner</h2> efterfulgt af "1. november, VoxHall + 5. november, Lille Vega"
+async function soundvenue() {
+  const list = await get('https://soundvenue.com/musik', { ms: 12000 });
+  const guides = [...new Set((list.match(/https:\/\/soundvenue\.com\/musik\/\d{4}\/\d{2}\/her-er-koncerterne-du-skal-opleve-i-[^"'#?\s]+/g) || []))].slice(0, 3);
+  const out = [];
+  for (const url of guides) {
+    let html;
+    try { html = await get(url, { ms: 12000 }); } catch { continue; }
+    // Året tages fra artiklens adresse (/musik/2026/10/…); en guide i december kan pege ind i januar
+    const [, ay, am] = url.match(/\/musik\/(\d{4})\/(\d{2})\//).map(Number);
+    const yearFor = mon => (mon < am - 1 ? ay + 1 : ay);
+    const re = /<h2[^>]*>([\s\S]*?)<\/h2>\s*<p>([\s\S]*?)<\/p>/g; let m;
+    while ((m = re.exec(html))) {
+      const artist = decode(m[1]);
+      const line = decode(m[2]);
+      for (const part of line.split(/\s+\+\s+|\s+og\s+(?=\d)/)) {
+        const d = part.match(/^(\d{1,2})\.\s*([a-zæøå]+)\s*(\d{4})?,\s*(.+)$/i);
+        if (!d || !monthNo(d[2])) continue;
+        out.push({ title: artist, performers: [artist], date: ymd(d[1], d[2], d[3] || yearFor(monthNo(d[2]))), time: '', venue: d[4].trim(), city: '', url });
+      }
+    }
+  }
+  return { url: guides.length ? `${guides.length} guides på soundvenue.com` : 'soundvenue.com/musik', events: out };
+}
+
 // Plan B: åben datakilde
 const localDate = (iso, tz) => { try { return new Intl.DateTimeFormat('sv-SE', { timeZone: tz, year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date(iso)); } catch { return String(iso || '').slice(0, 10); } };
 async function planB() {
@@ -355,6 +383,7 @@ const SOURCES = [
   { id: 'royalarena', name: 'Royal Arena', city: 'København', country: 'DK', run: royalArena },
   { id: 'kbhallen', name: 'K.B. Hallen', city: 'Frederiksberg', country: 'DK', run: generic(['https://kbhallen.dk/']) },
   { id: 'drkoncerthuset', name: 'DR Koncerthuset', city: 'København', country: 'DK', run: drKoncerthuset },
+  { id: 'soundvenue', name: 'Soundvenue (koncertguide)', city: '', country: 'DK', run: soundvenue },
   // Sverige (Malmö)
   { id: 'malmoarena', name: 'Malmö Arena', city: 'Malmö', country: 'SE', run: malmoArena },
   { id: 'malmolive', name: 'Malmö Live', city: 'Malmö', country: 'SE', run: malmoLive },

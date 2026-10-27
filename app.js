@@ -957,7 +957,7 @@ function viewSettings() {
     </div>
     <div class="card">
       <h3>Datakilder</h3>
-      <p>Udgivelser: ${[state.sources.spotify && 'Spotify', (state.sources.apple || state.manual.length) && 'Apple Music-kataloget'].filter(Boolean).join(' og ') || 'Apple Music og Spotify'}. Koncerter: Ticketmaster${Venues.enabled() ? ' samt programmerne hos VEGA, Amager Bio, Loppen, Royal Arena, K.B. Hallen, DR Koncerthuset, Malmö Arena, Malmö Live, Plan B, Babel, Slagthuset og Barclays Arena i Hamburg' : ''}. Koncerter, der hverken sælges via Ticketmaster eller står hos disse, kan mangle.</p>
+      <p>Udgivelser: ${[state.sources.spotify && 'Spotify', (state.sources.apple || state.manual.length) && 'Apple Music-kataloget'].filter(Boolean).join(' og ') || 'Apple Music og Spotify'}. Koncerter: Ticketmaster${Venues.enabled() ? ' samt programmerne hos VEGA, Amager Bio, Loppen, Royal Arena, K.B. Hallen, DR Koncerthuset, Malmö Arena, Malmö Live, Plan B, Babel, Slagthuset og Barclays Arena i Hamburg samt Soundvenues månedlige koncertguide' : ''}. Koncerter, der hverken sælges via Ticketmaster eller står hos disse, kan mangle.</p>
       <p>Data gemmes kun på denne enhed og opdateres automatisk, når de er mere end 12 timer gamle.</p>
       <div class="actions">
         <button class="btn" data-action="hard-refresh">${I.refresh}Opdater alt nu</button>
