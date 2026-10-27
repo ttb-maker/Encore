@@ -1,149 +1,341 @@
 // Henter koncertprogrammer direkte fra spillestedernes egne hjemmesider.
-// Bruger de strukturerede data (schema.org Event / JSON-LD), som de fleste sider har til Google,
-// og falder tilbage på sidens indlejrede JSON-data (fx Next.js).
+// Hvert spillested har sin egen læser, bygget ud fra hvordan siden faktisk leverer sit program
+// (åben datakilde, HTML eller schema.org-data). Ukendte sider prøves med de generelle metoder.
 // Resultatet caches i 6 timer på Vercel, så siderne kun besøges få gange i døgnet.
 //
 // /api/venues          → { events: [...] }
 // /api/venues?debug=1  → læsbar oversigt over, hvad der blev fundet pr. spillested
 
-const SOURCES = [
-  // Danmark
-  { id: 'vega', name: 'VEGA', city: 'København', country: 'DK', urls: ['https://vega.dk/kalender', 'https://vega.dk/koncerter', 'https://vega.dk/'] },
-  { id: 'amagerbio', name: 'Amager Bio', city: 'København', country: 'DK', urls: ['https://amagerbio.dk/koncerter', 'https://amagerbio.dk/program', 'https://amagerbio.dk/'] },
-  { id: 'loppen', name: 'Loppen', city: 'København', country: 'DK', urls: ['https://loppen.dk/', 'https://loppen.dk/program'] },
-  { id: 'royalarena', name: 'Royal Arena', city: 'København', country: 'DK', urls: ['https://www.royalarena.dk/events', 'https://www.royalarena.dk/'] },
-  { id: 'kbhallen', name: 'K.B. Hallen', city: 'Frederiksberg', country: 'DK', urls: ['https://kbhallen.dk/events', 'https://kbhallen.dk/koncerter', 'https://kbhallen.dk/'] },
-  { id: 'drkoncerthuset', name: 'DR Koncerthuset', city: 'København', country: 'DK', urls: ['https://www.drkoncerthuset.dk/koncerter', 'https://www.drkoncerthuset.dk/'] },
-  { id: 'gaffa', name: 'GAFFA', city: '', country: 'DK', aggregator: true, urls: ['https://gaffa.dk/koncerter', 'https://gaffa.dk/kalender', 'https://gaffa.dk/'] },
-  // Sverige (Malmö)
-  { id: 'malmoarena', name: 'Malmö Arena', city: 'Malmö', country: 'SE', urls: ['https://www.malmoarena.com/evenemang', 'https://www.malmoarena.com/'] },
-  { id: 'malmolive', name: 'Malmö Live', city: 'Malmö', country: 'SE', urls: ['https://malmolive.se/kalender', 'https://malmolive.se/'] },
-  { id: 'planb', name: 'Plan B', city: 'Malmö', country: 'SE', urls: ['https://www.planbmalmo.se/', 'https://planbmalmo.se/'] },
-  { id: 'babel', name: 'Babel', city: 'Malmö', country: 'SE', urls: ['https://babelmalmo.se/', 'https://babelmalmo.se/evenemang'] },
-  { id: 'slagthuset', name: 'Slagthuset', city: 'Malmö', country: 'SE', urls: ['https://slagthuset.se/', 'https://slagthuset.se/evenemang'] },
-  // Tyskland
-  { id: 'barclays', name: 'Barclays Arena', city: 'Hamburg', country: 'DE', urls: ['https://www.barclays-arena.de/events', 'https://www.barclays-arena.de/'] },
-];
+const UA = 'Mozilla/5.0 (compatible; EncoreConcertBot/1.1; +https://encore-ttb-maker.vercel.app)';
 
-const UA = 'Mozilla/5.0 (compatible; EncoreConcertBot/1.0; +https://encore-ttb-maker.vercel.app)';
-
-async function fetchText(url, ms = 8000) {
+/* ---------- Hjælpere ---------- */
+async function get(url, { json = false, ms = 9000 } = {}) {
   const ctl = new AbortController();
   const t = setTimeout(() => ctl.abort(), ms);
   try {
-    const r = await fetch(url, { signal: ctl.signal, redirect: 'follow', headers: { 'User-Agent': UA, Accept: 'text/html,application/xhtml+xml', 'Accept-Language': 'da,sv;q=0.9,de;q=0.8,en;q=0.7' } });
-    return { status: r.status, text: r.ok ? await r.text() : '' };
+    const r = await fetch(url, {
+      signal: ctl.signal, redirect: 'follow',
+      headers: { 'User-Agent': UA, Accept: json ? 'application/json' : 'text/html,application/xhtml+xml', 'Accept-Language': 'da,sv;q=0.9,de;q=0.8,en;q=0.7' },
+    });
+    if (!r.ok) throw Object.assign(new Error(String(r.status)), { status: r.status });
+    return json ? r.json() : r.text();
   } catch (e) {
-    return { status: e.name === 'AbortError' ? 'timeout' : 'fejl', text: '' };
+    if (e.name === 'AbortError') throw Object.assign(new Error('timeout'), { status: 'timeout' });
+    throw Object.assign(e, { status: e.status || 'fejl' });
   } finally { clearTimeout(t); }
 }
 
 const decode = s => String(s || '')
-  .replace(/&amp;/g, '&').replace(/&quot;/g, '"').replace(/&#0?39;|&apos;/g, "'")
-  .replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&#(\d+);/g, (_, n) => String.fromCharCode(+n)).trim();
+  .replace(/<[^>]+>/g, ' ')
+  .replace(/&amp;/g, '&').replace(/&quot;/g, '"').replace(/&#0?39;|&apos;|&#8217;|&rsquo;/g, "'")
+  .replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&nbsp;/g, ' ').replace(/&#8211;|&ndash;/g, '–')
+  .replace(/&#(\d+);/g, (_, n) => String.fromCharCode(+n)).replace(/\s+/g, ' ').trim();
+const abs = (u, base) => { try { return u ? new URL(decode(u), base).href : ''; } catch { return ''; } };
+const pad = n => String(n).padStart(2, '0');
+const todayISO = () => new Date().toISOString().slice(0, 10);
 
+const MONTHS = {
+  jan: 1, januar: 1, january: 1, januari: 1, feb: 2, februar: 2, february: 2, februari: 2, mar: 3, mär: 3, marts: 3, mars: 3, march: 3, märz: 3,
+  apr: 4, april: 4, maj: 5, may: 5, mai: 5, jun: 6, juni: 6, june: 6, jul: 7, juli: 7, july: 7, aug: 8, august: 8, augusti: 8,
+  sep: 9, sept: 9, september: 9, okt: 10, oct: 10, oktober: 10, october: 10, nov: 11, november: 11, dec: 12, dez: 12, december: 12, dezember: 12,
+};
+const monthNo = s => MONTHS[String(s || '').toLowerCase().replace(/[^a-zäö]/g, '')] || MONTHS[String(s || '').toLowerCase().replace(/[^a-zäö]/g, '').slice(0, 3)];
+// Dag + måned uden år: næste gang datoen indtræffer
+function ymd(day, month, year) {
+  const d = +day, m = typeof month === 'number' ? month : monthNo(month);
+  if (!d || !m) return '';
+  let y = +year;
+  if (!y) {
+    const now = new Date();
+    y = now.getUTCFullYear();
+    if (`${y}-${pad(m)}-${pad(d)}` < new Date(now - 3 * 864e5).toISOString().slice(0, 10)) y++;
+  } else if (y < 100) y += 2000;
+  return `${y}-${pad(m)}-${pad(d)}`;
+}
+const timeOf = s => { const m = String(s || '').match(/\b([01]?\d|2[0-3])[:.]([0-5]\d)\b/); return m ? `${pad(m[1])}:${m[2]}` : ''; };
+// Klokkeslæt i dansk tid ud fra et UTC-tidsstempel
+const cphTime = iso => { try { return new Intl.DateTimeFormat('da-DK', { hour: '2-digit', minute: '2-digit', timeZone: 'Europe/Copenhagen' }).format(new Date(iso)).replace('.', ':'); } catch { return ''; } };
+const blocks = (html, startRe) => html.split(startRe).slice(1);
+const pick = (s, re) => { const m = s.match(re); return m ? m[1] : ''; };
+
+/* ---------- Generelle metoder (schema.org JSON-LD og indlejret app-data) ---------- */
 function scripts(html, typeRe) {
-  const out = [];
-  const re = /<script\b([^>]*)>([\s\S]*?)<\/script>/gi;
-  let m;
+  const out = []; const re = /<script\b([^>]*)>([\s\S]*?)<\/script>/gi; let m;
   while ((m = re.exec(html))) if (typeRe.test(m[1])) out.push(m[2]);
   return out;
 }
-function parseJSON(s) {
-  try { return JSON.parse(s.replace(/^\s*<!\[CDATA\[|\]\]>\s*$/g, '').trim()); } catch { return null; }
-}
+const parseJSON = s => { try { return JSON.parse(s.replace(/^\s*<!\[CDATA\[|\]\]>\s*$/g, '').trim()); } catch { return null; } };
 function walk(node, fn, depth = 0) {
   if (!node || typeof node !== 'object' || depth > 40) return;
   if (Array.isArray(node)) { for (const x of node) walk(x, fn, depth + 1); return; }
-  fn(node);
-  for (const k in node) walk(node[k], fn, depth + 1);
+  fn(node); for (const k in node) walk(node[k], fn, depth + 1);
 }
-
-const ISO = /^\d{4}-\d{2}-\d{2}/;
 function asDate(v) {
-  if (typeof v === 'number' && v > 1e12) v = new Date(v).toISOString();
-  if (typeof v !== 'string' || !ISO.test(v)) return null;
-  return { date: v.slice(0, 10), time: /T(\d{2}:\d{2})/.test(v) && !/T00:00(:00)?(\.0+)?(Z|[+-]00:00)?$/.test(v) ? v.match(/T(\d{2}:\d{2})/)[1] : '' };
+  if (typeof v !== 'string' || !/^\d{4}-\d{2}-\d{2}/.test(v)) return null;
+  const t = v.match(/T(\d{2}:\d{2})/);
+  return { date: v.slice(0, 10), time: t && t[1] !== '00:00' ? t[1] : '' };
 }
-const absolute = (u, base) => { try { return u ? new URL(u, base).href : ''; } catch { return ''; } };
 const names = v => (Array.isArray(v) ? v : v ? [v] : []).map(p => decode(typeof p === 'string' ? p : p && p.name)).filter(Boolean);
-
-// 1) schema.org-events i JSON-LD
 function fromJsonLd(html, base) {
   const out = [];
   for (const s of scripts(html, /application\/ld\+json/i)) {
     walk(parseJSON(s), o => {
       const t = [].concat(o['@type'] || []).join(' ');
-      if (!/Event\b/.test(t) || !o.startDate) return;
-      const d = asDate(o.startDate);
+      const d = /Event\b/.test(t) && asDate(o.startDate);
       if (!d) return;
+      const loc = Array.isArray(o.location) ? o.location[0] : o.location;
       out.push({
         title: decode(o.name), performers: names(o.performer), ...d,
-        venue: decode(o.location && (o.location.name || (Array.isArray(o.location) && o.location[0] && o.location[0].name))),
-        city: decode(o.location && o.location.address && o.location.address.addressLocality),
-        url: absolute(o.url || (o.offers && (o.offers.url || (o.offers[0] && o.offers[0].url))), base),
+        venue: decode(loc && loc.name), city: decode(loc && loc.address && loc.address.addressLocality),
+        url: abs(o.url || (o.offers && (o.offers.url || (o.offers[0] && o.offers[0].url))), base),
       });
     });
   }
   return out;
 }
-
-// 2) Indlejret app-data (Next.js, Nuxt m.fl.): objekter med en titel og en dato
 const TITLE_KEYS = ['title', 'name', 'headline', 'eventName', 'artist', 'artistName'];
-const DATE_KEYS = ['startDate', 'start_date', 'start', 'date', 'eventDate', 'event_date', 'startTime', 'start_time', 'datetime', 'dateTime', 'begins', 'from'];
-const URL_KEYS = ['url', 'link', 'href', 'permalink', 'slug', 'path', 'ticketUrl', 'ticket_url'];
+const DATE_KEYS = ['startDate', 'start_date', 'start', 'date', 'eventDate', 'event_date', 'startTime', 'datetime', 'dateTime'];
+const URL_KEYS = ['url', 'link', 'href', 'permalink', 'slug', 'path', 'ticketUrl'];
 function fromAppData(html, base) {
   const out = [];
-  for (const s of scripts(html, /application\/json|__NEXT_DATA__|__NUXT_DATA__/i)) {
+  for (const s of scripts(html, /application\/json|__NEXT_DATA__/i)) {
     walk(parseJSON(s), o => {
       const tk = TITLE_KEYS.find(k => typeof o[k] === 'string' && o[k].length > 1 && o[k].length < 160);
       const dk = DATE_KEYS.find(k => asDate(o[k]));
       if (!tk || !dk) return;
       const uk = URL_KEYS.find(k => typeof o[k] === 'string' && o[k].length < 400);
-      out.push({ title: decode(o[tk]), performers: [], ...asDate(o[dk]), venue: '', city: '', url: uk ? absolute(o[uk], base) : '' });
+      out.push({ title: decode(o[tk]), performers: [], ...asDate(o[dk]), url: uk ? abs(o[uk], base) : '' });
     });
   }
   return out;
 }
+const generic = urls => async () => {
+  let last;
+  for (const url of urls) {
+    try {
+      const html = await get(url);
+      const ev = fromJsonLd(html, url);
+      const list = ev.length ? ev : fromAppData(html, url);
+      if (list.length) return { url, events: list };
+      last = { url, events: [] };
+    } catch (e) { last = { url, error: e.status }; }
+  }
+  return last;
+};
 
-async function scrape(src) {
-  const tried = [];
-  for (const url of src.urls) {
-    const { status, text } = await fetchText(url);
-    let events = [];
-    if (text) {
-      events = fromJsonLd(text, url);
-      if (!events.length) events = fromAppData(text, url);
-    }
-    tried.push({ url, status, found: events.length });
-    if (events.length) {
-      const today = new Date().toISOString().slice(0, 10);
-      const seen = new Set();
-      events = events.filter(e => e.title && e.date >= today).filter(e => {
-        const k = e.title + e.date; if (seen.has(k)) return false; seen.add(k); return true;
-      }).map(e => ({
-        ...e,
-        venue: src.aggregator ? e.venue : (e.venue || src.name),
-        city: e.city || src.city,
-        country: src.country,
-        url: e.url || url,
-        source: src.id,
-      }));
-      return { src, tried, events };
+/* ---------- Læsere pr. spillested ---------- */
+
+// VEGA: åben datakilde (Payload CMS), 25 pr. side
+async function vega() {
+  const cfg = encodeURIComponent(JSON.stringify({ depth: 2, draft: false, siteContext: { locale: 'da', subsite: 'VEGA.dk' } }));
+  const page = p => get(`https://vega.dk/api/events?direction=future&genres=&page=${p}&config=${cfg}`, { json: true, ms: 12000 });
+  const first = await page(1);
+  const rest = await Promise.all(Array.from({ length: Math.min((first.totalPages || 1) - 1, 15) }, (_, i) => page(i + 2).catch(() => ({ data: [] }))));
+  const out = [];
+  for (const e of [first, ...rest].flatMap(p => p.data || [])) {
+    const dates = e.dates && e.dates.length ? e.dates : [{ date: e.firstDate }];
+    for (const d of dates) {
+      if (!d || !d.date) continue;
+      out.push({
+        title: decode(e.title), performers: [e.primaryArtist && e.primaryArtist.name].filter(Boolean).map(decode),
+        date: d.date.slice(0, 10), time: dates.length === 1 && e.firstDate ? cphTime(e.firstDate) : '',
+        venue: e.venue && e.venue.name ? e.venue.name : 'VEGA',
+        url: e.slug ? `https://vega.dk/event/${e.slug}` : (d.purchaseAtHref || 'https://vega.dk/'),
+        status: /udsolgt/i.test(d.state && d.state.name) ? 'soldout' : /aflyst/i.test(d.state && d.state.name) ? 'cancelled' : '',
+      });
     }
   }
-  return { src, tried, events: [] };
+  return { url: 'vega.dk/api/events', events: out };
+}
+
+// Royal Arena: Live Nations åbne søgning
+async function royalArena() {
+  const url = 'https://www.royalarena.dk/__api/search/events?VenueIds=845782&IncludePostponed=true&IncludeCancelled=true&Url=%2Fshows&PageSize=200&Page=1&culture=da-DK';
+  const d = await get(url, { json: true, ms: 12000 });
+  return {
+    url: 'royalarena.dk/__api/search/events',
+    events: (d.documents || []).map(e => {
+      const loc = (e.localizations || []).find(l => l.cultureName === 'da-DK') || (e.localizations || [])[0] || {};
+      return {
+        title: decode(loc.name || (e.lineup && e.lineup[0] && e.lineup[0].name)),
+        performers: (e.lineup || []).map(l => decode(l.name)),
+        date: String(e.eventDate || '').slice(0, 10), time: timeOf(e.showTime) || timeOf(e.doorTime),
+        venue: 'Royal Arena', url: abs(loc.url, 'https://www.royalarena.dk/'),
+        status: e.isCancelled ? 'cancelled' : e.isPostponed ? 'postponed' : '',
+      };
+    }),
+  };
+}
+
+// DR Koncerthuset: åben datakilde (Umbraco)
+async function drKoncerthuset() {
+  const d = await get('https://www.drkoncerthuset.dk/umbraco/api/events/fetch?pageSize=500', { json: true, ms: 15000 });
+  return {
+    url: 'drkoncerthuset.dk/umbraco/api/events/fetch',
+    events: (d.results || []).map(e => {
+      const external = /,/.test(e.venue || '');
+      return {
+        title: decode([e.title, e.subTitle].filter(Boolean).join(': ')),
+        performers: [e.ensembleLabel, e.secondaryEnsembleLabel, ...String(e.info && e.info.label || '').split('|')].map(decode).filter(Boolean),
+        date: String(e.orderDate || '').slice(0, 10), time: timeOf(String(e.orderDate || '').slice(11)),
+        venue: external ? e.venue.split(',')[0].trim() : `DR Koncerthuset${e.venue ? ', ' + e.venue : ''}`,
+        city: external ? e.venue.split(',').slice(1).join(',').trim() : 'København',
+        url: abs(e.url, 'https://www.drkoncerthuset.dk/') || e.ticketLink,
+        status: /udsolgt/i.test(e.badge || '') ? 'soldout' : /aflyst/i.test(e.badge || '') ? 'cancelled' : '',
+      };
+    }),
+  };
+}
+
+// Amager Bio / Beta (ab-b.dk): koncertkort i HTML
+async function amagerBio() {
+  const url = 'https://ab-b.dk/';
+  const html = await get(url, { ms: 12000 });
+  return {
+    url,
+    events: blocks(html, /<div class="[^"]*\bconcert type-concert\b/).map(b => {
+      const scene = decode(pick(b, /data-scene="([^"]*)"/));
+      return {
+        title: decode(pick(b, /<h4[^>]*>([\s\S]*?)<\/h4>/)),
+        performers: [],
+        date: ymd(decode(pick(b, /class="day"[^>]*>([\s\S]*?)</)), decode(pick(b, /class="month"[^>]*>([\s\S]*?)</))),
+        time: timeOf(pick(b, /class="time"[^>]*>([\s\S]*?)</)),
+        venue: /beta/i.test(scene) ? 'BETA (Amager Bio)' : 'Amager Bio',
+        url: abs(pick(b, /<a href="(https:\/\/ab-b\.dk\/k\/[^"]+)"/), url),
+        status: /udsolgt/i.test(pick(b, /data-status="([^"]*)"/)) ? 'soldout' : /aflyst/i.test(pick(b, /data-status="([^"]*)"/)) ? 'cancelled' : '',
+      };
+    }),
+  };
+}
+
+// Barclays Arena Hamburg: kalender pr. måned (JSON med HTML-stykker)
+async function barclays() {
+  const now = new Date();
+  const months = Array.from({ length: 13 }, (_, i) => { const d = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth() + i, 1)); return [d.getUTCFullYear(), d.getUTCMonth() + 1]; });
+  const pages = await Promise.all(months.map(([y, m]) =>
+    get(`https://www.barclays-arena.de/events/calendar/${y}/${pad(m)}?v=2&detail_partial=modules/events/partials/full_page_calendar_event_item`, { json: true, ms: 12000 }).catch(() => ({}))));
+  const out = [];
+  for (const page of pages) {
+    for (const [key, html] of Object.entries(page || {})) {
+      const [mm, dd, yyyy] = key.split('-');
+      const re = /<a href="([^"]+)"[^>]*>([\s\S]*?)<\/a>/g; let m;
+      while ((m = re.exec(String(html)))) out.push({ title: decode(m[2]), performers: [], date: `${yyyy}-${mm}-${dd}`, time: '', venue: 'Barclays Arena', url: m[1].replace(/\\\//g, '/') });
+    }
+  }
+  return { url: 'barclays-arena.de/events/calendar', events: out };
+}
+
+// Malmö Arena: eventkort i HTML
+async function malmoArena() {
+  const url = 'https://www.malmoarena.com/evenemang';
+  const html = await get(url, { ms: 12000 });
+  return {
+    url,
+    events: blocks(html, /class="event-listing__item"/).map(b => {
+      const when = decode(pick(b, /event-listing__third-block"[^>]*>([\s\S]*?)<\/div>/));
+      const dm = when.match(/(\d{1,2})\s+([a-zåäö]+)/i);
+      const cat = decode(pick(b, /event-listing__second-block"[^>]*>([\s\S]*?)<\/div>/));
+      return {
+        title: decode(pick(b, /<h2[^>]*>([\s\S]*?)<\/h2>/)), performers: [], category: cat,
+        date: dm ? ymd(dm[1], dm[2]) : '', time: timeOf(when.split('|')[1]),
+        venue: 'Malmö Arena', url: abs(pick(b, /href="(\/evenemang\/[^"]+)"/), url),
+      };
+    }).filter(e => !/redhawks|sport/i.test(e.category)),
+  };
+}
+
+// Malmö Live: eventkort i HTML (Drupal)
+async function malmoLive() {
+  let lastErr;
+  for (const url of ['https://malmolive.se/program', 'https://malmolive.se/']) {
+    try {
+      const html = await get(url, { ms: 12000 });
+      const events = blocks(html, /class="event-list-item full-flex"/).map(b => ({
+        title: decode(pick(b, /event-list-item--info__title[^>]*>([\s\S]*?)<\/h3>/)), performers: [],
+        date: ymd(decode(pick(b, /date--day-number">([^<]*)</)), decode(pick(b, /date--month">([^<]*)</)), decode(pick(b, /date--year">([^<]*)</))),
+        time: timeOf(pick(b, /date--time">([^<]*)</)),
+        venue: `Malmö Live${pick(b, /SCEN: <\/label>([^<]*)</) ? ', ' + decode(pick(b, /SCEN: <\/label>([^<]*)</)) : ''}`,
+        url: abs(pick(b, /href="(\/program\/[^"]+)"/), url),
+      }));
+      if (events.length) return { url, events };
+    } catch (e) { lastErr = e; }
+  }
+  if (lastErr) throw lastErr;
+  return { url: 'malmolive.se', events: [] };
+}
+
+// Babel: titler som "261105 : Zenstation"
+async function babel() {
+  let found = [], used = '';
+  for (const url of ['https://babelmalmo.se/program/konsert', 'https://babelmalmo.se/']) {
+    try {
+      const html = await get(url, { ms: 12000 });
+      const re = /<a href="([^"]+)" rel="bookmark" title="(\d{2})(\d{2})(\d{2})\s*:\s*([^"]+)"/g; let m; const ev = [];
+      while ((m = re.exec(html))) ev.push({ title: decode(m[5]), performers: [], date: ymd(m[4], +m[3], m[2]), time: '', venue: 'Babel', url: m[1] });
+      if (ev.length > found.length) { found = ev; used = url; }
+    } catch {}
+  }
+  return { url: used || 'babelmalmo.se', events: found };
+}
+
+// Slagthuset: eventkort i HTML (Next.js)
+async function slagthuset() {
+  let found = [], used = '';
+  for (const url of ['https://slagthuset.se/events', 'https://slagthuset.se/']) {
+    try {
+      const html = await get(url, { ms: 12000 });
+      const re = /href="(\/events\/[^"]+)"><div>([^<]+)<\/div><\/a>[\s\S]{0,240}?<div class="uppercase text-sm">([^<]+)<\/div>/g; let m; const ev = [];
+      while ((m = re.exec(html))) {
+        const d = decode(m[3]).match(/(\d{1,2})\s+([a-zåäö]+)\.?\s+(\d{4})?/i);
+        ev.push({ title: decode(m[2]), performers: [], date: d ? ymd(d[1], d[2], d[3]) : '', time: '', venue: 'Slagthuset', url: abs(m[1], url) });
+      }
+      if (ev.length > found.length) { found = ev; used = url; }
+    } catch {}
+  }
+  return { url: used || 'slagthuset.se', events: found };
+}
+
+const SOURCES = [
+  // Danmark
+  { id: 'vega', name: 'VEGA', city: 'København', country: 'DK', run: vega },
+  { id: 'amagerbio', name: 'Amager Bio', city: 'København', country: 'DK', run: amagerBio },
+  { id: 'loppen', name: 'Loppen', city: 'København', country: 'DK', run: generic(['https://loppen.dk/']) },
+  { id: 'royalarena', name: 'Royal Arena', city: 'København', country: 'DK', run: royalArena },
+  { id: 'kbhallen', name: 'K.B. Hallen', city: 'Frederiksberg', country: 'DK', run: generic(['https://kbhallen.dk/']) },
+  { id: 'drkoncerthuset', name: 'DR Koncerthuset', city: 'København', country: 'DK', run: drKoncerthuset },
+  // Sverige (Malmö)
+  { id: 'malmoarena', name: 'Malmö Arena', city: 'Malmö', country: 'SE', run: malmoArena },
+  { id: 'malmolive', name: 'Malmö Live', city: 'Malmö', country: 'SE', run: malmoLive },
+  { id: 'planb', name: 'Plan B', city: 'Malmö', country: 'SE', run: generic(['https://www.planbmalmo.com/', 'https://planbmalmo.com/']) },
+  { id: 'babel', name: 'Babel', city: 'Malmö', country: 'SE', run: babel },
+  { id: 'slagthuset', name: 'Slagthuset', city: 'Malmö', country: 'SE', run: slagthuset },
+  // Tyskland
+  { id: 'barclays', name: 'Barclays Arena', city: 'Hamburg', country: 'DE', run: barclays },
+];
+
+async function scrape(src) {
+  let r;
+  try { r = await src.run(); } catch (e) { r = { url: '', error: e.status || 'fejl', events: [] }; }
+  const today = todayISO();
+  const seen = new Set();
+  const events = (r.events || []).filter(e => e.title && /^\d{4}-\d{2}-\d{2}$/.test(e.date) && e.date >= today).filter(e => {
+    const k = e.title + e.date; if (seen.has(k)) return false; seen.add(k); return true;
+  }).map(e => ({
+    title: e.title, performers: e.performers || [], date: e.date, time: e.time || '',
+    venue: e.venue || src.name, city: e.city || src.city, country: src.country,
+    url: e.url || '', status: e.status || '', source: src.id,
+  }));
+  return { src, url: r.url, error: r.error, events };
 }
 
 module.exports = async (req, res) => {
   const results = await Promise.all(SOURCES.map(scrape));
-  const debug = req.query && req.query.debug;
-  if (debug) {
+  if (req.query && req.query.debug) {
     const lines = [`Encore – spillesteder (${new Date().toISOString().slice(0, 16).replace('T', ' ')} UTC)`, ''];
     for (const r of results) {
-      lines.push(`${r.events.length ? 'OK ' : '-- '} ${r.src.name}: ${r.events.length} koncerter`);
-      for (const t of r.tried) lines.push(`     ${t.status}  ${t.found} fundet  ${t.url}`);
-      for (const e of r.events.slice(0, 3)) lines.push(`     · ${e.date} ${e.title}`);
+      lines.push(`${r.events.length ? 'OK ' : '-- '} ${r.src.name}: ${r.events.length} koncerter${r.error ? `  (fejl: ${r.error})` : ''}`);
+      if (r.url) lines.push(`     ${r.url}`);
+      for (const e of r.events.slice(0, 3)) lines.push(`     · ${e.date} ${e.time} ${e.title}`);
     }
     res.setHeader('Content-Type', 'text/plain; charset=utf-8');
     res.setHeader('Cache-Control', 'no-store');
@@ -159,4 +351,4 @@ module.exports = async (req, res) => {
   });
 };
 
-module.exports._test = { fromJsonLd, fromAppData };
+module.exports._test = { fromJsonLd, fromAppData, ymd, SOURCES };

@@ -491,7 +491,7 @@ const Venues = {
     const r = await fetch(CFG.venuesEndpoint);
     if (!r.ok) throw new Error('Spillesteder svarede ' + r.status);
     const d = await r.json();
-    this.events = (d.events || []).map(e => ({ t: e.title, p: e.performers || [], d: e.date, h: e.time || '', v: e.venue, c: e.city, n: e.country, u: e.url, s: e.source }));
+    this.events = (d.events || []).map(e => ({ t: e.title, p: e.performers || [], d: e.date, h: e.time || '', v: e.venue, c: e.city, n: e.country, u: e.url, s: e.source, st: e.status || '' }));
     cache.set('venues', this.events);
     this._memo = null;
     return this.events;
@@ -512,7 +512,7 @@ const Venues = {
           : hay.includes(' ' + k + ' ');
         if (hit) (out[a.key] ||= []).push({
           id: 'v' + e.s + e.d + title.slice(0, 40), artist: a.name, artistKey: a.key, name: e.t,
-          date: e.d, time: e.h, venue: e.v, city: e.c, country: e.n, status: 'onsale', url: e.u, source: e.s,
+          date: e.d, time: e.h, venue: e.v, city: e.c, country: e.n, status: e.st || 'onsale', url: e.u, source: e.s,
         });
       }
     }
@@ -869,7 +869,7 @@ function listConcerts() {
     if (state.busy) return `<div class="empty"><b>Leder efter koncerter …</b><p>Vi tjekker hver kunstner hos Ticketmaster.</p></div>`;
     return `<div class="empty"><b>Ingen kommende koncerter fundet</b><p>${concertsBlocked() ? 'Koncertdata er ikke slået til endnu.' : 'Ingen af dine kunstnere har annonceret shows i de valgte lande. Vi tjekker igen ved næste opdatering.'}</p></div>`;
   }
-  const STATUS = { cancelled: ['Aflyst', 'bad'], postponed: ['Udskudt', 'soon'], rescheduled: ['Flyttet', 'soon'], offsale: ['Ikke til salg', ''] };
+  const STATUS = { soldout: ['Udsolgt', 'soon'], cancelled: ['Aflyst', 'bad'], postponed: ['Udskudt', 'soon'], rescheduled: ['Flyttet', 'soon'], offsale: ['Ikke til salg', ''] };
   return groupByMonth(items).map(([k, list]) => `
     <section class="group">
       <div class="group-head"><h3>${esc(fmt.monthYear.format(parseDay(k + '-01')))}</h3><span>${list.length} ${list.length === 1 ? 'KONCERT' : 'KONCERTER'}</span></div>
@@ -957,7 +957,7 @@ function viewSettings() {
     </div>
     <div class="card">
       <h3>Datakilder</h3>
-      <p>Udgivelser: ${[state.sources.spotify && 'Spotify', (state.sources.apple || state.manual.length) && 'Apple Music-kataloget'].filter(Boolean).join(' og ') || 'Apple Music og Spotify'}. Koncerter: Ticketmaster${Venues.enabled() ? ' samt programmerne hos VEGA, Amager Bio, Loppen, Royal Arena, K.B. Hallen, DR Koncerthuset, GAFFA, spillesteder i Malmö og Barclays Arena i Hamburg' : ''}. Koncerter, der hverken sælges via Ticketmaster eller står hos disse, kan mangle.</p>
+      <p>Udgivelser: ${[state.sources.spotify && 'Spotify', (state.sources.apple || state.manual.length) && 'Apple Music-kataloget'].filter(Boolean).join(' og ') || 'Apple Music og Spotify'}. Koncerter: Ticketmaster${Venues.enabled() ? ' samt programmerne hos VEGA, Amager Bio, Loppen, Royal Arena, K.B. Hallen, DR Koncerthuset, Malmö Arena, Malmö Live, Plan B, Babel, Slagthuset og Barclays Arena i Hamburg' : ''}. Koncerter, der hverken sælges via Ticketmaster eller står hos disse, kan mangle.</p>
       <p>Data gemmes kun på denne enhed og opdateres automatisk, når de er mere end 12 timer gamle.</p>
       <div class="actions">
         <button class="btn" data-action="hard-refresh">${I.refresh}Opdater alt nu</button>
