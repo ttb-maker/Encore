@@ -246,6 +246,21 @@ async function malmoArena() {
 
 // Malmö Live: eventkort i HTML (Drupal)
 async function malmoLive() {
+  // Først den åbne datakilde (hele programmet), ellers HTML
+  try {
+    const list = await get('https://malmolive.se/api/events', { json: true, ms: 12000 });
+    if (Array.isArray(list) && list.length) {
+      return {
+        url: 'malmolive.se/api/events',
+        events: list.map(e => ({
+          title: decode(e.title), performers: [e.field_keywords_target_id].filter(Boolean).map(decode),
+          date: String(e.field_date_time || '').slice(0, 10), time: timeOf(String(e.field_date_time || '').slice(11)),
+          venue: `Malmö Live${e.field_venue ? ', ' + decode(e.field_venue) : ''}`,
+          url: abs(e.view_node, 'https://malmolive.se/'), status: e.sold_out === '1' ? 'soldout' : '',
+        })),
+      };
+    }
+  } catch {}
   let lastErr;
   for (const url of ['https://malmolive.se/program', 'https://malmolive.se/']) {
     try {
@@ -281,6 +296,23 @@ async function babel() {
 // Slagthuset: eventkort i HTML (Next.js)
 async function slagthuset() {
   let found = [], used = '';
+  // Den åbne datakilde (WordPress bag siden)
+  try {
+    const list = await get('https://slagthuset.se/api/events', { json: true, ms: 12000 });
+    if (Array.isArray(list)) {
+      found = list.map(e => {
+        const a = e.acf || {}, d = String(a.startdatum || '');
+        return {
+          title: decode(e.title && e.title.rendered), performers: [],
+          date: /^\d{8}$/.test(d) ? `${d.slice(0, 4)}-${d.slice(4, 6)}-${d.slice(6, 8)}` : '',
+          time: timeOf(a.borjar) || timeOf(a.oppnar),
+          venue: `Slagthuset${a.plats && a.plats[0] && a.plats[0].name ? ', ' + decode(a.plats[0].name) : ''}`,
+          url: e.slug ? `https://slagthuset.se/events/${e.slug}` : '',
+        };
+      });
+      used = 'slagthuset.se/api/events';
+    }
+  } catch {}
   for (const url of ['https://slagthuset.se/events', 'https://slagthuset.se/']) {
     try {
       const html = await get(url, { ms: 12000 });
@@ -289,10 +321,30 @@ async function slagthuset() {
         const d = decode(m[3]).match(/(\d{1,2})\s+([a-zåäö]+)\.?\s+(\d{4})?/i);
         ev.push({ title: decode(m[2]), performers: [], date: d ? ymd(d[1], d[2], d[3]) : '', time: '', venue: 'Slagthuset', url: abs(m[1], url) });
       }
-      if (ev.length > found.length) { found = ev; used = url; }
+      // Læg sammen med datakilden; dubletter fjernes senere
+      found = found.concat(ev); if (!used && ev.length) used = url;
     } catch {}
   }
   return { url: used || 'slagthuset.se', events: found };
+}
+
+// Plan B: åben datakilde
+const localDate = (iso, tz) => { try { return new Intl.DateTimeFormat('sv-SE', { timeZone: tz, year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date(iso)); } catch { return String(iso || '').slice(0, 10); } };
+async function planB() {
+  const list = await get('https://www.planbmalmo.com/api/eventsEdge?', { json: true, ms: 12000 });
+  return {
+    url: 'planbmalmo.com/api/eventsEdge',
+    events: (Array.isArray(list) ? list : []).filter(e => !e.custom_fields || e.custom_fields.published !== false).map(e => {
+      const c = e.custom_fields || {};
+      const start = c.show_start_time || e.start_time;
+      return {
+        title: decode(e.name), performers: [],
+        date: localDate(start, 'Europe/Stockholm'), time: cphTime(start),
+        venue: 'Plan B', url: c.ticketUrl || 'https://www.planbmalmo.com/',
+        status: c.soldOut ? 'soldout' : /cancel/i.test(c.eventStatus || '') ? 'cancelled' : '',
+      };
+    }),
+  };
 }
 
 const SOURCES = [
@@ -306,7 +358,7 @@ const SOURCES = [
   // Sverige (Malmö)
   { id: 'malmoarena', name: 'Malmö Arena', city: 'Malmö', country: 'SE', run: malmoArena },
   { id: 'malmolive', name: 'Malmö Live', city: 'Malmö', country: 'SE', run: malmoLive },
-  { id: 'planb', name: 'Plan B', city: 'Malmö', country: 'SE', run: generic(['https://www.planbmalmo.com/', 'https://planbmalmo.com/']) },
+  { id: 'planb', name: 'Plan B', city: 'Malmö', country: 'SE', run: planB },
   { id: 'babel', name: 'Babel', city: 'Malmö', country: 'SE', run: babel },
   { id: 'slagthuset', name: 'Slagthuset', city: 'Malmö', country: 'SE', run: slagthuset },
   // Tyskland
