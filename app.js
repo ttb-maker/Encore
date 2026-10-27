@@ -5,7 +5,7 @@
 const CFG = Object.assign({
   appleTokenEndpoint: '', appleDeveloperToken: '',
   spotifyClientId: '', spotifyRedirectUri: '',
-  ticketmasterProxy: '', ticketmasterApiKey: '',
+  ticketmasterProxy: '', ticketmasterApiKey: '', venuesEndpoint: '',
   countries: ['DK', 'SE', 'DE'], storefront: 'dk', demoOnly: false,
 }, window.ENCORE_CONFIG || {});
 
@@ -481,6 +481,46 @@ const TM = {
   },
 };
 
+/* ---------- Spillesteder (programmer hentet af api/venues.js) ---------- */
+const Venues = {
+  enabled: () => !!CFG.venuesEndpoint,
+  events: store.get('c:venues', { v: [] }).v,
+  async load(maxAge) {
+    const c = cache.get('venues', maxAge);
+    if (c) return (this.events = c);
+    const r = await fetch(CFG.venuesEndpoint);
+    if (!r.ok) throw new Error('Spillesteder svarede ' + r.status);
+    const d = await r.json();
+    this.events = (d.events || []).map(e => ({ t: e.title, p: e.performers || [], d: e.date, h: e.time || '', v: e.venue, c: e.city, n: e.country, u: e.url, s: e.source }));
+    cache.set('venues', this.events);
+    this._memo = null;
+    return this.events;
+  },
+  // Find koncerter, hvor en af dine kunstnere står i titlen eller på plakaten
+  matches() {
+    const arts = visibleArtists().map(a => ({ a, k: norm(a.name) })).filter(x => x.k.length >= 2);
+    const sig = this.events.length + '|' + arts.map(x => x.k).join(',');
+    if (this._memo && this._memo.sig === sig) return this._memo.out;
+    const out = {};
+    for (const e of this.events) {
+      if (!CFG.countries.includes(e.n)) continue;
+      const title = norm(e.t), perf = e.p.map(norm);
+      const hay = ' ' + [title, ...perf].join(' ') + ' ';
+      for (const { a, k } of arts) {
+        const hit = k.length < 4
+          ? perf.includes(k) || title === k || title.startsWith(k + ' ')
+          : hay.includes(' ' + k + ' ');
+        if (hit) (out[a.key] ||= []).push({
+          id: 'v' + e.s + e.d + title.slice(0, 40), artist: a.name, artistKey: a.key, name: e.t,
+          date: e.d, time: e.h, venue: e.v, city: e.c, country: e.n, status: 'onsale', url: e.u, source: e.s,
+        });
+      }
+    }
+    this._memo = { sig, out };
+    return out;
+  },
+};
+
 /* ---------- Kunstnere ---------- */
 function mergeArtists(lists) {
   const m = new Map();
@@ -598,6 +638,7 @@ async function refreshAll(force = false) {
         }
         tick();
       }),
+      Venues.enabled() && Venues.load(maxEv).catch(() => {}).then(scheduleRender),
       doConcerts && pool(list, 2, async a => {
         if (!state.concertsBlocked) {
           try { state.ev[a.key] = await concertsFor(a, maxEv); }
@@ -650,10 +691,17 @@ function filteredReleases() {
 function allConcerts() {
   const vis = new Set(visibleArtists().map(a => a.key));
   const seen = new Set(), out = [];
-  for (const [k, list] of Object.entries(state.ev)) {
-    if (!vis.has(k)) continue;
-    for (const e of list) { if (!seen.has(e.id) && daysFromToday(e.date) >= 0) { seen.add(e.id); out.push(e); } }
-  }
+  const sameShow = new Set();
+  const add = (k, list) => {
+    if (!vis.has(k)) return;
+    for (const e of list) {
+      const show = k + '|' + e.date; // samme kunstner samme dag = samme koncert
+      if (seen.has(e.id) || sameShow.has(show) || daysFromToday(e.date) < 0) continue;
+      seen.add(e.id); sameShow.add(show); out.push(e);
+    }
+  };
+  for (const [k, list] of Object.entries(state.ev)) add(k, list);
+  if (Venues.enabled()) for (const [k, list] of Object.entries(Venues.matches())) add(k, list);
   return out.sort((x, y) => (x.date + x.time).localeCompare(y.date + y.time));
 }
 function filteredConcerts() {
@@ -871,9 +919,11 @@ function listArtists() {
   const q = norm(state.f.qa);
   const items = state.artists.filter(a => !q || a.key.includes(q));
   if (!items.length) return `<div class="empty"><b>${state.artists.length ? 'Ingen match' : 'Ingen kunstnere endnu'}</b><p>${state.artists.length ? 'Prøv et andet navn.' : 'Forbind en musiktjeneste under Konto, eller tilføj kunstnere ovenfor.'}</p></div>`;
+  const evCount = {};
+  for (const e of allConcerts()) evCount[e.artistKey] = (evCount[e.artistKey] || 0) + 1;
   return items.slice(0, state.limit * 2).map(a => {
     const hidden = state.hidden.has(a.key);
-    const nr = (state.rel[a.key] || []).length, ne = (state.ev[a.key] || []).length;
+    const nr = (state.rel[a.key] || []).length, ne = evCount[a.key] || 0;
     return `<div class="row" style="${hidden ? 'opacity:.5' : ''}">
       ${art(a.image, a.name, 'round')}
       <div class="row-main"><div class="row-title">${esc(a.name)}</div>
@@ -907,7 +957,7 @@ function viewSettings() {
     </div>
     <div class="card">
       <h3>Datakilder</h3>
-      <p>Udgivelser: ${[state.sources.spotify && 'Spotify', (state.sources.apple || state.manual.length) && 'Apple Music-kataloget'].filter(Boolean).join(' og ') || 'Apple Music og Spotify'}. Koncerter: Ticketmaster (Danmark, Sverige og Tyskland). Koncerter, der kun sælges gennem andre billetsælgere, kan mangle.</p>
+      <p>Udgivelser: ${[state.sources.spotify && 'Spotify', (state.sources.apple || state.manual.length) && 'Apple Music-kataloget'].filter(Boolean).join(' og ') || 'Apple Music og Spotify'}. Koncerter: Ticketmaster${Venues.enabled() ? ' samt programmerne hos VEGA, Amager Bio, Loppen, Royal Arena, K.B. Hallen, DR Koncerthuset, GAFFA, spillesteder i Malmö og Barclays Arena i Hamburg' : ''}. Koncerter, der hverken sælges via Ticketmaster eller står hos disse, kan mangle.</p>
       <p>Data gemmes kun på denne enhed og opdateres automatisk, når de er mere end 12 timer gamle.</p>
       <div class="actions">
         <button class="btn" data-action="hard-refresh">${I.refresh}Opdater alt nu</button>

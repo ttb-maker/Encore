@@ -19,6 +19,9 @@ window.ENCORE_CONFIG = {
   ticketmasterProxy: '/api/tm',
   ticketmasterApiKey: '',
 
+  // Koncerter hentet direkte fra spillestedernes egne hjemmesider (api/venues.js). Tom = slået fra.
+  venuesEndpoint: '/api/venues',
+
   // Lande, der vises koncerter fra
   countries: ['DK', 'SE', 'DE'],
 
