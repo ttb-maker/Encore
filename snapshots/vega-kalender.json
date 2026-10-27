@@ -1,0 +1,694 @@
+{
+ "url": "https://vega.dk/kalender",
+ "status": 200,
+ "err": "",
+ "finalUrl": "https://vega.dk/",
+ "calls": [
+  {
+   "url": "https://consentcdn.cookiebot.com/consentconfig/2fea3a3b-2446-49ea-91bb-01f9126fdb99/settings.json",
+   "method": "GET",
+   "post": "",
+   "status": 200,
+   "ct": "application/json",
+   "body": "{\"widget\":{\"enabled\":false,\"position\":{\"position\":\"bottom-left\",\"distanceVerticalPx\":10,\"distanceHorizontalPx\":10},\"theme\":{\"closed\":{\"backgroundColor\":\"#000000\",\"foregroundColor\":\"#FFFFFF\"},\"opened\":{\"backgroundColor\":\"#FFFFFF\",\"foregroundColor\":\"#141414\",\"highlightColor\":\"#1032CF\",\"shadeColor\":\"#D6D6D6\",\"changeBackgroundColor\":\"#1032CF\",\"changeTextColor\":\"#FFFFFF\",\"changeBorderColor\":\"#1032CF\",\"withdrawBackgroundColor\":\"#FFFFFF\",\"withdrawTextColor\":\"#141414\",\"withdrawBorderColor\":\"#1032CF\",\"detailsBackgroundColor\":\"#F2F2F2\"}},\"content\":{\"cultures\":[\"en\",\"da\"],\"default\":\"da\",\"autodetectLanguage\":true}}}"
+  },
+  {
+   "url": "https://vega.dk/_next/data/5QPHQRPDaEt8qA8o0VheM/index.json",
+   "method": "GET",
+   "post": "",
+   "status": 200,
+   "ct": "",
+   "body": "{}"
+  },
+  {
+   "url": "https://vega.dk/_next/data/5QPHQRPDaEt8qA8o0VheM/event/alex-vargas-ekstrakoncert-2026-10-28.json?slug=alex-vargas-ekstrakoncert-2026-10-28",
+   "method": "GET",
+   "post": "",
+   "status": 200,
+   "ct": "",
+   "body": "{}"
+  },
+  {
+   "url": "https://vega.dk/_next/data/5QPHQRPDaEt8qA8o0VheM/event/the-kilimanjaro-darkjazz-ensemble-2026-10-27.json?slug=the-kilimanjaro-darkjazz-ensemble-2026-10-27",
+   "method": "GET",
+   "post": "",
+   "status": 200,
+   "ct": "",
+   "body": "{}"
+  },
+  {
+   "url": "https://vega.dk/_next/data/5QPHQRPDaEt8qA8o0VheM/event/osten-2027-04-16.json?slug=osten-2027-04-16",
+   "method": "GET",
+   "post": "",
+   "status": 200,
+   "ct": "",
+   "body": "{}"
+  },
+  {
+   "url": "https://vega.dk/_next/static/css/9b7e656ca6dd906a.css",
+   "method": "GET",
+   "post": "",
+   "status": 200,
+   "ct": "text/css; charset=UTF-8",
+   "body": "._jnroanacrq{margin:0 calc(-10 * var(--unit--px,1px));padding:calc(5 * var(--unit--px,1px)) calc(10 * var(--unit--px,1px));min-height:calc(20 * var(--unit--px,1px));background-color:initial;border-radius:calc(3 * var(--unit--px,1px));display:flex;align-items:center;gap:calc(18 * var(--unit--px,1px));font-family:var(--neue-haas--medium--font-family,\"neue-haas-grotesk-display\",sans-serif);font-weight:var(--neue-haas--medium--font-weight,600);font-size:calc(24 * var(--unit--px,1px));color:rgba(var(--text-primary--rgb,var(--gray-100--rgb,31 31 31))/var(--text-primary--alpha,var(--gray-100--alpha,1)));cursor:pointer;transition:background-color .1s linear}:where(._jnroanacrq>:first-child){position:relative}:where(._jnroanacrq:focus){outline:none}:where(._jnroanacrq:focus-visible){outline:none}:where(._jnroanacrq:focus>:first-child):after{content:\"\";position:absolute;top:calc(-1 * calc(4 * var(--unit--px,1px)));left:calc(-1 * calc(4 * var(--unit--px,1px)));right:calc(-1 * calc(4 * var(--unit--px,1px)));bottom:calc(-1 * calc(4 * var(--unit--px,1px)));z-index:10;border:calc(2 * var(--unit--px,1px)) solid rgb(var(--outline--rgb,var(--primary--rgb,91 95 168)));border-radius:0;pointer-events:none}:where(._jnroanacrq:focus-visible>:first-child):after{position:absolute;top:calc(-1 * calc(4 * var(--unit--px,1px)));left:calc(-1 * calc(4 * var(--unit--px,1px)));right:calc(-1 * calc(4 * var(--unit--px,1px)));bottom:calc(-1 * calc(4 * var(--unit--px,1px)));z-index:10;border:calc(2 * var(--unit--px,1px)) solid rgb(var(--outline--rgb,var(--primary--rgb,91 95 168)));border-radius:0;pointer-events:none}:where(._jnroanacrq:focus:not(:focus-visible)>:first-child):after{content:none}._jnroanacrq:hover{background-color:rgba(var(--gray-6--rgb,240 240 241)/var(--gray-6--alpha,1))}._jnrcvpqsnb{position:relative;z-index:2;height:calc(20 * var(--unit--px,1px));width:calc(20 * var(--unit--px,1px));display:flex;flex-shrink:0;justify-content:center;align-items:center;color:rgba(var(--primary-surface--default--color--rgb,var(--text-inactive--rgb,var(--gray-0--rgb,255 255 255)))/var(--primary-surface--default--color--alpha,var(--text-inactive--alpha,var(--gray-0--alpha,1))))}._jnrcvpqsnb:before{content:\"\";position:absolute;top:0;left:0;right:0;bottom:0;z-index:-1;background-color:initial;border:calc(1 * var(--unit--px,1px)) solid rgba(var(--primary--rgb,91 95 168)/var(--primary--alpha,1));border-radius:inherit;transition:background-color .1s linear,border-color .1s linear,filter .1s linear}._jnrcvpqsnb svg{opacity:0;transform:scale(.5);transition:opacity .1s linear,transform .1s cubic-bezier(.5,1,.89,1)}._jnrcvpqsnb._jnrt142kiyi:before{background-color:rgba(var(--primary-surface--default--background--rgb,91 95 168)/var(--primary-surface--default--background--alpha,1));border-color:rgba(var(--primary-surface--default--background--rgb,91 95 168)/var(--primary-surface--default--background--alpha,1))!important}._jnroanacrq:hover ._jnrcvpqsnb._jnrt142kiyi:before{background-color:rgba(var(--primary-surface--hover--background--rgb,73 77 135)/var(--primary-surface--hover--background--alpha,1));border-color:rgba(var(--primary-surface--hover--background--rgb,73 77 135)/var(--primary-surface--hover--background--alpha,1))!important}._jnrcvpqsnb._jnrt142kiyi svg{opacity:1;transform:scale(1)}.gupwkpw1hn{position:sticky;top:calc(110 * var(--unit--px,1px));padding-block:calc(20 * var(--unit--px,1px))}@media screen and (max-width:62.4375em){.gupwkpw1hn{margin-top:0;padding-bottom:0!important;max-height:calc(400 * var(--unit--px,1px));width:100%;transition:aspect-ratio 325ms cubic-bezier(.5,1,.89,1),margin-top 325ms cubic-bezier(.5,1,.89,1);aspect-ratio:350/160}.gupwkpw1hn.expanded{transition:aspect-ratio .2s cubic-bezier(.5,1,.89,1),margin-top .2s cubic-bezier(.5,1,.89,1);margin-top:calc(-50 * var(--unit--px,1px));aspect-ratio:350/265}}.gupc13gczr{position:absolute;top:calc(10 * var(--unit--px,1px));left:0;right:0;display:flex;justify-content:space-between;font-size:calc(18 * var(--unit--px,1px));transform:translateY(-100%)}.gupc13gczr-enter{opacity:0}.gupc13gczr-enter-active{opacity:1;transition:opacity .2s linear 125ms}.gupc13gczr-exit{opacity:1}.gupc13gczr-exit-active{opacity:0;transition:opacity .2s linear}@media screen and (max-width:62.4375em){.gupt13arqms{height:100%}}.gupt13arqms-enter{position:relative;z-index:2;opacity:0}.gupt13arqms-enter-active{opacity:1;transition:opacity .2s linear 125ms}.gupt13arqms-enter-active.expanded{transition:opacity .2s linear}.gupt13arqms-enter-running{height:100%}.gupt13arqms-exit{position:absolute;top:0;left:0;right:0;z-index:1}.gupt13arqms-exit-running{bottom:0}.gupc1m2ptt6{position:relative;max-height:inherit;height:100%;overflow:hidden;transition:margin .15s cubic-bezier(.5,1,.89,1)}@media screen and (max-width:62.4375em){.gupc1m2ptt6{margin-inline:0;height:100%!important}.gupc1m2ptt6.expanded{margin-inline:calc(-1 * var(--page-boundary--offsetLeft,0px)) calc(-1 * var(--page-boundary--offsetRight,0px))}}@media screen and (min-width:62.5em){.gupc1m2ptt6:has(.gupt13arqms-enter-active){transition:margin .15s cubic-bezier(.5,1,.89,1),height 325ms cubic-bezier(.5,1,.89,1)}}.gupc1s5wvi9{overflow:hidden}@media screen and (max-width:62.4375em){.gupc1s5wvi9{height:100%}}@media screen and (min-width:62.5em){.gupc1s5wvi9{height:var(--event--description--height,247px)}.gupt13arqms-enter-running .gupc1s5wvi9,.gupt13arqms-exit-running .gupc1s5wvi9{height:100%}}.gupc1s5wvi9 ._na6i9x09mu{height:100%;width:100%;transition:opacity .15s linear,transform .2s cubic-bezier(.455,.03,.515,.955)}.gupbo7xi5c{position:absolute;top:calc(40 * var(--unit--px,1px));left:calc(-20 * var(--unit--px,1px));z-index:2;padding-inline:calc(22 * var(--unit--px,1px)) calc(50 * var(--unit--px,1px));box-sizing:border-box;height:calc(37 * var(--unit--px,1px));min-width:calc(125 * var(--unit--px,1px));background:rgba(var(--badge--surface--background--rgb,var(--gray-100-surface--background--rgb,var(--gray-100--rgb,31 31 31)))/var(--badge--sur\n…[afkortet]"
+  },
+  {
+   "url": "https://vega.dk/_next/static/css/f8cb267c558937a2.css",
+   "method": "GET",
+   "post": "",
+   "status": 200,
+   "ct": "text/css; charset=UTF-8",
+   "body": "._bqnsgrq3va{padding-bottom:calc(70 * var(--unit--px,1px))}._bqnsgrq3va.calendar{margin-bottom:calc(-10 * var(--unit--px,1px))}@media screen and (max-width:47.9375em){._bqnsgrq3va.calendar{margin-bottom:calc(-15 * var(--unit--px,1px))}}._bqnwwq3zrt{position:sticky;top:0;z-index:30;margin-inline:calc(-1 * var(--page-boundary--offsetLeft,0px)) calc(-1 * var(--page-boundary--offsetRight,0px));padding-inline:var(--page-boundary--offsetLeft,0) var(--page-boundary--offsetRight,0);background:rgba(var(--primary-surface--default--background--rgb,91 95 168)/var(--primary-surface--default--background--alpha,1));border-color:rgba(var(--primary-surface--default--border--rgb,0 0 0)/var(--primary-surface--default--border--alpha,0));color:rgba(var(--primary-surface--default--color--rgb,var(--text-inactive--rgb,var(--gray-0--rgb,255 255 255)))/var(--primary-surface--default--color--alpha,var(--text-inactive--alpha,var(--gray-0--alpha,1))));border-bottom:calc(1 * var(--unit--px,1px)) solid rgba(var(--gray-25--rgb,195 195 195)/.34)}._bqnf289e5y{box-sizing:border-box;height:calc(100 * var(--unit--px,1px));justify-content:flex-end;align-items:flex-end}._bqnf289e5y._bqnf289e5y{display:flex!important}._bqnf289e5y>:first-child{border-right:calc(1 * var(--unit--px,1px)) solid rgba(var(--gray-25--rgb,195 195 195)/.34);flex-grow:1}._bqnf289e5y>:first-child>:first-child{padding-left:0!important}@media screen and (max-width:74.9375em){._bqnf289e5y>:first-child{border-right:none}}._bqnf289e5y>:nth-child(2){border-right:calc(1 * var(--unit--px,1px)) solid rgba(var(--gray-25--rgb,195 195 195)/.34);flex-shrink:0;flex-grow:0;flex-basis:clamp(calc(225 * var(--unit--px,1px)),calc(-30.75 * var(--unit--px,1px)) + calc(25 * var(--unit--vw,1vw)),calc(269 * var(--unit--px,1px)))}@media screen and (max-width:74.9375em){._bqnf289e5y>:nth-child(2){border-right:none}}._bqnf289e5y>:nth-child(3){border-right:calc(1 * var(--unit--px,1px)) solid rgba(var(--gray-25--rgb,195 195 195)/.34);flex-shrink:0;flex-grow:0;flex-basis:clamp(calc(400 * var(--unit--px,1px)),calc(-390.5 * var(--unit--px,1px)) + calc(77.27272727272727 * var(--unit--vw,1vw)),calc(536 * var(--unit--px,1px)))}@media screen and (max-width:62.4375em){._bqnf289e5y>:nth-child(3){border-right:none}}._bqnf18nrwal{position:relative;box-sizing:border-box;height:100%;min-width:0;display:flex;justify-content:space-between;align-items:flex-end;gap:calc(30 * var(--unit--px,1px))}._bqnf1cxosgk{padding-bottom:calc(20 * var(--unit--px,1px))}._bqnf1cxosgk:first-child{padding-left:calc(30 * var(--unit--px,1px))}._bqnf1cxosgk:last-child{padding-right:calc(30 * var(--unit--px,1px))}._bqnf18nrwal:last-child ._bqnf1cxosgk:last-child{padding-right:calc(calc(30 * var(--unit--px,1px)) + calc(45 * var(--unit--px,1px)) * var(--filter-offset-right,0));transition:padding-right .15s cubic-bezier(.5,1,.89,1)}._bqng1dhypvj{box-sizing:border-box;width:100%}._bqns1ccl274._bqns1ccl274{position:static}._bqnf1czlzeq{position:relative}._bqnf1czlzeq:before{content:\"\";position:absolute;left:0;right:0;bottom:calc(-2 * var(--unit--px,1px));height:calc(3 * var(--unit--px,1px));background-color:rgba(var(--gray-0--rgb,255 255 255)/var(--gray-0--alpha,1));opacity:0;transition:opacity .1s linear;pointer-events:none}._bqnf1czlzeq:has(:focus-visible):before,._bqnf1czlzeq:has(:hover):before{opacity:1}._bqnvpxx98j{height:calc(40 * var(--unit--px,1px));width:-moz-fit-content;width:fit-content;display:flex;justify-content:space-between;gap:calc(30 * var(--unit--px,1px))}@media screen and (max-width:40.5625em){._bqnvpxx98j{gap:0}}._bqnv1ui784t{display:flex;flex-shrink:0;align-items:center;font-family:var(--neue-haas--default--font-family,\"neue-haas-grotesk-display\",sans-serif);font-weight:var(--neue-haas--default--font-weight,500);font-size:calc(24 * var(--unit--px,1px));opacity:.5;transition:opacity .15s linear}:where(._bqnv1ui784t){position:relative}:where(._bqnv1ui784t:focus){outline:none}:where(._bqnv1ui784t:focus-visible){outline:none}:where(._bqnv1ui784t:focus):after{content:\"\";position:absolute;top:calc(-1 * calc(4 * var(--unit--px,1px)));left:calc(-1 * calc(4 * var(--unit--px,1px)));right:calc(-1 * calc(4 * var(--unit--px,1px)));bottom:calc(-1 * calc(4 * var(--unit--px,1px)));z-index:10;border:calc(2 * var(--unit--px,1px)) solid rgba(var(--primary-surface--default--color--rgb,var(--text-inactive--rgb,var(--gray-0--rgb,255 255 255)))/var(--primary-surface--default--color--alpha,var(--text-inactive--alpha,var(--gray-0--alpha,1))));border-radius:0;pointer-events:none}:where(._bqnv1ui784t:focus-visible):after{position:absolute;top:calc(-1 * calc(4 * var(--unit--px,1px)));left:calc(-1 * calc(4 * var(--unit--px,1px)));right:calc(-1 * calc(4 * var(--unit--px,1px)));bottom:calc(-1 * calc(4 * var(--unit--px,1px)));z-index:10;border:calc(2 * var(--unit--px,1px)) solid rgba(var(--primary-surface--default--color--rgb,var(--text-inactive--rgb,var(--gray-0--rgb,255 255 255)))/var(--primary-surface--default--color--alpha,var(--text-inactive--alpha,var(--gray-0--alpha,1))));border-radius:0;pointer-events:none}:where(._bqnv1ui784t:focus:not(:focus-visible)):after{content:none}._bqnv1ui784t.active,._bqnv1ui784t:hover{opacity:1}._bqnl6gnewq{padding-left:calc(13 * var(--unit--px,1px))}@media screen and (min-width:62.5em) and (max-width:85em){._bqnvpxx98j[data-context=vega] ._bqnl6gnewq{display:none}}._jnrd1820mvx{min-width:calc(196 * var(--unit--px,1px))}._jnry8a0ltf{height:calc(68 * var(--unit--px,1px))}._jnrn1idm81g,._jnry8a0ltf{display:flex;align-items:center}._jnrn1idm81g{padding-inline:calc(30 * var(--unit--px,1px));height:100%;flex-shrink:0;justify-content:center;transition:opacity .1s linear,color .1s linear}:where(._jnrn1idm81g){position:relative}:where(._jnrn1idm81g:focus){outline:none}:where(._jnrn1idm81g:focus-visible){outline:none}:where(._jnrn1idm81g:focus):after{content:\"\";position:absolute;top:calc(-1 * calc(0 * var(--unit--px,1px)));left:calc(-1 * calc(0 * var(--unit--px,1px)));right:calc(-1 * calc(0 * var(--unit--px,1\n…[afkortet]"
+  },
+  {
+   "url": "https://vega.dk/_next/static/css/8202efef81e9f65b.css",
+   "method": "GET",
+   "post": "",
+   "status": 200,
+   "ct": "text/css; charset=UTF-8",
+   "body": "._bqnp1x5vn5y{position:relative}._bqnc6wq4z6{--outline--rgb:var(--primary-surface--default--color--rgb,var(--text-inactive--rgb,var(--gray-0--rgb,255 255 255)));margin-top:calc(-131 * var(--unit--px,1px));margin-right:calc(-1 * var(--page-boundary--offsetRight,0px));margin-left:calc(-1 * var(--page-boundary--offsetLeft,0px));padding-right:var(--page-boundary--offsetRight,0);padding-left:var(--page-boundary--offsetLeft,0);background:rgba(var(--primary-surface--default--background--rgb,91 95 168)/var(--primary-surface--default--background--alpha,1));color:rgba(var(--primary-surface--default--color--rgb,var(--text-inactive--rgb,var(--gray-0--rgb,255 255 255)))/var(--primary-surface--default--color--alpha,var(--text-inactive--alpha,var(--gray-0--alpha,1))))}._bqnc118tsru{position:relative;z-index:11;padding-top:calc(131 * var(--unit--px,1px))}._bqng1tojruz{position:absolute;top:0;bottom:10px;z-index:10;width:calc(1 * var(--unit--px,1px));background:rgba(var(--gray-25--rgb,195 195 195)/var(--gray-25--alpha,1));opacity:.34}._bqng1tojruz.right{right:0}@media screen and (max-width:62.4375em){._bqng1tojruz.right{display:none}}._bqng1tojruz.middle{right:calc(536 * var(--unit--px,1px))}@media screen and (max-width:74.9375em){._bqng1tojruz.middle{display:none}}._bqng1tojruz.left{top:calc(-135 * var(--unit--px,1px));right:calc(805 * var(--unit--px,1px));z-index:10}@media screen and (max-width:74.9375em){._bqng1tojruz.left{display:none}}@media screen and (min-width:62.5em){._bqnnbdx4f0{border-right:1px solid rgba(var(--gray-60--rgb,112 112 112)/.2)}._bqnnbdx4f0>*{padding-right:calc(70 * var(--unit--px,1px))!important}}@media screen and (max-width:47.9375em){._bqnnbdx4f0{margin-inline:calc(-1 * var(--page-boundary--offsetLeft,0px)) calc(-1 * var(--page-boundary--offsetRight,0px));width:calc(100% + var(--page-boundary--offsetLeft,0px) + var(--page-boundary--offsetRight,0px))}}._bqns1lv9uqi{position:relative;cursor:pointer}._bqns1lv9uqi:before{content:\"\";position:absolute;left:calc(1 * var(--unit--px,1px));right:calc(1 * var(--unit--px,1px));bottom:0;height:calc(1 * var(--unit--px,1px));background:rgba(var(--gray-25--rgb,195 195 195)/var(--gray-25--alpha,1));opacity:.34}@media screen and (min-width:48em) and (max-width:62.4375em){._bqns1lv9uqi:before{right:calc(-30 * var(--unit--px,1px))}}@media screen and (max-width:47.9375em){._bqns1lv9uqi:before{display:none}}._bqnw3vjdr9{display:flex;gap:calc(49 * var(--unit--px,1px));margin-right:calc(-57 * var(--unit--px,1px));margin-left:calc(-1 * var(--page-boundary--offsetLeft,0px))}@media screen and (max-width:47.9375em){._bqnw3vjdr9{margin-inline:calc(-1 * var(--page-boundary--offsetLeft,0px)) calc(-1 * var(--page-boundary--offsetRight,0px));margin-top:calc(-40 * var(--unit--px,1px));background:rgba(var(--primary-surface--default--background--rgb,91 95 168)/var(--primary-surface--default--background--alpha,1));border-color:rgba(var(--primary-surface--default--border--rgb,0 0 0)/var(--primary-surface--default--border--alpha,0));color:rgba(var(--primary-surface--default--color--rgb,var(--text-inactive--rgb,var(--gray-0--rgb,255 255 255)))/var(--primary-surface--default--color--alpha,var(--text-inactive--alpha,var(--gray-0--alpha,1))));flex-direction:column;align-items:center;gap:0}}._bqni1kk1jes{flex-grow:1}._bqntss94ai{position:relative;z-index:30;margin-top:calc(30 * var(--unit--px,1px));padding-right:clamp(calc(0 * var(--unit--px,1px)),calc(555 * var(--unit--px,1px)) + calc(-37.5 * var(--unit--vw,1vw)),calc(45 * var(--unit--px,1px)));box-sizing:border-box;width:var(--frontpage-slider--textDescriptionWidth,calc(411 * var(--unit--px,1px)));display:flex;flex-direction:column;flex-shrink:0;justify-content:space-between}@media screen and (max-width:47.9375em){._bqntss94ai{margin-inline:calc(20 * var(--unit--px,1px));margin-top:calc(-175 * var(--unit--px,1px));padding:calc(25 * var(--unit--px,1px)) calc(30 * var(--unit--px,1px));width:calc(100% - calc(40 * var(--unit--px,1px)));background:rgba(var(--gray-0-surface--background--rgb,var(--gray-0--rgb,255 255 255))/var(--gray-0-surface--background--alpha,var(--gray-0--alpha,1)));border-color:rgba(var(--gray-0-surface--border--rgb,0 0 0)/var(--gray-0-surface--border--alpha,0));color:rgba(var(--gray-0-surface--color--rgb,var(--text-primary--rgb,var(--gray-100--rgb,31 31 31)))/var(--gray-0-surface--color--alpha,var(--text-primary--alpha,var(--gray-100--alpha,1))))}}._bqnweynv1y{position:relative;height:max-content;min-width:0;flex-grow:1}@media screen and (max-width:47.9375em){._bqnweynv1y{width:100%}}._bqnflx9zx2{position:absolute;top:0;right:0;z-index:20;color:rgba(var(--gray-25--rgb,195 195 195)/.34);transform:translate(70%,-20.149253731343283%);pointer-events:none}@media screen and (max-width:47.9375em){._bqnflx9zx2{display:none}}._bqnn1e0x6j{position:absolute;top:0;bottom:0;z-index:11;width:calc(120 * var(--unit--px,1px));display:flex;justify-content:center;align-items:center;color:rgba(var(--gray-0--rgb,255 255 255)/var(--gray-0--alpha,1));opacity:0;transition:opacity .15s linear,transform .1s cubic-bezier(.5,1,.89,1)}:where(._bqnn1e0x6j>._na6c1ngeoxx){position:relative}:where(._bqnn1e0x6j:focus){outline:none}:where(._bqnn1e0x6j:focus-visible){outline:none}:where(._bqnn1e0x6j:focus>._na6c1ngeoxx):after{content:\"\";position:absolute;top:calc(-1 * calc(10 * var(--unit--px,1px)));left:calc(-1 * calc(10 * var(--unit--px,1px)));right:calc(-1 * calc(10 * var(--unit--px,1px)));bottom:calc(-1 * calc(10 * var(--unit--px,1px)));z-index:10;border:calc(2 * var(--unit--px,1px)) solid rgb(var(--outline--rgb,var(--primary--rgb,91 95 168)));border-radius:0;pointer-events:none}:where(._bqnn1e0x6j:focus-visible>._na6c1ngeoxx):after{position:absolute;top:calc(-1 * calc(10 * var(--unit--px,1px)));left:calc(-1 * calc(10 * var(--unit--px,1px)));right:calc(-1 * calc(10 * var(--unit--px,1px)));bottom:calc(-1 * calc(10 * var(--unit--px,1px)));z-index:10;border:calc(2 * var(--unit--px,1px)) solid rgb(var(--outline--rgb,var(--primary--rgb,91 \n…[afkortet]"
+  },
+  {
+   "url": "https://vega.dk/_next/static/css/d4942d19207dabdb.css",
+   "method": "GET",
+   "post": "",
+   "status": 200,
+   "ct": "text/css; charset=UTF-8",
+   "body": "._bqnpd6nxyi{position:relative}@media screen and (max-width:47.9375em){._bqnpd6nxyi{margin-block-start:calc(-40 * var(--unit--px,1px))}}._bqnf9wfnud{position:absolute;top:0;right:calc(30 * var(--unit--px,1px));z-index:4;height:calc(130 * var(--unit--px,1px));width:auto;color:rgba(var(--gray-25--rgb,195 195 195)/.34);transform:translateY(-100%);pointer-events:none}@media screen and (max-width:47.9375em){._bqnf9wfnud{height:calc(100 * var(--unit--px,1px))}}._bqnc1534tt{--outline--rgb:var(--primary-surface--default--color--rgb,var(--text-inactive--rgb,var(--gray-0--rgb,255 255 255)));margin-right:calc(-1 * var(--page-boundary--offsetRight,0px));margin-left:calc(-1 * var(--page-boundary--offsetLeft,0px));padding-right:var(--page-boundary--offsetRight,0);padding-left:var(--page-boundary--offsetLeft,0);background:rgba(var(--primary-surface--default--background--rgb,91 95 168)/var(--primary-surface--default--background--alpha,1));color:rgba(var(--primary-surface--default--color--rgb,var(--text-inactive--rgb,var(--gray-0--rgb,255 255 255)))/var(--primary-surface--default--color--alpha,var(--text-inactive--alpha,var(--gray-0--alpha,1))))}._bqncvp7n6k{position:relative;z-index:11}._bqng11ipbvv{position:absolute;top:0;bottom:0;z-index:10;width:calc(1 * var(--unit--px,1px));background:rgba(var(--gray-25--rgb,195 195 195)/var(--gray-25--alpha,1));opacity:.34}._bqng11ipbvv.right{right:0}@media screen and (max-width:62.4375em){._bqng11ipbvv.right{display:none}}._bqng11ipbvv.middle{right:calc(536 * var(--unit--px,1px))}@media screen and (max-width:74.9375em){._bqng11ipbvv.middle{display:none}}._bqng11ipbvv.left{right:calc(805 * var(--unit--px,1px));z-index:10}@media screen and (max-width:74.9375em){._bqng11ipbvv.left{display:none}}@media screen and (min-width:62.5em){._bqnnmd9g26{border-right:1px solid rgba(var(--gray-60--rgb,112 112 112)/.2)}._bqnnmd9g26>*{padding-right:calc(70 * var(--unit--px,1px))!important}}@media screen and (max-width:47.9375em){._bqnnmd9g26{margin-inline:calc(-1 * var(--page-boundary--offsetLeft,0px)) calc(-1 * var(--page-boundary--offsetRight,0px));width:calc(100% + var(--page-boundary--offsetLeft,0px) + var(--page-boundary--offsetRight,0px))}}"
+  },
+  {
+   "url": "https://vega.dk/_next/data/5QPHQRPDaEt8qA8o0VheM/event/superfan-2026-10-28.json?slug=superfan-2026-10-28",
+   "method": "GET",
+   "post": "",
+   "status": 200,
+   "ct": "",
+   "body": "{}"
+  },
+  {
+   "url": "https://vega.dk/_next/data/5QPHQRPDaEt8qA8o0VheM/event/alex-vargas-2026-10-29.json?slug=alex-vargas-2026-10-29",
+   "method": "GET",
+   "post": "",
+   "status": 200,
+   "ct": "",
+   "body": "{}"
+  },
+  {
+   "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=8&frm=0&apvc=1&ae=g&en=page_view&dl=https%3A%2F%2Fvega.dk%2F&scrsrc=www.googletagmanager.com&rnd=1699896990.1793091665&navt=n&npa=1&us_privacy=1YNY&ep.ads_data_redaction=0&gdid=dMWZhNz&gtm=45He6an1v76003295za200zd76003295xeaxf1&gcs=G100&gcd=13p3p3p3p5l1&dma_cps=-&dma=0&tag_exp=115938466~115938468~118897920~118897930~120385423~120469145~120469153~121246026~121246034&tft=1793091664538&tfd=1862&fmt=8",
+   "method": "POST",
+   "post": "",
+   "status": 200,
+   "ct": "",
+   "body": ""
+  },
+  {
+   "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=6&frm=0&apvc=0&tid=AW-368942549&en=page_view&dl=https%3A%2F%2Fvega.dk%2F&scrsrc=www.googletagmanager.com&rnd=1699896990.1793091665&navt=n&npa=1&us_privacy=1YNY&gdid=dMWZhNz&gtm=45be6an1v896520723za20ozb76003295zd76003295xecxf1&gcs=G100&gcd=13p3p3p3p5l1&dma_cps=-&dma=0&tag_exp=115616986~115938466~115938469~118897920~118897930~120213116~120385423~120420415~120469145~120469153~121246026~121246034&tft=1793091664542&tfd=1865&tids=AW-368942549&fmt=8",
+   "method": "POST",
+   "post": "",
+   "status": 200,
+   "ct": "",
+   "body": ""
+  },
+  {
+   "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-Q75QY631FC&gtm=45be6an1v896520723za20ozb76003295zd76003295xf1&_p=1793091663145&gcs=G100&gcd=13p3p3p3p5l1&npa=1&dma_cps=-&dma=0&gdid=dMWZhNz&are=1&cid=2053887195.1793091665&frm=0&ngs=1&pscdl=denied&rcb=6&sr=1280x2000&uaa=arm&uab=64&uafvl=Chromium%3B130.0.6723.31%7CHeadlessChrome%3B130.0.6723.31%7CNot%253FA_Brand%3B99.0.0.0&uam=&uamb=0&uap=iOS&uapv=18_0&uaw=0&ul=da-dk&_s=1&tag_exp=115616986~115938466~115938469~118897920~118897930~120213116~120385423~120420415~120469145~120469153~121246026~121246034&sid=1793091663&sct=1&seg=0&dl=https%3A%2F%2Fvega.dk%2F&dt=VEGA%20-%20koncerter%20i%20verdensklasse%20-%20find%20billetter%20her&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=1879",
+   "method": "POST",
+   "post": "",
+   "status": 204,
+   "ct": "text/plain",
+   "body": ""
+  },
+  {
+   "url": "https://server.vega.dk/g/collect?v=2&tid=G-6NCZ7JPGM2&gtm=45je6an1v897531918za20ozb76003295zd76003295xf1&_p=1793091663145&gcs=G100&gcd=13p3p3p3p5l1&npa=1&dma_cps=-&dma=0&gdid=dMWZhNz&ecid=1927088497&_eu=AAAAAGA&_fplc=0&are=1&cid=2053887195.1793091665&ec_mode=a&frm=0&pscdl=denied&rcb=7&sr=1280x2000&uaa=arm&uab=64&uafvl=Chromium%3B130.0.6723.31%7CHeadlessChrome%3B130.0.6723.31%7CNot%253FA_Brand%3B99.0.0.0&uam=&uamb=0&uap=iOS&uapv=18_0&uaw=0&ul=da-dk&ur=US-CA&sst.rnd=1699896990.1793091665&sst.gch=0&sst.us_privacy=1YNY&sst.tft=1793091663145&sst.lpc=260096906&sst.navt=n&sst.ude=1&gaf=2&_s=1&tag_exp=115616985~115938466~115938469~118897920~118897930~120213116~120385422~120412528~120420414~120469145~120469153~121246026~121246034&sid=1793091664&sct=1&seg=0&dl=https%3A%2F%2Fvega.dk%2F&dt=VEGA%20-%20koncerter%20i%20verdensklasse%20-%20find%20billetter%20her&_tu=BA&en=page_view&_fv=1&_ss=1&gap.sstd=2&tfd=1906&richsstsse",
+   "method": "GET",
+   "post": "",
+   "status": 200,
+   "ct": "text/plain",
+   "body": "event: message\ndata: {\"response\":{\"status_code\":200,\"body\":\"\"}}\n\n"
+  },
+  {
+   "url": "https://vega.dk/api/events?direction=future&genres=&page=2&config=%7B%22depth%22%3A2%2C%22draft%22%3Afalse%2C%22siteContext%22%3A%7B%22locale%22%3A%22da%22%2C%22subsite%22%3A%22VEGA.dk%22%7D%7D",
+   "method": "GET",
+   "post": "",
+   "status": 200,
+   "ct": "application/json; charset=utf-8",
+   "body": "{\"totalDocs\":203,\"limit\":25,\"totalPages\":9,\"page\":2,\"pagingCounter\":26,\"hasPrevPage\":true,\"hasNextPage\":true,\"prevPage\":1,\"nextPage\":3,\"data\":[{\"id\":\"6a1d72656e51966bf6261a0e\",\"title\":\"Eros for you \",\"venue\":{\"id\":\"66104d25fc1370e8315e004c\",\"name\":\"Lille VEGA\",\"sortOrder\":3,\"letter\":\"L\",\"address\":{},\"meta\":{},\"link\":{\"type\":\"custom\"},\"wasMigrated\":true,\"warnings\":[],\"createdAt\":\"2024-04-05T19:12:37.079Z\",\"updatedAt\":\"2026-10-22T07:47:06.299Z\",\"showInFilters\":true},\"price\":225,\"genre\":{\"id\":\"66104d2afc1370e8315e0066\",\"name\":\"Elektronisk\",\"sortOrder\":40,\"wasMigrated\":true,\"warnings\":[],\"createdAt\":\"2024-04-05T19:12:42.929Z\",\"updatedAt\":\"2024-12-03T13:07:16.350Z\",\"gtmKey\":\"Elektronisk\"},\"contributor\":{\"description\":{\"content\":[]}},\"dates\":[{\"date\":\"2026-11-07T12:00:00.000Z\",\"doorsOpenAt\":\"2026-06-01T18:00:00.000Z\",\"time\":\"2026-06-01T19:00:00.000Z\",\"purchaseAtHref\":\"https://www.ticketmaster.dk/event/946250271?language=da-dk&camefrom=vegadk&brand=dk_vega\",\"state\":{\"id\":\"66104d36fc1370e8315e0162\",\"name\":\"Køb\",\"background\":\"rgb(31, 31, 31)\",\"sortOrder\":1,\"wasMigrated\":true,\"warnings\":[],\"createdAt\":\"2024-04-05T19:12:54.236Z\",\"updatedAt\":\"2024-04-05T19:12:54.345Z\",\"includeInExpanded\":false},\"id\":\"6a1d726502bc3d0001caf74c\"}],\"firstDate\":\"2026-11-07T19:00:00.000Z\",\"lastDate\":\"2026-11-07T19:00:00.000Z\",\"ticketSalesStart\":{\"content\":[]},\"content\":[{\"heading\":\"Elektronisk danse-eufori med Eros for you i VEGA\",\"content\":[{\"children\":[{\"text\":\"\"},{\"children\":[{\"text\":\"Eros for you\"}],\"fields\":{\"type\":\"custom\",\"custom_url\":\"https://www.instagram.com/_________eros/\"},\"type\":\"link\"},{\"text\":\" har på rekordtid etableret sig som et af de mest spændende nye navne på den danske elektroniske scene. Til efteråret indtager de Lille VEGA i København til deres største headliner-koncert til dato. \\n\\nDuoen er kendt for deres euforiske elektroniske lyd, der dykker ned i kontrasten mellem melankoli og eufori. Med energiske og opløftende produktioner stræber de efter at skabe en rørende kluboplevelse, hvor publikum er lige så meget en del af koncerten som musikken selv. \\n\\nEros for you’s single ’Dance Without You’ fra sommeren 2025 vakte international opmærksomhed og har med over 1.300.000 streams på Spotify cementeret deres position som frontløbere inden for den spirende Emotional Dance-genre. \\n\\nEros for you sparkede døren ind til 2026 med den dansable ’Only Here For You’, singlen ”Proud of Me” ft. UK-rapperen Chino, samt deres seneste single ”Safe and Sound”.\\n\\nTil deres headliner-koncert i Lille VEGA kan publikum glæde sig til at opleve den helt særlige atmosfære, der kendetegner Eros for you’s liveoptrædener, hvor pumpende bas og sårbar lyrik tillader publikum at give slip.\"}]}],\"settings\":{},\"id\":\"6a1d728079f81abcd4a96d05\",\"blockType\":\"event-text\"}],\"socialMedia\":{\"heading\":\"Varm op til koncerten her\",\"links\":[{\"link\":{\"type\":\"facebook\",\"label\":\"Facebook\",\"url\":\"https://www.facebook.com/profile.php?id=61555692373078\"},\"id\":\"6a1d726502bc3d0001caf74d\"},{\"link\":{\"type\":\"instagram\",\"label\":\"Instagram \",\"url\":\"https://www.instagram.com/_________eros/\"},\"id\":\"6a1d726502bc3d0001caf74e\"},{\"link\":{\"type\":\"youtube\",\"label\":\"YouTube\",\"url\":\"https://www.youtube.com/channel/UC0XC7rzTNCEQscI87SQmOww\"},\"id\":\"6a1d726502bc3d0001caf74f\"},{\"link\":{\"type\":\"facebook\",\"label\":\"Facebook event \",\"url\":\"https://www.facebook.com/events/1490156068818641/?active_tab=about\"},\"id\":\"6a1e90fe9cc2f752268d9049\"}]},\"relatedEvents\":[{\"event\":{\"title\":\"100%WET\",\"slug\":\"100percentwet-2026-11-14\",\"primaryArtist\":null,\"format\":null,\"dates\":[{\"date\":\"2026-11-14T12:00:00.000Z\"}],\"venue\":{\"id\":\"66104d25fc1370e8315e004c\",\"name\":\"Lille VEGA\",\"sortOrder\":3,\"letter\":\"L\",\"address\":{},\"meta\":{},\"link\":{\"type\":\"custom\"},\"wasMigrated\":true,\"warnings\":[],\"createdAt\":\"2024-04-05T19:12:37.079Z\",\"updatedAt\":\"2026-10-22T07:47:06.299Z\",\"showInFilters\":true}}},{\"event\":{\"title\":\"ROYA\",\"slug\":\"roya-2026-12-05\",\"primaryArtist\":null,\"format\":null,\"dates\":[{\"date\":\"2026-12-05T12:00:00.000Z\"}],\"venue\":{\"id\":\"66104d25fc1370e8315e0051\",\"name\":\"Store VEGA\",\"sortOrder\":2,\"letter\":\"S\",\"address\":{},\"meta\":{},\"link\":{\"type\":\"custom\"},\"wasMigrated\":true,\"warnings\":[],\"createdAt\":\"2024-04-05T19:12:37.255Z\",\"updatedAt\":\"2026-10-22T07:46:52.408Z\",\"showInFilters\":true}}},{\"event\":{\"title\":\"Holdo\",\"slug\":\"holdo-2026-12-10\",\"primaryArtist\":null,\"format\":null,\"dates\":[{\"date\":\"2026-12-10T12:00:00.000Z\"}],\"venue\":{\"id\":\"66104d25fc1370e8315e004c\",\"name\":\"Lille VEGA\",\"sortOrder\":3,\"letter\":\"L\",\"address\":{},\"meta\":{},\"link\":{\"type\":\"custom\"},\"wasMigrated\":true,\"warnings\":[],\"createdAt\":\"2024-04-05T19:12:37.079Z\",\"updatedAt\":\"2026-10-22T07:47:06.299Z\",\"showInFilters\":true}}},{\"event\":{\"title\":\"Trentemøller\",\"slug\":\"trentemoller-2027-03-20\",\"primaryArtist\":null,\"format\":null,\"dates\":[{\"date\":\"2027-03-20T12:00:00.000Z\"}],\"venue\":{\"id\":\"66104d25fc1370e8315e0051\",\"name\":\"Store VEGA\",\"sortOrder\":2,\"letter\":\"S\",\"address\":{},\"meta\":{},\"link\":{\"type\":\"custom\"},\"wasMigrated\":true,\"warnings\":[],\"createdAt\":\"2024-04-05T19:12:37.255Z\",\"updatedAt\":\"2026-10-22T07:46:52.408Z\",\"showInFilters\":true}}}],\"media\":{\"card\":{\"focalX\":50.056987115956396,\"focalY\":13.230921704658078,\"height\":1200,\"width\":1500,\"url\":\"https://payload.vega.dk/media/VEGA_Kalender_Erosforyou_2026.jpg\",\"sizes\":{\"thumbnail\":{\"url\":\"https://payload.vega.dk/media/VEGA_Kalender_Erosforyou_2026-414x340.jpg\"},\"thumbnailx2\":{\"url\":\"https://payload.vega.dk/media/VEGA_Kalender_Erosforyou_2026-818x680.jpg\"},\"opengraph\":{\"url\":\"https://payload.vega.dk/media/VEGA_Kalender_Erosforyou_2026-1200x630.jpg\"},\"xsmall\":{\"url\":\"https://payload.vega.dk/media/VEGA_Kalender_Erosforyou_2026-400x320.jpg\"},\"small\":{\"url\":\"https://payload.vega.dk/media/VEGA_Kalender_Erosforyou_2026-800x640.jpg\"},\"medium\":{\"url\":\"https://payload.vega.dk/media/VEGA_Kalender_Erosforyou_2026-1200x960.jpg\"},\"large\":{\"url\":\"https://payload.vega.dk/media/VEGA_Kalender_Erosforyou_2026-1500x1200.jpg\"},\"xlarge\":{\"url\":\"https://payload.vega.dk/media/VEGA_Kalender_Erosforyou_2026-1500x1200.jpg\"\n…[afkortet]"
+  },
+  {
+   "url": "https://vega.dk/_next/data/5QPHQRPDaEt8qA8o0VheM/event/super-jet-kinoko-2026-10-31.json?slug=super-jet-kinoko-2026-10-31",
+   "method": "GET",
+   "post": "",
+   "status": 200,
+   "ct": "",
+   "body": "{}"
+  },
+  {
+   "url": "https://vega.dk/_next/data/5QPHQRPDaEt8qA8o0VheM/event/kenton-slash-demon-2026-10-31.json?slug=kenton-slash-demon-2026-10-31",
+   "method": "GET",
+   "post": "",
+   "status": 200,
+   "ct": "",
+   "body": "{}"
+  },
+  {
+   "url": "https://vega.dk/_next/data/5QPHQRPDaEt8qA8o0VheM/event/dirty-three-2026-11-02.json?slug=dirty-three-2026-11-02",
+   "method": "GET",
+   "post": "",
+   "status": 200,
+   "ct": "",
+   "body": "{}"
+  },
+  {
+   "url": "https://vega.dk/_next/data/5QPHQRPDaEt8qA8o0VheM/event/quiet-light-2026-11-03.json?slug=quiet-light-2026-11-03",
+   "method": "GET",
+   "post": "",
+   "status": 200,
+   "ct": "",
+   "body": "{}"
+  },
+  {
+   "url": "https://vega.dk/_next/data/5QPHQRPDaEt8qA8o0VheM/event/hola-ghost-2026-10-31.json?slug=hola-ghost-2026-10-31",
+   "method": "GET",
+   "post": "",
+   "status": 200,
+   "ct": "",
+   "body": "{}"
+  },
+  {
+   "url": "https://vega.dk/_next/data/5QPHQRPDaEt8qA8o0VheM/event/stephen-wilson-jr-2026-11-03.json?slug=stephen-wilson-jr-2026-11-03",
+   "method": "GET",
+   "post": "",
+   "status": 200,
+   "ct": "",
+   "body": "{}"
+  },
+  {
+   "url": "https://vega.dk/_next/data/5QPHQRPDaEt8qA8o0VheM/event/keshavara-2026-11-02.json?slug=keshavara-2026-11-02",
+   "method": "GET",
+   "post": "",
+   "status": 200,
+   "ct": "",
+   "body": "{}"
+  }
+ ],
+ "links": [
+  {
+   "h": "https://vega.dk/#",
+   "t": "Samtykke"
+  },
+  {
+   "h": "https://vega.dk/#",
+   "t": "Detaljer"
+  },
+  {
+   "h": "https://vega.dk/#",
+   "t": "[#IABV2SETTINGS#]"
+  },
+  {
+   "h": "https://vega.dk/#",
+   "t": "Om"
+  },
+  {
+   "h": "https://vega.dk/#",
+   "t": "Vis detaljer"
+  },
+  {
+   "h": "https://vega.dk/#",
+   "t": "Google3"
+  },
+  {
+   "h": "https://business.safety.google/privacy/",
+   "t": "Få mere at vide om denne udbyder"
+  },
+  {
+   "h": "https://vega.dk/#",
+   "t": "Matterport1"
+  },
+  {
+   "h": "https://matterport.com/legal/privacy-policy/",
+   "t": "Få mere at vide om denne udbyder"
+  },
+  {
+   "h": "https://vega.dk/#",
+   "t": "Spreaker1"
+  },
+  {
+   "h": "https://www.spreaker.com/privacy",
+   "t": "Få mere at vide om denne udbyder"
+  },
+  {
+   "h": "https://vega.dk/#",
+   "t": "server.vega.dkconsent.cookiebot.com2"
+  },
+  {
+   "h": "https://vega.dk/#",
+   "t": "tours.360company.dk1"
+  },
+  {
+   "h": "https://vega.dk/#",
+   "t": "payload.vega.dk1"
+  },
+  {
+   "h": "https://vega.dk/#",
+   "t": "TikTok1"
+  },
+  {
+   "h": "https://www.tiktok.com/legal/privacy-policy?lang=en",
+   "t": "Få mere at vide om denne udbyder"
+  },
+  {
+   "h": "https://vega.dk/#",
+   "t": "embed-cdn.spotifycdn.com1"
+  },
+  {
+   "h": "https://vega.dk/#",
+   "t": "vega.dk3"
+  },
+  {
+   "h": "https://vega.dk/#",
+   "t": "Meta Platforms, Inc.3"
+  },
+  {
+   "h": "https://www.facebook.com/policy.php/",
+   "t": "Få mere at vide om denne udbyder"
+  },
+  {
+   "h": "https://vega.dk/#",
+   "t": "Google9"
+  },
+  {
+   "h": "https://business.safety.google/privacy/",
+   "t": "Få mere at vide om denne udbyder"
+  },
+  {
+   "h": "https://vega.dk/#",
+   "t": "Spotify2"
+  },
+  {
+   "h": "https://www.spotify.com/uk/legal/privacy-policy/",
+   "t": "Få mere at vide om denne udbyder"
+  },
+  {
+   "h": "https://vega.dk/#",
+   "t": "TikTok7"
+  },
+  {
+   "h": "https://www.tiktok.com/legal/privacy-policy?lang=en",
+   "t": "Få mere at vide om denne udbyder"
+  },
+  {
+   "h": "https://vega.dk/#",
+   "t": "YouTube18"
+  },
+  {
+   "h": "https://business.safety.google/privacy/",
+   "t": "Få mere at vide om denne udbyder"
+  },
+  {
+   "h": "https://vega.dk/#",
+   "t": "connect.facebook.nettours.360company.dk4"
+  },
+  {
+   "h": "https://vega.dk/#",
+   "t": "TikTok1"
+  },
+  {
+   "h": "https://www.tiktok.com/legal/privacy-policy?lang=en",
+   "t": "Få mere at vide om denne udbyder"
+  },
+  {
+   "h": "https://vega.dk/#",
+   "t": "tours.360company.dk1"
+  },
+  {
+   "h": "https://vega.dk/#",
+   "t": "vega.dk1"
+  },
+  {
+   "h": "https://vega.dk/#",
+   "t": "Samtykke på tværs af domæner[#BULK_CONSENT_DOMAINS_COUNT#]"
+  },
+  {
+   "h": "https://www.cookiebot.com/",
+   "t": "Cookiebot"
+  },
+  {
+   "h": "https://vega.dk/event/osten-2027-04-16",
+   "t": "Læs mere her"
+  },
+  {
+   "h": "https://www.billetlugen.dk/event/21399478/?affiliate=VGA",
+   "t": "Køb billet"
+  },
+  {
+   "h": "https://vega.dk/event/the-kilimanjaro-darkjazz-ensemble-2026-10-27",
+   "t": "Læs mere"
+  },
+  {
+   "h": "https://www.billetlugen.dk/event/21716704/?affiliate=VGA",
+   "t": "Køb billet"
+  },
+  {
+   "h": "https://vega.dk/event/superfan-2026-10-28",
+   "t": "Læs mere"
+  },
+  {
+   "h": "https://vega.unitedtickets.dk/event/alex-vargas/store-vega/3531269",
+   "t": "Venteliste"
+  },
+  {
+   "h": "https://vega.dk/event/alex-vargas-ekstrakoncert-2026-10-28",
+   "t": "Læs mere"
+  },
+  {
+   "h": "https://vega.unitedtickets.dk/event/alex-vargas-dk-/store-vega/3466322",
+   "t": "Venteliste"
+  },
+  {
+   "h": "https://vega.dk/event/alex-vargas-2026-10-29",
+   "t": "Læs mere"
+  },
+  {
+   "h": "https://www.billetlugen.dk/event/21737168/?affiliate=VGA",
+   "t": "Køb billet"
+  },
+  {
+   "h": "https://vega.dk/event/karla-korsbak-2026-10-29",
+   "t": "Læs mere"
+  },
+  {
+   "h": "https://vega.unitedtickets.dk/event/the-clockworks-ie-/lille-vega/3605592",
+   "t": "Køb billet"
+  },
+  {
+   "h": "https://vega.dk/event/the-clockworks-2026-10-29",
+   "t": "Læs mere"
+  },
+  {
+   "h": "https://www.ticketmaster.dk/event/1506377983?language=da-dk&camefrom=vegadk&brand=dk_vega",
+   "t": "Køb billet"
+  },
+  {
+   "h": "https://vega.dk/event/carllo-yaboy-2026-10-30",
+   "t": "Læs mere"
+  },
+  {
+   "h": "https://www.billetlugen.dk/event/21505442/?affiliate=VGA",
+   "t": "Køb billet"
+  },
+  {
+   "h": "https://vega.dk/event/tvivler-bandet-birds-in-flight-mari-2026-10-30",
+   "t": "Læs mere"
+  },
+  {
+   "h": "https://www.billetlugen.dk/event/22011571/?affiliate=VGA",
+   "t": "Køb billet"
+  },
+  {
+   "h": "https://vega.dk/event/super-jet-kinoko-2026-10-31",
+   "t": "Læs mere"
+  },
+  {
+   "h": "https://www.billetlugen.dk/event/21910590/?affiliate=VGA",
+   "t": "Køb billet"
+  },
+  {
+   "h": "https://vega.dk/event/hola-ghost-2026-10-31",
+   "t": "Læs mere"
+  },
+  {
+   "h": "https://www.ticketmaster.dk/event/2050964530?language=da-dk&camefrom=vega&brand=dk_vega",
+   "t": "Køb billet"
+  },
+  {
+   "h": "https://vega.dk/event/kenton-slash-demon-2026-10-31",
+   "t": "Læs mere"
+  },
+  {
+   "h": "https://www.billetlugen.dk/event/21795624/?affiliate=VGA",
+   "t": "Køb billet"
+  },
+  {
+   "h": "https://vega.dk/event/keshavara-2026-11-02",
+   "t": "Læs mere"
+  },
+  {
+   "h": "https://www.billetlugen.dk/event/21402750/?affiliate=VGA",
+   "t": "Køb billet"
+  },
+  {
+   "h": "https://vega.dk/event/dirty-three-2026-11-02",
+   "t": "Læs mere"
+  },
+  {
+   "h": "https://www.ticketmaster.dk/event/1354088934?language=da-dk&camefrom=vega&brand=dk_vega",
+   "t": "Køb billet"
+  },
+  {
+   "h": "https://vega.dk/event/quiet-light-2026-11-03",
+   "t": "Læs mere"
+  },
+  {
+   "h": "https://www.tmnwe.com/tools/ventelister/show.php?event=VES0311R-2026&l=dk",
+   "t": "Venteliste"
+  },
+  {
+   "h": "https://vega.dk/event/stephen-wilson-jr-2026-11-03",
+   "t": "Læs mere"
+  },
+  {
+   "h": "https://www.billetlugen.dk/event/22021044/?affiliate=VGA",
+   "t": "Køb billet"
+  },
+  {
+   "h": "https://vega.dk/event/radio-free-alice-2026-11-04",
+   "t": "Læs mere"
+  },
+  {
+   "h": "https://www.ticketmaster.dk/event/445904799?language=da-dk&brand=dk_atl",
+   "t": "Aflyst"
+  },
+  {
+   "h": "https://vega.dk/event/d-block-europe-x-french-montana-2026-11-04",
+   "t": "Læs mere"
+  },
+  {
+   "h": "https://www.billetlugen.dk/event/21264003/?affiliate=VGA",
+   "t": "Køb billet"
+  },
+  {
+   "h": "https://vega.dk/event/naja-rosa-2026-11-04",
+   "t": "Læs mere"
+  },
+  {
+   "h": "https://www.billetlugen.dk/noapp/event/21499652/?affiliate=VXS",
+   "t": "Venteliste"
+  },
+  {
+   "h": "https://vega.dk/event/westside-cowboy-2026-11-05",
+   "t": "Læs mere"
+  },
+  {
+   "h": "https://www.ticketmaster.dk/event/346499106?language=da-dk&camefrom=vegadk&brand=dk_vega",
+   "t": "Køb billet"
+  },
+  {
+   "h": "https://vega.dk/event/olga-myko-2026-11-06",
+   "t": "Læs mere"
+  },
+  {
+   "h": "https://www.billetlugen.dk/event/21306245/?affiliate=VGA",
+   "t": "Køb billet"
+  },
+  {
+   "h": "https://vega.dk/event/jembaa-groove-2026-11-06",
+   "t": "Læs mere"
+  },
+  {
+   "h": "https://www.ticketmaster.dk/event/1662285877?language=da-dk&camefrom=vegadk&brand=dk_vega",
+   "t": "Udsolgt"
+  },
+  {
+   "h": "https://vega.dk/event/barselona-2026-11-06",
+   "t": "Læs mere"
+  },
+  {
+   "h": "https://www.tmnwe.com/tools/ventelister/show.php?event=VEI0711P-2026&l=dk",
+   "t": "Venteliste"
+  },
+  {
+   "h": "https://vega.dk/event/valter-nilsson-2026-11-07-1",
+   "t": "Læs mere"
+  },
+  {
+   "h": "https://www.tmnwe.com/tools/ventelister/show.php?event=VEI0711O-2026&l=dk",
+   "t": "Venteliste"
+  },
+  {
+   "h": "https://vega.dk/event/valter-nilsson-2026-11-07",
+   "t": "Læs mere"
+  },
+  {
+   "h": "https://www.tmnwe.com/tools/ventelister/show.php?event=VES0711O-2026&l=dk",
+   "t": "Venteliste"
+  },
+  {
+   "h": "https://vega.dk/event/malk-de-koijn-2026-11-07",
+   "t": "Læs mere"
+  },
+  {
+   "h": "https://www.ticketmaster.dk/event/946250271?language=da-dk&camefrom=vegadk&brand=dk_vega",
+   "t": "Køb billet"
+  },
+  {
+   "h": "https://vega.dk/event/eros-for-you-2026-11-07",
+   "t": "Læs mere"
+  },
+  {
+   "h": "https://www.billetlugen.dk/event/21340357/?affiliate=VGA",
+   "t": "Køb billet"
+  },
+  {
+   "h": "https://vega.dk/event/rita-payes-x-lucia-fumero-2026-11-08",
+   "t": "Læs mere"
+  },
+  {
+   "h": "https://www.billetlugen.dk/noapp/event/21655926/?affiliate=VXS",
+   "t": "Køb billet"
+  },
+  {
+   "h": "https://vega.dk/event/josiah-and-the-bonnevilles-2026-11-09",
+   "t": "Læs mere"
+  },
+  {
+   "h": "https://www.billetlugen.dk/event/21848950/?affiliate=VGA",
+   "t": "Aflyst"
+  },
+  {
+   "h": "https://vega.dk/event/really-good-time-2026-11-09",
+   "t": "Læs mere"
+  },
+  {
+   "h": "https://vega.unitedtickets.dk/event/uro-ekstrakoncert/store-vega/3705545",
+   "t": "Køb billet"
+  },
+  {
+   "h": "https://vega.dk/event/uro-2-ekstrakoncert-2026-11-09",
+   "t": "Læs mere"
+  },
+  {
+   "h": "https://billet.unitedtickets.dk/event/the-streets/store-vega/3632251",
+   "t": "Venteliste"
+  },
+  {
+   "h": "https://vega.dk/event/the-streets-2026-11-10",
+   "t": "Læs mere"
+  },
+  {
+   "h": "https://www.ticketmaster.dk/event/2055530309?language=da-dk&camefrom=vegadk&brand=dk_vega",
+   "t": "Køb billet"
+  },
+  {
+   "h": "https://vega.dk/event/mathias-ranch-2026-11-11",
+   "t": "Læs mere"
+  },
+  {
+   "h": "https://www.ticketmaster.dk/event/875354484?language=da-dk&camefrom=vega&brand=dk_vega",
+   "t": "Køb billet"
+  },
+  {
+   "h": "https://vega.dk/event/mercedess-2026-11-11",
+   "t": "Læs mere"
+  },
+  {
+   "h": "https://vega.unitedtickets.dk/event/uro-ekstrakoncert/store-vega/3592691",
+   "t": "Udsolgt"
+  },
+  {
+   "h": "https://vega.dk/event/uro-ekstrakoncert-2026-11-11",
+   "t": "Læs mere"
+  },
+  {
+   "h": "https://vega.unitedtickets.dk/event/uro/store-vega-k-benhavn/3535405",
+   "t": "Venteliste"
+  },
+  {
+   "h": "https://vega.dk/event/uro-2026-11-12",
+   "t": "Læs mere"
+  },
+  {
+   "h": "https://www.ticketmaster.dk/event/1518568797?language=da-dk&camefrom=vega&brand=dk_vega",
+   "t": "Køb billet"
+  },
+  {
+   "h": "https://vega.dk/beyond/event/rosa-pa-manen-2026-11-12",
+   "t": "Læs mere"
+  },
+  {
+   "h": "https://www.billetlugen.dk/event/21556691/?affiliate=VGA",
+   "t": "Køb billet"
+  },
+  {
+   "h": "https://vega.dk/event/baske-2026-11-12",
+   "t": "Læs mere"
+  },
+  {
+   "h": "https://www.ticketmaster.dk/event/50490763?language=da-dk&camefrom=vega&brand=dk_vega",
+   "t": "Køb billet"
+  },
+  {
+   "h": "https://vega.dk/event/thea-dora-2026-11-13",
+   "t": "Læs mere"
+  },
+  {
+   "h": "https://vega.dk/",
+   "t": "Kalender"
+  },
+  {
+   "h": "https://vega.dk/faq",
+   "t": "Praktisk info"
+  },
+  {
+   "h": "https://vega.dk/beyond",
+   "t": "VEGA Beyond"
+  },
+  {
+   "h": "https://vega.dk/events",
+   "t": "VEGA Events"
+  },
+  {
+   "h": "https://tidslinje.vega.dk/",
+   "t": "VEGA Tidslinje"
+  },
+  {
+   "h": "https://vegashop.dk/",
+   "t": "VEGA Shop"
+  },
+  {
+   "h": "https://vega.dk/kontakt-vega",
+   "t": "Kontakt"
+  },
+  {
+   "h": "https://vega.dk/tilmeld-nyhedsbrev",
+   "t": "Nyhedsbrev"
+  },
+  {
+   "h": "https://vega.dk/en",
+   "t": "VEGA in English"
+  },
+  {
+   "h": "tel:+45 33 25 70 11",
+   "t": "+45 33 25 70 11"
+  },
+  {
+   "h": "mailto:info@vega.dk",
+   "t": "info@vega.dk"
+  },
+  {
+   "h": "https://vega.dk/cookiepolitik-dit-privatliv",
+   "t": "Cookiepolitik"
+  },
+  {
+   "h": "https://payload.vega.dk/media/databehandlingsaftale.pdf",
+   "t": "Databehandleraftale"
+  }
+ ]
+}

@@ -1,0 +1,502 @@
+{
+ "url": "https://slagthuset.se/",
+ "status": 200,
+ "err": "",
+ "finalUrl": "https://slagthuset.se/",
+ "calls": [
+  {
+   "url": "https://consentcdn.cookiebot.com/consentconfig/1ffe2b50-58e7-459c-b150-b03e7cd6cf84/settings.json",
+   "method": "GET",
+   "post": "",
+   "status": 200,
+   "ct": "application/json",
+   "body": "{\"widget\":{\"enabled\":true,\"position\":{\"position\":\"bottom-left\",\"distanceVerticalPx\":10,\"distanceHorizontalPx\":10},\"theme\":{\"closed\":{\"backgroundColor\":\"#b23337\",\"foregroundColor\":\"#FFFFFF\"},\"opened\":{\"backgroundColor\":\"#FFFFFF\",\"foregroundColor\":\"#333333\",\"highlightColor\":\"#b23337\",\"shadeColor\":\"#D6D6D6\",\"changeBackgroundColor\":\"#b23337\",\"changeTextColor\":\"#FFFFFF\",\"changeBorderColor\":\"#b23337\",\"withdrawBackgroundColor\":\"#FFFFFF\",\"withdrawTextColor\":\"#333333\",\"withdrawBorderColor\":\"#b23337\",\"detailsBackgroundColor\":\"#F2F2F2\"}},\"content\":{\"cultures\":[\"en\",\"sv\"],\"default\":\"en\",\"autodetectLanguage\":true}},\"twipla\":null}"
+  },
+  {
+   "url": "https://slagthuset.se/information?_rsc=jxzjd",
+   "method": "GET",
+   "post": "",
+   "status": 200,
+   "ct": "text/x-component",
+   "body": "0:[\"uv37NQCHdCfBvtFouuAuX\",[[\"children\",[\"lang\",\"sv\",\"d\"],\"children\",\"information\",[\"information\",{\"children\":[\"__PAGE__\",{}]}],null,null]]]\n"
+  },
+  {
+   "url": "https://www.google.com/ccm/collect?rcb=1&frm=0&apvc=1&ae=g&auid=1526438189.1793091778&dt=Slagthuset&en=page_view&dl=https%3A%2F%2Fslagthuset.se%2F&scrsrc=www.googletagmanager.com&rnd=1101162533.1793091778&navt=n&npa=0&us_privacy=1YNY&ep.ads_data_redaction=0&gdid=dMWZhNz&gtm=45He6an1v847992696za200zd847992696xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~118897920~118897930~120385423~120469145~120469153~121191153~121246026~121246034&tft=1793091778214&tfd=2762&fmt=8",
+   "method": "POST",
+   "post": "",
+   "status": 200,
+   "ct": "",
+   "body": ""
+  },
+  {
+   "url": "https://ad.doubleclick.net/ccm/s/collect?auid=1526438189.1793091778&gtm=45He6an1v847992696za200zd847992696xeaxf1&fmt=8",
+   "method": "POST",
+   "post": "",
+   "status": 204,
+   "ct": "",
+   "body": ""
+  },
+  {
+   "url": "https://slagthuset.se/events?_rsc=jxzjd",
+   "method": "GET",
+   "post": "",
+   "status": 200,
+   "ct": "text/x-component",
+   "body": "0:[\"uv37NQCHdCfBvtFouuAuX\",[[\"children\",[\"lang\",\"sv\",\"d\"],\"children\",\"events\",[\"events\",{\"children\":[\"__PAGE__\",{}]}],null,null]]]\n"
+  },
+  {
+   "url": "https://slagthuset.se/en?_rsc=jxzjd",
+   "method": "GET",
+   "post": "",
+   "status": 200,
+   "ct": "text/x-component",
+   "body": "0:[\"uv37NQCHdCfBvtFouuAuX\",[[\"children\",[\"lang\",\"en\",\"d\"],[[\"lang\",\"en\",\"d\"],{\"children\":[\"__PAGE__\",{}]}],null,null]]]\n"
+  },
+  {
+   "url": "https://slagthuset.se/moten-event?_rsc=jxzjd",
+   "method": "GET",
+   "post": "",
+   "status": 200,
+   "ct": "text/x-component",
+   "body": "0:[\"uv37NQCHdCfBvtFouuAuX\",[[\"children\",[\"lang\",\"sv\",\"d\"],\"children\",\"moten-event\",[\"moten-event\",{\"children\":[\"__PAGE__\",{}]}],null,null]]]\n"
+  },
+  {
+   "url": "https://analytics.google.com/g/collect?v=2&tid=G-RHH3D9E0C2&gtm=45je6an1v9125450099za20ozb847992696zd847992696xf1&_p=1793091777963&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&gdid=dMWZhNz&_eu=EAAAAGA&_ng=1&are=1&cid=490377905.1793091778&frm=0&ir=1&pscdl=noapi&rcb=5&sr=1280x2000&uaa=arm&uab=64&uafvl=Chromium%3B130.0.6723.31%7CHeadlessChrome%3B130.0.6723.31%7CNot%253FA_Brand%3B99.0.0.0&uam=&uamb=0&uap=iOS&uapv=18_0&uaw=0&ul=da-dk&gaf=2&_s=1&tag_exp=115938465~115938469~118897920~118897930~120213116~120385422~120412528~120469145~120469153~121246026~121246034&sid=1793091778&sct=1&seg=0&dl=https%3A%2F%2Fslagthuset.se%2F&dt=Slagthuset&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=2916",
+   "method": "POST",
+   "post": "",
+   "status": 204,
+   "ct": "text/plain",
+   "body": ""
+  },
+  {
+   "url": "https://slagthuset.se/events/banna-sona-band-christmas-edition-2026?_rsc=jxzjd",
+   "method": "GET",
+   "post": "",
+   "status": 200,
+   "ct": "text/x-component",
+   "body": "3:I[4707,[],\"\"]\n6:I[6423,[],\"\"]\n7:I[8003,[\"2972\",\"static/chunks/2972-99d5484789a8337f.js\",\"1000\",\"static/chunks/1000-85524ae807fe224c.js\",\"1170\",\"static/chunks/1170-e693db1433e7b166.js\",\"2223\",\"static/chunks/2223-f115866adf4bf221.js\",\"5884\",\"static/chunks/5884-99c1800c08d1f390.js\",\"6425\",\"static/chunks/6425-ce26c2856f643ba5.js\",\"3185\",\"static/chunks/app/layout-7c6b7c47abd13fcf.js\"],\"\"]\n8:I[4880,[\"2972\",\"static/chunks/2972-99d5484789a8337f.js\",\"1000\",\"static/chunks/1000-85524ae807fe224c.js\",\"1170\",\"static/chunks/1170-e693db1433e7b166.js\",\"2223\",\"static/chunks/2223-f115866adf4bf221.js\",\"5884\",\"static/chunks/5884-99c1800c08d1f390.js\",\"6425\",\"static/chunks/6425-ce26c2856f643ba5.js\",\"3185\",\"static/chunks/app/layout-7c6b7c47abd13fcf.js\"],\"default\"]\n9:I[4228,[\"2972\",\"static/chunks/2972-99d5484789a8337f.js\",\"1000\",\"static/chunks/1000-85524ae807fe224c.js\",\"1170\",\"static/chunks/1170-e693db1433e7b166.js\",\"2223\",\"static/chunks/2223-f115866adf4bf221.js\",\"5884\",\"static/chunks/5884-99c1800c08d1f390.js\",\"6425\",\"static/chunks/6425-ce26c2856f643ba5.js\",\"3185\",\"static/chunks/app/layout-7c6b7c47abd13fcf.js\"],\"default\"]\nb:I[2972,[\"2972\",\"static/chunks/2972-99d5484789a8337f.js\",\"5878\",\"static/chunks/5878-75d38328b394b6cf.js\",\"1000\",\"static/chunks/1000-85524ae807fe224c.js\",\"8666\",\"static/chunks/app/%5Blang%5D/events/%5Bslug%5D/page-6aaba112c6191823.js\"],\"\"]\n4:[\"lang\",\"sv\",\"d\"]\n5:[\"slug\",\"banna-sona-band-christmas-edition-2026\",\"d\"]\na:T1a05,M4.98 20.81c-.08.24-.12.65-.12 1.25 0 .4.36.84 1.1 1.33.73.49 1.68.96 2.85 1.39 1.17.44 2.5.8 4 1.1 1.5.3 3.02.44 4.57.44 2.96 0 5.14-.35 6.52-1.04 1.38-.69 2.08-1.69 2.08-2.99 0-.71-.6-1.22-1.81-1.51-1.21-.3-2.72-.53-4.54-.71-1.82-.18-3.78-.38-5.87-.59-2.1-.22-4.05-.61-5.87-1.19-1.82-.57-3.33-1.4-4.54-2.49-1.21-1.09-1.81-2.58-1.81-4.48 0-1.5.35-2.87 1.04-4.09.69-1.22 1.66-2.27 2.91-3.14 1.25-.87 2.76-1.55 4.54-2.05 1.78-.49 3.75-.74 5.93-.74 2.02 0 3.89.13 5.63.39 1.74.26 3.28.54 4.62.86 1.34.32 2.47.6 3.38.86.91.26 1.56.39 1.96.39s.71-.09.95-.27c.24-.18.45-.39.65-.62l.65.24-4.09 8.24-.71-.36v-.65c0-.36-.39-.72-1.16-1.1-.77-.38-1.75-.71-2.94-1.01-1.19-.3-2.51-.54-3.97-.74-1.46-.2-2.89-.3-4.27-.3-2.57 0-4.37.3-5.4.89-1.03.59-1.54 1.23-1.54 1.9s.36 1.18 1.07 1.51c.71.34 1.64.58 2.79.74 1.15.16 2.45.29 3.91.39 1.46.1 2.97.25 4.51.44 1.54.2 3.04.47 4.51.83 1.46.36 2.77.88 3.91 1.57a8.37 8.37 0 012.79 2.73c.71 1.13 1.07 2.54 1.07 4.24 0 1.3-.27 2.59-.8 3.85-.53 1.27-1.44 2.4-2.73 3.41-1.28 1.01-3 1.81-5.16 2.4-2.16.59-4.83.89-8.03.89-2.49 0-4.63-.12-6.43-.36-1.8-.24-3.33-.52-4.6-.86-1.27-.34-2.26-.64-2.99-.92-.73-.28-1.28-.41-1.63-.41-.24 0-.44.08-.62.24-.18.16-.37.34-.56.53l-.71-.18 4.39-10.55.59.3zM72.88 25.62c.32 0 .55-.11.71-.33.16-.22.28-.66.36-1.33h.71v10.26h-.71c-.08-.63-.2-1.02-.36-1.16-.16-.14-.4-.21-.71-.21H41.93v-.71c.75-.08 1.22-.21 1.39-.39.18-.18.27-.4.27-.68V3.44c0-.28-.09-.5-.27-.68s-.64-.31-1.39-.39v-.71h12.22v.71c-.75.08-1.22.21-1.39.39-.18.18-.27.41-.27.68v22.18h20.4zM88.53 31.55c0 .2.07.35.21.44.14.1.42.15.86.15v.71H79.1v-.71c.43-.08.75-.21.95-.39.2-.18.39-.5.59-.98.08-.2.28-.73.59-1.6.32-.87.73-1.97 1.25-3.29.51-1.32 1.09-2.8 1.72-4.42.63-1.62 1.26-3.27 1.9-4.95.63-1.68 1.25-3.32 1.87-4.92.61-1.6 1.16-3.03 1.63-4.3.47-1.26.86-2.29 1.16-3.08.3-.79.44-1.21.44-1.25 0-.2-.13-.34-.39-.42a5.17 5.17 0 00-.8-.18v-.71h15.48v.71c-.32.04-.57.1-.77.18-.2.08-.3.28-.3.59 0 .08.19.59.56 1.54.38.95.86 2.18 1.45 3.71.59 1.52 1.27 3.24 2.05 5.16.77 1.92 1.57 3.87 2.4 5.87.83 2 1.63 3.94 2.4 5.84s1.47 3.6 2.11 5.1c.32.71.58 1.19.8 1.42.22.24.5.36.86.36v.71h-11.68v-.71c.75-.04 1.13-.28 1.13-.71 0-.04-.1-.31-.3-.8-.2-.49-.42-1.05-.65-1.66-.24-.61-.46-1.2-.68-1.75-.22-.55-.35-.93-.39-1.13H90.43c-.4 1.07-.71 1.94-.95 2.61-.24.67-.43 1.21-.56 1.6-.14.4-.24.68-.3.86s-.09.31-.09.39zm14.41-10.2L97.19 7.24l-5.28 14.11h11.03zM142.78 21.52c-.32 0-.53.11-.65.33-.12.22-.2.5-.24.86h-.71v-8.3h.71c.08.71.38 1.07.89 1.07h17.49v.71c-.63.04-.95.38-.95 1.01v9.84c0 .28.04.51.12.71.08.2.28.3.59.3h.3v.71c-5.38 2.85-11.74 4.27-19.09 4.27-2.49 0-4.89-.31-7.21-.92-2.31-.61-4.36-1.57-6.14-2.88-1.78-1.3-3.21-2.95-4.3-4.95-1.09-2-1.63-4.34-1.63-7.03s.54-5.03 1.63-7.03c1.09-2 2.52-3.66 4.3-4.98 1.78-1.32 3.82-2.31 6.14-2.96 2.31-.65 4.71-.98 7.21-.98.99 0 1.86.02 2.61.06.75.04 1.48.12 2.19.24s1.44.27 2.19.44 1.64.41 2.67.68c.99.28 1.9.6 2.73.98.83.38 1.36.56 1.6.56.32 0 .59-.16.83-.47l.71.24-3.85 7.83-.71-.42c.08-.24.12-.45.12-.65 0-.28-.34-.58-1.01-.92-.67-.34-1.52-.64-2.55-.92-1.03-.28-2.19-.51-3.47-.71-1.28-.2-2.54-.3-3.76-.3-1.42 0-2.78.19-4.06.56-1.28.38-2.43.96-3.44 1.75a8.594 8.594 0 00-2.4 2.94c-.59 1.17-.89 2.56-.89 4.18s.36 2.96 1.07 4.12a9.308 9.308 0 002.7 2.88c1.09.75 2.3 1.3 3.65 1.66 1.34.36 2.67.53 3.97.53 1.66 0 3.15-.1 4.48-.3 1.32-.2 2.6-.47 3.82-.83v-3.91h-7.65zM174.27 32.14c.75-.08 1.22-.21 1.39-.39s.27-.4.27-.68V8.89h-10.2c-.32 0-.55.11-.71.33-.16.22-.28.66-.36 1.33h-.71V0h.71c.08.67.2 1.12.36 1.33.16.22.4.33.71.33h29.29c.32 0 .55-.11.71-.33.16-.22.28-.66.36-1.33h.71v10.56h-.71c-.08-.67-.2-1.12-.36-1.33-.16-.22-.4-.33-.71-.33h-10.2v22.17c0 .28.09.5.27.68s.64.31 1.39.39v.71h-12.22v-.71zM238.19 31.07c0 .28.09.5.27.68s.64.31 1.39.39v.71h-12.22v-.71c.75-.08 1.22-.21 1.39-.39s.27-.4.27-.68V20.1h-15.42v10.97c0 .28.09.5.27.68s.64.31 1.39.39v.71h-12.22v-.71c.75-.08 1.22-.21 1.39-.39.18-.18.27-.4.27-.68V3.44c0-.28-.09-.5-.27-.68-.18-.18-.64-.31-1.39-.39v-.71h12.22v.71c-.75.08-1.22.21-1.39.39-.18.18-.27.41-.27.68v9.43h15.42V3.44c0-.28-.09-.5-.27-.68-.18-.18-.64-.31-1.39-.39v-.71h12.22v.71c-.75.08-1.22.21-1.39.39-.18.18-.27.41-.27.68v27.63zM275.19 3.44c0-.28-.09-.5-.27-.68-.18-.18-.64-.31-1.39-.39v-.71h12.22v.71c-.75.08-1.22.21-1.39.39-.18.18-.27.41-.27.68v15.89c0 2.61-.43 4.8-1.27 6.58-.85 1.78-2.02 3.2-3.5 4.27-1.48 1.07-3.22 1.81-5.22 2.22-2 .42-4.12.62-6.37.62s-4.38-.21-6.37-.62-3.74-1.16-5.22-2.22c-1.48-1.07-2.65-2.49-3.5-4.27-.85-1.78-1.27-3.97-1.27-6.58V3.44c0-.28-.09-.5-.27-.68-.18-.18-.64-.31-1.39-.39v-.71h12.22v.71c-.75.08-1.22.21-1.39.39-.18.18-.27.41-.27.68v15.89c0 2.29.65 3.93 1.96 \n…[afkortet]"
+  },
+  {
+   "url": "https://slagthuset.se/restaurangen?_rsc=jxzjd",
+   "method": "GET",
+   "post": "",
+   "status": 200,
+   "ct": "text/x-component",
+   "body": "0:[\"uv37NQCHdCfBvtFouuAuX\",[[\"children\",[\"lang\",\"sv\",\"d\"],\"children\",\"restaurangen\",[\"restaurangen\",{\"children\":[\"__PAGE__\",{}]}],null,null]]]\n"
+  },
+  {
+   "url": "https://slagthuset.se/events/optimeet-connect?_rsc=jxzjd",
+   "method": "GET",
+   "post": "",
+   "status": 200,
+   "ct": "text/x-component",
+   "body": "3:I[4707,[],\"\"]\n6:I[6423,[],\"\"]\n7:I[8003,[\"2972\",\"static/chunks/2972-99d5484789a8337f.js\",\"1000\",\"static/chunks/1000-85524ae807fe224c.js\",\"1170\",\"static/chunks/1170-e693db1433e7b166.js\",\"2223\",\"static/chunks/2223-f115866adf4bf221.js\",\"5884\",\"static/chunks/5884-99c1800c08d1f390.js\",\"6425\",\"static/chunks/6425-ce26c2856f643ba5.js\",\"3185\",\"static/chunks/app/layout-7c6b7c47abd13fcf.js\"],\"\"]\n8:I[4880,[\"2972\",\"static/chunks/2972-99d5484789a8337f.js\",\"1000\",\"static/chunks/1000-85524ae807fe224c.js\",\"1170\",\"static/chunks/1170-e693db1433e7b166.js\",\"2223\",\"static/chunks/2223-f115866adf4bf221.js\",\"5884\",\"static/chunks/5884-99c1800c08d1f390.js\",\"6425\",\"static/chunks/6425-ce26c2856f643ba5.js\",\"3185\",\"static/chunks/app/layout-7c6b7c47abd13fcf.js\"],\"default\"]\n9:I[4228,[\"2972\",\"static/chunks/2972-99d5484789a8337f.js\",\"1000\",\"static/chunks/1000-85524ae807fe224c.js\",\"1170\",\"static/chunks/1170-e693db1433e7b166.js\",\"2223\",\"static/chunks/2223-f115866adf4bf221.js\",\"5884\",\"static/chunks/5884-99c1800c08d1f390.js\",\"6425\",\"static/chunks/6425-ce26c2856f643ba5.js\",\"3185\",\"static/chunks/app/layout-7c6b7c47abd13fcf.js\"],\"default\"]\nb:I[2972,[\"2972\",\"static/chunks/2972-99d5484789a8337f.js\",\"5878\",\"static/chunks/5878-75d38328b394b6cf.js\",\"1000\",\"static/chunks/1000-85524ae807fe224c.js\",\"8666\",\"static/chunks/app/%5Blang%5D/events/%5Bslug%5D/page-6aaba112c6191823.js\"],\"\"]\n4:[\"lang\",\"sv\",\"d\"]\n5:[\"slug\",\"optimeet-connect\",\"d\"]\na:T1a05,M4.98 20.81c-.08.24-.12.65-.12 1.25 0 .4.36.84 1.1 1.33.73.49 1.68.96 2.85 1.39 1.17.44 2.5.8 4 1.1 1.5.3 3.02.44 4.57.44 2.96 0 5.14-.35 6.52-1.04 1.38-.69 2.08-1.69 2.08-2.99 0-.71-.6-1.22-1.81-1.51-1.21-.3-2.72-.53-4.54-.71-1.82-.18-3.78-.38-5.87-.59-2.1-.22-4.05-.61-5.87-1.19-1.82-.57-3.33-1.4-4.54-2.49-1.21-1.09-1.81-2.58-1.81-4.48 0-1.5.35-2.87 1.04-4.09.69-1.22 1.66-2.27 2.91-3.14 1.25-.87 2.76-1.55 4.54-2.05 1.78-.49 3.75-.74 5.93-.74 2.02 0 3.89.13 5.63.39 1.74.26 3.28.54 4.62.86 1.34.32 2.47.6 3.38.86.91.26 1.56.39 1.96.39s.71-.09.95-.27c.24-.18.45-.39.65-.62l.65.24-4.09 8.24-.71-.36v-.65c0-.36-.39-.72-1.16-1.1-.77-.38-1.75-.71-2.94-1.01-1.19-.3-2.51-.54-3.97-.74-1.46-.2-2.89-.3-4.27-.3-2.57 0-4.37.3-5.4.89-1.03.59-1.54 1.23-1.54 1.9s.36 1.18 1.07 1.51c.71.34 1.64.58 2.79.74 1.15.16 2.45.29 3.91.39 1.46.1 2.97.25 4.51.44 1.54.2 3.04.47 4.51.83 1.46.36 2.77.88 3.91 1.57a8.37 8.37 0 012.79 2.73c.71 1.13 1.07 2.54 1.07 4.24 0 1.3-.27 2.59-.8 3.85-.53 1.27-1.44 2.4-2.73 3.41-1.28 1.01-3 1.81-5.16 2.4-2.16.59-4.83.89-8.03.89-2.49 0-4.63-.12-6.43-.36-1.8-.24-3.33-.52-4.6-.86-1.27-.34-2.26-.64-2.99-.92-.73-.28-1.28-.41-1.63-.41-.24 0-.44.08-.62.24-.18.16-.37.34-.56.53l-.71-.18 4.39-10.55.59.3zM72.88 25.62c.32 0 .55-.11.71-.33.16-.22.28-.66.36-1.33h.71v10.26h-.71c-.08-.63-.2-1.02-.36-1.16-.16-.14-.4-.21-.71-.21H41.93v-.71c.75-.08 1.22-.21 1.39-.39.18-.18.27-.4.27-.68V3.44c0-.28-.09-.5-.27-.68s-.64-.31-1.39-.39v-.71h12.22v.71c-.75.08-1.22.21-1.39.39-.18.18-.27.41-.27.68v22.18h20.4zM88.53 31.55c0 .2.07.35.21.44.14.1.42.15.86.15v.71H79.1v-.71c.43-.08.75-.21.95-.39.2-.18.39-.5.59-.98.08-.2.28-.73.59-1.6.32-.87.73-1.97 1.25-3.29.51-1.32 1.09-2.8 1.72-4.42.63-1.62 1.26-3.27 1.9-4.95.63-1.68 1.25-3.32 1.87-4.92.61-1.6 1.16-3.03 1.63-4.3.47-1.26.86-2.29 1.16-3.08.3-.79.44-1.21.44-1.25 0-.2-.13-.34-.39-.42a5.17 5.17 0 00-.8-.18v-.71h15.48v.71c-.32.04-.57.1-.77.18-.2.08-.3.28-.3.59 0 .08.19.59.56 1.54.38.95.86 2.18 1.45 3.71.59 1.52 1.27 3.24 2.05 5.16.77 1.92 1.57 3.87 2.4 5.87.83 2 1.63 3.94 2.4 5.84s1.47 3.6 2.11 5.1c.32.71.58 1.19.8 1.42.22.24.5.36.86.36v.71h-11.68v-.71c.75-.04 1.13-.28 1.13-.71 0-.04-.1-.31-.3-.8-.2-.49-.42-1.05-.65-1.66-.24-.61-.46-1.2-.68-1.75-.22-.55-.35-.93-.39-1.13H90.43c-.4 1.07-.71 1.94-.95 2.61-.24.67-.43 1.21-.56 1.6-.14.4-.24.68-.3.86s-.09.31-.09.39zm14.41-10.2L97.19 7.24l-5.28 14.11h11.03zM142.78 21.52c-.32 0-.53.11-.65.33-.12.22-.2.5-.24.86h-.71v-8.3h.71c.08.71.38 1.07.89 1.07h17.49v.71c-.63.04-.95.38-.95 1.01v9.84c0 .28.04.51.12.71.08.2.28.3.59.3h.3v.71c-5.38 2.85-11.74 4.27-19.09 4.27-2.49 0-4.89-.31-7.21-.92-2.31-.61-4.36-1.57-6.14-2.88-1.78-1.3-3.21-2.95-4.3-4.95-1.09-2-1.63-4.34-1.63-7.03s.54-5.03 1.63-7.03c1.09-2 2.52-3.66 4.3-4.98 1.78-1.32 3.82-2.31 6.14-2.96 2.31-.65 4.71-.98 7.21-.98.99 0 1.86.02 2.61.06.75.04 1.48.12 2.19.24s1.44.27 2.19.44 1.64.41 2.67.68c.99.28 1.9.6 2.73.98.83.38 1.36.56 1.6.56.32 0 .59-.16.83-.47l.71.24-3.85 7.83-.71-.42c.08-.24.12-.45.12-.65 0-.28-.34-.58-1.01-.92-.67-.34-1.52-.64-2.55-.92-1.03-.28-2.19-.51-3.47-.71-1.28-.2-2.54-.3-3.76-.3-1.42 0-2.78.19-4.06.56-1.28.38-2.43.96-3.44 1.75a8.594 8.594 0 00-2.4 2.94c-.59 1.17-.89 2.56-.89 4.18s.36 2.96 1.07 4.12a9.308 9.308 0 002.7 2.88c1.09.75 2.3 1.3 3.65 1.66 1.34.36 2.67.53 3.97.53 1.66 0 3.15-.1 4.48-.3 1.32-.2 2.6-.47 3.82-.83v-3.91h-7.65zM174.27 32.14c.75-.08 1.22-.21 1.39-.39s.27-.4.27-.68V8.89h-10.2c-.32 0-.55.11-.71.33-.16.22-.28.66-.36 1.33h-.71V0h.71c.08.67.2 1.12.36 1.33.16.22.4.33.71.33h29.29c.32 0 .55-.11.71-.33.16-.22.28-.66.36-1.33h.71v10.56h-.71c-.08-.67-.2-1.12-.36-1.33-.16-.22-.4-.33-.71-.33h-10.2v22.17c0 .28.09.5.27.68s.64.31 1.39.39v.71h-12.22v-.71zM238.19 31.07c0 .28.09.5.27.68s.64.31 1.39.39v.71h-12.22v-.71c.75-.08 1.22-.21 1.39-.39s.27-.4.27-.68V20.1h-15.42v10.97c0 .28.09.5.27.68s.64.31 1.39.39v.71h-12.22v-.71c.75-.08 1.22-.21 1.39-.39.18-.18.27-.4.27-.68V3.44c0-.28-.09-.5-.27-.68-.18-.18-.64-.31-1.39-.39v-.71h12.22v.71c-.75.08-1.22.21-1.39.39-.18.18-.27.41-.27.68v9.43h15.42V3.44c0-.28-.09-.5-.27-.68-.18-.18-.64-.31-1.39-.39v-.71h12.22v.71c-.75.08-1.22.21-1.39.39-.18.18-.27.41-.27.68v27.63zM275.19 3.44c0-.28-.09-.5-.27-.68-.18-.18-.64-.31-1.39-.39v-.71h12.22v.71c-.75.08-1.22.21-1.39.39-.18.18-.27.41-.27.68v15.89c0 2.61-.43 4.8-1.27 6.58-.85 1.78-2.02 3.2-3.5 4.27-1.48 1.07-3.22 1.81-5.22 2.22-2 .42-4.12.62-6.37.62s-4.38-.21-6.37-.62-3.74-1.16-5.22-2.22c-1.48-1.07-2.65-2.49-3.5-4.27-.85-1.78-1.27-3.97-1.27-6.58V3.44c0-.28-.09-.5-.27-.68-.18-.18-.64-.31-1.39-.39v-.71h12.22v.71c-.75.08-1.22.21-1.39.39-.18.18-.27.41-.27.68v15.89c0 2.29.65 3.93 1.96 4.92 1.3.99 3.14 1.48 \n…[afkortet]"
+  },
+  {
+   "url": "https://slagthuset.se/events/alexx-alexxander?_rsc=jxzjd",
+   "method": "GET",
+   "post": "",
+   "status": 200,
+   "ct": "text/x-component",
+   "body": "3:I[4707,[],\"\"]\n6:I[6423,[],\"\"]\n7:I[8003,[\"2972\",\"static/chunks/2972-99d5484789a8337f.js\",\"1000\",\"static/chunks/1000-85524ae807fe224c.js\",\"1170\",\"static/chunks/1170-e693db1433e7b166.js\",\"2223\",\"static/chunks/2223-f115866adf4bf221.js\",\"5884\",\"static/chunks/5884-99c1800c08d1f390.js\",\"6425\",\"static/chunks/6425-ce26c2856f643ba5.js\",\"3185\",\"static/chunks/app/layout-7c6b7c47abd13fcf.js\"],\"\"]\n8:I[4880,[\"2972\",\"static/chunks/2972-99d5484789a8337f.js\",\"1000\",\"static/chunks/1000-85524ae807fe224c.js\",\"1170\",\"static/chunks/1170-e693db1433e7b166.js\",\"2223\",\"static/chunks/2223-f115866adf4bf221.js\",\"5884\",\"static/chunks/5884-99c1800c08d1f390.js\",\"6425\",\"static/chunks/6425-ce26c2856f643ba5.js\",\"3185\",\"static/chunks/app/layout-7c6b7c47abd13fcf.js\"],\"default\"]\n9:I[4228,[\"2972\",\"static/chunks/2972-99d5484789a8337f.js\",\"1000\",\"static/chunks/1000-85524ae807fe224c.js\",\"1170\",\"static/chunks/1170-e693db1433e7b166.js\",\"2223\",\"static/chunks/2223-f115866adf4bf221.js\",\"5884\",\"static/chunks/5884-99c1800c08d1f390.js\",\"6425\",\"static/chunks/6425-ce26c2856f643ba5.js\",\"3185\",\"static/chunks/app/layout-7c6b7c47abd13fcf.js\"],\"default\"]\nb:I[2972,[\"2972\",\"static/chunks/2972-99d5484789a8337f.js\",\"5878\",\"static/chunks/5878-75d38328b394b6cf.js\",\"1000\",\"static/chunks/1000-85524ae807fe224c.js\",\"8666\",\"static/chunks/app/%5Blang%5D/events/%5Bslug%5D/page-6aaba112c6191823.js\"],\"\"]\n4:[\"lang\",\"sv\",\"d\"]\n5:[\"slug\",\"alexx-alexxander\",\"d\"]\na:T1a05,M4.98 20.81c-.08.24-.12.65-.12 1.25 0 .4.36.84 1.1 1.33.73.49 1.68.96 2.85 1.39 1.17.44 2.5.8 4 1.1 1.5.3 3.02.44 4.57.44 2.96 0 5.14-.35 6.52-1.04 1.38-.69 2.08-1.69 2.08-2.99 0-.71-.6-1.22-1.81-1.51-1.21-.3-2.72-.53-4.54-.71-1.82-.18-3.78-.38-5.87-.59-2.1-.22-4.05-.61-5.87-1.19-1.82-.57-3.33-1.4-4.54-2.49-1.21-1.09-1.81-2.58-1.81-4.48 0-1.5.35-2.87 1.04-4.09.69-1.22 1.66-2.27 2.91-3.14 1.25-.87 2.76-1.55 4.54-2.05 1.78-.49 3.75-.74 5.93-.74 2.02 0 3.89.13 5.63.39 1.74.26 3.28.54 4.62.86 1.34.32 2.47.6 3.38.86.91.26 1.56.39 1.96.39s.71-.09.95-.27c.24-.18.45-.39.65-.62l.65.24-4.09 8.24-.71-.36v-.65c0-.36-.39-.72-1.16-1.1-.77-.38-1.75-.71-2.94-1.01-1.19-.3-2.51-.54-3.97-.74-1.46-.2-2.89-.3-4.27-.3-2.57 0-4.37.3-5.4.89-1.03.59-1.54 1.23-1.54 1.9s.36 1.18 1.07 1.51c.71.34 1.64.58 2.79.74 1.15.16 2.45.29 3.91.39 1.46.1 2.97.25 4.51.44 1.54.2 3.04.47 4.51.83 1.46.36 2.77.88 3.91 1.57a8.37 8.37 0 012.79 2.73c.71 1.13 1.07 2.54 1.07 4.24 0 1.3-.27 2.59-.8 3.85-.53 1.27-1.44 2.4-2.73 3.41-1.28 1.01-3 1.81-5.16 2.4-2.16.59-4.83.89-8.03.89-2.49 0-4.63-.12-6.43-.36-1.8-.24-3.33-.52-4.6-.86-1.27-.34-2.26-.64-2.99-.92-.73-.28-1.28-.41-1.63-.41-.24 0-.44.08-.62.24-.18.16-.37.34-.56.53l-.71-.18 4.39-10.55.59.3zM72.88 25.62c.32 0 .55-.11.71-.33.16-.22.28-.66.36-1.33h.71v10.26h-.71c-.08-.63-.2-1.02-.36-1.16-.16-.14-.4-.21-.71-.21H41.93v-.71c.75-.08 1.22-.21 1.39-.39.18-.18.27-.4.27-.68V3.44c0-.28-.09-.5-.27-.68s-.64-.31-1.39-.39v-.71h12.22v.71c-.75.08-1.22.21-1.39.39-.18.18-.27.41-.27.68v22.18h20.4zM88.53 31.55c0 .2.07.35.21.44.14.1.42.15.86.15v.71H79.1v-.71c.43-.08.75-.21.95-.39.2-.18.39-.5.59-.98.08-.2.28-.73.59-1.6.32-.87.73-1.97 1.25-3.29.51-1.32 1.09-2.8 1.72-4.42.63-1.62 1.26-3.27 1.9-4.95.63-1.68 1.25-3.32 1.87-4.92.61-1.6 1.16-3.03 1.63-4.3.47-1.26.86-2.29 1.16-3.08.3-.79.44-1.21.44-1.25 0-.2-.13-.34-.39-.42a5.17 5.17 0 00-.8-.18v-.71h15.48v.71c-.32.04-.57.1-.77.18-.2.08-.3.28-.3.59 0 .08.19.59.56 1.54.38.95.86 2.18 1.45 3.71.59 1.52 1.27 3.24 2.05 5.16.77 1.92 1.57 3.87 2.4 5.87.83 2 1.63 3.94 2.4 5.84s1.47 3.6 2.11 5.1c.32.71.58 1.19.8 1.42.22.24.5.36.86.36v.71h-11.68v-.71c.75-.04 1.13-.28 1.13-.71 0-.04-.1-.31-.3-.8-.2-.49-.42-1.05-.65-1.66-.24-.61-.46-1.2-.68-1.75-.22-.55-.35-.93-.39-1.13H90.43c-.4 1.07-.71 1.94-.95 2.61-.24.67-.43 1.21-.56 1.6-.14.4-.24.68-.3.86s-.09.31-.09.39zm14.41-10.2L97.19 7.24l-5.28 14.11h11.03zM142.78 21.52c-.32 0-.53.11-.65.33-.12.22-.2.5-.24.86h-.71v-8.3h.71c.08.71.38 1.07.89 1.07h17.49v.71c-.63.04-.95.38-.95 1.01v9.84c0 .28.04.51.12.71.08.2.28.3.59.3h.3v.71c-5.38 2.85-11.74 4.27-19.09 4.27-2.49 0-4.89-.31-7.21-.92-2.31-.61-4.36-1.57-6.14-2.88-1.78-1.3-3.21-2.95-4.3-4.95-1.09-2-1.63-4.34-1.63-7.03s.54-5.03 1.63-7.03c1.09-2 2.52-3.66 4.3-4.98 1.78-1.32 3.82-2.31 6.14-2.96 2.31-.65 4.71-.98 7.21-.98.99 0 1.86.02 2.61.06.75.04 1.48.12 2.19.24s1.44.27 2.19.44 1.64.41 2.67.68c.99.28 1.9.6 2.73.98.83.38 1.36.56 1.6.56.32 0 .59-.16.83-.47l.71.24-3.85 7.83-.71-.42c.08-.24.12-.45.12-.65 0-.28-.34-.58-1.01-.92-.67-.34-1.52-.64-2.55-.92-1.03-.28-2.19-.51-3.47-.71-1.28-.2-2.54-.3-3.76-.3-1.42 0-2.78.19-4.06.56-1.28.38-2.43.96-3.44 1.75a8.594 8.594 0 00-2.4 2.94c-.59 1.17-.89 2.56-.89 4.18s.36 2.96 1.07 4.12a9.308 9.308 0 002.7 2.88c1.09.75 2.3 1.3 3.65 1.66 1.34.36 2.67.53 3.97.53 1.66 0 3.15-.1 4.48-.3 1.32-.2 2.6-.47 3.82-.83v-3.91h-7.65zM174.27 32.14c.75-.08 1.22-.21 1.39-.39s.27-.4.27-.68V8.89h-10.2c-.32 0-.55.11-.71.33-.16.22-.28.66-.36 1.33h-.71V0h.71c.08.67.2 1.12.36 1.33.16.22.4.33.71.33h29.29c.32 0 .55-.11.71-.33.16-.22.28-.66.36-1.33h.71v10.56h-.71c-.08-.67-.2-1.12-.36-1.33-.16-.22-.4-.33-.71-.33h-10.2v22.17c0 .28.09.5.27.68s.64.31 1.39.39v.71h-12.22v-.71zM238.19 31.07c0 .28.09.5.27.68s.64.31 1.39.39v.71h-12.22v-.71c.75-.08 1.22-.21 1.39-.39s.27-.4.27-.68V20.1h-15.42v10.97c0 .28.09.5.27.68s.64.31 1.39.39v.71h-12.22v-.71c.75-.08 1.22-.21 1.39-.39.18-.18.27-.4.27-.68V3.44c0-.28-.09-.5-.27-.68-.18-.18-.64-.31-1.39-.39v-.71h12.22v.71c-.75.08-1.22.21-1.39.39-.18.18-.27.41-.27.68v9.43h15.42V3.44c0-.28-.09-.5-.27-.68-.18-.18-.64-.31-1.39-.39v-.71h12.22v.71c-.75.08-1.22.21-1.39.39-.18.18-.27.41-.27.68v27.63zM275.19 3.44c0-.28-.09-.5-.27-.68-.18-.18-.64-.31-1.39-.39v-.71h12.22v.71c-.75.08-1.22.21-1.39.39-.18.18-.27.41-.27.68v15.89c0 2.61-.43 4.8-1.27 6.58-.85 1.78-2.02 3.2-3.5 4.27-1.48 1.07-3.22 1.81-5.22 2.22-2 .42-4.12.62-6.37.62s-4.38-.21-6.37-.62-3.74-1.16-5.22-2.22c-1.48-1.07-2.65-2.49-3.5-4.27-.85-1.78-1.27-3.97-1.27-6.58V3.44c0-.28-.09-.5-.27-.68-.18-.18-.64-.31-1.39-.39v-.71h12.22v.71c-.75.08-1.22.21-1.39.39-.18.18-.27.41-.27.68v15.89c0 2.29.65 3.93 1.96 4.92 1.3.99 3.14 1.48 \n…[afkortet]"
+  },
+  {
+   "url": "https://signup-form-config.markethype.io/signup-forms/61f26f9f97faff39309587d9.json",
+   "method": "GET",
+   "post": "",
+   "status": 200,
+   "ct": "application/octet-stream",
+   "body": "{\"formConfig\":{\"actions\":{},\"translations\":{\"contact:firstName\":\"Förnamn\",\"contact:lastName\":\"Efternamn\",\"contact:gender\":\"Kön\",\"contact:email\":\"E-post\",\"contact:address:city\":\"Stad\",\"contact:address:line1\":\"Adress\",\"contact:address:line2\":\"Adressrad 2\",\"contact:address:zipCode\":\"Postnummer\",\"internal:submit\":\"Skicka\",\"internal:privacyPolicy\":\"Jag vill få e-postutskick med nyheter och erbjudanden, och accepterar att mina personuppgifter behandlas i enlighet med Privacy Policyn\",\"state:onSuccess\":\"<span>Nästan klart! Klicka bara på bekräftelselänken i mailet som kommer strax. Tack för att du vill prenumerera på våra utskick.</span>\",\"state:onError\":\"Hoppsan, något gick fel. Vänligen försök igen\",\"gender:male\":\"Man\",\"gender:female\":\"Kvinna\",\"gender:other\":\"Annat\",\"gender:no-answer\":\"Jag föredrar att inte svara\",\"validation:isRequired\":\"Fältet {label} är obligatoriskt\",\"validation:isEmail\":\"Fältet {label} måste vara en giltig e-postadress\",\"validation:minLength\":\"Fältet {label} måste minst vara {minLength} tecken\",\"validation:maxLength\":\"Fältet {label} får inte vara längre än {maxLength} tecken\",\"validation:minValue\":\"Fältet {label} måste minst vara {minValue}\",\"validation:maxValue\":\"Fältet {label} får inte vara högre än {maxValue}\",\"contact:birthDate\":\"Födelsedag\",\"contact:address:country\":\"Land\",\"validation:isDate\":\"Fältet {label} måste vara ett giltigt datum\",\"validation:isFutureDate\":\"Fältet {label} kan inte vara ett framtida datum\",\"validation:isTooOldDate\":\"Fältet {label} måste vara ett senare datum\"},\"items\":[{\"type\":\"string\",\"component\":\"Text\",\"label\":\"E-post\",\"field\":\"contact:email\",\"validations\":[{\"name\":\"isRequired\",\"value\":true},{\"name\":\"isEmail\",\"value\":true}],\"options\":[],\"hidden\":false},{\"type\":\"string\",\"component\":\"Text\",\"label\":\"Förnamn\",\"field\":\"contact:firstName\",\"validations\":[],\"options\":[],\"hidden\":false},{\"type\":\"string\",\"component\":\"Text\",\"label\":\"Efternamn\",\"field\":\"contact:lastName\",\"validations\":[],\"options\":[],\"hidden\":false},{\"type\":\"stringList\",\"component\":\"Checkboxes\",\"label\":\"\",\"field\":\"subscriptionTypes\",\"defaultValue\":[\"615ec55f1a70e08bab3dc3dc\"],\"validations\":[{\"name\":\"isRequired\",\"value\":true}],\"options\":[{\"label\":\"Nyheter och erbjudanden från Slagthuset\",\"value\":\"615ec55f1a70e08bab3dc3dc\",\"hidden\":false},{\"label\":\"Utskick av lunchmenyn varje måndag morgon\",\"value\":\"61f2b7ac522f9c3d68bdd9bf\",\"hidden\":false}],\"hidden\":false},{\"type\":\"boolean\",\"component\":\"Checkbox\",\"label\":\"<span>Jag godkänner att mina personuppgifter behandlas i enlighet med Privacy Policyn, när jag väljer att prenumerera på nyhetsbrev från Slagthuset</span>\",\"field\":\"internal:privacyPolicy\",\"validations\":[{\"name\":\"isRequired\",\"value\":true}],\"options\":[],\"hidden\":false},{\"type\":\"content\",\"component\":\"SubmitButton\",\"label\":\"Skicka\",\"field\":\"internal:submit\",\"validations\":[],\"options\":[],\"hidden\":false}],\"styling\":{\"inlineCSS\":\".mhForm, .mhForm * {\\n  -moz-box-sizing: border-box;\\n  -webkit-box-sizing: border-box;\\n  box-sizing: border-box;\\n  background-repeat: no-repeat;\\n  padding: 0;\\n  margin: 0;\\n}\\n\\n.mhForm {\\n  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';\\n  font-size: 14px;\\n}\\n\\n/* Form elements */\\n\\n.mhForm__button {\\n  padding: 11px 20px;\\n  font-size: 14px;\\n  font-weight: 400;\\n  background-color: #3E52FF;\\n  color: #fff;\\n  border: none;\\n  border-radius: 5px;\\n  cursor: pointer;\\n}\\n\\n.mhForm__button:hover {\\n  background-color: #2e41e7;\\n}\\n\\n.mhForm__checkboxLabel,\\n.mhForm__radioLabel {\\n  display: inline-block;\\n  margin-left: 10px;\\n  line-height: 19px;\\n}\\n\\n.mhForm__control {\\n  margin-bottom: 20px;\\n}\\n\\n.mhForm__control--checkboxes {\\n  border: 0;\\n}\\n\\n.mhForm__input {\\n  border-radius: 2px;\\n  border: 1px solid #e0e3e5;\\n}\\n\\n.mhForm__input--checkbox,\\n.mhForm__input--radio {\\n  flex: 0 0 auto;\\n}\\n\\n.mhForm__input--email,\\n.mhForm__input--number,\\n.mhForm__input--text,\\n.mhForm__select {\\n  -webkit-appearance: none;\\n  -moz-appearance: none;\\n  appearance: none;\\n  background-color: #fff;\\n  border-color: #e0e3e5;\\n  border-width: 1px;\\n  border-radius: 3px;\\n  padding: 8px 12px;\\n  font-size: 14px;\\n  line-height: 20px;\\n  width: 100%;\\n}\\n\\n.mhForm__label {\\n  color: #001235;\\n  display: flex;\\n  font-weight: 400;\\n  margin-bottom: 3px;\\n}\\n\\n.mhForm__label--checkbox {\\n  align-items: center;\\n}\\n\\n.mhForm__select {\\n  background: #fff url(\\\"data:image/svg+xml;charset=utf-8,%3C?xml version='1.0' encoding='utf-8'?%3E %3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' height='62.5' width='116.9' fill='%238A919A'%3E %3Cpath d='M115.3,1.6 C113.7,0 111.1,0 109.5,1.6 L58.5,52.7 L7.4,1.6 C5.8,0 3.2,0 1.6,1.6 C0,3.2 0,5.8 1.6,7.4 L55.5,61.3 C56.3,62.1 57.3,62.5 58.4,62.5 C59.4,62.5 60.5,62.1 61.3,61.3 L115.2,7.4 C116.9,5.8 116.9,3.2 115.3,1.6Z'/%3E %3C/svg%3E\\\") calc(100% - 12px) 50% / 12px no-repeat;\\n  padding-right: 35px;\\n  color: inherit;\\n  background-color: #fff;\\n  font-family: inherit;\\n  font-size: inherit;\\n  padding: 10px;\\n}\\n\\n.mhForm__select::-ms-expand {\\n  display: none;\\n}\\n\\n/* Validation */\\n\\n.mhForm__validationError {\\n  margin-top: 5px;\\n  color: #AE3523;\\n}\\n\\n/* Success and error */\\n\\n.mhForm__error {\\n  background-color: #F9E9E7;\\n  color: #AE3523;\\n  margin-bottom: 20px;\\n}\\n\\n.mhForm__success,\\n.mhForm__error {\\n  padding: 20px;\\n}\\n\\n.mhForm__success {\\n  background-color: #E4F3F0;\\n  color: #2F9782;\\n}\\n\\n.mhForm__success ~ * {\\n  display: none;\\n}\\n\\n.mhForm__dateInput {\\n  -moz-appearance: textfield\\n}\\n\\n.mhForm__dateInput::-webkit-inner-spin-button {\\n  -webkit-appearance: none;\\n}\\n\\n.mhForm__dateInputWrapper {\\n  display: flex;\\n  grid-gap: 10px;\\n}\\n\\n.mhForm__partialDate {\\n  width: 75px;\\n}\\n\\n.mhForm__partialDate--year {\\n  width: 85px;\\n}\",\"inlineCssVersion\":\"11\"}},\"language\":\"sv-SE\"}"
+  },
+  {
+   "url": "https://slagthuset.se/moten-event/lokaler/sodra-hallen?_rsc=jxzjd",
+   "method": "GET",
+   "post": "",
+   "status": 200,
+   "ct": "text/x-component",
+   "body": "0:[\"uv37NQCHdCfBvtFouuAuX\",[[\"children\",[\"lang\",\"sv\",\"d\"],\"children\",\"moten-event\",[\"moten-event\",{\"children\":[\"lokaler\",{\"children\":[[\"slug\",\"sodra-hallen\",\"d\"],{\"children\":[\"__PAGE__\",{}]}]}]}],null,null]]]\n"
+  },
+  {
+   "url": "https://slagthuset.se/moten-event/lokaler/norra-hallen?_rsc=jxzjd",
+   "method": "GET",
+   "post": "",
+   "status": 200,
+   "ct": "text/x-component",
+   "body": "0:[\"uv37NQCHdCfBvtFouuAuX\",[[\"children\",[\"lang\",\"sv\",\"d\"],\"children\",\"moten-event\",[\"moten-event\",{\"children\":[\"lokaler\",{\"children\":[[\"slug\",\"norra-hallen\",\"d\"],{\"children\":[\"__PAGE__\",{}]}]}]}],null,null]]]\n"
+  },
+  {
+   "url": "https://slagthuset.se/lokaler?_rsc=jxzjd",
+   "method": "GET",
+   "post": "",
+   "status": 301,
+   "ct": "",
+   "body": ""
+  },
+  {
+   "url": "https://slagthuset.se/moten-event/lokaler/saluhallen?_rsc=jxzjd",
+   "method": "GET",
+   "post": "",
+   "status": 200,
+   "ct": "text/x-component",
+   "body": "0:[\"uv37NQCHdCfBvtFouuAuX\",[[\"children\",[\"lang\",\"sv\",\"d\"],\"children\",\"moten-event\",[\"moten-event\",{\"children\":[\"lokaler\",{\"children\":[[\"slug\",\"saluhallen\",\"d\"],{\"children\":[\"__PAGE__\",{}]}]}]}],null,null]]]\n"
+  },
+  {
+   "url": "https://slagthuset.se/moten-event/lokaler/restauranggatan?_rsc=jxzjd",
+   "method": "GET",
+   "post": "",
+   "status": 200,
+   "ct": "text/x-component",
+   "body": "0:[\"uv37NQCHdCfBvtFouuAuX\",[[\"children\",[\"lang\",\"sv\",\"d\"],\"children\",\"moten-event\",[\"moten-event\",{\"children\":[\"lokaler\",{\"children\":[[\"slug\",\"restauranggatan\",\"d\"],{\"children\":[\"__PAGE__\",{}]}]}]}],null,null]]]\n"
+  },
+  {
+   "url": "https://slagthuset.se/moten-event/lokaler/teatern?_rsc=jxzjd",
+   "method": "GET",
+   "post": "",
+   "status": 200,
+   "ct": "text/x-component",
+   "body": "0:[\"uv37NQCHdCfBvtFouuAuX\",[[\"children\",[\"lang\",\"sv\",\"d\"],\"children\",\"moten-event\",[\"moten-event\",{\"children\":[\"lokaler\",{\"children\":[[\"slug\",\"teatern\",\"d\"],{\"children\":[\"__PAGE__\",{}]}]}]}],null,null]]]\n"
+  },
+  {
+   "url": "https://slagthuset.se/moten-event/lokaler/hantverksgangen?_rsc=jxzjd",
+   "method": "GET",
+   "post": "",
+   "status": 200,
+   "ct": "text/x-component",
+   "body": "0:[\"uv37NQCHdCfBvtFouuAuX\",[[\"children\",[\"lang\",\"sv\",\"d\"],\"children\",\"moten-event\",[\"moten-event\",{\"children\":[\"lokaler\",{\"children\":[[\"slug\",\"hantverksgangen\",\"d\"],{\"children\":[\"__PAGE__\",{}]}]}]}],null,null]]]\n"
+  },
+  {
+   "url": "https://slagthuset.se/moten-event/lokaler",
+   "method": "GET",
+   "post": "",
+   "status": 200,
+   "ct": "text/x-component",
+   "body": "0:[\"uv37NQCHdCfBvtFouuAuX\",[[\"children\",[\"lang\",\"sv\",\"d\"],\"children\",\"moten-event\",[\"moten-event\",{\"children\":[\"lokaler\",{\"children\":[\"__PAGE__\",{}]}]}],null,null]]]\n"
+  },
+  {
+   "url": "https://slagthuset.se/moten-event/kongress-massa?_rsc=jxzjd",
+   "method": "GET",
+   "post": "",
+   "status": 200,
+   "ct": "text/x-component",
+   "body": "0:[\"uv37NQCHdCfBvtFouuAuX\",[[\"children\",[\"lang\",\"sv\",\"d\"],\"children\",\"moten-event\",[\"moten-event\",{\"children\":[[\"slug\",\"kongress-massa\",\"d\"],{\"children\":[\"__PAGE__\",{}]}]}],null,null]]]\n"
+  },
+  {
+   "url": "https://slagthuset.se/moten-event/praktisk-info?_rsc=jxzjd",
+   "method": "GET",
+   "post": "",
+   "status": 200,
+   "ct": "text/x-component",
+   "body": ""
+  },
+  {
+   "url": "https://slagthuset.se/moten-event/hotell?_rsc=jxzjd",
+   "method": "GET",
+   "post": "",
+   "status": 200,
+   "ct": "text/x-component",
+   "body": "0:[\"uv37NQCHdCfBvtFouuAuX\",[[\"children\",[\"lang\",\"sv\",\"d\"],\"children\",\"moten-event\",[\"moten-event\",{\"children\":[\"hotell\",{\"children\":[\"__PAGE__\",{}]}]}],null,null]]]\n"
+  },
+  {
+   "url": "https://slagthuset.se/moten-event/lokaler?_rsc=jxzjd",
+   "method": "GET",
+   "post": "",
+   "status": 200,
+   "ct": "text/x-component",
+   "body": "0:[\"uv37NQCHdCfBvtFouuAuX\",[[\"children\",[\"lang\",\"sv\",\"d\"],\"children\",\"moten-event\",[\"moten-event\",{\"children\":[\"lokaler\",{\"children\":[\"__PAGE__\",{}]}]}],null,null]]]\n"
+  },
+  {
+   "url": "https://slagthuset.se/restaurangen/foretag?_rsc=jxzjd",
+   "method": "GET",
+   "post": "",
+   "status": 200,
+   "ct": "text/x-component",
+   "body": "3:I[4707,[],\"\"]\n6:I[6423,[],\"\"]\n7:I[8003,[\"2972\",\"static/chunks/2972-99d5484789a8337f.js\",\"1000\",\"static/chunks/1000-85524ae807fe224c.js\",\"1170\",\"static/chunks/1170-e693db1433e7b166.js\",\"2223\",\"static/chunks/2223-f115866adf4bf221.js\",\"5884\",\"static/chunks/5884-99c1800c08d1f390.js\",\"6425\",\"static/chunks/6425-ce26c2856f643ba5.js\",\"3185\",\"static/chunks/app/layout-7c6b7c47abd13fcf.js\"],\"\"]\n8:I[4880,[\"2972\",\"static/chunks/2972-99d5484789a8337f.js\",\"1000\",\"static/chunks/1000-85524ae807fe224c.js\",\"1170\",\"static/chunks/1170-e693db1433e7b166.js\",\"2223\",\"static/chunks/2223-f115866adf4bf221.js\",\"5884\",\"static/chunks/5884-99c1800c08d1f390.js\",\"6425\",\"static/chunks/6425-ce26c2856f643ba5.js\",\"3185\",\"static/chunks/app/layout-7c6b7c47abd13fcf.js\"],\"default\"]\n9:I[4228,[\"2972\",\"static/chunks/2972-99d5484789a8337f.js\",\"1000\",\"static/chunks/1000-85524ae807fe224c.js\",\"1170\",\"static/chunks/1170-e693db1433e7b166.js\",\"2223\",\"static/chunks/2223-f115866adf4bf221.js\",\"5884\",\"static/chunks/5884-99c1800c08d1f390.js\",\"6425\",\"static/chunks/6425-ce26c2856f643ba5.js\",\"3185\",\"static/chunks/app/layout-7c6b7c47abd13fcf.js\"],\"default\"]\nb:I[2972,[\"2972\",\"static/chunks/2972-99d5484789a8337f.js\",\"5878\",\"static/chunks/5878-75d38328b394b6cf.js\",\"7741\",\"static/chunks/app/%5Blang%5D/restaurangen/%5BpageSlug%5D/page-6e0b8a04cd8610a9.js\"],\"\"]\n4:[\"lang\",\"sv\",\"d\"]\n5:[\"pageSlug\",\"foretag\",\"d\"]\na:T1a05,M4.98 20.81c-.08.24-.12.65-.12 1.25 0 .4.36.84 1.1 1.33.73.49 1.68.96 2.85 1.39 1.17.44 2.5.8 4 1.1 1.5.3 3.02.44 4.57.44 2.96 0 5.14-.35 6.52-1.04 1.38-.69 2.08-1.69 2.08-2.99 0-.71-.6-1.22-1.81-1.51-1.21-.3-2.72-.53-4.54-.71-1.82-.18-3.78-.38-5.87-.59-2.1-.22-4.05-.61-5.87-1.19-1.82-.57-3.33-1.4-4.54-2.49-1.21-1.09-1.81-2.58-1.81-4.48 0-1.5.35-2.87 1.04-4.09.69-1.22 1.66-2.27 2.91-3.14 1.25-.87 2.76-1.55 4.54-2.05 1.78-.49 3.75-.74 5.93-.74 2.02 0 3.89.13 5.63.39 1.74.26 3.28.54 4.62.86 1.34.32 2.47.6 3.38.86.91.26 1.56.39 1.96.39s.71-.09.95-.27c.24-.18.45-.39.65-.62l.65.24-4.09 8.24-.71-.36v-.65c0-.36-.39-.72-1.16-1.1-.77-.38-1.75-.71-2.94-1.01-1.19-.3-2.51-.54-3.97-.74-1.46-.2-2.89-.3-4.27-.3-2.57 0-4.37.3-5.4.89-1.03.59-1.54 1.23-1.54 1.9s.36 1.18 1.07 1.51c.71.34 1.64.58 2.79.74 1.15.16 2.45.29 3.91.39 1.46.1 2.97.25 4.51.44 1.54.2 3.04.47 4.51.83 1.46.36 2.77.88 3.91 1.57a8.37 8.37 0 012.79 2.73c.71 1.13 1.07 2.54 1.07 4.24 0 1.3-.27 2.59-.8 3.85-.53 1.27-1.44 2.4-2.73 3.41-1.28 1.01-3 1.81-5.16 2.4-2.16.59-4.83.89-8.03.89-2.49 0-4.63-.12-6.43-.36-1.8-.24-3.33-.52-4.6-.86-1.27-.34-2.26-.64-2.99-.92-.73-.28-1.28-.41-1.63-.41-.24 0-.44.08-.62.24-.18.16-.37.34-.56.53l-.71-.18 4.39-10.55.59.3zM72.88 25.62c.32 0 .55-.11.71-.33.16-.22.28-.66.36-1.33h.71v10.26h-.71c-.08-.63-.2-1.02-.36-1.16-.16-.14-.4-.21-.71-.21H41.93v-.71c.75-.08 1.22-.21 1.39-.39.18-.18.27-.4.27-.68V3.44c0-.28-.09-.5-.27-.68s-.64-.31-1.39-.39v-.71h12.22v.71c-.75.08-1.22.21-1.39.39-.18.18-.27.41-.27.68v22.18h20.4zM88.53 31.55c0 .2.07.35.21.44.14.1.42.15.86.15v.71H79.1v-.71c.43-.08.75-.21.95-.39.2-.18.39-.5.59-.98.08-.2.28-.73.59-1.6.32-.87.73-1.97 1.25-3.29.51-1.32 1.09-2.8 1.72-4.42.63-1.62 1.26-3.27 1.9-4.95.63-1.68 1.25-3.32 1.87-4.92.61-1.6 1.16-3.03 1.63-4.3.47-1.26.86-2.29 1.16-3.08.3-.79.44-1.21.44-1.25 0-.2-.13-.34-.39-.42a5.17 5.17 0 00-.8-.18v-.71h15.48v.71c-.32.04-.57.1-.77.18-.2.08-.3.28-.3.59 0 .08.19.59.56 1.54.38.95.86 2.18 1.45 3.71.59 1.52 1.27 3.24 2.05 5.16.77 1.92 1.57 3.87 2.4 5.87.83 2 1.63 3.94 2.4 5.84s1.47 3.6 2.11 5.1c.32.71.58 1.19.8 1.42.22.24.5.36.86.36v.71h-11.68v-.71c.75-.04 1.13-.28 1.13-.71 0-.04-.1-.31-.3-.8-.2-.49-.42-1.05-.65-1.66-.24-.61-.46-1.2-.68-1.75-.22-.55-.35-.93-.39-1.13H90.43c-.4 1.07-.71 1.94-.95 2.61-.24.67-.43 1.21-.56 1.6-.14.4-.24.68-.3.86s-.09.31-.09.39zm14.41-10.2L97.19 7.24l-5.28 14.11h11.03zM142.78 21.52c-.32 0-.53.11-.65.33-.12.22-.2.5-.24.86h-.71v-8.3h.71c.08.71.38 1.07.89 1.07h17.49v.71c-.63.04-.95.38-.95 1.01v9.84c0 .28.04.51.12.71.08.2.28.3.59.3h.3v.71c-5.38 2.85-11.74 4.27-19.09 4.27-2.49 0-4.89-.31-7.21-.92-2.31-.61-4.36-1.57-6.14-2.88-1.78-1.3-3.21-2.95-4.3-4.95-1.09-2-1.63-4.34-1.63-7.03s.54-5.03 1.63-7.03c1.09-2 2.52-3.66 4.3-4.98 1.78-1.32 3.82-2.31 6.14-2.96 2.31-.65 4.71-.98 7.21-.98.99 0 1.86.02 2.61.06.75.04 1.48.12 2.19.24s1.44.27 2.19.44 1.64.41 2.67.68c.99.28 1.9.6 2.73.98.83.38 1.36.56 1.6.56.32 0 .59-.16.83-.47l.71.24-3.85 7.83-.71-.42c.08-.24.12-.45.12-.65 0-.28-.34-.58-1.01-.92-.67-.34-1.52-.64-2.55-.92-1.03-.28-2.19-.51-3.47-.71-1.28-.2-2.54-.3-3.76-.3-1.42 0-2.78.19-4.06.56-1.28.38-2.43.96-3.44 1.75a8.594 8.594 0 00-2.4 2.94c-.59 1.17-.89 2.56-.89 4.18s.36 2.96 1.07 4.12a9.308 9.308 0 002.7 2.88c1.09.75 2.3 1.3 3.65 1.66 1.34.36 2.67.53 3.97.53 1.66 0 3.15-.1 4.48-.3 1.32-.2 2.6-.47 3.82-.83v-3.91h-7.65zM174.27 32.14c.75-.08 1.22-.21 1.39-.39s.27-.4.27-.68V8.89h-10.2c-.32 0-.55.11-.71.33-.16.22-.28.66-.36 1.33h-.71V0h.71c.08.67.2 1.12.36 1.33.16.22.4.33.71.33h29.29c.32 0 .55-.11.71-.33.16-.22.28-.66.36-1.33h.71v10.56h-.71c-.08-.67-.2-1.12-.36-1.33-.16-.22-.4-.33-.71-.33h-10.2v22.17c0 .28.09.5.27.68s.64.31 1.39.39v.71h-12.22v-.71zM238.19 31.07c0 .28.09.5.27.68s.64.31 1.39.39v.71h-12.22v-.71c.75-.08 1.22-.21 1.39-.39s.27-.4.27-.68V20.1h-15.42v10.97c0 .28.09.5.27.68s.64.31 1.39.39v.71h-12.22v-.71c.75-.08 1.22-.21 1.39-.39.18-.18.27-.4.27-.68V3.44c0-.28-.09-.5-.27-.68-.18-.18-.64-.31-1.39-.39v-.71h12.22v.71c-.75.08-1.22.21-1.39.39-.18.18-.27.41-.27.68v9.43h15.42V3.44c0-.28-.09-.5-.27-.68-.18-.18-.64-.31-1.39-.39v-.71h12.22v.71c-.75.08-1.22.21-1.39.39-.18.18-.27.41-.27.68v27.63zM275.19 3.44c0-.28-.09-.5-.27-.68-.18-.18-.64-.31-1.39-.39v-.71h12.22v.71c-.75.08-1.22.21-1.39.39-.18.18-.27.41-.27.68v15.89c0 2.61-.43 4.8-1.27 6.58-.85 1.78-2.02 3.2-3.5 4.27-1.48 1.07-3.22 1.81-5.22 2.22-2 .42-4.12.62-6.37.62s-4.38-.21-6.37-.62-3.74-1.16-5.22-2.22c-1.48-1.07-2.65-2.49-3.5-4.27-.85-1.78-1.27-3.97-1.27-6.58V3.44c0-.28-.09-.5-.27-.68-.18-.18-.64-.31-1.39-.39v-.71h12.22v.71c-.75.08-1.22.21-1.39.39-.18.18-.27.41-.27.68v15.89c0 2.29.65 3.93 1.96 4.92 1.3.99 3.14 1.48 5.51 1.48s4.21-.49 5.51-1.48c1.3-.99 1.96-2\n…[afkortet]"
+  },
+  {
+   "url": "https://slagthuset.se/restaurangen/konsert?_rsc=jxzjd",
+   "method": "GET",
+   "post": "",
+   "status": 200,
+   "ct": "text/x-component",
+   "body": "3:I[4707,[],\"\"]\n6:I[6423,[],\"\"]\n7:I[8003,[\"2972\",\"static/chunks/2972-99d5484789a8337f.js\",\"1000\",\"static/chunks/1000-85524ae807fe224c.js\",\"1170\",\"static/chunks/1170-e693db1433e7b166.js\",\"2223\",\"static/chunks/2223-f115866adf4bf221.js\",\"5884\",\"static/chunks/5884-99c1800c08d1f390.js\",\"6425\",\"static/chunks/6425-ce26c2856f643ba5.js\",\"3185\",\"static/chunks/app/layout-7c6b7c47abd13fcf.js\"],\"\"]\n8:I[4880,[\"2972\",\"static/chunks/2972-99d5484789a8337f.js\",\"1000\",\"static/chunks/1000-85524ae807fe224c.js\",\"1170\",\"static/chunks/1170-e693db1433e7b166.js\",\"2223\",\"static/chunks/2223-f115866adf4bf221.js\",\"5884\",\"static/chunks/5884-99c1800c08d1f390.js\",\"6425\",\"static/chunks/6425-ce26c2856f643ba5.js\",\"3185\",\"static/chunks/app/layout-7c6b7c47abd13fcf.js\"],\"default\"]\n9:I[4228,[\"2972\",\"static/chunks/2972-99d5484789a8337f.js\",\"1000\",\"static/chunks/1000-85524ae807fe224c.js\",\"1170\",\"static/chunks/1170-e693db1433e7b166.js\",\"2223\",\"static/chunks/2223-f115866adf4bf221.js\",\"5884\",\"static/chunks/5884-99c1800c08d1f390.js\",\"6425\",\"static/chunks/6425-ce26c2856f643ba5.js\",\"3185\",\"static/chunks/app/layout-7c6b7c47abd13fcf.js\"],\"default\"]\nb:I[2972,[\"2972\",\"static/chunks/2972-99d5484789a8337f.js\",\"5878\",\"static/chunks/5878-75d38328b394b6cf.js\",\"7741\",\"static/chunks/app/%5Blang%5D/restaurangen/%5BpageSlug%5D/page-6e0b8a04cd8610a9.js\"],\"\"]\n4:[\"lang\",\"sv\",\"d\"]\n5:[\"pageSlug\",\"konsert\",\"d\"]\na:T1a05,M4.98 20.81c-.08.24-.12.65-.12 1.25 0 .4.36.84 1.1 1.33.73.49 1.68.96 2.85 1.39 1.17.44 2.5.8 4 1.1 1.5.3 3.02.44 4.57.44 2.96 0 5.14-.35 6.52-1.04 1.38-.69 2.08-1.69 2.08-2.99 0-.71-.6-1.22-1.81-1.51-1.21-.3-2.72-.53-4.54-.71-1.82-.18-3.78-.38-5.87-.59-2.1-.22-4.05-.61-5.87-1.19-1.82-.57-3.33-1.4-4.54-2.49-1.21-1.09-1.81-2.58-1.81-4.48 0-1.5.35-2.87 1.04-4.09.69-1.22 1.66-2.27 2.91-3.14 1.25-.87 2.76-1.55 4.54-2.05 1.78-.49 3.75-.74 5.93-.74 2.02 0 3.89.13 5.63.39 1.74.26 3.28.54 4.62.86 1.34.32 2.47.6 3.38.86.91.26 1.56.39 1.96.39s.71-.09.95-.27c.24-.18.45-.39.65-.62l.65.24-4.09 8.24-.71-.36v-.65c0-.36-.39-.72-1.16-1.1-.77-.38-1.75-.71-2.94-1.01-1.19-.3-2.51-.54-3.97-.74-1.46-.2-2.89-.3-4.27-.3-2.57 0-4.37.3-5.4.89-1.03.59-1.54 1.23-1.54 1.9s.36 1.18 1.07 1.51c.71.34 1.64.58 2.79.74 1.15.16 2.45.29 3.91.39 1.46.1 2.97.25 4.51.44 1.54.2 3.04.47 4.51.83 1.46.36 2.77.88 3.91 1.57a8.37 8.37 0 012.79 2.73c.71 1.13 1.07 2.54 1.07 4.24 0 1.3-.27 2.59-.8 3.85-.53 1.27-1.44 2.4-2.73 3.41-1.28 1.01-3 1.81-5.16 2.4-2.16.59-4.83.89-8.03.89-2.49 0-4.63-.12-6.43-.36-1.8-.24-3.33-.52-4.6-.86-1.27-.34-2.26-.64-2.99-.92-.73-.28-1.28-.41-1.63-.41-.24 0-.44.08-.62.24-.18.16-.37.34-.56.53l-.71-.18 4.39-10.55.59.3zM72.88 25.62c.32 0 .55-.11.71-.33.16-.22.28-.66.36-1.33h.71v10.26h-.71c-.08-.63-.2-1.02-.36-1.16-.16-.14-.4-.21-.71-.21H41.93v-.71c.75-.08 1.22-.21 1.39-.39.18-.18.27-.4.27-.68V3.44c0-.28-.09-.5-.27-.68s-.64-.31-1.39-.39v-.71h12.22v.71c-.75.08-1.22.21-1.39.39-.18.18-.27.41-.27.68v22.18h20.4zM88.53 31.55c0 .2.07.35.21.44.14.1.42.15.86.15v.71H79.1v-.71c.43-.08.75-.21.95-.39.2-.18.39-.5.59-.98.08-.2.28-.73.59-1.6.32-.87.73-1.97 1.25-3.29.51-1.32 1.09-2.8 1.72-4.42.63-1.62 1.26-3.27 1.9-4.95.63-1.68 1.25-3.32 1.87-4.92.61-1.6 1.16-3.03 1.63-4.3.47-1.26.86-2.29 1.16-3.08.3-.79.44-1.21.44-1.25 0-.2-.13-.34-.39-.42a5.17 5.17 0 00-.8-.18v-.71h15.48v.71c-.32.04-.57.1-.77.18-.2.08-.3.28-.3.59 0 .08.19.59.56 1.54.38.95.86 2.18 1.45 3.71.59 1.52 1.27 3.24 2.05 5.16.77 1.92 1.57 3.87 2.4 5.87.83 2 1.63 3.94 2.4 5.84s1.47 3.6 2.11 5.1c.32.71.58 1.19.8 1.42.22.24.5.36.86.36v.71h-11.68v-.71c.75-.04 1.13-.28 1.13-.71 0-.04-.1-.31-.3-.8-.2-.49-.42-1.05-.65-1.66-.24-.61-.46-1.2-.68-1.75-.22-.55-.35-.93-.39-1.13H90.43c-.4 1.07-.71 1.94-.95 2.61-.24.67-.43 1.21-.56 1.6-.14.4-.24.68-.3.86s-.09.31-.09.39zm14.41-10.2L97.19 7.24l-5.28 14.11h11.03zM142.78 21.52c-.32 0-.53.11-.65.33-.12.22-.2.5-.24.86h-.71v-8.3h.71c.08.71.38 1.07.89 1.07h17.49v.71c-.63.04-.95.38-.95 1.01v9.84c0 .28.04.51.12.71.08.2.28.3.59.3h.3v.71c-5.38 2.85-11.74 4.27-19.09 4.27-2.49 0-4.89-.31-7.21-.92-2.31-.61-4.36-1.57-6.14-2.88-1.78-1.3-3.21-2.95-4.3-4.95-1.09-2-1.63-4.34-1.63-7.03s.54-5.03 1.63-7.03c1.09-2 2.52-3.66 4.3-4.98 1.78-1.32 3.82-2.31 6.14-2.96 2.31-.65 4.71-.98 7.21-.98.99 0 1.86.02 2.61.06.75.04 1.48.12 2.19.24s1.44.27 2.19.44 1.64.41 2.67.68c.99.28 1.9.6 2.73.98.83.38 1.36.56 1.6.56.32 0 .59-.16.83-.47l.71.24-3.85 7.83-.71-.42c.08-.24.12-.45.12-.65 0-.28-.34-.58-1.01-.92-.67-.34-1.52-.64-2.55-.92-1.03-.28-2.19-.51-3.47-.71-1.28-.2-2.54-.3-3.76-.3-1.42 0-2.78.19-4.06.56-1.28.38-2.43.96-3.44 1.75a8.594 8.594 0 00-2.4 2.94c-.59 1.17-.89 2.56-.89 4.18s.36 2.96 1.07 4.12a9.308 9.308 0 002.7 2.88c1.09.75 2.3 1.3 3.65 1.66 1.34.36 2.67.53 3.97.53 1.66 0 3.15-.1 4.48-.3 1.32-.2 2.6-.47 3.82-.83v-3.91h-7.65zM174.27 32.14c.75-.08 1.22-.21 1.39-.39s.27-.4.27-.68V8.89h-10.2c-.32 0-.55.11-.71.33-.16.22-.28.66-.36 1.33h-.71V0h.71c.08.67.2 1.12.36 1.33.16.22.4.33.71.33h29.29c.32 0 .55-.11.71-.33.16-.22.28-.66.36-1.33h.71v10.56h-.71c-.08-.67-.2-1.12-.36-1.33-.16-.22-.4-.33-.71-.33h-10.2v22.17c0 .28.09.5.27.68s.64.31 1.39.39v.71h-12.22v-.71zM238.19 31.07c0 .28.09.5.27.68s.64.31 1.39.39v.71h-12.22v-.71c.75-.08 1.22-.21 1.39-.39s.27-.4.27-.68V20.1h-15.42v10.97c0 .28.09.5.27.68s.64.31 1.39.39v.71h-12.22v-.71c.75-.08 1.22-.21 1.39-.39.18-.18.27-.4.27-.68V3.44c0-.28-.09-.5-.27-.68-.18-.18-.64-.31-1.39-.39v-.71h12.22v.71c-.75.08-1.22.21-1.39.39-.18.18-.27.41-.27.68v9.43h15.42V3.44c0-.28-.09-.5-.27-.68-.18-.18-.64-.31-1.39-.39v-.71h12.22v.71c-.75.08-1.22.21-1.39.39-.18.18-.27.41-.27.68v27.63zM275.19 3.44c0-.28-.09-.5-.27-.68-.18-.18-.64-.31-1.39-.39v-.71h12.22v.71c-.75.08-1.22.21-1.39.39-.18.18-.27.41-.27.68v15.89c0 2.61-.43 4.8-1.27 6.58-.85 1.78-2.02 3.2-3.5 4.27-1.48 1.07-3.22 1.81-5.22 2.22-2 .42-4.12.62-6.37.62s-4.38-.21-6.37-.62-3.74-1.16-5.22-2.22c-1.48-1.07-2.65-2.49-3.5-4.27-.85-1.78-1.27-3.97-1.27-6.58V3.44c0-.28-.09-.5-.27-.68-.18-.18-.64-.31-1.39-.39v-.71h12.22v.71c-.75.08-1.22.21-1.39.39-.18.18-.27.41-.27.68v15.89c0 2.29.65 3.93 1.96 4.92 1.3.99 3.14 1.48 5.51 1.48s4.21-.49 5.51-1.48c1.3-.99 1.96-2\n…[afkortet]"
+  },
+  {
+   "url": "https://slagthuset.se/information/om-oss?_rsc=jxzjd",
+   "method": "GET",
+   "post": "",
+   "status": 200,
+   "ct": "text/x-component",
+   "body": "0:[\"uv37NQCHdCfBvtFouuAuX\",[[\"children\",[\"lang\",\"sv\",\"d\"],\"children\",\"information\",[\"information\",{\"children\":[\"om-oss\",{\"children\":[\"__PAGE__\",{}]}]}],null,null]]]\n"
+  },
+  {
+   "url": "https://slagthuset.se/information/kontakt?_rsc=jxzjd",
+   "method": "GET",
+   "post": "",
+   "status": 200,
+   "ct": "text/x-component",
+   "body": "3:I[4707,[],\"\"]\n6:I[6423,[],\"\"]\n7:I[8003,[\"2972\",\"static/chunks/2972-99d5484789a8337f.js\",\"1000\",\"static/chunks/1000-85524ae807fe224c.js\",\"1170\",\"static/chunks/1170-e693db1433e7b166.js\",\"2223\",\"static/chunks/2223-f115866adf4bf221.js\",\"5884\",\"static/chunks/5884-99c1800c08d1f390.js\",\"6425\",\"static/chunks/6425-ce26c2856f643ba5.js\",\"3185\",\"static/chunks/app/layout-7c6b7c47abd13fcf.js\"],\"\"]\n8:I[4880,[\"2972\",\"static/chunks/2972-99d5484789a8337f.js\",\"1000\",\"static/chunks/1000-85524ae807fe224c.js\",\"1170\",\"static/chunks/1170-e693db1433e7b166.js\",\"2223\",\"static/chunks/2223-f115866adf4bf221.js\",\"5884\",\"static/chunks/5884-99c1800c08d1f390.js\",\"6425\",\"static/chunks/6425-ce26c2856f643ba5.js\",\"3185\",\"static/chunks/app/layout-7c6b7c47abd13fcf.js\"],\"default\"]\n9:I[4228,[\"2972\",\"static/chunks/2972-99d5484789a8337f.js\",\"1000\",\"static/chunks/1000-85524ae807fe224c.js\",\"1170\",\"static/chunks/1170-e693db1433e7b166.js\",\"2223\",\"static/chunks/2223-f115866adf4bf221.js\",\"5884\",\"static/chunks/5884-99c1800c08d1f390.js\",\"6425\",\"static/chunks/6425-ce26c2856f643ba5.js\",\"3185\",\"static/chunks/app/layout-7c6b7c47abd13fcf.js\"],\"default\"]\nb:I[2972,[\"6990\",\"static/chunks/13b76428-7de9559f29955819.js\",\"2972\",\"static/chunks/2972-99d5484789a8337f.js\",\"5878\",\"static/chunks/5878-75d38328b394b6cf.js\",\"6495\",\"static/chunks/app/%5Blang%5D/page-c796626a4166f6b7.js\"],\"\"]\n4:[\"lang\",\"sv\",\"d\"]\n5:[\"slug\",\"kontakt\",\"d\"]\na:T1a05,M4.98 20.81c-.08.24-.12.65-.12 1.25 0 .4.36.84 1.1 1.33.73.49 1.68.96 2.85 1.39 1.17.44 2.5.8 4 1.1 1.5.3 3.02.44 4.57.44 2.96 0 5.14-.35 6.52-1.04 1.38-.69 2.08-1.69 2.08-2.99 0-.71-.6-1.22-1.81-1.51-1.21-.3-2.72-.53-4.54-.71-1.82-.18-3.78-.38-5.87-.59-2.1-.22-4.05-.61-5.87-1.19-1.82-.57-3.33-1.4-4.54-2.49-1.21-1.09-1.81-2.58-1.81-4.48 0-1.5.35-2.87 1.04-4.09.69-1.22 1.66-2.27 2.91-3.14 1.25-.87 2.76-1.55 4.54-2.05 1.78-.49 3.75-.74 5.93-.74 2.02 0 3.89.13 5.63.39 1.74.26 3.28.54 4.62.86 1.34.32 2.47.6 3.38.86.91.26 1.56.39 1.96.39s.71-.09.95-.27c.24-.18.45-.39.65-.62l.65.24-4.09 8.24-.71-.36v-.65c0-.36-.39-.72-1.16-1.1-.77-.38-1.75-.71-2.94-1.01-1.19-.3-2.51-.54-3.97-.74-1.46-.2-2.89-.3-4.27-.3-2.57 0-4.37.3-5.4.89-1.03.59-1.54 1.23-1.54 1.9s.36 1.18 1.07 1.51c.71.34 1.64.58 2.79.74 1.15.16 2.45.29 3.91.39 1.46.1 2.97.25 4.51.44 1.54.2 3.04.47 4.51.83 1.46.36 2.77.88 3.91 1.57a8.37 8.37 0 012.79 2.73c.71 1.13 1.07 2.54 1.07 4.24 0 1.3-.27 2.59-.8 3.85-.53 1.27-1.44 2.4-2.73 3.41-1.28 1.01-3 1.81-5.16 2.4-2.16.59-4.83.89-8.03.89-2.49 0-4.63-.12-6.43-.36-1.8-.24-3.33-.52-4.6-.86-1.27-.34-2.26-.64-2.99-.92-.73-.28-1.28-.41-1.63-.41-.24 0-.44.08-.62.24-.18.16-.37.34-.56.53l-.71-.18 4.39-10.55.59.3zM72.88 25.62c.32 0 .55-.11.71-.33.16-.22.28-.66.36-1.33h.71v10.26h-.71c-.08-.63-.2-1.02-.36-1.16-.16-.14-.4-.21-.71-.21H41.93v-.71c.75-.08 1.22-.21 1.39-.39.18-.18.27-.4.27-.68V3.44c0-.28-.09-.5-.27-.68s-.64-.31-1.39-.39v-.71h12.22v.71c-.75.08-1.22.21-1.39.39-.18.18-.27.41-.27.68v22.18h20.4zM88.53 31.55c0 .2.07.35.21.44.14.1.42.15.86.15v.71H79.1v-.71c.43-.08.75-.21.95-.39.2-.18.39-.5.59-.98.08-.2.28-.73.59-1.6.32-.87.73-1.97 1.25-3.29.51-1.32 1.09-2.8 1.72-4.42.63-1.62 1.26-3.27 1.9-4.95.63-1.68 1.25-3.32 1.87-4.92.61-1.6 1.16-3.03 1.63-4.3.47-1.26.86-2.29 1.16-3.08.3-.79.44-1.21.44-1.25 0-.2-.13-.34-.39-.42a5.17 5.17 0 00-.8-.18v-.71h15.48v.71c-.32.04-.57.1-.77.18-.2.08-.3.28-.3.59 0 .08.19.59.56 1.54.38.95.86 2.18 1.45 3.71.59 1.52 1.27 3.24 2.05 5.16.77 1.92 1.57 3.87 2.4 5.87.83 2 1.63 3.94 2.4 5.84s1.47 3.6 2.11 5.1c.32.71.58 1.19.8 1.42.22.24.5.36.86.36v.71h-11.68v-.71c.75-.04 1.13-.28 1.13-.71 0-.04-.1-.31-.3-.8-.2-.49-.42-1.05-.65-1.66-.24-.61-.46-1.2-.68-1.75-.22-.55-.35-.93-.39-1.13H90.43c-.4 1.07-.71 1.94-.95 2.61-.24.67-.43 1.21-.56 1.6-.14.4-.24.68-.3.86s-.09.31-.09.39zm14.41-10.2L97.19 7.24l-5.28 14.11h11.03zM142.78 21.52c-.32 0-.53.11-.65.33-.12.22-.2.5-.24.86h-.71v-8.3h.71c.08.71.38 1.07.89 1.07h17.49v.71c-.63.04-.95.38-.95 1.01v9.84c0 .28.04.51.12.71.08.2.28.3.59.3h.3v.71c-5.38 2.85-11.74 4.27-19.09 4.27-2.49 0-4.89-.31-7.21-.92-2.31-.61-4.36-1.57-6.14-2.88-1.78-1.3-3.21-2.95-4.3-4.95-1.09-2-1.63-4.34-1.63-7.03s.54-5.03 1.63-7.03c1.09-2 2.52-3.66 4.3-4.98 1.78-1.32 3.82-2.31 6.14-2.96 2.31-.65 4.71-.98 7.21-.98.99 0 1.86.02 2.61.06.75.04 1.48.12 2.19.24s1.44.27 2.19.44 1.64.41 2.67.68c.99.28 1.9.6 2.73.98.83.38 1.36.56 1.6.56.32 0 .59-.16.83-.47l.71.24-3.85 7.83-.71-.42c.08-.24.12-.45.12-.65 0-.28-.34-.58-1.01-.92-.67-.34-1.52-.64-2.55-.92-1.03-.28-2.19-.51-3.47-.71-1.28-.2-2.54-.3-3.76-.3-1.42 0-2.78.19-4.06.56-1.28.38-2.43.96-3.44 1.75a8.594 8.594 0 00-2.4 2.94c-.59 1.17-.89 2.56-.89 4.18s.36 2.96 1.07 4.12a9.308 9.308 0 002.7 2.88c1.09.75 2.3 1.3 3.65 1.66 1.34.36 2.67.53 3.97.53 1.66 0 3.15-.1 4.48-.3 1.32-.2 2.6-.47 3.82-.83v-3.91h-7.65zM174.27 32.14c.75-.08 1.22-.21 1.39-.39s.27-.4.27-.68V8.89h-10.2c-.32 0-.55.11-.71.33-.16.22-.28.66-.36 1.33h-.71V0h.71c.08.67.2 1.12.36 1.33.16.22.4.33.71.33h29.29c.32 0 .55-.11.71-.33.16-.22.28-.66.36-1.33h.71v10.56h-.71c-.08-.67-.2-1.12-.36-1.33-.16-.22-.4-.33-.71-.33h-10.2v22.17c0 .28.09.5.27.68s.64.31 1.39.39v.71h-12.22v-.71zM238.19 31.07c0 .28.09.5.27.68s.64.31 1.39.39v.71h-12.22v-.71c.75-.08 1.22-.21 1.39-.39s.27-.4.27-.68V20.1h-15.42v10.97c0 .28.09.5.27.68s.64.31 1.39.39v.71h-12.22v-.71c.75-.08 1.22-.21 1.39-.39.18-.18.27-.4.27-.68V3.44c0-.28-.09-.5-.27-.68-.18-.18-.64-.31-1.39-.39v-.71h12.22v.71c-.75.08-1.22.21-1.39.39-.18.18-.27.41-.27.68v9.43h15.42V3.44c0-.28-.09-.5-.27-.68-.18-.18-.64-.31-1.39-.39v-.71h12.22v.71c-.75.08-1.22.21-1.39.39-.18.18-.27.41-.27.68v27.63zM275.19 3.44c0-.28-.09-.5-.27-.68-.18-.18-.64-.31-1.39-.39v-.71h12.22v.71c-.75.08-1.22.21-1.39.39-.18.18-.27.41-.27.68v15.89c0 2.61-.43 4.8-1.27 6.58-.85 1.78-2.02 3.2-3.5 4.27-1.48 1.07-3.22 1.81-5.22 2.22-2 .42-4.12.62-6.37.62s-4.38-.21-6.37-.62-3.74-1.16-5.22-2.22c-1.48-1.07-2.65-2.49-3.5-4.27-.85-1.78-1.27-3.97-1.27-6.58V3.44c0-.28-.09-.5-.27-.68-.18-.18-.64-.31-1.39-.39v-.71h12.22v.71c-.75.08-1.22.21-1.39.39-.18.18-.27.41-.27.68v15.89c0 2.29.65 3.93 1.96 4.92 1.3.99 3.14 1.48 5.51 1.48s4.21-.49 5.51\n…[afkortet]"
+  },
+  {
+   "url": "https://slagthuset.se/information/husets-historia?_rsc=jxzjd",
+   "method": "GET",
+   "post": "",
+   "status": 200,
+   "ct": "text/x-component",
+   "body": "3:I[4707,[],\"\"]\n6:I[6423,[],\"\"]\n7:I[8003,[\"2972\",\"static/chunks/2972-99d5484789a8337f.js\",\"1000\",\"static/chunks/1000-85524ae807fe224c.js\",\"1170\",\"static/chunks/1170-e693db1433e7b166.js\",\"2223\",\"static/chunks/2223-f115866adf4bf221.js\",\"5884\",\"static/chunks/5884-99c1800c08d1f390.js\",\"6425\",\"static/chunks/6425-ce26c2856f643ba5.js\",\"3185\",\"static/chunks/app/layout-7c6b7c47abd13fcf.js\"],\"\"]\n8:I[4880,[\"2972\",\"static/chunks/2972-99d5484789a8337f.js\",\"1000\",\"static/chunks/1000-85524ae807fe224c.js\",\"1170\",\"static/chunks/1170-e693db1433e7b166.js\",\"2223\",\"static/chunks/2223-f115866adf4bf221.js\",\"5884\",\"static/chunks/5884-99c1800c08d1f390.js\",\"6425\",\"static/chunks/6425-ce26c2856f643ba5.js\",\"3185\",\"static/chunks/app/layout-7c6b7c47abd13fcf.js\"],\"default\"]\n9:I[4228,[\"2972\",\"static/chunks/2972-99d5484789a8337f.js\",\"1000\",\"static/chunks/1000-85524ae807fe224c.js\",\"1170\",\"static/chunks/1170-e693db1433e7b166.js\",\"2223\",\"static/chunks/2223-f115866adf4bf221.js\",\"5884\",\"static/chunks/5884-99c1800c08d1f390.js\",\"6425\",\"static/chunks/6425-ce26c2856f643ba5.js\",\"3185\",\"static/chunks/app/layout-7c6b7c47abd13fcf.js\"],\"default\"]\nb:I[2972,[\"6990\",\"static/chunks/13b76428-7de9559f29955819.js\",\"2972\",\"static/chunks/2972-99d5484789a8337f.js\",\"5878\",\"static/chunks/5878-75d38328b394b6cf.js\",\"6495\",\"static/chunks/app/%5Blang%5D/page-c796626a4166f6b7.js\"],\"\"]\n4:[\"lang\",\"sv\",\"d\"]\n5:[\"slug\",\"husets-historia\",\"d\"]\na:T1a05,M4.98 20.81c-.08.24-.12.65-.12 1.25 0 .4.36.84 1.1 1.33.73.49 1.68.96 2.85 1.39 1.17.44 2.5.8 4 1.1 1.5.3 3.02.44 4.57.44 2.96 0 5.14-.35 6.52-1.04 1.38-.69 2.08-1.69 2.08-2.99 0-.71-.6-1.22-1.81-1.51-1.21-.3-2.72-.53-4.54-.71-1.82-.18-3.78-.38-5.87-.59-2.1-.22-4.05-.61-5.87-1.19-1.82-.57-3.33-1.4-4.54-2.49-1.21-1.09-1.81-2.58-1.81-4.48 0-1.5.35-2.87 1.04-4.09.69-1.22 1.66-2.27 2.91-3.14 1.25-.87 2.76-1.55 4.54-2.05 1.78-.49 3.75-.74 5.93-.74 2.02 0 3.89.13 5.63.39 1.74.26 3.28.54 4.62.86 1.34.32 2.47.6 3.38.86.91.26 1.56.39 1.96.39s.71-.09.95-.27c.24-.18.45-.39.65-.62l.65.24-4.09 8.24-.71-.36v-.65c0-.36-.39-.72-1.16-1.1-.77-.38-1.75-.71-2.94-1.01-1.19-.3-2.51-.54-3.97-.74-1.46-.2-2.89-.3-4.27-.3-2.57 0-4.37.3-5.4.89-1.03.59-1.54 1.23-1.54 1.9s.36 1.18 1.07 1.51c.71.34 1.64.58 2.79.74 1.15.16 2.45.29 3.91.39 1.46.1 2.97.25 4.51.44 1.54.2 3.04.47 4.51.83 1.46.36 2.77.88 3.91 1.57a8.37 8.37 0 012.79 2.73c.71 1.13 1.07 2.54 1.07 4.24 0 1.3-.27 2.59-.8 3.85-.53 1.27-1.44 2.4-2.73 3.41-1.28 1.01-3 1.81-5.16 2.4-2.16.59-4.83.89-8.03.89-2.49 0-4.63-.12-6.43-.36-1.8-.24-3.33-.52-4.6-.86-1.27-.34-2.26-.64-2.99-.92-.73-.28-1.28-.41-1.63-.41-.24 0-.44.08-.62.24-.18.16-.37.34-.56.53l-.71-.18 4.39-10.55.59.3zM72.88 25.62c.32 0 .55-.11.71-.33.16-.22.28-.66.36-1.33h.71v10.26h-.71c-.08-.63-.2-1.02-.36-1.16-.16-.14-.4-.21-.71-.21H41.93v-.71c.75-.08 1.22-.21 1.39-.39.18-.18.27-.4.27-.68V3.44c0-.28-.09-.5-.27-.68s-.64-.31-1.39-.39v-.71h12.22v.71c-.75.08-1.22.21-1.39.39-.18.18-.27.41-.27.68v22.18h20.4zM88.53 31.55c0 .2.07.35.21.44.14.1.42.15.86.15v.71H79.1v-.71c.43-.08.75-.21.95-.39.2-.18.39-.5.59-.98.08-.2.28-.73.59-1.6.32-.87.73-1.97 1.25-3.29.51-1.32 1.09-2.8 1.72-4.42.63-1.62 1.26-3.27 1.9-4.95.63-1.68 1.25-3.32 1.87-4.92.61-1.6 1.16-3.03 1.63-4.3.47-1.26.86-2.29 1.16-3.08.3-.79.44-1.21.44-1.25 0-.2-.13-.34-.39-.42a5.17 5.17 0 00-.8-.18v-.71h15.48v.71c-.32.04-.57.1-.77.18-.2.08-.3.28-.3.59 0 .08.19.59.56 1.54.38.95.86 2.18 1.45 3.71.59 1.52 1.27 3.24 2.05 5.16.77 1.92 1.57 3.87 2.4 5.87.83 2 1.63 3.94 2.4 5.84s1.47 3.6 2.11 5.1c.32.71.58 1.19.8 1.42.22.24.5.36.86.36v.71h-11.68v-.71c.75-.04 1.13-.28 1.13-.71 0-.04-.1-.31-.3-.8-.2-.49-.42-1.05-.65-1.66-.24-.61-.46-1.2-.68-1.75-.22-.55-.35-.93-.39-1.13H90.43c-.4 1.07-.71 1.94-.95 2.61-.24.67-.43 1.21-.56 1.6-.14.4-.24.68-.3.86s-.09.31-.09.39zm14.41-10.2L97.19 7.24l-5.28 14.11h11.03zM142.78 21.52c-.32 0-.53.11-.65.33-.12.22-.2.5-.24.86h-.71v-8.3h.71c.08.71.38 1.07.89 1.07h17.49v.71c-.63.04-.95.38-.95 1.01v9.84c0 .28.04.51.12.71.08.2.28.3.59.3h.3v.71c-5.38 2.85-11.74 4.27-19.09 4.27-2.49 0-4.89-.31-7.21-.92-2.31-.61-4.36-1.57-6.14-2.88-1.78-1.3-3.21-2.95-4.3-4.95-1.09-2-1.63-4.34-1.63-7.03s.54-5.03 1.63-7.03c1.09-2 2.52-3.66 4.3-4.98 1.78-1.32 3.82-2.31 6.14-2.96 2.31-.65 4.71-.98 7.21-.98.99 0 1.86.02 2.61.06.75.04 1.48.12 2.19.24s1.44.27 2.19.44 1.64.41 2.67.68c.99.28 1.9.6 2.73.98.83.38 1.36.56 1.6.56.32 0 .59-.16.83-.47l.71.24-3.85 7.83-.71-.42c.08-.24.12-.45.12-.65 0-.28-.34-.58-1.01-.92-.67-.34-1.52-.64-2.55-.92-1.03-.28-2.19-.51-3.47-.71-1.28-.2-2.54-.3-3.76-.3-1.42 0-2.78.19-4.06.56-1.28.38-2.43.96-3.44 1.75a8.594 8.594 0 00-2.4 2.94c-.59 1.17-.89 2.56-.89 4.18s.36 2.96 1.07 4.12a9.308 9.308 0 002.7 2.88c1.09.75 2.3 1.3 3.65 1.66 1.34.36 2.67.53 3.97.53 1.66 0 3.15-.1 4.48-.3 1.32-.2 2.6-.47 3.82-.83v-3.91h-7.65zM174.27 32.14c.75-.08 1.22-.21 1.39-.39s.27-.4.27-.68V8.89h-10.2c-.32 0-.55.11-.71.33-.16.22-.28.66-.36 1.33h-.71V0h.71c.08.67.2 1.12.36 1.33.16.22.4.33.71.33h29.29c.32 0 .55-.11.71-.33.16-.22.28-.66.36-1.33h.71v10.56h-.71c-.08-.67-.2-1.12-.36-1.33-.16-.22-.4-.33-.71-.33h-10.2v22.17c0 .28.09.5.27.68s.64.31 1.39.39v.71h-12.22v-.71zM238.19 31.07c0 .28.09.5.27.68s.64.31 1.39.39v.71h-12.22v-.71c.75-.08 1.22-.21 1.39-.39s.27-.4.27-.68V20.1h-15.42v10.97c0 .28.09.5.27.68s.64.31 1.39.39v.71h-12.22v-.71c.75-.08 1.22-.21 1.39-.39.18-.18.27-.4.27-.68V3.44c0-.28-.09-.5-.27-.68-.18-.18-.64-.31-1.39-.39v-.71h12.22v.71c-.75.08-1.22.21-1.39.39-.18.18-.27.41-.27.68v9.43h15.42V3.44c0-.28-.09-.5-.27-.68-.18-.18-.64-.31-1.39-.39v-.71h12.22v.71c-.75.08-1.22.21-1.39.39-.18.18-.27.41-.27.68v27.63zM275.19 3.44c0-.28-.09-.5-.27-.68-.18-.18-.64-.31-1.39-.39v-.71h12.22v.71c-.75.08-1.22.21-1.39.39-.18.18-.27.41-.27.68v15.89c0 2.61-.43 4.8-1.27 6.58-.85 1.78-2.02 3.2-3.5 4.27-1.48 1.07-3.22 1.81-5.22 2.22-2 .42-4.12.62-6.37.62s-4.38-.21-6.37-.62-3.74-1.16-5.22-2.22c-1.48-1.07-2.65-2.49-3.5-4.27-.85-1.78-1.27-3.97-1.27-6.58V3.44c0-.28-.09-.5-.27-.68-.18-.18-.64-.31-1.39-.39v-.71h12.22v.71c-.75.08-1.22.21-1.39.39-.18.18-.27.41-.27.68v15.89c0 2.29.65 3.93 1.96 4.92 1.3.99 3.14 1.48 5.51 1.48s4.21-\n…[afkortet]"
+  },
+  {
+   "url": "https://slagthuset.se/information/for-arrangorer?_rsc=jxzjd",
+   "method": "GET",
+   "post": "",
+   "status": 200,
+   "ct": "text/x-component",
+   "body": "3:I[4707,[],\"\"]\n6:I[6423,[],\"\"]\n7:I[8003,[\"2972\",\"static/chunks/2972-99d5484789a8337f.js\",\"1000\",\"static/chunks/1000-85524ae807fe224c.js\",\"1170\",\"static/chunks/1170-e693db1433e7b166.js\",\"2223\",\"static/chunks/2223-f115866adf4bf221.js\",\"5884\",\"static/chunks/5884-99c1800c08d1f390.js\",\"6425\",\"static/chunks/6425-ce26c2856f643ba5.js\",\"3185\",\"static/chunks/app/layout-7c6b7c47abd13fcf.js\"],\"\"]\n8:I[4880,[\"2972\",\"static/chunks/2972-99d5484789a8337f.js\",\"1000\",\"static/chunks/1000-85524ae807fe224c.js\",\"1170\",\"static/chunks/1170-e693db1433e7b166.js\",\"2223\",\"static/chunks/2223-f115866adf4bf221.js\",\"5884\",\"static/chunks/5884-99c1800c08d1f390.js\",\"6425\",\"static/chunks/6425-ce26c2856f643ba5.js\",\"3185\",\"static/chunks/app/layout-7c6b7c47abd13fcf.js\"],\"default\"]\n9:I[4228,[\"2972\",\"static/chunks/2972-99d5484789a8337f.js\",\"1000\",\"static/chunks/1000-85524ae807fe224c.js\",\"1170\",\"static/chunks/1170-e693db1433e7b166.js\",\"2223\",\"static/chunks/2223-f115866adf4bf221.js\",\"5884\",\"static/chunks/5884-99c1800c08d1f390.js\",\"6425\",\"static/chunks/6425-ce26c2856f643ba5.js\",\"3185\",\"static/chunks/app/layout-7c6b7c47abd13fcf.js\"],\"default\"]\nb:I[2972,[\"6990\",\"static/chunks/13b76428-7de9559f29955819.js\",\"2972\",\"static/chunks/2972-99d5484789a8337f.js\",\"5878\",\"static/chunks/5878-75d38328b394b6cf.js\",\"6495\",\"static/chunks/app/%5Blang%5D/page-c796626a4166f6b7.js\"],\"\"]\n4:[\"lang\",\"sv\",\"d\"]\n5:[\"slug\",\"for-arrangorer\",\"d\"]\na:T1a05,M4.98 20.81c-.08.24-.12.65-.12 1.25 0 .4.36.84 1.1 1.33.73.49 1.68.96 2.85 1.39 1.17.44 2.5.8 4 1.1 1.5.3 3.02.44 4.57.44 2.96 0 5.14-.35 6.52-1.04 1.38-.69 2.08-1.69 2.08-2.99 0-.71-.6-1.22-1.81-1.51-1.21-.3-2.72-.53-4.54-.71-1.82-.18-3.78-.38-5.87-.59-2.1-.22-4.05-.61-5.87-1.19-1.82-.57-3.33-1.4-4.54-2.49-1.21-1.09-1.81-2.58-1.81-4.48 0-1.5.35-2.87 1.04-4.09.69-1.22 1.66-2.27 2.91-3.14 1.25-.87 2.76-1.55 4.54-2.05 1.78-.49 3.75-.74 5.93-.74 2.02 0 3.89.13 5.63.39 1.74.26 3.28.54 4.62.86 1.34.32 2.47.6 3.38.86.91.26 1.56.39 1.96.39s.71-.09.95-.27c.24-.18.45-.39.65-.62l.65.24-4.09 8.24-.71-.36v-.65c0-.36-.39-.72-1.16-1.1-.77-.38-1.75-.71-2.94-1.01-1.19-.3-2.51-.54-3.97-.74-1.46-.2-2.89-.3-4.27-.3-2.57 0-4.37.3-5.4.89-1.03.59-1.54 1.23-1.54 1.9s.36 1.18 1.07 1.51c.71.34 1.64.58 2.79.74 1.15.16 2.45.29 3.91.39 1.46.1 2.97.25 4.51.44 1.54.2 3.04.47 4.51.83 1.46.36 2.77.88 3.91 1.57a8.37 8.37 0 012.79 2.73c.71 1.13 1.07 2.54 1.07 4.24 0 1.3-.27 2.59-.8 3.85-.53 1.27-1.44 2.4-2.73 3.41-1.28 1.01-3 1.81-5.16 2.4-2.16.59-4.83.89-8.03.89-2.49 0-4.63-.12-6.43-.36-1.8-.24-3.33-.52-4.6-.86-1.27-.34-2.26-.64-2.99-.92-.73-.28-1.28-.41-1.63-.41-.24 0-.44.08-.62.24-.18.16-.37.34-.56.53l-.71-.18 4.39-10.55.59.3zM72.88 25.62c.32 0 .55-.11.71-.33.16-.22.28-.66.36-1.33h.71v10.26h-.71c-.08-.63-.2-1.02-.36-1.16-.16-.14-.4-.21-.71-.21H41.93v-.71c.75-.08 1.22-.21 1.39-.39.18-.18.27-.4.27-.68V3.44c0-.28-.09-.5-.27-.68s-.64-.31-1.39-.39v-.71h12.22v.71c-.75.08-1.22.21-1.39.39-.18.18-.27.41-.27.68v22.18h20.4zM88.53 31.55c0 .2.07.35.21.44.14.1.42.15.86.15v.71H79.1v-.71c.43-.08.75-.21.95-.39.2-.18.39-.5.59-.98.08-.2.28-.73.59-1.6.32-.87.73-1.97 1.25-3.29.51-1.32 1.09-2.8 1.72-4.42.63-1.62 1.26-3.27 1.9-4.95.63-1.68 1.25-3.32 1.87-4.92.61-1.6 1.16-3.03 1.63-4.3.47-1.26.86-2.29 1.16-3.08.3-.79.44-1.21.44-1.25 0-.2-.13-.34-.39-.42a5.17 5.17 0 00-.8-.18v-.71h15.48v.71c-.32.04-.57.1-.77.18-.2.08-.3.28-.3.59 0 .08.19.59.56 1.54.38.95.86 2.18 1.45 3.71.59 1.52 1.27 3.24 2.05 5.16.77 1.92 1.57 3.87 2.4 5.87.83 2 1.63 3.94 2.4 5.84s1.47 3.6 2.11 5.1c.32.71.58 1.19.8 1.42.22.24.5.36.86.36v.71h-11.68v-.71c.75-.04 1.13-.28 1.13-.71 0-.04-.1-.31-.3-.8-.2-.49-.42-1.05-.65-1.66-.24-.61-.46-1.2-.68-1.75-.22-.55-.35-.93-.39-1.13H90.43c-.4 1.07-.71 1.94-.95 2.61-.24.67-.43 1.21-.56 1.6-.14.4-.24.68-.3.86s-.09.31-.09.39zm14.41-10.2L97.19 7.24l-5.28 14.11h11.03zM142.78 21.52c-.32 0-.53.11-.65.33-.12.22-.2.5-.24.86h-.71v-8.3h.71c.08.71.38 1.07.89 1.07h17.49v.71c-.63.04-.95.38-.95 1.01v9.84c0 .28.04.51.12.71.08.2.28.3.59.3h.3v.71c-5.38 2.85-11.74 4.27-19.09 4.27-2.49 0-4.89-.31-7.21-.92-2.31-.61-4.36-1.57-6.14-2.88-1.78-1.3-3.21-2.95-4.3-4.95-1.09-2-1.63-4.34-1.63-7.03s.54-5.03 1.63-7.03c1.09-2 2.52-3.66 4.3-4.98 1.78-1.32 3.82-2.31 6.14-2.96 2.31-.65 4.71-.98 7.21-.98.99 0 1.86.02 2.61.06.75.04 1.48.12 2.19.24s1.44.27 2.19.44 1.64.41 2.67.68c.99.28 1.9.6 2.73.98.83.38 1.36.56 1.6.56.32 0 .59-.16.83-.47l.71.24-3.85 7.83-.71-.42c.08-.24.12-.45.12-.65 0-.28-.34-.58-1.01-.92-.67-.34-1.52-.64-2.55-.92-1.03-.28-2.19-.51-3.47-.71-1.28-.2-2.54-.3-3.76-.3-1.42 0-2.78.19-4.06.56-1.28.38-2.43.96-3.44 1.75a8.594 8.594 0 00-2.4 2.94c-.59 1.17-.89 2.56-.89 4.18s.36 2.96 1.07 4.12a9.308 9.308 0 002.7 2.88c1.09.75 2.3 1.3 3.65 1.66 1.34.36 2.67.53 3.97.53 1.66 0 3.15-.1 4.48-.3 1.32-.2 2.6-.47 3.82-.83v-3.91h-7.65zM174.27 32.14c.75-.08 1.22-.21 1.39-.39s.27-.4.27-.68V8.89h-10.2c-.32 0-.55.11-.71.33-.16.22-.28.66-.36 1.33h-.71V0h.71c.08.67.2 1.12.36 1.33.16.22.4.33.71.33h29.29c.32 0 .55-.11.71-.33.16-.22.28-.66.36-1.33h.71v10.56h-.71c-.08-.67-.2-1.12-.36-1.33-.16-.22-.4-.33-.71-.33h-10.2v22.17c0 .28.09.5.27.68s.64.31 1.39.39v.71h-12.22v-.71zM238.19 31.07c0 .28.09.5.27.68s.64.31 1.39.39v.71h-12.22v-.71c.75-.08 1.22-.21 1.39-.39s.27-.4.27-.68V20.1h-15.42v10.97c0 .28.09.5.27.68s.64.31 1.39.39v.71h-12.22v-.71c.75-.08 1.22-.21 1.39-.39.18-.18.27-.4.27-.68V3.44c0-.28-.09-.5-.27-.68-.18-.18-.64-.31-1.39-.39v-.71h12.22v.71c-.75.08-1.22.21-1.39.39-.18.18-.27.41-.27.68v9.43h15.42V3.44c0-.28-.09-.5-.27-.68-.18-.18-.64-.31-1.39-.39v-.71h12.22v.71c-.75.08-1.22.21-1.39.39-.18.18-.27.41-.27.68v27.63zM275.19 3.44c0-.28-.09-.5-.27-.68-.18-.18-.64-.31-1.39-.39v-.71h12.22v.71c-.75.08-1.22.21-1.39.39-.18.18-.27.41-.27.68v15.89c0 2.61-.43 4.8-1.27 6.58-.85 1.78-2.02 3.2-3.5 4.27-1.48 1.07-3.22 1.81-5.22 2.22-2 .42-4.12.62-6.37.62s-4.38-.21-6.37-.62-3.74-1.16-5.22-2.22c-1.48-1.07-2.65-2.49-3.5-4.27-.85-1.78-1.27-3.97-1.27-6.58V3.44c0-.28-.09-.5-.27-.68-.18-.18-.64-.31-1.39-.39v-.71h12.22v.71c-.75.08-1.22.21-1.39.39-.18.18-.27.41-.27.68v15.89c0 2.29.65 3.93 1.96 4.92 1.3.99 3.14 1.48 5.51 1.48s4.21-.\n…[afkortet]"
+  }
+ ],
+ "links": [
+  {
+   "h": "https://slagthuset.se/#",
+   "t": "Consent"
+  },
+  {
+   "h": "https://slagthuset.se/#",
+   "t": "Details"
+  },
+  {
+   "h": "https://slagthuset.se/#",
+   "t": "[#IABV2SETTINGS#]"
+  },
+  {
+   "h": "https://slagthuset.se/#",
+   "t": "About"
+  },
+  {
+   "h": "https://slagthuset.se/#",
+   "t": "Show details"
+  },
+  {
+   "h": "https://slagthuset.se/#",
+   "t": "Cookiebot1"
+  },
+  {
+   "h": "https://www.cookiebot.com/goto/privacy-policy/",
+   "t": "Learn more about this provider"
+  },
+  {
+   "h": "https://slagthuset.se/#",
+   "t": "Google2"
+  },
+  {
+   "h": "https://business.safety.google/privacy/",
+   "t": "Learn more about this provider"
+  },
+  {
+   "h": "https://slagthuset.se/#",
+   "t": "Meta Platforms, Inc.3"
+  },
+  {
+   "h": "https://www.facebook.com/policy.php/",
+   "t": "Learn more about this provider"
+  },
+  {
+   "h": "https://slagthuset.se/#",
+   "t": "Google2"
+  },
+  {
+   "h": "https://business.safety.google/privacy/",
+   "t": "Learn more about this provider"
+  },
+  {
+   "h": "https://slagthuset.se/#",
+   "t": "YouTube12"
+  },
+  {
+   "h": "https://business.safety.google/privacy/",
+   "t": "Learn more about this provider"
+  },
+  {
+   "h": "https://slagthuset.se/#",
+   "t": "Cross-domain consent[#BULK_CONSENT_DOMAINS_COUNT#]"
+  },
+  {
+   "h": "https://www.cookiebot.com/",
+   "t": "Cookiebot"
+  },
+  {
+   "h": "https://julbord.slagthuset.se/",
+   "t": "JULBORD 2026"
+  },
+  {
+   "h": "https://slagthuset.se/events",
+   "t": "EVENEMANG"
+  },
+  {
+   "h": "https://slagthuset.se/moten-event",
+   "t": "MÖTEN & EVENT"
+  },
+  {
+   "h": "https://slagthuset.se/restaurangen",
+   "t": "MAT & DRYCK"
+  },
+  {
+   "h": "https://slagthuset.se/information",
+   "t": "INFORMATION"
+  },
+  {
+   "h": "https://slagthuset.se/",
+   "t": "SV"
+  },
+  {
+   "h": "https://slagthuset.se/en",
+   "t": "EN"
+  },
+  {
+   "h": "https://tours.view360.se/F14Nvg6BJF/46240512p&77.89h&92.81t",
+   "t": "Virtuell rundtur av huset"
+  },
+  {
+   "h": "https://slagthuset.se/events",
+   "t": "Evenemang Se våra externa evenemang och boka biljetter"
+  },
+  {
+   "h": "https://slagthuset.se/moten-event",
+   "t": "Möten & Event Anordna ditt nästa evenemang på Slagthuset!"
+  },
+  {
+   "h": "https://slagthuset.se/events/optimeet-connect",
+   "t": "OPTIMEET Connect"
+  },
+  {
+   "h": "https://optimeet.dk/kommende-events/optimeet-connect-malmoe-se/",
+   "t": "Boka biljett"
+  },
+  {
+   "h": "https://slagthuset.se/events/optimeet-connect",
+   "t": "Läs mer"
+  },
+  {
+   "h": "https://slagthuset.se/events/banna-sona-band-christmas-edition-2026",
+   "t": "Banna Sona Band | Christmas Edition 2026"
+  },
+  {
+   "h": "https://secure.tickster.com/nwey7baycuzr1gd",
+   "t": "Boka biljett"
+  },
+  {
+   "h": "https://slagthuset.se/events/banna-sona-band-christmas-edition-2026",
+   "t": "Läs mer"
+  },
+  {
+   "h": "https://slagthuset.se/events/alexx-alexxander",
+   "t": "Alexx Alexxander"
+  },
+  {
+   "h": "https://secure.tickster.com/eyrpkum2y1jf2x2",
+   "t": "Boka biljett"
+  },
+  {
+   "h": "https://slagthuset.se/events/alexx-alexxander",
+   "t": "Läs mer"
+  },
+  {
+   "h": "https://slagthuset.se/events",
+   "t": "Visa alla"
+  },
+  {
+   "h": "https://slagthuset.se/moten-event/lokaler/teatern",
+   "t": "Teatern Kapacitet: 921"
+  },
+  {
+   "h": "https://slagthuset.se/moten-event/lokaler/restauranggatan",
+   "t": "Restauranggatan Kapacitet: 1020"
+  },
+  {
+   "h": "https://slagthuset.se/moten-event/lokaler/sodra-hallen",
+   "t": "Södra Hallen Kapacitet: 350"
+  },
+  {
+   "h": "https://slagthuset.se/moten-event/lokaler/norra-hallen",
+   "t": "Norra Hallen Kapacitet: 250"
+  },
+  {
+   "h": "https://slagthuset.se/moten-event/lokaler/saluhallen",
+   "t": "Saluhallen Kapacitet: 1500"
+  },
+  {
+   "h": "https://slagthuset.se/moten-event/lokaler/hantverksgangen",
+   "t": "Hantverksgången Kapacitet: ca 350"
+  },
+  {
+   "h": "https://slagthuset.se/lokaler",
+   "t": "Visa alla"
+  },
+  {
+   "h": "https://julbord.slagthuset.se/",
+   "t": "Julbord 2026"
+  },
+  {
+   "h": "https://slagthuset.se/events",
+   "t": "Evenemang"
+  },
+  {
+   "h": "https://slagthuset.se/moten-event",
+   "t": "Möten & Event"
+  },
+  {
+   "h": "https://slagthuset.se/moten-event/lokaler",
+   "t": "Våra lokaler"
+  },
+  {
+   "h": "https://slagthuset.se/moten-event/kongress-massa",
+   "t": "Kongress & mässa"
+  },
+  {
+   "h": "https://slagthuset.se/moten-event/praktisk-info",
+   "t": "Praktisk info"
+  },
+  {
+   "h": "https://slagthuset.se/moten-event/hotell",
+   "t": "Hotell"
+  },
+  {
+   "h": "https://slagthuset.se/restaurangen",
+   "t": "Mat & dryck"
+  },
+  {
+   "h": "https://slagthuset.se/restaurangen",
+   "t": "Lunch"
+  },
+  {
+   "h": "https://slagthuset.se/restaurangen/konsert",
+   "t": "Konsertgäster"
+  },
+  {
+   "h": "https://slagthuset.se/restaurangen/foretag",
+   "t": "Företagsevent"
+  },
+  {
+   "h": "https://slagthuset.se/information",
+   "t": "Information"
+  },
+  {
+   "h": "https://slagthuset.se/information/for-arrangorer",
+   "t": "För arrangörer"
+  },
+  {
+   "h": "https://slagthuset.se/information/husets-historia",
+   "t": "Husets historia"
+  },
+  {
+   "h": "https://slagthuset.se/information/om-oss",
+   "t": "Om oss"
+  },
+  {
+   "h": "https://slagthuset.se/information/kontakt",
+   "t": "Kontakt"
+  },
+  {
+   "h": "https://olleburlin.se/",
+   "t": "Olle Burlin"
+  }
+ ]
+}

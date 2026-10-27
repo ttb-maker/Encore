@@ -1,0 +1,870 @@
+{
+ "url": "https://www.barclays-arena.de/events",
+ "status": 200,
+ "err": "",
+ "finalUrl": "https://www.barclays-arena.de/events",
+ "calls": [
+  {
+   "url": "https://cdn.weglot.com/projects-settings/283034fceeea97e514753dd1b53b182d1.json",
+   "method": "GET",
+   "post": "",
+   "status": 200,
+   "ct": "application/json",
+   "body": "{\"website\":\"https:\\/\\/www.barclays-arena.de\\/\",\"uid\":\"ba58112892\",\"project_slug\":\"barclays-arena\",\"deleted_at\":null,\"api_key\":\"wg_283034fceeea97e514753dd1b53b182d1\",\"language_from\":\"de\",\"language_from_custom_flag\":null,\"language_from_custom_name\":null,\"auto_switch\":false,\"auto_switch_fallback\":null,\"translation_engine\":3,\"excluded_paths\":[{\"type\":\"CONTAIN\",\"value\":\"\\/events\\/premium-paket-loge\\/\",\"language_button_displayed\":false,\"exclusion_behavior\":\"REDIRECT\",\"excluded_languages\":[],\"regex\":\"\\/events\\/premium\\\\-paket\\\\-loge\\/\"},{\"type\":\"CONTAIN\",\"value\":\"\\/events\\/eventloge\\/\",\"language_button_displayed\":false,\"exclusion_behavior\":\"REDIRECT\",\"excluded_languages\":[],\"regex\":\"\\/events\\/eventloge\\/\"},{\"type\":\"CONTAIN\",\"value\":\"\\/events\\/vip-ticket\\/\",\"language_button_displayed\":false,\"exclusion_behavior\":\"REDIRECT\",\"excluded_languages\":[],\"regex\":\"\\/events\\/vip\\\\-ticket\\/\"},{\"type\":\"CONTAIN\",\"value\":\"\\/events\\/premium-paket\\/\",\"language_button_displayed\":false,\"exclusion_behavior\":\"REDIRECT\",\"excluded_languages\":[],\"regex\":\"\\/events\\/premium\\\\-paket\\/\"},{\"type\":\"CONTAIN\",\"value\":\"\\/events\\/wladimir-klitschko\",\"language_button_displayed\":false,\"exclusion_behavior\":\"REDIRECT\",\"excluded_languages\":[],\"regex\":\"\\/events\\/wladimir\\\\-klitschko\"},{\"type\":\"CONTAIN\",\"value\":\"\\/assets-hybrid-framework--modular-js\\/\",\"language_button_displayed\":false,\"exclusion_behavior\":\"REDIRECT\",\"excluded_languages\":[],\"regex\":\"\\/assets\\\\-hybrid\\\\-framework\\\\-\\\\-modular\\\\-js\\/\"},{\"type\":\"CONTAIN\",\"value\":\"\\/events\\/tini-stoessel\",\"language_button_displayed\":false,\"exclusion_behavior\":\"REDIRECT\",\"excluded_languages\":[],\"regex\":\"\\/events\\/tini\\\\-stoessel\"},{\"type\":\"CONTAIN\",\"value\":\"\\/events\\/bama-music-awards\",\"language_button_displayed\":false,\"exclusion_behavior\":\"REDIRECT\",\"excluded_languages\":[],\"regex\":\"\\/events\\/bama\\\\-music\\\\-awards\"},{\"type\":\"CONTAIN\",\"value\":\"\\/www.djhardwell.com\",\"language_button_displayed\":false,\"exclusion_behavior\":\"REDIRECT\",\"excluded_languages\":[],\"regex\":\"\\/www\\\\.djhardwell\\\\.com\"},{\"type\":\"CONTAIN\",\"value\":\"\\/events\\/s-hne-hamburgs\",\"language_button_displayed\":false,\"exclusion_behavior\":\"REDIRECT\",\"excluded_languages\":[],\"regex\":\"\\/events\\/s\\\\-hne\\\\-hamburgs\"},{\"type\":\"IS_EXACTLY\",\"value\":\"\\/events\\/s-hne-hamburgs\",\"language_button_displayed\":false,\"exclusion_behavior\":\"REDIRECT\",\"excluded_languages\":[],\"regex\":\"^\\/events\\/s\\\\-hne\\\\-hamburgs$\"},{\"type\":\"IS_EXACTLY\",\"value\":\"\\/events\\/eventloge\\/detail\\/melanie-martinez\\/12-10-2024-2000\",\"language_button_displayed\":false,\"exclusion_behavior\":\"REDIRECT\",\"excluded_languages\":[],\"regex\":\"^\\/events\\/eventloge\\/detail\\/melanie\\\\-martinez\\/12\\\\-10\\\\-2024\\\\-2000$\"},{\"type\":\"IS_EXACTLY\",\"value\":\"\\/events\\/eventloge\\/detail\\/sascha-grammel-5\\/06-09-2024-2000\",\"language_button_displayed\":false,\"exclusion_behavior\":\"REDIRECT\",\"excluded_languages\":[],\"regex\":\"^\\/events\\/eventloge\\/detail\\/sascha\\\\-grammel\\\\-5\\/06\\\\-09\\\\-2024\\\\-2000$\"},{\"type\":\"IS_EXACTLY\",\"value\":\"\\/events\\/eventloge\\/detail\\/sascha-grammel-5\\/05-09-2024-2000\",\"language_button_displayed\":false,\"exclusion_behavior\":\"REDIRECT\",\"excluded_languages\":[],\"regex\":\"^\\/events\\/eventloge\\/detail\\/sascha\\\\-grammel\\\\-5\\/05\\\\-09\\\\-2024\\\\-2000$\"},{\"type\":\"IS_EXACTLY\",\"value\":\"\\/events\\/eventloge\\/detail\\/ayliva-2\\/10-09-2024-1945\",\"language_button_displayed\":false,\"exclusion_behavior\":\"REDIRECT\",\"excluded_languages\":[],\"regex\":\"^\\/events\\/eventloge\\/detail\\/ayliva\\\\-2\\/10\\\\-09\\\\-2024\\\\-1945$\"},{\"type\":\"IS_EXACTLY\",\"value\":\"\\/events\\/eventloge\\/detail\\/ayliva-3\\/01-10-2024-1945\",\"language_button_displayed\":false,\"exclusion_behavior\":\"REDIRECT\",\"excluded_languages\":[],\"regex\":\"^\\/events\\/eventloge\\/detail\\/ayliva\\\\-3\\/01\\\\-10\\\\-2024\\\\-1945$\"},{\"type\":\"IS_EXACTLY\",\"value\":\"\\/events\\/eventloge\\/detail\\/cem-yilmaz\\/28-11-2024-2030\",\"language_button_displayed\":false,\"exclusion_behavior\":\"REDIRECT\",\"excluded_languages\":[],\"regex\":\"^\\/events\\/eventloge\\/detail\\/cem\\\\-yilmaz\\/28\\\\-11\\\\-2024\\\\-2030$\"},{\"type\":\"IS_EXACTLY\",\"value\":\"\\/events\\/eventloge\\/detail\\/kontra-k-2\\/14-11-2025-2000\",\"language_button_displayed\":false,\"exclusion_behavior\":\"REDIRECT\",\"excluded_languages\":[],\"regex\":\"^\\/events\\/eventloge\\/detail\\/kontra\\\\-k\\\\-2\\/14\\\\-11\\\\-2025\\\\-2000$\"},{\"type\":\"IS_EXACTLY\",\"value\":\"\\/events\\/eventloge\\/detail\\/torsten-straeter-1\\/25-03-2025-2000\",\"language_button_displayed\":false,\"exclusion_behavior\":\"REDIRECT\",\"excluded_languages\":[],\"regex\":\"^\\/events\\/eventloge\\/detail\\/torsten\\\\-straeter\\\\-1\\/25\\\\-03\\\\-2025\\\\-2000$\"},{\"type\":\"IS_EXACTLY\",\"value\":\"\\/events\\/eventloge\\/detail\\/gzuz-bonez-mc\\/21-12-2024-1900\",\"language_button_displayed\":false,\"exclusion_behavior\":\"REDIRECT\",\"excluded_languages\":[],\"regex\":\"^\\/events\\/eventloge\\/detail\\/gzuz\\\\-bonez\\\\-mc\\/21\\\\-12\\\\-2024\\\\-1900$\"},{\"type\":\"IS_EXACTLY\",\"value\":\"\\/events\\/eventloge\\/detail\\/wahnsinn-die-show\\/28-01-2025-2000\",\"language_button_displayed\":false,\"exclusion_behavior\":\"REDIRECT\",\"excluded_languages\":[],\"regex\":\"^\\/events\\/eventloge\\/detail\\/wahnsinn\\\\-die\\\\-show\\/28\\\\-01\\\\-2025\\\\-2000$\"},{\"type\":\"IS_EXACTLY\",\"value\":\"\\/events\\/eventloge\\/detail\\/feuerwerk-der-turnkunst-8\\/19-01-2025-1400\",\"language_button_displayed\":false,\"exclusion_behavior\":\"REDIRECT\",\"excluded_languages\":[],\"regex\":\"^\\/events\\/eventloge\\/detail\\/feuerwerk\\\\-der\\\\-turnkunst\\\\-8\\/19\\\\-01\\\\-2025\\\\-1400$\"},{\"type\":\"IS_EXACTLY\",\"value\":\"\\/events\\/eventloge\\/detail\\/feuerwerk-der-turnkunst-8\\/19-01-2025-1900\",\"language_button_displayed\":false,\"exclusion_behavior\":\"REDIRECT\",\"excluded_languages\":[],\"regex\":\"^\\/events\\/eventloge\\/detail\\/feuerwerk\\\\-der\\\\-turnkunst\\\\-8\\/19\\\\-01\\\\-2025\\\\-1900$\"},{\"type\":\"IS_EXACTLY\",\"value\":\"\\/events\\/eventloge\\/detail\\/we-mma-4\\/23-11-2024-1900\",\"language_button_displayed\":false,\"exclusion_behavior\":\"REDIRECT\",\"excluded_languages\":[],\"regex\":\"^\\/events\\/eventloge\\/detail\\/we\\\\-mma\\\\-4\\/23\\\\-11\\\\-2024\\\\-1900$\"},{\"type\":\"IS_EXACTLY\",\"value\":\"\\/events\\/eventloge\\/detail\\/bibi-tina-die-ausserirdische-hitparade-2\\/15-03-2025-1700\",\"language_button_disp\n…[afkortet]"
+  },
+  {
+   "url": "https://cdn.cookielaw.org/consent/018fef2a-2e9f-7ea7-9f89-ee2653e97591/018fef2a-2e9f-7ea7-9f89-ee2653e97591.json",
+   "method": "GET",
+   "post": "",
+   "status": 200,
+   "ct": "application/json",
+   "body": "{\"CookieSPAEnabled\":false,\"CookieSameSiteNoneEnabled\":false,\"CookieV2CSPEnabled\":false,\"MultiVariantTestingEnabled\":false,\"UseV2\":true,\"MobileSDK\":false,\"SkipGeolocation\":false,\"ScriptType\":\"PRODUCTION\",\"Version\":\"202605.1.0\",\"OptanonDataJSON\":\"018fef2a-2e9f-7ea7-9f89-ee2653e97591\",\"GeolocationUrl\":\"https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location\",\"BulkDomainCheckUrl\":\"https://cookies-data.onetrust.io/bannersdk/v1/domaingroupcheck\",\"RuleSet\":[{\"Id\":\"01969226-d49b-7971-bf6d-4214e742f748\",\"Name\":\"Global\",\"Countries\":[\"pr\",\"ps\",\"pw\",\"py\",\"qa\",\"ad\",\"ae\",\"af\",\"ag\",\"ai\",\"al\",\"am\",\"ao\",\"aq\",\"ar\",\"as\",\"au\",\"aw\",\"az\",\"ba\",\"bb\",\"rs\",\"bd\",\"ru\",\"bf\",\"rw\",\"bh\",\"bi\",\"bj\",\"bl\",\"bm\",\"bn\",\"bo\",\"sa\",\"sb\",\"bq\",\"br\",\"sc\",\"bs\",\"sd\",\"bt\",\"sg\",\"bv\",\"sh\",\"bw\",\"by\",\"sj\",\"bz\",\"sl\",\"sn\",\"so\",\"ca\",\"sr\",\"cc\",\"ss\",\"st\",\"cd\",\"cf\",\"sv\",\"cg\",\"ch\",\"sx\",\"sy\",\"ci\",\"sz\",\"ck\",\"cl\",\"cm\",\"cn\",\"co\",\"tc\",\"cr\",\"td\",\"tf\",\"cu\",\"cv\",\"tg\",\"cw\",\"th\",\"cx\",\"tj\",\"tk\",\"tl\",\"tm\",\"tn\",\"to\",\"tr\",\"tt\",\"tv\",\"tw\",\"dj\",\"tz\",\"dm\",\"do\",\"ua\",\"ug\",\"dz\",\"um\",\"ec\",\"us\",\"eg\",\"eh\",\"uy\",\"uz\",\"va\",\"vc\",\"er\",\"et\",\"ve\",\"vg\",\"vi\",\"vn\",\"vu\",\"fj\",\"fk\",\"fm\",\"fo\",\"wf\",\"ga\",\"gb\",\"ws\",\"gd\",\"ge\",\"gg\",\"gh\",\"gi\",\"gl\",\"gm\",\"gn\",\"gq\",\"gs\",\"gt\",\"gu\",\"gw\",\"gy\",\"xk\",\"hk\",\"hm\",\"hn\",\"ht\",\"ye\",\"id\",\"il\",\"im\",\"in\",\"io\",\"za\",\"iq\",\"ir\",\"zm\",\"je\",\"zw\",\"jm\",\"jo\",\"jp\",\"ke\",\"kg\",\"kh\",\"ki\",\"km\",\"kn\",\"kp\",\"kr\",\"kw\",\"ky\",\"kz\",\"la\",\"lb\",\"lc\",\"lk\",\"lr\",\"ls\",\"ly\",\"ma\",\"md\",\"me\",\"mg\",\"mh\",\"mk\",\"ml\",\"mm\",\"mn\",\"mo\",\"mp\",\"mr\",\"ms\",\"mu\",\"mv\",\"mw\",\"mx\",\"my\",\"mz\",\"na\",\"nc\",\"ne\",\"nf\",\"ng\",\"ni\",\"np\",\"nr\",\"nu\",\"nz\",\"om\",\"pa\",\"pe\",\"pf\",\"pg\",\"ph\",\"pk\",\"pm\",\"pn\"],\"States\":{},\"LanguageSwitcherPlaceholder\":{\"default\":\"de\",\"en\":\"en\",\"fr\":\"fr\"},\"BannerPushesDown\":false,\"Default\":true,\"Global\":true,\"Type\":\"GDPR\",\"UseGoogleVendors\":false,\"VariantEnabled\":false,\"TestEndTime\":null,\"Variants\":[],\"TemplateName\":\"AEG EU GDPR Hamburg Template\",\"Conditions\":[],\"GCEnable\":true,\"IsGPPEnabled\":false,\"EnableJWTAuthForKnownUsers\":false}],\"IabData\":{\"cookieVersion\":\"1\",\"createdTime\":\"2026-06-03T20:59:34.068837677\",\"updatedTime\":\"2026-06-03T20:59:34.068855181\",\"cmpId\":\"28\",\"cmpVersion\":\"1\",\"consentScreen\":\"1\",\"consentLanguage\":null,\"vendorListVersion\":0,\"maxVendorId\":0,\"encodingType\":\"0\",\"globalVendorListUrl\":\"https://cdn.cookielaw.org/vendorlist/iabData.json\"},\"IabV2Data\":{\"cookieVersion\":\"1\",\"createdTime\":\"2026-06-03T20:59:34.173968205\",\"updatedTime\":\"2026-06-03T20:59:34.173974869\",\"cmpId\":\"28\",\"cmpVersion\":\"1\",\"consentScreen\":\"1\",\"consentLanguage\":null,\"vendorListVersion\":0,\"maxVendorId\":0,\"encodingType\":\"0\",\"globalVendorListUrl\":\"https://cdn.cookielaw.org/vendorlist/iab2Data.json\"},\"Iab2V2Data\":{\"cookieVersion\":\"1\",\"createdTime\":\"2026-06-03T20:59:34.268287988\",\"updatedTime\":\"2026-06-03T20:59:34.268293820\",\"cmpId\":\"28\",\"cmpVersion\":\"1\",\"consentScreen\":\"1\",\"consentLanguage\":null,\"vendorListVersion\":0,\"maxVendorId\":0,\"encodingType\":\"0\",\"globalVendorListUrl\":\"https://cdn.cookielaw.org/vendorlist/iab2V2Data.json\"},\"GoogleData\":{\"vendorListVersion\":158,\"googleVendorListUrl\":\"https://cdn.cookielaw.org/vendorlist/googleData.json\"},\"ScriptDynamicLoadEnabled\":false,\"TenantFeatures\":{\"CookieV2BannerFocus\":true,\"CookieV2RejectAll\":true,\"CookieV2TargetedTemplates\":true,\"CookieV2GPC\":true,\"CookieV2GeolocationJsonApi\":true,\"CookieV2TCF21\":true,\"CookieV2SkipCategory\":true,\"CookieV2BannerLogo\":true,\"ConsentStoreConsentStrings\":true,\"features.cmp-amazon-consent-Signal\":true,\"CookieV2AssignTemplateRule\":true,\"CookiesV2TCF2.3Adoption\":true,\"MobileAuthenticatedConsents\":true,\"CookieV2MicrosoftUET\":true,\"CookieV2GCMDMA\":true,\"CookieV2RemoveSettingsIcon\":true,\"CookieV2NewConsentReceiptAPI\":true,\"CookieV2GeneralVendors\":true,\"CookieV2GPP\":true},\"IsSuppressBanner\":false,\"IsSuppressPC\":false,\"PublisherCC\":\"US\",\"Domain\":\"barclays-arena.de\",\"TenantGuid\":\"c7968fb5-dd42-4c76-8f79-3e5198bd1303\",\"EnvId\":\"app-prod\",\"RemoteActionsEnabled\":false,\"GeoRuleGroupName\":\"AEG EU Hamburg Consent Policy\",\"GATrackToggle\":false,\"GATrackAssignedCategory\":\"\",\"WebFormIntegrationEnabled\":false,\"WebFormSrcUrl\":\"\",\"WebFormWorkerUrl\":\"\",\"GppData\":{\"cmpId\":\"28\"},\"AuthenticatedConsent\":false,\"AuthenticatedLoggedOutConsent\":false,\"CDNLocation\":\"https://cdn.cookielaw.org\",\"RootDomainConsentEnabled\":false,\"RootDomainUrl\":\"\",\"LanguageDetectionEnabled\":true,\"LanguageDetectionByHtml\":false,\"DataLanguage\":\"\",\"DisclosureCDNUrl\":\"https://cdn.cookielaw.org/vendorlist/DeviceStorageDisclosureData\",\"SEOOptimization\":false,\"PartitionedCookieEnabled\":false,\"BannerRefreshAfterCallToActionEnabled\":false,\"SubDomainEnabled\":false,\"DomainHashValue\":\"\",\"SessionTrackingUrl\":\"\"}"
+  },
+  {
+   "url": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+   "method": "GET",
+   "post": "",
+   "status": 200,
+   "ct": "application/json",
+   "body": "{\"country\":\"US\",\"state\":\"CA\",\"stateName\":\"California\",\"continent\":\"NA\"}"
+  },
+  {
+   "url": "https://cdn.cookielaw.org/consent/018fef2a-2e9f-7ea7-9f89-ee2653e97591/01969226-d49b-7971-bf6d-4214e742f748/de.json",
+   "method": "GET",
+   "post": "",
+   "status": 200,
+   "ct": "application/json",
+   "body": "{\"DomainData\":{\"pclifeSpanYr\":\"Jahr\",\"pclifeSpanYrs\":\"Jahre\",\"pclifeSpanSecs\":\"Einige Sekunden\",\"pclifeSpanWk\":\"Woche\",\"pclifeSpanWks\":\"Wochen\",\"pccontinueWithoutAcceptText\":\"Fortfahren ohne Akzeptieren\",\"pccloseButtonType\":\"Icon\",\"MainText\":\"Datenschutz-Präferenz-Center\",\"MainInfoText\":\"Wenn Sie eine Website besuchen, kann diese Informationen in Ihrem Browser speichern oder abrufen, meist in Form von Cookies. Diese Informationen können sich auf Sie, Ihre Präferenzen oder Ihr Gerät beziehen und werden hauptsächlich verwendet, damit die Website wie erwartet funktioniert. Diese Informationen identifizieren Sie in der Regel nicht direkt, können Ihnen jedoch ein personalisierteres Web-Erlebnis bieten. Da wir Ihr Recht auf Privatsphäre respektieren, können Sie sich entscheiden, bestimmte Arten von Cookies nicht zuzulassen. Klicken Sie auf die verschiedenen Kategorieüberschriften, um mehr zu erfahren und unsere Standardeinstellungen zu ändern. Das Blockieren bestimmter Arten von Cookies kann Ihre Erfahrung auf der Website und die von uns angebotenen Dienste beeinträchtigen.\",\"AboutText\":\"\",\"AboutCookiesText\":\"Ihre Privatsphäre\",\"ConfirmText\":\"Alle zulassen\",\"AllowAllText\":\"Einstellungen speichern\",\"CookiesUsedText\":\"Verwendete Cookies\",\"CookiesDescText\":\"Beschreibung\",\"AboutLink\":\"\",\"ActiveText\":\"Aktiv\",\"AlwaysActiveText\":\"Immer aktiv\",\"AlwaysInactiveText\":\"Immer inaktiv\",\"PCShowAlwaysActiveToggle\":true,\"AlertNoticeText\":\"Wenn Sie auf „Alle Cookies akzeptieren“ klicken, stimmen Sie der Speicherung von Cookies auf Ihrem Gerät zu, um die Websitenavigation zu verbessern, die Websitenutzung zu analysieren und unsere Marketingbemühungen zu unterstützen. \\n<a href=\\\"https://www.barclays-arena.de/besucherinfos/rechtliche-hinweise/datenschutz\\\">Datenschutz</a>\\n<a href=\\\"https://www.barclays-arena.de/kontakt/impressum\\\">Impressum</a>\\n<br><br>\\nIm Rahmen der Nutzung von Google Analytics bzw. Google Ads kann es zu einer Übermittlung personenbezogener Daten an Google kommen. Google kann diese Daten auch für eigene Zwecke verarbeiten. Weitere Informationen darüber, wie Google personenbezogene Daten verwendet, finden Sie unter: \\n<a href=\\\"https://business.safety.google/privacy/\\\">https://business.safety.google/privacy/</a>\",\"AlertCloseText\":\"Schließen\",\"AlertMoreInfoText\":\"Cookie-Einstellungen\",\"AlertMoreInfoTextDialog\":\"Cookie-Einstellungen, Öffnet das Einstellungscenter-Dialogfeld\",\"CookieSettingButtonText\":\"Cookie-Einstellungen\",\"AlertAllowCookiesText\":\"Alle Cookies akzeptieren\",\"CloseShouldAcceptAllCookies\":false,\"LastReconsentDate\":null,\"BannerTitle\":\"\",\"ForceConsent\":true,\"BannerPushesDownPage\":false,\"InactiveText\":\"Inaktiv\",\"CookiesText\":\"Cookies\",\"CategoriesText\":\"Cookie-Untergruppe\",\"IsLifespanEnabled\":false,\"LifespanText\":\"Gültigkeitsdauer\",\"VendorLevelOptOut\":false,\"HasScriptArchive\":false,\"BannerPosition\":\"default\",\"PreferenceCenterPosition\":\"default\",\"PreferenceCenterConfirmText\":\"Meine Auswahl bestätigen\",\"VendorListText\":\"Liste von IAB-Lieferanten\",\"ThirdPartyCookieListText\":\"Cookie-Details\",\"PreferenceCenterManagePreferencesText\":\"Einwilligungspräferenzen verwalten\",\"PreferenceCenterMoreInfoScreenReader\":\"Wird in neuer Registerkarte geöffnet\",\"CookieListTitle\":\"Cookie-Liste\",\"CookieListDescription\":\"Ein Cookie ist ein kleines Datenpaket (Textdatei), das Ihr Browser auf Anweisung einer besuchten Website auf Ihrem Gerät speichert, um sich Informationen über Sie zu „merken“, wie etwa Ihre Spracheinstellungen oder Anmeldeinformationen. Diese Cookies werden von uns gesetzt und als Erstanbieter-Cookies bezeichnet. Wir verwenden auch Drittanbieter-Cookies, welche von einer anderen Domäne als die der von Ihnen besuchten Website stammen. Wie verwenden diese Cookies zur Unterstützung unserer Werbe- und Marketingmaßnahmen. Insbesondere verwenden wir Cookies und andere Tracker-Technologien für die folgenden Zwecke:\",\"Groups\":[{\"ShowInPopup\":true,\"ShowInPopupNonIAB\":true,\"ShowSDKListLink\":true,\"Order\":\"2\",\"OptanonGroupId\":\"C0001\",\"Parent\":\"\",\"ShowSubgroup\":true,\"ShowSubGroupDescription\":true,\"ShowSubgroupToggle\":false,\"AlwaysShowCategory\":false,\"GroupDescription\":\"Diese Technologien sind unbedingt erforderlich, damit wir Ihnen unsere Dienste anbieten können. Mit diesen Technologien können wir beispielsweise Inhalte auf die Seite laden, Sicherheitsfunktionen ausführen oder obligatorische Einstellungen speichern (z. B. die Ablehnung von Verkaufseinstellungen). Diese Technologien können nicht deaktiviert werden. Wenn Sie Ihren Browser so konfigurieren, dass sie blockiert werden, funktionieren unsere Dienste oder bestimmte Funktionen möglicherweise nicht.\",\"GroupDescriptionOTT\":\"Diese Technologien sind unbedingt erforderlich, damit wir Ihnen unsere Dienste anbieten können. Mit diesen Technologien können wir beispielsweise Inhalte auf die Seite laden, Sicherheitsfunktionen ausführen oder obligatorische Einstellungen speichern (z. B. die Ablehnung von Verkaufseinstellungen). Diese Technologien können nicht deaktiviert werden. Wenn Sie Ihren Browser so konfigurieren, dass sie blockiert werden, funktionieren unsere Dienste oder bestimmte Funktionen möglicherweise nicht.\",\"GroupNameMobile\":\"Unbedingt erforderlich\",\"GroupNameOTT\":\"Unbedingt erforderlich\",\"GroupName\":\"Unbedingt erforderlich\",\"IsIabPurpose\":false,\"GeneralVendorsIds\":[],\"FirstPartyCookies\":[{\"id\":\"018fef2a-a170-7218-834f-845ad696a9ca\",\"Name\":\"OptanonAlertBoxClosed\",\"Host\":\"barclays-arena.de\",\"IsSession\":false,\"Length\":\"364\",\"description\":\"Wir nutzen als Consent Management Provider (“CMP”) den Anbieter OneTrust LLC, 1200 Abernathy Rd NE, Building 600, Atlanta, GA 30328 United States. Das CMP kommt auf unseren Websites zum Einsatz, um Einwilligungen für die Verarbeitung Ihrer Endgeräteinformationen und personenbezogenen Daten mittels Cookies oder ähnlicher Trackingtechnologien abzufragen. Sie haben mithilfe des CMP die Möglichkeit, der Verarbeitung Ihrer Endgeräteinformationen und personenbezogenen Daten mittels Cookies oder sonstige Tracking-Techno\n…[afkortet]"
+  },
+  {
+   "url": "https://cdn.cookielaw.org/scripttemplates/202605.1.0/assets/v2/otPcCenter.json",
+   "method": "GET",
+   "post": "",
+   "status": 200,
+   "ct": "application/json",
+   "body": "\n        {\n            \"name\": \"otPcCenter\",\n            \"html\": \"PGRpdiBpZD0ib25ldHJ1c3QtcGMtc2RrIiBjbGFzcz0ib3RQY0NlbnRlciBvdC1oaWRlIG90LWZhZGUtaW4iPjxkaXYgcm9sZT0iZGlhbG9nIiBhcmlhLW1vZGFsPSJ0cnVlIj48IS0tIENsb3NlIEJ1dHRvbiAtLT48ZGl2IGNsYXNzPSJvdC1wYy1oZWFkZXIiPjwhLS0gTG9nbyBUYWcgLS0+PGRpdiBjbGFzcz0ib3QtcGMtbG9nbyI+PC9kaXY+PGJ1dHRvbiBpZD0iY2xvc2UtcGMtYnRuLWhhbmRsZXIiIGNsYXNzPSJvdC1jbG9zZS1pY29uIiBhcmlhLWxhYmVsPSJDbG9zZSI+PC9idXR0b24+PC9kaXY+PCEtLSBDbG9zZSBCdXR0b24gLS0+PGRpdiBpZD0ib3QtcGMtY29udGVudCIgY2xhc3M9Im90LXBjLXNjcm9sbGJhciI+PGgyIGlkPSJvdC1wYy10aXRsZSI+WW91ciBQcml2YWN5PC9oMj48ZGl2IGlkPSJvdC1wYy1kZXNjIj48L2Rpdj48YnV0dG9uIGlkPSJhY2NlcHQtcmVjb21tZW5kZWQtYnRuLWhhbmRsZXIiIG90LWJ1dHRvbi1vcmRlcj0iMCI+QWxsb3cgYWxsPC9idXR0b24+PHNlY3Rpb24gY2xhc3M9Im90LXNkay1yb3cgb3QtY2F0LWdycCI+PGgzIGlkPSJvdC1jYXRlZ29yeS10aXRsZSI+TWFuYWdlIENvb2tpZSBQcmVmZXJlbmNlczwvaDM+PGRpdiBjbGFzcz0ib3QtcGxpLWhkciI+PHNwYW4gY2xhc3M9Im90LWxpLXRpdGxlIj5Db25zZW50PC9zcGFuPiA8c3BhbiBjbGFzcz0ib3QtbGktdGl0bGUiPkxlZ2l0LiBJbnRlcmVzdDwvc3Bhbj48L2Rpdj48IS0tIEdyb3VwcyBzZWN0aW9ucyBzdGFydHMgLS0+PGRpdiBjbGFzcz0ib3QtY2F0LWl0ZW0iPjwhLS0gR3JvdXAgbmFtZSAtLT48aDQgY2xhc3M9Im90LWNhdC1oZWFkZXIiPlN0aWN0bHkgTmVjZXNzYXJ5IENvb2tpZXM8L2g0PjwhLS0gR3JvdXAgZGVzY3JpcHRpb24gLS0+PHA+VGhlc2UgY29va2llcyBhcmUgbmVjZXNzYXJ5IGZvciB0aGUgd2Vic2l0ZSB0byBmdW5jdGlvbiBhbmQ8L3A+PC9kaXY+PCEtLSBHcm91cCBzZWN0aW9uIGVuZHMgLS0+PCEtLSBBY2NvcmRpb24gR3JvdXAgc2VjdGlvbiBzdGFydHMgLS0+PGRpdiBjbGFzcz0ib3QtYWNjb3JkaW9uLWxheW91dCBvdC1jYXQtaXRlbSI+PGJ1dHRvbiBhcmlhLWV4cGFuZGVkPSJmYWxzZSIgb3QtYWNjb3JkaW9uPSJ0cnVlIj48L2J1dHRvbj48IS0tIEFjY29yZGlvbiBoZWFkZXIgLS0+PGRpdiBjbGFzcz0ib3QtYWNjLWhkciI+PGg0IGNsYXNzPSJvdC1jYXQtaGVhZGVyIj5JbmZvcm1hdGlvbiBzdG9yYWdlIGFuZCBhY2Nlc3M8L2g0PjwvZGl2PjwhLS0gYWNjb3JkaW9uIGRldGFpbCAtLT48ZGl2IGNsYXNzPSJvdC1hY2MtZ3JwY250ciBvdC1hY2MtdHh0Ij48cCBjbGFzcz0ib3QtYWNjLWdycGRlc2MiPjwvcD48L2Rpdj48L2Rpdj48IS0tIEFjY29yZGlvbiBHcm91cCBzZWN0aW9uIGVuZHMgLS0+PC9zZWN0aW9uPjwvZGl2PjxzZWN0aW9uIGlkPSJvdC1wYy1sc3QiIGNsYXNzPSJvdC1oaWRlIG90LWhvc3RzLXVpIG90LXBjLXNjcm9sbGJhciI+PGRpdiBpZD0ib3QtcGMtaGRyIj48ZGl2IGlkPSJvdC1sc3QtdGl0bGUiPjxidXR0b24gY2xhc3M9Im90LWxpbmstYnRuIGJhY2stYnRuLWhhbmRsZXIiIGFyaWEtbGFiZWw9IkJhY2siPjxzdmcgaWQ9Im90LWJhY2stYXJ3IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDQ0NC41MzEgNDQ0LjUzMSIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PHRpdGxlPkJhY2sgQnV0dG9uPC90aXRsZT48Zz48cGF0aCBmaWxsPSIjNjU2NTY1IiBkPSJNMjEzLjEzLDIyMi40MDlMMzUxLjg4LDgzLjY1M2M3LjA1LTcuMDQzLDEwLjU2Ny0xNS42NTcsMTAuNTY3LTI1Ljg0MWMwLTEwLjE4My0zLjUxOC0xOC43OTMtMTAuNTY3LTI1LjgzNQogICAgICAgICAgICAgICAgICAgIGwtMjEuNDA5LTIxLjQxNkMzMjMuNDMyLDMuNTIxLDMxNC44MTcsMCwzMDQuNjM3LDBzLTE4Ljc5MSwzLjUyMS0yNS44NDEsMTAuNTYxTDkyLjY0OSwxOTYuNDI1CiAgICAgICAgICAgICAgICAgICAgYy03LjA0NCw3LjA0My0xMC41NjYsMTUuNjU2LTEwLjU2NiwyNS44NDFzMy41MjEsMTguNzkxLDEwLjU2NiwyNS44MzdsMTg2LjE0NiwxODUuODY0YzcuMDUsNy4wNDMsMTUuNjYsMTAuNTY0LDI1Ljg0MSwxMC41NjQKICAgICAgICAgICAgICAgICAgICBzMTguNzk1LTMuNTIxLDI1LjgzNC0xMC41NjRsMjEuNDA5LTIxLjQxMmM3LjA1LTcuMDM5LDEwLjU2Ny0xNS42MDQsMTAuNTY3LTI1LjY5N2MwLTEwLjA4NS0zLjUxOC0xOC43NDYtMTAuNTY3LTI1Ljk3OAogICAgICAgICAgICAgICAgICAgIEwyMTMuMTMsMjIyLjQwOXoiLz48L2c+PC9zdmc+PC9idXR0b24+PGgzPlBlcmZvcm1hbmNlIENvb2tpZXM8L2gzPjwvZGl2PjxkaXYgY2xhc3M9Im90LWxzdC1zdWJoZHIiPjxkaXYgY2xhc3M9Im90LXNlYXJjaC1jbnRyIj48cCByb2xlPSJzdGF0dXMiIGNsYXNzPSJvdC1zY3JuLXJkciI+PC9wPjxpbnB1dCBpZD0idmVuZG9yLXNlYXJjaC1oYW5kbGVyIiB0eXBlPSJ0ZXh0IiBuYW1lPSJ2ZW5kb3Itc2VhcmNoLWhhbmRsZXIiPiA8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIC0zMCAxMTAgMTEwIiBhcmlhLWhpZGRlbj0idHJ1ZSI+PHRpdGxlPlNlYXJjaCBJY29uPC90aXRsZT48cGF0aCBmaWxsPSIjMmUzNjQ0IiBkPSJNNTUuMTQ2LDUxLjg4N0w0MS41ODgsMzcuNzg2YzMuNDg2LTQuMTQ0LDUuMzk2LTkuMzU4LDUuMzk2LTE0Ljc4NmMwLTEyLjY4Mi0xMC4zMTgtMjMtMjMtMjNzLTIzLDEwLjMxOC0yMywyMwogICAgICAgICAgICBzMTAuMzE4LDIzLDIzLDIzYzQuNzYxLDAsOS4yOTgtMS40MzYsMTMuMTc3LTQuMTYybDEzLjY2MSwxNC4yMDhjMC41NzEsMC41OTMsMS4zMzksMC45MiwyLjE2MiwwLjkyCiAgICAgICAgICAgIGMwLjc3OSwwLDEuNTE4LTAuMjk3LDIuMDc5LTAuODM3QzU2LjI1NSw1NC45ODIsNTYuMjkzLDUzLjA4LDU1LjE0Niw1MS44ODd6IE0yMy45ODQsNmM5LjM3NCwwLDE3LDcuNjI2LDE3LDE3cy03LjYyNiwxNy0xNywxNwogICAgICAgICAgICBzLTE3LTcuNjI2LTE3LTE3UzE0LjYxLDYsMjMuOTg0LDZ6Ii8+PC9zdmc+PC9kaXY+PGRpdiBjbGFzcz0ib3QtZmx0ci1jbnRyIj48YnV0dG9uIGlkPSJmaWx0ZXItYnRuLWhhbmRsZXIiIGFyaWEtbGFiZWw9IkZpbHRlciIgYXJpYS1oYXNwb3B1cD0idHJ1ZSIgYXJpYS1leHBhbmRlZD0iZmFsc2UiPjxzdmcgcm9sZT0icHJlc2VudGF0aW9uIiBhcmlhLWhpZGRlbj0idHJ1ZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCA0MDIuNTc3IDQwMi41NzciIHhtbDpzcGFjZT0icHJlc2VydmUiPjx0aXRsZT5GaWx0ZXIgSWNvbjwvdGl0bGU+PGc+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTQwMC44NTgsMTEuNDI3Yy0zLjI0MS03LjQyMS04Ljg1LTExLjEzMi0xNi44NTQtMTEuMTM2SDE4LjU2NGMtNy45OTMsMC0xMy42MSwzLjcxNS0xNi44NDYsMTEuMTM2CiAgICAgIGMtMy4yMzQsNy44MDEtMS45MDMsMTQuNDY3LDMuOTk5LDE5Ljk4NWwxNDAuNzU3LDE0MC43NTN2MTM4Ljc1NWMwLDQuOTU1LDEuODA5LDkuMjMyLDUuNDI0LDEyLjg1NGw3My4wODUsNzMuMDgzCiAgICAgIGMzLjQyOSwzLjYxNCw3LjcxLDUuNDI4LDEyLjg1MSw1LjQyOGMyLjI4MiwwLDQuNjYtMC40NzksNy4xMzUtMS40M2M3LjQyNi0zLjIzOCwxMS4xNC04Ljg1MSwxMS4xNC0xNi44NDVWMTcyLjE2NkwzOTYuODYxLDMxLjQxMwogICAgICBDNDAyLjc2NSwyNS44OTUsNDA0LjA5MywxOS4yMzEsNDAwLjg1OCwxMS40Mjd6Ii8+PC9nPjwvc3ZnPjwvYnV0dG9uPjwvZGl2PjxkaXYgaWQ9Im90LWFuY2hvciI+PC9kaXY+PHNlY3Rpb24gaWQ9Im90LWZsdHItbW9kYWwiPjxkaXYgaWQ9Im90LWZsdHItY250Ij48YnV0dG9uIGlkPSJjbGVhci1maWx0ZXJzLWhhbmRsZXIiPkNsZWFyPC9idXR0b24+PGZpZWxkc2V0IGNsYXNzPSJvdC1mbHRyLXNjcmxjbnQgb3QtcGMtc2Nyb2xsYmFyIj48bGVnZW5kIGlkPSJvdC1maWx0ZXItbGlzdC1oZWFkZXIiPjwvbGVnZW5kPjx1bCBjbGFzcz0ib3QtZmx0ci1vcHRzIj48bGkgY2xhc3M9Im90LWZsdHItb3B0Ij48L2xpPjwvdWw+PGRpdiBjbGFzcz0ib3QtZmx0ci1idG5zIj48YnV0dG9uIGlkPSJmaWx0ZXItYXBwbHktaGFuZGxlciI+QXBwbHk8L2J1dHRvbj4gPGJ1dHRvbiBpZD0iZmlsdGVyLWNhbmNlbC1oYW5kbGVyIj5DYW5jZWw8L2J1dHRvbj48L2Rpdj48L2ZpZWxkc2V0PjwvZGl2Pjwvc2VjdGlvbj48L2Rpdj48L2Rpdj48c2VjdGlvbiBpZD0ib3QtbHN0LWNudCIgY2xhc3M9Im90LWhvc3QtY250IG90LXBjLXNjcm9sbGJhciI+PG\n…[afkortet]"
+  },
+  {
+   "url": "https://cdn.cookielaw.org/scripttemplates/202605.1.0/assets/otCommonStyles.css",
+   "method": "GET",
+   "post": "",
+   "status": 200,
+   "ct": "text/css",
+   "body": "#onetrust-banner-sdk .onetrust-vendors-list-handler{cursor:pointer;color:#1f96db;font-size:inherit;font-weight:bold;text-decoration:none;margin-left:5px;white-space:normal;word-wrap:break-word;text-align:left}#onetrust-banner-sdk .onetrust-vendors-list-handler:hover{color:#1f96db}#onetrust-banner-sdk:focus{outline:2px solid #000;outline-offset:-2px}#onetrust-banner-sdk a:focus{outline:2px solid #000}#onetrust-banner-sdk #onetrust-accept-btn-handler,#onetrust-banner-sdk #onetrust-reject-all-handler,#onetrust-banner-sdk #onetrust-pc-btn-handler{outline-offset:1px}#onetrust-banner-sdk.ot-bnr-w-logo .ot-bnr-logo{height:64px;width:64px}#onetrust-banner-sdk #onetrust-policy svg,#onetrust-banner-sdk .banner-option svg{height:13px;width:13px;margin-left:1px}#onetrust-banner-sdk #onetrust-policy svg.ot-ext-lnk,#onetrust-banner-sdk .banner-option svg.ot-ext-lnk{vertical-align:middle}#onetrust-banner-sdk .ot-tcf2-vendor-count.ot-text-bold{font-weight:bold}#onetrust-banner-sdk .ot-button-order-0{order:0}#onetrust-banner-sdk .ot-button-order-1{order:1}#onetrust-banner-sdk .ot-button-order-2{order:2}#onetrust-banner-sdk #onetrust-close-btn-container svg{height:10px;width:10px;pointer-events:none}#onetrust-banner-sdk .ot-close-icon,#onetrust-pc-sdk .ot-close-icon,#ot-sync-ntfy .ot-close-icon{background-size:contain;background-repeat:no-repeat;background-position:center;height:12px;width:12px}#onetrust-banner-sdk .powered-by-logo,#onetrust-banner-sdk .ot-pc-footer-logo a,#onetrust-pc-sdk .powered-by-logo,#onetrust-pc-sdk .ot-pc-footer-logo a,#ot-sync-ntfy .powered-by-logo,#ot-sync-ntfy .ot-pc-footer-logo a{background-size:contain;background-repeat:no-repeat;background-position:center;height:25px;width:152px;display:block;text-decoration:none;font-size:.75em}#onetrust-banner-sdk .powered-by-logo:hover,#onetrust-banner-sdk .ot-pc-footer-logo a:hover,#onetrust-pc-sdk .powered-by-logo:hover,#onetrust-pc-sdk .ot-pc-footer-logo a:hover,#ot-sync-ntfy .powered-by-logo:hover,#ot-sync-ntfy .ot-pc-footer-logo a:hover{color:#565656}#onetrust-banner-sdk h3 *,#onetrust-banner-sdk h4 *,#onetrust-banner-sdk h6 *,#onetrust-banner-sdk button *,#onetrust-banner-sdk a[data-parent-id] *,#onetrust-banner-sdk p[role=heading] *,#onetrust-pc-sdk h3 *,#onetrust-pc-sdk h4 *,#onetrust-pc-sdk h6 *,#onetrust-pc-sdk button *,#onetrust-pc-sdk a[data-parent-id] *,#onetrust-pc-sdk p[role=heading] *,#ot-sync-ntfy h3 *,#ot-sync-ntfy h4 *,#ot-sync-ntfy h6 *,#ot-sync-ntfy button *,#ot-sync-ntfy a[data-parent-id] *,#ot-sync-ntfy p[role=heading] *{font-size:inherit;font-weight:inherit;color:inherit}#onetrust-banner-sdk .ot-hide,#onetrust-pc-sdk .ot-hide,#ot-sync-ntfy .ot-hide{display:none !important}#onetrust-banner-sdk button.ot-link-btn:hover,#onetrust-pc-sdk button.ot-link-btn:hover,#ot-sync-ntfy button.ot-link-btn:hover{text-decoration:underline;opacity:1}#onetrust-pc-sdk .ot-sdk-row .ot-sdk-column{padding:0}#onetrust-pc-sdk .ot-sdk-container{padding-right:0}#onetrust-pc-sdk .ot-sdk-row{flex-direction:initial;width:100%}#onetrust-pc-sdk [type=checkbox]:checked,#onetrust-pc-sdk [type=checkbox]:not(:checked){pointer-events:initial}#onetrust-pc-sdk [type=checkbox]:disabled+label::before,#onetrust-pc-sdk [type=checkbox]:disabled+label:after,#onetrust-pc-sdk [type=checkbox]:disabled+label,#onetrust-pc-sdk [type=checkbox][aria-disabled=true]+label::before,#onetrust-pc-sdk [type=checkbox][aria-disabled=true]+label:after,#onetrust-pc-sdk [type=checkbox][aria-disabled=true]+label{pointer-events:none;opacity:.8}#onetrust-pc-sdk #vendor-list-content{transform:translate3d(0, 0, 0)}#onetrust-pc-sdk li input[type=checkbox]{z-index:1}#onetrust-pc-sdk li .ot-checkbox label{z-index:2}#onetrust-pc-sdk li .ot-checkbox input[type=checkbox]{height:auto;width:auto}#onetrust-pc-sdk li .host-title a,#onetrust-pc-sdk li .ot-host-name a,#onetrust-pc-sdk li .accordion-text,#onetrust-pc-sdk li .ot-acc-txt{z-index:2;position:relative}#onetrust-pc-sdk input{margin:3px .1ex}#onetrust-pc-sdk .pc-logo,#onetrust-pc-sdk .ot-pc-logo{height:60px;width:180px;background-position:center;background-size:contain;background-repeat:no-repeat;display:inline-flex;justify-content:center;align-items:center}#onetrust-pc-sdk .pc-logo img,#onetrust-pc-sdk .ot-pc-logo img{max-height:100%;max-width:100%}#onetrust-pc-sdk .pc-logo svg,#onetrust-pc-sdk .ot-pc-logo svg{height:60px;width:180px}#onetrust-pc-sdk #close-pc-btn-handler>svg{margin:auto;display:block;height:12px;width:12px}#onetrust-pc-sdk #ot-pc-desc svg,#onetrust-pc-sdk .ot-desc-cntr svg,#onetrust-pc-sdk .ot-cat-grp svg{height:13px;width:13px;margin-left:-7px;vertical-align:middle;margin-right:5px}#onetrust-pc-sdk #ot-pc-desc svg.ot-ext-lnk{margin-right:8px}#onetrust-pc-sdk #ot-pc-desc .ot-userid-desc svg.ot-ext-lnk{margin-left:3px;margin-right:8px}#onetrust-pc-sdk .ot-host-hdr>a{display:inline-block}#onetrust-pc-sdk input[aria-disabled=true],#onetrust-banner-sdk input[aria-disabled=true]{pointer-events:none;opacity:.6}#onetrust-pc-sdk input[aria-disabled=true]+label,#onetrust-banner-sdk input[aria-disabled=true]+label{pointer-events:none;opacity:.6;cursor:not-allowed}#onetrust-pc-sdk .screen-reader-only,#onetrust-pc-sdk .ot-scrn-rdr,.ot-sdk-cookie-policy .screen-reader-only,.ot-sdk-cookie-policy .ot-scrn-rdr{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}#onetrust-pc-sdk.ot-fade-in,.onetrust-pc-dark-filter.ot-fade-in,#onetrust-banner-sdk.ot-fade-in,.ot-confirm-dialog-overlay.ot-fade-in{animation-name:onetrust-fade-in;animation-duration:400ms;animation-timing-function:ease-in-out}#onetrust-pc-sdk.ot-hide{display:none !important}.onetrust-pc-dark-filter.ot-hide{display:none !important}#ot-sdk-btn.ot-sdk-show-settings,#ot-sdk-btn.optanon-show-settings{color:#fff;background-color:#468254;height:auto;white-space:normal;word-wrap:break-word;padding:.8em 2em;font-size:.8em;line-height:1.2;cursor:pointer;-moz-transition:.1s ease;-o-transition:.1s ease;-webkit-transition:1s ease;tran\n…[afkortet]"
+  },
+  {
+   "url": "https://www.barclays-arena.de/events/calendar/2026/10?v=2&detail_partial=modules%2Fevents%2Fpartials%2Ffull_page_calendar_event_item",
+   "method": "GET",
+   "post": "",
+   "status": 200,
+   "ct": "text/html; charset=UTF-8",
+   "body": "{\"10-02-2026\":\"<div class=\\\"event_item\\\" data-event-id=\\\"1401\\\" > <div class=\\\"desc\\\"> <h3><a href=\\\"https:\\/\\/www.barclays-arena.de\\/events\\/dikka\\\" title=\\\"Mehr Informationen zu DIKKA\\\" aria-label=\\\"Past Event. Friday, October 2nd 2026. DIKKA.\\\">DIKKA<\\/a><\\/h3> <\\/div> <\\/div> \",\"10-03-2026\":\"<div class=\\\"event_item\\\" data-event-id=\\\"1372\\\" > <div class=\\\"desc\\\"> <h3><a href=\\\"https:\\/\\/www.barclays-arena.de\\/events\\/matthias-reim\\\" title=\\\"Mehr Informationen zu Matthias Reim\\\" aria-label=\\\"Past Event. Saturday, October 3rd 2026. Matthias Reim.\\\">Matthias Reim<\\/a><\\/h3> <\\/div> <\\/div> \",\"10-04-2026\":\"<div class=\\\"event_item\\\" data-event-id=\\\"1362\\\" > <div class=\\\"event_note\\\">Neuer Termin<\\/div> <div class=\\\"desc\\\"> <h3><a href=\\\"https:\\/\\/www.barclays-arena.de\\/events\\/die-deutschen-podcast\\\" title=\\\"Mehr Informationen zu Nizar &amp; Shayan\\\" aria-label=\\\"Past Event. Sunday, October 4th 2026. Nizar & Shayan.\\\">Nizar & Shayan<\\/a><\\/h3> <\\/div> <\\/div> \",\"10-05-2026\":\"<div class=\\\"event_item\\\" data-event-id=\\\"1452\\\" > <div class=\\\"desc\\\"> <h3><a href=\\\"https:\\/\\/www.barclays-arena.de\\/events\\/duran-duran\\\" title=\\\"Mehr Informationen zu Duran Duran\\\" aria-label=\\\"Past Event. Monday, October 5th 2026. Duran Duran.\\\">Duran Duran<\\/a><\\/h3> <\\/div> <\\/div> \",\"10-06-2026\":\"<div class=\\\"event_item\\\" data-event-id=\\\"1436\\\" > <div class=\\\"desc\\\"> <h3><a href=\\\"https:\\/\\/www.barclays-arena.de\\/events\\/synthony\\\" title=\\\"Mehr Informationen zu SYNTHONY\\\" aria-label=\\\"Past Event. Tuesday, October 6th 2026. SYNTHONY.\\\">SYNTHONY<\\/a><\\/h3> <\\/div> <\\/div> \",\"10-07-2026\":\"<div class=\\\"event_item\\\" data-event-id=\\\"1431\\\" > <div class=\\\"desc\\\"> <h3><a href=\\\"https:\\/\\/www.barclays-arena.de\\/events\\/niall-horan\\\" title=\\\"Mehr Informationen zu Niall Horan\\\" aria-label=\\\"Past Event. Wednesday, October 7th 2026. Niall Horan.\\\">Niall Horan<\\/a><\\/h3> <\\/div> <\\/div> \",\"10-09-2026\":\"<div class=\\\"event_item\\\" data-event-id=\\\"1421\\\" > <div class=\\\"desc\\\"> <h3><a href=\\\"https:\\/\\/www.barclays-arena.de\\/events\\/bryan-adams\\\" title=\\\"Mehr Informationen zu Bryan Adams\\\" aria-label=\\\"Past Event. Friday, October 9th 2026. Bryan Adams.\\\">Bryan Adams<\\/a><\\/h3> <\\/div> <\\/div> \",\"10-10-2026\":\"<div class=\\\"event_item\\\" data-event-id=\\\"1367\\\" > <div class=\\\"desc\\\"> <h3><a href=\\\"https:\\/\\/www.barclays-arena.de\\/events\\/90s-super-show\\\" title=\\\"Mehr Informationen zu 90s Super Show\\\" aria-label=\\\"Past Event. Saturday, October 10th 2026. 90s Super Show.\\\">90s Super Show<\\/a><\\/h3> <\\/div> <\\/div> \",\"10-11-2026\":\"<div class=\\\"event_item\\\" data-event-id=\\\"1417\\\" > <div class=\\\"event_note\\\">Zusatzshows<\\/div> <div class=\\\"desc\\\"> <h3><a href=\\\"https:\\/\\/www.barclays-arena.de\\/events\\/apache-207\\\" title=\\\"Mehr Informationen zu Apache 207\\\" aria-label=\\\"Past Event. Sunday, October 11th 2026. Apache 207.\\\">Apache 207<\\/a><\\/h3> <\\/div> <\\/div> \",\"10-12-2026\":\"<div class=\\\"event_item\\\" data-event-id=\\\"1417\\\" > <div class=\\\"event_note\\\">Zusatzshows<\\/div> <div class=\\\"desc\\\"> <h3><a href=\\\"https:\\/\\/www.barclays-arena.de\\/events\\/apache-207\\\" title=\\\"Mehr Informationen zu Apache 207\\\" aria-label=\\\"Past Event. Monday, October 12th 2026. Apache 207.\\\">Apache 207<\\/a><\\/h3> <\\/div> <\\/div> \",\"10-14-2026\":\"<div class=\\\"event_item\\\" data-event-id=\\\"1397\\\" > <div class=\\\"desc\\\"> <h3><a href=\\\"https:\\/\\/www.barclays-arena.de\\/events\\/job-und-weiterbildungsmesse\\\" title=\\\"Mehr Informationen zu Job-, Aus- und Weiterbildungsmesse\\\" aria-label=\\\"Past Event. Wednesday, October 14th 2026. Job-, Aus- und Weiterbildungsmesse.\\\">Job-, Aus- und Weiterbildungsmesse<\\/a><\\/h3> <\\/div> <\\/div> \",\"10-16-2026\":\"<div class=\\\"event_item\\\" data-event-id=\\\"1409\\\" > <div class=\\\"desc\\\"> <h3><a href=\\\"https:\\/\\/www.barclays-arena.de\\/events\\/k-pop-forever\\\" title=\\\"Mehr Informationen zu K-Pop Forever!\\\" aria-label=\\\"Past Event. Friday, October 16th 2026. K-Pop Forever!.\\\">K-Pop Forever!<\\/a><\\/h3> <\\/div> <\\/div> \",\"10-23-2026\":\"<div class=\\\"event_item\\\" data-event-id=\\\"1235\\\" > <div class=\\\"desc\\\"> <h3><a href=\\\"https:\\/\\/www.barclays-arena.de\\/events\\/felix-lobrecht\\\" title=\\\"Mehr Informationen zu Felix Lobrecht \\\" aria-label=\\\"Past Event. Friday, October 23rd 2026. Felix Lobrecht .\\\">Felix Lobrecht <\\/a><\\/h3> <\\/div> <\\/div> \",\"10-24-2026\":\"<div class=\\\"event_item\\\" data-event-id=\\\"1235\\\" > <div class=\\\"desc\\\"> <h3><a href=\\\"https:\\/\\/www.barclays-arena.de\\/events\\/felix-lobrecht\\\" title=\\\"Mehr Informationen zu Felix Lobrecht \\\" aria-label=\\\"Past Event. Saturday, October 24th 2026. Felix Lobrecht .\\\">Felix Lobrecht <\\/a><\\/h3> <\\/div> <\\/div> \",\"10-25-2026\":\"<div class=\\\"event_item\\\" data-event-id=\\\"1318\\\" > <div class=\\\"desc\\\"> <h3><a href=\\\"https:\\/\\/www.barclays-arena.de\\/events\\/beatrice-egli\\\" title=\\\"Mehr Informationen zu Beatrice Egli\\\" aria-label=\\\"Past Event. Sunday, October 25th 2026. Beatrice Egli.\\\">Beatrice Egli<\\/a><\\/h3> <\\/div> <\\/div> \",\"10-26-2026\":\"<div class=\\\"event_item\\\" data-event-id=\\\"1428\\\" > <div class=\\\"desc\\\"> <h3><a href=\\\"https:\\/\\/www.barclays-arena.de\\/events\\/placebo\\\" title=\\\"Mehr Informationen zu Placebo\\\" aria-label=\\\"Past Event. Monday, October 26th 2026. Placebo.\\\">Placebo<\\/a><\\/h3> <\\/div> <\\/div> \",\"10-28-2026\":\"<div class=\\\"event_item\\\" data-event-id=\\\"1379\\\" > <div class=\\\"desc\\\"> <h3><a href=\\\"https:\\/\\/www.barclays-arena.de\\/events\\/chris-norman\\\" title=\\\"Mehr Informationen zu Chris Norman\\\" aria-label=\\\"Wednesday, October 28th 2026. Chris Norman. Showings at 19:30\\\">Chris Norman<\\/a><\\/h3> <div class=\\\"showings time\\\" aria-hidden=\\\"true\\\"> 19:30 <\\/div> <\\/div> <\\/div> \",\"10-29-2026\":\"<div class=\\\"event_item\\\" data-event-id=\\\"1272\\\" > <div class=\\\"desc\\\"> <h3><a href=\\\"https:\\/\\/www.barclays-arena.de\\/events\\/nico-santos\\\" title=\\\"Mehr Informationen zu Nico Santos\\\" aria-label=\\\"Thursday, October 29th 2026. Nico Santos. Showings at 19:30\\\">Nico Santos<\\/a><\\/h3> <div class=\\\"showings time\\\" aria-hidden=\\\"true\\\"> 19:30 <\\/div> <\\/div> <\\/div> \",\"10-30-2026\":\"<div class=\\\"event_item\\\" data-event-id=\\\"1313\\\" \n…[afkortet]"
+  },
+  {
+   "url": "https://cdn.cookielaw.org/scripttemplates/202605.1.0/assets/otCookieSettingsButton.json",
+   "method": "GET",
+   "post": "",
+   "status": 200,
+   "ct": "application/json",
+   "body": "\n            {\n                \"name\": \"otCookieSettingsButton\",\n                \"html\": \"PGRpdiBpZD0ib3Qtc2RrLWJ0bi1mbG9hdGluZyIgY2xhc3M9Im90LWZsb2F0aW5nLWJ1dHRvbiBvdC1oaWRlIj48ZGl2IGNsYXNzPSJvdC1mbG9hdGluZy1idXR0b25fX2Zyb250Ij48YnV0dG9uIHR5cGU9ImJ1dHRvbiIgY2xhc3M9Im90LWZsb2F0aW5nLWJ1dHRvbl9fb3BlbiI+PC9idXR0b24+PC9kaXY+PGRpdiBjbGFzcz0ib3QtZmxvYXRpbmctYnV0dG9uX19iYWNrIj48YnV0dG9uIHR5cGU9ImJ1dHRvbiIgY2xhc3M9Im90LWZsb2F0aW5nLWJ1dHRvbl9fY2xvc2UiPjwhLS0/eG1sIHZlcnNpb249IjEuMCIgZW5jb2Rpbmc9IlVURi04Ij8tLT4gPHN2ZyByb2xlPSJwcmVzZW50YXRpb24iIHRhYmluZGV4PSItMSIgdmlld0JveD0iMCAwIDI0IDI0IiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgaWQ9IlBhZ2UtMSIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+PGcgaWQ9IkJhbm5lcl8wMiIgY2xhc3M9Im90LWZsb2F0aW5nLWJ1dHRvbl9fc3ZnLWZpbGwiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0zMTguMDAwMDAwLCAtNzI1LjAwMDAwMCkiIGZpbGw9IiMyOTJCMkUiIGZpbGwtcnVsZT0ibm9uemVybyI+PGcgaWQ9Ikdyb3VwLTIiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDMwNS4wMDAwMDAsIDcxMi4wMDAwMDApIj48ZyBpZD0iaWNvbi8xNnB4L3doaXRlL2Nsb3NlIj48cG9seWdvbiBpZD0iTGluZTEiIHBvaW50cz0iMTMuMzMzMzMzMyAxNC45MTc2MjU2IDM1LjA4MjM3NDQgMzYuNjY2NjY2NyAzNi42NjY2NjY3IDM1LjA4MjM3NDQgMTQuOTE3NjI1NiAxMy4zMzMzMzMzIj48L3BvbHlnb24+PHBvbHlnb24gaWQ9IkxpbmUyIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgyNS4wMDAwMDAsIDI1LjAwMDAwMCkgc2NhbGUoLTEsIDEpIHRyYW5zbGF0ZSgtMjUuMDAwMDAwLCAtMjUuMDAwMDAwKSAiIHBvaW50cz0iMTMuMzMzMzMzMyAxNC45MTc2MjU2IDM1LjA4MjM3NDQgMzYuNjY2NjY2NyAzNi42NjY2NjY3IDM1LjA4MjM3NDQgMTQuOTE3NjI1NiAxMy4zMzMzMzMzIj48L3BvbHlnb24+PC9nPjwvZz48L2c+PC9nPjwvc3ZnPjwvYnV0dG9uPjwvZGl2PjwvZGl2Pg==\",\n                \"css\": \"#ot-sdk-btn-floating.ot-floating-button{position:fixed;bottom:10px;opacity:0;width:50px;height:50px;line-height:15px;cursor:pointer;background-color:rgba(0,0,0,0);transition:all 300ms ease;z-index:2147483646;animation:otFloatingBtnIntro 800ms ease 0ms 1 forwards}#ot-sdk-btn-floating.ot-floating-button.ot-hide{display:none}#ot-sdk-btn-floating.ot-floating-button::before,#ot-sdk-btn-floating.ot-floating-button::after{text-transform:none;line-height:1;user-select:none;pointer-events:none;position:absolute;transform:scale(0);opacity:0;transition:all 300ms ease;display:block;height:auto}#ot-sdk-btn-floating.ot-floating-button::before{content:\\\"\\\";border:5px solid rgba(0,0,0,0);z-index:1001;top:50%;border-left-width:0;border-right-color:#333;right:calc(0em - 5px);transform:translate(10px, -50%)}#ot-sdk-btn-floating.ot-floating-button::after{content:attr(data-title);position:absolute;text-align:center;top:50%;left:calc(100% + 5px);transform:translate(10px, -50%);font-size:.75rem;min-width:3em;max-width:21em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;padding:5px;border-radius:.3ch;box-shadow:0 1em 2em -0.5em rgba(0,0,0,.35);background:#333;color:#fff;z-index:2147483645}#ot-sdk-btn-floating.ot-floating-button:hover::before,#ot-sdk-btn-floating.ot-floating-button:hover::after{opacity:1}#ot-sdk-btn-floating.ot-floating-button:hover::before{transform:translate(0.5em, -50%) scale(1)}#ot-sdk-btn-floating.ot-floating-button:hover::after{transform:translate(0.5em, -50%) scale(1)}#ot-sdk-btn-floating.ot-floating-button.ot-pc-open .ot-floating-button__front{transform:rotateY(-180deg)}#ot-sdk-btn-floating.ot-floating-button.ot-pc-open .ot-floating-button__back{transform:rotateY(0)}#ot-sdk-btn-floating .ot-floating-button__front,#ot-sdk-btn-floating .ot-floating-button__back{position:absolute;width:100%;height:100%;-webkit-backface-visibility:hidden;backface-visibility:hidden;background-color:#6aaae4;border-radius:10px;box-shadow:0 4px 8px 0 rgba(0,0,0,.2);transition:transform .6s;transform-style:preserve-3d}#ot-sdk-btn-floating .ot-floating-button__front{background-color:#6aaae4;transform:rotateY(0)}#ot-sdk-btn-floating .ot-floating-button__front.custom-persistent-icon{background-position:center center;background-repeat:no-repeat;background-size:100%;border-radius:100px}#ot-sdk-btn-floating .ot-floating-button__front svg:not(.ot-source-sprite){width:30px;height:37px}#ot-sdk-btn-floating .ot-floating-button__front svg.ot-source-sprite{width:50px;height:50px}#ot-sdk-btn-floating .ot-floating-button__back{background-color:#fff;transform:rotateY(-180deg)}#ot-sdk-btn-floating .ot-floating-button__back.custom-persistent-icon{background-position:center center;background-repeat:no-repeat;background-size:100%;border-radius:100px}#ot-sdk-btn-floating .ot-floating-button__back svg{width:24px;height:24px}#ot-sdk-btn-floating.ot-floating-button button{padding:0;background-color:rgba(0,0,0,0);border:0;width:100%;height:100%;cursor:pointer}#ot-sdk-btn-floating.ot-floating-button button>*{pointer-events:none}#ot-sdk-btn-floating .ot-optout-ntfy{position:absolute;top:50%;left:calc(100% + 10px);transform:translateY(-50%) scale(0);opacity:0;display:flex;align-items:center;gap:8px;font-size:.85rem;white-space:nowrap;padding:10px 16px;border-radius:6px;border:1px solid #d4d4d4;background:#fff;color:#333;z-index:2147483645;pointer-events:none;transition:all 300ms ease}#ot-sdk-btn-floating .ot-optout-ntfy.ot-hide{display:none}#ot-sdk-btn-floating .ot-optout-ntfy.ot-ntfy-show{opacity:1;transform:translateY(-50%) scale(1)}#ot-sdk-btn-floating .ot-optout-ntfy .ot-optout-ntfy-icon{display:inline-block;width:12px;height:12px;min-width:12px;background-color:#3d8539;border-radius:2px}#ot-sdk-btn-floating .ot-optout-ntfy .ot-optout-ntfy-txt{font-weight:400;line-height:1.4}#ot-sdk-btn-floating.ot-floating-button.ot-ntfy-active::before,#ot-sdk-btn-floating.ot-floating-button.ot-ntfy-active::after{display:none}@keyframes otFloatingBtnIntro{0%{opacity:0;left:-75px}100%{opacity:1;left:1%}}@keyframes otFloatingBtnImageIntro{0%{opacity:0;transform:scale(0) rotate(-270deg)}100%{opacity:100%;transform:scale(0.95) rotate(0deg)}}\"\n            }"
+  },
+  {
+   "url": "https://cdn.cookielaw.org/scripttemplates/202605.1.0/assets/otCenterRounded.json",
+   "method": "GET",
+   "post": "",
+   "status": 200,
+   "ct": "application/json",
+   "body": "\n            {\n                \"name\": \"otCenterRounded\",\n                \"html\": \"PGRpdiBpZD0ib25ldHJ1c3QtYmFubmVyLXNkayIgY2xhc3M9Im90Q2VudGVyUm91bmRlZCI+PGRpdiBjbGFzcz0ib3Qtc2RrLWNvbnRhaW5lciIgcm9sZT0iZGlhbG9nIj48ZGl2IGNsYXNzPSJvdC1zZGstcm93Ij48ZGl2IGlkPSJvbmV0cnVzdC1ncm91cC1jb250YWluZXIiIGNsYXNzPSJvdC1zZGstdHdlbHZlIG90LXNkay1jb2x1bW5zIj48ZGl2IGlkPSJvbmV0cnVzdC1wb2xpY3kiPjxkaXYgY2xhc3M9ImJhbm5lci1oZWFkZXIiPjxkaXYgY2xhc3M9ImJhbm5lcl9sb2dvIj48L2Rpdj48L2Rpdj48aDIgaWQ9Im9uZXRydXN0LXBvbGljeS10aXRsZSI+VGl0bGU8L2gyPjxkaXYgaWQ9Im9uZXRydXN0LXBvbGljeS10ZXh0Ij50ZXh0PGEgaHJlZj0iIyI+cG9saWN5PC9hPjwvZGl2PjxkaXYgY2xhc3M9Im90LWRwZC1jb250YWluZXIiPjxoMyBjbGFzcz0ib3QtZHBkLXRpdGxlIj48L2gzPjxkaXYgY2xhc3M9Im90LWRwZC1jb250ZW50Ij48cCBjbGFzcz0ib3QtZHBkLWRlc2MiPjwvcD48L2Rpdj48L2Rpdj48L2Rpdj48ZGl2IGlkPSJiYW5uZXItb3B0aW9ucyI+PGRpdiBjbGFzcz0iYmFubmVyLW9wdGlvbiI+PGJ1dHRvbiBhcmlhLWV4cGFuZGVkPSJmYWxzZSIgY2xhc3M9ImJhbm5lci1vcHRpb24taW5wdXQiPjxzcGFuIGNsYXNzPSJiYW5uZXItb3B0aW9uLWhlYWRlciI+PGg0PnRpdGxlPC9oND48c3BhbiBjbGFzcz0ib3QtYXJyb3ctY29udGFpbmVyIj48L3NwYW4+PC9zcGFuPjwvYnV0dG9uPjxkaXYgY2xhc3M9ImJhbm5lci1vcHRpb24tZGV0YWlscyI+dGV4dDwvZGl2PjwvZGl2PjwvZGl2PjwvZGl2PjxkaXYgaWQ9Im9uZXRydXN0LWJ1dHRvbi1ncm91cC1wYXJlbnQiIGNsYXNzPSJvdC1zZGstdHdlbHZlIG90LXNkay1jb2x1bW5zIj48ZGl2IGlkPSJvbmV0cnVzdC1idXR0b24tZ3JvdXAiPjxidXR0b24gaWQ9Im9uZXRydXN0LXBjLWJ0bi1oYW5kbGVyIj5jaG9pY2U8L2J1dHRvbj48ZGl2IGNsYXNzPSJiYW5uZXItYWN0aW9ucy1jb250YWluZXIiPjxidXR0b24gaWQ9Im9uZXRydXN0LXJlamVjdC1hbGwtaGFuZGxlciI+UmVqZWN0IEFsbDwvYnV0dG9uPiA8YnV0dG9uIGlkPSJvbmV0cnVzdC1hY2NlcHQtYnRuLWhhbmRsZXIiPkFjY2VwdDwvYnV0dG9uPjwvZGl2PjwvZGl2PjwvZGl2PjwhLS0gQ2xvc2UgQnV0dG9uIC0tPjxkaXYgaWQ9Im9uZXRydXN0LWNsb3NlLWJ0bi1jb250YWluZXIiPjxidXR0b24gY2xhc3M9Im9uZXRydXN0LWNsb3NlLWJ0bi1oYW5kbGVyIG9uZXRydXN0LWNsb3NlLWJ0bi11aSBiYW5uZXItY2xvc2UtYnV0dG9uIG90LWNsb3NlLWljb24iPjwvYnV0dG9uPjwvZGl2PjwhLS0gQ2xvc2UgQnV0dG9uIEVORC0tPjwvZGl2PjwvZGl2PjwvZGl2Pg==\",\n                \"css\": \"#onetrust-banner-sdk{box-shadow:0 0 18px rgba(0,0,0,.2)}#onetrust-banner-sdk.otCenterRounded{z-index:2147483645;top:10%;position:fixed;right:0;background-color:#fff;width:60%;max-width:650px;border-radius:2.5px;left:1em;margin:0 auto;font-size:14px;max-height:90%;overflow-x:hidden;overflow-y:auto}#onetrust-banner-sdk.otRelFont{font-size:.875rem}#onetrust-banner-sdk::-webkit-scrollbar{width:11px}#onetrust-banner-sdk::-webkit-scrollbar-thumb{border-radius:10px;background:#c1c1c1}#onetrust-banner-sdk{scrollbar-arrow-color:#c1c1c1;scrollbar-darkshadow-color:#c1c1c1;scrollbar-face-color:#c1c1c1;scrollbar-shadow-color:#c1c1c1}#onetrust-banner-sdk h3,#onetrust-banner-sdk p{color:dimgray}#onetrust-banner-sdk #onetrust-policy{margin-top:40px}#onetrust-banner-sdk #onetrust-policy-title{float:left;text-align:left;font-size:1em;line-height:1.4;margin-bottom:0;padding:0 0 10px 30px;width:calc(100% - 90px)}#onetrust-banner-sdk #onetrust-policy-text,#onetrust-banner-sdk .ot-b-addl-desc,#onetrust-banner-sdk .ot-gv-list-handler{clear:both;float:left;margin:0 30px 10px 30px;font-size:.813em;line-height:1.5}#onetrust-banner-sdk #onetrust-policy-text *,#onetrust-banner-sdk .ot-b-addl-desc *,#onetrust-banner-sdk .ot-gv-list-handler *{line-height:inherit;font-size:inherit;margin:0}#onetrust-banner-sdk .ot-optout-signal{margin:0 1.875rem .625rem 1.875rem}#onetrust-banner-sdk .ot-gv-list-handler{padding:0;border:0;height:auto;width:auto}#onetrust-banner-sdk .ot-b-addl-desc{display:block}#onetrust-banner-sdk #onetrust-button-group-parent{padding:15px 30px;text-align:center}#onetrust-banner-sdk #onetrust-button-group-parent:not(.has-reject-all-button) #onetrust-button-group{text-align:right}#onetrust-banner-sdk #onetrust-button-group{text-align:center;display:inline-block;width:100%}#onetrust-banner-sdk #onetrust-button-group.ot-button-order-container{display:flex;flex-wrap:wrap;justify-content:flex-end}#onetrust-banner-sdk #onetrust-button-group.ot-button-order-container *[class*=ot-button-order-]:nth-of-type(1){margin-right:auto !important}#onetrust-banner-sdk #onetrust-button-group.ot-button-order-container *[class*=ot-button-order-]:nth-of-type(2){margin-right:1em !important}#onetrust-banner-sdk #onetrust-button-group.ot-button-order-container *[class*=ot-button-order-]:last-of-type{margin-right:0 !important}#onetrust-banner-sdk #onetrust-reject-all-handler,#onetrust-banner-sdk #onetrust-pc-btn-handler{margin-right:1em}#onetrust-banner-sdk #onetrust-pc-btn-handler{border:1px solid #6cc04a;max-width:45%}#onetrust-banner-sdk .banner-actions-container{float:right;width:50%}#onetrust-banner-sdk #onetrust-pc-btn-handler.cookie-setting-link{background-color:#fff;border:none;color:#6cc04a;text-decoration:underline;padding-left:0;padding-right:0}#onetrust-banner-sdk #onetrust-accept-btn-handler,#onetrust-banner-sdk #onetrust-reject-all-handler,#onetrust-banner-sdk #onetrust-pc-btn-handler{background-color:#6cc04a;color:#fff;border-color:#6cc04a;min-width:135px;padding:12px 10px;letter-spacing:.05em;line-height:1.4;font-size:.813em;font-weight:600;height:auto;white-space:normal;word-break:break-word;word-wrap:break-word}#onetrust-banner-sdk .has-reject-all-button #onetrust-pc-btn-handler{float:left;max-width:calc(40% - 18px)}#onetrust-banner-sdk .has-reject-all-button #onetrust-pc-btn-handler.cookie-setting-link{text-align:left;margin-right:0}#onetrust-banner-sdk .has-reject-all-button .banner-actions-container{max-width:60%;width:auto}#onetrust-banner-sdk .ot-close-icon{width:44px;height:44px;background-size:12px;margin:-18px -18px 0 0;border:none;display:inline-block;padding:0}#onetrust-banner-sdk #onetrust-close-btn-container{position:absolute;right:24px;top:20px}#onetrust-banner-sdk .banner_logo{display:none}#onetrust-banner-sdk.ot-bnr-w-logo #onetrust-policy{margin-top:10px}#onetrust-banner-sdk.ot-bnr-w-logo .ot-bnr-logo{margin:4px 25px}#onetrust-banner-sdk #banner-options{float:left;padding:0 30px;width:calc(100% - 90px)}#onetrust-banner-sdk .banner-option{margin-bottom:10px}#onetrust-banner-sdk .banner-option-input{cursor:pointer;width:au\n…[afkortet]"
+  },
+  {
+   "url": "https://cdn.cookielaw.org/logos/static/ot_guard_logo.svg",
+   "method": "GET",
+   "post": "",
+   "status": 200,
+   "ct": "image/svg+xml",
+   "body": "<svg xmlns=\"http://www.w3.org/2000/svg\"><path class=\"ot-floating-button__svg-fill\" d=\"M14.588 0l.445.328c1.807 1.303 3.961 2.533 6.461 3.688 2.015.93 4.576 1.746 7.682 2.446 0 14.178-4.73 24.133-14.19 29.864l-.398.236C4.863 30.87 0 20.837 0 6.462c3.107-.7 5.668-1.516 7.682-2.446 2.709-1.251 5.01-2.59 6.906-4.016zm5.87 13.88a.75.75 0 00-.974.159l-5.475 6.625-3.005-2.997-.077-.067a.75.75 0 00-.983 1.13l4.172 4.16 6.525-7.895.06-.083a.75.75 0 00-.16-.973z\" fill=\"#FFF\" fill-rule=\"evenodd\"/></svg>"
+  },
+  {
+   "url": "https://www.barclays-arena.de/events/events_ajax/12?category=0&venue=0&team=0&exclude=&per_page=12&came_from_page=event-list-page",
+   "method": "GET",
+   "post": "",
+   "status": 200,
+   "ct": "text/html; charset=UTF-8",
+   "body": "\"<div class=\\\"eventItem entry   clearfix\\\">\\n\\t\\t\\t\\t<a href=\\\"https:\\/\\/www.barclays-arena.de\\/events\\/chris-tall\\\" title=\\\"Mehr Informationen zu Chris Tall\\\" tabindex=\\\"-1\\\" class=\\\"event_item_link\\\">Chris Tall<\\/a>\\t\\n\\t\\t\\t<div class=\\\"thumb\\\">\\n\\t\\t<span><img src=\\\"https:\\/\\/www.barclays-arena.de\\/assets\\/img\\/261113_Chris_Tall_Thumbnail-ed9cb789a8.jpg\\\" alt=\\\"Mehr Informationen zu Chris Tall\\\"\\/><\\/span>\\t\\t\\n<\\/div>\\t\\t<div class=\\\"info clearfix\\\">\\n\\t\\t\\t<div class=\\\"date\\\">\\n\\t<span class=\\\"m-date__rangeFirst\\\"><span class=\\\"m-date__day\\\">13.<\\/span><\\/span><span class=\\\"m-date__separator\\\"> - <\\/span><span class=\\\"m-date__rangeLast\\\"><span class=\\\"m-date__day\\\">14.<\\/span><span class=\\\"m-date__month\\\">11.<\\/span><span class=\\\"m-date__year\\\">2026<\\/span><\\/span>\\t<\\/div>\\n\\t\\n\\t<h3 class=\\\"title  \\\">\\n\\t\\t<span>Chris Tall<\\/span>\\t<\\/h3>\\n\\t\\n<div class=\\\"spacer\\\"><\\/div>\\n<div class=\\\"buttons\\\">\\n\\t<span class=\\\"tickets no_availability  no_ticket_link\\\" title=\\\"Kaufe Tickets f&uuml;r Chris Tall \\\"><svg aria-hidden=\\\"true\\\" xmlns=\\\"http:\\/\\/www.w3.org\\/2000\\/svg\\\" width=\\\"32\\\" height=\\\"18\\\" viewBox=\\\"0 0 32 18\\\"><path d=\\\"M3422,696l-0.06-4.867h0a4.136,4.136,0,0,1-4.06-4.295,4.286,4.286,0,0,1,4.08-4.4h0.01l0.01-4.431L3412,678v18h10Zm-32-18,0.04,4.877a4.135,4.135,0,0,1,4.06,4.3,4.3,4.3,0,0,1-4.09,4.4L3390,696l20,0V678h-20Z\\\" transform=\\\"translate(-3390 -678)\\\"\\/><\\/svg>Tickets kaufen<\\/span><span>Infos &amp; Tickets<\\/span><\\/div>\\t\\t<\\/div>\\n\\t<\\/div>\\n<div class=\\\"eventItem entry alt   clearfix\\\">\\n\\t\\t\\t\\t<a href=\\\"https:\\/\\/www.barclays-arena.de\\/events\\/westlife\\\" title=\\\"Mehr Informationen zu Westlife\\\" tabindex=\\\"-1\\\" class=\\\"event_item_link\\\">Westlife<\\/a>\\t\\n\\t\\t\\t<div class=\\\"thumb\\\">\\n\\t\\t<span><img src=\\\"https:\\/\\/www.barclays-arena.de\\/assets\\/img\\/261117_Westlife_Thumbnail-709b77c059.jpg\\\" alt=\\\"Mehr Informationen zu Westlife\\\"\\/><\\/span>\\t\\t\\n<\\/div>\\t\\t<div class=\\\"info clearfix\\\">\\n\\t\\t\\t<div class=\\\"date\\\">\\n\\t<span class=\\\"m-date__singleDate\\\"><span class=\\\"m-date__weekday\\\">Dienstag | <\\/span><span class=\\\"m-date__day\\\">17.<\\/span><span class=\\\"m-date__month\\\">11.<\\/span><span class=\\\"m-date__year\\\">2026<\\/span><\\/span>\\t<\\/div>\\n\\t\\n\\t<h3 class=\\\"title title-withTagline \\\">\\n\\t\\t<span>Westlife<\\/span>\\t<\\/h3>\\n\\t\\t\\t<h4 class=\\\"tagline\\\">\\n            25: The Anniversary World Tour\\t\\t<\\/h4>\\n    \\n<div class=\\\"spacer\\\"><\\/div>\\n<div class=\\\"buttons\\\">\\n\\t<span class=\\\"tickets no_availability  no_ticket_link\\\" title=\\\"Kaufe Tickets f&uuml;r Westlife \\\"><svg aria-hidden=\\\"true\\\" xmlns=\\\"http:\\/\\/www.w3.org\\/2000\\/svg\\\" width=\\\"32\\\" height=\\\"18\\\" viewBox=\\\"0 0 32 18\\\"><path d=\\\"M3422,696l-0.06-4.867h0a4.136,4.136,0,0,1-4.06-4.295,4.286,4.286,0,0,1,4.08-4.4h0.01l0.01-4.431L3412,678v18h10Zm-32-18,0.04,4.877a4.135,4.135,0,0,1,4.06,4.3,4.3,4.3,0,0,1-4.09,4.4L3390,696l20,0V678h-20Z\\\" transform=\\\"translate(-3390 -678)\\\"\\/><\\/svg>Tickets kaufen<\\/span><span>Infos &amp; Tickets<\\/span><\\/div>\\t\\t<\\/div>\\n\\t<\\/div>\\n<div class=\\\"eventItem entry   clearfix\\\">\\n\\t\\t\\t\\t<a href=\\\"https:\\/\\/www.barclays-arena.de\\/events\\/papa-roach\\\" title=\\\"Mehr Informationen zu Papa Roach\\\" tabindex=\\\"-1\\\" class=\\\"event_item_link\\\">Papa Roach<\\/a>\\t\\n\\t\\t\\t<div class=\\\"thumb\\\">\\n\\t\\t<span><img src=\\\"https:\\/\\/www.barclays-arena.de\\/assets\\/img\\/papa-roach-rise-of-the-roach-tour-2026_Thumbnail-7df59cbc08.jpg\\\" alt=\\\"Mehr Informationen zu Papa Roach\\\"\\/><\\/span>\\t\\t\\n<\\/div>\\t\\t<div class=\\\"info clearfix\\\">\\n\\t\\t\\t<div class=\\\"date\\\">\\n\\t<span class=\\\"m-date__singleDate\\\"><span class=\\\"m-date__weekday\\\">Freitag | <\\/span><span class=\\\"m-date__day\\\">20.<\\/span><span class=\\\"m-date__month\\\">11.<\\/span><span class=\\\"m-date__year\\\">2026<\\/span><\\/span>\\t<\\/div>\\n\\t\\n\\t<h3 class=\\\"title title-withTagline \\\">\\n\\t\\t<span>Papa Roach<\\/span>\\t<\\/h3>\\n\\t\\t\\t<h4 class=\\\"tagline\\\">\\n            Rise of the Roach Tour 2026\\t\\t<\\/h4>\\n    \\n<div class=\\\"spacer\\\"><\\/div>\\n<div class=\\\"buttons\\\">\\n\\t<span class=\\\"tickets no_availability  no_ticket_link\\\" title=\\\"Kaufe Tickets f&uuml;r Papa Roach \\\"><svg aria-hidden=\\\"true\\\" xmlns=\\\"http:\\/\\/www.w3.org\\/2000\\/svg\\\" width=\\\"32\\\" height=\\\"18\\\" viewBox=\\\"0 0 32 18\\\"><path d=\\\"M3422,696l-0.06-4.867h0a4.136,4.136,0,0,1-4.06-4.295,4.286,4.286,0,0,1,4.08-4.4h0.01l0.01-4.431L3412,678v18h10Zm-32-18,0.04,4.877a4.135,4.135,0,0,1,4.06,4.3,4.3,4.3,0,0,1-4.09,4.4L3390,696l20,0V678h-20Z\\\" transform=\\\"translate(-3390 -678)\\\"\\/><\\/svg>Tickets kaufen<\\/span><span>Infos &amp; Tickets<\\/span><\\/div>\\t\\t<\\/div>\\n\\t<\\/div>\\n<div class=\\\"eventItem entry alt   clearfix\\\">\\n\\t\\t\\t\\t<a href=\\\"https:\\/\\/www.barclays-arena.de\\/events\\/we-love-mma\\\" title=\\\"Mehr Informationen zu We Love MMA 91\\\" tabindex=\\\"-1\\\" class=\\\"event_item_link\\\">We Love MMA 91<\\/a>\\t\\n\\t\\t\\t<div class=\\\"thumb\\\">\\n\\t\\t<span><img src=\\\"https:\\/\\/www.barclays-arena.de\\/assets\\/img\\/welovemma_Thumbnail-2c7b636d06.jpg\\\" alt=\\\"Mehr Informationen zu We Love MMA 91\\\"\\/><\\/span>\\t\\t\\n<\\/div>\\t\\t<div class=\\\"info clearfix\\\">\\n\\t\\t\\t<div class=\\\"date\\\">\\n\\t<span class=\\\"m-date__singleDate\\\"><span class=\\\"m-date__weekday\\\">Samstag | <\\/span><span class=\\\"m-date__day\\\">21.<\\/span><span class=\\\"m-date__month\\\">11.<\\/span><span class=\\\"m-date__year\\\">2026<\\/span><\\/span>\\t<\\/div>\\n\\t\\n\\t<h3 class=\\\"title  \\\">\\n\\t\\t<span>We Love MMA 91<\\/span>\\t<\\/h3>\\n\\t\\n<div class=\\\"spacer\\\"><\\/div>\\n<div class=\\\"buttons\\\">\\n\\t<span class=\\\"tickets no_availability  no_ticket_link\\\" title=\\\"Kaufe Tickets f&uuml;r We Love MMA 91 \\\"><svg aria-hidden=\\\"true\\\" xmlns=\\\"http:\\/\\/www.w3.org\\/2000\\/svg\\\" width=\\\"32\\\" height=\\\"18\\\" viewBox=\\\"0 0 32 18\\\"><path d=\\\"M3422,696l-0.06-4.867h0a4.136,4.136,0,0,1-4.06-4.295,4.286,4.286,0,0,1,4.08-4.4h0.01l0.01-4.431L3412,678v18h10Zm-32-18,0.04,4.877a4.135,4.135,0,0,1,4.06,4.3,4.3,4.3,0,0,1-4.09,4.4L3390,696l20,0V678h-20Z\\\" transform=\\\"translate(-3390 -678)\\\"\\/><\\/svg>Tickets kaufen<\\/span><span>Infos &amp; Tickets<\\/span><\\/div>\\t\\t<\\/div>\\n\\t<\\/div>\\n<div class=\\\"eventItem entry featured premium-seat  clearfi\n…[afkortet]"
+  }
+ ],
+ "links": [
+  {
+   "h": "https://www.barclays-arena.de/events#content",
+   "t": "Zur Startseite"
+  },
+  {
+   "h": "https://www.barclays-arena.de/besuch-planen/barrierefreiheit",
+   "t": "Barrierefreiheit"
+  },
+  {
+   "h": "https://www.barclays-arena.de/events",
+   "t": "Events"
+  },
+  {
+   "h": "https://www.barclays-arena.de/search",
+   "t": "Suche"
+  },
+  {
+   "h": "https://www.barclays-arena.de/events#",
+   "t": "×"
+  },
+  {
+   "h": "market://details?id=com.livestyled.barclaycardarena",
+   "t": "ÖFFNEN"
+  },
+  {
+   "h": "https://www.barclays-arena.de/kontakt/newsletter-anmeldung",
+   "t": "Newsletter"
+  },
+  {
+   "h": "https://www.barclays-arena.de/events/ticketinfos",
+   "t": "Tickets 040 - 80 60 20 80"
+  },
+  {
+   "h": "https://www.barclays-arena.de/",
+   "t": "Barclays Arena"
+  },
+  {
+   "h": "https://www.barclays-arena.de/events",
+   "t": "Events und Tickets"
+  },
+  {
+   "h": "https://www.barclays-arena.de/events",
+   "t": "Alle Events"
+  },
+  {
+   "h": "https://www.barclays-arena.de/events/axs-offizieller-ticketpartner-der-barclays-arena",
+   "t": "AXS - offizieller Ticketpartner"
+  },
+  {
+   "h": "https://www.barclays-arena.de/events/ticketinfos",
+   "t": "Ticketinfos"
+  },
+  {
+   "h": "https://www.barclays-arena.de/premium/vip-tickets",
+   "t": "Premium Tickets"
+  },
+  {
+   "h": "https://www.barclays-arena.de/events/parktickets",
+   "t": "Parktickets"
+  },
+  {
+   "h": "https://www.barclays-arena.de/events/hall-of-fame",
+   "t": "Hall of Fame"
+  },
+  {
+   "h": "https://www.barclays-arena.de/events/parktickets-volksparkstadion",
+   "t": "Parktickets Volksparkstadion"
+  },
+  {
+   "h": "https://www.barclays-arena.de/premium/vip-tickets",
+   "t": "Premium Tickets"
+  },
+  {
+   "h": "https://www.barclays-arena.de/premium/vip-tickets",
+   "t": "Premium Tickets"
+  },
+  {
+   "h": "https://www.barclays-arena.de/premium/vip-tickets/premium-ticket-seat-only",
+   "t": "Premium Ticket - Seat Only"
+  },
+  {
+   "h": "https://www.barclays-arena.de/premium/vip-tickets/premium-angebote-skyloft",
+   "t": "Premium Angebote Captain's Skyloft"
+  },
+  {
+   "h": "https://www.barclays-arena.de/premium/vip-tickets/premium-paket-club",
+   "t": "Premium Paket Club"
+  },
+  {
+   "h": "https://www.barclays-arena.de/premium/vip-tickets/premium-paket-platinum",
+   "t": "Premium Paket Platinum"
+  },
+  {
+   "h": "https://www.barclays-arena.de/premium/vip-tickets/premium-paket-loge",
+   "t": "Premium Paket Loge"
+  },
+  {
+   "h": "https://www.barclays-arena.de/business-und-hospitality/eventlogen",
+   "t": "Eventlogen"
+  },
+  {
+   "h": "https://www.barclays-arena.de/premium/aeg-premium",
+   "t": "Was ist AEG Premium"
+  },
+  {
+   "h": "https://www.barclays-arena.de/besuch-planen",
+   "t": "Besuch planen"
+  },
+  {
+   "h": "https://www.barclays-arena.de/besuch-planen/allgemeine-hinweise-infos-von-a-z",
+   "t": "Allgemeine Hinweise & Infos von A-Z"
+  },
+  {
+   "h": "https://www.barclays-arena.de/besuch-planen/anreise",
+   "t": "Anreise"
+  },
+  {
+   "h": "https://www.barclays-arena.de/besuch-planen/anreise/aktuelle-verkehrshinweise",
+   "t": "Aktuelle Verkehrshinweise"
+  },
+  {
+   "h": "https://www.barclays-arena.de/besuch-planen/anreise/anfahrt-pkw",
+   "t": "Anfahrt PKW"
+  },
+  {
+   "h": "https://www.barclays-arena.de/besuch-planen/anreise/parken",
+   "t": "Parken"
+  },
+  {
+   "h": "https://www.barclays-arena.de/besuch-planen/anreise/nahverkehr",
+   "t": "Nahverkehr"
+  },
+  {
+   "h": "https://www.barclays-arena.de/besuch-planen/anreise/fahrrad",
+   "t": "Fahrrad"
+  },
+  {
+   "h": "https://www.barclays-arena.de/besuch-planen/anreise/mobilitaetsangebote",
+   "t": "Mobilitätsangebote"
+  },
+  {
+   "h": "https://www.barclays-arena.de/besuch-planen/einlass-sicherheit",
+   "t": "Einlass & Sicherheit"
+  },
+  {
+   "h": "https://www.barclays-arena.de/besuch-planen/barrierefreiheit",
+   "t": "Barrierefreiheit"
+  },
+  {
+   "h": "https://www.barclays-arena.de/besuch-planen/saalplaene",
+   "t": "Saalpläne"
+  },
+  {
+   "h": "https://www.barclays-arena.de/besuch-planen/virtuelle-tour",
+   "t": "Virtuelle Tour"
+  },
+  {
+   "h": "https://www.barclays-arena.de/besuch-planen/essen-trinken",
+   "t": "Essen & Trinken"
+  },
+  {
+   "h": "https://www.barclays-arena.de/besuch-planen/hotel",
+   "t": "Hotel"
+  },
+  {
+   "h": "https://www.barclays-arena.de/besuch-planen/awareness",
+   "t": "Awareness"
+  },
+  {
+   "h": "https://www.barclays-arena.de/business-und-hospitality",
+   "t": "Business und Hospitality"
+  },
+  {
+   "h": "https://www.barclays-arena.de/business-und-hospitality/eventlogen",
+   "t": "Eventlogen"
+  },
+  {
+   "h": "https://www.barclays-arena.de/business-und-hospitality/business-pakete",
+   "t": "Business Pakete"
+  },
+  {
+   "h": "https://www.barclays-arena.de/business-und-hospitality/logenpakete",
+   "t": "Logenpakete"
+  },
+  {
+   "h": "https://www.barclays-arena.de/business-und-hospitality/hospitality-bereiche",
+   "t": "Hospitality Bereiche"
+  },
+  {
+   "h": "https://www.barclays-arena.de/business-und-hospitality/hospitality-bereiche/platinum",
+   "t": "Platinum"
+  },
+  {
+   "h": "https://www.barclays-arena.de/business-und-hospitality/hospitality-bereiche/premium-lounge",
+   "t": "Premium Lounge"
+  },
+  {
+   "h": "https://www.barclays-arena.de/business-und-hospitality/hospitality-bereiche/premium-club",
+   "t": "Premium Club"
+  },
+  {
+   "h": "https://www.barclays-arena.de/business-und-hospitality/hospitality-bereiche/skyloft",
+   "t": "Captain's Skyloft"
+  },
+  {
+   "h": "https://www.barclays-arena.de/business-und-hospitality/sponsoring",
+   "t": "Sponsoring"
+  },
+  {
+   "h": "https://www.barclays-arena.de/business-und-hospitality/partner-line-up",
+   "t": "Partner Line-Up"
+  },
+  {
+   "h": "https://www.barclays-arena.de/business-und-hospitality/firmenveranstaltungen-mice",
+   "t": "Firmenveranstaltungen & MICE"
+  },
+  {
+   "h": "https://www.barclays-arena.de/arena",
+   "t": "Arena"
+  },
+  {
+   "h": "https://www.barclays-arena.de/arena/ueber-uns",
+   "t": "Über uns"
+  },
+  {
+   "h": "https://www.barclays-arena.de/arena/faq-barclays-arena",
+   "t": "Arena FAQ"
+  },
+  {
+   "h": "https://www.barclays-arena.de/besuch-planen/barrierefreiheit",
+   "t": "Barrierefreiheit"
+  },
+  {
+   "h": "https://www.barclays-arena.de/arena/services-plaene",
+   "t": "Services & Pläne"
+  },
+  {
+   "h": "https://www.barclays-arena.de/arena/nachhaltigkeit-engagement",
+   "t": "Nachhaltigkeit & Engagement"
+  },
+  {
+   "h": "https://www.barclays-arena.de/arena/nachhaltigkeit-engagement/mehrwegbecher-und-spuelstrasse",
+   "t": "Mehrwegbecher und Spülstraße"
+  },
+  {
+   "h": "https://www.barclays-arena.de/arena/nachhaltigkeit-engagement/nachhaltigkeit-und-ressourcenschonung",
+   "t": "Nachhaltigkeit und Ressourcenschonung"
+  },
+  {
+   "h": "https://www.barclays-arena.de/arena/nachhaltigkeit-engagement/anschutz-hamburg-hilft-ev",
+   "t": "Anschutz Hamburg Hilft e.V."
+  },
+  {
+   "h": "https://www.barclays-arena.de/arena/rechtliches-datenschutz",
+   "t": "Rechtliches & Datenschutz"
+  },
+  {
+   "h": "https://www.barclays-arena.de/arena/rechtliches-datenschutz/datenschutz",
+   "t": "Hinweise zum Datenschutz"
+  },
+  {
+   "h": "https://www.barclays-arena.de/arena/rechtliches-datenschutz/hausordnung",
+   "t": "Hausordnung"
+  },
+  {
+   "h": "https://www.barclays-arena.de/arena/rechtliches-datenschutz/jugendschutz",
+   "t": "Jugendschutz"
+  },
+  {
+   "h": "https://www.barclays-arena.de/arena/rechtliches-datenschutz/agb-premium-tickets-logen",
+   "t": "AGB Premium Tickets & Logen"
+  },
+  {
+   "h": "https://www.barclays-arena.de/arena/rechtliches-datenschutz/teilnahmebedingungen-fuer-social-media-gewinnspiele",
+   "t": "Teilnahmebedingungen für Social Media-Gewinnspiele"
+  },
+  {
+   "h": "https://www.barclays-arena.de/arena/rechtliches-datenschutz/teilnahmebedingungen-fuer-gewinnspiele",
+   "t": "Teilnahmebedingungen für Gewinnspiele"
+  },
+  {
+   "h": "https://www.barclays-arena.de/arena/barclays-arena-team",
+   "t": "Barclays Arena Team"
+  },
+  {
+   "h": "https://www.barclays-arena.de/arena/infos-fuer-veranstalter",
+   "t": "Infos für Veranstalter"
+  },
+  {
+   "h": "https://www.barclays-arena.de/besuch-planen/awareness",
+   "t": "Awareness"
+  },
+  {
+   "h": "https://www.barclays-arena.de/kontakt",
+   "t": "Kontakt"
+  },
+  {
+   "h": "https://www.barclays-arena.de/kontakt/kontaktformular",
+   "t": "Kontaktformular"
+  },
+  {
+   "h": "https://www.barclays-arena.de/kontakt/besucherumfrage",
+   "t": "Besucherumfrage"
+  },
+  {
+   "h": "https://www.barclays-arena.de/kontakt/presse",
+   "t": "Presse"
+  },
+  {
+   "h": "https://www.barclays-arena.de/kontakt/newsletter-anmeldung",
+   "t": "Newsletter Barclays Arena"
+  },
+  {
+   "h": "https://www.barclays-arena.de/news",
+   "t": "News"
+  },
+  {
+   "h": "https://www.barclays-arena.de/kontakt/die-barclays-arena-auf-facebook-twitter-und-instagram",
+   "t": "Social Media"
+  },
+  {
+   "h": "https://www.barclays-arena.de/kontakt/jobs",
+   "t": "Jobs"
+  },
+  {
+   "h": "https://www.barclays-arena.de/kontakt/jobs/offene-stelle-intership-gloabl-partnerships",
+   "t": "Jobangebot: Internship - Global Partnerships"
+  },
+  {
+   "h": "https://www.barclays-arena.de/kontakt/impressum",
+   "t": "Impressum"
+  },
+  {
+   "h": "https://www.barclays-arena.de/kontakt/newsletter-anmeldung",
+   "t": "Newsletter"
+  },
+  {
+   "h": "https://www.barclays-arena.de/events/ticketinfos",
+   "t": "Tickets 040 - 80 60 20 80"
+  },
+  {
+   "h": "https://www.barclays-arena.de/",
+   "t": "Home"
+  },
+  {
+   "h": "https://www.barclays-arena.de/events/chris-norman",
+   "t": "Chris Norman"
+  },
+  {
+   "h": "https://www.barclays-arena.de/events/nico-santos",
+   "t": "Nico Santos"
+  },
+  {
+   "h": "https://www.barclays-arena.de/events/the-world-of-hans-zimmer",
+   "t": "The World of Hans Zimmer"
+  },
+  {
+   "h": "https://www.barclays-arena.de/events/das-ist-wahnsinn-das-musical",
+   "t": "Wahnsinn!"
+  },
+  {
+   "h": "https://www.barclays-arena.de/events/tokio-hotel",
+   "t": "Tokio Hotel"
+  },
+  {
+   "h": "https://www.barclays-arena.de/events/disney-in-concert/04-11-2026-1930",
+   "t": "Disney in Concert"
+  },
+  {
+   "h": "https://www.barclays-arena.de/events/jungle",
+   "t": "Jungle"
+  },
+  {
+   "h": "https://www.barclays-arena.de/events/don-toliver",
+   "t": "Don Toliver"
+  },
+  {
+   "h": "https://www.barclays-arena.de/events/laura-larsson",
+   "t": "Laura Larsson"
+  },
+  {
+   "h": "https://www.barclays-arena.de/events/j-cole",
+   "t": "J. Cole"
+  },
+  {
+   "h": "https://www.barclays-arena.de/events/korn",
+   "t": "koRn"
+  },
+  {
+   "h": "https://www.barclays-arena.de/events/interpol---bloc-party",
+   "t": "Interpol & Bloc Party"
+  },
+  {
+   "h": "https://www.barclays-arena.de/premium/vip-tickets",
+   "t": "BESTER SERVICE, BESTE EMOTIONEN, BESTE PLÄTZE AEG PREMIUM Mehr erfahren"
+  },
+  {
+   "h": "https://www.barclays-arena.de/events/chris-tall",
+   "t": "Chris Tall"
+  },
+  {
+   "h": "https://www.barclays-arena.de/events/westlife",
+   "t": "Westlife"
+  },
+  {
+   "h": "https://www.barclays-arena.de/events/papa-roach",
+   "t": "Papa Roach"
+  },
+  {
+   "h": "https://www.barclays-arena.de/events/we-love-mma",
+   "t": "We Love MMA 91"
+  },
+  {
+   "h": "https://www.barclays-arena.de/events/handball-club-hamburg/22-11-2026-1700",
+   "t": "HCH vs. SC Magdeburg"
+  },
+  {
+   "h": "https://www.barclays-arena.de/events/united-for-children",
+   "t": "United for Children"
+  },
+  {
+   "h": "https://www.barclays-arena.de/events/rin",
+   "t": "RIN"
+  },
+  {
+   "h": "https://www.barclays-arena.de/events/bap",
+   "t": "BAP"
+  },
+  {
+   "h": "https://www.barclays-arena.de/events/ehrlich-brothers/29-11-2026-1600",
+   "t": "Ehrlich Brothers"
+  },
+  {
+   "h": "https://www.barclays-arena.de/events/die-besten-comedians-deutschlands",
+   "t": "Die besten Comedians Deutschlands"
+  },
+  {
+   "h": "https://www.barclays-arena.de/events/lets-dance",
+   "t": "Let's Dance"
+  },
+  {
+   "h": "https://www.barclays-arena.de/events/pur",
+   "t": "PUR"
+  },
+  {
+   "h": "https://www.barclays-arena.de/events/searchbydate/all/2026-10/2026-10",
+   "t": "View all events for Oktober 2026"
+  },
+  {
+   "h": "https://www.barclays-arena.de/events/dikka",
+   "t": "DIKKA"
+  },
+  {
+   "h": "https://www.barclays-arena.de/events/matthias-reim",
+   "t": "Matthias Reim"
+  },
+  {
+   "h": "https://www.barclays-arena.de/events/die-deutschen-podcast",
+   "t": "Nizar & Shayan"
+  },
+  {
+   "h": "https://www.barclays-arena.de/events/duran-duran",
+   "t": "Duran Duran"
+  },
+  {
+   "h": "https://www.barclays-arena.de/events/synthony",
+   "t": "SYNTHONY"
+  },
+  {
+   "h": "https://www.barclays-arena.de/events/niall-horan",
+   "t": "Niall Horan"
+  },
+  {
+   "h": "https://www.barclays-arena.de/events/bryan-adams",
+   "t": "Bryan Adams"
+  },
+  {
+   "h": "https://www.barclays-arena.de/events/90s-super-show",
+   "t": "90s Super Show"
+  },
+  {
+   "h": "https://www.barclays-arena.de/events/apache-207",
+   "t": "Apache 207"
+  },
+  {
+   "h": "https://www.barclays-arena.de/events/apache-207",
+   "t": "Apache 207"
+  },
+  {
+   "h": "https://www.barclays-arena.de/events/job-und-weiterbildungsmesse",
+   "t": "Job-, Aus- und Weiterbildungsmesse"
+  },
+  {
+   "h": "https://www.barclays-arena.de/events/k-pop-forever",
+   "t": "K-Pop Forever!"
+  },
+  {
+   "h": "https://www.barclays-arena.de/events/felix-lobrecht",
+   "t": "Felix Lobrecht"
+  },
+  {
+   "h": "https://www.barclays-arena.de/events/felix-lobrecht",
+   "t": "Felix Lobrecht"
+  },
+  {
+   "h": "https://www.barclays-arena.de/events/beatrice-egli",
+   "t": "Beatrice Egli"
+  },
+  {
+   "h": "https://www.barclays-arena.de/events/placebo",
+   "t": "Placebo"
+  },
+  {
+   "h": "https://www.barclays-arena.de/events/chris-norman",
+   "t": "Chris Norman"
+  },
+  {
+   "h": "https://www.barclays-arena.de/events/nico-santos",
+   "t": "Nico Santos"
+  },
+  {
+   "h": "https://www.barclays-arena.de/events/the-world-of-hans-zimmer",
+   "t": "The World of Hans Zimmer"
+  },
+  {
+   "h": "https://www.barclays-arena.de/events/das-ist-wahnsinn-das-musical",
+   "t": "Wahnsinn!"
+  },
+  {
+   "h": "tel:04080602080",
+   "t": "040 – 80 60 20 80"
+  },
+  {
+   "h": "https://www.barclays-arena.de/events",
+   "t": "Events und Tickets"
+  },
+  {
+   "h": "https://www.barclays-arena.de/events",
+   "t": "Alle Events"
+  },
+  {
+   "h": "https://www.barclays-arena.de/events/axs-offizieller-ticketpartner-der-barclays-arena",
+   "t": "AXS - offizieller Ticketpartner"
+  },
+  {
+   "h": "https://www.barclays-arena.de/events/ticketinfos",
+   "t": "Ticketinfos"
+  },
+  {
+   "h": "https://www.barclays-arena.de/premium/vip-tickets",
+   "t": "Premium Tickets"
+  },
+  {
+   "h": "https://www.barclays-arena.de/events/parktickets",
+   "t": "Parktickets"
+  },
+  {
+   "h": "https://www.barclays-arena.de/events/hall-of-fame",
+   "t": "Hall of Fame"
+  },
+  {
+   "h": "https://www.barclays-arena.de/events/parktickets-volksparkstadion",
+   "t": "Parktickets Volksparkstadion"
+  },
+  {
+   "h": "https://www.barclays-arena.de/premium/vip-tickets",
+   "t": "Premium Tickets"
+  },
+  {
+   "h": "https://www.barclays-arena.de/premium/vip-tickets",
+   "t": "Premium Tickets"
+  },
+  {
+   "h": "https://www.barclays-arena.de/business-und-hospitality/eventlogen",
+   "t": "Eventlogen"
+  },
+  {
+   "h": "https://www.barclays-arena.de/premium/aeg-premium",
+   "t": "Was ist AEG Premium"
+  },
+  {
+   "h": "https://www.barclays-arena.de/besuch-planen",
+   "t": "Besuch planen"
+  },
+  {
+   "h": "https://www.barclays-arena.de/besuch-planen/allgemeine-hinweise-infos-von-a-z",
+   "t": "Allgemeine Hinweise & Infos von A-Z"
+  },
+  {
+   "h": "https://www.barclays-arena.de/besuch-planen/anreise",
+   "t": "Anreise"
+  },
+  {
+   "h": "https://www.barclays-arena.de/besuch-planen/einlass-sicherheit",
+   "t": "Einlass & Sicherheit"
+  },
+  {
+   "h": "https://www.barclays-arena.de/besuch-planen/barrierefreiheit",
+   "t": "Barrierefreiheit"
+  },
+  {
+   "h": "https://www.barclays-arena.de/besuch-planen/saalplaene",
+   "t": "Saalpläne"
+  },
+  {
+   "h": "https://www.barclays-arena.de/besuch-planen/virtuelle-tour",
+   "t": "Virtuelle Tour"
+  },
+  {
+   "h": "https://www.barclays-arena.de/besuch-planen/essen-trinken",
+   "t": "Essen & Trinken"
+  },
+  {
+   "h": "https://www.barclays-arena.de/besuch-planen/hotel",
+   "t": "Hotel"
+  },
+  {
+   "h": "https://www.barclays-arena.de/besuch-planen/awareness",
+   "t": "Awareness"
+  },
+  {
+   "h": "https://www.barclays-arena.de/business-und-hospitality",
+   "t": "Business und Hospitality"
+  },
+  {
+   "h": "https://www.barclays-arena.de/business-und-hospitality/eventlogen",
+   "t": "Eventlogen"
+  },
+  {
+   "h": "https://www.barclays-arena.de/business-und-hospitality/business-pakete",
+   "t": "Business Pakete"
+  },
+  {
+   "h": "https://www.barclays-arena.de/business-und-hospitality/logenpakete",
+   "t": "Logenpakete"
+  },
+  {
+   "h": "https://www.barclays-arena.de/business-und-hospitality/hospitality-bereiche",
+   "t": "Hospitality Bereiche"
+  },
+  {
+   "h": "https://www.barclays-arena.de/business-und-hospitality/sponsoring",
+   "t": "Sponsoring"
+  },
+  {
+   "h": "https://www.barclays-arena.de/business-und-hospitality/partner-line-up",
+   "t": "Partner Line-Up"
+  },
+  {
+   "h": "https://www.barclays-arena.de/business-und-hospitality/firmenveranstaltungen-mice",
+   "t": "Firmenveranstaltungen & MICE"
+  },
+  {
+   "h": "https://www.barclays-arena.de/arena",
+   "t": "Arena"
+  },
+  {
+   "h": "https://www.barclays-arena.de/arena/ueber-uns",
+   "t": "Über uns"
+  },
+  {
+   "h": "https://www.barclays-arena.de/arena/faq-barclays-arena",
+   "t": "Arena FAQ"
+  },
+  {
+   "h": "https://www.barclays-arena.de/besuch-planen/barrierefreiheit",
+   "t": "Barrierefreiheit"
+  },
+  {
+   "h": "https://www.barclays-arena.de/arena/services-plaene",
+   "t": "Services & Pläne"
+  },
+  {
+   "h": "https://www.barclays-arena.de/arena/nachhaltigkeit-engagement",
+   "t": "Nachhaltigkeit & Engagement"
+  },
+  {
+   "h": "https://www.barclays-arena.de/arena/rechtliches-datenschutz",
+   "t": "Rechtliches & Datenschutz"
+  },
+  {
+   "h": "https://www.barclays-arena.de/arena/barclays-arena-team",
+   "t": "Barclays Arena Team"
+  },
+  {
+   "h": "https://www.barclays-arena.de/arena/infos-fuer-veranstalter",
+   "t": "Infos für Veranstalter"
+  },
+  {
+   "h": "https://www.barclays-arena.de/besuch-planen/awareness",
+   "t": "Awareness"
+  },
+  {
+   "h": "https://www.barclays-arena.de/kontakt",
+   "t": "Kontakt"
+  },
+  {
+   "h": "https://www.barclays-arena.de/kontakt/kontaktformular",
+   "t": "Kontaktformular"
+  },
+  {
+   "h": "https://www.barclays-arena.de/kontakt/besucherumfrage",
+   "t": "Besucherumfrage"
+  },
+  {
+   "h": "https://www.barclays-arena.de/kontakt/presse",
+   "t": "Presse"
+  },
+  {
+   "h": "https://www.barclays-arena.de/kontakt/newsletter-anmeldung",
+   "t": "Newsletter Barclays Arena"
+  },
+  {
+   "h": "https://www.barclays-arena.de/news",
+   "t": "News"
+  },
+  {
+   "h": "https://www.barclays-arena.de/kontakt/die-barclays-arena-auf-facebook-twitter-und-instagram",
+   "t": "Social Media"
+  },
+  {
+   "h": "https://www.barclays-arena.de/kontakt/jobs",
+   "t": "Jobs"
+  },
+  {
+   "h": "https://www.barclays-arena.de/kontakt/impressum",
+   "t": "Impressum"
+  },
+  {
+   "h": "https://www.aegworldwide.com/",
+   "t": "www.aegworldwide.com"
+  },
+  {
+   "h": "https://www.barclays-arena.de/sitemap",
+   "t": "Sitemap"
+  },
+  {
+   "h": "https://www.barclays-arena.de/kontakt/impressum",
+   "t": "Impressum"
+  },
+  {
+   "h": "https://www.barclays-arena.de/arena/rechtliches-datenschutz/datenschutz",
+   "t": "Datenschutzbestimmungen"
+  },
+  {
+   "h": "https://www.barclays-arena.de/besuch-planen/barrierefreiheit",
+   "t": "Barrierefreiheit"
+  },
+  {
+   "h": "https://www.barclays-arena.de/events#",
+   "t": "English"
+  },
+  {
+   "h": "https://www.barclays-arena.de/events",
+   "t": "View Previous"
+  },
+  {
+   "h": "https://www.barclays-arena.de/events",
+   "t": "View Next"
+  },
+  {
+   "h": "https://www.barclays-arena.de/besucherinfos/rechtliche-hinweise/datenschutz",
+   "t": "Datenschutz"
+  },
+  {
+   "h": "https://www.barclays-arena.de/kontakt/impressum",
+   "t": "Impressum"
+  },
+  {
+   "h": "https://business.safety.google/privacy/",
+   "t": "https://business.safety.google/privacy/"
+  }
+ ]
+}

@@ -1,0 +1,862 @@
+{
+ "url": "https://amagerbio.dk/",
+ "status": 200,
+ "err": "",
+ "finalUrl": "https://ab-b.dk/",
+ "calls": [
+  {
+   "url": "https://analytics.google.com/g/collect?v=2&tid=G-K7HTVJP3NF&gtm=45je6an1v887333276za208zd887333276xf1&_p=1793091669459&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGAC&_ng=1&are=1&cid=2028901707.1793091670&frm=0&pscdl=noapi&rcb=14&sr=1280x2000&uaa=arm&uab=64&uafvl=Chromium%3B130.0.6723.31%7CHeadlessChrome%3B130.0.6723.31%7CNot%253FA_Brand%3B99.0.0.0&uam=&uamb=0&uap=iOS&uapv=18_0&uaw=0&ul=da-dk&gaf=2&_s=1&tag_exp=115616985~115938465~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&sid=1793091669&sct=1&seg=0&dl=https%3A%2F%2Fab-b.dk%2F&dt=Amager%20Bio%20%26%20BETA%20-%20Koncerter%20og%20musik%20i%20K%C3%B8benhavn&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=782",
+   "method": "POST",
+   "post": "",
+   "status": 204,
+   "ct": "text/plain",
+   "body": ""
+  },
+  {
+   "url": "https://ab-b.dk/wp-admin/admin-ajax.php?action=pys_get_pbid",
+   "method": "GET",
+   "post": "",
+   "status": 200,
+   "ct": "text/html; charset=UTF-8",
+   "body": "0"
+  },
+  {
+   "url": "https://www.google.com/recaptcha/api2/pat?k=6LdjbUAUAAAAANJNTxPatjlvwOmhdWBi8iB9N86T",
+   "method": "POST",
+   "post": "\n(6LdjbUAUAAAAANJNTxPatjlvwOmhdWBi8iB9N86T\u0012\u0018NhfdZHzre16wrc2m6BxEdu7J\u001a�\u000e03AFcWeA69UBqTIe_JQksToYzIGrLklCav8Pm11_yQE9WMAz38nMoHIkJt6nKa-K9xcMVfqUwkdAtXKIgevOrl9nqZgYciH8QHjTJ-ZPYJwrDWFlN0kRyFktyUkDv0rUrkaG71CL5Qla4RStzO0TanC0kpszz2_XQmuZYZbrmYDiZE_Sxqgr0F82s1mOXmpBLXKLQlvaA1muYcqlRNR-OnVmztUArOvrYS2mq2SWRHGDKNc0dZz1t9wJ6OcQrTICj8zCm_ZpT86uHltIBWEx-4nMDdrAmhgNqGX8GhAqJH8gd1ZftcX-seWYwK5cdLRDHFa5UThD8YTaRYgvgSIakUOVcQof2hhHpra9CFUT0w9xgI4PpJIaMoLP3dhFgMzizIwp42QQbtnJ2DsQTU7dsiMyGh74l-oV6R9Hcjeh6FTXlKGUgArmPmQW7eT4anC5w09Ro2Kv-6vq9gENuFhEck6M2NPgvzvAfzVNCipuVImOG0H86IbKLKHpstb0igyx7-4YGKDtEFvN8TMycx6qCE7fyamzNiDpL5X9q1qn_c1AQdOelDwqJbQei3pMr3f-IYYNgieiRbF4Nnzi9CbhZJv1Yas_5lO24I1ehXiUlZh900xnc8KxlYza02O5qRDdwQFkHqZRGVoytUlQ6RkWaQdLxZ_izRxH9Ea6zmR4fiTY-6F2Oteh-9vHGkB5gL0MBUZQCCc46TWR0FwLF61JPa-Vz5-HT2a4qPWZICOihPu6nLCIgS8T6OcKgohxu_lc-8ZolM3BTeT_fvffCJE9rccmfH3LH3pLbZZX-k5mUMwUr-M9wtV_lJatq1ByyQqqEPrgmva1nD0aqVdA1hcvzI_yqWGXKDXQmd3-rTs2f_WZ456_6LrekCEnvQZApHkLtYsoVqe6Tlu8VUIL8dtYRqi138CARQzfXEKwCCRevH3a8OX9iTDqcTvsrDj4ktrVmsjHuL_8u8u4YgMcu_MlnZtSKxeBWm3WHMysE4M9I78oc_cwe2S1dNkA9cqzHYQKKE1xaVc-opoYtCotvyLxmeTovs8EpD4STNbVcsVdI6Txp7dcpb4DPPLNO_UTZoHsNB8qL2tmTfGsEi8IcbC3HkerfkkAzE-rAjT8T6IxT0GkFmzHx98Kv-YGnGhSqSKfr2q6UGg8SYOGmUUvH8O_boTRkXcYvHcgFZRn-YTmEtWL6XTSlGfH_yZ2zVTwZgKdBtPtYhSu0uC_QINZLt940HL9lvrKcPavIix9SVSk62sndgFZg_6uFRoS7lmvKQ1SpKL1tMc73OmJcPYOP8pQ7MLwXIWWNDCOEu7-iGu2tI28XgXMrUxPPsbukuTQJoumaXDX3pljlVFPgnTzxaLFFw6MDk20EKlJ4NHWQjEdReFLVDruj-4HZyMztuoi3MYFIJ9CMTEgSfqoqntKzeAH19W7mO0MtozO-EO3DV7nwiD5NhsEsq9JSE2iumhQJwwA2R-yRbHnuSQF75JeJy9UD0wgGHGaZ4ABFSCUyZ5k4h8V3vNVSpLQqqPixLXJ2e7DKXRkLlHD9r9VGeATqDdXxwJqeCN6lPgy9KpS5UgKXeGExhi8uBCcIn1zEZdpRk2intTg2DciSZlIK5zayOVv4Wu-9nQV-V4raQ1koo6tP3CGytO_Bqae_TYnsog6coz2jbzkUpxOfaRNmGbNfo3UPI8CbYSB0OVdjzCAzDYXkbo7BGjD697-eEhlVpgqBUcXlZW1eYMmrJtl5N_hpk_ElLkKT4ia6QEWnMOkCTneWUUWxLiS569B1f852YxHsjCEB-KncTdVkHf7xw6JjQ5Jg7vdWkx3TWLQYe2laQ8uJzCJ5S0Vn1dhMntDNkHz0xeLU6xghe2iaanK9kof9C8zjnxCfgEDss--_NOmhVBE58KyG9pA4W9_XMYVg",
+   "status": 401,
+   "ct": "application/binary",
+   "body": ""
+  },
+  {
+   "url": "https://connect.facebook.net/app_config/json/1032524373468732/",
+   "method": "GET",
+   "post": "",
+   "status": 200,
+   "ct": "application/json; charset=utf-8",
+   "body": "{\"fedcm\":{\"default\":false}}"
+  },
+  {
+   "url": "https://www.facebook.com/x/oauth/status?client_id=1032524373468732&input_token&origin=2&redirect_uri=https%3A%2F%2Fab-b.dk%2F&sdk=joey&wants_cookie_data=false",
+   "method": "GET",
+   "post": "",
+   "status": 200,
+   "ct": "text/plain; charset=UTF-8",
+   "body": ""
+  },
+  {
+   "url": "https://www.google.com/recaptcha/api2/reload?k=6LdjbUAUAAAAANJNTxPatjlvwOmhdWBi8iB9N86T",
+   "method": "POST",
+   "post": "\n\u0018NhfdZHzre16wrc2m6BxEdu7J\u0012�\u000e03AFcWeA69UBqTIe_JQksToYzIGrLklCav8Pm11_yQE9WMAz38nMoHIkJt6nKa-K9xcMVfqUwkdAtXKIgevOrl9nqZgYciH8QHjTJ-ZPYJwrDWFlN0kRyFktyUkDv0rUrkaG71CL5Qla4RStzO0TanC0kpszz2_XQmuZYZbrmYDiZE_Sxqgr0F82s1mOXmpBLXKLQlvaA1muYcqlRNR-OnVmztUArOvrYS2mq2SWRHGDKNc0dZz1t9wJ6OcQrTICj8zCm_ZpT86uHltIBWEx-4nMDdrAmhgNqGX8GhAqJH8gd1ZftcX-seWYwK5cdLRDHFa5UThD8YTaRYgvgSIakUOVcQof2hhHpra9CFUT0w9xgI4PpJIaMoLP3dhFgMzizIwp42QQbtnJ2DsQTU7dsiMyGh74l-oV6R9Hcjeh6FTXlKGUgArmPmQW7eT4anC5w09Ro2Kv-6vq9gENuFhEck6M2NPgvzvAfzVNCipuVImOG0H86IbKLKHpstb0igyx7-4YGKDtEFvN8TMycx6qCE7fyamzNiDpL5X9q1qn_c1AQdOelDwqJbQei3pMr3f-IYYNgieiRbF4Nnzi9CbhZJv1Yas_5lO24I1ehXiUlZh900xnc8KxlYza02O5qRDdwQFkHqZRGVoytUlQ6RkWaQdLxZ_izRxH9Ea6zmR4fiTY-6F2Oteh-9vHGkB5gL0MBUZQCCc46TWR0FwLF61JPa-Vz5-HT2a4qPWZICOihPu6nLCIgS8T6OcKgohxu_lc-8ZolM3BTeT_fvffCJE9rccmfH3LH3pLbZZX-k5mUMwUr-M9wtV_lJatq1ByyQqqEPrgmva1nD0aqVdA1hcvzI_yqWGXKDXQmd3-rTs2f_WZ456_6LrekCEnvQZApHkLtYsoVqe6Tlu8VUIL8dtYRqi138CARQzfXEKwCCRevH3a8OX9iTDqcTvsrDj4ktrVmsjHuL_8u8u4YgMcu_MlnZtSKxeBWm3WHMysE4M9I78oc_cwe2S1dNkA9cqzHYQKKE1xaVc-opoYtCotvyLxmeTovs8EpD4STNbVcsVdI6Txp7dcpb4DPPLNO_UTZoHsNB8qL2tmTfGsEi8IcbC3HkerfkkAzE-rAjT8T6IxT0GkFmzHx98Kv-YGnGhSqSKfr2q6UGg8SYOGmUUvH8O_boTRkXcYvHcgFZRn-YTmEtWL6XTSlGfH_yZ2zVTwZgKdBtPtYhSu0uC_QINZLt940HL9lvrKcPavIix9SVSk62sndgFZg_6uFRoS7lmvKQ1SpKL1tMc73OmJcPYOP8pQ7MLwXIWWNDCOEu7-iGu2tI28XgXMrUxPPsbukuTQJoumaXDX3pljlVFPgnTzxaLFFw6MDk20EKlJ4NHWQjEdReFLVDruj-4HZyMztuoi3MYFIJ9CMTEgSfqoqntKzeAH19W7mO0MtozO-EO3DV7nwiD5NhsEsq9JSE2iumhQJwwA2R-yRbHnuSQF75JeJy9UD0wgGHGaZ4ABFSCUyZ5k4h8V3vNVSpLQqqPixLXJ2e7DKXRkLlHD9r9VGeATqDdXxwJqeCN6lPgy9KpS5UgKXeGExhi8uBCcIn1zEZdpRk2intTg2DciSZlIK5zayOVv4Wu-9nQV-V4raQ1koo6tP3CGytO_Bqae_TYnsog6coz2jbzkUpxOfaRNmGbNfo3UPI8CbYSB0OVdjzCAzDYXkbo7BGjD697-eEhlVpgqBUcXlZW1eYMmrJtl5N_hpk_ElLkKT4ia6QEWnMOkCTneWUUWxLiS569B1f852YxHsjCEB-KncTdVkHf7xw6JjQ5Jg7vdWkx3TWLQYe2laQ8uJzCJ5S0Vn1dhMntDNkHz0xeLU6xghe2iaanK9kof9C8zjnxCfgEDss--_NOmhVBE58KyG9pA4W9_XMYVg*\n18343111272\u0002fir(6LdjbUAUAAAAANJNTxPatjlvwOmhdWBi8iB9N86T\n…[afkortet]",
+   "status": 200,
+   "ct": "application/json; charset=utf-8",
+   "body": ")]}'\n[\"rresp\",\"0cAFcWeA7I8EQ41LofwZnIoo461odMwnEQ8pieA3BN1KtPV6EzQvjbAhECfl4RIAZwQIIYY1zYOa86xQ1OC7tY9GZBAhGmZqZFkwtMZwDybk0-k30ZCHrY3wniTcREfNziI_MiY_LFZ_0JEXP0Tr3-72KC6PLW5nhrlVd4ueAaSVAUw2RYbFYzvSAY46AKXCjeiHMTStmWSuyYAwVu0ozORSC1ZRP092IkTqp631_UUv-IQXESYos0G6OhuEO5I1sJCbdkgHQJiulCtn7jYtDN6eSuZ4BG7qfJoJAk5hdM6DlxhWmwcRs_teYgHQTXpRw6sPgXBByfbsqJ-8otyYnKnBZ4zOOrlgl7yO8tZ77EjDvGU0VBiruSG9ePIkfP2VVlUmo_RAQyWEFha2uq1puEwSC_kgv-J1yT1PT4DREiGpPerf5MyLKgQfr96U2wWVJnvmmxKWO6ppr1fJxxB9kuFCJ9Lx9lmPq6BTFSNtafXbO-jwUnWvh41h1b3W_2_1tWT4w6qWTnK9wjNX7uOuF0CpzQrTJD5GkVJDDF223P5RmNcBaQcO673PF8iltsN_mLraoPycelxQm4yyKJcVrlQKWmUl5Ws142YjktJX8s-xTfcf4m34yXZnSgxcSrmDdibedC7IKv8TmjoKociHbx2Ov6HOw8LYOCrNePlma0vf4uEw50k5PDmKgnfrqRzyNsBF-WPWXTGog3MR-J_PrmbSXgLOWxb_Tf_fnlATxol5zb1pyI7gQIoUjCDoAjs06Vncm1wk9oA05-xDAU8I-3lq4YPEalm2t-fF6egmdUJYW8YM6t-5SU5XnHZrdVcgFUmWXiYm_kbkeKWBUgX2pyWyuVTgi0M-itd8xt-miyewJ2uLxaQcqN-LGax0VmGpMZ-gzAyvLIOy2nVRgoh5YQFB4PJx_9cCSn5FvVRG6PyEgsH4Qsxk7YxUG8K9kaABzISbxzIXnWYtWdU7QFw7_kvbAiq8SB6JadyBwkbfm-3X5ApGW2Ylv8zP0dbXs2MWcI0-OBcNyCpcqN3c53IuvS3z1aLq9IkYjeskAg2zHdKahZiodumul1SDm58eEDcNIvuD5N20gHPu8pZyc-sAbbmv5RBkgFON7kMHEoEm3ggZPJZU1g_Kx0RjcihQVrOYxxULI8sgE_Qg2wZ2Z_Hvs0ltLB_8955acpx6myf9GIgthiDj2lWREAlRyOF5TImIZtkZ4uKL6uCYafK34NFwPhiFPQVq08NisO78yYyeQGN8OMrwVQNpUwcKesPYD1ZT99d15_Hp3INpH-LUniV27SI1kTtOy2dFoqgSNL8-_3xWv5QKOTGl_1Q7OR_G9ZIpjeW0I6TbtR51RkPyiqtRrUmlWr4R6oJXv_hxbhieikbl5sOGOWkP4BRfl0O9W8z2zoGG73LuitXk1PWU-hQnSsfboHRAE6tRODN1ph0jSpCXz1k_8TAAXMb-b0Hjw9ie6shAgKHI9-Pld2nN3zMGZpdVpK9R2EUMZG3YhoEV0KJj5UDJbtNn4ENjWTdt2AaFLGliM_zo9J_ePb653dq0eX1Pd9VXtSo0vev_BwnFQ3EBZhnEURMd1rnQEBsG6rLdutFu1Bendky05-IZBQqnlzGdU6uWWpikXItSnFv-FA-UlY6Pl0EN0qym_oV_dfU_ljYKRHIvUZl4085uViQdw3GfYuwWHn_NCStZJodYhteANurbyHJBwU4_-oVCe5tZ3n2IqrASipv2qIsjWAx1FiYO3hkgUd-vUJfZkehvVTg27_do_lz2-tSUDduSXrox_QvhZesWqF2YTCyY9JvQHZ6nW6q9n4-x4I1dzxURNqfoPXMu_CVDYs3DzBYpetoKi9ahz8Tt6fv0YC2XHiQUbdGd2Z00ZmUxsFLyoDt9a1HxQWORmjluDY5GRSllIjOjitfRvWMV-54YhoGJercPXwoccdJ8AMTuidlqAQVq3gb4tVuHRkM2bruHF5gnrDqZpthYVZIdSdtluIRmWQc9sLzKGsqr-kqK5ruy8hN8x1DKwOj8zrrNp3cWj5Xow3OtCOod34XKJ-90z1eQcPqGj1nG-o3FAFRTYKfrEfkNIEsgUESZ8Zt-m0SvP2P1egUc3kV6_Q927EJqddKrtV3LllJ_1y3C_jPWmoytvNPl4Cpa0BVgWGa7VabizhYEbFgAd5IuZzZkNQ_bhiWVtzKyZDNIW15_T10QB2sip9RLPoOLleBZtMkVzWRKb6FBjiLs7cbRaMxT79BLx14FBHklByl4HYgFpsm-mRf7Z_EBMjopyWbxrq9rkKNEgmQD211ikbvkbmuTxeCFV3v9Vn9xhl9bVdEspei-fLJVUGW8GR3FolZ7mH7GjnhqPZkR3wi03Ejyt_Bm8Rl3D4XXGOaSFCpdInCwr0JDe-VYxj_tMO1QQ9yp3CfaY961k2_q1Wo_tGKZUIaeYP3dYU8wpCk56TAMMyEV8-bUP6lOjaPCmjmoAk0yuPuXL6wy24lYsiKMdGXC2mDM12cz3L_kH44CFtZjrEPNU298s8MvYIGV3Z4PTurEE8nqBxczjJGMmhBxbiNaFFa4K7SUWfHIXZIolsp8umeAN9IFGNz55l2Jh7-flDtG5cRrT4s41eXxW3dtgCBxUGwGO1vXlImctQacgufik-GM0Jcv6jfe3AtAPvH9aJCnvj3sJXVFV7HOMZgGdiwFNFwWRVFYgrSTAIKI3s2WFquLV36m2kfPLUK1fw1hg5Xb6fgIwS_qZcgBQoCTmfxaEkko8ni0ZRLdb5kE0EayO2aM0CvP4hZhaqUJeDpfHYfGk6UX27dO4xHb19cbM3S75hPRKQq0kb_qBlMClqANnCHCReP46NOk0fIE7RqFt3hW3W3OkOLxEvoKWiFwyIffn4x79SEgAiCDBv0jyEx-wi4uTihfxe_2lp0IdZnIHxqiM-Skt2lUTyK3IU7pHsP01u5uzLSBbDFbWMknmHbAt-wchmcEc7LEBj1KSmorKvEtiiDUxvGoRYNVZcRi7DoLUxRRmUNsM-bXZW6mMU9XLLq8DALNBJTlS5uaEc9kEEQysKINzgq6EBfcPnzq8Zx9QTqgoyBe4X0KlsS3ZIzO7J6gJJXO1fcTwptEl8yAhP7a1dyttefqbbGJxIJgk_V4ArQXQockq1I4_9d4Mvm9Nj6XsIQcCVUTO-QTmCKv3CBvaSTa75zDMrJ1EguCif5D_YOFFxweOa8_fnQbKDIgytTZo5tZCwYw1aWs2hHuhNIhOa0gJFi_-FzV1K_daxn3mE7LvZukFj6l02B6YKBkPs4FIoS1edatK77jWEcaIHYN0cQo2Gl--e_K0AR2mVaIKyZ-vtY0bRvUdVrARJPkONep4AxVmo95Hf2XhvgSLVvyiVlkf_-JVjadGZwUwVnaCAP2FBmCJqrjNfkcVjgUC1T-d-zdqialrT1Xuw9DaV_KCosEHazjF5T1XnY_f9zdShgUGsB2pgAco5ufi0if-K3MJoXiRwWFtbljdSFNBGHZ0vYpSEaRxcvCnM8GuMj3PpRT1mUNy7KgvzQgHZ_1ZXPMppwZ51EqByu-5znTGN_47Q3Kd45Na7ZkY9K9zxd7rCFHb9VMyvs7-Ac6pxNZSsMIPSaVmBjXOeQL1WUX2a5KV8U3qbEcOlXdOaK6SbGjbg_1Pdi35YVGdsugbqKzkCduq1XsEzELNazuhCqgieorjJF6fYVK4815xLTWb-Er0GCcPYMeIaofPxfxXRK-wZewkMKMxsvyqGH00kwVcVuh0EiHMKJiTCn_r4xMRfP-9mMh5DrOjflArZL5-rsQGlzHdL3bQt9RY5Gp9FZBeEp6fB5npkRxaWDP2OpjXgtPLiKzuKz9XN7rEU6KGZnwdXUZ47rwht4y-aig1BGGGpBo4oXqPfUrxahed83Qm0EXUcLr7PcdTTxkuC7Mfit7iWLJ7wK8JGxn5sJ5EY-N1qrzQjgHIOyxZVBJeAFWklAVN0fnsr4oi7DI_QrZxW9Iz0bqsCNAimK2gB-HmRjJSvymaV-XB88Wu1dzFYwTq851XdWkzQ9GuQnkkBp7QUIOZxHOgbsbbaCGoXcCic4NV-7EtT2s_jHUQsBWesFN0ny6SMStRAFeRSgc3Y5OQRTMX3dH9WNRTLy8yz_HehgjA1SEBKzv1oupevYh6H9vPP4RipawA-fLHqPdgmqPN_Zh08Zy4elJcrdrbF4xALUx8uWeXc86foNjHu-IZ6DpN1270dyGCIkGsJiORFs7k3Xmqj7jRE2fQZkHcslKem80TH7eeoq897337o5o3OwzA2do9POpAhS-LBLV0u1EyPhHx7ywzNECDutNYeNEtU3N0zbgWBImpltFckGKn47viY7qdRSb0SN51KM3CDBQIzlbcSpIWDyBmNmA\",null,600,[\"pmeta\",null,null,null,null,[[[\"/m/0199g\",null,2,4,4],[\"/m/014xcs\",null,2,4,4],[\"/m/0199g\",null,2,4,4],[\"/m/01lynh\",null,2,4,4],[\"/m/01bjv\",null,2,4,4]]]],\"multicaptcha\",null,null,\"05AL5IAHY2YhIobM1E60VjRy55plj96lNMBA_NaHDqUfmdVAwLf20DtEgHXsMVjt9z1B7ZuNG-JoDAMiGOI10PPd1hsi93ZEn4iDnGIekmghhE2za_sH2omawDX9ebJcyNYAVOSRm3MFY0gK8Oh-3Lwwm6XxBz3clwKEp80kMba-Ig-Ns8ATcDozCQnUPAPuowlqOYsbhYrNvpVH1GpupLYP28YwU9A0XJ_TjX\",\"06AFcWeA4KSqPbF0oKH9QRzJuPEWL5oHiIWCbgHAcZdB5EgT31i45HkpRylhTNPiQ18VBA6gkNJJJSY18X5gwcwmnsxy0NFuk-HaSztoLcKcnDqALuBtDYi95GQlI813Iol2aaX-WzQk1zk1oC8Se3IRicRuWZwrNnhKrPByypP2F4nQdOlCGFwzuERIzFWWqRgz76nNHSDpH0uAY_tTOfVhVq7md2YWr_fA\",null,null,\"09AKhCRwgYN0JNktIsfXo5BmMveCSGDlS4tdkBObJgUJQKbnwfT6hJnIwfnPD_pnO8Ib97axearH11vSh3L7Lavs7OLKKlz790t-D7O3A9XSXddWH_gwHCUzXRZy97FTHu\",null,\"0aAL5IAHaT6hEghJJGQAWyl6GL8qmo_yHml-yiwlc9r8IXAACo8DMv7PR8t0PGunfpgI1dGwQ\",\"0bAIrSj1t_tQm68TMZWdw4K1aIa26VRX1IeH1neBMD4K6u9saTY3uxq9wm4PWUg9lDaP5cSCTH5w\",0]"
+  },
+  {
+   "url": "https://analytics.google.com/g/collect?v=2&tid=G-K7HTVJP3NF&gtm=45je6an1v887333276za200zd887333276xf1&_p=1793091669459&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAAAGQC&_ng=1&ae=a&are=1&cid=2028901707.1793091670&frm=0&pscdl=noapi&rcb=14&sr=1280x2000&uaa=arm&uab=64&uafvl=Chromium%3B130.0.6723.31%7CHeadlessChrome%3B130.0.6723.31%7CNot%253FA_Brand%3B99.0.0.0&uam=&uamb=0&uap=iOS&uapv=18_0&uaw=0&ul=da-dk&gaf=2&_s=2&tag_exp=115616985~115938465~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&sid=1793091669&sct=1&seg=0&dl=https%3A%2F%2Fab-b.dk%2F&dt=Amager%20Bio%20%26%20BETA%20-%20Koncerter%20og%20musik%20i%20K%C3%B8benhavn&en=scroll&epn.percent_scrolled=90&_et=10&tfd=5793",
+   "method": "POST",
+   "post": "",
+   "status": 204,
+   "ct": "text/plain",
+   "body": ""
+  }
+ ],
+ "links": [
+  {
+   "h": "https://ab-b.dk/",
+   "t": "OK"
+  },
+  {
+   "h": "https://ab-b.dk/privatlivspolitik/",
+   "t": "Læs privatlivspolitik"
+  },
+  {
+   "h": "https://amager-bio-and-beta.mynewsdesk.com/",
+   "t": "Nyt fra AB&B"
+  },
+  {
+   "h": "https://ab-b.dk/bliv-frivillig-i-amager-bio-beta/",
+   "t": "Bliv frivillig i AB&B"
+  },
+  {
+   "h": "https://ab-b.dk/praktisk-information/",
+   "t": "Praktisk info & FAQ"
+  },
+  {
+   "h": "https://ab-b.dk/find-vej-til-amager-bio-og-beta/",
+   "t": "Find vej"
+  },
+  {
+   "h": "https://ab-b.dk/tilgaengelighed-i-amager-bio/",
+   "t": "Tilgængelighed"
+  },
+  {
+   "h": "https://ab-b.dk/leje-amager-bio/",
+   "t": "Leje af AB&B"
+  },
+  {
+   "h": "https://ab-b.dk/tech-specs/",
+   "t": "Technical specifications"
+  },
+  {
+   "h": "https://ab-b.dk/in-english/",
+   "t": "Practical Info In English"
+  },
+  {
+   "h": "https://ab-b.dk/om-amagerbio-2/",
+   "t": "Om Amager Bio & BETA"
+  },
+  {
+   "h": "https://ab-b.dk/kontakt/",
+   "t": "Kontakt"
+  },
+  {
+   "h": "https://ab-b.dk/#profile",
+   "t": "Forbind"
+  },
+  {
+   "h": "https://ab-b.dk/k/holly-humberstone/",
+   "t": "AMAGER BIO Lørdag 9. januar Holly Humberstone (UK)"
+  },
+  {
+   "h": "https://www.ticketmaster.dk/event/1932008619?language=da-dk&camefrom=amagerbio&brand=dk_amagerbio",
+   "t": "BILLET"
+  },
+  {
+   "h": "https://ab-b.dk/k/deadnate/",
+   "t": "Beta Onsdag 2. december Deadnate"
+  },
+  {
+   "h": "https://www.ticketmaster.dk/event/1139561002?language=da-dk&camefrom=amagerbio&brand=dk_beta",
+   "t": "Billet"
+  },
+  {
+   "h": "https://ab-b.dk/k/career-suicide/",
+   "t": "Beta Tirsdag 17. november Career Suicide (CAN)"
+  },
+  {
+   "h": "https://www.ticketmaster.dk/event/1527983053",
+   "t": "Billet"
+  },
+  {
+   "h": "https://ab-b.dk/k/reh/",
+   "t": "Beta Lørdag 14. november Reh"
+  },
+  {
+   "h": "https://www.ticketmaster.dk/event/1972874353?language=da-dk&camefrom=amagerbio&brand=dk_beta",
+   "t": "Billet"
+  },
+  {
+   "h": "https://ab-b.dk/k/saxon/",
+   "t": "Amager Bio Fredag 5. marts Saxon (UK)"
+  },
+  {
+   "h": "https://www.ticketmaster.dk/event/2005751955?language=da-dk&camefrom=amagerbio",
+   "t": "Billet"
+  },
+  {
+   "h": "https://ab-b.dk/k/undergang-erdm-vol-34/",
+   "t": "Beta Fredag 29. januar Undergang – ERDM Vol. 34"
+  },
+  {
+   "h": "https://www.ticketmaster.dk/event/700127557?language=da-dk&camefrom=amagerbio&brand=dk_beta",
+   "t": "Billet"
+  },
+  {
+   "h": "https://ab-b.dk/k/hyd-us/",
+   "t": "HYD Support: - Turi Tierrah"
+  },
+  {
+   "h": "https://www.ticketmaster.dk/event/1583308982?language=da-dk&brand=dk_beta&camefrom=amagerbio",
+   "t": "KØB BILLET"
+  },
+  {
+   "h": "https://ab-b.dk/k/baby-did-a-bad-thing/",
+   "t": "NYHED! Baby Did A Bad Thing"
+  },
+  {
+   "h": "https://www.ticketmaster.dk/event/1430824169?language=da-dk&camefrom=amagerbio&brand=dk_beta",
+   "t": "KØB BILLET"
+  },
+  {
+   "h": "https://ab-b.dk/k/sturle-dagsland/",
+   "t": "Sturle Dagsland"
+  },
+  {
+   "h": "https://www.ticketmaster.dk/event/1846936936?language=da-dk&camefrom=amagerbio&brand=dk_beta",
+   "t": "KØB BILLET"
+  },
+  {
+   "h": "https://ab-b.dk/k/led-zeppelin-jam/",
+   "t": "Led Zeppelin Jam Support: - MoonDog"
+  },
+  {
+   "h": "https://www.ticketmaster.dk/event/2098160505?language=da-dk&camefrom=amagerbio&brand=dk_amagerbio",
+   "t": "KØB BILLET"
+  },
+  {
+   "h": "https://ab-b.dk/k/soemaendene/",
+   "t": "Sømændene"
+  },
+  {
+   "h": "https://www.ticketmaster.dk/event/1547746690?language=da-dk&camefrom=amagerbio&brand=dk_amagerbio",
+   "t": "KØB BILLET"
+  },
+  {
+   "h": "https://ab-b.dk/k/the-chains/",
+   "t": "The Chains Support: - Skaface 2.0"
+  },
+  {
+   "h": "http://www.ticketmaster.dk/event/294074533?language=da-dk&camefrom=amagerbio&brand=dk_beta",
+   "t": "KØB BILLET"
+  },
+  {
+   "h": "https://ab-b.dk/k/president/",
+   "t": "President Support: - Vianova - Dreamwake"
+  },
+  {
+   "h": "https://www.ticketmaster.dk/event/900300214?language=da-dk&brand=dk_livenation&camefrom=amagerbio",
+   "t": "UDSOLGT!"
+  },
+  {
+   "h": "https://ab-b.dk/k/melt-banana/",
+   "t": "Melt-Banana"
+  },
+  {
+   "h": "https://www.ticketmaster.dk/event/102350952?language=da-dk&camefrom=amagerbio&brand=dk_beta",
+   "t": "KØB BILLET"
+  },
+  {
+   "h": "https://ab-b.dk/k/walter-trout/",
+   "t": "Walter Trout Support: - Alice Howe & Freebo"
+  },
+  {
+   "h": "https://www.ticketmaster.dk/event/163434954?language=da-dk&brand=dk_amagerbio&camefrom=amagerbio",
+   "t": "KØB BILLET"
+  },
+  {
+   "h": "https://ab-b.dk/k/loma-shearwater/",
+   "t": "Loma + Shearwater Support: - Any Kind"
+  },
+  {
+   "h": "https://www.ticketmaster.dk/event/275529725?language=da-dk&camefrom=amagerbio&brand=dk_beta",
+   "t": "UDSOLGT!"
+  },
+  {
+   "h": "https://ab-b.dk/k/clawfinger/",
+   "t": "FÅ BILLETTER! Clawfinger Special Guests: - Sickret"
+  },
+  {
+   "h": "https://www.ticketmaster.dk/event/1727973463?language=da-dk&camefrom=amagerbio&brand=dk_amagerbio",
+   "t": "KØB BILLET"
+  },
+  {
+   "h": "https://ab-b.dk/k/sunset-images/",
+   "t": "Sunset Images"
+  },
+  {
+   "h": "http://ticketmaster.dk/event/1159668694?language=da-dk&camefrom=amagerbio&brand=dk_beta",
+   "t": "KØB BILLET"
+  },
+  {
+   "h": "https://ab-b.dk/k/facesoul/",
+   "t": "Facesoul"
+  },
+  {
+   "h": "https://www.ticketmaster.dk/event/facesoul-uk--billetter/1178526256?language=da-dk&camefrom=amagerbio&brand=dk_beta",
+   "t": "KØB BILLET"
+  },
+  {
+   "h": "https://ab-b.dk/k/eagles-of-death-metal/",
+   "t": "FÅ BILLETTER! Eagles of Death Metal Support: - James And The Cold Gun"
+  },
+  {
+   "h": "https://dtdconcerts.unitedtickets.dk/event/eagles-of-death-metal/amager-bio/3601481?language=da-dk&camefrom=amagerbio&brand=dk_amagerbio",
+   "t": "KØB BILLET"
+  },
+  {
+   "h": "https://ab-b.dk/k/frank-martini-party-of-the-century/",
+   "t": "Frank Martini – Party of the Century"
+  },
+  {
+   "h": "https://tickets.frankmartini.se/events/frankmartinientertainmentab/2121776",
+   "t": "KØB BILLET"
+  },
+  {
+   "h": "https://ab-b.dk/k/inhuman-nature/",
+   "t": "Inhuman Nature Support: - State Power"
+  },
+  {
+   "h": "https://www.ticketmaster.dk/event/1438310961?language=da-dk",
+   "t": "KØB BILLET"
+  },
+  {
+   "h": "https://ab-b.dk/k/aynur/",
+   "t": "Aynur"
+  },
+  {
+   "h": "https://billet.alicecph.com/da/buyingflow/tickets/33945/105354/",
+   "t": "KØB BILLET"
+  },
+  {
+   "h": "https://ab-b.dk/k/the-wallflowers/",
+   "t": "The Wallflowers"
+  },
+  {
+   "h": "https://www.ticketmaster.dk/event/the-wallflowers-billetter/124922002?language=da-dk&camefrom=amagerbio&brand=dk_amagerbio",
+   "t": "KØB BILLET"
+  },
+  {
+   "h": "https://ab-b.dk/k/loud-tiger/",
+   "t": "Loud Tiger"
+  },
+  {
+   "h": "https://www.ticketmaster.dk/event/1150794423?language=da-dk&camefrom=amagerbio&brand=dk_beta",
+   "t": "KØB BILLET"
+  },
+  {
+   "h": "https://ab-b.dk/k/manfred-manns-earth-band/",
+   "t": "FÅ BILLETTER! Manfred Mann’s Earth Band"
+  },
+  {
+   "h": "https://www.ticketmaster.dk/event/52387612?language=da-dk&brand=dk_atl&camefrom=amagerbio",
+   "t": "KØB BILLET"
+  },
+  {
+   "h": "https://ab-b.dk/k/president-fetch-big-mess/",
+   "t": "President Fetch + Big Mess"
+  },
+  {
+   "h": "https://www.ticketmaster.dk/event/875102974?language=da-dk&camefrom=amagerbio&brand=dk_beta",
+   "t": "KØB BILLET"
+  },
+  {
+   "h": "https://ab-b.dk/k/drawn-and-quartered/",
+   "t": "Drawn And Quartered Support: - Noroth"
+  },
+  {
+   "h": "https://www.ticketmaster.dk/event/1718246596?language=da-dk&camefrom=amagerbio&brand=dk_beta",
+   "t": "KØB BILLET"
+  },
+  {
+   "h": "https://ab-b.dk/k/reh/",
+   "t": "NYHED! Reh Support: - Karambolage - Seasonal Depression"
+  },
+  {
+   "h": "https://www.ticketmaster.dk/event/1972874353?language=da-dk&camefrom=amagerbio&brand=dk_beta",
+   "t": "KØB BILLET"
+  },
+  {
+   "h": "https://ab-b.dk/k/career-suicide/",
+   "t": "NYHED! Career Suicide Support: - Decade"
+  },
+  {
+   "h": "https://www.ticketmaster.dk/event/1527983053",
+   "t": "KØB BILLET"
+  },
+  {
+   "h": "https://ab-b.dk/k/jessie-ware/",
+   "t": "NYHED! Jessie Ware Very Special Guest: - Tsatsamis"
+  },
+  {
+   "h": "https://www.billetlugen.dk/event/22111591/?affiliate=SB8",
+   "t": "KØB BILLET"
+  },
+  {
+   "h": "https://ab-b.dk/k/hymn/",
+   "t": "NYHED! Hymn"
+  },
+  {
+   "h": "https://www.ticketmaster.dk/event/742645082?language=da-dk&camefrom=amagerbio&brand=dk_beta",
+   "t": "KØB BILLET"
+  },
+  {
+   "h": "https://ab-b.dk/k/johnny-cash-roadshow-the-prison-years/",
+   "t": "Johnny Cash Roadshow – The Prison Years"
+  },
+  {
+   "h": "https://www.ticketmaster.dk/event/johnny-cash-roadshow-the-prison-years-tour-billetter/1158362066?language=da-dk&camefrom=amagerbio&brand=dk_amagerbio",
+   "t": "KØB BILLET"
+  },
+  {
+   "h": "https://ab-b.dk/k/rising-tour-will/",
+   "t": "NYHED! RoFH x Rising Tour: Will"
+  },
+  {
+   "h": "https://www.ticketmaster.dk/event/485709775?language=da-dk&camefrom=amagerbio&brand=dk_beta",
+   "t": "KØB BILLET"
+  },
+  {
+   "h": "https://ab-b.dk/k/blood-and-sun/",
+   "t": "Blood and Sun"
+  },
+  {
+   "h": "https://www.ticketmaster.dk/event/1573856509?language=da-dk&camefrom=amagerbio&brand=dk_beta",
+   "t": "KØB BILLET"
+  },
+  {
+   "h": "https://ab-b.dk/k/strychnos-albumrelease/",
+   "t": "Strychnos – albumrelease Support: - GAM"
+  },
+  {
+   "h": "https://www.ticketmaster.dk/search?q=strychnos%20beta",
+   "t": "KØB BILLET"
+  },
+  {
+   "h": "https://ab-b.dk/k/bi-2/",
+   "t": "Bi-2"
+  },
+  {
+   "h": "https://chaika.org/ru/event/bi2-copenhagen/",
+   "t": "KØB BILLET"
+  },
+  {
+   "h": "https://ab-b.dk/k/this-house/",
+   "t": "This House Support: - Emil Palme"
+  },
+  {
+   "h": "https://www.ticketmaster.dk/event/489887553?language=da-dk&camefrom=amagerbio&brand=dk_beta",
+   "t": "KØB BILLET"
+  },
+  {
+   "h": "https://ab-b.dk/k/the-hardkiss/",
+   "t": "The Hardkiss Support: - Felin"
+  },
+  {
+   "h": "https://www.ticketmaster.dk/event/544904406?language=da-dk&brand=dk_livenation&camefrom=amagerbio",
+   "t": "KØB BILLET"
+  },
+  {
+   "h": "https://ab-b.dk/k/strychnos-album-tour/",
+   "t": "Strychnos – Album tour Support: - Sepulchral Curse"
+  },
+  {
+   "h": "https://www.ticketmaster.dk/search?q=strychnos%20beta",
+   "t": "KØB BILLET"
+  },
+  {
+   "h": "https://ab-b.dk/k/dodo-and-the-dodos/",
+   "t": "FÅ BILLETTER! Dodo & The Dodo’s"
+  },
+  {
+   "h": "https://www.ticketmaster.dk/event/dodo--the-dodos-billetter/720925887?language=da-dk&camefrom=amagerbio&brand=dk_amagerbio",
+   "t": "KØB BILLET"
+  },
+  {
+   "h": "https://ab-b.dk/k/in-gowan-ring-adaya/",
+   "t": "In Gowan Ring + Adaya"
+  },
+  {
+   "h": "https://www.ticketmaster.dk/event/1523724103?language=da-dk&camefrom=amagerbio&brand=dk_beta",
+   "t": "KØB BILLET"
+  },
+  {
+   "h": "https://ab-b.dk/k/portugal-the-man/",
+   "t": "Portugal. The Man"
+  },
+  {
+   "h": "https://www.ticketmaster.dk/event/1290224318?language=da-dk?language=da-dk&camefrom=amagerbio&brand=dk_amagerbio",
+   "t": "KØB BILLET"
+  },
+  {
+   "h": "https://ab-b.dk/k/deadnate/",
+   "t": "NYHED! Deadnate"
+  },
+  {
+   "h": "https://www.ticketmaster.dk/event/1139561002?language=da-dk&camefrom=amagerbio&brand=dk_beta",
+   "t": "KØB BILLET"
+  },
+  {
+   "h": "https://ab-b.dk/k/mae/",
+   "t": "MAE Support: - UROgenklang"
+  },
+  {
+   "h": "https://www.ticketmaster.dk/event/1284609312?language=da-dk&camefrom=amagerbio&brand=dk_beta",
+   "t": "KØB BILLET"
+  },
+  {
+   "h": "https://ab-b.dk/k/rage-again/",
+   "t": "NYHED! Rage Again"
+  },
+  {
+   "h": "https://www.ticketmaster.dk/event/514516883?language=da-dk&camefrom=amagerbio&brand=dk_amagerbio",
+   "t": "KØB BILLET"
+  },
+  {
+   "h": "https://ab-b.dk/k/polyphia/",
+   "t": "Polyphia: BE NOT AFRAID World Tour Support: - Perturbator - RJ Pasin"
+  },
+  {
+   "h": "https://www.ticketmaster.dk/event/1142735246?language=da-dk&brand=dk_livenation&camefrom=amagerbio",
+   "t": "KØB BILLET"
+  },
+  {
+   "h": "https://ab-b.dk/k/dylan-leblanc/",
+   "t": "FÅ BILLETTER! Dylan LeBlanc"
+  },
+  {
+   "h": "http://www.ticketmaster.dk/event/1973582518?language=da-dk&camefrom=amagerbio&brand=dk_beta",
+   "t": "KØB BILLET"
+  },
+  {
+   "h": "https://ab-b.dk/k/anders-knudsen-christmas-special-2026/",
+   "t": "Anders Knudsen: Christmas Special 2026 Support: - Anna & Kaisa"
+  },
+  {
+   "h": "https://www.ticketmaster.dk/event/895147614?language=da-dk&camefrom=amagerbio&brand=dk_beta",
+   "t": "KØB BILLET"
+  },
+  {
+   "h": "https://ab-b.dk/k/thorbjoern-risager-the-black-tornado/",
+   "t": "Thorbjørn Risager & The Black Tornado"
+  },
+  {
+   "h": "https://www.ticketmaster.dk/event/1948180544?language=da-dk&camefrom=amagerbio&brand=dk_amagerbio",
+   "t": "KØB BILLET"
+  },
+  {
+   "h": "https://ab-b.dk/k/kontravoid-spike-hellis/",
+   "t": "NYHED! Kontravoid Support: - Spike Hellis"
+  },
+  {
+   "h": "https://www.ticketmaster.dk/event/359773424",
+   "t": "KØB BILLET"
+  },
+  {
+   "h": "https://ab-b.dk/k/paris-paloma/",
+   "t": "Paris Paloma"
+  },
+  {
+   "h": "https://www.billetlugen.dk/event/21565713/?affiliate=SB8",
+   "t": "UDSOLGT!"
+  },
+  {
+   "h": "https://ab-b.dk/k/georgios-alevrofas-the-12-labors-of-hercules/",
+   "t": "Georgios Alevrofas: The 12 Labors Of Hercules"
+  },
+  {
+   "h": "https://www.ticketmaster.dk/event/617809110?language=da-dk&camefrom=amagerbio&brand=dk_beta",
+   "t": "KØB BILLET"
+  },
+  {
+   "h": "https://ab-b.dk/k/rockers-by-choice/",
+   "t": "Rockers By Choice"
+  },
+  {
+   "h": "https://www.ticketmaster.dk/event/759225755?language=da-dk&camefrom=amagerbio&brand=dk_amagerbio",
+   "t": "KØB BILLET"
+  },
+  {
+   "h": "https://ab-b.dk/k/artillery/",
+   "t": "Artillery Support: - TheNimbWits"
+  },
+  {
+   "h": "https://www.ticketmaster.dk/event/576721718?language=da-dk&camefrom=amagerbio&brand=dk_beta",
+   "t": "KØB BILLET"
+  },
+  {
+   "h": "https://ab-b.dk/k/fyr-og-flamme/",
+   "t": "Fyr Og Flamme – Hjem Til Jul"
+  },
+  {
+   "h": "https://www.ticketmaster.dk/event/322636437?language=da-dk&camefrom=amagerbio&brand=dk_amagerbio",
+   "t": "KØB BILLET"
+  },
+  {
+   "h": "https://ab-b.dk/k/ski-zanjani-willow-micass-ly/",
+   "t": "SKI: Zanjani, Willow, Micass & $ly"
+  },
+  {
+   "h": "https://www.ticketmaster.dk/event/972299065?language=da-dk&camefrom=amagerbio&brand=dk_beta",
+   "t": "KØB BILLET"
+  },
+  {
+   "h": "https://ab-b.dk/k/pretty-maids/",
+   "t": "Pretty Maids"
+  },
+  {
+   "h": "https://www.ticketmaster.dk/event/18377088?language=da-dk&camefrom=amagerbio&brand=dk_amagerbio",
+   "t": "KØB BILLET"
+  },
+  {
+   "h": "https://ab-b.dk/k/svartsot/",
+   "t": "Svartsot Support: - Deadflesh"
+  },
+  {
+   "h": "https://www.ticketmaster.dk/event/639883538?language=da-dk&camefrom=amagerbio&brand=dk_beta",
+   "t": "KØB BILLET"
+  },
+  {
+   "h": "https://ab-b.dk/k/magtens-korridorer/",
+   "t": "FÅ BILLETTER! Magtens Korridorer"
+  },
+  {
+   "h": "https://www.ticketmaster.dk/event/677372306?language=da-dk&camefrom=amagerbio&brand=dk_amagerbio",
+   "t": "KØB BILLET"
+  },
+  {
+   "h": "https://ab-b.dk/k/holly-humberstone/",
+   "t": "NY DATO Holly Humberstone Support: - TBA"
+  },
+  {
+   "h": "https://www.ticketmaster.dk/event/1932008619?language=da-dk&camefrom=amagerbio&brand=dk_amagerbio",
+   "t": "KØB BILLET"
+  },
+  {
+   "h": "https://ab-b.dk/k/orden-ogan/",
+   "t": "Orden Ogan Special Guests: - Ensiferum"
+  },
+  {
+   "h": "https://www.ticketmaster.dk/event/517086953?language=da-dk&brand=dk_livenation&camefrom=amagerbio",
+   "t": "KØB BILLET"
+  },
+  {
+   "h": "https://ab-b.dk/k/adela/",
+   "t": "Adéla"
+  },
+  {
+   "h": "https://www.billetlugen.dk/event/22026873/?affiliate=SB8",
+   "t": "VENTELISTE!"
+  },
+  {
+   "h": "https://ab-b.dk/k/undergang-erdm-vol-34/",
+   "t": "NYHED! Undergang – ERDM Vol. 34 Support: - Malformed"
+  },
+  {
+   "h": "https://www.ticketmaster.dk/event/700127557?language=da-dk&camefrom=amagerbio&brand=dk_beta",
+   "t": "KØB BILLET"
+  },
+  {
+   "h": "https://ab-b.dk/k/dawn-of-demise/",
+   "t": "FÅ BILLETTER! Dawn Of Demise"
+  },
+  {
+   "h": "http://www.ticketmaster.dk/event/1705080499?language=da-dk&camefrom=amagerbio&brand=dk_beta",
+   "t": "KØB BILLET"
+  },
+  {
+   "h": "https://ab-b.dk/k/young-gun-silver-fox/",
+   "t": "Young Gun Silver Fox"
+  },
+  {
+   "h": "https://www.ticketmaster.dk/event/335544817?language=da-dk&brand=dk_livenation&camefrom=amagerbio",
+   "t": "KØB BILLET"
+  },
+  {
+   "h": "https://ab-b.dk/k/kakkmaddafakka/",
+   "t": "Kakkmaddafakka"
+  },
+  {
+   "h": "https://www.ticketmaster.dk/event/kakkmaddafakka-hest-15-billetter/635675801?language=da-dk&camefrom=amagerbio&brand=dk_amagerbio",
+   "t": "KØB BILLET"
+  },
+  {
+   "h": "https://ab-b.dk/k/enslaved-solstafir/",
+   "t": "Enslaved & Solstafir Special Guests: - Gaahls Wyrd"
+  },
+  {
+   "h": "https://www.ticketmaster.dk/event/828980643?language=da-dk&brand=dk_livenation&camefrom=amagerbio",
+   "t": "KØB BILLET"
+  },
+  {
+   "h": "https://ab-b.dk/k/warhaus/",
+   "t": "Warhaus"
+  },
+  {
+   "h": "https://www.ticketmaster.dk/event/1350278191?language=da-dk&camefrom=amagerbio&brand=dk_amagerbio",
+   "t": "KØB BILLET"
+  },
+  {
+   "h": "https://ab-b.dk/k/tarja-turunen/",
+   "t": "Tarja Turunen"
+  },
+  {
+   "h": "https://fca.mticket.eu/widget586site14603/widget/event/181998",
+   "t": "KØB BILLET"
+  },
+  {
+   "h": "https://ab-b.dk/k/bloodred-hourglass/",
+   "t": "Bloodred Hourglass Support: - Brymir - Pridian"
+  },
+  {
+   "h": "https://www.ticketmaster.dk/event/1736933213?language=da-dk&camefrom=amagerbio&brand=dk_beta",
+   "t": "KØB BILLET"
+  },
+  {
+   "h": "https://ab-b.dk/k/amble/",
+   "t": "Amble"
+  },
+  {
+   "h": "https://www.tmnwe.com/tools/ventelister/show.php?event=AMA2002A-2027&l=dk",
+   "t": "VENTELISTE!"
+  },
+  {
+   "h": "https://ab-b.dk/k/whitechapel/",
+   "t": "Whitechapel Spec. guests + support: - Sylosis - 200 Stab Wounds - Tribal Gaze"
+  },
+  {
+   "h": "https://www.ticketmaster.dk/event/whitechapel-burn-forever-tour-2027-billetter/269626147?language=da-dk&camefrom=amagerbio&brand=dk_livenation",
+   "t": "KØB BILLET"
+  },
+  {
+   "h": "https://ab-b.dk/k/uncle-acid-the-deadbeats/",
+   "t": "Uncle Acid & The Deadbeats Support: - Conan - Earth Tongue"
+  },
+  {
+   "h": "https://www.ticketmaster.dk/event/36688745?language=da-dk&brand=dk_livenation&camefrom=amagerbio",
+   "t": "KØB BILLET"
+  },
+  {
+   "h": "https://ab-b.dk/k/graveyard-blues-pills/",
+   "t": "Graveyard & Blues Pills Support: - Spiders"
+  },
+  {
+   "h": "https://www.ticketmaster.dk/event/618971279?language=da-dk&brand=dk_livenation&camefrom=amagerbio",
+   "t": "KØB BILLET"
+  },
+  {
+   "h": "https://ab-b.dk/k/saxon/",
+   "t": "NYHED! Saxon"
+  },
+  {
+   "h": "https://www.ticketmaster.dk/event/2005751955?language=da-dk&camefrom=amagerbio",
+   "t": "KØB BILLET"
+  },
+  {
+   "h": "https://ab-b.dk/k/kalaset/",
+   "t": "Kalaset"
+  },
+  {
+   "h": "https://www.ticketmaster.dk/search?q=kalaset%20amager%20bio",
+   "t": "UDSOLGT!"
+  },
+  {
+   "h": "https://ab-b.dk/k/ocean-grove/",
+   "t": "NYHED! Ocean Grove Support: - UnityTX - Diamond Construct"
+  },
+  {
+   "h": "https://www.ticketmaster.dk/event/ocean-grove-billetter/1343737334?language=da-dk&camefrom=amagerbio&brand=dk_beta",
+   "t": "KØB BILLET"
+  },
+  {
+   "h": "https://ab-b.dk/k/kalaset-ekstra/",
+   "t": "Kalaset – Ekstra"
+  },
+  {
+   "h": "https://www.ticketmaster.dk/event/1489120957?language=da-dk&camefrom=amagerbio&brand=dk_amagerbio",
+   "t": "KØB BILLET"
+  },
+  {
+   "h": "https://ab-b.dk/k/mallory-knox/",
+   "t": "NYHED! Mallory Knox"
+  },
+  {
+   "h": "https://www.ticketmaster.dk/event/848502463?language=da-dk&brand=dk_livenation&camefrom=amagerbio",
+   "t": "KØB BILLET"
+  },
+  {
+   "h": "https://ab-b.dk/k/pomme/",
+   "t": "Pomme"
+  },
+  {
+   "h": "https://www.ticketmaster.dk/event/619488363",
+   "t": "KØB BILLET"
+  },
+  {
+   "h": "https://ab-b.dk/k/duo-jatekok/",
+   "t": "NYHED! Duo Jatekok"
+  },
+  {
+   "h": "https://www.ticketmaster.dk/event/1862353605?language=da-dk&brand=dk_atl&camefrom=amagerbio",
+   "t": "KØB BILLET"
+  },
+  {
+   "h": "https://ab-b.dk/k/moonspell/",
+   "t": "NYHED! Moonspell Special Guests + Support: - Iotunn - Todomal"
+  },
+  {
+   "h": "https://www.ticketmaster.dk/event/784902354?language=da-dk&brand=dk_livenation&camefrom=amagerbio",
+   "t": "KØB BILLET"
+  },
+  {
+   "h": "https://ab-b.dk/k/zeke/",
+   "t": "NYHED! Zeke"
+  },
+  {
+   "h": "https://www.ticketmaster.dk/event/311629326?language=da-dk&camefrom=amagerbio&brand=dk_beta",
+   "t": "KØB BILLET"
+  },
+  {
+   "h": "https://ab-b.dk/k/dragonforce/",
+   "t": "Dragonforce Special Guests + Support: - Visions of Atlantis - Wings Of Steels"
+  },
+  {
+   "h": "https://www.ticketmaster.dk/event/2025305038?language=da-dk&brand=dk_livenation&camefrom=amagerbio",
+   "t": "KØB BILLET"
+  },
+  {
+   "h": "https://ab-b.dk/k/saga/",
+   "t": "FÅ BILLETTER! Saga"
+  },
+  {
+   "h": "https://www.ticketmaster.dk/event/320919116?language=da-dk&camefrom=amagerbio&brand=dk_atl",
+   "t": "KØB BILLET"
+  },
+  {
+   "h": "https://ab-b.dk/k/ministry/",
+   "t": "Ministry Special guest: - Die Krupps"
+  },
+  {
+   "h": "https://www.ticketmaster.dk/event/1196569191?language=da-dk&brand=dk_livenation",
+   "t": "KØB BILLET"
+  },
+  {
+   "h": "https://ab-b.dk/k/james-marriott/",
+   "t": "James Marriott"
+  },
+  {
+   "h": "https://www.ticketmaster.dk/event/2070947707?language=da-dk&brand=dk_livenation&camefrom=amagerbio",
+   "t": "KØB BILLET"
+  },
+  {
+   "h": "https://ab-b.dk/k/danser-med-drenge/",
+   "t": "Danser Med Drenge – En sidste svingom"
+  },
+  {
+   "h": "https://www.ticketmaster.dk/event/1545123612?language=da-dk&camefrom=amagerbio&brand=dk_amagerbio",
+   "t": "KØB BILLET"
+  },
+  {
+   "h": "https://ab-b.dk/k/the-pineapple-thief/",
+   "t": "The Pineapple Thief"
+  },
+  {
+   "h": "https://www.ticketmaster.dk/event/1743315404?language=da-dk&brand=dk_atl&camefrom=amagerbio",
+   "t": "KØB BILLET"
+  },
+  {
+   "h": "https://ab-b.dk/k/kovacs/",
+   "t": "NYHED! Kovacs"
+  },
+  {
+   "h": "https://copenhagen.karabas.dk/kovacs-9/",
+   "t": "KØB BILLET"
+  },
+  {
+   "h": "https://ab-b.dk/",
+   "t": "Forsiden"
+  },
+  {
+   "h": "https://ab-b.dk/praktisk-information/",
+   "t": "FAQ"
+  },
+  {
+   "h": "https://ab-b.dk/find-vej-til-amager-bio-og-beta/",
+   "t": "Find os"
+  },
+  {
+   "h": "https://ab-b.dk/kontakt/",
+   "t": "Kontakt"
+  }
+ ]
+}

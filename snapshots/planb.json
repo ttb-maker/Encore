@@ -1,0 +1,8 @@
+{
+ "url": "https://www.planbmalmo.se/",
+ "status": "",
+ "err": "Error: page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.planbmalmo.se/",
+ "finalUrl": "chrome-error://chromewebdata/",
+ "calls": [],
+ "links": []
+}

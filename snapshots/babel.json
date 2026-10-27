@@ -1,0 +1,294 @@
+{
+ "url": "https://babelmalmo.se/",
+ "status": 200,
+ "err": "",
+ "finalUrl": "https://babelmalmo.se/",
+ "calls": [
+  {
+   "url": "https://www.facebook.com/x/oauth/status?client_id=516327951759483&input_token&origin=2&redirect_uri=https%3A%2F%2Fbabelmalmo.se%2F&sdk=joey&wants_cookie_data=false",
+   "method": "GET",
+   "post": "",
+   "status": 200,
+   "ct": "text/plain; charset=UTF-8",
+   "body": ""
+  },
+  {
+   "url": "https://syndication.twitter.com/settings?session_id=c5ee94ccf9de37afe6e5c574fb93d6df618450f7",
+   "method": "GET",
+   "post": "",
+   "status": 200,
+   "ct": "application/json; charset=utf-8",
+   "body": "{\"should_obtain_cookie_consent\":true,\"features\":{\"tfw_timeline_list\":{\"bucket\":[],\"version\":null},\"tfw_follower_count_sunset\":{\"bucket\":true,\"version\":null},\"tfw_tweet_edit_backend\":{\"bucket\":\"on\",\"version\":null},\"tfw_refsrc_session\":{\"bucket\":\"on\",\"version\":null},\"tfw_fosnr_soft_interventions_enabled\":{\"bucket\":\"on\",\"version\":null},\"tfw_mixed_media_15897\":{\"bucket\":\"treatment\",\"version\":null},\"tfw_experiments_cookie_expiration\":{\"bucket\":1209600,\"version\":null},\"tfw_show_birdwatch_pivots_enabled\":{\"bucket\":\"on\",\"version\":null},\"tfw_duplicate_scribes_to_settings\":{\"bucket\":\"on\",\"version\":null},\"tfw_use_profile_image_shape_enabled\":{\"bucket\":\"on\",\"version\":null},\"tfw_video_hls_dynamic_manifests_15082\":{\"bucket\":\"true_bitrate\",\"version\":null},\"tfw_legacy_timeline_sunset\":{\"bucket\":true,\"version\":null},\"tfw_tweet_edit_frontend\":{\"bucket\":\"on\",\"version\":null}}}"
+  },
+  {
+   "url": "https://signup-form-config.markethype.io/signup-forms/635036ac24c1a438b0ca6b0e.json",
+   "method": "GET",
+   "post": "",
+   "status": 200,
+   "ct": "application/octet-stream",
+   "body": "{\"formConfig\":{\"actions\":{},\"translations\":{\"contact:firstName\":\"Förnamn\",\"contact:lastName\":\"Efternamn\",\"contact:gender\":\"Kön\",\"contact:email\":\"E-post\",\"contact:address:city\":\"Stad\",\"contact:address:line1\":\"Adress\",\"contact:address:line2\":\"Adressrad 2\",\"contact:address:zipCode\":\"Postnummer\",\"internal:submit\":\"Skicka\",\"internal:privacyPolicy\":\"Jag vill få e-postutskick med nyheter och erbjudanden, och accepterar att mina personuppgifter behandlas i enlighet med Privacy Policyn\",\"state:onSuccess\":\"<span>Nästan klart! Klicka bara på bekräftelselänken i mailet som kommer strax. Tack för att du vill prenumerera på våra utskick.</span>\",\"state:onError\":\"Hoppsan, något gick fel. Vänligen försök igen\",\"gender:male\":\"Man\",\"gender:female\":\"Kvinna\",\"gender:other\":\"Annat\",\"gender:no-answer\":\"Jag föredrar att inte svara\",\"validation:isRequired\":\"Fältet {label} är obligatoriskt\",\"validation:isEmail\":\"Fältet {label} måste vara en giltig e-postadress\",\"validation:minLength\":\"Fältet {label} måste minst vara {minLength} tecken\",\"validation:maxLength\":\"Fältet {label} får inte vara längre än {maxLength} tecken\",\"validation:minValue\":\"Fältet {label} måste minst vara {minValue}\",\"validation:maxValue\":\"Fältet {label} får inte vara högre än {maxValue}\"},\"items\":[{\"type\":\"string\",\"component\":\"Text\",\"label\":\"\",\"placeholder\":\"Förnamn\",\"field\":\"contact:firstName\",\"validations\":[],\"options\":[],\"hidden\":false},{\"type\":\"string\",\"component\":\"Text\",\"label\":\"\",\"placeholder\":\"Efternamn\",\"field\":\"contact:lastName\",\"validations\":[],\"options\":[],\"hidden\":false},{\"type\":\"string\",\"component\":\"Text\",\"label\":\"\",\"placeholder\":\"E-postadress\",\"field\":\"contact:email\",\"validations\":[{\"name\":\"isRequired\",\"value\":true},{\"name\":\"isEmail\",\"value\":true}],\"options\":[],\"hidden\":false},{\"type\":\"stringList\",\"component\":\"Checkboxes\",\"label\":\"\",\"field\":\"subscriptionTypes\",\"defaultValue\":[\"615eae4e21fb677f9de17367\",\"63452615216bf229d070c4b9\"],\"validations\":[{\"name\":\"isRequired\",\"value\":true}],\"options\":[{\"label\":\"Latest news, product updates, releases and offers\",\"value\":\"615eae4e21fb677f9de17367\",\"hidden\":true},{\"label\":\"Newsletter\",\"value\":\"63452615216bf229d070c4b9\",\"hidden\":true}],\"hidden\":false},{\"type\":\"boolean\",\"component\":\"Checkbox\",\"label\":\"<span>Ja, jag godkänner Babels privacy policy</span>\",\"field\":\"internal:privacyPolicy\",\"validations\":[{\"name\":\"isRequired\",\"value\":true}],\"options\":[],\"hidden\":false},{\"type\":\"content\",\"component\":\"SubmitButton\",\"label\":\"Anmäl mig\",\"field\":\"internal:submit\",\"validations\":[],\"options\":[],\"hidden\":false}],\"styling\":{\"inlineCSS\":\".mhForm, .mhForm * {\\n  -moz-box-sizing: border-box;\\n  -webkit-box-sizing: border-box;\\n  box-sizing: border-box;\\n  background-repeat: no-repeat;\\n  padding: 0;\\n  margin: 0;\\n}\\n\\n.mhForm {\\n  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';\\n  font-size: 14px;\\n}\\n\\n/* Form elements */\\n\\n.mhForm__button {\\n  padding: 11px 20px;\\n  font-size: 14px;\\n  font-weight: 400;\\n  background-color: #3E52FF;\\n  color: #fff;\\n  border: none;\\n  border-radius: 5px;\\n  cursor: pointer;\\n}\\n\\n.mhForm__button:hover {\\n  background-color: #2e41e7;\\n}\\n\\n.mhForm__checkboxLabel,\\n.mhForm__radioLabel {\\n  display: inline-block;\\n  margin-left: 10px;\\n  line-height: 19px;\\n}\\n\\n.mhForm__control {\\n  margin-bottom: 5px;\\n}\\n\\n/* Babel: */\\n  .mhForm__control.mhForm__control--checkbox {\\n    margin-bottom: 15px;\\n  }\\n\\n.mhForm__control--checkboxes {\\n  border: 0;\\n}\\n\\n.mhForm__input {\\n  border-radius: 2px;\\n  border: 1px solid #e0e3e5;\\n}\\n\\n.mhForm__input--checkbox,\\n.mhForm__input--radio {\\n  flex: 0 0 auto;\\n}\\n\\n.mhForm__input--email,\\n.mhForm__input--number,\\n.mhForm__input--text,\\n.mhForm__select {\\n  -webkit-appearance: none;\\n  -moz-appearance: none;\\n  appearance: none;\\n  background-color: #fff;\\n  border-color: #e0e3e5;\\n  border-width: 1px;\\n  border-radius: 3px;\\n  padding: 8px 12px;\\n  font-size: 14px;\\n  line-height: 20px;\\n  width: 100%;\\n}\\n\\n.mhForm__label {\\n  color: #001235;\\n  display: flex;\\n  font-weight: 400;\\n  margin-bottom: 3px;\\n}\\n\\n.mhForm__label--checkbox {\\n  align-items: center;\\n}\\n\\n.mhForm__select {\\n  background: #fff url(\\\"data:image/svg+xml;charset=utf-8,%3C?xml version='1.0' encoding='utf-8'?%3E %3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' height='62.5' width='116.9' fill='%238A919A'%3E %3Cpath d='M115.3,1.6 C113.7,0 111.1,0 109.5,1.6 L58.5,52.7 L7.4,1.6 C5.8,0 3.2,0 1.6,1.6 C0,3.2 0,5.8 1.6,7.4 L55.5,61.3 C56.3,62.1 57.3,62.5 58.4,62.5 C59.4,62.5 60.5,62.1 61.3,61.3 L115.2,7.4 C116.9,5.8 116.9,3.2 115.3,1.6Z'/%3E %3C/svg%3E\\\") calc(100% - 12px) 50% / 12px no-repeat;\\n  padding-right: 35px;\\n  color: inherit;\\n  background-color: #fff;\\n  font-family: inherit;\\n  font-size: inherit;\\n  padding: 10px;\\n}\\n\\n.mhForm__select::-ms-expand {\\n  display: none;\\n}\\n\\n/* Validation */\\n\\n.mhForm__validationError {\\n  margin-top: 5px;\\n  color: #AE3523;\\n}\\n\\n   /* Babel: Validation */\\n\\n   #pagebody p.mhForm__validationError {\\n     margin-top: 10px;\\n     margin-bottom: 5px;\\n   }\\n\\n/* Success and error */\\n\\n.mhForm__error {\\n  background-color: #F9E9E7;\\n  color: #AE3523;\\n  margin-bottom: 20px;\\n}\\n\\n.mhForm__success,\\n.mhForm__error {\\n  padding: 20px;\\n}\\n\\n.mhForm__success {\\n  background-color: #E4F3F0;\\n  color: #2F9782;\\n}\\n\\n.mhForm__success ~ * {\\n  display: none;\\n}\"}},\"language\":\"sv-SE\"}"
+  },
+  {
+   "url": "https://www.google.com/recaptcha/api2/pat?k=6LdIy0waAAAAAODFXd5Zhhfj_QD-koK7DYW9ri30",
+   "method": "POST",
+   "post": "\n(6LdIy0waAAAAAODFXd5Zhhfj_QD-koK7DYW9ri30\u0012\u0018NhfdZHzre16wrc2m6BxEdu7J\u001a�\u000f03AFcWeA7Fran6zNefv6T_Wc2h1V7anUiQNsl9B3uDbavZ6p6Bkxxpg6wQMwVNm-FqJRVgFrMRCYkE_BJoZeeE0LAhJ6zYV9eKK3QNLTH1n5zZrj-q9IsC2zmfboa5PtZy3xzNu4QQiSqjAVrg1UDK-GWSByh-mlQKDTKzSFp0XOp4unraddhZdtzzTJ3mTGw_qBmSAMaSv6baKC6MmeCMIrfWHWMBYHG3rvUvwR6NgMlSZMXarwNduKKHZmo5anezPuVLQ10UL4SNndkA_FluQKmwD8VEvrL_5vfKPqPIE2d5IFe7Mb6nRetiwxWJunl_NFcnjFVen7DqYsdOOXAQ9aJd_CcKT0yQOgixANKuj5jQfcscSTErvmW4sHTZkLj9EGkEx0xFz-z1DwZ2FniYmE4Q1tU83lQbXuteBgXf_VrRrSLN27FQodq1l_4HgDnQzn1qAIa4GJWC6rDpsDusC-08F9eA6qTCIREpnZG9NnenAuh6cs7X_SSSo8wLP-iA9CuRMa22YkOi_uuReH8Xq45RF4HEqv6IJMrbGrSv7xQ_wSG06kmI2uymXLt1Zohi_ZYtj99of6v4pd1XvsljhlDCHf9a4IKNEXE6TInRKXRZMxzVLMJfLLAuVNcDAQYXlRjVtllq8PLDO_HKVAQNDL_jEF9NeDQEnvD1OxUeMhrihSmsxrUSVAwcHzdmubX78rgRY9nbT1pcJIWaoDIxRJ6UOfkCGaBsvWDp8GwsZyB1XR3jxucuuqy7K0fGma9tHk0aZJkSLJCeyy6MuKCyutr-wtMN6oaO_HRCOQrjiu6EzPciUK3DCjH4JYzGoNYqlbosT83hIIbvU7zR1XPGrVo4JPE1XuEtJkhrCcocwGiG8cJGuuUIpbMwpiBGp_sBPuD_iM0gK44YSeywNJXCtonlL0itXIdFtwX9hb7olNX3ViHSOKJUpoBwUfRFkQn2WYp1SdCGqMCFQ4VnpZaaslbO9lgsxeJezrwxFyMVeKA1WWSuG-wamUG9gzrfZ2tzZPmAYRtFgqurDKew3eAP-3SjP7REG9tL7o2m7AVj4IoDnK2BXLxEup2MlCxRJRmS5BlHheUT2-lzw5EAsRsmpp75qX-vFjx7tLH090LdyBWyLwr-JAurkeIyF80J-1RHFw8sMSnhH3t45FR20xS7YigLuUFVXFLRsIXYTFPNH_1yb5e3mDJNKyyTdsU2H2h_BUbmROtuL4YOpSgNG1YPoLoP3gXKjSytSBRntjp4woNTCRvfGzGSQF0Eq_oYw17rJFb9QLrZRKgAlWsLMw4RxPk5-euZ-nhomhEDot0PVAQbtR634MLUwOgVEW4zmrJ8P7LjQZ9GWFheL-v_KGfwBF--ND4lvkAC8k1Iiz5PgBf1ZAchAzxRZv9sFA-yoLSpIQcb43m-_-iur0UpAhyFm8pCfy68oCjeF5xXn7iUXTshKR6SJGMFp53rkISgc1K46X-_kvqGXXijqcFw8E406LC-E_5b_hcP7_B68V8pkrOKG10McQfCe6BLRICwlR8pT1fnjLy_AktS3mHqCoL1xt9OPS4UI3BuTsjCnFGkI9_tPwg3ubfvKcmE_3QGoGEQVyucRdH_NGWsryFYRCgqJ6_q9wNG1-pSJPyOD0r0Hz3n505JOon_QZx6fP9ANbkfoIJiOS0G-9GviDaJ_CImlXqfPh6lfMnF0SQ_uIPWKPaTy_ASJy0qpdPlhasAsz6a3dC04ubeM6qulvDBfcp9KO3o_hSDB8BM8E9eVhzZo6A9UT2rjFDHWDUMnxLtJ6qSA4q5AUYCInyYTdPDakbyWXuQkrC0FZceiEoefyr8udAvKt4cnKofeZEiJTPQPSVPV72SwzEUb78e9gQ2lcb4kWv-7btnnoRnYVDyfUd-yzXcn6C73AmaujaZtyGGEguqVjlHmku\n…[afkortet]",
+   "status": 401,
+   "ct": "application/binary",
+   "body": ""
+  },
+  {
+   "url": "https://babelmalmo.se/cdn-cgi/rum?",
+   "method": "POST",
+   "post": "{\"startTime\":1793091766222,\"pageloadId\":\"e870fb66-5f03-458e-bb9f-150a3967afc0\",\"eventType\":1,\"nt\":\"navigate\",\"location\":\"https://babelmalmo.se/\",\"versions\":{\"fl\":\"2024.11.0\",\"js\":\"2026.10.1\",\"timings\":2},\"bi\":{\"be\":\"WebKit\",\"bev\":\"605.1\",\"bv\":\"18.0\",\"ov\":\"18.0\"},\"memory\":{\"totalJSHeapSize\":31200000,\"usedJSHeapSize\":23100000,\"jsHeapSizeLimit\":3760000000},\"firstPaint\":2613,\"firstContentfulPaint\":2691,\"timingsV2\":{\"nextHopProtocol\":\"h2\",\"domainLookupStart\":2,\"domainLookupEnd\":18,\"connectStart\":18,\"connectEnd\":28,\"secureConnectionStart\":20,\"requestStart\":28,\"responseStart\":1320,\"responseEnd\":1322,\"domInteractive\":3639,\"domComplete\":4524,\"loadEventStart\":4524,\"loadEventEnd\":4524,\"firstInterimResponseStart\":0,\"transferSize\":19399,\"decodedBodySize\":110890},\"siteToken\":\"6d0a906334894961a2ec9cfd87956c72\",\"st\":2}",
+   "status": 204,
+   "ct": "text/plain",
+   "body": ""
+  },
+  {
+   "url": "https://www.google.com/recaptcha/api2/reload?k=6LdIy0waAAAAAODFXd5Zhhfj_QD-koK7DYW9ri30",
+   "method": "POST",
+   "post": "\n\u0018NhfdZHzre16wrc2m6BxEdu7J\u0012�\u000f03AFcWeA7Fran6zNefv6T_Wc2h1V7anUiQNsl9B3uDbavZ6p6Bkxxpg6wQMwVNm-FqJRVgFrMRCYkE_BJoZeeE0LAhJ6zYV9eKK3QNLTH1n5zZrj-q9IsC2zmfboa5PtZy3xzNu4QQiSqjAVrg1UDK-GWSByh-mlQKDTKzSFp0XOp4unraddhZdtzzTJ3mTGw_qBmSAMaSv6baKC6MmeCMIrfWHWMBYHG3rvUvwR6NgMlSZMXarwNduKKHZmo5anezPuVLQ10UL4SNndkA_FluQKmwD8VEvrL_5vfKPqPIE2d5IFe7Mb6nRetiwxWJunl_NFcnjFVen7DqYsdOOXAQ9aJd_CcKT0yQOgixANKuj5jQfcscSTErvmW4sHTZkLj9EGkEx0xFz-z1DwZ2FniYmE4Q1tU83lQbXuteBgXf_VrRrSLN27FQodq1l_4HgDnQzn1qAIa4GJWC6rDpsDusC-08F9eA6qTCIREpnZG9NnenAuh6cs7X_SSSo8wLP-iA9CuRMa22YkOi_uuReH8Xq45RF4HEqv6IJMrbGrSv7xQ_wSG06kmI2uymXLt1Zohi_ZYtj99of6v4pd1XvsljhlDCHf9a4IKNEXE6TInRKXRZMxzVLMJfLLAuVNcDAQYXlRjVtllq8PLDO_HKVAQNDL_jEF9NeDQEnvD1OxUeMhrihSmsxrUSVAwcHzdmubX78rgRY9nbT1pcJIWaoDIxRJ6UOfkCGaBsvWDp8GwsZyB1XR3jxucuuqy7K0fGma9tHk0aZJkSLJCeyy6MuKCyutr-wtMN6oaO_HRCOQrjiu6EzPciUK3DCjH4JYzGoNYqlbosT83hIIbvU7zR1XPGrVo4JPE1XuEtJkhrCcocwGiG8cJGuuUIpbMwpiBGp_sBPuD_iM0gK44YSeywNJXCtonlL0itXIdFtwX9hb7olNX3ViHSOKJUpoBwUfRFkQn2WYp1SdCGqMCFQ4VnpZaaslbO9lgsxeJezrwxFyMVeKA1WWSuG-wamUG9gzrfZ2tzZPmAYRtFgqurDKew3eAP-3SjP7REG9tL7o2m7AVj4IoDnK2BXLxEup2MlCxRJRmS5BlHheUT2-lzw5EAsRsmpp75qX-vFjx7tLH090LdyBWyLwr-JAurkeIyF80J-1RHFw8sMSnhH3t45FR20xS7YigLuUFVXFLRsIXYTFPNH_1yb5e3mDJNKyyTdsU2H2h_BUbmROtuL4YOpSgNG1YPoLoP3gXKjSytSBRntjp4woNTCRvfGzGSQF0Eq_oYw17rJFb9QLrZRKgAlWsLMw4RxPk5-euZ-nhomhEDot0PVAQbtR634MLUwOgVEW4zmrJ8P7LjQZ9GWFheL-v_KGfwBF--ND4lvkAC8k1Iiz5PgBf1ZAchAzxRZv9sFA-yoLSpIQcb43m-_-iur0UpAhyFm8pCfy68oCjeF5xXn7iUXTshKR6SJGMFp53rkISgc1K46X-_kvqGXXijqcFw8E406LC-E_5b_hcP7_B68V8pkrOKG10McQfCe6BLRICwlR8pT1fnjLy_AktS3mHqCoL1xt9OPS4UI3BuTsjCnFGkI9_tPwg3ubfvKcmE_3QGoGEQVyucRdH_NGWsryFYRCgqJ6_q9wNG1-pSJPyOD0r0Hz3n505JOon_QZx6fP9ANbkfoIJiOS0G-9GviDaJ_CImlXqfPh6lfMnF0SQ_uIPWKPaTy_ASJy0qpdPlhasAsz6a3dC04ubeM6qulvDBfcp9KO3o_hSDB8BM8E9eVhzZo6A9UT2rjFDHWDUMnxLtJ6qSA4q5AUYCInyYTdPDakbyWXuQkrC0FZceiEoefyr8udAvKt4cnKofeZEiJTPQPSVPV72SwzEUb78e9gQ2lcb4kWv-7btnnoRnYVDyfUd-yzXcn6C73AmaujaZtyGGEguqVjlHmku811D2*\n20740223542\u0001qB\bhomepager(6LdIy0waAA\n…[afkortet]",
+   "status": 200,
+   "ct": "application/json; charset=utf-8",
+   "body": ")]}'\n[\"rresp\",\"0cAFcWeA6vvfs4IpDbQSy1bj-FOBAku3mZmPm4TEu4nOcRNSNEAbW64tSVwxwSpcMW2kdz2JQEltqHLXpCr8dz_0oD3LpGswMbFsBp1Wv7eYmctyHWP_W1CeYCxSe8vO7m-A4dBpfd86NRGfp597UlC4g-CytENMTpfFa4GR90TVNJRRjaUfHjbVmcKaAxX7vFrg_0opQs3P23HVPMB3t4KeZ1Pov6QqAq6VsKvB6S0fDh_J3gfA7BmhnE99HNljlAny9w98zxXZB03OFPznd21CuN3dTIyrGV6f4heccXRRS6Kb_7aKbA4QZS3wJ9PER35Ub1o1XGvEcFb31802AIcntTPo6GGfcO-e4TEtNeU2hahgCkcXKccL_Bi5n6ImS2bI3UcsPohqstL_D-38TKv9ahGCV7694rlJV_AKDl7adzx4vh-16_-nkEVJFsSSMw6rKa-kHuCaLc1p5Qpmz8WEoYlv4Nv1IOzNybu-cca6sVva6cjIWmtSUp5t9p6sIvQNLOeMZZZQ46oq_fhKktkqWbDODRrFAJFxbCe1p_REozDoUJLRY6zB1Em7U2N65q8rqPcLLRrtAW-482E5NJ_Ah-zTr01ZTANCkdwpn6VccsWKllIsmHY1pJpoqZ8ZgRN2lgVRsNVyV47EmHCRsw-dGghj1BIPTIMpV9DtIQYB5wilCksGL9GhW4O6WfAisxBRQaM3aALzJNCup_nbhRX1vGOac-UBS2ErolPwDGgQgP4G-LnShMCI0vcvS54aw1YLWntVxl5wjzyImURk1Ziv-j04JWJ46T4Q59KGB3oiU7rGL9X5Bgn52ySNeqRjbEWs017zgVTz0R9vXZynNH4elSH0uODBicL0T0FBhfF_LQo2OqHdL0_B9_CEwpLTC4QIAqzcDzT-aqEI4jyn7Lem_xfUmEPf7GyyywzkiEIEB9zgD4BJniSGesvl1HZuy0WoterVH1YI8Ihp3yTzbqSdOhSGzUpuejpaBjWsHGcQlienUGrpgoyUcm8r09L-q61GPrg5sqNvCMK7JSLW2PtyqTYKIKwpVVYbvqwd7vSFfokfhjsvwMb_T5r1fhbos2J-d2BK73JL0QTvGR1EV9VLkb6Zmao3sPKr3kVaqcVwRCTBIDUyq8YxwDMe5xFe8s5M_UAzqW1zPoUh6xQIKc5BFiPqWli2ixJvHtMZGTsrOizyOf4RnfdN0vdho5AGQ05bTm1l5lowR1aZSOmVr9J_H4CzPKJa3ZomiBh7MFfdrKhSmV9XpAMJ3kk5bdRBsyE08qzo76ZxzJ9pKGa7VOGv08e6oSkEL3yTmHcEtKDj_8DxhNmeq4MGimcQum9EYDnT9yODeP5mogbPvYYOlxLdYMpdpp0LILE9pc1Rtd5R3I4ReMOYrJm0PzT5h4tcsvb0irCIVoOw_P\",null,120,null,null,null,null,\"05AL5IAHbGX7oHU7ZlmkI5PTTLiT1qlzD2dSECMVLI7Wx6q-aozNJkxc0Q7vk9XGg8LvOMBFx9OAvV5APElc9V7ReVzK9xP0wfNfF3ZenHYh0p2sRptW3pMATH3mZs3aCxYYgFEXdu1CAe3t1wvtasobu5LIo2Ng9mqHwVvh76LxYl6Z3suUjZ44NMETNw5eM7omdGgPQ1WhLKW4F86YDpPlftKJtJa44kWMt3imyj15LLs-viKuENh0iZsZY9ZyKr_fuk\",null,null,null,\"09AKhCRwjTBySjA-utpzIWqUBCQONmorWLT9Si415CGXDBsmDe8tDCyjgsNUu1bQC5PHbREoD_KpJNLqe-IjfSfR1Yg0bAHf7e_WGEfS4nWXGLYikgrnI_tv3_Md_6tr-d\",null,\"0aAL5IAHaA4J1hP4Z4b-Dwb8rjb23FXmfB-_SrMJ1KI58xCWAHp3O4Wk5HGOf2Hg0myXMfkh4\",\"0bAIrSj1so3Pd_PoMA8FIP11C2yKxgpjbwNp3Qi4Wqu7vYYDhjcxGS55Y5gWbiR7HHv6L9nZaayA\",0]"
+  },
+  {
+   "url": "https://www.google.com/recaptcha/api2/clr?k=6LdIy0waAAAAAODFXd5Zhhfj_QD-koK7DYW9ri30",
+   "method": "POST",
+   "post": "\n(6LdIy0waAAAAAODFXd5Zhhfj_QD-koK7DYW9ri30\u0012�\u000f03AFcWeA7Fran6zNefv6T_Wc2h1V7anUiQNsl9B3uDbavZ6p6Bkxxpg6wQMwVNm-FqJRVgFrMRCYkE_BJoZeeE0LAhJ6zYV9eKK3QNLTH1n5zZrj-q9IsC2zmfboa5PtZy3xzNu4QQiSqjAVrg1UDK-GWSByh-mlQKDTKzSFp0XOp4unraddhZdtzzTJ3mTGw_qBmSAMaSv6baKC6MmeCMIrfWHWMBYHG3rvUvwR6NgMlSZMXarwNduKKHZmo5anezPuVLQ10UL4SNndkA_FluQKmwD8VEvrL_5vfKPqPIE2d5IFe7Mb6nRetiwxWJunl_NFcnjFVen7DqYsdOOXAQ9aJd_CcKT0yQOgixANKuj5jQfcscSTErvmW4sHTZkLj9EGkEx0xFz-z1DwZ2FniYmE4Q1tU83lQbXuteBgXf_VrRrSLN27FQodq1l_4HgDnQzn1qAIa4GJWC6rDpsDusC-08F9eA6qTCIREpnZG9NnenAuh6cs7X_SSSo8wLP-iA9CuRMa22YkOi_uuReH8Xq45RF4HEqv6IJMrbGrSv7xQ_wSG06kmI2uymXLt1Zohi_ZYtj99of6v4pd1XvsljhlDCHf9a4IKNEXE6TInRKXRZMxzVLMJfLLAuVNcDAQYXlRjVtllq8PLDO_HKVAQNDL_jEF9NeDQEnvD1OxUeMhrihSmsxrUSVAwcHzdmubX78rgRY9nbT1pcJIWaoDIxRJ6UOfkCGaBsvWDp8GwsZyB1XR3jxucuuqy7K0fGma9tHk0aZJkSLJCeyy6MuKCyutr-wtMN6oaO_HRCOQrjiu6EzPciUK3DCjH4JYzGoNYqlbosT83hIIbvU7zR1XPGrVo4JPE1XuEtJkhrCcocwGiG8cJGuuUIpbMwpiBGp_sBPuD_iM0gK44YSeywNJXCtonlL0itXIdFtwX9hb7olNX3ViHSOKJUpoBwUfRFkQn2WYp1SdCGqMCFQ4VnpZaaslbO9lgsxeJezrwxFyMVeKA1WWSuG-wamUG9gzrfZ2tzZPmAYRtFgqurDKew3eAP-3SjP7REG9tL7o2m7AVj4IoDnK2BXLxEup2MlCxRJRmS5BlHheUT2-lzw5EAsRsmpp75qX-vFjx7tLH090LdyBWyLwr-JAurkeIyF80J-1RHFw8sMSnhH3t45FR20xS7YigLuUFVXFLRsIXYTFPNH_1yb5e3mDJNKyyTdsU2H2h_BUbmROtuL4YOpSgNG1YPoLoP3gXKjSytSBRntjp4woNTCRvfGzGSQF0Eq_oYw17rJFb9QLrZRKgAlWsLMw4RxPk5-euZ-nhomhEDot0PVAQbtR634MLUwOgVEW4zmrJ8P7LjQZ9GWFheL-v_KGfwBF--ND4lvkAC8k1Iiz5PgBf1ZAchAzxRZv9sFA-yoLSpIQcb43m-_-iur0UpAhyFm8pCfy68oCjeF5xXn7iUXTshKR6SJGMFp53rkISgc1K46X-_kvqGXXijqcFw8E406LC-E_5b_hcP7_B68V8pkrOKG10McQfCe6BLRICwlR8pT1fnjLy_AktS3mHqCoL1xt9OPS4UI3BuTsjCnFGkI9_tPwg3ubfvKcmE_3QGoGEQVyucRdH_NGWsryFYRCgqJ6_q9wNG1-pSJPyOD0r0Hz3n505JOon_QZx6fP9ANbkfoIJiOS0G-9GviDaJ_CImlXqfPh6lfMnF0SQ_uIPWKPaTy_ASJy0qpdPlhasAsz6a3dC04ubeM6qulvDBfcp9KO3o_hSDB8BM8E9eVhzZo6A9UT2rjFDHWDUMnxLtJ6qSA4q5AUYCInyYTdPDakbyWXuQkrC0FZceiEoefyr8udAvKt4cnKofeZEiJTPQPSVPV72SwzEUb78e9gQ2lcb4kWv-7btnnoRnYVDyfUd-yzXcn6C73AmaujaZtyGGEguqVjlHmku811D2\u001a\u0018NhfdZHzre16wrc2m6Bx\n…[afkortet]",
+   "status": 200,
+   "ct": "application/binary",
+   "body": ""
+  }
+ ],
+ "links": [
+  {
+   "h": "https://babelmalmo.se/",
+   "t": "PROGRAM"
+  },
+  {
+   "h": "https://babelmalmo.se/program/konsert",
+   "t": "KONSERT"
+  },
+  {
+   "h": "https://babelmalmo.se/program/klubb",
+   "t": "KLUBB"
+  },
+  {
+   "h": "https://babelmalmo.se/program/scen",
+   "t": "SCEN"
+  },
+  {
+   "h": "https://babelmalmo.se/mat-dryck/",
+   "t": "MAT & DRYCK"
+  },
+  {
+   "h": "https://babelmalmo.se/biljetter/",
+   "t": "BILJETTER"
+  },
+  {
+   "h": "https://babelmalmo.se/bilder/",
+   "t": "BILDER"
+  },
+  {
+   "h": "https://babelmalmo.se/om-babel/",
+   "t": "OM BABEL"
+  },
+  {
+   "h": "https://babelmalmo.se/hyr-babel/",
+   "t": "Hyr Babel"
+  },
+  {
+   "h": "https://babelmalmo.se/om-babel/kontakt/",
+   "t": "Kontakta Babel"
+  },
+  {
+   "h": "https://babelmalmo.se/om-babel/mer-information/",
+   "t": "Mer om Babel"
+  },
+  {
+   "h": "https://babelmalmo.se/om-babel/tidigare-bokningar/",
+   "t": "Tidigare bokningar"
+  },
+  {
+   "h": "https://babelmalmo.se/bilder/",
+   "t": "Bildgalleri"
+  },
+  {
+   "h": "https://babelmalmo.se/om-babel/hitta-hit/",
+   "t": "Hitta hit"
+  },
+  {
+   "h": "https://babelmalmo.se/hyr-babel/",
+   "t": "HYR BABEL"
+  },
+  {
+   "h": "https://babelmalmo.se/nyheter/livets-lirare-till-folkets-park/",
+   "t": "Livets Lirare till Folkets Park"
+  },
+  {
+   "h": "https://babelmalmo.se/nyheter/livets-lirare-till-folkets-park/",
+   "t": "Läs mer →"
+  },
+  {
+   "h": "https://babelmalmo.se/nyheter/erik-lundin-ar-tillbaka/",
+   "t": "Erik Lundin är tillbaka!"
+  },
+  {
+   "h": "https://babelmalmo.se/nyheter/erik-lundin-ar-tillbaka/",
+   "t": "Läs mer →"
+  },
+  {
+   "h": "https://babelmalmo.se/nyheter/hannes-aitman-kommer-tillbaka-till-babel/",
+   "t": "Hannes Aitman kommer tillbaka till Babel"
+  },
+  {
+   "h": "https://babelmalmo.se/nyheter/hannes-aitman-kommer-tillbaka-till-babel/",
+   "t": "Läs mer →"
+  },
+  {
+   "h": "https://babelmalmo.se/nyheter/junior-brielle-gor-aterforeningsturne/",
+   "t": "Junior Brielle gör Återföreningsturné"
+  },
+  {
+   "h": "https://babelmalmo.se/nyheter/junior-brielle-gor-aterforeningsturne/",
+   "t": "Läs mer →"
+  },
+  {
+   "h": "https://babelmalmo.se/nyheter/tomas-andersson-wij-i-stjohannes-kyrka/",
+   "t": "Tomas Andersson Wij i St:Johannes Kyrka"
+  },
+  {
+   "h": "https://babelmalmo.se/nyheter/tomas-andersson-wij-i-stjohannes-kyrka/",
+   "t": "Läs mer →"
+  },
+  {
+   "h": "https://babelmalmo.se/kategori/nyheter",
+   "t": "Läs alla nyheter →"
+  },
+  {
+   "h": "https://babelmalmo.se/261021-krismote/",
+   "t": "261021 : Krismöte!"
+  },
+  {
+   "h": "https://babelmalmo.se/261021-krismote/#more-51098",
+   "t": "LÄS MER →"
+  },
+  {
+   "h": "https://babelmalmo.se/261023-krismote/",
+   "t": "261023 : Krismöte!"
+  },
+  {
+   "h": "https://babelmalmo.se/261023-krismote/#more-51102",
+   "t": "LÄS MER →"
+  },
+  {
+   "h": "https://babelmalmo.se/261025-krismote/",
+   "t": "261025 : Krismöte!"
+  },
+  {
+   "h": "https://babelmalmo.se/261025-krismote/#more-51104",
+   "t": "LÄS MER →"
+  },
+  {
+   "h": "https://babelmalmo.se/261029-killer-clan-of-f-u-n-bojeng-destructive-noise/",
+   "t": "261029 : Killer Clan of F.U.N + BOJENG + Destructive Noise"
+  },
+  {
+   "h": "https://babelmalmo.se/261029-killer-clan-of-f-u-n-bojeng-destructive-noise/#more-51117",
+   "t": "LÄS MER →"
+  },
+  {
+   "h": "https://babelmalmo.se/261105-zenstation/",
+   "t": "261105 : Zenstation"
+  },
+  {
+   "h": "https://babelmalmo.se/261105-zenstation/#more-51032",
+   "t": "LÄS MER →"
+  },
+  {
+   "h": "https://babelmalmo.se/261111-oslipat/",
+   "t": "261111: Oslipat"
+  },
+  {
+   "h": "https://babelmalmo.se/261111-oslipat/#more-51082",
+   "t": "LÄS MER →"
+  },
+  {
+   "h": "https://babelmalmo.se/261112-late-night-comedy/",
+   "t": "261112 : Late Night Comedy"
+  },
+  {
+   "h": "https://babelmalmo.se/261112-late-night-comedy/#more-51106",
+   "t": "LÄS MER →"
+  },
+  {
+   "h": "https://babelmalmo.se/261121-the-boyband/",
+   "t": "261121 : The Boyband"
+  },
+  {
+   "h": "https://babelmalmo.se/261121-the-boyband/#more-51013",
+   "t": "LÄS MER →"
+  },
+  {
+   "h": "https://babelmalmo.se/261124-tyr-twilight-force-dragonland-vanaheim/",
+   "t": "261124 : Týr / Twilight Force / Dragonland / Vanaheim"
+  },
+  {
+   "h": "https://babelmalmo.se/261124-tyr-twilight-force-dragonland-vanaheim/#more-51019",
+   "t": "LÄS MER →"
+  },
+  {
+   "h": "https://babelmalmo.se/261204-uld-till-babel/",
+   "t": "261204 : ULD till Babel"
+  },
+  {
+   "h": "https://babelmalmo.se/261204-uld-till-babel/#more-50977",
+   "t": "LÄS MER →"
+  },
+  {
+   "h": "https://babelmalmo.se/261205-post-x-post/",
+   "t": "261205 : POST-X-POST"
+  },
+  {
+   "h": "https://babelmalmo.se/261205-post-x-post/#more-50982",
+   "t": "LÄS MER →"
+  },
+  {
+   "h": "https://babelmalmo.se/261217-hubris/",
+   "t": "261217 : Hubris"
+  },
+  {
+   "h": "https://babelmalmo.se/261217-hubris/#more-51038",
+   "t": "LÄS MER →"
+  },
+  {
+   "h": "https://babelmalmo.se/261114-sofia-thelin-the-thesaurus/",
+   "t": "270306 : Sofia Thelin & Thesaurus"
+  },
+  {
+   "h": "https://babelmalmo.se/261114-sofia-thelin-the-thesaurus/#more-51064",
+   "t": "LÄS MER →"
+  },
+  {
+   "h": "https://forms.markethype.io/share/635036a224c1a438b0ca6b0d",
+   "t": "Anmäl dig till vårt nyhetsbrev!"
+  },
+  {
+   "h": "https://babelmalmo.se/grammofon/mini/",
+   "t": "Lyssna i ett nytt fönster"
+  },
+  {
+   "h": "https://instagram.com/babelmalmo?ref=badge",
+   "t": "Följ @babelmalmo"
+  },
+  {
+   "h": "https://babelmalmo.se/program/arkiv",
+   "t": "Bläddra i vårt programarkiv"
+  },
+  {
+   "h": "https://babelmalmo.se/",
+   "t": "Babel"
+  }
+ ]
+}

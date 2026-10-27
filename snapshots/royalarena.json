@@ -1,0 +1,914 @@
+{
+ "url": "https://www.royalarena.dk/events",
+ "status": "",
+ "err": "TimeoutError: page.goto: Timeout 45000ms exceeded.",
+ "finalUrl": "https://www.royalarena.dk/shows",
+ "calls": [
+  {
+   "url": "https://global.ketchcdn.com/web/v3/ip",
+   "method": "GET",
+   "post": "",
+   "status": 200,
+   "ct": "application/json",
+   "body": "{\"location\":{\"countryCode\":\"US\",\"regionCode\":\"CA\"}}"
+  },
+  {
+   "url": "https://global.ketchcdn.com/web/v3/config/live_nation/royalarena_dk/production/usa/da-DK/config.json?hash=6157682531010302550",
+   "method": "GET",
+   "post": "",
+   "status": 200,
+   "ct": "application/json",
+   "body": "{\"id\":\"bGl2ZV9uYXRpb24vcm95YWxhcmVuYV9kay9wcm9kdWN0aW9uL3VzYS9kYS8xNzkzMDg0NjMw\",\"canonicalPurposes\":{\"analytics\":{\"code\":\"analytics\",\"name\":\"analytics\",\"purposeCodes\":[\"C0002\"]},\"behavioral_advertising\":{\"code\":\"behavioral_advertising\",\"name\":\"behavioral_advertising\",\"purposeCodes\":[\"C0004\",\"tcf_purpose_2\",\"tcf_purpose_7\",\"tcf_purpose_9\",\"tcf_purpose_10\"]},\"essential_services\":{\"code\":\"essential_services\",\"name\":\"essential_services\",\"purposeCodes\":[\"C0001\"]},\"personalization\":{\"code\":\"personalization\",\"name\":\"personalization\",\"purposeCodes\":[\"C0003\"]}},\"dataSubjectTypes\":[{\"code\":\"customer\",\"name\":\"Kunde\"}],\"deployment\":{\"code\":\"iab_deployment_plan\",\"version\":1792105164,\"featureVersion\":\"v2\",\"ruleExecutionSetting\":\"single_rule\"},\"environment\":{\"code\":\"production\",\"hash\":\"15241618589615433133\",\"pattern\":\"Lio=\"},\"formTemplates\":[{\"code\":\"default\",\"id\":\"31SBbOK7PoMFgKpD0b2XVZ\",\"name\":\"Default Form\",\"sections\":[{\"formFields\":[{\"category\":\"default\",\"id\":\"31SBbNEXCe2Peh5v7leQVH\",\"label\":\"Anmod om anmodninger\",\"maxLength\":512,\"name\":\"description\",\"type\":\"text\",\"variant\":\"textarea\",\"width\":\"full\"}]},{\"formFields\":[{\"category\":\"default\",\"id\":\"31SBbNLRCcCEE60gXaqY7h\",\"label\":\"Fornavn\",\"maxLength\":256,\"name\":\"firstName\",\"required\":true,\"type\":\"text\",\"variant\":\"input\",\"width\":\"half\"},{\"category\":\"default\",\"id\":\"31SBbOEeX7oNHMIMKkMuvg\",\"label\":\"Efternavn\",\"maxLength\":256,\"name\":\"lastName\",\"required\":true,\"type\":\"text\",\"variant\":\"input\",\"width\":\"half\"},{\"category\":\"default\",\"id\":\"31SBbN5LtrS5sOWg79BujL\",\"identitySpaceCode\":\"email\",\"label\":\"E-mail\",\"maxLength\":256,\"name\":\"email\",\"required\":true,\"type\":\"text\",\"variant\":\"input\",\"width\":\"half\"},{\"category\":\"default\",\"id\":\"31SBbNWdRaoMnpg1mmMEOD\",\"label\":\"Land\",\"name\":\"country\",\"options\":[{\"label\":\"United States\",\"value\":\"US\"},{\"label\":\"Afghanistan\",\"value\":\"AF\"},{\"label\":\"Albania\",\"value\":\"AL\"},{\"label\":\"Algeria\",\"value\":\"DZ\"},{\"label\":\"Andorra\",\"value\":\"AD\"},{\"label\":\"Angola\",\"value\":\"AO\"},{\"label\":\"Antigua and Barbuda\",\"value\":\"AG\"},{\"label\":\"Argentina\",\"value\":\"AR\"},{\"label\":\"Armenia\",\"value\":\"AM\"},{\"label\":\"Australia\",\"value\":\"AU\"},{\"label\":\"Austria\",\"value\":\"AT\"},{\"label\":\"Azerbaijan\",\"value\":\"AZ\"},{\"label\":\"Bahamas\",\"value\":\"BS\"},{\"label\":\"Bahrain\",\"value\":\"BH\"},{\"label\":\"Bangladesh\",\"value\":\"BD\"},{\"label\":\"Barbados\",\"value\":\"BB\"},{\"label\":\"Belarus\",\"value\":\"BY\"},{\"label\":\"Belgium\",\"value\":\"BE\"},{\"label\":\"Belize\",\"value\":\"BZ\"},{\"label\":\"Benin\",\"value\":\"BJ\"},{\"label\":\"Bhutan\",\"value\":\"BT\"},{\"label\":\"Bolivia\",\"value\":\"BO\"},{\"label\":\"Bosnia and Herzegovina\",\"value\":\"BA\"},{\"label\":\"Botswana\",\"value\":\"BW\"},{\"label\":\"Brazil\",\"value\":\"BR\"},{\"label\":\"Brunei Darussalam\",\"value\":\"BN\"},{\"label\":\"Bulgaria\",\"value\":\"BG\"},{\"label\":\"Burkina Faso\",\"value\":\"BF\"},{\"label\":\"Burundi\",\"value\":\"BI\"},{\"label\":\"Cambodia\",\"value\":\"KH\"},{\"label\":\"Cameroon\",\"value\":\"CM\"},{\"label\":\"Canada\",\"value\":\"CA\"},{\"label\":\"Cape Verde\",\"value\":\"CV\"},{\"label\":\"Central African Republic\",\"value\":\"CF\"},{\"label\":\"Chad\",\"value\":\"TD\"},{\"label\":\"Chile\",\"value\":\"CL\"},{\"label\":\"China\",\"value\":\"CN\"},{\"label\":\"Colombia\",\"value\":\"CO\"},{\"label\":\"Comoros\",\"value\":\"KM\"},{\"label\":\"Republic of the Congo\",\"value\":\"CG\"},{\"label\":\"Costa Rica\",\"value\":\"CR\"},{\"label\":\"Cote d'Ivoire\",\"value\":\"CI\"},{\"label\":\"Croatia\",\"value\":\"HR\"},{\"label\":\"Cyprus\",\"value\":\"CY\"},{\"label\":\"Czech Republic\",\"value\":\"CZ\"},{\"label\":\"Democratic Republic of the Congo\",\"value\":\"CD\"},{\"label\":\"Denmark\",\"value\":\"DK\"},{\"label\":\"Djibouti\",\"value\":\"DJ\"},{\"label\":\"Dominica\",\"value\":\"DM\"},{\"label\":\"Dominican Republic\",\"value\":\"DO\"},{\"label\":\"Ecuador\",\"value\":\"EC\"},{\"label\":\"Egypt\",\"value\":\"EG\"},{\"label\":\"El Salvador\",\"value\":\"SV\"},{\"label\":\"Equatorial Guinea\",\"value\":\"GQ\"},{\"label\":\"Eritrea\",\"value\":\"ER\"},{\"label\":\"Estonia\",\"value\":\"EE\"},{\"label\":\"Ethiopia\",\"value\":\"ET\"},{\"label\":\"Fiji\",\"value\":\"FJ\"},{\"label\":\"Finland\",\"value\":\"FI\"},{\"label\":\"France\",\"value\":\"FR\"},{\"label\":\"Gabon\",\"value\":\"GA\"},{\"label\":\"Gambia\",\"value\":\"GM\"},{\"label\":\"Georgia\",\"value\":\"GE\"},{\"label\":\"Germany\",\"value\":\"DE\"},{\"label\":\"Ghana\",\"value\":\"GH\"},{\"label\":\"Greece\",\"value\":\"GR\"},{\"label\":\"Grenada\",\"value\":\"GD\"},{\"label\":\"Guatemala\",\"value\":\"GT\"},{\"label\":\"Guinea\",\"value\":\"GN\"},{\"label\":\"Guinea-Bissau\",\"value\":\"GW\"},{\"label\":\"Guyana\",\"value\":\"GY\"},{\"label\":\"Haiti\",\"value\":\"HT\"},{\"label\":\"Honduras\",\"value\":\"HN\"},{\"label\":\"Hungary\",\"value\":\"HU\"},{\"label\":\"Iceland\",\"value\":\"IS\"},{\"label\":\"India\",\"value\":\"IN\"},{\"label\":\"Indonesia\",\"value\":\"ID\"},{\"label\":\"Iraq\",\"value\":\"IQ\"},{\"label\":\"Ireland\",\"value\":\"IE\"},{\"label\":\"Israel\",\"value\":\"IL\"},{\"label\":\"Italy\",\"value\":\"IT\"},{\"label\":\"Jamaica\",\"value\":\"JM\"},{\"label\":\"Japan\",\"value\":\"JP\"},{\"label\":\"Jordan\",\"value\":\"JO\"},{\"label\":\"Kazakhstan\",\"value\":\"KZ\"},{\"label\":\"Kenya\",\"value\":\"KE\"},{\"label\":\"Kiribati\",\"value\":\"KI\"},{\"label\":\"Kosovo\",\"value\":\"XK\"},{\"label\":\"Kuwait\",\"value\":\"KW\"},{\"label\":\"Kyrgyzstan\",\"value\":\"KG\"},{\"label\":\"Laos\",\"value\":\"LA\"},{\"label\":\"Latvia\",\"value\":\"LV\"},{\"label\":\"Lebanon\",\"value\":\"LB\"},{\"label\":\"Lesotho\",\"value\":\"LS\"},{\"label\":\"Liberia\",\"value\":\"LR\"},{\"label\":\"Libya\",\"value\":\"LY\"},{\"label\":\"Liechtenstein\",\"value\":\"LI\"},{\"label\":\"Lithuania\",\"value\":\"LT\"},{\"label\":\"Luxembourg\",\"value\":\"LU\"},{\"label\":\"Madagascar\",\"value\":\"MG\"},{\"label\":\"Malawi\",\"value\":\"MW\"},{\"label\":\"Malaysia\",\"value\":\"MY\"},{\"label\":\"Maldives\",\"value\":\"MV\"},{\"label\":\"Mali\",\"value\":\"ML\"},{\"label\":\"Malta\",\"value\":\"MT\"},{\"label\":\"Marshall Islands\",\"value\":\"MH\"},{\"label\":\"Mauritania\",\"value\":\"MR\"},{\"label\":\"Mauritius\",\"value\":\"MU\"},{\"label\":\"Mexico\",\"value\":\"MX\"},{\"label\":\"Micronesia\",\"value\":\"FM\"},{\"label\":\"Moldova\",\"value\":\"MD\"},{\"label\":\"Monaco\",\"value\":\"MC\"},{\"label\":\"Mongolia\",\"value\":\"MN\"},{\"label\":\"Montenegro\",\"value\":\"ME\"},{\"label\":\"Morocco\",\"value\":\"MA\"},{\"label\":\"Mozambique\",\"value\":\"MZ\"},{\"label\":\"Myanmar\",\"value\":\"MM\"},{\"label\":\"Namibia\",\"value\":\"NA\"},{\"label\":\"Nauru\",\"value\":\"NR\"},{\"label\":\"Nepal\",\"value\":\"NP\"},{\"label\":\"Netherlands\",\"value\":\"NL\"},{\"label\":\"New Zealand\",\"value\":\"NZ\"},{\"label\":\"Nicaragua\",\"value\":\"NI\"},{\"label\":\"Niger\n…[afkortet]"
+  },
+  {
+   "url": "https://global.ketchcdn.com/web/v3/consent/live_nation/get",
+   "method": "POST",
+   "post": "{\"organizationCode\":\"live_nation\",\"propertyCode\":\"royalarena_dk\",\"environmentCode\":\"production\",\"jurisdictionCode\":\"usa\",\"identities\":{\"swb_royalarena_dk\":\"00f4970f-caa9-49c2-9e7d-235ef87f7beb\"},\"purposes\":{\"tcf_specialFeature_2\":{\"legalBasisCode\":\"consent_optout\"},\"tcf_specialPurpose_1\":{\"legalBasisCode\":\"disclosure\"},\"tcf_specialPurpose_2\":{\"legalBasisCode\":\"disclosure\"},\"tcf_feature_1\":{\"legalBasisCode\":\"disclosure\"},\"tcf_feature_3\":{\"legalBasisCode\":\"disclosure\"},\"tcf_specialPurpose_3\":{\"legalBasisCode\":\"disclosure\"},\"C0001\":{\"legalBasisCode\":\"disclosure\"},\"C0002\":{\"legalBasisCode\":\"consent_optout\"},\"C0003\":{\"legalBasisCode\":\"consent_optout\"},\"C0004\":{\"legalBasisCode\":\"consent_optout\"},\"tcf_purpose_1\":{\"legalBasisCode\":\"consent_optout\"},\"tcf_feature_2\":{\"legalBasisCode\":\"disclosure\"},\"tcf_purpose_11\":{\"legalBasisCode\":\"consent_optout\"},\"tcf_purpose_2\":{\"legalBasisCode\":\"consent_optout\"},\"tcf_purpose_3\":{\"legalBasisCode\":\"consent_optout\"},\"tcf_purpose_4\":{\"legalBasisCode\":\"consent_optout\"},\"tcf_purpose_5\":{\"legalBasisCode\":\"consent_optout\"},\"tcf_purpose_6\":{\"legalBasisCode\":\"consent_optout\"},\"tcf_purpose_7\":{\"legalBasisCode\":\"consent_optout\"},\"tcf_purpose_8\":{\"legalBasisCode\":\"consent_optout\"},\"tcf_purpose_9\":{\"legalBasisCode\":\"consent_optout\"},\"tcf_purpose_10\":{\"legalBasisCode\":\"consent_optout\"},\"tcf_specialFeature_1\":{\"legalBasisCode\":\"consent_optout\"}},\"isGpcEnabled\":false}",
+   "status": 200,
+   "ct": "application/json",
+   "body": "{\"controllerCode\":\"\",\"environmentCode\":\"production\",\"hasUnrecordedOptInConsent\":false,\"identities\":{\"swb_royalarena_dk\":\"00f4970f-caa9-49c2-9e7d-235ef87f7beb\"},\"interactive\":false,\"jurisdictionCode\":\"usa\",\"propertyCode\":\"royalarena_dk\",\"protocols\":{\"IABGPP_GppSID\":\"2\",\"IABGPP_HDR_GppString\":\"DBABMA~CQsxBQYQsxBQYFUABAENCOFsAP_gAEPgACiQJ8JBzC7FbUFCwDZzaLoAMAgHRMAIQoQAAASAAGABQAKQIAQCgkAYBASABAACAAIAICBBIQIECAAAAUAAAAAAIAAEAAAAAAAKAAAAgAAAAAAAAAACAIAAEAAIAAAAgAAAmAgAAAIAGEAAgAAAAAAAAAAAAAABAAAAAAAAAAIAAAAAACAAAQAAAAAAAAACQAAAAAAAAAAAAAAAAAAAAACAADwT4SDmF2K2oKFgGCm0XQAYBAuiYAAhQgAAAkAAMACgAUgQAgFJIAgCIEAAAAAAAAAQACCQAAQAAAAAIACAAAAQAAIAAAAABAQAAABAAAAAAAAAAAEAQAAIAAQAAAAAAABEhAAAAQAMIAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAgAA.f_wACHwAAAA.IJ8JBzC7FbUFCwDZzaLoAMAgXRMAIQoQAAASAAGABQAKQIAQCkkAYBESABAACAAIAICBBIQIMCAAAAUABAAAAIAAEAAAAAAgKAAAAgAAAAAAAAAACAIAAEAAIAAAAgAAAmQgAAAIAGEAAgAAAAAAAAAAAAAABAAAAAAAAAAIAAAAAACAAAQAAAAAAAAACQAAAAAAAAAAAAAAAAAAAAACAADw\",\"IABGPP_HDR_Sections\":\"2\",\"IABGPP_HDR_Version\":\"1.1\",\"IABGPP_tcfeuv2_GppSID\":\"CQsxBQYQsxBQYFUABAENCOFsAP_gAEPgACiQJ8JBzC7FbUFCwDZzaLoAMAgHRMAIQoQAAASAAGABQAKQIAQCgkAYBASABAACAAIAICBBIQIECAAAAUAAAAAAIAAEAAAAAAAKAAAAgAAAAAAAAAACAIAAEAAIAAAAgAAAmAgAAAIAGEAAgAAAAAAAAAAAAAABAAAAAAAAAAIAAAAAACAAAQAAAAAAAAACQAAAAAAAAAAAAAAAAAAAAACAADwT4SDmF2K2oKFgGCm0XQAYBAuiYAAhQgAAAkAAMACgAUgQAgFJIAgCIEAAAAAAAAAQACCQAAQAAAAAIACAAAAQAAIAAAAABAQAAABAAAAAAAAAAAEAQAAIAAQAAAAAAABEhAAAAQAMIAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAgAA.f_wACHwAAAA.IJ8JBzC7FbUFCwDZzaLoAMAgXRMAIQoQAAASAAGABQAKQIAQCkkAYBESABAACAAIAICBBIQIMCAAAAUABAAAAIAAEAAAAAAgKAAAAgAAAAAAAAAACAIAAEAAIAAAAgAAAmQgAAAIAGEAAgAAAAAAAAAAAAAABAAAAAAAAAAIAAAAAACAAAQAAAAAAAAACQAAAAAAAAAAAAAAAAAAAAACAADw\",\"IABTCF_CmpSdkID\":\"340\",\"IABTCF_CmpSdkVersion\":\"1\",\"IABTCF_EnableAdvertiserConsentMode\":\"true\",\"IABTCF_PolicyVersion\":\"5\",\"IABTCF_PublisherCC\":\"US\",\"IABTCF_PublisherConsent\":\"111111111110000000000000\",\"IABTCF_PublisherCustomPurposesConsents\":\"\",\"IABTCF_PublisherCustomPurposesLegitimateInterests\":\"\",\"IABTCF_PublisherLegitimateInterests\":\"010000111110000000000000\",\"IABTCF_PurposeConsents\":\"111111111110000000000000\",\"IABTCF_PurposeLegitimateInterests\":\"010000111110000000000000\",\"IABTCF_PurposeOneTreatment\":\"0\",\"IABTCF_SpecialFeaturesOptIns\":\"110000000000\",\"IABTCF_TCString\":\"CQsxBQYQsxBQYFUABAENCgFsAP_gAEPgACiQJ8JBzC7FbUFCwDZzaLoAMAgHRMAIQoQAAASAAGABQAKQIAQCgkAYBASABAACAAIAICBBIQIECAAAAUAAAAAAIAAEAAAAAAAKAAAAgAAAAAAAAAACAIAAEAAIAAAAgAAAmAgAAAIAGEAAgAAAAAAAAAAAAAABAAAAAAAAAAIAAAAAACAAAQAAAAAAAAACQAAAAAAAAAAAAAAAAAAAAACAADwT4SDmF2K2oKFgGCm0XQAYBAuiYAAhQgAAAkAAMACgAUgQAgFJIAgCIEAAAAAAAAAQACCQAAQAAAAAIACAAAAQAAIAAAAABAQAAABAAAAAAAAAAAEAQAAIAAQAAAAAAABEhAAAAQAMIAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAgAA.f_wACHwAAAA.IJ8JBzC7FbUFCwDZzaLoAMAgXRMAIQoQAAASAAGABQAKQIAQCkkAYBESABAACAAIAICBBIQIMCAAAAUABAAAAIAAEAAAAAAgKAAAAgAAAAAAAAAACAIAAEAAIAAAAgAAAmQgAAAIAGEAAgAAAAAAAAAAAAAABAAAAAAAAAAIAAAAAACAAAQAAAAAAAAACQAAAAAAAAAAAAAAAAAAAAACAADw\",\"IABTCF_UseNonStandardTexts\":\"0\",\"IABTCF_VendorConsents\":\"100100000111001100001011101100010101101101010000010100001011000000001101100111001101101000101110100000000000110000000010000000011101000100110000000000100001000010100001000000000000000000000001001000000000000000011000000000000101000000000000101001000000100000000001000000001010000010010000000001100000000100000001001000000000000100000000000000001000000000000000100000000000100000001000000100000100100001000000100000010000001000000000000000000000000001010000000000000000000000000000000000000000100000000000000000010000000000000000000000000000000000000000000000101000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000001000000000100000000000000000010000000000000000100000000000000000000000000010000000000000000000000010011000000010000000000000000000000000100000000000011000010000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000001000000000000000000001000000000000000000000000000000000000000000000000000000000000001001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000001111\",\"IABTCF_VendorLegitimateInterests\":\"100100000111001100001011101100010101101101010000010100001011000000001100000101001101101000101110100000000000110000000010000001011101000100110000000000000001000010100001000000000000000000000001001000000000000000011000000000000101000000000000101001000000100000000001000000001010010010010000000001000000000100010000001000000000000000000000000000000000000000000000000000000000100000000000000100000100100000000000000000100000000000000000000000000000000000010000000000000100000000000000000000000000100000000000000000010000000000000000000000000000000000000010000000100000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000001000000000100000000000000000010000000000000000100000000000000000000000000000000000000000000000000010001001000010000000000000000000000000100000000000011000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000001\",\"IABTCF_gdprApplies\":\"true\",\"gpp\":\"DBABMA~CQsxBQYQsxBQYFUABAENCOFsAP_gAEPgACiQJ8JBzC7FbUFCwDZzaLoAMAgHRMAIQoQAAASAAGABQAKQIAQCgkAYBASABAACAAIAICBBIQIECAAAAUAAAAAAIAAEAAAAAAAKAAAAgAAAAAAAAAACAIAAEAAIAAAAgAAAmAgAAAIAGEAAgAAAAAAAAAAAAAABAAAAAAAAAAIAAAAAACAAAQAAAAAAAAACQAAAAAAAAAAAAAAAAAAAAACAADwT4SDmF2K2oKF\n…[afkortet]"
+  },
+  {
+   "url": "https://global.ketchcdn.com/web/v3/consent/live_nation/update",
+   "method": "POST",
+   "post": "{\"organizationCode\":\"live_nation\",\"propertyCode\":\"royalarena_dk\",\"environmentCode\":\"production\",\"identities\":{\"swb_royalarena_dk\":\"00f4970f-caa9-49c2-9e7d-235ef87f7beb\"},\"jurisdictionCode\":\"usa\",\"purposes\":{\"tcf_specialFeature_2\":{\"allowed\":\"true\",\"legalBasisCode\":\"consent_optout\"},\"tcf_specialPurpose_1\":{\"allowed\":\"true\",\"legalBasisCode\":\"disclosure\"},\"tcf_specialPurpose_2\":{\"allowed\":\"true\",\"legalBasisCode\":\"disclosure\"},\"tcf_feature_1\":{\"allowed\":\"true\",\"legalBasisCode\":\"disclosure\"},\"tcf_feature_3\":{\"allowed\":\"true\",\"legalBasisCode\":\"disclosure\"},\"tcf_specialPurpose_3\":{\"allowed\":\"true\",\"legalBasisCode\":\"disclosure\"},\"C0001\":{\"allowed\":\"true\",\"legalBasisCode\":\"disclosure\"},\"C0002\":{\"allowed\":\"true\",\"legalBasisCode\":\"consent_optout\"},\"C0003\":{\"allowed\":\"true\",\"legalBasisCode\":\"consent_optout\"},\"C0004\":{\"allowed\":\"true\",\"legalBasisCode\":\"consent_optout\"},\"tcf_purpose_1\":{\"allowed\":\"true\",\"legalBasisCode\":\"consent_optout\"},\"tcf_feature_2\":{\"allowed\":\"true\",\"legalBasisCode\":\"disclosure\"},\"tcf_purpose_11\":{\"allowed\":\"true\",\"legalBasisCode\":\"consent_optout\"},\"tcf_purpose_2\":{\"allowed\":\"true\",\"legalBasisCode\":\"consent_optout\"},\"tcf_purpose_3\":{\"allowed\":\"true\",\"legalBasisCode\":\"consent_optout\"},\"tcf_purpose_4\":{\"allowed\":\"true\",\"legalBasisCode\":\"consent_optout\"},\"tcf_purpose_5\":{\"allowed\":\"true\",\"legalBasisCode\":\"consent_optout\"},\"tcf_purpose_6\":{\"allowed\":\"true\",\"legalBasisCode\":\"consent_optout\"},\"tcf_purpose_7\":{\"allowed\":\"true\",\"legalBasisCode\":\"consent_optout\"},\"tcf_purpose_8\":{\"allowed\":\"true\",\"legalBasisCode\":\"consent_optout\"},\"tcf_purpose_9\":{\"allowed\":\"true\",\"legalBasisCode\":\"consent_optout\"},\"tcf_purpose_10\":{\"allowed\":\"true\",\"legalBasisCode\":\"consent_optout\"},\"tcf_specialFeature_1\":{\"allowed\":\"true\",\"legalBasisCode\":\"consent_optout\"}},\"vendorConsents\":{},\"collectedAt\":1793091688,\"isGpcEnabled\":false,\"context\":{\"source\":\"legalBasisDefault\",\"configurationId\":\"bGl2ZV9uYXRpb24vcm95YWxhcmVuYV9kay9wcm9kdWN0aW9uL3VzYS9kYS8xNzkzMDg0NjMw\"}}",
+   "status": 200,
+   "ct": "application/json",
+   "body": "{\"collectedAt\":1793091688,\"context\":{\"configurationId\":\"bGl2ZV9uYXRpb24vcm95YWxhcmVuYV9kay9wcm9kdWN0aW9uL3VzYS9kYS8xNzkzMDg0NjMw\",\"issuedAt\":0,\"source\":\"legalBasisDefault\"},\"controllerCode\":\"\",\"environmentCode\":\"production\",\"identities\":{\"swb_royalarena_dk\":\"00f4970f-caa9-49c2-9e7d-235ef87f7beb\"},\"jurisdictionCode\":\"usa\",\"propertyCode\":\"royalarena_dk\",\"protocols\":{\"IABGPP_GppSID\":\"2\",\"IABGPP_HDR_GppString\":\"DBABMA~CQsxBQZQsxBQZFUABAENCOFsAP_gAEPgACiQJ8JBzC7FbUFCwDZzaLoAMAgHRMAIQoQAAASAAGABQAKQIAQCgkAYBASABAACAAIAICBBIQIECAAAAUAAAAAAIAAEAAAAAAAKAAAAgAAAAAAAAAACAIAAEAAIAAAAgAAAmAgAAAIAGEAAgAAAAAAAAAAAAAABAAAAAAAAAAIAAAAAACAAAQAAAAAAAAACQAAAAAAAAAAAAAAAAAAAAACAADwT4SDmF2K2oKFgGCm0XQAYBAuiYAAhQgAAAkAAMACgAUgQAgFJIAgCIEAAAAAAAAAQACCQAAQAAAAAIACAAAAQAAIAAAAABAQAAABAAAAAAAAAAAEAQAAIAAQAAAAAAABEhAAAAQAMIAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAgAA.f_wACHwAAAA.IJ8JBzC7FbUFCwDZzaLoAMAgXRMAIQoQAAASAAGABQAKQIAQCkkAYBESABAACAAIAICBBIQIMCAAAAUABAAAAIAAEAAAAAAgKAAAAgAAAAAAAAAACAIAAEAAIAAAAgAAAmQgAAAIAGEAAgAAAAAAAAAAAAAABAAAAAAAAAAIAAAAAACAAAQAAAAAAAAACQAAAAAAAAAAAAAAAAAAAAACAADw\",\"IABGPP_HDR_Sections\":\"2\",\"IABGPP_HDR_Version\":\"1.1\",\"IABGPP_tcfeuv2_GppSID\":\"CQsxBQZQsxBQZFUABAENCOFsAP_gAEPgACiQJ8JBzC7FbUFCwDZzaLoAMAgHRMAIQoQAAASAAGABQAKQIAQCgkAYBASABAACAAIAICBBIQIECAAAAUAAAAAAIAAEAAAAAAAKAAAAgAAAAAAAAAACAIAAEAAIAAAAgAAAmAgAAAIAGEAAgAAAAAAAAAAAAAABAAAAAAAAAAIAAAAAACAAAQAAAAAAAAACQAAAAAAAAAAAAAAAAAAAAACAADwT4SDmF2K2oKFgGCm0XQAYBAuiYAAhQgAAAkAAMACgAUgQAgFJIAgCIEAAAAAAAAAQACCQAAQAAAAAIACAAAAQAAIAAAAABAQAAABAAAAAAAAAAAEAQAAIAAQAAAAAAABEhAAAAQAMIAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAgAA.f_wACHwAAAA.IJ8JBzC7FbUFCwDZzaLoAMAgXRMAIQoQAAASAAGABQAKQIAQCkkAYBESABAACAAIAICBBIQIMCAAAAUABAAAAIAAEAAAAAAgKAAAAgAAAAAAAAAACAIAAEAAIAAAAgAAAmQgAAAIAGEAAgAAAAAAAAAAAAAABAAAAAAAAAAIAAAAAACAAAQAAAAAAAAACQAAAAAAAAAAAAAAAAAAAAACAADw\",\"IABTCF_CmpSdkID\":\"340\",\"IABTCF_CmpSdkVersion\":\"1\",\"IABTCF_EnableAdvertiserConsentMode\":\"true\",\"IABTCF_PolicyVersion\":\"5\",\"IABTCF_PublisherCC\":\"US\",\"IABTCF_PublisherConsent\":\"111111111110000000000000\",\"IABTCF_PublisherCustomPurposesConsents\":\"\",\"IABTCF_PublisherCustomPurposesLegitimateInterests\":\"\",\"IABTCF_PublisherLegitimateInterests\":\"010000111110000000000000\",\"IABTCF_PurposeConsents\":\"111111111110000000000000\",\"IABTCF_PurposeLegitimateInterests\":\"010000111110000000000000\",\"IABTCF_PurposeOneTreatment\":\"0\",\"IABTCF_SpecialFeaturesOptIns\":\"110000000000\",\"IABTCF_TCString\":\"CQsxBQZQsxBQZFUABAENCgFsAP_gAEPgACiQJ8JBzC7FbUFCwDZzaLoAMAgHRMAIQoQAAASAAGABQAKQIAQCgkAYBASABAACAAIAICBBIQIECAAAAUAAAAAAIAAEAAAAAAAKAAAAgAAAAAAAAAACAIAAEAAIAAAAgAAAmAgAAAIAGEAAgAAAAAAAAAAAAAABAAAAAAAAAAIAAAAAACAAAQAAAAAAAAACQAAAAAAAAAAAAAAAAAAAAACAADwT4SDmF2K2oKFgGCm0XQAYBAuiYAAhQgAAAkAAMACgAUgQAgFJIAgCIEAAAAAAAAAQACCQAAQAAAAAIACAAAAQAAIAAAAABAQAAABAAAAAAAAAAAEAQAAIAAQAAAAAAABEhAAAAQAMIAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAgAA.f_wACHwAAAA.IJ8JBzC7FbUFCwDZzaLoAMAgXRMAIQoQAAASAAGABQAKQIAQCkkAYBESABAACAAIAICBBIQIMCAAAAUABAAAAIAAEAAAAAAgKAAAAgAAAAAAAAAACAIAAEAAIAAAAgAAAmQgAAAIAGEAAgAAAAAAAAAAAAAABAAAAAAAAAAIAAAAAACAAAQAAAAAAAAACQAAAAAAAAAAAAAAAAAAAAACAADw\",\"IABTCF_UseNonStandardTexts\":\"0\",\"IABTCF_VendorConsents\":\"100100000111001100001011101100010101101101010000010100001011000000001101100111001101101000101110100000000000110000000010000000011101000100110000000000100001000010100001000000000000000000000001001000000000000000011000000000000101000000000000101001000000100000000001000000001010000010010000000001100000000100000001001000000000000100000000000000001000000000000000100000000000100000001000000100000100100001000000100000010000001000000000000000000000000001010000000000000000000000000000000000000000100000000000000000010000000000000000000000000000000000000000000000101000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000001000000000100000000000000000010000000000000000100000000000000000000000000010000000000000000000000010011000000010000000000000000000000000100000000000011000010000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000001000000000000000000001000000000000000000000000000000000000000000000000000000000000001001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000001111\",\"IABTCF_VendorLegitimateInterests\":\"100100000111001100001011101100010101101101010000010100001011000000001100000101001101101000101110100000000000110000000010000001011101000100110000000000000001000010100001000000000000000000000001001000000000000000011000000000000101000000000000101001000000100000000001000000001010010010010000000001000000000100010000001000000000000000000000000000000000000000000000000000000000100000000000000100000100100000000000000000100000000000000000000000000000000000010000000000000100000000000000000000000000100000000000000000010000000000000000000000000000000000000010000000100000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000001000000000100000000000000000010000000000000000100000000000000000000000000000000000000000000000000010001001000010000000000000000000000000100000000000011000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000001\",\"IABTCF_gdprApplies\":\"true\",\"gpp\":\"DBABMA~CQsxBQZQsxBQZFUABAENCOFsAP_gAEPgACiQJ8JBzC7FbUFCwDZzaLoAMAgHRMAIQoQAAASAAGABQAKQIAQCgkAYBASABAACAAIAICBBIQIECAAAAUAAAAAAIAAEAAAAAAAKAAAAgAAAAAAAA\n…[afkortet]"
+  },
+  {
+   "url": "https://www.google.com/ccm/collect?rcb=13&frm=0&apvc=1&ae=g&auid=1198592376.1793091689&dt=Kommende%20shows%20%7C%20Royal%20Arena&en=page_view&dl=https%3A%2F%2Fwww.royalarena.dk%2Fshows&scrsrc=www.googletagmanager.com&rnd=935934793.1793091689&navt=n&npa=0&gdpr=1&gdpr_consent=CQsvx8AQsvx8AFUABAENC2FsAP_gAEPgACiQJ8JBzC7FbUFCwDZzaLoAMAgHRMAIQoQAAASAAGABQAKQIAQCgkAYBASABAACAAIAICBBIQIECAAAAUAAAAAAIAAEAAAAAAAKAAAAgAAAAAAAAAACAIAAEAAIAAAAgAAAmAgAAAIAGEAAgAAAAAAAAAAAAAABAAAAAAAAAAIAAAAAACAAAQAAAAAAAAACQAAAAAAAAAAAAAAAAAAAAACAADwT4SDmF2K2oKFgGCm0XQAYBAuiYAAhQgAAAkAAMACgAUgQAgFJIAgCIEAAAAAAAAAQACCQAAQAAAAAIACAAAAQAAIAAAAABAQAAABAAAAAAAAAAAEAQAAIAAQAAAAAAABEhAAAAQAMIAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAgAA.IJ8JBzC7FbUFCwDZzaLoAMAgXRMAIQoQAAASAAGABQAKQIAQCkkAYBESABAACAAIAICBBIQIMCAAAAUABAAAAIAAEAAAAAAgKAAAAgAAAAAAAAAACAIAAEAAIAAAAgAAAmQgAAAIAGEAAgAAAAAAAAAAAAAABAAAAAAAAAAIAAAAAACAAAQAAAAAAAAACQAAAAAAAAAAAAAAAAAAAAACAADw.f_wACHwAAAAA&ep.ads_data_redaction=0&gdid=dN2JhM2&gtm=45He6an1v810349322za200zd810349322xeaxf1&gcs=G111&gcd=13v3v3v3v5l1&dma_cps=a&dma=1&tcfd=15k5a&tag_exp=115616985~115938466~115938469~118897920~118897930~120385422~120469145~120469153~121049589~121246026~121246034&tft=1793091689483&tfd=2993&fmt=8",
+   "method": "POST",
+   "post": "",
+   "status": 200,
+   "ct": "",
+   "body": ""
+  },
+  {
+   "url": "https://ad.doubleclick.net/ccm/s/collect?auid=1198592376.1793091689&gtm=45He6an1v810349322za200zd810349322xeaxf1&fmt=8",
+   "method": "POST",
+   "post": "",
+   "status": 204,
+   "ct": "",
+   "body": ""
+  },
+  {
+   "url": "https://securepubads.g.doubleclick.net/pagead/ppub_config?ippd=www.royalarena.dk",
+   "method": "GET",
+   "post": "",
+   "status": 200,
+   "ct": "application/json; charset=UTF-8",
+   "body": "[[null,null,\"www.royalarena.dk\"],[],[],null,null,null,null,[],null,null,null,[1],null,[]]"
+  },
+  {
+   "url": "https://a.ad.gt/api/v1/identity?v=2",
+   "method": "GET",
+   "post": "",
+   "status": 200,
+   "ct": "application/json",
+   "body": "{\"au_id\":\"AU1D02000017930916890HLIAIHGBQZG\"}\n"
+  },
+  {
+   "url": "https://analytics.google.com/g/collect?v=2&tid=G-5667TPMN48&gtm=45je6an1v9243590237za20ozb810349322zd810349322xf1&_p=1793091689103&_gaz=1&gcs=G111&gcd=13v3v3v3v5l1&npa=0&dma_cps=a&dma=1&tcfd=15k5a&gdid=dN2JhM2&ecid=1501551005&_eu=EAAAAGA&are=1&cid=501530412.1793091690&frm=0&ir=1&pscdl=noapi&rcb=1&sr=1280x2000&tt=nfqkk7ro&uaa=arm&uab=64&uafvl=Chromium%3B130.0.6723.31%7CHeadlessChrome%3B130.0.6723.31%7CNot%253FA_Brand%3B99.0.0.0&uam=&uamb=0&uap=iOS&uapv=18_0&uaw=0&ul=da-dk&gaf=2&_s=1&tag_exp=115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034~121284208&sid=1793091689&sct=1&seg=0&dl=https%3A%2F%2Fwww.royalarena.dk%2Fshows&dt=Kommende%20shows%20%7C%20Royal%20Arena&en=page_view&_fv=1&_nsi=1&_ss=1&ep.state_ga_cookie=false&ep.consent_state_analytics_storage=true&ep.state_analytics_and_ga_cookie=&ep.view_source=false&ep.login_status=false&ep.content_group=whatsOn&epn.event_time=1793091689&ep.action_source=website&ep.artist_genres=&ep.page_country=Denmark&ep.page_language=da-DK&ep.page_name=Kommende%20shows%20%7C%20Royal%20Arena&ep.page_type=whatsOn&up.state_ga_cookie=false&up.consent_state_analytics_storage=true&up.login_status=false&up.state_analytics_and_ga_cookie=&tfd=3212",
+   "method": "POST",
+   "post": "",
+   "status": 204,
+   "ct": "text/plain",
+   "body": ""
+  },
+  {
+   "url": "https://www.royalarena.dk/__api/search/events?VenueIds=845782&IncludePostponed=true&IncludeCancelled=true&Url=%2Fshows&PageSize=20&Page=1&culture=da-DK",
+   "method": "GET",
+   "post": "",
+   "status": 200,
+   "ct": "application/json; charset=utf-8",
+   "body": "{\"aggregations\":{\"locations\":[\"København S\"],\"genres\":[\"Alternative and Indie\",\"Arts and Culture\",\"Country\",\"Electronic\",\"Hard rock / Metal\",\"Hip Hop / Rap\",\"Other\",\"Pop\",\"Reggae\",\"RnB / Soul\",\"Rock\"],\"genreKeys\":[{\"key\":\"alternative-and-indie\",\"name\":\"Alternative and Indie\"},{\"key\":\"arts-and-culture\",\"name\":\"Arts and Culture\"},{\"key\":\"country\",\"name\":\"Country\"},{\"key\":\"electronic\",\"name\":\"Electronic\"},{\"key\":\"hard-rock-and-metal\",\"name\":\"Hard rock / Metal\"},{\"key\":\"hip-hop-and-rap\",\"name\":\"Hip Hop / Rap\"},{\"key\":\"other\",\"name\":\"Other\"},{\"key\":\"pop\",\"name\":\"Pop\"},{\"key\":\"reggae\",\"name\":\"Reggae\"},{\"key\":\"rnb-and-soul\",\"name\":\"RnB / Soul\"},{\"key\":\"rock\",\"name\":\"Rock\"}],\"countryCities\":[{\"country\":\"Denmark\",\"city\":\"København S\",\"countryId\":59,\"cityId\":92797}],\"countries\":[{\"country\":\"Denmark\",\"countryId\":59}]},\"siteSectionName\":\"\",\"defaultCulture\":\"da-DK\",\"total\":45,\"hasError\":false,\"documents\":[{\"id\":\"1662484\",\"ticketmasterDiscoveryId\":\"\",\"agePolicy\":\"\",\"allTicketStatus\":1,\"announceDateUtc\":\"2026-03-24T18:35:05Z\",\"contentType\":400,\"directPurchaseButton\":{\"label\":\"\",\"url\":\"\",\"themeId\":\"\"},\"encodedName\":\"jungle\",\"encodedKeywords\":\"jungle-københavn-s\",\"eventDate\":\"2026-11-06T00:00:00Z\",\"eventDateUtc\":\"2026-11-06T18:45:00Z\",\"eventDateTo\":\"2026-11-06T00:00:00Z\",\"eventDateToUtc\":\"2026-11-06T18:45:00Z\",\"eventSortDateUtc\":\"2026-11-06T17:00:00Z\",\"modified\":\"2026-10-21T10:23:29Z\",\"festivalId\":0,\"curfewTime\":\"\",\"doorTime\":\"18:00\",\"showTime\":\"19:45\",\"genres\":[{\"key\":\"alternative-and-indie\",\"name\":\"Alternative and Indie\"},{\"key\":\"electronic\",\"name\":\"Electronic\"}],\"image\":\"https://networksites.livenationinternational.com/networksites/o3ndnbyk/jungle_ra2026_some03_1920-x-1080.jpg\",\"imageAltTag\":\"Jungle\",\"imagePlacement\":\"None\",\"includeInVoucherProgram\":false,\"isDeleted\":false,\"isNewEvent\":false,\"isInternational\":false,\"ianaTimeZone\":\"Europe/Paris\",\"lineup\":[{\"id\":\"492312\",\"encodedName\":\"jungle\",\"name\":\"Jungle\",\"tmId\":\"K8vZ9173vmf\",\"spotifyId\":\"59oA5WbbQvomJz2BuRG071\",\"type\":\"headline\",\"isPrimary\":true,\"url\":\"/all-events/jungle-tickets-ae492312\",\"aka\":[],\"rank\":1,\"image\":\"https://dynamicmedia.livenationinternational.com/g/l/a/589c25f0-dc7c-46f8-a6b7-888ea3121be0.jpg\",\"imageAltTag\":\"Jungle\",\"imagePlacement\":1,\"genres\":[\"Alternative and Indie\",\"Electronic\"],\"genreKeys\":[{\"key\":\"alternative-and-indie\",\"name\":\"Alternative and Indie\"},{\"key\":\"electronic\",\"name\":\"Electronic\"}],\"tmUsId\":\"1947184\",\"genreId\":\"\",\"genre\":\"\",\"segment\":\"\"}],\"localizations\":[{\"additionalEventInformation\":\"\",\"cultureName\":\"da-DK\",\"cultureNameForUmbraco\":\"da-DK\",\"description\":\"\",\"alertType\":\"0\",\"alertText\":\"\",\"alertValidFromUtc\":\"2026-03-23T16:00:00Z\",\"alertValidToUtc\":\"2026-03-23T16:00:00Z\",\"listingsText\":\"FÅ BILLETTER\",\"mainEventInformation\":\"\",\"agePolicyText\":\"\",\"name\":\"Jungle\",\"url\":\"/all-events/jungle-tickets-ae492312\",\"overridenTickets\":[]}],\"promoter\":\"External Promoter - Royal Arena\",\"promoterId\":62,\"promoterIds\":[62],\"siteId\":10,\"tickets\":[{\"bankPartner\":\"\",\"channelName\":\"Ticketmaster UK\",\"currencySymbol\":\"da-DK\",\"currencyCode\":\"DKK\",\"id\":1662485,\"isVisible\":false,\"priceFrom\":0,\"priceTo\":0,\"ticketTypeCategory\":0,\"ticketStatus\":1,\"ticketPlatformId\":1,\"ticketUrl\":\"https://www.ticketmaster.dk/event/492914722?language=da-dk&brand=royalarena\",\"type\":\"Generelt salg\",\"typeId\":2,\"ticketTypeImage\":\"\",\"ticketTypeImageAltTag\":\"\",\"ticketTypeMembersOnly\":false,\"validFromUtc\":\"2026-03-27T09:00:00Z\",\"validToUtc\":\"2026-11-06T21:00:00Z\",\"vendorLinkId\":\"\",\"description\":\"Generelt salg\",\"descriptionLoggedIn\":\"* Prisen inkluderer billetpris samt billetgebyr, men ikke forsendelsesomkostninger\",\"descriptionOverride\":\"\",\"disclaimer\":\"* Prisen inkluderer billetpris samt billetgebyr, men ikke forsendelsesomkostninger\",\"displayLabel\":\"Køb billetter\",\"loggedInLabel\":\"Køb billetter\",\"featuredName\":\"\",\"highlightedName\":\"\",\"nameOverride\":\"\",\"overrideDisclaimer\":false,\"overrideUrl\":\"\",\"packageDescription\":\"\",\"packageTermsAndConditionsUrl\":\"\",\"packageTermsAndConditionsUrlTitle\":\"\",\"packageImage\":\"\",\"packageImageAltTag\":\"\",\"ticketTypeNameLabel\":\"Generelt salg\",\"themeId\":\"\",\"waitroomOpenUtc\":null,\"localizations\":[{\"cultureName\":\"da-DK\",\"cultureNameForUmbraco\":\"da-DK\",\"type\":\"Generelt salg\",\"url\":\"https://www.ticketmaster.dk/event/492914722?language=da-dk\",\"isDefault\":true}]},{\"bankPartner\":\"\",\"channelName\":\"Ticketmaster UK\",\"currencySymbol\":\"da-DK\",\"currencyCode\":\"DKK\",\"id\":1664022,\"isVisible\":false,\"priceFrom\":1422,\"priceTo\":1422,\"ticketTypeCategory\":0,\"ticketStatus\":1,\"ticketPlatformId\":1,\"ticketUrl\":\"https://www.ticketmaster.dk/event/jungle-%7C-vinyl-room-package-billetter/1088433684?brand=royalarena\",\"type\":\"Vinyl Room Package\",\"typeId\":465,\"ticketTypeImage\":\"\",\"ticketTypeImageAltTag\":\"\",\"ticketTypeMembersOnly\":false,\"validFromUtc\":\"2026-03-27T09:00:00Z\",\"validToUtc\":\"2026-11-06T21:00:00Z\",\"vendorLinkId\":\"\",\"description\":\"\",\"descriptionLoggedIn\":\"\",\"descriptionOverride\":\"\",\"disclaimer\":\"\",\"displayLabel\":\"Køb billetter\",\"loggedInLabel\":\"Køb billetter\",\"featuredName\":\"Vinyl Room\",\"highlightedName\":\"Opgrader din koncertoplevelse med Vinyl Room og nyd de stemningsfulde omgivelser med egen indgang, fri bar og garderobe.\",\"nameOverride\":\"Vinyl Room Package\",\"overrideDisclaimer\":false,\"overrideUrl\":\"\",\"packageDescription\":\"\",\"packageTermsAndConditionsUrl\":\"\",\"packageTermsAndConditionsUrlTitle\":\"\",\"packageImage\":\"\",\"packageImageAltTag\":\"\",\"ticketTypeNameLabel\":\"The Vinyl Room\",\"themeId\":\"\",\"waitroomOpenUtc\":null,\"localizations\":[{\"cultureName\":\"da-DK\",\"cultureNameForUmbraco\":\"da-DK\",\"type\":\"Vinyl Room Package\",\"url\":\"https://www.ticketmaster.dk/event/jungle-%7C-vinyl-room-package-billetter/1088433684\",\"isDefault\":true}]},{\"bankPartner\":\"\",\"channelName\":\"Ticketmaster UK\",\"currencySymbol\":\"da-DK\",\"currencyCode\":\"DKK\",\"id\":1705976,\"isVisible\":false,\"priceFrom\":850,\"priceTo\":850,\"ticketTypeCategory\":0,\"ticketStatus\":1,\"ticketPlatformId\":1,\"ticketUrl\":\"https://www.ticketmaster.dk/event/jungle-%7C-vinyl-room-upgrade-billetter/189256735?brand=royalarena\",\"type\":\"Vinyl Room \n…[afkortet]"
+  },
+  {
+   "url": "https://seg.ad.gt/api/v2/segments?url=https%253A%252F%252Fwww.royalarena.dk%252Fshows&partner_id=747&tagger_id=4536174d0febaca404673d9e41525a8e&au_id=AU1D02000017930916890HLIAIHGBQZG",
+   "method": "GET",
+   "post": "",
+   "status": 200,
+   "ct": "application/json",
+   "body": "{\"segments\":[]}"
+  },
+  {
+   "url": "https://a.ad.gt/api/v1/collect",
+   "method": "POST",
+   "post": "eyJjYXRlZ29yeSI6InBhZ2VWaWV3IiwidmVyc2lvbiI6InYyIiwiY3JlYXRlZF9hdCI6MTc5MzA5MTY5MDIyMSwicHJvcGVydGllcyI6eyJldmVudF90aW1lc3RhbXAiOjE3OTMwOTE2OTAyMjEsInVybCI6Imh0dHBzOi8vd3d3LnJveWFsYXJlbmEuZGsvc2hvd3MiLCJyZWZlcnJlciI6IiIsInBhcnRuZXJfaWQiOiI3NDciLCJ0YWdnZXJfaWQiOiI0NTM2MTc0ZDBmZWJhY2E0MDQ2NzNkOWU0MTUyNWE4ZSIsImF1ZGlnZW50X2lkIjoiQVUxRDAyMDAwMDE3OTMwOTE2ODkwSExJQUlIR0JRWkciLCJzZXNzaW9uX2lkIjoiQVUxUy0wMTAwLTAwMTc5MzA5MTY5MC1aV0VFVUxTRi1ONDgxIiwicF9zX2YiOlsiQlQiLCJKSSIsIlJBIiwiQVIiXX19",
+   "status": 204,
+   "ct": "",
+   "body": ""
+  },
+  {
+   "url": "https://api.permutive.com/v2.0/identify?k=25d8de23-8921-4b59-aae4-de79460f0d24",
+   "method": "POST",
+   "post": "{\"user_id\":\"bba39bed-c0f6-4462-a48a-ab2f7be04b48\",\"aliases\":[{\"tag\":\"lnxx_id\",\"id\":\"undefined\",\"priority\":3},{\"tag\":\"audigent_id\",\"id\":\"undefined\",\"priority\":4}]}",
+   "status": 200,
+   "ct": "application/json",
+   "body": "{\"user_id\":\"bba39bed-c0f6-4462-a48a-ab2f7be04b48\"}"
+  },
+  {
+   "url": "https://api.anonymised.io/v3/anon/interest-scores?aav=1.8.80",
+   "method": "POST",
+   "post": "{\"scores\":[{\"url\":\"https%3A%2F%2Fwww.royalarena.dk%2Fshows\",\"value\":0}],\"fe_id\":\"29ac7a16-8089-48f2-9dcf-f81f84168ec6\",\"pageview_id\":\"950bd074-370d-476b-adea-e30ec4c06cf2\"}",
+   "status": 200,
+   "ct": "application/json",
+   "body": "[\"50362\",\"49908\",\"46160\"]\n"
+  },
+  {
+   "url": "https://api.permutive.com/v2.0/geoip?include=geo&include=isp&include=ip_hash&k=25d8de23-8921-4b59-aae4-de79460f0d24",
+   "method": "GET",
+   "post": "",
+   "status": 200,
+   "ct": "application/json",
+   "body": "{\"geo_info\":{\"continent\":\"North America\",\"country\":\"United States\",\"city\":\"San Jose\",\"province\":\"California\",\"postal_code\":\"95141\"},\"isp_info\":{\"isp\":\"Microsoft Azure\",\"organization\":\"Microsoft Azure\",\"autonomous_system_number\":8075,\"autonomous_system_organization\":\"Microsoft Corporation\"}}"
+  },
+  {
+   "url": "https://api.permutive.com/audience-matching/v1/id/bba39bed-c0f6-4462-a48a-ab2f7be04b48/audiences?k=25d8de23-8921-4b59-aae4-de79460f0d24",
+   "method": "POST",
+   "post": "{\"identities\":[{\"tag\":\"audigent_id\",\"id\":\"undefined\"},{\"tag\":\"lnxx_id\",\"id\":\"undefined\"}]}",
+   "status": 200,
+   "ct": "application/json",
+   "body": "{\"items\":{}}"
+  },
+  {
+   "url": "https://cdn.permutive.com/models/v2/8347d761-7b38-45f0-b0a8-34b664f7c00f-models.bin",
+   "method": "GET",
+   "post": "",
+   "status": 200,
+   "ct": "application/x-binary",
+   "body": "\u0002d>��ߟA��\u001a�[G���1\u0010��rB?�\u001e\u001d\u0000\u0002P���\u0000\u0001d��6\u0000\u0000^�\u0000�\u0000\u0003sӾ�\u0000\u0000e���\u0000\u0001�>�p\u0000\u0002_��F\u0000\u0000o\u0000��\u0000\u0001fء�\u0000\u0001g\"��\u0000\u0002P���\u0000\u0000f�Q�\u0000\u0002]8[`\u0000\u0001g\u0018�;\u0000\u0000`�\\�\u0000\u0002\u001fe]N\u0000\u0001f܎�\u0000\u0001g!�\b\u0000\u0001fۋr\u0000\u0001\u001fD��\u0000\u0003p��\u0000\u0002P���\u0000\u0001㰆�\u0000\u0002P���\u0000\u0002<vfl\u0000\u0002�Zfr\u0000\u0001㱆d\u0000\u0001fچN\u0000\u0004S��\u0000\u0000\u0001g%�w\u0000\u0002><�k\u0000\u0001g\u001d�8\u0000\u0002P��\u0012\u0000\u0002<{h�\u0000\u0000-h�\u0000\u0002P��\u000f\u0000\u00016�i�\u0000\u0002�hj�\u0000\u0001g\u001b��\u0000\u0001\"���\u0000\u0002@��B\u0000\u0002�b�(\u0000\u0000�k�\u0000\u0004M��\u0000\u0001��l9\u0000\u0000~|��\u0000\u0001\u000eBlv\u0000\u0002`j�)\u0000\u0004R��\u0000\u0003��C\u0000\u0002P�~�\u0000\u0001u_~�\u0000\u0002P�~�\u0000\u0002T\r~5\u0000\u0001�\u0011n�\u0000\u0001%�~\u000b\u0000\u0001��}�\u0000\u0002kN}z\u0000\u0001�\u0015}N\u0000\u0002=\\o�\u0000\u0001�\u0001|�\u0000\u0001y�|!\u0000\u0002T\u000f{�\u0000\u0003s�{�\u0000\u0002N�{�\u0000\u0002P�{�\u0000\u0003��qB\u0000\u0003�\u0004{q\u0000\u0001\u0011�{k\u0000\u0002P�{W\u0000\u0000~�q�\u0000\u0002b�{0\u0000\u0001>+q�\u0000\u0000k�{\u0005\u0000\u0002P�z�\u0000\u0002P�z�\u0000\u0002L_z�\u0000\u0003p�r0\u0000\u00016�r7\u0000\u0003�Er<\u0000\u0002V�z�\u0000\u0003p�ro\u0000\u0001>\u0010rp\u0000\u0003�sr�\u0000\u0001\u0011�z@\u0000\u0001 \\r�\u0000\u0002U�z3\u0000\u0001\u0011�z'\u0000\u0002P�z%\u0000\u0000�2z\u0019\u0000\u0002<}r�\u0000\u0002U�z\f\u0000\u0001?�y�\u0000\u0002]ay�\u0000\u0001\u001f�y�\u0000\u0001t�y�\u0000\u0000i�y�\u0000\u0001g�y�\u0000\u0001g$y�\u0000\u0002P�y�\u0000\u0003p�s\u0014\u0000\u0000~ky�\u0000\u0002k�s1\u0000\u0003��y�\u0000\u0001\u001f�y�\u0000\u0003\u0016�y�\u0000\u0000��sU\u0000\u0003��s[\u0000\u0001\u0011�y~\u0000\u0002`\ryv\u0000\u0002S�yq\u0000\u0002f\u0013yg\u0000\u0001\u0011�yZ\u0000\u0001t�yM\u0000\u0002\u0001SyC\u0000\u0001�\u000byC\u0000\u0001u]y=\u0000\u0002V�y1\u0000\u0001�\u0000y\"\u0000\u0001t�y\u0019\u0000\u0002T�y\u0019\u0000\u0001��y\u0014\u0000\u0000e�y\u0014\u0000\u0000��y\u0011\u0000\u0002b�y\r\u0000\u0001\u0011�y\t\u0000\u0001t�y\t\u0000\u0001t�y\u0006\u0000\u0002T:y\u0003\u0000\u0001x�y\u0000\u0000\u0002V�x�\u0000\u0001t�x�\u0000\u0002U�x�\u0000\u0002=]s�\u0000\u0003\u0004�x�\u0000\u0003w�x�\u0000\u0002dhx�\u0000\u0002=`t\u0003\u0000\u0002O�x�\u0000\u0002��t\u0013\u0000\u0001\u0011�x�\u0000\u0003�\u000et\"\u0000\u0002P�x�\u0000\u0001unx�\u0000\u0002P�x�\u0000\u0000o\u0002x�\u0000\u0001�t1\u0000\u0002R�x�\u0000\u0002��t4\u0000\u0002)Yx�\u0000\u0004a�x�\u0000\u0003��x�\u0000\u0002Qxx�\u0000\u0001\"�x�\u0000\u0003wqx�\u0000\u0002��x�\u0000\u0002b�x\u0000\u0002@�x|\u0000\u0002�ltd\u0000\u0002c�xw\u0000\u0002�Jxv\u0000\u0001y�xl\u0000\u0002@�xg\u0000\u0001t�xe\u0000\u0002S�xX\u0000\u0001��xR\u0000\u0001\"�xQ\u0000\u0001~\u0014xO\u0000\u0002P�xM\u0000\u0002@�xK\u0000\u00026rxI\u0000\u0003�xI\u0000\u0003�2xF\u0000\u0001t�xE\u0000\u0001g\u001cxB\u0000\u0001t�x5\u0000\u0002T�x2\u0000\u0001t�x/\u0000\u0001\u001f�x-\u0000\u0002=_t�\u0000\u0002Svt�\u0000\u0001\u001f�x&\u0000\u0000Ԃt�\u0000\u0003!yx\u001e\u0000\u0002Olx\u001d\u0000\u0000��x\u001c\u0000\u0003��t�\u0000\u0004L�x\u0016\u0000\u0001>\u0019t�\u0000\u0002�Rx\u000e\u0000\u0002�jt�\u0000\u0002P�x\t\u0000\u0001 Xt�\u0000\u0003�}x\u0001\u0000\u0004E�t�\u0000\u0002T\u0001w�\u0000\u0001�\u0005w�\u0000\u0001\b\fw�\u0000\u0002b�w�\u0000\u0001~\u001cw�\u0000\u0003q:u\u0001\u0000\u0001\u001f�w�\u0000\u0001>Ew�\u0000\u0001�\u000eu\f\u0000\u0003p�u\u000f\u0000\u0001ubw�\u0000\u0002U\rw�\u0000\u0001\u0011�w�\u0000\u0001\u001fEw�\u0000\u0003\u0015kw�\u0000\u0002�,w�\u0000\u0004\u001e�w�\u0000\u0003��u.\u0000\u0001\"�w�\u0000\u0002_�w�\u0000\u0001$Jw�\u0000\u0003��w�\u0000\u0002k�u9\u0000\u0000�>u:\u0000\u0002)�w�\u0000\u0002R�w�\u0000\u0001 `u>\u0000\u0001�\tw�\u0000\u0002O�w�\u0000\u0000��uI\u0000\u0002Q1w�\u0000\u0000��w�\u0000\u0002.�w�\u0000\u0002V�w�\u0000\u0002b�w�\u0000\u0002��uU\u0000\u0002?�w�\u0000\u0002P�w�\u0000\u0002\u001f�w�\u0000\u0002Sdu]\u0000\u0000�/w\u0000\u0003��u]\u0000\u0004/�u^\u0000\u0001u\u0014w{\u0000\u0001��wy\u0000\u0000��wy\u0000\u0003�Lum\u0000\u0001~\u0013wm\u0000\u0002\u0015�wl\u0000\u0002U\u001dur\u0000\u0002b�wk\u0000\u0001\"�wh\u0000\u0002)�uv\u0000\u0001t�we\u0000\u0003w\u0013wd\u0000\u0002N�wc\u0000\u0001>\u0012uz\u0000\u0002b�wU\u0000\u0002=^wT\u0000\u0002P�wS\u0000\u0002@Vu�\u0000\u0002O�wN\u0000\u0003\b�u�\u0000\u0001�QwM\u0000\u0001\"�wL\u0000\u0000\u0000\u0000\u0000\u0000\u0002A�\fØ�E���0�}HP�1\u0010��5E@Pit\u0000\u0000k���\u0000\u0000^�\u0002\u0003\u0000\u0001\u001f�tI\u0000\u0002_�rJ\u0000\u0000e�p\b\u0000\u0000f�!p\u0000\u0003s�]�\u0000\u0001\u001f�Y�\u0000\u0000`�*\u001a\u0000\u0001\u001f�Wg\u0000\u0002\u001fe+O\u0000\u0001\u001f�V�\u0000\u0002]8+�\u0000\u0004a�V>\u0000\u0002�Z,�\u0000\u0001�T�\u0000\u0001�T�\u0000\u0001\u001fDTl\u0000\u0001\u001f�Q\u000b\u0000\u0002<v1e\u0000\u0001g\"Pw\u0000\u0000��O�\u0000\u0003s�O1\u0000\u00016�3j\u0000\u0001\u001f�MY\u0000\u0001%�L�\u0000\u0002<{5y\u0000\u0001f�L�\u0000\u0000�6l\u0000\u0002kNK\t\u0000\u0002�h7X\u0000\u0000-7i\u0000\u0002Q1JS\u0000\u0001\"�J?\u0000\u0000�+J5\u0000\u0001u\u0013I�\u0000\u0001�\u0000I�\u0000\u0002=\\8�\u0000\u0000��Iz\u0000\u0001t�Iq\u0000\u0001\u000eB8�\u0000\u0001t�I8\u0000\u0001d�H�\u0000\u0002L_H�\u0000\u0000�/H�\u0000\u0001u_Hz\u0000\u0004M�Hm\u0000\u0004R�H\u000e\u0000\u0001�\u0011:?\u0000\u0001t�G�\u0000\u0003s�G�\u0000\u0003��Gb\u0000\u0001\u001fEGD\u0000\u0001>+;+\u0000\u0001�;6\u0000\u0000�2G\u0007\u0000\u0003p�;D\u0000\u0001y�F�\u0000\u0001�\bF�\u0000\u0002<};S\u0000\u0002L`F�\u0000\u0001>\u0010;v\u0000\u0001t�F�\u0000\u0001unF�\u0000\u0001�\u0001Fg\u0000\u0001t�F=\u0000\u00045\u0001F/\u0000\u0003p�<\u001b\u0000\u0001\"�F\u0016\u0000\u0002P�E�\u0000\u0003�\rE�\u0000\u0002P�E�\u0000\u0002\u0002�E�\u0000\u0002b�E�\u0000\u0003QZE�\u0000\u0001\u001f�E�\u0000\u0000o\u0000E�\u0000\u0000�'E�\u0000\u0001t�E�\u0000\u0001t�E�\u0000\u0001%�E^\u0000\u0003s�EP\u0000\u0001��EL\u0000\u0000e�EG\u0000\u0002c�E;\u0000\u0000��E6\u0000\u0003p�E/\u0000\u0001\u001fGE \u0000\u0001t�E\u001b\u0000\u0002OlE\u001a\u0000\u0001t�E\t\u0000\u0001�\u0005=7\u0000\u0001\"�D�\u0000\u0000�(D�\u0000\u000439=Y\u0000\u0002|qD�\u0000\u0003��=i\u0000\u0002QTD�\u0000\u0001ueD�\u0000\u0003v�=x\u0000\u0002U�D�\u0000\u0003s�D�\u0000\u0001\u0011�D�\u0000\u0001\u0011�D�\u0000\u0001t�D�\u0000\u0001��D�\u0000\u0002OtD�\u0000\u0002)�D�\u0000\u0002\u0002�D�\u0000\u0004=�D�\u0000\u0001/]D�\u0000\u0002��=�\u0000\u0001u\bD`\u0000\u0001g\u001dD`\u0000\u0003s�D[\u0000\u0002@�DR\u0000\u0000��>\u0004\u0000\u0001fD8\u0000\u0001�\tD6\u0000\u0001��>\u0017\u0000\u0002=b>\u001b\u0000\u0001t�D!\u0000\u0002=`>\u001f\u0000\u0001t�D\u001d\u0000\u0001\"~D\u0017\u0000\u0002@�D\u0017\u0000\u0002g�>1\u0000\u00026qD\r\u0000\u0002Sm>3\u0000\u0001\"�D\u0003\u0000\u0002UkC�\u0000\u0002U�C�\u0000\u0003�-C�\u0000\u00016�>V\u0000\u0001?�C�\u0000\u0001��C�\u0000\u0001\"�C�\u0000\u0000�.C�\u0000\u0000�?C�\u0000\u0002O9C�\u0000\u0004TJC�\u0000\u0002W7>�\u0000\u0001��C�\u0000\u0001��C�\u0000\u0001g\u0018C�\u0000\u0002>�C�\u0000\u0001��C}\u0000\u0001g!C|\u0000\u0001��Cv\u0000\u0002<|>�\u0000\u0000�-Ci\u0000\u0002)�Cg\u0000\u0001@^Ce\u0000\u00026rCc\u0000\u0003�E>�\u0000\u0002�j>�\u0000\u0002c�CN\u0000\u0002Q-CI\u0000\u00026tCE\u0000\u0001g�C>\u0000\u0004=�C=\u0000\u0000Ԃ?\u0004\u0000\u0004S�C6\u0000\u0002Sv?\u000b\u0000\u0001\u0011�C'\u0000\u0001\u0011�C\u001f\u0000\u0002g�C\u001e\u0000\u0002`\rC\u0018\u0000\u0001$IC\u0018\u0000\u0002S�?-\u0000\u0002V�C\u0010\u0000\u0002��?0\u0000\u0002OSC\t\u0000\u0001�\u0015C\u0000\u0000\u0002K>B�\u0000\u0002b�B�\u0000\u0004=�B�\u0000\u0002\u0002�B�\u0000\u0003��?K\u0000\u00026sB�\u0000\u0002��?O\u0000\u0002gCB�\u0000\u0004E�?Q\u0000\u0002V\u0010B�\u0000\u0003X\u0012B�\u0000\u0002T\rB�\u0000\u0001\u0011�B�\u0000\u0002<VB�\u0000\u0002QBB�\u0000\u0001$MB�\u0000\u0003�2B�\u0000\u0004=�B�\u0000\u0003�6B�\u0000\u0001y�B�\u0000\u0002D\u001aB�\u0000\u0002\u0002�B�\u0000\u0001t�B�\u0000\u0002f\u001cB�\u0000\u0002=]?\u0000\u0002Q?B�\u0000\u0000�4B�\u0000\u0001�\nB�\u0000\u0000}KB�\u0000\u0002L^B�\u0000\u0003w�B�\u0000\u0002Q3B�\u0000\u0001�B�\u0000\u0001�\u0010B�\u0000\u0001t�B�\u0000\u0001��B�\u0000\u0002L]B�\u0000\u0002P�B�\u0000\u0002�JB�\u0000\u0000�*B�\u0000\u0002UcB�\u0000\u0000~kB�\u0000\u0001y�B�\u0000\u0002N�?�\u0000\u0001$jB�\u0000\u0003��B�\u0000\u0001t�B}\u0000\u0002b�B{\u0000\u0001t�By\u0000\u0003��?�\u0000\u0003X^?�\u0000\u0002=^?�\u0000\u0003X\u001aBn\u0000\u0002b�Bm\u0000\u0001�\u000e?�\u0000\u0003�\u0000B_\u0000\u0001��B_\u0000\u0002QGB[\u0000\u0003�\u001fB[\u0000\u0001@>BV\u0000\u0002U�BV\u0000\u0004/\u0000BU\u0000\u0003�\u001cBR\u0000\u0002T4BQ\u0000\u0003��?�\u0000\u0003�0BN\u0000\u0001>\u0011?�\u0000\u0002\u0002�BG\u0000\u0001-qBG\u0000\u0003�L?�\u0000\u0000i�BB\u0000\u0001f�?�\u0000\u0002Q+BA\u0000\u0000�0B?\u0000\u0002>�B=\u0000\u0001>\u0014@\u0002\u0000\u0000�~B;\u0000\u0002@�B;\u0000\u0002U�B:\u0000\u0002><B7\u0000\u0001t�B7\u0000\u0003�\u000e@\u0007\u0000\u0002��@\b\u0000\u0002e�B3\u0000\u0003�%B0\u0000\u0001$JB,\u0000\u0002=d@\u0015\u0000\u0002�l@\u0017\u0000\u0001I�B'\u0000\u0001\"�B%\u0000\u0001�\u000bB%\u0000\u0002��B#\u0000\u0001>\u0018B \u0000\u0002�\u0011B\u001f\u0000\u0002OHB\u001e\u0000\u0002�KB\u001c\u0000\u0001~\u0019B\u001a\u0000\u0002�\u000f@%\u0000\u0003\u0015bB\u0018\u0000\u0001~\u001aB\u0017\u0000\u0001��B\u0015\u0000\u0002\u0002�B\u0014\u0000\u0001ѥ@*\u0000\u0001\"�B\u0013\u0000\u0001>CB\u0010\u0000\u0002c�B\u000f\u0000\u0002��@3\u0000\u0004E�@3\u0000\u0003Y�B\n\u0000\u0003�\u000f@5\u0000\u0000��B\u0007\u0000\u0002@�B\u0006\u0000\u0002A+B\u0005\u0000\u0002U�B\u0003\u0000\u0002)�B\u0003\u0000\u0001��B\u0002\u0000\u0001g\u001bB\u0001\u0000\u0003��B\u0000\u0000\u0001 \\@?\u0000\u0002O7A�\u0000\u0002U�A�\u0000\u0001\"�A�\u0000\u0001x�A�\u0000\u0000~�@Q\u0000\u0001�\u0002A�\u0000\u0003��A�\u0000\u0002b�A�\u0000\u0002T:A�\u0000\u0001�\n@V\u0000\u0001u\u0014A�\u0000\u0001\u0011�A�\u0000\u0002RyA�\u0000\u0003w#A�\u0000\u0000}\u0012A�\u0000\u0002VA�\u0000\u0002P�@g\u0000\u0002T\nA�\u0000\u0002f�A�\u0000\u0003\b�A�\u0000\u0003p�@k\u0000\u0002S�A�\u0000\u0002S�A�\u0000\u0002O8@s\u0000\u0002Q�A�\u0000\u0001u]@w\u0000\u0003w)A�\u0000\u0002b�A�\u0000\u0002M\u0001A�\u0000\u0002b�A�\u0000\u0001t�A�\u0000\u0002P�A�\u0000\u0001��A�\u0000\u0001>EA�\u0000\u0000��A�\u0000\u0001t�@�\u0000\u0001\"�A�\u0000\u0002P�A�\u0000\u0002\u0002�A�\u0000\u0002R@@�\u0000\u0001t�A�\u0000\u0001��A�\u0000\u0002S�A�\u0000\u0002\u0002�A�\u0000\u0002�@�\u0000\u0002>�A�\u0000\u0002O\u0019@�\u0000\u0002c�A�\u0000\u0002�k@�\u0000\u0000\u0000\u0000\u0000\u0000\u0002Op�9�FC����u����1\u0010�Z��@U��\u0000\u0001�\u0003��\u0000\u0000f�\u0000\u0000\u0000\u0001��e�\u0000\u0000^�\f�\u0000\u0002]8\u0014�\u0000\u0002\u001fe\u0016W\u0000\u0000`�\u0016n\u0000\u00026tOC\u0000\u0001t�N�\u0000\u0002�Z\u001a\u0003\u0000\u0000-\u001c�\u0000\u00016�\u001d\u0005\u0000\u0002gCK&\u0000\u0004a�K\u001c\u0000\u0002<v\u001d�\u0000\u0001t�J�\u0000\u0000�\u001d�\u0000\u0001\u001fDG�\u0000\u0002�h!\u001d\u0000\u0000�(FV\u0000\u0000Ԃ$�\u0000\u0001��$�\u0000\u0001\u000eB%C\u0000\u0002<{%�\u0000\u0002?�A5\u0000\u0001>\u0010(W\u0000\u0001t�?Y\u0000\u0003p�)v\u0000\u0001�\u0011)w\u0000\u0001��>q\u0000\u0002?�>%\u0000\u0002=\\+5\u0000\u0000~�<�\u0000\u00026q<�\u0000\u0000��+�\u0000\u0000�?+�\u0000\u0002>�<<\u0000\u0001>+,j\u0000\u0003p�,�\u0000\u0003��,�\u0000\u0002_�,�\u0000\u0001�\t;V\u0000\u0001\u0011�;\"\u0000\u000439-p\u0000\u0001\u001fE:�\u0000\u0002��-�\u0000\u00016�-�\u0000\u0002A+:�\u0000\u0001%�:\u0000\u0002>�:D\u0000\u0001\"�:B\u0000\u0003�E.\r\u0000\u0001\"�:\r\u0000\u0003p�.=\u0000\u0001\u001fG9�\u0000\u0001�.P\u0000\u0001\u0011�9�\u0000\u0001�\u000b9�\u0000\u0002@�9�\u0000\u0002>�9�\u0000\u0001t�9�\u0000\u0002b�9�\u0000\u0001 \\.�\u0000\u0001\u001f�9~\u0000\u0003��.�\u0000\u0002@�9s\u0000\u0001$I95\u0000\u0001\u0011�9\u001b\u0000\u0001$J9\u0000\u0000\u0002<K8�\u0000\u0001un8�\u0000\u0000e�/d\u0000\u0000�+8�\u0000\u0001\"�8�\u0000\u0000��/{\u0000\u0002<}/�\u0000\u0002>�8�\u0000\u0001f8�\u0000\u0002��0\t\u0000\u0002b�8%\u0000\u0002G�0#\u0000\u0001>\u00110#\u0000\u0002<|0-\u0000\u0002U�7�\u0000\u0001�\u000e0B\u0000\u0001\"�7�\u0000\u0002=`0I\u0000\u0002��0K\u0000\u0003�\u000e0U\u0000\u0003��0U\u0000\u0002Sv0j\u0000\u0003v�0n\u0000\u0001@^7�\u0000\u0002k�0\u0000\u0000��7�\u0000\u0001\"�7�\u0000\u00016�0�\u0000\u0001�\u00020�\u0000\u0001��7�\u0000\u0001t�0�\u0000\u0001\"�7z\u0000\u0004E�0�\u0000\u0003s�7l\u0000\u00026s7l\u0000\u0002=\u00100�\u0000\u0001%�7a\u0000\u0002|q7^\u0000\u0001t�7[\u0000\u0001�\u00157Y\u0000\u0001 `0�\u0000\u0000�*7D\u0000\u0001��7<\u0000\u0001$j7)\u0000\u0001g\"7\n\u0000\u0002=_1B\u0000\u0003�s1F\u0000\u0001�6�\u0000\u0001u\u000e6�\u0000\u0001\"�6�\u0000\u0003��1b\u0000\u0001�\b1f\u0000\u0002@�6�\u0000\u0001��6�\u0000\u0003�L1�\u0000\u0002U�6�\u0000\u0001�6�\u0000\u0002)�6�\u0000\u0001��6�\u0000\u0003\u0015b6�\u0000\u0003s�6�\u0000\u0002D\u00196�\u0000\u0002T\r6\u0000\u0001�6x\u0000\u0001\"~6v\u0000\u0001>C6u\u0000\u0002S�6t\u0000\u0002��6q\u0000\u0002S�6a\u0000\u0002N�1�\u0000\u0001u�6M\u0000\u0000��6L\u0000\u0003s�6G\u0000\u0003�<6=\u0000\u0002=b2\u0001\u0000\u0002K>64\u0000\u0002\u0002�6*\u0000\u0001�\u00142&\u0000\u0002@�6\u0014\u0000\u0002\u0002�6\u0014\u0000\u0002\u0002�6\u0010\u0000\u0002\u0018�6\f\u0000\u0001g\u001d6\f\u0000\u0002��22\u0000\u0000{�6\n\u0000\u0002S�6\t\u0000\u0002\u0002�6\u0004\u0000\u0003��29\u0000\u0002��2;\u0000\u0002@�5�\u0000\u0000~25�\u0000\u0002W72D\u0000\u0001t�5�\u0000\u0002U�5�\u0000\u0001\"�5�\u0000\u0002D\u001a5�\u0000\u0001�\u00142a\u0000\u0000e�5�\u0000\u0000i�5�\u0000\u0002\u0002�5�\u0000\u0002D?5�\u0000\u0002=^2q\u0000\u0000k�5�\u0000\u0001�\u00045�\u0000\u0001$N5�\u0000\u0000~k5�\u0000\u0001t�5�\u0000\u0001\"�5�\u0000\u0001\u0011�5�\u0000\u0002Sm2�\u0000\u0001��5�\u0000\u0000�15�\u0000\u0002b�5�\u0000\u0001>@5�\u0000\u0002L]5�\u0000\u0001$M5�\u0000\u0001>\u00142�\u0000\u0004TJ5�\u0000\u0003s�5�\u0000\u0001t�2�\u0000\u0002@V5�\u0000\u0002@�5�\u0000\u0001\u0011�5�\u0000\u0001�\u00102�\u0000\u0001t�5�\u0000\u0001g!5�\u0000\u0002f�2�\u0000\u0001W\u001e5�\u0000\u0002S�5�\u0000\u0003p�2�\u0000\u0002b�5�\u0000\u0002L`5�\u0000\u0001\u0011�5�\u0000\u0002b�5�\u0000\u0003��2�\u0000\u0003\u001a\u001f5z\u0000\u0000~�5z\u0000\u0003�|5w\u0000\u0003\u0006P2�\u0000\u0001\u001f�5t\u0000\u0002T�5q\u0000\u0002\u0002�5l\u0000\u0001\u0011�5i\u0000\u0002�}2�\u0000\u0002b�5d\u0000\u0002?�5c\u0000\u0001 w2�\u0000\u0001>E5b\u0000\u0002U�5a\u0000\u0002)�5a\u0000\u0001uq5_\u0000\u0001\"�5^\u0000\u0002\u0002�5[\u0000\u0002T�5Z\u0000\u0002O\u00182�\u0000\u0002)�5Y\u0000\u0001W!5V\u0000\u0001>D5U\u0000\u0002]a5T\u0000\u0003w%5R\u0000\u0002O`5P\u0000\u0002�l2�\u0000\u0003��5L\u0000\u0002kN5K\u0000\u0000�25J\u0000\u0003�;5H\u0000\u0000�/5G\u0000\u0002?�5D\u0000\u0002Q-5D\u0000\u0002V5B\u0000\u0003�85@\u0000\u0002`o5=\u0000\u0001\u0011�5<\u0000\u0004E�3\u0001\u0000\u0003��3\u0002\u0000\u0000�259\u0000\u0001up55\u0000\u0003��53\u0000\u0002O753\u0000\u0002Q�51\u0000\u0003s�50\u0000\u0001W\u00145,\u0000\u0002b�5,\u0000\u0002U�5'\u0000\u0000�-5 \u0000\u0003��3\u001c\u0000\u0002U�5\u001f\u0000\u0004R�5\u001e\u0000\u0001��5\u001c\u0000\u0001�\u00053 \u0000\u0002.�5\u001b\u0000\u0001��5\u0019\u0000\u0002�k3$\u0000\u0001@>5\u0018\u0000\u0001\"�5\u0018\u0000\u0001f�5\u0014\u0000\u0002\u0002�5\u0014\u0000\u0001u\n5\u0010\u0000\u0002>�5\u0010\u0000\u0002�>5\u000f\u0000\u0001 q3/\u0000\u0001�5\t\u0000\u0002Sx36\u0000\u0001�V36\u0000\u0001u�5\u0005\u0000\u0002OU5\u0004\u0000\u0002U�5\u0002\u0000\u0001��5\u0001\u0000\u0002S�3<\u0000\u0002Q�5\u0000\u0000\u0002b�4�\u0000\u0003QZ4�\u0000\u0002�3?\u0000\u0001g�4�\u0000\u0001y�4�\u0000\u0001t�4�\u0000\u0000�34�\u0000\u0003p�4�\u0000\u0002e�4�\u0000\u0002D.4�\u0000\u0001t�4�\u0000\u0002O.4�\u0000\u0002T�4�\u0000\u0003�J4�\u0000\u0002D*4�\u0000\u0002V�4�\u0000\u0003�)4�\u0000\u0001y�4�\u0000\u0001>\u00123^\u0000\u0001t�4�\u0000\u0001t�4�\u0000\u0002=]3d\u0000\u0002P�4�\u0000\u0003,:4�\u0000\u0002V�4�\u0000\u0002�K4�\u0000\u0001�4�\u0000\u0001t�3m\u0000\u0003�3m\u0000\u0001D�4�\u0000\u0002\u0002�4�\u0000\u0001W'4�\u0000\u0001f�4�\u0000\u0002\\\u00164�\u0000\u0002b�4�\u0000\u0001�G4�\u0000\u0001W#4�\u0000\u0001g�4�\u0000\u0002P\u00184�\u0000\u0000��4�\u0000\u0003R�4�\u0000\u0002T\t4�\u0000\u0002P\u00024�\u0000\u0000��4�\u0000\u0001�\n4�\u0000\u0000�43\u0000\u0002L_4�\u0000\u0002N�3�\u0000\u0000\u0000\u0000\t>\u0002HA&Zb J߃�\u001e�Cf��1\u0010���\u0017?��\u001e\u0000\u0001t���\u0000\u0001t��\u0001\u0000\u0001�\u0003�d\u0000\u0000^�\u0003�\u0000\u00026t��\u0000\u0002?��\u0019\u0000\u0002?��1\u0000\u0000f�D0\u0000\u0001����\u0000\u0002<K��\u0000\u0000`�N;\u0000\u0002]8N�\u0000\u0000�(�y\u0000\u0002>��w\u0000\u0001tƃ�\u0000\u0002\u001feTC\u0000\u00016�V�\u0000\u0002A+~�\u0000\u0001\u001fD~>\u0000\u0002�ZX�\u0000\u0000-YM\u0000\u0002<vY�\u0000\u0001/]{�\u0000\u0002>�y�\u0000\u0002<{\\�\u0000\u0000�\\�\u0000\u0001\u000eB\\�\u0000\u0002>�x�\u0000\u0001��w`\u0000\u0001t�wT\u0000\u0002>�v�\u0000\u0001��_1\u0000\u0001t�vj\u0000\u0002L_v2\u0000\u0002kNu{\u0000\u00026qu(\u0000\u0003p�a\u0003\u0000\u0001d�t�\u0000\u0001>\u0010a7\u0000\u0003w%t�\u0000\u0003s�te\u0000\u0001%�tN\u0000\u0001\"�s�\u0000\u0002�hb�\u0000\u0003s�sj\u0000\u0000~�s]\u0000\u0001g\"sO\u0000\u0003s�s=\u0000\u0001f�s\u001c\u0000\u0003p�c\u0006\u0000\u0001u\u0013r�\u0000\u0002Q1r�\u0000\u0001unr�\u0000\u0002��r�\u0000\u0001>+c%\u0000\u0001\n…[afkortet]"
+  },
+  {
+   "url": "https://aegis.anonymised.io/health?aav=1.8.80",
+   "method": "GET",
+   "post": "",
+   "status": 200,
+   "ct": "text/plain; charset=UTF-8",
+   "body": "OK"
+  },
+  {
+   "url": "https://api.permutive.com/adv/v4/segment?k=25d8de23-8921-4b59-aae4-de79460f0d24",
+   "method": "POST",
+   "post": "[\"bba39bed-c0f6-4462-a48a-ab2f7be04b48\",null,[24318,77661],[]]",
+   "status": 200,
+   "ct": "application/json",
+   "body": "{\"c\":[[[\"adv\"]],[]],\"ctx\":\"eyJpQXQiOjE3OTMwOTE2OTEsImtBIjpbXX0=\"}"
+  },
+  {
+   "url": "https://api.permutive.com/v1.0/state?fetch_unseen=false&k=25d8de23-8921-4b59-aae4-de79460f0d24",
+   "method": "POST",
+   "post": "{\"group_id\":\"bba39bed-c0f6-4462-a48a-ab2f7be04b48\",\"event_source_id\":\"99b72893-1238-4f0f-8a53-2a21eab582f0\",\"state\":\"{\\\"24318\\\":{\\\"0c8b70cdb7\\\":[\\\"b1p\\\",1]},\\\"77661\\\":{\\\"2617511b60\\\":[\\\"b1p\\\",1]}}\",\"last_seen_offset\":0}",
+   "status": 200,
+   "ct": "",
+   "body": ""
+  },
+  {
+   "url": "https://sl-11a463aaedf44600a99367660fd6fa70.ecs.us-east-1.on.aws/events?cee=no",
+   "method": "POST",
+   "post": "{\"event_name\":\"ViewContent\",\"automatic_parameters\":{\"contents\":\"[{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"}]\"},\"smart_setup\":{\"auto_web_details_data\":\"{\\\"page_description\\\":[{\\\"rid\\\":\\\"1063271396742025\\\",\\\"v\\\":[\\\"Kommende shows i Royal Arena\\\"]}],\\\"page_keywords\\\":[{\\\"rid\\\":\\\"1534218705178900\\\",\\\"v\\\":[\\\"Kommende, shows, |, Royal, Arena, Kommende shows i Royal Arena\\\"]},{\\\"rid\\\":\\\"2687799351735288\\\",\\\"v\\\":[\\\"Site logo - www.royalarena.dk - go to homepage\\\"]}]}\",\"is_auto_web_details\":true},\"fb.dynamic_product_ads\":{\"content_type\":\"product\"},\"custom_data\":{\"page_name\":\"Kommende shows | Royal Arena\",\"page_type\":\"whatsOn\",\"page_language\":\"da-DK\",\"page_country\":\"Denmark\",\"artist_genres\":\"\",\"user_login_status\":false,\"audience_signal\":{},\"currency\":false,\"value\":\"0.00\",\"content_type\":\"product\"},\"event_id\":\"ob3_plugin-set_b0194b45dd35b449b9b088d8cb1704f934e5a0b179a711e16d3c2bd80b4549f6\",\"fb.pixel_id\":\"1048497683807980\",\"fb.advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"fb.alternative_advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"website_context\":{\"location\":\"https://www.royalarena.dk/shows\",\"referrer\":\"\",\"isInIFrame\":false},\"fb.fbp\":\"fb.1.1793091690929.850366804735109329\"}",
+   "status": 200,
+   "ct": "application/json",
+   "body": ""
+  },
+  {
+   "url": "https://sl-11a463aaedf44600a99367660fd6fa70.ecs.us-east-1.on.aws/events?cee=no",
+   "method": "POST",
+   "post": "{\"event_name\":\"PageView\",\"automatic_parameters\":{\"contents\":\"[{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"}]\"},\"smart_setup\":{\"auto_web_details_data\":\"{\\\"page_description\\\":[{\\\"rid\\\":\\\"1063271396742025\\\",\\\"v\\\":[\\\"Kommende shows i Royal Arena\\\"]}],\\\"page_keywords\\\":[{\\\"rid\\\":\\\"1534218705178900\\\",\\\"v\\\":[\\\"Kommende, shows, |, Royal, Arena, Kommende shows i Royal Arena\\\"]},{\\\"rid\\\":\\\"2687799351735288\\\",\\\"v\\\":[\\\"Site logo - www.royalarena.dk - go to homepage\\\"]}]}\",\"is_auto_web_details\":true},\"fb.dynamic_product_ads\":{\"content_type\":\"product\"},\"custom_data\":{\"page_name\":\"Kommende shows | Royal Arena\",\"page_type\":\"whatsOn\",\"page_language\":\"da-DK\",\"page_country\":\"Denmark\",\"artist_genres\":\"\",\"user_login_status\":false,\"content_type\":\"product\"},\"event_id\":\"ob3_plugin-set_f0c9ae122f3e24a8daa5f01bac0eefc6a61426617384b6677e7cfd4b6ee71ee6\",\"fb.pixel_id\":\"951154780753454\",\"fb.advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"fb.alternative_advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"website_context\":{\"location\":\"https://www.royalarena.dk/shows\",\"referrer\":\"\",\"isInIFrame\":false},\"fb.fbp\":\"fb.1.1793091690929.850366804735109329\"}",
+   "status": 200,
+   "ct": "application/json",
+   "body": ""
+  },
+  {
+   "url": "https://sl-11a463aaedf44600a99367660fd6fa70.ecs.us-east-1.on.aws/events?cee=no",
+   "method": "POST",
+   "post": "{\"event_name\":\"PageView\",\"automatic_parameters\":{\"contents\":\"[{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"}]\"},\"smart_setup\":{\"auto_web_details_data\":\"{\\\"page_description\\\":[{\\\"rid\\\":\\\"1063271396742025\\\",\\\"v\\\":[\\\"Kommende shows i Royal Arena\\\"]}],\\\"page_keywords\\\":[{\\\"rid\\\":\\\"1534218705178900\\\",\\\"v\\\":[\\\"Kommende, shows, |, Royal, Arena, Kommende shows i Royal Arena\\\"]},{\\\"rid\\\":\\\"2687799351735288\\\",\\\"v\\\":[\\\"Site logo - www.royalarena.dk - go to homepage\\\"]}]}\",\"is_auto_web_details\":true},\"fb.dynamic_product_ads\":{\"content_type\":\"product\"},\"custom_data\":{\"page_name\":\"Kommende shows | Royal Arena\",\"page_type\":\"whatsOn\",\"page_language\":\"da-DK\",\"page_country\":\"Denmark\",\"artist_genres\":\"\",\"user_login_status\":false,\"content_type\":\"product\"},\"event_id\":\"ob3_plugin-set_65c3c5d161b4ca15aa917b0087620c3cd3c9ecc1a36f68fa2ab06de5a33b55e5\",\"fb.pixel_id\":\"1048497683807980\",\"fb.advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"fb.alternative_advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"website_context\":{\"location\":\"https://www.royalarena.dk/shows\",\"referrer\":\"\",\"isInIFrame\":false},\"fb.fbp\":\"fb.1.1793091690929.850366804735109329\",\"event_meta_info\":{\"cs_est\":true}}",
+   "status": 200,
+   "ct": "application/json",
+   "body": ""
+  },
+  {
+   "url": "https://sl-11a463aaedf44600a99367660fd6fa70.ecs.us-east-1.on.aws/events?cee=no",
+   "method": "POST",
+   "post": "{\"event_name\":\"ViewContent\",\"automatic_parameters\":{\"contents\":\"[{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"}]\"},\"smart_setup\":{\"auto_web_details_data\":\"{\\\"page_description\\\":[{\\\"rid\\\":\\\"1063271396742025\\\",\\\"v\\\":[\\\"Kommende shows i Royal Arena\\\"]}],\\\"page_keywords\\\":[{\\\"rid\\\":\\\"1534218705178900\\\",\\\"v\\\":[\\\"Kommende, shows, |, Royal, Arena, Kommende shows i Royal Arena\\\"]},{\\\"rid\\\":\\\"2687799351735288\\\",\\\"v\\\":[\\\"Site logo - www.royalarena.dk - go to homepage\\\"]}]}\",\"is_auto_web_details\":true},\"fb.dynamic_product_ads\":{\"content_type\":\"product\"},\"custom_data\":{\"page_name\":\"Kommende shows | Royal Arena\",\"page_type\":\"whatsOn\",\"page_language\":\"da-DK\",\"page_country\":\"Denmark\",\"artist_genres\":\"\",\"user_login_status\":false,\"audience_signal\":{},\"currency\":false,\"value\":\"0.00\",\"content_type\":\"product\"},\"event_id\":\"ob3_plugin-set_f77962940feacca75b8c8f2f9f8d3ac531802f17d205b93317866d458824d16a\",\"fb.pixel_id\":\"951154780753454\",\"fb.advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"fb.alternative_advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"website_context\":{\"location\":\"https://www.royalarena.dk/shows\",\"referrer\":\"\",\"isInIFrame\":false},\"fb.fbp\":\"fb.1.1793091690929.850366804735109329\"}",
+   "status": 200,
+   "ct": "application/json",
+   "body": ""
+  },
+  {
+   "url": "https://sl-11a463aaedf44600a99367660fd6fa70.ecs.us-east-1.on.aws/events?cee=no",
+   "method": "POST",
+   "post": "{\"event_name\":\"PermutiveSegmentEntry\",\"automatic_parameters\":{\"contents\":\"[{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"}]\"},\"smart_setup\":{\"auto_web_details_data\":\"{\\\"page_description\\\":[{\\\"rid\\\":\\\"1063271396742025\\\",\\\"v\\\":[\\\"Kommende shows i Royal Arena\\\"]}],\\\"page_keywords\\\":[{\\\"rid\\\":\\\"1534218705178900\\\",\\\"v\\\":[\\\"Kommende, shows, |, Royal, Arena, Kommende shows i Royal Arena\\\"]},{\\\"rid\\\":\\\"2687799351735288\\\",\\\"v\\\":[\\\"Site logo - www.royalarena.dk - go to homepage\\\"]}]}\",\"is_auto_web_details\":true},\"custom_data\":{\"segment_id\":24318},\"event_id\":\"ob3_plugin-set_076231bccba4fbde63277fc561981eb4b26844e5a554b2579e6ff508e4abb1da\",\"fb.pixel_id\":\"951154780753454\",\"fb.advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"fb.alternative_advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"website_context\":{\"location\":\"https://www.royalarena.dk/shows\",\"referrer\":\"\",\"isInIFrame\":false},\"fb.fbp\":\"fb.1.1793091690929.850366804735109329.AQYAAQMC\"}",
+   "status": 200,
+   "ct": "application/json",
+   "body": ""
+  },
+  {
+   "url": "https://sl-11a463aaedf44600a99367660fd6fa70.ecs.us-east-1.on.aws/events?cee=no",
+   "method": "POST",
+   "post": "{\"event_name\":\"PermutiveSegmentEntry\",\"automatic_parameters\":{\"contents\":\"[{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"}]\"},\"smart_setup\":{\"auto_web_details_data\":\"{\\\"page_description\\\":[{\\\"rid\\\":\\\"1063271396742025\\\",\\\"v\\\":[\\\"Kommende shows i Royal Arena\\\"]}],\\\"page_keywords\\\":[{\\\"rid\\\":\\\"1534218705178900\\\",\\\"v\\\":[\\\"Kommende, shows, |, Royal, Arena, Kommende shows i Royal Arena\\\"]},{\\\"rid\\\":\\\"2687799351735288\\\",\\\"v\\\":[\\\"Site logo - www.royalarena.dk - go to homepage\\\"]}]}\",\"is_auto_web_details\":true},\"custom_data\":{\"segment_id\":24318},\"event_id\":\"ob3_plugin-set_33a699509530272fb4dd69c54e5e6ee63fda183fae763e88b8f5c0f746a04c52\",\"fb.pixel_id\":\"1048497683807980\",\"fb.advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"fb.alternative_advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"website_context\":{\"location\":\"https://www.royalarena.dk/shows\",\"referrer\":\"\",\"isInIFrame\":false},\"fb.fbp\":\"fb.1.1793091690929.850366804735109329.AQYAAQMC\"}",
+   "status": 200,
+   "ct": "application/json",
+   "body": ""
+  },
+  {
+   "url": "https://sl-11a463aaedf44600a99367660fd6fa70.ecs.us-east-1.on.aws/events?cee=no",
+   "method": "POST",
+   "post": "{\"event_name\":\"PermutiveSegmentEntry_24318\",\"automatic_parameters\":{\"contents\":\"[{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"}]\"},\"smart_setup\":{\"auto_web_details_data\":\"{\\\"page_description\\\":[{\\\"rid\\\":\\\"1063271396742025\\\",\\\"v\\\":[\\\"Kommende shows i Royal Arena\\\"]}],\\\"page_keywords\\\":[{\\\"rid\\\":\\\"1534218705178900\\\",\\\"v\\\":[\\\"Kommende, shows, |, Royal, Arena, Kommende shows i Royal Arena\\\"]},{\\\"rid\\\":\\\"2687799351735288\\\",\\\"v\\\":[\\\"Site logo - www.royalarena.dk - go to homepage\\\"]}]}\",\"is_auto_web_details\":true},\"event_id\":\"ob3_plugin-set_33a85babf72f3ab73b2be049216c3a1465f98918391d78b74503c902f37077ab\",\"fb.pixel_id\":\"951154780753454\",\"fb.advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"fb.alternative_advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"website_context\":{\"location\":\"https://www.royalarena.dk/shows\",\"referrer\":\"\",\"isInIFrame\":false},\"fb.fbp\":\"fb.1.1793091690929.850366804735109329.AQYAAQMC\"}",
+   "status": 200,
+   "ct": "application/json",
+   "body": ""
+  },
+  {
+   "url": "https://sl-11a463aaedf44600a99367660fd6fa70.ecs.us-east-1.on.aws/events?cee=no",
+   "method": "POST",
+   "post": "{\"event_name\":\"PermutiveSegmentEntry_24318\",\"automatic_parameters\":{\"contents\":\"[{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"}]\"},\"smart_setup\":{\"auto_web_details_data\":\"{\\\"page_description\\\":[{\\\"rid\\\":\\\"1063271396742025\\\",\\\"v\\\":[\\\"Kommende shows i Royal Arena\\\"]}],\\\"page_keywords\\\":[{\\\"rid\\\":\\\"1534218705178900\\\",\\\"v\\\":[\\\"Kommende, shows, |, Royal, Arena, Kommende shows i Royal Arena\\\"]},{\\\"rid\\\":\\\"2687799351735288\\\",\\\"v\\\":[\\\"Site logo - www.royalarena.dk - go to homepage\\\"]}]}\",\"is_auto_web_details\":true},\"event_id\":\"ob3_plugin-set_53a072b68eb9fd98a706f245c6c8c5b3898cc93e4d7c5f701b0533e64451153f\",\"fb.pixel_id\":\"1048497683807980\",\"fb.advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"fb.alternative_advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"website_context\":{\"location\":\"https://www.royalarena.dk/shows\",\"referrer\":\"\",\"isInIFrame\":false},\"fb.fbp\":\"fb.1.1793091690929.850366804735109329.AQYAAQMC\"}",
+   "status": 200,
+   "ct": "application/json",
+   "body": ""
+  },
+  {
+   "url": "https://api.anonymised.io/v3/public/pps?aav=1.8.80",
+   "method": "POST",
+   "post": "{\"scores\":[{\"url\":\"https%3A%2F%2Fwww.royalarena.dk%2Fshows\",\"value\":0}],\"fe_id\":\"29ac7a16-8089-48f2-9dcf-f81f84168ec6\",\"pageview_id\":\"950bd074-370d-476b-adea-e30ec4c06cf2\"}",
+   "status": 200,
+   "ct": "application/json",
+   "body": "[]\n"
+  },
+  {
+   "url": "https://sl-11a463aaedf44600a99367660fd6fa70.ecs.us-east-1.on.aws/events?cee=no",
+   "method": "POST",
+   "post": "{\"event_name\":\"PermutiveSegmentEntry\",\"automatic_parameters\":{\"contents\":\"[{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"}]\"},\"smart_setup\":{\"auto_web_details_data\":\"{\\\"page_description\\\":[{\\\"rid\\\":\\\"1063271396742025\\\",\\\"v\\\":[\\\"Kommende shows i Royal Arena\\\"]}],\\\"page_keywords\\\":[{\\\"rid\\\":\\\"1534218705178900\\\",\\\"v\\\":[\\\"Kommende, shows, |, Royal, Arena, Kommende shows i Royal Arena\\\"]},{\\\"rid\\\":\\\"2687799351735288\\\",\\\"v\\\":[\\\"Site logo - www.royalarena.dk - go to homepage\\\"]}]}\",\"is_auto_web_details\":true},\"custom_data\":{\"segment_id\":185778},\"event_id\":\"ob3_plugin-set_93944ee61ca33f27c9938f63a0916f4bc7554843667f4c0a1b4541cd1706b2d9\",\"fb.pixel_id\":\"951154780753454\",\"fb.advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"fb.alternative_advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"website_context\":{\"location\":\"https://www.royalarena.dk/shows\",\"referrer\":\"\",\"isInIFrame\":false},\"fb.fbp\":\"fb.1.1793091690929.850366804735109329.AQYAAQMC\"}",
+   "status": 200,
+   "ct": "application/json",
+   "body": ""
+  },
+  {
+   "url": "https://sl-11a463aaedf44600a99367660fd6fa70.ecs.us-east-1.on.aws/events?cee=no",
+   "method": "POST",
+   "post": "{\"event_name\":\"PermutiveSegmentEntry\",\"automatic_parameters\":{\"contents\":\"[{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"}]\"},\"smart_setup\":{\"auto_web_details_data\":\"{\\\"page_description\\\":[{\\\"rid\\\":\\\"1063271396742025\\\",\\\"v\\\":[\\\"Kommende shows i Royal Arena\\\"]}],\\\"page_keywords\\\":[{\\\"rid\\\":\\\"1534218705178900\\\",\\\"v\\\":[\\\"Kommende, shows, |, Royal, Arena, Kommende shows i Royal Arena\\\"]},{\\\"rid\\\":\\\"2687799351735288\\\",\\\"v\\\":[\\\"Site logo - www.royalarena.dk - go to homepage\\\"]}]}\",\"is_auto_web_details\":true},\"custom_data\":{\"segment_id\":185778},\"event_id\":\"ob3_plugin-set_26131aca71624694135edf282e5a4b86595ab56356ebefbe24709d5721b6148f\",\"fb.pixel_id\":\"1048497683807980\",\"fb.advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"fb.alternative_advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"website_context\":{\"location\":\"https://www.royalarena.dk/shows\",\"referrer\":\"\",\"isInIFrame\":false},\"fb.fbp\":\"fb.1.1793091690929.850366804735109329.AQYAAQMC\"}",
+   "status": 200,
+   "ct": "application/json",
+   "body": ""
+  },
+  {
+   "url": "https://cvw425zxroht.cloud.run/events?cee=no",
+   "method": "POST",
+   "post": "{\"event_name\":\"PermutiveSegmentEntry\",\"automatic_parameters\":{\"contents\":\"[{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"}]\"},\"smart_setup\":{\"auto_web_details_data\":\"{\\\"page_description\\\":[{\\\"rid\\\":\\\"1063271396742025\\\",\\\"v\\\":[\\\"Kommende shows i Royal Arena\\\"]}],\\\"page_keywords\\\":[{\\\"rid\\\":\\\"1534218705178900\\\",\\\"v\\\":[\\\"Kommende, shows, |, Royal, Arena, Kommende shows i Royal Arena\\\"]},{\\\"rid\\\":\\\"2687799351735288\\\",\\\"v\\\":[\\\"Site logo - www.royalarena.dk - go to homepage\\\"]}]}\",\"is_auto_web_details\":true},\"custom_data\":{\"segment_id\":77661},\"event_id\":\"ob3_plugin-set_b65530431e41df7608b3f447e42d8ecf14b0649fd90335d249363f0078b8e9e1\",\"fb.pixel_id\":\"1048497683807980\",\"fb.advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"fb.alternative_advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"website_context\":{\"location\":\"https://www.royalarena.dk/shows\",\"referrer\":\"\",\"isInIFrame\":false},\"fb.fbp\":\"fb.1.1793091690929.850366804735109329.AQYAAQMC\",\"event_meta_info\":{\"tags\":[\"bug_fix_inc\"]}}",
+   "status": 200,
+   "ct": "application/json",
+   "body": ""
+  },
+  {
+   "url": "https://sl-11a463aaedf44600a99367660fd6fa70.ecs.us-east-1.on.aws/events?cee=no",
+   "method": "POST",
+   "post": "{\"event_name\":\"PermutiveSegmentEntry_185778\",\"automatic_parameters\":{\"contents\":\"[{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"}]\"},\"smart_setup\":{\"auto_web_details_data\":\"{\\\"page_description\\\":[{\\\"rid\\\":\\\"1063271396742025\\\",\\\"v\\\":[\\\"Kommende shows i Royal Arena\\\"]}],\\\"page_keywords\\\":[{\\\"rid\\\":\\\"1534218705178900\\\",\\\"v\\\":[\\\"Kommende, shows, |, Royal, Arena, Kommende shows i Royal Arena\\\"]},{\\\"rid\\\":\\\"2687799351735288\\\",\\\"v\\\":[\\\"Site logo - www.royalarena.dk - go to homepage\\\"]}]}\",\"is_auto_web_details\":true},\"event_id\":\"ob3_plugin-set_4ffe0a051b4d47d939e3e6c81635a1f41e3b4df234a59ac2cd285a6446f87d0e\",\"fb.pixel_id\":\"951154780753454\",\"fb.advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"fb.alternative_advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"website_context\":{\"location\":\"https://www.royalarena.dk/shows\",\"referrer\":\"\",\"isInIFrame\":false},\"fb.fbp\":\"fb.1.1793091690929.850366804735109329.AQYAAQMC\"}",
+   "status": 200,
+   "ct": "application/json",
+   "body": ""
+  },
+  {
+   "url": "https://snofje0za8n8.cloud.run/events?cee=no",
+   "method": "POST",
+   "post": "{\"event_name\":\"PermutiveSegmentEntry_77661\",\"automatic_parameters\":{\"contents\":\"[{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"}]\"},\"smart_setup\":{\"auto_web_details_data\":\"{\\\"page_description\\\":[{\\\"rid\\\":\\\"1063271396742025\\\",\\\"v\\\":[\\\"Kommende shows i Royal Arena\\\"]}],\\\"page_keywords\\\":[{\\\"rid\\\":\\\"1534218705178900\\\",\\\"v\\\":[\\\"Kommende, shows, |, Royal, Arena, Kommende shows i Royal Arena\\\"]},{\\\"rid\\\":\\\"2687799351735288\\\",\\\"v\\\":[\\\"Site logo - www.royalarena.dk - go to homepage\\\"]}]}\",\"is_auto_web_details\":true},\"event_id\":\"ob3_plugin-set_303c29e5ca70b8e41e0a3709d97f27f8ee64207231706d326cf28aa091512c75\",\"fb.pixel_id\":\"951154780753454\",\"fb.advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"fb.alternative_advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"website_context\":{\"location\":\"https://www.royalarena.dk/shows\",\"referrer\":\"\",\"isInIFrame\":false},\"fb.fbp\":\"fb.1.1793091690929.850366804735109329.AQYAAQMC\",\"event_meta_info\":{\"tags\":[\"bug_fix_inc\"]}}",
+   "status": 200,
+   "ct": "application/json",
+   "body": ""
+  },
+  {
+   "url": "https://sl-11a463aaedf44600a99367660fd6fa70.ecs.us-east-1.on.aws/events?cee=no",
+   "method": "POST",
+   "post": "{\"event_name\":\"PermutiveSegmentEntry_185778\",\"automatic_parameters\":{\"contents\":\"[{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"}]\"},\"smart_setup\":{\"auto_web_details_data\":\"{\\\"page_description\\\":[{\\\"rid\\\":\\\"1063271396742025\\\",\\\"v\\\":[\\\"Kommende shows i Royal Arena\\\"]}],\\\"page_keywords\\\":[{\\\"rid\\\":\\\"1534218705178900\\\",\\\"v\\\":[\\\"Kommende, shows, |, Royal, Arena, Kommende shows i Royal Arena\\\"]},{\\\"rid\\\":\\\"2687799351735288\\\",\\\"v\\\":[\\\"Site logo - www.royalarena.dk - go to homepage\\\"]}]}\",\"is_auto_web_details\":true},\"event_id\":\"ob3_plugin-set_8c42dca29a830028119b2019ba1a3327ab85463f7200507427e9dc7b3c47be94\",\"fb.pixel_id\":\"1048497683807980\",\"fb.advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"fb.alternative_advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"website_context\":{\"location\":\"https://www.royalarena.dk/shows\",\"referrer\":\"\",\"isInIFrame\":false},\"fb.fbp\":\"fb.1.1793091690929.850366804735109329.AQYAAQMC\"}",
+   "status": 200,
+   "ct": "application/json",
+   "body": ""
+  },
+  {
+   "url": "https://sl-11a463aaedf44600a99367660fd6fa70.ecs.us-east-1.on.aws/events?cee=no",
+   "method": "POST",
+   "post": "{\"event_name\":\"PermutiveSegmentEntry\",\"automatic_parameters\":{\"contents\":\"[{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"}]\"},\"smart_setup\":{\"auto_web_details_data\":\"{\\\"page_description\\\":[{\\\"rid\\\":\\\"1063271396742025\\\",\\\"v\\\":[\\\"Kommende shows i Royal Arena\\\"]}],\\\"page_keywords\\\":[{\\\"rid\\\":\\\"1534218705178900\\\",\\\"v\\\":[\\\"Kommende, shows, |, Royal, Arena, Kommende shows i Royal Arena\\\"]},{\\\"rid\\\":\\\"2687799351735288\\\",\\\"v\\\":[\\\"Site logo - www.royalarena.dk - go to homepage\\\"]}]}\",\"is_auto_web_details\":true},\"custom_data\":{\"segment_id\":197410},\"event_id\":\"ob3_plugin-set_7118a3b61fb1b86f93e75a3761d0246f77897449cfff9199b1c9084412700b1b\",\"fb.pixel_id\":\"951154780753454\",\"fb.advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"fb.alternative_advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"website_context\":{\"location\":\"https://www.royalarena.dk/shows\",\"referrer\":\"\",\"isInIFrame\":false},\"fb.fbp\":\"fb.1.1793091690929.850366804735109329.AQYAAQMC\"}",
+   "status": 200,
+   "ct": "application/json",
+   "body": ""
+  },
+  {
+   "url": "https://sl-11a463aaedf44600a99367660fd6fa70.ecs.us-east-1.on.aws/events?cee=no",
+   "method": "POST",
+   "post": "{\"event_name\":\"PermutiveSegmentEntry\",\"automatic_parameters\":{\"contents\":\"[{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"}]\"},\"smart_setup\":{\"auto_web_details_data\":\"{\\\"page_description\\\":[{\\\"rid\\\":\\\"1063271396742025\\\",\\\"v\\\":[\\\"Kommende shows i Royal Arena\\\"]}],\\\"page_keywords\\\":[{\\\"rid\\\":\\\"1534218705178900\\\",\\\"v\\\":[\\\"Kommende, shows, |, Royal, Arena, Kommende shows i Royal Arena\\\"]},{\\\"rid\\\":\\\"2687799351735288\\\",\\\"v\\\":[\\\"Site logo - www.royalarena.dk - go to homepage\\\"]}]}\",\"is_auto_web_details\":true},\"custom_data\":{\"segment_id\":197410},\"event_id\":\"ob3_plugin-set_00d51c2818ce8902f6727389b3b98063737ae420b7f791a7d7326e2758a6f966\",\"fb.pixel_id\":\"1048497683807980\",\"fb.advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"fb.alternative_advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"website_context\":{\"location\":\"https://www.royalarena.dk/shows\",\"referrer\":\"\",\"isInIFrame\":false},\"fb.fbp\":\"fb.1.1793091690929.850366804735109329.AQYAAQMC\"}",
+   "status": 200,
+   "ct": "application/json",
+   "body": ""
+  },
+  {
+   "url": "https://sl-11a463aaedf44600a99367660fd6fa70.ecs.us-east-1.on.aws/events?cee=no",
+   "method": "POST",
+   "post": "{\"event_name\":\"PermutiveSegmentEntry_197410\",\"automatic_parameters\":{\"contents\":\"[{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"}]\"},\"smart_setup\":{\"auto_web_details_data\":\"{\\\"page_description\\\":[{\\\"rid\\\":\\\"1063271396742025\\\",\\\"v\\\":[\\\"Kommende shows i Royal Arena\\\"]}],\\\"page_keywords\\\":[{\\\"rid\\\":\\\"1534218705178900\\\",\\\"v\\\":[\\\"Kommende, shows, |, Royal, Arena, Kommende shows i Royal Arena\\\"]},{\\\"rid\\\":\\\"2687799351735288\\\",\\\"v\\\":[\\\"Site logo - www.royalarena.dk - go to homepage\\\"]}]}\",\"is_auto_web_details\":true},\"event_id\":\"ob3_plugin-set_aba5589c0a491d327e0c18fca17ec9ad4d5e1c5aa1af8f40da68356802c75a9c\",\"fb.pixel_id\":\"951154780753454\",\"fb.advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"fb.alternative_advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"website_context\":{\"location\":\"https://www.royalarena.dk/shows\",\"referrer\":\"\",\"isInIFrame\":false},\"fb.fbp\":\"fb.1.1793091690929.850366804735109329.AQYAAQMC\"}",
+   "status": 200,
+   "ct": "application/json",
+   "body": ""
+  },
+  {
+   "url": "https://cvw425zxroht.cloud.run/events?cee=no",
+   "method": "POST",
+   "post": "{\"event_name\":\"PermutiveSegmentEntry_77661\",\"automatic_parameters\":{\"contents\":\"[{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"}]\"},\"smart_setup\":{\"auto_web_details_data\":\"{\\\"page_description\\\":[{\\\"rid\\\":\\\"1063271396742025\\\",\\\"v\\\":[\\\"Kommende shows i Royal Arena\\\"]}],\\\"page_keywords\\\":[{\\\"rid\\\":\\\"1534218705178900\\\",\\\"v\\\":[\\\"Kommende, shows, |, Royal, Arena, Kommende shows i Royal Arena\\\"]},{\\\"rid\\\":\\\"2687799351735288\\\",\\\"v\\\":[\\\"Site logo - www.royalarena.dk - go to homepage\\\"]}]}\",\"is_auto_web_details\":true},\"event_id\":\"ob3_plugin-set_f6272872a253969810b3e77fcef42e24a694aeee7f3c767c7e048c65e5781aad\",\"fb.pixel_id\":\"1048497683807980\",\"fb.advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"fb.alternative_advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"website_context\":{\"location\":\"https://www.royalarena.dk/shows\",\"referrer\":\"\",\"isInIFrame\":false},\"fb.fbp\":\"fb.1.1793091690929.850366804735109329.AQYAAQMC\",\"event_meta_info\":{\"tags\":[\"bug_fix_inc\"]}}",
+   "status": 200,
+   "ct": "application/json",
+   "body": ""
+  },
+  {
+   "url": "https://sl-11a463aaedf44600a99367660fd6fa70.ecs.us-east-1.on.aws/events?cee=no",
+   "method": "POST",
+   "post": "{\"event_name\":\"PermutiveSegmentEntry\",\"automatic_parameters\":{\"contents\":\"[{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"}]\"},\"smart_setup\":{\"auto_web_details_data\":\"{\\\"page_description\\\":[{\\\"rid\\\":\\\"1063271396742025\\\",\\\"v\\\":[\\\"Kommende shows i Royal Arena\\\"]}],\\\"page_keywords\\\":[{\\\"rid\\\":\\\"1534218705178900\\\",\\\"v\\\":[\\\"Kommende, shows, |, Royal, Arena, Kommende shows i Royal Arena\\\"]},{\\\"rid\\\":\\\"2687799351735288\\\",\\\"v\\\":[\\\"Site logo - www.royalarena.dk - go to homepage\\\"]}]}\",\"is_auto_web_details\":true},\"custom_data\":{\"segment_id\":283409},\"event_id\":\"ob3_plugin-set_343b7301b779fda9ab821430135fb2eb236bfba5d5ec2e659d6d12e4f6b20976\",\"fb.pixel_id\":\"951154780753454\",\"fb.advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"fb.alternative_advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"website_context\":{\"location\":\"https://www.royalarena.dk/shows\",\"referrer\":\"\",\"isInIFrame\":false},\"fb.fbp\":\"fb.1.1793091690929.850366804735109329.AQYAAQMC\"}",
+   "status": 200,
+   "ct": "application/json",
+   "body": ""
+  },
+  {
+   "url": "https://sl-11a463aaedf44600a99367660fd6fa70.ecs.us-east-1.on.aws/events?cee=no",
+   "method": "POST",
+   "post": "{\"event_name\":\"PermutiveSegmentEntry\",\"automatic_parameters\":{\"contents\":\"[{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"}]\"},\"smart_setup\":{\"auto_web_details_data\":\"{\\\"page_description\\\":[{\\\"rid\\\":\\\"1063271396742025\\\",\\\"v\\\":[\\\"Kommende shows i Royal Arena\\\"]}],\\\"page_keywords\\\":[{\\\"rid\\\":\\\"1534218705178900\\\",\\\"v\\\":[\\\"Kommende, shows, |, Royal, Arena, Kommende shows i Royal Arena\\\"]},{\\\"rid\\\":\\\"2687799351735288\\\",\\\"v\\\":[\\\"Site logo - www.royalarena.dk - go to homepage\\\"]}]}\",\"is_auto_web_details\":true},\"custom_data\":{\"segment_id\":283409},\"event_id\":\"ob3_plugin-set_70090013556d86104bc157fd19f7eb6e3537b26c98a8db10cc70805df07ca1bf\",\"fb.pixel_id\":\"1048497683807980\",\"fb.advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"fb.alternative_advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"website_context\":{\"location\":\"https://www.royalarena.dk/shows\",\"referrer\":\"\",\"isInIFrame\":false},\"fb.fbp\":\"fb.1.1793091690929.850366804735109329.AQYAAQMC\"}",
+   "status": 200,
+   "ct": "application/json",
+   "body": ""
+  },
+  {
+   "url": "https://sl-11a463aaedf44600a99367660fd6fa70.ecs.us-east-1.on.aws/events?cee=no",
+   "method": "POST",
+   "post": "{\"event_name\":\"PermutiveSegmentEntry_283409\",\"automatic_parameters\":{\"contents\":\"[{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"}]\"},\"smart_setup\":{\"auto_web_details_data\":\"{\\\"page_description\\\":[{\\\"rid\\\":\\\"1063271396742025\\\",\\\"v\\\":[\\\"Kommende shows i Royal Arena\\\"]}],\\\"page_keywords\\\":[{\\\"rid\\\":\\\"1534218705178900\\\",\\\"v\\\":[\\\"Kommende, shows, |, Royal, Arena, Kommende shows i Royal Arena\\\"]},{\\\"rid\\\":\\\"2687799351735288\\\",\\\"v\\\":[\\\"Site logo - www.royalarena.dk - go to homepage\\\"]}]}\",\"is_auto_web_details\":true},\"event_id\":\"ob3_plugin-set_ff2291c09b353c5330015705eeb9a8d88baf0044651f4e0daa3e44cf2fff3e9c\",\"fb.pixel_id\":\"951154780753454\",\"fb.advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"fb.alternative_advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"website_context\":{\"location\":\"https://www.royalarena.dk/shows\",\"referrer\":\"\",\"isInIFrame\":false},\"fb.fbp\":\"fb.1.1793091690929.850366804735109329.AQYAAQMC\"}",
+   "status": 200,
+   "ct": "application/json",
+   "body": ""
+  },
+  {
+   "url": "https://sl-11a463aaedf44600a99367660fd6fa70.ecs.us-east-1.on.aws/events?cee=no",
+   "method": "POST",
+   "post": "{\"event_name\":\"PermutiveSegmentEntry_283409\",\"automatic_parameters\":{\"contents\":\"[{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"}]\"},\"smart_setup\":{\"auto_web_details_data\":\"{\\\"page_description\\\":[{\\\"rid\\\":\\\"1063271396742025\\\",\\\"v\\\":[\\\"Kommende shows i Royal Arena\\\"]}],\\\"page_keywords\\\":[{\\\"rid\\\":\\\"1534218705178900\\\",\\\"v\\\":[\\\"Kommende, shows, |, Royal, Arena, Kommende shows i Royal Arena\\\"]},{\\\"rid\\\":\\\"2687799351735288\\\",\\\"v\\\":[\\\"Site logo - www.royalarena.dk - go to homepage\\\"]}]}\",\"is_auto_web_details\":true},\"event_id\":\"ob3_plugin-set_bf7c89db8ddab300de08cad738e6925a740167264325ac27f3047f8177f18173\",\"fb.pixel_id\":\"1048497683807980\",\"fb.advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"fb.alternative_advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"website_context\":{\"location\":\"https://www.royalarena.dk/shows\",\"referrer\":\"\",\"isInIFrame\":false},\"fb.fbp\":\"fb.1.1793091690929.850366804735109329.AQYAAQMC\"}",
+   "status": 200,
+   "ct": "application/json",
+   "body": ""
+  },
+  {
+   "url": "https://sl-11a463aaedf44600a99367660fd6fa70.ecs.us-east-1.on.aws/events?cee=no",
+   "method": "POST",
+   "post": "{\"event_name\":\"PermutiveSegmentEntry\",\"automatic_parameters\":{\"contents\":\"[{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"}]\"},\"smart_setup\":{\"auto_web_details_data\":\"{\\\"page_description\\\":[{\\\"rid\\\":\\\"1063271396742025\\\",\\\"v\\\":[\\\"Kommende shows i Royal Arena\\\"]}],\\\"page_keywords\\\":[{\\\"rid\\\":\\\"1534218705178900\\\",\\\"v\\\":[\\\"Kommende, shows, |, Royal, Arena, Kommende shows i Royal Arena\\\"]},{\\\"rid\\\":\\\"2687799351735288\\\",\\\"v\\\":[\\\"Site logo - www.royalarena.dk - go to homepage\\\"]}]}\",\"is_auto_web_details\":true},\"custom_data\":{\"segment_id\":283894},\"event_id\":\"ob3_plugin-set_348555f09baf64c09d13013ff89d5c6bc8486b360634cae5edc9de387cab1c33\",\"fb.pixel_id\":\"951154780753454\",\"fb.advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"fb.alternative_advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"website_context\":{\"location\":\"https://www.royalarena.dk/shows\",\"referrer\":\"\",\"isInIFrame\":false},\"fb.fbp\":\"fb.1.1793091690929.850366804735109329.AQYAAQMC\"}",
+   "status": 200,
+   "ct": "application/json",
+   "body": ""
+  },
+  {
+   "url": "https://sl-11a463aaedf44600a99367660fd6fa70.ecs.us-east-1.on.aws/events?cee=no",
+   "method": "POST",
+   "post": "{\"event_name\":\"PermutiveSegmentEntry\",\"automatic_parameters\":{\"contents\":\"[{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"}]\"},\"smart_setup\":{\"auto_web_details_data\":\"{\\\"page_description\\\":[{\\\"rid\\\":\\\"1063271396742025\\\",\\\"v\\\":[\\\"Kommende shows i Royal Arena\\\"]}],\\\"page_keywords\\\":[{\\\"rid\\\":\\\"1534218705178900\\\",\\\"v\\\":[\\\"Kommende, shows, |, Royal, Arena, Kommende shows i Royal Arena\\\"]},{\\\"rid\\\":\\\"2687799351735288\\\",\\\"v\\\":[\\\"Site logo - www.royalarena.dk - go to homepage\\\"]}]}\",\"is_auto_web_details\":true},\"custom_data\":{\"segment_id\":283894},\"event_id\":\"ob3_plugin-set_6d3e095dfd7fb3245c9dbf6577f1646b68bb2caf41f06bfb64b6d85e90273856\",\"fb.pixel_id\":\"1048497683807980\",\"fb.advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"fb.alternative_advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"website_context\":{\"location\":\"https://www.royalarena.dk/shows\",\"referrer\":\"\",\"isInIFrame\":false},\"fb.fbp\":\"fb.1.1793091690929.850366804735109329.AQYAAQMC\"}",
+   "status": 200,
+   "ct": "application/json",
+   "body": ""
+  },
+  {
+   "url": "https://sl-11a463aaedf44600a99367660fd6fa70.ecs.us-east-1.on.aws/events?cee=no",
+   "method": "POST",
+   "post": "{\"event_name\":\"PermutiveSegmentEntry_283894\",\"automatic_parameters\":{\"contents\":\"[{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"}]\"},\"smart_setup\":{\"auto_web_details_data\":\"{\\\"page_description\\\":[{\\\"rid\\\":\\\"1063271396742025\\\",\\\"v\\\":[\\\"Kommende shows i Royal Arena\\\"]}],\\\"page_keywords\\\":[{\\\"rid\\\":\\\"1534218705178900\\\",\\\"v\\\":[\\\"Kommende, shows, |, Royal, Arena, Kommende shows i Royal Arena\\\"]},{\\\"rid\\\":\\\"2687799351735288\\\",\\\"v\\\":[\\\"Site logo - www.royalarena.dk - go to homepage\\\"]}]}\",\"is_auto_web_details\":true},\"event_id\":\"ob3_plugin-set_64b9a57a635a056baf4c99cdea6187f1d038804f9f39ddfa6facb25d0c2605f9\",\"fb.pixel_id\":\"951154780753454\",\"fb.advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"fb.alternative_advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"website_context\":{\"location\":\"https://www.royalarena.dk/shows\",\"referrer\":\"\",\"isInIFrame\":false},\"fb.fbp\":\"fb.1.1793091690929.850366804735109329.AQYAAQMC\"}",
+   "status": 200,
+   "ct": "application/json",
+   "body": ""
+  },
+  {
+   "url": "https://sl-11a463aaedf44600a99367660fd6fa70.ecs.us-east-1.on.aws/events?cee=no",
+   "method": "POST",
+   "post": "{\"event_name\":\"PermutiveSegmentEntry_283894\",\"automatic_parameters\":{\"contents\":\"[{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"}]\"},\"smart_setup\":{\"auto_web_details_data\":\"{\\\"page_description\\\":[{\\\"rid\\\":\\\"1063271396742025\\\",\\\"v\\\":[\\\"Kommende shows i Royal Arena\\\"]}],\\\"page_keywords\\\":[{\\\"rid\\\":\\\"1534218705178900\\\",\\\"v\\\":[\\\"Kommende, shows, |, Royal, Arena, Kommende shows i Royal Arena\\\"]},{\\\"rid\\\":\\\"2687799351735288\\\",\\\"v\\\":[\\\"Site logo - www.royalarena.dk - go to homepage\\\"]}]}\",\"is_auto_web_details\":true},\"event_id\":\"ob3_plugin-set_6e06eb54d1483f8aba88116fd4662f29659648b6fd11b623919406331ff91474\",\"fb.pixel_id\":\"1048497683807980\",\"fb.advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"fb.alternative_advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"website_context\":{\"location\":\"https://www.royalarena.dk/shows\",\"referrer\":\"\",\"isInIFrame\":false},\"fb.fbp\":\"fb.1.1793091690929.850366804735109329.AQYAAQMC\"}",
+   "status": 200,
+   "ct": "application/json",
+   "body": ""
+  },
+  {
+   "url": "https://sl-11a463aaedf44600a99367660fd6fa70.ecs.us-east-1.on.aws/events?cee=no",
+   "method": "POST",
+   "post": "{\"event_name\":\"PermutiveSegmentEntry\",\"automatic_parameters\":{\"contents\":\"[{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"}]\"},\"smart_setup\":{\"auto_web_details_data\":\"{\\\"page_description\\\":[{\\\"rid\\\":\\\"1063271396742025\\\",\\\"v\\\":[\\\"Kommende shows i Royal Arena\\\"]}],\\\"page_keywords\\\":[{\\\"rid\\\":\\\"1534218705178900\\\",\\\"v\\\":[\\\"Kommende, shows, |, Royal, Arena, Kommende shows i Royal Arena\\\"]},{\\\"rid\\\":\\\"2687799351735288\\\",\\\"v\\\":[\\\"Site logo - www.royalarena.dk - go to homepage\\\"]}]}\",\"is_auto_web_details\":true},\"custom_data\":{\"segment_id\":284061},\"event_id\":\"ob3_plugin-set_f0aa1cfa5e4598d4c6a8d892bcf3c592ebc624de0e6589980dacdcebb5298091\",\"fb.pixel_id\":\"951154780753454\",\"fb.advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"fb.alternative_advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"website_context\":{\"location\":\"https://www.royalarena.dk/shows\",\"referrer\":\"\",\"isInIFrame\":false},\"fb.fbp\":\"fb.1.1793091690929.850366804735109329.AQYAAQMC\"}",
+   "status": 200,
+   "ct": "application/json",
+   "body": ""
+  },
+  {
+   "url": "https://sl-11a463aaedf44600a99367660fd6fa70.ecs.us-east-1.on.aws/events?cee=no",
+   "method": "POST",
+   "post": "{\"event_name\":\"PermutiveSegmentEntry\",\"automatic_parameters\":{\"contents\":\"[{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"}]\"},\"smart_setup\":{\"auto_web_details_data\":\"{\\\"page_description\\\":[{\\\"rid\\\":\\\"1063271396742025\\\",\\\"v\\\":[\\\"Kommende shows i Royal Arena\\\"]}],\\\"page_keywords\\\":[{\\\"rid\\\":\\\"1534218705178900\\\",\\\"v\\\":[\\\"Kommende, shows, |, Royal, Arena, Kommende shows i Royal Arena\\\"]},{\\\"rid\\\":\\\"2687799351735288\\\",\\\"v\\\":[\\\"Site logo - www.royalarena.dk - go to homepage\\\"]}]}\",\"is_auto_web_details\":true},\"custom_data\":{\"segment_id\":284061},\"event_id\":\"ob3_plugin-set_c63e4cc252649f22119360c14e67d64cef2886418d809a70ff360e6d88b8d75a\",\"fb.pixel_id\":\"1048497683807980\",\"fb.advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"fb.alternative_advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"website_context\":{\"location\":\"https://www.royalarena.dk/shows\",\"referrer\":\"\",\"isInIFrame\":false},\"fb.fbp\":\"fb.1.1793091690929.850366804735109329.AQYAAQMC\"}",
+   "status": 200,
+   "ct": "application/json",
+   "body": ""
+  },
+  {
+   "url": "https://api.permutive.com/v2.0/batch/events?enrich=false&sdkp=true&k=25d8de23-8921-4b59-aae4-de79460f0d24",
+   "method": "POST",
+   "post": "[{\"name\":\"Pageview\",\"properties\":{\"isp_info\":{\"isp\":\"Microsoft Azure\",\"organization\":\"Microsoft Azure\",\"autonomous_system_number\":8075,\"autonomous_system_organization\":\"Microsoft Corporation\"},\"geo_info\":{\"continent\":\"North America\",\"country\":\"United States\",\"city\":\"San Jose\",\"province\":\"California\",\"postal_code\":\"95141\"},\"article\":{\"artistGenre\":\"\",\"artistID\":\"undefined\",\"artistName\":\"undefined\",\"eventID\":\"undefined\",\"eventName\":\"undefined\",\"venueCity\":\"undefined\",\"venueCountry\":\"undefined\",\"venueName\":\"undefined\"},\"user\":{\"id\":\"undefined\",\"loggedInStatus\":\"false\"},\"client\":{\"domain\":\"www.royalarena.dk\",\"referrer\":\"\",\"title\":\"Kommende shows | Royal Arena\",\"type\":\"web\",\"url\":\"https://www.royalarena.dk/shows\",\"user_agent\":\"Mozilla/5.0 (iPhone; CPU iPhone OS 18_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1 PermutiveWebSDK/v20.78.1\"}},\"session_id\":\"5f4ef829-cafb-4761-ac35-a6eb77f4f78b\",\"view_id\":\"b1b0fd06-f23a-4a3b-8acf-b24cc8f8fdb6\",\"time\":\"2026-10-27T09:01:30.564Z\",\"segments\":[24318,77661],\"user_id\":\"bba39bed-c0f6-4462-a48a-ab2f7be04b48\",\"cohorts\":[\"24318\",\"77661\",\"adv\",\"cur\",\"adv\"]}]",
+   "status": 200,
+   "ct": "application/json",
+   "body": "[{\"code\":200,\"body\":{\"id\":\"04ce3689-8808-434c-9d45-601e30c7c8c1\",\"time\":\"2026-10-27T09:01:33.272Z\"}}]"
+  },
+  {
+   "url": "https://snofje0za8n8.cloud.run/events?cee=no",
+   "method": "POST",
+   "post": "{\"event_name\":\"PermutiveSegmentEntry_231367\",\"automatic_parameters\":{\"contents\":\"[{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"}]\"},\"smart_setup\":{\"auto_web_details_data\":\"{\\\"page_description\\\":[{\\\"rid\\\":\\\"1063271396742025\\\",\\\"v\\\":[\\\"Kommende shows i Royal Arena\\\"]}],\\\"page_keywords\\\":[{\\\"rid\\\":\\\"1534218705178900\\\",\\\"v\\\":[\\\"Kommende, shows, |, Royal, Arena, Kommende shows i Royal Arena\\\"]},{\\\"rid\\\":\\\"2687799351735288\\\",\\\"v\\\":[\\\"Site logo - www.royalarena.dk - go to homepage\\\"]}]}\",\"is_auto_web_details\":true},\"event_id\":\"ob3_plugin-set_de366d9f27f04192aaf9c233459df5c5975fd4b841f472bb1dc75bb56f338d21\",\"fb.pixel_id\":\"951154780753454\",\"fb.advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"fb.alternative_advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"website_context\":{\"location\":\"https://www.royalarena.dk/shows\",\"referrer\":\"\",\"isInIFrame\":false},\"fb.fbp\":\"fb.1.1793091690929.850366804735109329.AQYAAQMC\",\"event_meta_info\":{\"tags\":[\"bug_fix_inc\"]}}",
+   "status": 200,
+   "ct": "application/json",
+   "body": ""
+  },
+  {
+   "url": "https://cvw425zxroht.cloud.run/events?cee=no",
+   "method": "POST",
+   "post": "{\"event_name\":\"PermutiveSegmentEntry_197410\",\"automatic_parameters\":{\"contents\":\"[{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"}]\"},\"smart_setup\":{\"auto_web_details_data\":\"{\\\"page_description\\\":[{\\\"rid\\\":\\\"1063271396742025\\\",\\\"v\\\":[\\\"Kommende shows i Royal Arena\\\"]}],\\\"page_keywords\\\":[{\\\"rid\\\":\\\"1534218705178900\\\",\\\"v\\\":[\\\"Kommende, shows, |, Royal, Arena, Kommende shows i Royal Arena\\\"]},{\\\"rid\\\":\\\"2687799351735288\\\",\\\"v\\\":[\\\"Site logo - www.royalarena.dk - go to homepage\\\"]}]}\",\"is_auto_web_details\":true},\"event_id\":\"ob3_plugin-set_8250c134c5255d4581850163d70e6a292a6a1e236aa880d1b1488007cc20c597\",\"fb.pixel_id\":\"1048497683807980\",\"fb.advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"fb.alternative_advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"website_context\":{\"location\":\"https://www.royalarena.dk/shows\",\"referrer\":\"\",\"isInIFrame\":false},\"fb.fbp\":\"fb.1.1793091690929.850366804735109329.AQYAAQMC\",\"event_meta_info\":{\"tags\":[\"bug_fix_inc\"]}}",
+   "status": 200,
+   "ct": "application/json",
+   "body": ""
+  },
+  {
+   "url": "https://cvw425zxroht.cloud.run/events?cee=no",
+   "method": "POST",
+   "post": "{\"event_name\":\"PermutiveSegmentEntry\",\"automatic_parameters\":{\"contents\":\"[{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"}]\"},\"smart_setup\":{\"auto_web_details_data\":\"{\\\"page_description\\\":[{\\\"rid\\\":\\\"1063271396742025\\\",\\\"v\\\":[\\\"Kommende shows i Royal Arena\\\"]}],\\\"page_keywords\\\":[{\\\"rid\\\":\\\"1534218705178900\\\",\\\"v\\\":[\\\"Kommende, shows, |, Royal, Arena, Kommende shows i Royal Arena\\\"]},{\\\"rid\\\":\\\"2687799351735288\\\",\\\"v\\\":[\\\"Site logo - www.royalarena.dk - go to homepage\\\"]}]}\",\"is_auto_web_details\":true},\"custom_data\":{\"segment_id\":231367},\"event_id\":\"ob3_plugin-set_32aa5b274d5002c28d1fa1566bdfc39a1d41996e94bfc189fa7cba147f08720a\",\"fb.pixel_id\":\"1048497683807980\",\"fb.advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"fb.alternative_advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"website_context\":{\"location\":\"https://www.royalarena.dk/shows\",\"referrer\":\"\",\"isInIFrame\":false},\"fb.fbp\":\"fb.1.1793091690929.850366804735109329.AQYAAQMC\",\"event_meta_info\":{\"tags\":[\"bug_fix_inc\"]}}",
+   "status": 200,
+   "ct": "application/json",
+   "body": ""
+  },
+  {
+   "url": "https://snofje0za8n8.cloud.run/events?cee=no",
+   "method": "POST",
+   "post": "{\"event_name\":\"PermutiveSegmentEntry\",\"automatic_parameters\":{\"contents\":\"[{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"}]\"},\"smart_setup\":{\"auto_web_details_data\":\"{\\\"page_description\\\":[{\\\"rid\\\":\\\"1063271396742025\\\",\\\"v\\\":[\\\"Kommende shows i Royal Arena\\\"]}],\\\"page_keywords\\\":[{\\\"rid\\\":\\\"1534218705178900\\\",\\\"v\\\":[\\\"Kommende, shows, |, Royal, Arena, Kommende shows i Royal Arena\\\"]},{\\\"rid\\\":\\\"2687799351735288\\\",\\\"v\\\":[\\\"Site logo - www.royalarena.dk - go to homepage\\\"]}]}\",\"is_auto_web_details\":true},\"custom_data\":{\"segment_id\":231367},\"event_id\":\"ob3_plugin-set_6e0d673d34ce3bb950863f707e541cda38f27c1ad96871e8ac3d884959d368d2\",\"fb.pixel_id\":\"951154780753454\",\"fb.advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"fb.alternative_advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"website_context\":{\"location\":\"https://www.royalarena.dk/shows\",\"referrer\":\"\",\"isInIFrame\":false},\"fb.fbp\":\"fb.1.1793091690929.850366804735109329.AQYAAQMC\",\"event_meta_info\":{\"tags\":[\"bug_fix_inc\"]}}",
+   "status": 200,
+   "ct": "application/json",
+   "body": ""
+  },
+  {
+   "url": "https://cvw425zxroht.cloud.run/events?cee=no",
+   "method": "POST",
+   "post": "{\"event_name\":\"PermutiveSegmentEntry_231367\",\"automatic_parameters\":{\"contents\":\"[{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"}]\"},\"smart_setup\":{\"auto_web_details_data\":\"{\\\"page_description\\\":[{\\\"rid\\\":\\\"1063271396742025\\\",\\\"v\\\":[\\\"Kommende shows i Royal Arena\\\"]}],\\\"page_keywords\\\":[{\\\"rid\\\":\\\"1534218705178900\\\",\\\"v\\\":[\\\"Kommende, shows, |, Royal, Arena, Kommende shows i Royal Arena\\\"]},{\\\"rid\\\":\\\"2687799351735288\\\",\\\"v\\\":[\\\"Site logo - www.royalarena.dk - go to homepage\\\"]}]}\",\"is_auto_web_details\":true},\"event_id\":\"ob3_plugin-set_dca7a59bacc88657d82fc2616d67dfa19b7049b69939b4d54a9227a7b2677b50\",\"fb.pixel_id\":\"1048497683807980\",\"fb.advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"fb.alternative_advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"website_context\":{\"location\":\"https://www.royalarena.dk/shows\",\"referrer\":\"\",\"isInIFrame\":false},\"fb.fbp\":\"fb.1.1793091690929.850366804735109329.AQYAAQMC\",\"event_meta_info\":{\"tags\":[\"bug_fix_inc\"]}}",
+   "status": 200,
+   "ct": "application/json",
+   "body": ""
+  },
+  {
+   "url": "https://snofje0za8n8.cloud.run/events?cee=no",
+   "method": "POST",
+   "post": "{\"event_name\":\"PermutiveSegmentEntry\",\"automatic_parameters\":{\"contents\":\"[{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"}]\"},\"smart_setup\":{\"auto_web_details_data\":\"{\\\"page_description\\\":[{\\\"rid\\\":\\\"1063271396742025\\\",\\\"v\\\":[\\\"Kommende shows i Royal Arena\\\"]}],\\\"page_keywords\\\":[{\\\"rid\\\":\\\"1534218705178900\\\",\\\"v\\\":[\\\"Kommende, shows, |, Royal, Arena, Kommende shows i Royal Arena\\\"]},{\\\"rid\\\":\\\"2687799351735288\\\",\\\"v\\\":[\\\"Site logo - www.royalarena.dk - go to homepage\\\"]}]}\",\"is_auto_web_details\":true},\"custom_data\":{\"segment_id\":284066},\"event_id\":\"ob3_plugin-set_2b8723538a0975735d16ea1f2146ff65dcd152d0c409c94e40d5471fe7bc5261\",\"fb.pixel_id\":\"951154780753454\",\"fb.advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"fb.alternative_advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"website_context\":{\"location\":\"https://www.royalarena.dk/shows\",\"referrer\":\"\",\"isInIFrame\":false},\"fb.fbp\":\"fb.1.1793091690929.850366804735109329.AQYAAQMC\",\"event_meta_info\":{\"tags\":[\"bug_fix_inc\"]}}",
+   "status": 200,
+   "ct": "application/json",
+   "body": ""
+  },
+  {
+   "url": "https://snofje0za8n8.cloud.run/events?cee=no",
+   "method": "POST",
+   "post": "{\"event_name\":\"PermutiveSegmentEntry_90608\",\"automatic_parameters\":{\"contents\":\"[{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"}]\"},\"smart_setup\":{\"auto_web_details_data\":\"{\\\"page_description\\\":[{\\\"rid\\\":\\\"1063271396742025\\\",\\\"v\\\":[\\\"Kommende shows i Royal Arena\\\"]}],\\\"page_keywords\\\":[{\\\"rid\\\":\\\"1534218705178900\\\",\\\"v\\\":[\\\"Kommende, shows, |, Royal, Arena, Kommende shows i Royal Arena\\\"]},{\\\"rid\\\":\\\"2687799351735288\\\",\\\"v\\\":[\\\"Site logo - www.royalarena.dk - go to homepage\\\"]}]}\",\"is_auto_web_details\":true},\"event_id\":\"ob3_plugin-set_c99c27740723ccb30523d8166e38350207335275a0544059867af011d2b1db7b\",\"fb.pixel_id\":\"951154780753454\",\"fb.advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"fb.alternative_advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"website_context\":{\"location\":\"https://www.royalarena.dk/shows\",\"referrer\":\"\",\"isInIFrame\":false},\"fb.fbp\":\"fb.1.1793091690929.850366804735109329.AQYAAQMC\",\"event_meta_info\":{\"tags\":[\"bug_fix_inc\"]}}",
+   "status": 200,
+   "ct": "application/json",
+   "body": ""
+  },
+  {
+   "url": "https://cvw425zxroht.cloud.run/events?cee=no",
+   "method": "POST",
+   "post": "{\"event_name\":\"PermutiveSegmentEntry_90608\",\"automatic_parameters\":{\"contents\":\"[{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"}]\"},\"smart_setup\":{\"auto_web_details_data\":\"{\\\"page_description\\\":[{\\\"rid\\\":\\\"1063271396742025\\\",\\\"v\\\":[\\\"Kommende shows i Royal Arena\\\"]}],\\\"page_keywords\\\":[{\\\"rid\\\":\\\"1534218705178900\\\",\\\"v\\\":[\\\"Kommende, shows, |, Royal, Arena, Kommende shows i Royal Arena\\\"]},{\\\"rid\\\":\\\"2687799351735288\\\",\\\"v\\\":[\\\"Site logo - www.royalarena.dk - go to homepage\\\"]}]}\",\"is_auto_web_details\":true},\"event_id\":\"ob3_plugin-set_6bd41a8c761caf9bfda0fb46bff75c6bbbc5c5f3de01e9bc9b3ed152364cfea2\",\"fb.pixel_id\":\"1048497683807980\",\"fb.advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"fb.alternative_advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"website_context\":{\"location\":\"https://www.royalarena.dk/shows\",\"referrer\":\"\",\"isInIFrame\":false},\"fb.fbp\":\"fb.1.1793091690929.850366804735109329.AQYAAQMC\",\"event_meta_info\":{\"tags\":[\"bug_fix_inc\"]}}",
+   "status": 200,
+   "ct": "application/json",
+   "body": ""
+  },
+  {
+   "url": "https://snofje0za8n8.cloud.run/events?cee=no",
+   "method": "POST",
+   "post": "{\"event_name\":\"PermutiveSegmentEntry_284061\",\"automatic_parameters\":{\"contents\":\"[{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"}]\"},\"smart_setup\":{\"auto_web_details_data\":\"{\\\"page_description\\\":[{\\\"rid\\\":\\\"1063271396742025\\\",\\\"v\\\":[\\\"Kommende shows i Royal Arena\\\"]}],\\\"page_keywords\\\":[{\\\"rid\\\":\\\"1534218705178900\\\",\\\"v\\\":[\\\"Kommende, shows, |, Royal, Arena, Kommende shows i Royal Arena\\\"]},{\\\"rid\\\":\\\"2687799351735288\\\",\\\"v\\\":[\\\"Site logo - www.royalarena.dk - go to homepage\\\"]}]}\",\"is_auto_web_details\":true},\"event_id\":\"ob3_plugin-set_7e40474fb7728222e91bce3c7ec2ea3fd7d78b724f745830e1015d8ef3e4d398\",\"fb.pixel_id\":\"951154780753454\",\"fb.advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"fb.alternative_advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"website_context\":{\"location\":\"https://www.royalarena.dk/shows\",\"referrer\":\"\",\"isInIFrame\":false},\"fb.fbp\":\"fb.1.1793091690929.850366804735109329.AQYAAQMC\",\"event_meta_info\":{\"tags\":[\"bug_fix_inc\"]}}",
+   "status": 200,
+   "ct": "application/json",
+   "body": ""
+  },
+  {
+   "url": "https://snofje0za8n8.cloud.run/events?cee=no",
+   "method": "POST",
+   "post": "{\"event_name\":\"PermutiveSegmentEntry_284064\",\"automatic_parameters\":{\"contents\":\"[{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"}]\"},\"smart_setup\":{\"auto_web_details_data\":\"{\\\"page_description\\\":[{\\\"rid\\\":\\\"1063271396742025\\\",\\\"v\\\":[\\\"Kommende shows i Royal Arena\\\"]}],\\\"page_keywords\\\":[{\\\"rid\\\":\\\"1534218705178900\\\",\\\"v\\\":[\\\"Kommende, shows, |, Royal, Arena, Kommende shows i Royal Arena\\\"]},{\\\"rid\\\":\\\"2687799351735288\\\",\\\"v\\\":[\\\"Site logo - www.royalarena.dk - go to homepage\\\"]}]}\",\"is_auto_web_details\":true},\"event_id\":\"ob3_plugin-set_cc5dbf5e8ae6b051e1676188639ce2fb559de2431147d63420f1930654f56123\",\"fb.pixel_id\":\"951154780753454\",\"fb.advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"fb.alternative_advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"website_context\":{\"location\":\"https://www.royalarena.dk/shows\",\"referrer\":\"\",\"isInIFrame\":false},\"fb.fbp\":\"fb.1.1793091690929.850366804735109329.AQYAAQMC\",\"event_meta_info\":{\"tags\":[\"bug_fix_inc\"]}}",
+   "status": 200,
+   "ct": "application/json",
+   "body": ""
+  },
+  {
+   "url": "https://snofje0za8n8.cloud.run/events?cee=no",
+   "method": "POST",
+   "post": "{\"event_name\":\"PermutiveSegmentEntry\",\"automatic_parameters\":{\"contents\":\"[{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"}]\"},\"smart_setup\":{\"auto_web_details_data\":\"{\\\"page_description\\\":[{\\\"rid\\\":\\\"1063271396742025\\\",\\\"v\\\":[\\\"Kommende shows i Royal Arena\\\"]}],\\\"page_keywords\\\":[{\\\"rid\\\":\\\"1534218705178900\\\",\\\"v\\\":[\\\"Kommende, shows, |, Royal, Arena, Kommende shows i Royal Arena\\\"]},{\\\"rid\\\":\\\"2687799351735288\\\",\\\"v\\\":[\\\"Site logo - www.royalarena.dk - go to homepage\\\"]}]}\",\"is_auto_web_details\":true},\"custom_data\":{\"segment_id\":284062},\"event_id\":\"ob3_plugin-set_5b39a0f26404afe7ec077f7422597367348757c68c5fe8556c973011820dbd30\",\"fb.pixel_id\":\"951154780753454\",\"fb.advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"fb.alternative_advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"website_context\":{\"location\":\"https://www.royalarena.dk/shows\",\"referrer\":\"\",\"isInIFrame\":false},\"fb.fbp\":\"fb.1.1793091690929.850366804735109329.AQYAAQMC\",\"event_meta_info\":{\"tags\":[\"bug_fix_inc\"]}}",
+   "status": 200,
+   "ct": "application/json",
+   "body": ""
+  },
+  {
+   "url": "https://cvw425zxroht.cloud.run/events?cee=no",
+   "method": "POST",
+   "post": "{\"event_name\":\"PermutiveSegmentEntry_284061\",\"automatic_parameters\":{\"contents\":\"[{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"}]\"},\"smart_setup\":{\"auto_web_details_data\":\"{\\\"page_description\\\":[{\\\"rid\\\":\\\"1063271396742025\\\",\\\"v\\\":[\\\"Kommende shows i Royal Arena\\\"]}],\\\"page_keywords\\\":[{\\\"rid\\\":\\\"1534218705178900\\\",\\\"v\\\":[\\\"Kommende, shows, |, Royal, Arena, Kommende shows i Royal Arena\\\"]},{\\\"rid\\\":\\\"2687799351735288\\\",\\\"v\\\":[\\\"Site logo - www.royalarena.dk - go to homepage\\\"]}]}\",\"is_auto_web_details\":true},\"event_id\":\"ob3_plugin-set_ba29389aed4cbeb2777208381c34bf284a412ca585175aaf9ceae6f281e5161e\",\"fb.pixel_id\":\"1048497683807980\",\"fb.advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"fb.alternative_advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"website_context\":{\"location\":\"https://www.royalarena.dk/shows\",\"referrer\":\"\",\"isInIFrame\":false},\"fb.fbp\":\"fb.1.1793091690929.850366804735109329.AQYAAQMC\",\"event_meta_info\":{\"tags\":[\"bug_fix_inc\"]}}",
+   "status": 200,
+   "ct": "application/json",
+   "body": ""
+  },
+  {
+   "url": "https://cvw425zxroht.cloud.run/events?cee=no",
+   "method": "POST",
+   "post": "{\"event_name\":\"PermutiveSegmentEntry\",\"automatic_parameters\":{\"contents\":\"[{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"}]\"},\"smart_setup\":{\"auto_web_details_data\":\"{\\\"page_description\\\":[{\\\"rid\\\":\\\"1063271396742025\\\",\\\"v\\\":[\\\"Kommende shows i Royal Arena\\\"]}],\\\"page_keywords\\\":[{\\\"rid\\\":\\\"1534218705178900\\\",\\\"v\\\":[\\\"Kommende, shows, |, Royal, Arena, Kommende shows i Royal Arena\\\"]},{\\\"rid\\\":\\\"2687799351735288\\\",\\\"v\\\":[\\\"Site logo - www.royalarena.dk - go to homepage\\\"]}]}\",\"is_auto_web_details\":true},\"custom_data\":{\"segment_id\":284062},\"event_id\":\"ob3_plugin-set_1305549a942180d973684e87a81ab7016b25563cd7083b53a31c8c36112ab108\",\"fb.pixel_id\":\"1048497683807980\",\"fb.advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"fb.alternative_advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"website_context\":{\"location\":\"https://www.royalarena.dk/shows\",\"referrer\":\"\",\"isInIFrame\":false},\"fb.fbp\":\"fb.1.1793091690929.850366804735109329.AQYAAQMC\",\"event_meta_info\":{\"tags\":[\"bug_fix_inc\"]}}",
+   "status": 200,
+   "ct": "application/json",
+   "body": ""
+  },
+  {
+   "url": "https://snofje0za8n8.cloud.run/events?cee=no",
+   "method": "POST",
+   "post": "{\"event_name\":\"PermutiveSegmentEntry_284062\",\"automatic_parameters\":{\"contents\":\"[{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"}]\"},\"smart_setup\":{\"auto_web_details_data\":\"{\\\"page_description\\\":[{\\\"rid\\\":\\\"1063271396742025\\\",\\\"v\\\":[\\\"Kommende shows i Royal Arena\\\"]}],\\\"page_keywords\\\":[{\\\"rid\\\":\\\"1534218705178900\\\",\\\"v\\\":[\\\"Kommende, shows, |, Royal, Arena, Kommende shows i Royal Arena\\\"]},{\\\"rid\\\":\\\"2687799351735288\\\",\\\"v\\\":[\\\"Site logo - www.royalarena.dk - go to homepage\\\"]}]}\",\"is_auto_web_details\":true},\"event_id\":\"ob3_plugin-set_6bf0edb9898f5320c74f5fc9a6fc2e62368d87f86edcd53eb9598f33e36f6692\",\"fb.pixel_id\":\"951154780753454\",\"fb.advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"fb.alternative_advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"website_context\":{\"location\":\"https://www.royalarena.dk/shows\",\"referrer\":\"\",\"isInIFrame\":false},\"fb.fbp\":\"fb.1.1793091690929.850366804735109329.AQYAAQMC\",\"event_meta_info\":{\"tags\":[\"bug_fix_inc\"]}}",
+   "status": 200,
+   "ct": "application/json",
+   "body": ""
+  },
+  {
+   "url": "https://snofje0za8n8.cloud.run/events?cee=no",
+   "method": "POST",
+   "post": "{\"event_name\":\"PermutiveSegmentEntry\",\"automatic_parameters\":{\"contents\":\"[{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"}]\"},\"smart_setup\":{\"auto_web_details_data\":\"{\\\"page_description\\\":[{\\\"rid\\\":\\\"1063271396742025\\\",\\\"v\\\":[\\\"Kommende shows i Royal Arena\\\"]}],\\\"page_keywords\\\":[{\\\"rid\\\":\\\"1534218705178900\\\",\\\"v\\\":[\\\"Kommende, shows, |, Royal, Arena, Kommende shows i Royal Arena\\\"]},{\\\"rid\\\":\\\"2687799351735288\\\",\\\"v\\\":[\\\"Site logo - www.royalarena.dk - go to homepage\\\"]}]}\",\"is_auto_web_details\":true},\"custom_data\":{\"segment_id\":284064},\"event_id\":\"ob3_plugin-set_1aef36d191adf856db809e978b078616631e989312633aa6a3d9d57c74d4d45c\",\"fb.pixel_id\":\"951154780753454\",\"fb.advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"fb.alternative_advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"website_context\":{\"location\":\"https://www.royalarena.dk/shows\",\"referrer\":\"\",\"isInIFrame\":false},\"fb.fbp\":\"fb.1.1793091690929.850366804735109329.AQYAAQMC\",\"event_meta_info\":{\"tags\":[\"bug_fix_inc\"]}}",
+   "status": 200,
+   "ct": "application/json",
+   "body": ""
+  },
+  {
+   "url": "https://cvw425zxroht.cloud.run/events?cee=no",
+   "method": "POST",
+   "post": "{\"event_name\":\"PermutiveSegmentEntry_284062\",\"automatic_parameters\":{\"contents\":\"[{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"}]\"},\"smart_setup\":{\"auto_web_details_data\":\"{\\\"page_description\\\":[{\\\"rid\\\":\\\"1063271396742025\\\",\\\"v\\\":[\\\"Kommende shows i Royal Arena\\\"]}],\\\"page_keywords\\\":[{\\\"rid\\\":\\\"1534218705178900\\\",\\\"v\\\":[\\\"Kommende, shows, |, Royal, Arena, Kommende shows i Royal Arena\\\"]},{\\\"rid\\\":\\\"2687799351735288\\\",\\\"v\\\":[\\\"Site logo - www.royalarena.dk - go to homepage\\\"]}]}\",\"is_auto_web_details\":true},\"event_id\":\"ob3_plugin-set_41db8bd6777e20389e1528cf12a864775f11f5a4d1f5fc9fe367fa97c3e68fa7\",\"fb.pixel_id\":\"1048497683807980\",\"fb.advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"fb.alternative_advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"website_context\":{\"location\":\"https://www.royalarena.dk/shows\",\"referrer\":\"\",\"isInIFrame\":false},\"fb.fbp\":\"fb.1.1793091690929.850366804735109329.AQYAAQMC\",\"event_meta_info\":{\"tags\":[\"bug_fix_inc\"]}}",
+   "status": 200,
+   "ct": "application/json",
+   "body": ""
+  },
+  {
+   "url": "https://cvw425zxroht.cloud.run/events?cee=no",
+   "method": "POST",
+   "post": "{\"event_name\":\"PermutiveSegmentEntry\",\"automatic_parameters\":{\"contents\":\"[{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"}]\"},\"smart_setup\":{\"auto_web_details_data\":\"{\\\"page_description\\\":[{\\\"rid\\\":\\\"1063271396742025\\\",\\\"v\\\":[\\\"Kommende shows i Royal Arena\\\"]}],\\\"page_keywords\\\":[{\\\"rid\\\":\\\"1534218705178900\\\",\\\"v\\\":[\\\"Kommende, shows, |, Royal, Arena, Kommende shows i Royal Arena\\\"]},{\\\"rid\\\":\\\"2687799351735288\\\",\\\"v\\\":[\\\"Site logo - www.royalarena.dk - go to homepage\\\"]}]}\",\"is_auto_web_details\":true},\"custom_data\":{\"segment_id\":284064},\"event_id\":\"ob3_plugin-set_4cdd47c4034eb136a44a2dd6afa1d69fe1ff6df67c5906e0fbb044296e4ce0bb\",\"fb.pixel_id\":\"1048497683807980\",\"fb.advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"fb.alternative_advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"website_context\":{\"location\":\"https://www.royalarena.dk/shows\",\"referrer\":\"\",\"isInIFrame\":false},\"fb.fbp\":\"fb.1.1793091690929.850366804735109329.AQYAAQMC\",\"event_meta_info\":{\"tags\":[\"bug_fix_inc\"]}}",
+   "status": 200,
+   "ct": "application/json",
+   "body": ""
+  },
+  {
+   "url": "https://cvw425zxroht.cloud.run/events?cee=no",
+   "method": "POST",
+   "post": "{\"event_name\":\"PermutiveSegmentEntry_284064\",\"automatic_parameters\":{\"contents\":\"[{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"}]\"},\"smart_setup\":{\"auto_web_details_data\":\"{\\\"page_description\\\":[{\\\"rid\\\":\\\"1063271396742025\\\",\\\"v\\\":[\\\"Kommende shows i Royal Arena\\\"]}],\\\"page_keywords\\\":[{\\\"rid\\\":\\\"1534218705178900\\\",\\\"v\\\":[\\\"Kommende, shows, |, Royal, Arena, Kommende shows i Royal Arena\\\"]},{\\\"rid\\\":\\\"2687799351735288\\\",\\\"v\\\":[\\\"Site logo - www.royalarena.dk - go to homepage\\\"]}]}\",\"is_auto_web_details\":true},\"event_id\":\"ob3_plugin-set_2d6562d1126ac0f6726f9ea7632cb76446c8e534442f51dfc09c20b627870858\",\"fb.pixel_id\":\"1048497683807980\",\"fb.advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"fb.alternative_advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"website_context\":{\"location\":\"https://www.royalarena.dk/shows\",\"referrer\":\"\",\"isInIFrame\":false},\"fb.fbp\":\"fb.1.1793091690929.850366804735109329.AQYAAQMC\",\"event_meta_info\":{\"tags\":[\"bug_fix_inc\"]}}",
+   "status": 200,
+   "ct": "application/json",
+   "body": ""
+  },
+  {
+   "url": "https://cvw425zxroht.cloud.run/events?cee=no",
+   "method": "POST",
+   "post": "{\"event_name\":\"PermutiveSegmentEntry\",\"automatic_parameters\":{\"contents\":\"[{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"}]\"},\"smart_setup\":{\"auto_web_details_data\":\"{\\\"page_description\\\":[{\\\"rid\\\":\\\"1063271396742025\\\",\\\"v\\\":[\\\"Kommende shows i Royal Arena\\\"]}],\\\"page_keywords\\\":[{\\\"rid\\\":\\\"1534218705178900\\\",\\\"v\\\":[\\\"Kommende, shows, |, Royal, Arena, Kommende shows i Royal Arena\\\"]},{\\\"rid\\\":\\\"2687799351735288\\\",\\\"v\\\":[\\\"Site logo - www.royalarena.dk - go to homepage\\\"]}]}\",\"is_auto_web_details\":true},\"custom_data\":{\"segment_id\":284065},\"event_id\":\"ob3_plugin-set_ae5bcde14e24ee87385ed43798d1aff72d5befe71c21f71780f7a5cafb05113e\",\"fb.pixel_id\":\"1048497683807980\",\"fb.advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"fb.alternative_advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"website_context\":{\"location\":\"https://www.royalarena.dk/shows\",\"referrer\":\"\",\"isInIFrame\":false},\"fb.fbp\":\"fb.1.1793091690929.850366804735109329.AQYAAQMC\",\"event_meta_info\":{\"tags\":[\"bug_fix_inc\"]}}",
+   "status": 200,
+   "ct": "application/json",
+   "body": ""
+  },
+  {
+   "url": "https://snofje0za8n8.cloud.run/events?cee=no",
+   "method": "POST",
+   "post": "{\"event_name\":\"PermutiveSegmentEntry\",\"automatic_parameters\":{\"contents\":\"[{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"}]\"},\"smart_setup\":{\"auto_web_details_data\":\"{\\\"page_description\\\":[{\\\"rid\\\":\\\"1063271396742025\\\",\\\"v\\\":[\\\"Kommende shows i Royal Arena\\\"]}],\\\"page_keywords\\\":[{\\\"rid\\\":\\\"1534218705178900\\\",\\\"v\\\":[\\\"Kommende, shows, |, Royal, Arena, Kommende shows i Royal Arena\\\"]},{\\\"rid\\\":\\\"2687799351735288\\\",\\\"v\\\":[\\\"Site logo - www.royalarena.dk - go to homepage\\\"]}]}\",\"is_auto_web_details\":true},\"custom_data\":{\"segment_id\":284065},\"event_id\":\"ob3_plugin-set_5cc0635d5c24099be98f2cb829ee11bb31540db0c1333658fd2845a72f4f72c8\",\"fb.pixel_id\":\"951154780753454\",\"fb.advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"fb.alternative_advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"website_context\":{\"location\":\"https://www.royalarena.dk/shows\",\"referrer\":\"\",\"isInIFrame\":false},\"fb.fbp\":\"fb.1.1793091690929.850366804735109329.AQYAAQMC\",\"event_meta_info\":{\"tags\":[\"bug_fix_inc\"]}}",
+   "status": 200,
+   "ct": "application/json",
+   "body": ""
+  },
+  {
+   "url": "https://cvw425zxroht.cloud.run/events?cee=no",
+   "method": "POST",
+   "post": "{\"event_name\":\"PermutiveSegmentEntry_284065\",\"automatic_parameters\":{\"contents\":\"[{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"}]\"},\"smart_setup\":{\"auto_web_details_data\":\"{\\\"page_description\\\":[{\\\"rid\\\":\\\"1063271396742025\\\",\\\"v\\\":[\\\"Kommende shows i Royal Arena\\\"]}],\\\"page_keywords\\\":[{\\\"rid\\\":\\\"1534218705178900\\\",\\\"v\\\":[\\\"Kommende, shows, |, Royal, Arena, Kommende shows i Royal Arena\\\"]},{\\\"rid\\\":\\\"2687799351735288\\\",\\\"v\\\":[\\\"Site logo - www.royalarena.dk - go to homepage\\\"]}]}\",\"is_auto_web_details\":true},\"event_id\":\"ob3_plugin-set_53ce25dbaf64c0a8abdbdb3797a7f8f12264446156ae88b44e0e400d5a526874\",\"fb.pixel_id\":\"1048497683807980\",\"fb.advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"fb.alternative_advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"website_context\":{\"location\":\"https://www.royalarena.dk/shows\",\"referrer\":\"\",\"isInIFrame\":false},\"fb.fbp\":\"fb.1.1793091690929.850366804735109329.AQYAAQMC\",\"event_meta_info\":{\"tags\":[\"bug_fix_inc\"]}}",
+   "status": 200,
+   "ct": "application/json",
+   "body": ""
+  },
+  {
+   "url": "https://snofje0za8n8.cloud.run/events?cee=no",
+   "method": "POST",
+   "post": "{\"event_name\":\"PermutiveSegmentEntry_284065\",\"automatic_parameters\":{\"contents\":\"[{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"}]\"},\"smart_setup\":{\"auto_web_details_data\":\"{\\\"page_description\\\":[{\\\"rid\\\":\\\"1063271396742025\\\",\\\"v\\\":[\\\"Kommende shows i Royal Arena\\\"]}],\\\"page_keywords\\\":[{\\\"rid\\\":\\\"1534218705178900\\\",\\\"v\\\":[\\\"Kommende, shows, |, Royal, Arena, Kommende shows i Royal Arena\\\"]},{\\\"rid\\\":\\\"2687799351735288\\\",\\\"v\\\":[\\\"Site logo - www.royalarena.dk - go to homepage\\\"]}]}\",\"is_auto_web_details\":true},\"event_id\":\"ob3_plugin-set_f0c2f7d0909543f6dd82b3537838a4a261e7b3cbdf4d6c462883b7cdc33c7780\",\"fb.pixel_id\":\"951154780753454\",\"fb.advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"fb.alternative_advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"website_context\":{\"location\":\"https://www.royalarena.dk/shows\",\"referrer\":\"\",\"isInIFrame\":false},\"fb.fbp\":\"fb.1.1793091690929.850366804735109329.AQYAAQMC\",\"event_meta_info\":{\"tags\":[\"bug_fix_inc\"]}}",
+   "status": 200,
+   "ct": "application/json",
+   "body": ""
+  },
+  {
+   "url": "https://cvw425zxroht.cloud.run/events?cee=no",
+   "method": "POST",
+   "post": "{\"event_name\":\"PermutiveSegmentEntry\",\"automatic_parameters\":{\"contents\":\"[{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"}]\"},\"smart_setup\":{\"auto_web_details_data\":\"{\\\"page_description\\\":[{\\\"rid\\\":\\\"1063271396742025\\\",\\\"v\\\":[\\\"Kommende shows i Royal Arena\\\"]}],\\\"page_keywords\\\":[{\\\"rid\\\":\\\"1534218705178900\\\",\\\"v\\\":[\\\"Kommende, shows, |, Royal, Arena, Kommende shows i Royal Arena\\\"]},{\\\"rid\\\":\\\"2687799351735288\\\",\\\"v\\\":[\\\"Site logo - www.royalarena.dk - go to homepage\\\"]}]}\",\"is_auto_web_details\":true},\"custom_data\":{\"segment_id\":284066},\"event_id\":\"ob3_plugin-set_75139c4feb11338ba58afa2b5cc56d3a55cd57d64c37b20aa8f0f646b9647eb4\",\"fb.pixel_id\":\"1048497683807980\",\"fb.advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"fb.alternative_advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"website_context\":{\"location\":\"https://www.royalarena.dk/shows\",\"referrer\":\"\",\"isInIFrame\":false},\"fb.fbp\":\"fb.1.1793091690929.850366804735109329.AQYAAQMC\",\"event_meta_info\":{\"tags\":[\"bug_fix_inc\"]}}",
+   "status": 200,
+   "ct": "application/json",
+   "body": ""
+  },
+  {
+   "url": "https://snofje0za8n8.cloud.run/events?cee=no",
+   "method": "POST",
+   "post": "{\"event_name\":\"PermutiveSegmentEntry_284066\",\"automatic_parameters\":{\"contents\":\"[{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"}]\"},\"smart_setup\":{\"auto_web_details_data\":\"{\\\"page_description\\\":[{\\\"rid\\\":\\\"1063271396742025\\\",\\\"v\\\":[\\\"Kommende shows i Royal Arena\\\"]}],\\\"page_keywords\\\":[{\\\"rid\\\":\\\"1534218705178900\\\",\\\"v\\\":[\\\"Kommende, shows, |, Royal, Arena, Kommende shows i Royal Arena\\\"]},{\\\"rid\\\":\\\"2687799351735288\\\",\\\"v\\\":[\\\"Site logo - www.royalarena.dk - go to homepage\\\"]}]}\",\"is_auto_web_details\":true},\"event_id\":\"ob3_plugin-set_d13a3f3515dd7592a4e0d64a270b5c9debe35d60330e64f0e8fa838411fa02b2\",\"fb.pixel_id\":\"951154780753454\",\"fb.advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"fb.alternative_advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"website_context\":{\"location\":\"https://www.royalarena.dk/shows\",\"referrer\":\"\",\"isInIFrame\":false},\"fb.fbp\":\"fb.1.1793091690929.850366804735109329.AQYAAQMC\",\"event_meta_info\":{\"tags\":[\"bug_fix_inc\"]}}",
+   "status": 200,
+   "ct": "application/json",
+   "body": ""
+  },
+  {
+   "url": "https://snofje0za8n8.cloud.run/events?cee=no",
+   "method": "POST",
+   "post": "{\"event_name\":\"PermutiveSegmentEntry\",\"automatic_parameters\":{\"contents\":\"[{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"}]\"},\"smart_setup\":{\"auto_web_details_data\":\"{\\\"page_description\\\":[{\\\"rid\\\":\\\"1063271396742025\\\",\\\"v\\\":[\\\"Kommende shows i Royal Arena\\\"]}],\\\"page_keywords\\\":[{\\\"rid\\\":\\\"1534218705178900\\\",\\\"v\\\":[\\\"Kommende, shows, |, Royal, Arena, Kommende shows i Royal Arena\\\"]},{\\\"rid\\\":\\\"2687799351735288\\\",\\\"v\\\":[\\\"Site logo - www.royalarena.dk - go to homepage\\\"]}]}\",\"is_auto_web_details\":true},\"custom_data\":{\"segment_id\":90607},\"event_id\":\"ob3_plugin-set_d2348c0c96bc2751d48be0e26a80470cd50c25eb28e92ba9ce8d2af682937938\",\"fb.pixel_id\":\"951154780753454\",\"fb.advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"fb.alternative_advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"website_context\":{\"location\":\"https://www.royalarena.dk/shows\",\"referrer\":\"\",\"isInIFrame\":false},\"fb.fbp\":\"fb.1.1793091690929.850366804735109329.AQYAAQMC\",\"event_meta_info\":{\"tags\":[\"bug_fix_inc\"]}}",
+   "status": 200,
+   "ct": "application/json",
+   "body": ""
+  },
+  {
+   "url": "https://cvw425zxroht.cloud.run/events?cee=no",
+   "method": "POST",
+   "post": "{\"event_name\":\"PermutiveSegmentEntry_284066\",\"automatic_parameters\":{\"contents\":\"[{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"}]\"},\"smart_setup\":{\"auto_web_details_data\":\"{\\\"page_description\\\":[{\\\"rid\\\":\\\"1063271396742025\\\",\\\"v\\\":[\\\"Kommende shows i Royal Arena\\\"]}],\\\"page_keywords\\\":[{\\\"rid\\\":\\\"1534218705178900\\\",\\\"v\\\":[\\\"Kommende, shows, |, Royal, Arena, Kommende shows i Royal Arena\\\"]},{\\\"rid\\\":\\\"2687799351735288\\\",\\\"v\\\":[\\\"Site logo - www.royalarena.dk - go to homepage\\\"]}]}\",\"is_auto_web_details\":true},\"event_id\":\"ob3_plugin-set_e663a30d24ad1284f1c186fcd56fbd130abcf8fe8950c2798aa3ed2fe1a6a4d3\",\"fb.pixel_id\":\"1048497683807980\",\"fb.advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"fb.alternative_advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"website_context\":{\"location\":\"https://www.royalarena.dk/shows\",\"referrer\":\"\",\"isInIFrame\":false},\"fb.fbp\":\"fb.1.1793091690929.850366804735109329.AQYAAQMC\",\"event_meta_info\":{\"tags\":[\"bug_fix_inc\"]}}",
+   "status": 200,
+   "ct": "application/json",
+   "body": ""
+  },
+  {
+   "url": "https://cvw425zxroht.cloud.run/events?cee=no",
+   "method": "POST",
+   "post": "{\"event_name\":\"PermutiveSegmentEntry\",\"automatic_parameters\":{\"contents\":\"[{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"}]\"},\"smart_setup\":{\"auto_web_details_data\":\"{\\\"page_description\\\":[{\\\"rid\\\":\\\"1063271396742025\\\",\\\"v\\\":[\\\"Kommende shows i Royal Arena\\\"]}],\\\"page_keywords\\\":[{\\\"rid\\\":\\\"1534218705178900\\\",\\\"v\\\":[\\\"Kommende, shows, |, Royal, Arena, Kommende shows i Royal Arena\\\"]},{\\\"rid\\\":\\\"2687799351735288\\\",\\\"v\\\":[\\\"Site logo - www.royalarena.dk - go to homepage\\\"]}]}\",\"is_auto_web_details\":true},\"custom_data\":{\"segment_id\":90607},\"event_id\":\"ob3_plugin-set_e9523e1ee57e6d46f155a599f2d21bb1af5da0c54d660aa4c189b691aa3c66f0\",\"fb.pixel_id\":\"1048497683807980\",\"fb.advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"fb.alternative_advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"website_context\":{\"location\":\"https://www.royalarena.dk/shows\",\"referrer\":\"\",\"isInIFrame\":false},\"fb.fbp\":\"fb.1.1793091690929.850366804735109329.AQYAAQMC\",\"event_meta_info\":{\"tags\":[\"bug_fix_inc\"]}}",
+   "status": 200,
+   "ct": "application/json",
+   "body": ""
+  },
+  {
+   "url": "https://cvw425zxroht.cloud.run/events?cee=no",
+   "method": "POST",
+   "post": "{\"event_name\":\"PermutiveSegmentEntry_90607\",\"automatic_parameters\":{\"contents\":\"[{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"}]\"},\"smart_setup\":{\"auto_web_details_data\":\"{\\\"page_description\\\":[{\\\"rid\\\":\\\"1063271396742025\\\",\\\"v\\\":[\\\"Kommende shows i Royal Arena\\\"]}],\\\"page_keywords\\\":[{\\\"rid\\\":\\\"1534218705178900\\\",\\\"v\\\":[\\\"Kommende, shows, |, Royal, Arena, Kommende shows i Royal Arena\\\"]},{\\\"rid\\\":\\\"2687799351735288\\\",\\\"v\\\":[\\\"Site logo - www.royalarena.dk - go to homepage\\\"]}]}\",\"is_auto_web_details\":true},\"event_id\":\"ob3_plugin-set_90e44c7112d875289b17429653c56885f480c329b2350a4bb040bcb251280ac1\",\"fb.pixel_id\":\"1048497683807980\",\"fb.advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"fb.alternative_advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"website_context\":{\"location\":\"https://www.royalarena.dk/shows\",\"referrer\":\"\",\"isInIFrame\":false},\"fb.fbp\":\"fb.1.1793091690929.850366804735109329.AQYAAQMC\",\"event_meta_info\":{\"tags\":[\"bug_fix_inc\"]}}",
+   "status": 200,
+   "ct": "application/json",
+   "body": ""
+  },
+  {
+   "url": "https://snofje0za8n8.cloud.run/events?cee=no",
+   "method": "POST",
+   "post": "{\"event_name\":\"PermutiveSegmentEntry_90607\",\"automatic_parameters\":{\"contents\":\"[{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"}]\"},\"smart_setup\":{\"auto_web_details_data\":\"{\\\"page_description\\\":[{\\\"rid\\\":\\\"1063271396742025\\\",\\\"v\\\":[\\\"Kommende shows i Royal Arena\\\"]}],\\\"page_keywords\\\":[{\\\"rid\\\":\\\"1534218705178900\\\",\\\"v\\\":[\\\"Kommende, shows, |, Royal, Arena, Kommende shows i Royal Arena\\\"]},{\\\"rid\\\":\\\"2687799351735288\\\",\\\"v\\\":[\\\"Site logo - www.royalarena.dk - go to homepage\\\"]}]}\",\"is_auto_web_details\":true},\"event_id\":\"ob3_plugin-set_bd5e0dcc447221ac62f1f19a9ef9af59132e299b8b09bff262d618e24f2f3f5f\",\"fb.pixel_id\":\"951154780753454\",\"fb.advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"fb.alternative_advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"website_context\":{\"location\":\"https://www.royalarena.dk/shows\",\"referrer\":\"\",\"isInIFrame\":false},\"fb.fbp\":\"fb.1.1793091690929.850366804735109329.AQYAAQMC\",\"event_meta_info\":{\"tags\":[\"bug_fix_inc\"]}}",
+   "status": 200,
+   "ct": "application/json",
+   "body": ""
+  },
+  {
+   "url": "https://cvw425zxroht.cloud.run/events?cee=no",
+   "method": "POST",
+   "post": "{\"event_name\":\"PermutiveSegmentEntry\",\"automatic_parameters\":{\"contents\":\"[{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"}]\"},\"smart_setup\":{\"auto_web_details_data\":\"{\\\"page_description\\\":[{\\\"rid\\\":\\\"1063271396742025\\\",\\\"v\\\":[\\\"Kommende shows i Royal Arena\\\"]}],\\\"page_keywords\\\":[{\\\"rid\\\":\\\"1534218705178900\\\",\\\"v\\\":[\\\"Kommende, shows, |, Royal, Arena, Kommende shows i Royal Arena\\\"]},{\\\"rid\\\":\\\"2687799351735288\\\",\\\"v\\\":[\\\"Site logo - www.royalarena.dk - go to homepage\\\"]}]}\",\"is_auto_web_details\":true},\"custom_data\":{\"segment_id\":90608},\"event_id\":\"ob3_plugin-set_0c6379867847276e08febb606dcf97509aed2fde036907c5a7fb679cfb4e5197\",\"fb.pixel_id\":\"1048497683807980\",\"fb.advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"fb.alternative_advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"website_context\":{\"location\":\"https://www.royalarena.dk/shows\",\"referrer\":\"\",\"isInIFrame\":false},\"fb.fbp\":\"fb.1.1793091690929.850366804735109329.AQYAAQMC\",\"event_meta_info\":{\"tags\":[\"bug_fix_inc\"]}}",
+   "status": 200,
+   "ct": "application/json",
+   "body": ""
+  },
+  {
+   "url": "https://snofje0za8n8.cloud.run/events?cee=no",
+   "method": "POST",
+   "post": "{\"event_name\":\"PermutiveSegmentEntry\",\"automatic_parameters\":{\"contents\":\"[{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"},{\\\"availability\\\":\\\"InStock\\\"}]\"},\"smart_setup\":{\"auto_web_details_data\":\"{\\\"page_description\\\":[{\\\"rid\\\":\\\"1063271396742025\\\",\\\"v\\\":[\\\"Kommende shows i Royal Arena\\\"]}],\\\"page_keywords\\\":[{\\\"rid\\\":\\\"1534218705178900\\\",\\\"v\\\":[\\\"Kommende, shows, |, Royal, Arena, Kommende shows i Royal Arena\\\"]},{\\\"rid\\\":\\\"2687799351735288\\\",\\\"v\\\":[\\\"Site logo - www.royalarena.dk - go to homepage\\\"]}]}\",\"is_auto_web_details\":true},\"custom_data\":{\"segment_id\":90608},\"event_id\":\"ob3_plugin-set_625ecd2fc0488b1b30bcbdd7d753a3a15b48d33339645ada1876fb7b463f9d01\",\"fb.pixel_id\":\"951154780753454\",\"fb.advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"fb.alternative_advanced_matching\":{\"external_id\":\"ed3501cb43d292fad313df58aa301251596b189163e83650217012e438864c9a\"},\"website_context\":{\"location\":\"https://www.royalarena.dk/shows\",\"referrer\":\"\",\"isInIFrame\":false},\"fb.fbp\":\"fb.1.1793091690929.850366804735109329.AQYAAQMC\",\"event_meta_info\":{\"tags\":[\"bug_fix_inc\"]}}",
+   "status": 200,
+   "ct": "application/json",
+   "body": ""
+  },
+  {
+   "url": "https://api.permutive.com/v2.0/internal/metrics?k=25d8de23-8921-4b59-aae4-de79460f0d24",
+   "method": "POST",
+   "post": "{\"context\":{\"environment\":\"web\",\"events_count\":0,\"os\":\"ios\",\"sample_rate\":0.2,\"sdk_version\":\"v20.78.1\",\"segments_count\":0,\"user_agent\":\"Mozilla/5.0 (iPhone; CPU iPhone OS 18_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1\",\"session_count\":1,\"session_init_count\":1,\"session_view_count\":1,\"continent\":\"North America\",\"country\":\"United States\"},\"items\":[{\"name\":\"sdk_initialisation_start_time_seconds\",\"value\":3.405100000000006,\"labels\":{}},{\"name\":\"sdk_get_third_party_identities_task_duration_seconds\",\"value\":0.0022999999999883587,\"labels\":{}},{\"name\":\"sdk_lifecycle_timestamps\",\"value\":0.5522999023437442,\"labels\":{\"timestamp_name\":\"master_sent_worker_config\",\"time_origin\":\"sdk_init\"}},{\"name\":\"sdk_lifecycle_timestamps\",\"value\":0.5540000976562441,\"labels\":{\"timestamp_name\":\"master_sent_worker_input\",\"time_origin\":\"sdk_init\"}},{\"name\":\"sdk_video_player_count_total\",\"labels\":{},\"value\":1},{\"name\":\"sdk_resource_timing_seconds\",\"value\":0.2703000000000029,\"labels\":{\"compressed\":true,\"decoded_body_size\":2962568,\"dns_lookup_duration\":0.0045,\"encoded_body_size\":592124,\"fetch_duration\":0.2703000000000029,\"fetch_end\":3.249400000000009,\"fetch_start\":2.9791000000000056,\"redirect_duration\":0,\"request_duration\":0.03660000000000582,\"retrieved\":\"network\",\"service_worker_duration\":0,\"start_time\":2.9791000000000056,\"tcp_handshake_duration\":0.012300000000002911,\"tls_negotiation\":0.01109999999999127,\"transfer_duration\":0.25240000000000873,\"transfer_size\":592424,\"name\":\"https://cdn.permutive.com/8347d761-7b38-45f0-b0a8-34b664f7c00f-web.js\"}},{\"name\":\"sdk_initialisation_task_duration_seconds\",\"value\":0.6525999511718692,\"labels\":{}},{\"name\":\"sdk_lifecycle_timestamps\",\"value\":0.6525999511718692,\"labels\":{\"timestamp_name\":\"sdk_ready\",\"time_origin\":\"sdk_init\"}},{\"name\":\"sdk_heap_memory_bytes_used\",\"value\":68000000,\"labels\":{}},{\"name\":\"sdk_heap_memory_limit_fraction_used\",\"value\":0.018085106382978722,\"labels\":{}},{\"name\":\"sdk_local_storage_byte_tota\n…[afkortet]",
+   "status": 200,
+   "ct": "text/plain;charset=utf-8",
+   "body": "ok"
+  },
+  {
+   "url": "https://api.permutive.com/v2.0/internal/metrics?k=25d8de23-8921-4b59-aae4-de79460f0d24",
+   "method": "POST",
+   "post": "{\"context\":{\"environment\":\"web\",\"events_count\":0,\"os\":\"ios\",\"sample_rate\":0.2,\"sdk_version\":\"v20.78.1\",\"segments_count\":0,\"user_agent\":\"Mozilla/5.0 (iPhone; CPU iPhone OS 18_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1\",\"session_count\":1,\"session_init_count\":1,\"session_view_count\":1,\"continent\":\"North America\",\"country\":\"United States\"},\"items\":[{\"name\":\"sdk_ui_thread_compute_first10s_total_seconds\",\"value\":0.272800000000032,\"labels\":{}},{\"name\":\"sdk_ui_thread_compute_first10s_total_task_overrun_seconds\",\"value\":0.022199999999997083,\"labels\":{}},{\"name\":\"sdk_ui_thread_compute_first10s_longest_task_seconds\",\"value\":0.07219999999999709,\"labels\":{}}]}",
+   "status": 200,
+   "ct": "text/plain;charset=utf-8",
+   "body": "ok"
+  }
+ ],
+ "links": [
+  {
+   "h": "https://www.royalarena.dk/shows#main",
+   "t": "Spring til hovedindhold"
+  },
+  {
+   "h": "https://www.royalarena.dk/shows",
+   "t": "KOMMENDE SHOWS"
+  },
+  {
+   "h": "https://vinylroom.royalarena.dk/",
+   "t": "VINYL ROOM"
+  },
+  {
+   "h": "https://www.royalarena.dk/sign-in?redirectTo=/shows",
+   "t": "Log ind/Registrer"
+  },
+  {
+   "h": "https://www.royalarena.dk/all-events/jungle-tickets-ae492312",
+   "t": "Køb billetter"
+  },
+  {
+   "h": "https://www.royalarena.dk/all-events/emma-sehested-h%C3%B8eg-tickets-ae1524379",
+   "t": "Køb billetter"
+  },
+  {
+   "h": "https://www.royalarena.dk/all-events/fontaines-d-c--tickets-ae1084678",
+   "t": "Køb billetter"
+  },
+  {
+   "h": "https://www.royalarena.dk/all-events/j-cole-tickets-ae58904",
+   "t": "Køb billetter"
+  },
+  {
+   "h": "https://www.royalarena.dk/all-events/queen-machine-tickets-ae1259871",
+   "t": "Køb billetter"
+  },
+  {
+   "h": "https://www.royalarena.dk/all-events/the-prodigy-tickets-ae8441",
+   "t": "Køb billetter"
+  },
+  {
+   "h": "https://www.royalarena.dk/all-events/westlife-tickets-ae457",
+   "t": "Køb billetter"
+  },
+  {
+   "h": "https://www.royalarena.dk/all-events/bryson-tiller-tickets-ae800043",
+   "t": "Køb billetter"
+  },
+  {
+   "h": "https://www.royalarena.dk/all-events/blaue-blume-tickets-ae577394",
+   "t": "Køb billetter"
+  },
+  {
+   "h": "https://www.royalarena.dk/all-events/noah-kahan-tickets-ae1095445",
+   "t": "Køb billetter"
+  },
+  {
+   "h": "https://www.royalarena.dk/all-events/breinholt-s-giga-juleshow-tickets-ae1665062",
+   "t": "Køb billetter"
+  },
+  {
+   "h": "https://www.royalarena.dk/all-events/bryan-adams-tickets-ae1392",
+   "t": "Køb billetter"
+  },
+  {
+   "h": "https://www.royalarena.dk/all-events/phoebe-bridgers-tickets-ae1052566",
+   "t": "Køb billetter"
+  },
+  {
+   "h": "https://www.royalarena.dk/all-events/gilli-tickets-ae1662359",
+   "t": "Køb billetter"
+  },
+  {
+   "h": "https://www.royalarena.dk/all-events/gilli-tickets-ae1662359",
+   "t": "Køb billetter"
+  },
+  {
+   "h": "https://www.royalarena.dk/all-events/lukas-graham-tickets-ae813886",
+   "t": "Køb billetter"
+  },
+  {
+   "h": "https://www.royalarena.dk/all-events/lukas-graham-tickets-ae813886",
+   "t": "Køb billetter"
+  },
+  {
+   "h": "https://www.royalarena.dk/all-events/lukas-graham-tickets-ae813886",
+   "t": "Køb billetter"
+  },
+  {
+   "h": "https://www.royalarena.dk/all-events/aespa-tickets-ae1422768",
+   "t": "Køb billetter"
+  },
+  {
+   "h": "https://www.royalarena.dk/all-events/five-finger-death-punch-tickets-ae24668",
+   "t": "Køb billetter"
+  },
+  {
+   "h": "https://www.royalarena.dk/om",
+   "t": "Om Royal Arena"
+  },
+  {
+   "h": "https://www.royalarena.dk/presse",
+   "t": "Presse"
+  },
+  {
+   "h": "https://www.royalarena.dk/News",
+   "t": "Nyheder"
+  },
+  {
+   "h": "https://www.royalarena.dk/karriere",
+   "t": "Job & karriere"
+  },
+  {
+   "h": "https://www.royalarena.dk/ordensreglement",
+   "t": "Ordensreglement"
+  },
+  {
+   "h": "https://www.royalarena.dk/privatlivspolitik",
+   "t": "Privatlivspolitik"
+  },
+  {
+   "h": "https://www.royalarena.dk/cookies",
+   "t": "Cookies"
+  },
+  {
+   "h": "https://www.royalarena.dk/shows",
+   "t": "Kommende shows"
+  },
+  {
+   "h": "https://www.royalarena.dk/faq",
+   "t": "FAQ"
+  },
+  {
+   "h": "https://www.royalarena.dk/findvej",
+   "t": "Find vej"
+  },
+  {
+   "h": "https://www.royalarena.dk/restaurant-nohrlund",
+   "t": "Restaurant Nohrlund"
+  },
+  {
+   "h": "https://vinylroom.royalarena.dk/",
+   "t": "Vinyl Room"
+  },
+  {
+   "h": "https://www.royalarena.dk/hospitality-branding",
+   "t": "Hospitality & branding"
+  },
+  {
+   "h": "https://event.royalarena.dk/",
+   "t": "Konferencer & events"
+  },
+  {
+   "h": "https://www.royalarena.dk/vores-partnere",
+   "t": "Vores partnere"
+  },
+  {
+   "h": "https://www.royalarena.dk/brandpartnerskaber",
+   "t": "Brandpartnerskaber"
+  },
+  {
+   "h": "https://temcra.dreamhosters.com/audi-club-v2/",
+   "t": "Audi Club"
+  },
+  {
+   "h": "https://www.royalarena.dk/om",
+   "t": "Om Royal Arena"
+  },
+  {
+   "h": "https://www.royalarena.dk/presse",
+   "t": "Presse"
+  },
+  {
+   "h": "https://www.royalarena.dk/News",
+   "t": "Nyheder"
+  },
+  {
+   "h": "https://www.royalarena.dk/karriere",
+   "t": "Job & karriere"
+  },
+  {
+   "h": "https://www.royalarena.dk/ordensreglement",
+   "t": "Ordensreglement"
+  },
+  {
+   "h": "https://www.royalarena.dk/privatlivspolitik",
+   "t": "Privatlivspolitik"
+  },
+  {
+   "h": "https://www.royalarena.dk/cookies",
+   "t": "Cookies"
+  },
+  {
+   "h": "https://www.royalarena.dk/shows",
+   "t": "Kommende shows"
+  },
+  {
+   "h": "https://www.royalarena.dk/faq",
+   "t": "FAQ"
+  },
+  {
+   "h": "https://www.royalarena.dk/findvej",
+   "t": "Find vej"
+  },
+  {
+   "h": "https://www.royalarena.dk/restaurant-nohrlund",
+   "t": "Restaurant Nohrlund"
+  },
+  {
+   "h": "https://vinylroom.royalarena.dk/",
+   "t": "Vinyl Room"
+  },
+  {
+   "h": "https://www.royalarena.dk/hospitality-branding",
+   "t": "Hospitality & branding"
+  },
+  {
+   "h": "https://event.royalarena.dk/",
+   "t": "Konferencer & events"
+  },
+  {
+   "h": "https://www.royalarena.dk/vores-partnere",
+   "t": "Vores partnere"
+  },
+  {
+   "h": "https://www.royalarena.dk/brandpartnerskaber",
+   "t": "Brandpartnerskaber"
+  },
+  {
+   "h": "https://temcra.dreamhosters.com/audi-club-v2/",
+   "t": "Audi Club"
+  },
+  {
+   "h": "https://www.instagram.com/royalarenadkofficiel/",
+   "t": "åbner i nyt vindue"
+  },
+  {
+   "h": "https://www.linkedin.com/company/royal-arena/",
+   "t": "åbner i nyt vindue"
+  }
+ ]
+}

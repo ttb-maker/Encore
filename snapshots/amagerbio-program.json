@@ -1,0 +1,134 @@
+{
+ "url": "https://amagerbio.dk/program",
+ "status": 200,
+ "err": "",
+ "finalUrl": "https://ab-b.dk/program/",
+ "calls": [
+  {
+   "url": "https://analytics.google.com/g/collect?v=2&tid=G-K7HTVJP3NF&gtm=45je6an1v887333276za208zd887333276xf1&_p=1793091679514&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGAC&_ng=1&are=1&cid=972463088.1793091680&frm=0&pscdl=noapi&rcb=14&sr=1280x2000&uaa=arm&uab=64&uafvl=Chromium%3B130.0.6723.31%7CHeadlessChrome%3B130.0.6723.31%7CNot%253FA_Brand%3B99.0.0.0&uam=&uamb=0&uap=iOS&uapv=18_0&uaw=0&ul=da-dk&gaf=2&_s=1&tag_exp=115616985~115938466~115938468~118897920~118897930~120213116~120385423~120420415~120469145~120469153~121246026~121246034&sid=1793091679&sct=1&seg=0&dl=https%3A%2F%2Fab-b.dk%2Fprogram%2F&dt=program%20%E2%80%93%20AB%26B%20%2F%2F%20Amager%20Bio%20%26%20Beta&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=1233",
+   "method": "POST",
+   "post": "",
+   "status": 204,
+   "ct": "text/plain",
+   "body": ""
+  },
+  {
+   "url": "https://www.google.com/recaptcha/api2/pat?k=6LdjbUAUAAAAANJNTxPatjlvwOmhdWBi8iB9N86T",
+   "method": "POST",
+   "post": "\n(6LdjbUAUAAAAANJNTxPatjlvwOmhdWBi8iB9N86T\u0012\u0018NhfdZHzre16wrc2m6BxEdu7J\u001a�\u000f03AFcWeA5LUGSHWaEkWUTh8ly66Nj-6RKq-R55gbgeLisNpRhYEszq4GEdklkZHUowrFh7xwnFehqj3wEYXUxo-n0ydi3r5dW_994TGY8G_34ihFF2Pe4HLsP_hC0n1LTS455Y_sfWCyL2dTpMu31cbjh4oJ_XhxWq1rrfZuo9DWe0eWXjqzLyIO--EpEzJgyOP8KlHwk-BwLjcpDbgEh9jPms0_Nr_-uCYNocOwfVqB4rnE1sarg0fhy0wX80ltyQIDOtMt_AjnldY0KIu82YMgPYURZY2Mrj9zdtb-KOTgE0TpAxaBIXUkY17vG8ml1G6SobiLwaiJllkePvTf9aWZbUpoGu1W1zfwvHl0Yk-Iwy9yO3uw_cRnD9rBi3lWNhRvKGPVCIdpLFegWBg_hvBgVaRQPsCbVCVKEORhp2BkuGV_pFqkDRIS7ZCaVTpHfg7ACgLUEPwpGHQa07aDKVZz32VwE8A6VSSIbwOtMCjx63QbJlbmiV0-dqJqoAZq3X6XzmJlW39EUmSl0w87GvUtH0hHGkgJi27yN67tB-uIR325SV-D8bNDHIA86aL-t-_XtP3fwzpGiMrL1r2l8EKnNm2cI1BHUvNM-g2JmStVGrJay9CyQJory3Tt0TeRvrahDRmTOpquXfbC6tuMeI4NV5nG3tENTXs5vm8qu3FDaXoweZl-pxpq0SfgubE9Sws3Ws8GHB-af2_hhDrRgZNRlwt3ZkVkQTAjbv-LWi23-gWEb0tLPjwHgt-efA8AGgDBAkwrdplahfNI0uBH3K5kSN9B8LvUJix5Di6TB8ahaCUN7MF4IG4BVQCE2MiNMOraKeznRMIQlWAyEqZnIAT7drwGdOvw2Gne3V92vRjtVhkABR5M44DCZebBrdbfcmDH1gC1vGL4hl-1IztfF5GTFR74Amos3poS4WcFI2ERs334ORMyV_jHzpR1MQrdQ5EPFQQpcaPXa2P4SXwQKWDartR2nCstSm4VA9oczEb3nhrHyuJ34ZQ2274lLcLPEbbu_ANzc17Sk01YYwmdbLxnDSu4Q2BtrplSKjFgVloxx0Zx6kcp5lcaMNwe2WfahUNWshd7h_1-VSEs7LyTtVZzvotSxF2js14KpNB6c_YpTzr-xUG_DfpqMUTmyK6c3AlMgc8vzYah4-AeUHaanRaIZpIS2VwDwaf5buSx8Kuz8iCV3cBKpsUtfjBplB0K-lmLKJsQqAqxWxbsDFDeeB5lYouRGD7v1dboLp3wqla4TgLeHg0YvxWkblzMcF4R4JYV2_fdexBwngqvP9Y9Cg6hQCB9lMDCohqxkM5nWNKf8ZhJmeVcDDCUcQiPvzaeA2-mQM1hadOEXyIaphJOCX0nsnUvuejT8JKX8-5ID8A2wcbW9LiNYWStqfzgpZ3jKOXlPgJdGVlS-GWl9RhOJQ2hoAwg3mP1p1b-dE9H8aWePo84rApQpka3BUGQZWjaJ6eYjn9b9r-xKplVdilbM-RbJkXq0MiOmhYJ2HVX53kyvuo8cvQKkghI3nuVIjVfLp2iZD5xnKrl02koVrzlxfvveq-4TbKZ4bfwaip-ASGDFZuFK2K0cMiXdkubFqeogV1fDev0r-5QqcoYfePerHHJVx2Ed4L0eGXNuAEhZqCNMCcu75XlPbxKw655VHd72kQDyeh3EdZq9cOV_dUMsV1otAL3U2A8HXfer2-zhnUVrUD_mv0zQp5f6dYYzaxSdJFA61v_jp0pLp2YAOhVyxTTi2JfkGfS1iAkD42cGsHOmAKz9Bruv8JCqEnZcxbmtk6L0paQSukL-IDmH-qg0WHTL2lu6r-krQ85egVlPyq9RVMWdE6PRf3YweAcLK3AEOEnj9_hXfdRgBjwFiEI4prfGDX-GwBfF3Ekwbhl8D2jkPesw5dxvD44CZca8nqh_g4qJiRLx\n…[afkortet]",
+   "status": 401,
+   "ct": "application/binary",
+   "body": ""
+  },
+  {
+   "url": "https://ab-b.dk/wp-admin/admin-ajax.php?action=pys_get_pbid",
+   "method": "GET",
+   "post": "",
+   "status": 200,
+   "ct": "text/html; charset=UTF-8",
+   "body": "0"
+  },
+  {
+   "url": "https://connect.facebook.net/app_config/json/1032524373468732/",
+   "method": "GET",
+   "post": "",
+   "status": 200,
+   "ct": "application/json; charset=utf-8",
+   "body": "{\"fedcm\":{\"default\":false}}"
+  },
+  {
+   "url": "https://www.facebook.com/x/oauth/status?client_id=1032524373468732&input_token&origin=2&redirect_uri=https%3A%2F%2Fab-b.dk%2Fprogram%2F&sdk=joey&wants_cookie_data=false",
+   "method": "GET",
+   "post": "",
+   "status": 200,
+   "ct": "text/plain; charset=UTF-8",
+   "body": ""
+  },
+  {
+   "url": "https://www.google.com/recaptcha/api2/reload?k=6LdjbUAUAAAAANJNTxPatjlvwOmhdWBi8iB9N86T",
+   "method": "POST",
+   "post": "\n\u0018NhfdZHzre16wrc2m6BxEdu7J\u0012�\u000f03AFcWeA5LUGSHWaEkWUTh8ly66Nj-6RKq-R55gbgeLisNpRhYEszq4GEdklkZHUowrFh7xwnFehqj3wEYXUxo-n0ydi3r5dW_994TGY8G_34ihFF2Pe4HLsP_hC0n1LTS455Y_sfWCyL2dTpMu31cbjh4oJ_XhxWq1rrfZuo9DWe0eWXjqzLyIO--EpEzJgyOP8KlHwk-BwLjcpDbgEh9jPms0_Nr_-uCYNocOwfVqB4rnE1sarg0fhy0wX80ltyQIDOtMt_AjnldY0KIu82YMgPYURZY2Mrj9zdtb-KOTgE0TpAxaBIXUkY17vG8ml1G6SobiLwaiJllkePvTf9aWZbUpoGu1W1zfwvHl0Yk-Iwy9yO3uw_cRnD9rBi3lWNhRvKGPVCIdpLFegWBg_hvBgVaRQPsCbVCVKEORhp2BkuGV_pFqkDRIS7ZCaVTpHfg7ACgLUEPwpGHQa07aDKVZz32VwE8A6VSSIbwOtMCjx63QbJlbmiV0-dqJqoAZq3X6XzmJlW39EUmSl0w87GvUtH0hHGkgJi27yN67tB-uIR325SV-D8bNDHIA86aL-t-_XtP3fwzpGiMrL1r2l8EKnNm2cI1BHUvNM-g2JmStVGrJay9CyQJory3Tt0TeRvrahDRmTOpquXfbC6tuMeI4NV5nG3tENTXs5vm8qu3FDaXoweZl-pxpq0SfgubE9Sws3Ws8GHB-af2_hhDrRgZNRlwt3ZkVkQTAjbv-LWi23-gWEb0tLPjwHgt-efA8AGgDBAkwrdplahfNI0uBH3K5kSN9B8LvUJix5Di6TB8ahaCUN7MF4IG4BVQCE2MiNMOraKeznRMIQlWAyEqZnIAT7drwGdOvw2Gne3V92vRjtVhkABR5M44DCZebBrdbfcmDH1gC1vGL4hl-1IztfF5GTFR74Amos3poS4WcFI2ERs334ORMyV_jHzpR1MQrdQ5EPFQQpcaPXa2P4SXwQKWDartR2nCstSm4VA9oczEb3nhrHyuJ34ZQ2274lLcLPEbbu_ANzc17Sk01YYwmdbLxnDSu4Q2BtrplSKjFgVloxx0Zx6kcp5lcaMNwe2WfahUNWshd7h_1-VSEs7LyTtVZzvotSxF2js14KpNB6c_YpTzr-xUG_DfpqMUTmyK6c3AlMgc8vzYah4-AeUHaanRaIZpIS2VwDwaf5buSx8Kuz8iCV3cBKpsUtfjBplB0K-lmLKJsQqAqxWxbsDFDeeB5lYouRGD7v1dboLp3wqla4TgLeHg0YvxWkblzMcF4R4JYV2_fdexBwngqvP9Y9Cg6hQCB9lMDCohqxkM5nWNKf8ZhJmeVcDDCUcQiPvzaeA2-mQM1hadOEXyIaphJOCX0nsnUvuejT8JKX8-5ID8A2wcbW9LiNYWStqfzgpZ3jKOXlPgJdGVlS-GWl9RhOJQ2hoAwg3mP1p1b-dE9H8aWePo84rApQpka3BUGQZWjaJ6eYjn9b9r-xKplVdilbM-RbJkXq0MiOmhYJ2HVX53kyvuo8cvQKkghI3nuVIjVfLp2iZD5xnKrl02koVrzlxfvveq-4TbKZ4bfwaip-ASGDFZuFK2K0cMiXdkubFqeogV1fDev0r-5QqcoYfePerHHJVx2Ed4L0eGXNuAEhZqCNMCcu75XlPbxKw655VHd72kQDyeh3EdZq9cOV_dUMsV1otAL3U2A8HXfer2-zhnUVrUD_mv0zQp5f6dYYzaxSdJFA61v_jp0pLp2YAOhVyxTTi2JfkGfS1iAkD42cGsHOmAKz9Bruv8JCqEnZcxbmtk6L0paQSukL-IDmH-qg0WHTL2lu6r-krQ85egVlPyq9RVMWdE6PRf3YweAcLK3AEOEnj9_hXfdRgBjwFiEI4prfGDX-GwBfF3Ekwbhl8D2jkPesw5dxvD44CZca8nqh_g4qJiRLxBJto3*\n-6944752262\u0002fir(6LdjbUAUAAAAANJNTxP\n…[afkortet]",
+   "status": 200,
+   "ct": "application/json; charset=utf-8",
+   "body": ")]}'\n[\"rresp\",\"0cAFcWeA4TlZm8JPtfXc8bUHvvR_imRdwwcgKDUhCrsqSUAA8fsCQ79dNm2A0iR-594FyUcJX8gyZ6kZbrAYxj46v1C9NhIXmIzd2SP3DPH0Y_Pzy6omh89qytmIYRDZGFS2w2ldbxRjABgkyHM-GaUMA--UVk3MvZO9WSa9-HWVOgdY4Geoyv7xp9LvQQ1_yTzFGqMqaFaNsSqmGIc4T6NGjFpjUXEO3WlbQkLbPv_33RZb0pf0LdzON9szEW1ClG_6LD5RPl8z7RTSRuiVwPFtYhuJRP6-JKAUylUNH481VGDVrpCTRwpZPRmu3cTcGY_kC_2f_2EzBjDjO2MOU4fkP2RT2exkou4LkXzz2pILDo8HpgWge2iJ5EgJ69dM8LKTON6reR3XSW_rd7M6OvoLEPpMxDVrifvOwOsjdKNuods5EfeYw5pcXTefRf2qccUKhlrx1H4nWjM_s8dF6YAKNeCIvhK1oWxMZfDRjXZ0t9ybZTUk4hVHguGT13RG8FWFXRBognb82TtUKp8GQCCUzDylAHIgbWGvV8qNzlLuOyjv0QSPWthPXNxTHMH9qZgYnUwZ8udTjVReiGX0JzIz5UHj1OVewjGv4JCuZzHPb8rar7oxFYuJSoiiyoycD_fV75Gi4dt2XoBtCvR0hiyPz3Etdq6mDxUIfmtXlhidehtIrDcWS_uVrH1ip49NInO3ZlihJbNy9nb4gqXVyCInWV553gG17RbL4PYzalAaQAV9WrcKvNtamTsvO7sTBwingkQI4n1THHuYzz04bftfYSxO3HAIk-JNtPVwB6t0bX9_iNlyjhMigD3EznaXhizrcgCJOqMVAm19mIolnA9IaLvrf0H1dUtCUpwFQxtOloqNd1M3EvPFT_EGDGn1BBRHR4NumMbiQpXJ1sM64DVJVN29lqr-oP0_uVeq3jFRnkKeGYpCKcYNlXMXy-dujTtR-ciZQ554HuZ-ht5H7S270ixXSvuxL1byl0TYIQqnQVmT3SWVc840uCWsJFP8ZEIBdsHC0PMi8TOFk8kw-SP2u_1WZa0vOZpjZYqasEeXDQW2Dpa2kme090Gsy_rEW05VkFKBasMxil_775Z5-3WWcssqTreIUPi8MNJaVnhGz1TN-RTiJxxMlNrZ1XdCMOgTvge_TejTl2HwivKw3GWyLnppgwiL8X0uCo8dwHOuZMyiw-zNOk8KeRoMB3y26-Ewd4Q4XybWrKN-SOwRdCjO8edDnmvIQQyZG9uGgr2ovPbzIL6zgDuSZbf2T6q96gvHrPP91B_UbkifU7Wyd8fLJmlM7YnWowwApoK_w5ESzcrKUCPLuV2yDvCz7SClVK1AjWM-6-v6J2JeSgcuokzUCdgjdIg1vvk4-jIp63s5XcE-9_KuEzJI5ebHWEeWMGK5VFvqGlqPiopEwhvAcLQNVQKE-dtSpbPV5nlYUHvoNLELQV3fdkbq-WU6PNBpVIkD7D-mYfCSsPKFYzFoaJUgIcekOYO0QRTeOUFUwdxTRT5_tIoZmjeqYNI0zgOvOxvCXkAu3RRDHFUUtvMRJgdZaF8L_AcGzewqjA38LARvHF1B5FMnMov2Uxkzg3pvCKypfhrLj576J0_0TdFKLIsOn2vekgciMCLNGfLi7wcczQUsyC93kGKAooBsQ9jHCaxGAxRy4k7qdgAjMey8o5PZU9G-_aWPoyz_A7ZeIILK8-_szuRf1H0Cdhp761M285pSTX_ibzlyvehXro-8X1Rv5-vI4sYPXfUYwQFh78_yREjxUtS4NbidJxAW93HOT-h2Ghj_SmqwBEfMZVmujlf0-gxgXzPsZgUcZz4r8nTKPKHMEg--typFCbmLJlOULk0hpCDOwoEW_zaU02CdYC1KNkW0ByhyNLN1ONGeGYpr83_WAe8FSiBSnfdH1jfG15sFfYHg-r0DXBIit1Sy_mVJpWfnQiQPKJmMTGjQCxEbiJqhn5yT0y42CSke7nGIMd_Yo822pOCk6Jfd6WS6XHMRYrYXAWzLTsNMhj6TuBhewq15Nz4RQSpElYyb1ennsWwoRbYg2qBBl5qGtPM_kozWMzc10VigdmvUt5koYOsMRW5JksADFbDca-ceHq-IEyJVF-r_9N0qVmcstYArfU4uNYS_q3aTZZiuevo21Oy0i-St0-gYrtzopCham1WnML3lbEOlJHGOpHEQ2BPhJZlEKMXxZVDwhCITTl41yYTSKgfG7bpflNYYCyqqBQrPIxmXVRO0Q9ntfrJWXmOW9zZJjqZeV-Q-cMwnTcIrjE-k7RfDECtpIvuhtKqblOYvyTlOYaxi0BTgktuFPP_1WIYpIXGK97l_B6WZbYkN40Tt0fTwJqQw6hFqp1NmIE_q1rQDw6P8P5l4U0ehq71t98ZIXVhQjEEJ2cijMlz8n0fGEIH2dY7gRhB_kPRD1tlRLA2LIIFERChTT9_Li3gDiiHEKDkY7M03nL2x0LX5nB3ZRFwVg5Qaik0IaS6cCeIOzkLPJhzvogV1fd_B71kKmReoT8iG1tkCnW8SM6icIBknXdbUTGb5cXL3fzWmNReZWIjQazxuhkmkuBzDbQ1lHTim9nwQOxqqAbGpzlYxmft-V3ijf9-KhRLjJyEk_LrNIR78rj1Ni1fwdSKf-CQyojbwzVF0BJiTXjoQq8hHOo47NpjYdOJ5iIhb2LHm6IUQWLNU_3KqgbmT3CewSeHRCX5NKMRpMxs3ozVYQpyyBQ4LJ1Xh1_FULOjnTJcwDOJlihmGHGQis8i2-cm2BeG4fydJS8dCjKiAT3qgrm_fXGFqRxswN615yoaH228vN0hJK4ehJGJ1aj6nytIfdEVBerJJmx6dIXSyRAm-kbdCaRvs9r03YUCrytrQsMJeRtNH_5oKYfTF_JRhDH2k4nHnRM99DRgOBynjvTB7ZxRKR9-N6WbisoeO3La9VqEtKkDLsc1lBioYLkDJR4c2WNST6-uvPvfsbC2RQqKUz9-3-jl5blTOFzqjAaqUuxzWELDmwCE1oJWReOjf5rjQs0qPnOJbPLj0yB5eb-lyQflYDAnLVxN8832g8tpFfMnOJ5_XUhHsvZQeNKbzU9Z-tqW1F92ch1G3Y-NtbgLHOqdpekCX3HolCsXFJie9lt7Ha5auA5hwWFKU7UoqzAg-IXu8PdhuUJ19qenecDw-7-CZbpC72uHn8jy2JQHJgCPDfdcJun2idO5goPPorGyPkH-PkSHwBHn592OoTWGPjHa3j-W75sAGpk7gJ2mFDWJnXbEXqy6gY0zZXaKKy5KPk5BaJi0mL83N8oAqRYkJuGwOg0lwPu0bDiWtYuWs7quh69jbPyFV3o016og6k_Aqr8aRRb17y5Xc_N3QD2j_yKD6cUCnviJDDCWwvK0VTAqg7Rxot7fc_c3DyNvKok5B4HlrF52xt_YQ1nfBYKXUYUpdzvtwarOqhXUjBCCcmwcjv57g87OnKfDdS5aOeTBzyEe2LwhkTds6ddFrvq-9pLutHZk6MJmVkWkO5CuIps0PJBtvcc8422J7FWMxPAT25qTj8_lsDblqQVObTYLms9F8NZk7Cy92fNDGr3jd2Vekh9yAOsnBNhubzM074ZwDD3uFJ0kNchMLZz_5gVlEd_WyllOlizqWFJcItPA2pVZfJjrR2mu2YuJmMcZLRploKovAnbhw4hwB8n3_4WoJnY6rZ-oEt2lE1Q-NnoxXb9zt9itLpY1T7DIZtNVQqkuYWMf2DhDZbEHmonxBcuyqBfTt9SdA0f3Zy-2eIgm5jKZ02yn3aEql98pgUSg1r0HWiAvwEHTvfPhsLbGrechVzwGsnvyT_5eJGLVPZRGMImvpzk-ZmTsxiafJb1xgk95_jU1FPMwsaZegswWJeE-JYcSIGnL9xpIww9cQxBml8aG6vJ4jl58GWDR7mItcXxLRlNTglpUIMMGkIFIU1tI_Bi7BAm8y2dgwDgMFj9fbaB0qQftGt_J6j9PuXL3q9NkWyokWSlLYzJ28y2TV2UPHZh0k7RPJ4W7v8JhmhLsI4PXwVQdl8GHfe3Qpvk59g_enm0dvIxJ_cJ-TpJjoWx0iK4xjIjradHLEPgv8SrLj0VPN9NyIzZFaFLvit4GLM-9jIn2GtDcaZQ4y4kQd6WnXT5s3rECsoFkIOTSlK3Q10vMqSK3QBmijrtXHgBS4nkWMb1CGCuoFP1pFRZRQsxCkOpysi7RBO5XaDNLF7ZDfsfZyBrWrmnYkNkGr6tHA1zmTQ6Mqb7n0BtML7gPe987WkI1ySvAa-RmVK0QT1AvgU36ggXuZvqh7fqbiFwVz8F\",null,600,[\"pmeta\",null,null,null,null,[[[\"/m/01lynh\",null,2,4,4],[\"/m/0199g\",null,2,4,4],[\"/m/01bjv\",null,2,4,4],[\"/m/04_sv\",null,2,4,4],[\"/m/0199g\",null,2,4,4]]]],\"multicaptcha\",null,null,\"05AL5IAHaFVyU3h5OrUWDSOae-0OT7G5bZi8c-VJkHzjWwGlhKYQILQd0ageJaBvro1_12gBjPOaoGoWmXDhYH_Rf9eOgBmd2BkhVzm8kJD6oCyQp-iK2f9RMCrX9kFK5R1Khe4tT7j58fHQr0gvGklEIjhk5Jife0cJ-zqnhCzm9kGvDHESsY5R3TCwMzRjVFVjSSmR-fBmURXPgw_E1jIESceRqexXS48lyXYyA98SNEG-lcpak\",\"06AFcWeA6C51qMLvqudPIMo5yOUvcmIETyouk10wb1J-HBWDjfRsUoRAp-pJCRI1IGBda1clrzG41Oz8p09RkdGgKf63owj1cb4f1vshIEU22Lphy62fV6f_8GXj7tQecplxy6eobE4JtilhYtRWvHYn2G6gLVBeH6zr5jDCniuLBaUBizfYtDoqyBlqBVO8cG6WdqmYklq1tzIVaeTU6mVcn4kFCJ0TUTTA\",null,null,\"09AKhCRwhZ-zooC93XG64Z9UxXK5KAPYVlq7o6r_BLs5gLYRFGz1lbvO9zB3WgyLLVwkCtaZq8SgKFqhabWGe17uENwQJu9ZDzrxWv-mM7AVVxjVLptzFzqP1ZjrZCkVsQ\",null,\"0aAL5IAHbhMYh2KkDcJIjIqf-dGH3YgALiL9KXuKzwlNz2Vg3lsZnUZngLdtaE--2mQ7fXf-Q\",\"0bAIrSj1sx-7XpmHIxwLDeyJ81hSVR5d1XwQ6klemw4LE4xv5c9Pd6ybo8iJPNsrhSxSknZIvnOA\",0]"
+  },
+  {
+   "url": "https://analytics.google.com/g/collect?v=2&tid=G-K7HTVJP3NF&gtm=45je6an1v887333276za200zd887333276xf1&_p=1793091679514&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAAAGQC&_ng=1&ae=a&are=1&cid=972463088.1793091680&frm=0&pscdl=noapi&rcb=14&sr=1280x2000&uaa=arm&uab=64&uafvl=Chromium%3B130.0.6723.31%7CHeadlessChrome%3B130.0.6723.31%7CNot%253FA_Brand%3B99.0.0.0&uam=&uamb=0&uap=iOS&uapv=18_0&uaw=0&ul=da-dk&gaf=2&_s=2&tag_exp=115616985~115938466~115938468~118897920~118897930~120213116~120385423~120420415~120469145~120469153~121246026~121246034&sid=1793091679&sct=1&seg=0&dl=https%3A%2F%2Fab-b.dk%2Fprogram%2F&dt=program%20%E2%80%93%20AB%26B%20%2F%2F%20Amager%20Bio%20%26%20Beta&en=scroll&epn.percent_scrolled=90&_et=9&tfd=6244",
+   "method": "POST",
+   "post": "",
+   "status": 204,
+   "ct": "text/plain",
+   "body": ""
+  }
+ ],
+ "links": [
+  {
+   "h": "https://ab-b.dk/program/",
+   "t": "OK"
+  },
+  {
+   "h": "https://ab-b.dk/privatlivspolitik/",
+   "t": "Læs privatlivspolitik"
+  },
+  {
+   "h": "https://amager-bio-and-beta.mynewsdesk.com/",
+   "t": "Nyt fra AB&B"
+  },
+  {
+   "h": "https://ab-b.dk/bliv-frivillig-i-amager-bio-beta/",
+   "t": "Bliv frivillig i AB&B"
+  },
+  {
+   "h": "https://ab-b.dk/praktisk-information/",
+   "t": "Praktisk info & FAQ"
+  },
+  {
+   "h": "https://ab-b.dk/find-vej-til-amager-bio-og-beta/",
+   "t": "Find vej"
+  },
+  {
+   "h": "https://ab-b.dk/tilgaengelighed-i-amager-bio/",
+   "t": "Tilgængelighed"
+  },
+  {
+   "h": "https://ab-b.dk/leje-amager-bio/",
+   "t": "Leje af AB&B"
+  },
+  {
+   "h": "https://ab-b.dk/tech-specs/",
+   "t": "Technical specifications"
+  },
+  {
+   "h": "https://ab-b.dk/in-english/",
+   "t": "Practical Info In English"
+  },
+  {
+   "h": "https://ab-b.dk/om-amagerbio-2/",
+   "t": "Om Amager Bio & BETA"
+  },
+  {
+   "h": "https://ab-b.dk/kontakt/",
+   "t": "Kontakt"
+  },
+  {
+   "h": "https://ab-b.dk/program/#profile",
+   "t": "Forbind"
+  },
+  {
+   "h": "https://ab-b.dk/",
+   "t": "Forsiden"
+  },
+  {
+   "h": "https://ab-b.dk/praktisk-information/",
+   "t": "FAQ"
+  },
+  {
+   "h": "https://ab-b.dk/find-vej-til-amager-bio-og-beta/",
+   "t": "Find os"
+  },
+  {
+   "h": "https://ab-b.dk/kontakt/",
+   "t": "Kontakt"
+  }
+ ]
+}

@@ -1,0 +1,622 @@
+{
+ "url": "https://malmolive.se/",
+ "status": 200,
+ "err": "",
+ "finalUrl": "https://malmolive.se/",
+ "calls": [
+  {
+   "url": "https://consentcdn.cookiebot.com/consentconfig/72ffda33-9bf7-4f98-b016-707e33b26f4d/settings.json",
+   "method": "GET",
+   "post": "",
+   "status": 200,
+   "ct": "application/json",
+   "body": "{\"widget\":{\"enabled\":true,\"position\":{\"position\":\"bottom-right\",\"distanceVerticalPx\":6,\"distanceHorizontalPx\":6},\"theme\":{\"closed\":{\"backgroundColor\":\"#141414\",\"foregroundColor\":\"#FFFFFF\"},\"opened\":{\"backgroundColor\":\"#FFFFFF\",\"foregroundColor\":\"#141414\",\"highlightColor\":\"#1032CF\",\"shadeColor\":\"#D6D6D6\",\"changeBackgroundColor\":\"#1032CF\",\"changeTextColor\":\"#FFFFFF\",\"changeBorderColor\":\"#1032CF\",\"withdrawBackgroundColor\":\"#FFFFFF\",\"withdrawTextColor\":\"#141414\",\"withdrawBorderColor\":\"#1032CF\",\"detailsBackgroundColor\":\"#F2F2F2\"}},\"content\":{\"cultures\":[\"sv\",\"en\"],\"default\":\"en\",\"autodetectLanguage\":true}},\"twipla\":null}"
+  },
+  {
+   "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=5&frm=0&apvc=1&tid=AW-960870447&en=page_view&dl=https%3A%2F%2Fmalmolive.se&scrsrc=www.googletagmanager.com&rnd=1512229203.1793091760&navt=n&npa=1&us_privacy=1YNY&did=dMWZhNz&gdid=dMWZhNz&_tu=CA&gtm=45be6an1v9181464991za20ozb842744507zd842744507xecxf1&gcs=G100&gcd=13p3p3p3p5l1&dma_cps=-&dma=0&tag_exp=115616985~115938465~115938468~118012009~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&tft=1793091759626&tfd=2011&tids=AW-960870447&fmt=8",
+   "method": "POST",
+   "post": "",
+   "status": 200,
+   "ct": "",
+   "body": ""
+  },
+  {
+   "url": "https://malmolive.se/core/modules/statistics/statistics.php",
+   "method": "POST",
+   "post": "nid=1",
+   "status": 200,
+   "ct": "text/html; charset=UTF-8",
+   "body": ""
+  }
+ ],
+ "links": [
+  {
+   "h": "https://malmolive.se/#",
+   "t": "Consent"
+  },
+  {
+   "h": "https://malmolive.se/#",
+   "t": "Details"
+  },
+  {
+   "h": "https://malmolive.se/#",
+   "t": "[#IABV2SETTINGS#]"
+  },
+  {
+   "h": "https://malmolive.se/#",
+   "t": "About"
+  },
+  {
+   "h": "https://malmolive.se/#",
+   "t": "Show details"
+  },
+  {
+   "h": "https://malmolive.se/#",
+   "t": "Cookiebot2"
+  },
+  {
+   "h": "https://www.cookiebot.com/goto/privacy-policy/",
+   "t": "Learn more about this provider"
+  },
+  {
+   "h": "https://malmolive.se/#",
+   "t": "Google1"
+  },
+  {
+   "h": "https://business.safety.google/privacy/",
+   "t": "Learn more about this provider"
+  },
+  {
+   "h": "https://malmolive.se/#",
+   "t": "Soundcloud1"
+  },
+  {
+   "h": "https://soundcloud.com/pages/privacy",
+   "t": "Learn more about this provider"
+  },
+  {
+   "h": "https://malmolive.se/#",
+   "t": "biljetter.malmolive.se4"
+  },
+  {
+   "h": "https://malmolive.se/#",
+   "t": "malmolive.se4"
+  },
+  {
+   "h": "https://malmolive.se/#",
+   "t": "Acast1"
+  },
+  {
+   "h": "https://www.acast.com/privacy",
+   "t": "Learn more about this provider"
+  },
+  {
+   "h": "https://malmolive.se/#",
+   "t": "biljetter.malmolive.se1"
+  },
+  {
+   "h": "https://malmolive.se/#",
+   "t": "New Relic1"
+  },
+  {
+   "h": "https://newrelic.com/termsandconditions/privacy",
+   "t": "Learn more about this provider"
+  },
+  {
+   "h": "https://malmolive.se/#",
+   "t": "Meta Platforms, Inc.3"
+  },
+  {
+   "h": "https://www.facebook.com/policy.php/",
+   "t": "Learn more about this provider"
+  },
+  {
+   "h": "https://malmolive.se/#",
+   "t": "Google5"
+  },
+  {
+   "h": "https://business.safety.google/privacy/",
+   "t": "Learn more about this provider"
+  },
+  {
+   "h": "https://malmolive.se/#",
+   "t": "Issuu13"
+  },
+  {
+   "h": "https://issuu.com/legal/privacy",
+   "t": "Learn more about this provider"
+  },
+  {
+   "h": "https://malmolive.se/#",
+   "t": "SociableKit1"
+  },
+  {
+   "h": "https://www.sociablekit.com/privacy-policy/",
+   "t": "Learn more about this provider"
+  },
+  {
+   "h": "https://malmolive.se/#",
+   "t": "Soundcloud2"
+  },
+  {
+   "h": "https://soundcloud.com/pages/privacy",
+   "t": "Learn more about this provider"
+  },
+  {
+   "h": "https://malmolive.se/#",
+   "t": "Spotify2"
+  },
+  {
+   "h": "https://www.spotify.com/uk/legal/privacy-policy/",
+   "t": "Learn more about this provider"
+  },
+  {
+   "h": "https://malmolive.se/#",
+   "t": "YouTube18"
+  },
+  {
+   "h": "https://business.safety.google/privacy/",
+   "t": "Learn more about this provider"
+  },
+  {
+   "h": "https://malmolive.se/#",
+   "t": "embed-cdn.spotifycdn.com1"
+  },
+  {
+   "h": "https://malmolive.se/#",
+   "t": "widget.sndcdn.com2"
+  },
+  {
+   "h": "https://malmolive.se/#",
+   "t": "malmolive.se2"
+  },
+  {
+   "h": "https://malmolive.se/#",
+   "t": "Cross-domain consent2"
+  },
+  {
+   "h": "https://malmolive.se/",
+   "t": "malmolive.se"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/",
+   "t": "biljetter.malmolive.se"
+  },
+  {
+   "h": "https://www.cookiebot.com/",
+   "t": "Cookiebot"
+  },
+  {
+   "h": "https://malmolive.se/#main-content",
+   "t": "Gå till det huvudsakliga innehållet"
+  },
+  {
+   "h": "https://malmolive.se/en",
+   "t": "English"
+  },
+  {
+   "h": "https://malmolive.se/node/1?browsealoud=on",
+   "t": "Talande webb"
+  },
+  {
+   "h": "https://malmolive.se/kontakt",
+   "t": "Kontakt & öppettider"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/checkout/basket",
+   "t": "Varukorg"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/account/your-details",
+   "t": "Mina sidor"
+  },
+  {
+   "h": "https://malmolive.se/#",
+   "t": "Stäng"
+  },
+  {
+   "h": "https://malmolive.se/program",
+   "t": "Biljetter"
+  },
+  {
+   "h": "https://malmolive.se/kommande-konserter-med-mso?keyword%5B0%5D=165",
+   "t": "Malmö SymfoniOrkester"
+  },
+  {
+   "h": "https://malmolive.se/kommande-evenemang-for-barn-familj",
+   "t": "Barn & Familj"
+  },
+  {
+   "h": "https://malmolive.se/kommande-pop-rock-pa-malmo-live-konserthus",
+   "t": "Pop & Rock"
+  },
+  {
+   "h": "https://malmolive.se/kommande-jazz-pa-malmo-live-konserthus",
+   "t": "Jazz"
+  },
+  {
+   "h": "https://malmolive.se/jazz-i-kuben",
+   "t": "Jazz i Kuben"
+  },
+  {
+   "h": "https://malmolive.se/kommande-underhallning-humor-pa-malmo-live-konserthus",
+   "t": "Underhållning & Humor"
+  },
+  {
+   "h": "https://malmolive.se/kommande-dans-balett-pa-malmo-live-konserthus",
+   "t": "Dans & Balett"
+  },
+  {
+   "h": "https://malmolive.se/lunchkor",
+   "t": "Lunchkören"
+  },
+  {
+   "h": "https://malmolive.se/xplore-konsertserie-for-oppna-sinnen",
+   "t": "Xplore kammarmusik"
+  },
+  {
+   "h": "https://malmolive.se/program",
+   "t": "Se alla konserter och evenemang"
+  },
+  {
+   "h": "https://malmolive.se/mitt-besok",
+   "t": "Inför mitt besök"
+  },
+  {
+   "h": "https://malmolive.se/mitt-besok/biljettinformation",
+   "t": "Biljettinformation"
+  },
+  {
+   "h": "https://malmolive.se/mitt-besok/mat-dryck",
+   "t": "Pausbeställning"
+  },
+  {
+   "h": "https://malmolive.se/mitt-besok/hitta-hit",
+   "t": "Hitta hit"
+  },
+  {
+   "h": "https://malmolive.se/oppettider",
+   "t": "Öppettider & kontakt"
+  },
+  {
+   "h": "https://malmolive.se/mitt-besok/kartor",
+   "t": "Kartor & Salongsplaner"
+  },
+  {
+   "h": "https://malmolive.se/mitt-besok/tillganglighet",
+   "t": "Tillgänglighet"
+  },
+  {
+   "h": "https://malmolive.se/om",
+   "t": "Malmö Live Konserthus"
+  },
+  {
+   "h": "https://malmolive.se/om",
+   "t": "Om Malmö Live Konserthus"
+  },
+  {
+   "h": "https://malmolive.se/kontakt",
+   "t": "Organisation & kontakt"
+  },
+  {
+   "h": "https://malmolive.se/om/bolagsstyrning-ekonomi",
+   "t": "Bolagsstyrning & Ekonomi"
+  },
+  {
+   "h": "https://malmolive.se/om/jobba-har",
+   "t": "Jobba här"
+  },
+  {
+   "h": "https://malmolive.se/om/samarbeten-sponsring-och-donationer",
+   "t": "Samarbeten, sponsring och donationer"
+  },
+  {
+   "h": "https://malmolive.se/om/vd-och-konstnarlig-ledare",
+   "t": "VD och konstnärlig ledare"
+  },
+  {
+   "h": "https://malmolive.se/mso/artists-in-association",
+   "t": "Artists in Association"
+  },
+  {
+   "h": "https://malmolive.se/mso",
+   "t": "Malmö SymfoniOrkester"
+  },
+  {
+   "h": "https://malmolive.se/kommande-konserter-med-mso?keyword%5B0%5D=165",
+   "t": "Konserter med Malmö SymfoniOrkester"
+  },
+  {
+   "h": "https://malmolive.se/mso/konsertserier",
+   "t": "Konsertserier"
+  },
+  {
+   "h": "https://malmolive.se/konsertintroduktioner",
+   "t": "Konsertintroduktioner"
+  },
+  {
+   "h": "https://malmolive.se/om/malmo-symfoniorkester",
+   "t": "Om Malmö SymfoniOrkester"
+  },
+  {
+   "h": "https://malmolive.se/mso/orkestern",
+   "t": "Musikerna i MSO"
+  },
+  {
+   "h": "https://malmolive.se/mso/mso-vanner",
+   "t": "MSO Vänner"
+  },
+  {
+   "h": "https://malmolive.se/mso/artists-in-association",
+   "t": "Artists in Association"
+  },
+  {
+   "h": "https://malmolive.se/barnens-live",
+   "t": "Barn & Unga"
+  },
+  {
+   "h": "https://malmolive.se/barnens-live/babyrytmik",
+   "t": "Babyrytmik"
+  },
+  {
+   "h": "https://malmolive.se/barnens-live/nalle",
+   "t": "Nalle"
+  },
+  {
+   "h": "https://malmolive.se/skola/tvaornas-kor",
+   "t": "Tvåornas kör"
+  },
+  {
+   "h": "https://malmolive.se/skola/sida-vid-sida-el-sistema",
+   "t": "Sida vid sida & El Sistema"
+  },
+  {
+   "h": "https://malmolive.se/unga/skuso-skanes-ungdomssymfoniorkester",
+   "t": "SKUSO"
+  },
+  {
+   "h": "https://malmolive.se/barnens-live/nyfiken-pa",
+   "t": "Nyfiken på"
+  },
+  {
+   "h": "https://malmolive.se/bistro",
+   "t": "Bistro Live"
+  },
+  {
+   "h": "https://malmolive.se/bistro/meny",
+   "t": "Meny"
+  },
+  {
+   "h": "https://malmolive.se/bistro/oppettider",
+   "t": "Öppettider"
+  },
+  {
+   "h": "https://malmolive.se/brunch",
+   "t": "Brunch"
+  },
+  {
+   "h": "https://malmolive.se/mitt-besok/mat-dryck",
+   "t": "Pausbeställning"
+  },
+  {
+   "h": "https://malmolive.se/om-musiken",
+   "t": "Om musiken"
+  },
+  {
+   "h": "https://malmolive.se/artiklar",
+   "t": "Artiklar & Intervjuer"
+  },
+  {
+   "h": "https://malmolive.se/larande/biografier",
+   "t": "Biografier"
+  },
+  {
+   "h": "https://malmolive.se/larande/verk",
+   "t": "Verk"
+  },
+  {
+   "h": "https://malmolive.se/mso/allt-du-behover-veta-om-en-symfoniorkester",
+   "t": "Om symfoniorkestrar"
+  },
+  {
+   "h": "https://malmolive.se/om-musiken/podcasten-ljudcirklar",
+   "t": "Podcasten Ljudcirklar"
+  },
+  {
+   "h": "https://malmolive.se/",
+   "t": "Hem"
+  },
+  {
+   "h": "https://malmolive.se/oppettider",
+   "t": "Biljettcenter"
+  },
+  {
+   "h": "https://malmolive.se/presentkort",
+   "t": "Presentkort"
+  },
+  {
+   "h": "https://malmolive.se/nyhetsbrev",
+   "t": "Nyhetsbrev"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/login",
+   "t": "Mina sidor"
+  },
+  {
+   "h": "https://malmolive.se/kontakt",
+   "t": "Kontakt"
+  },
+  {
+   "h": "https://malmolive.se/personuppgiftspolicy-generell",
+   "t": "klicka här."
+  },
+  {
+   "h": "https://malmolive.se/program",
+   "t": "BILJETTER"
+  },
+  {
+   "h": "https://malmolive.se/mso",
+   "t": "Malmö SymfoniOrkester"
+  },
+  {
+   "h": "https://malmolive.se/barnens-live",
+   "t": "Barnens Live"
+  },
+  {
+   "h": "https://malmolive.se/mitt-besok",
+   "t": "Inför mitt besök"
+  },
+  {
+   "h": "https://malmolive.se/bistro",
+   "t": "Bistro Live"
+  },
+  {
+   "h": "https://malmolive.se/bistro",
+   "t": "Upptäck Bistro Live"
+  },
+  {
+   "h": "https://malmolive.se/program/love-actually",
+   "t": "Biljetter till Love Actually"
+  },
+  {
+   "h": "https://malmolive.se/program/alskade-spion",
+   "t": "Biljetter till Älskade Spion"
+  },
+  {
+   "h": "https://malmolive.se/program/verdis-requiem-2026",
+   "t": "Biljetter till Verdis Requiem"
+  },
+  {
+   "h": "https://malmolive.se/bistro",
+   "t": "Upptäck Bistro Live"
+  },
+  {
+   "h": "https://malmolive.se/program/love-actually",
+   "t": "Biljetter till Love Actually"
+  },
+  {
+   "h": "https://malmolive.se/program/verdis-requiem-2026",
+   "t": "Verdis Requiem"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/30089/30164?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/verdis-requiem-2026",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/en-kvall-med-shan-atci",
+   "t": "En kväll med Shan Atci"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/30551/30552?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/en-kvall-med-shan-atci",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/verdis-requiem-2026",
+   "t": "Verdis Requiem"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/30089/30165?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/verdis-requiem-2026",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/spoktimmen-presenterar-10-ar-av-skrack",
+   "t": "Spöktimmen presenterar 10 år av skräck"
+  },
+  {
+   "h": "https://biljetter.malmolive.se/events/30633/30635?lang=sv",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://malmolive.se/program/spoktimmen-presenterar-10-ar-av-skrack",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program/babyrytmik-omgang-2-hosten-2026",
+   "t": "Babyrytmik omgång 2 // Hösten 2026"
+  },
+  {
+   "h": "https://malmolive.se/program/babyrytmik-omgang-2-hosten-2026",
+   "t": "LÄS MER"
+  },
+  {
+   "h": "https://malmolive.se/program",
+   "t": "Se alla evenemang"
+  },
+  {
+   "h": "https://malmolive.se/artiklar/mellan-arktisk-tystnad-och-flammande-eld",
+   "t": "Mellan arktisk tystnad och flammande eld"
+  },
+  {
+   "h": "https://malmolive.se/artiklar/mellan-arktisk-tystnad-och-flammande-eld",
+   "t": "Läs mer"
+  },
+  {
+   "h": "https://malmolive.se/artiklar/ragnar-grippe-och-tobias-rylander-mots-i-unik-konsert",
+   "t": "Ragnar Grippe och Tobias Rylander möts i unik konsert"
+  },
+  {
+   "h": "https://malmolive.se/artiklar/ragnar-grippe-och-tobias-rylander-mots-i-unik-konsert",
+   "t": "Läs mer"
+  },
+  {
+   "h": "https://malmolive.se/artiklar/jag-vill-beratta-hans-historia-inte-min",
+   "t": "Jag vill berätta hans historia, inte min"
+  },
+  {
+   "h": "https://malmolive.se/artiklar/jag-vill-beratta-hans-historia-inte-min",
+   "t": "Läs mer"
+  },
+  {
+   "h": "https://malmolive.se/artiklar",
+   "t": "Läs fler artiklar"
+  },
+  {
+   "h": "mailto:biljettcenter@malmolive.se",
+   "t": "biljettcenter@malmolive.se"
+  },
+  {
+   "h": "https://malmolive.se/personuppgiftspolicy-generell",
+   "t": "Generell personuppgiftspolicy"
+  },
+  {
+   "h": "https://malmolive.se/personuppgiftspolicy-allmanna-villkor-biljettkop",
+   "t": "Personuppgiftspolicy & allmänna villkor för biljettköp"
+  },
+  {
+   "h": "https://malmolive.se/om-cookies",
+   "t": "Om cookies"
+  },
+  {
+   "h": "https://malmolive.se/tillganglighetsredogorelse",
+   "t": "Tillgänglighetsredogörelse"
+  },
+  {
+   "h": "https://malmolive.se/pressrum",
+   "t": "Pressrum"
+  },
+  {
+   "h": "https://malmolive.se/en",
+   "t": "English"
+  },
+  {
+   "h": "https://malmolive.se/node/1?browsealoud=on",
+   "t": "Talande webb"
+  },
+  {
+   "h": "https://malmolive.se/kontakt",
+   "t": "Kontakt & öppettider"
+  }
+ ]
+}

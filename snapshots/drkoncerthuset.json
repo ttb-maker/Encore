@@ -1,0 +1,654 @@
+{
+ "url": "https://www.drkoncerthuset.dk/",
+ "status": 200,
+ "err": "",
+ "finalUrl": "https://www.drkoncerthuset.dk/",
+ "calls": [
+  {
+   "url": "https://www.drkoncerthuset.dk/umbraco/api/events/fetch?pageSize=4",
+   "method": "GET",
+   "post": "",
+   "status": 200,
+   "ct": "application/json; charset=utf-8",
+   "body": "{\"dynamicResults\":null,\"currentPage\":0,\"totalPages\":73,\"totalItems\":291,\"itemsPerPage\":4,\"results\":[{\"imageAspectRatio\":2,\"eventId\":19865,\"eventimId\":\"115303\",\"showUSPText\":false,\"url\":\"/kalender/2026/signe-moldes-roadshow-1/signe-moldes-roadshow/\",\"image\":{\"defaultUrl\":\"/media/ubtbgviz/event_35133.jpg?width=1600&height=800&v=1dd362e7c0aeff0\",\"responsiveImg\":[{\"sizes\":\"400px\",\"mediaQuery\":null,\"srcSetSources\":[{\"src\":\"/media/ubtbgviz/event_35133.jpg?width=400&height=200&v=1dd362e7c0aeff0\",\"width\":\"400w\"},{\"src\":\"/media/ubtbgviz/event_35133.jpg?width=340&height=191&v=1dd362e7c0aeff0\",\"width\":\"340w\"}]}],\"alt\":\"Signe Moldes Roadshow\"},\"differentCardImage\":false,\"entryType\":\"event\",\"ticketLink\":\"https://billetter.drkoncerthuset.dk/da/buyingflow/tickets/35133/115303/\",\"showMultipleDatesLabel\":false,\"allDatesOnSameDay\":false,\"title\":\"Signe Moldes Roadshow\",\"subTitle\":\"\",\"isSidebar\":false,\"venue\":\"VoxHall, Århus\",\"yearMonth\":\"2026-10\",\"dateTime\":\"28. oktober 2026 KL. 19.30\",\"dateHeader\":\"onsdag 28. oktober\",\"ensembleLabel\":null,\"secondaryEnsembleLabel\":null,\"ensembleIcon\":null,\"titleClass\":\"headline--xsmall\",\"themeColor\":\"#4F6FFF\",\"eventBackground\":\"#800000\",\"eventBackgroundAnimate\":\"#800000\",\"badge\":\"Udsolgt\",\"isInProgress\":false,\"ctaLabel\":\"Læs mere\",\"info\":{\"label\":\"Signe Moldes Roadshow \",\"headline\":\"Signe Moldes Roadshow \",\"description\":\"Vil du være publikum i Taastrup, Århus eller Esbjerg til en ny sæson af \\\"Signe Moldes Roadshow?\\\"\"},\"isMainEvent\":false,\"isHighlighted\":true,\"category\":[1864],\"ensembles\":[],\"orderDate\":\"2026-10-28T19:30:00\",\"allCategoriesNames\":[\"Standup\"]},{\"imageAspectRatio\":2,\"eventId\":17934,\"eventimId\":\"87439\",\"showUSPText\":false,\"url\":\"/kalender/2026/luisi-verdis-requiem/luisi-verdis-requiem/\",\"image\":{\"defaultUrl\":\"/media/2iynpapz/luisi-verdis-requiem_2550x1275px_medikon.jpg?rxy=0.4693187243831811,0.3922480620155039&width=1600&height=800&v=1dd2b13a6299960\",\"responsiveImg\":[{\"sizes\":\"400px\",\"mediaQuery\":null,\"srcSetSources\":[{\"src\":\"/media/2iynpapz/luisi-verdis-requiem_2550x1275px_medikon.jpg?rxy=0.4693187243831811,0.3922480620155039&width=400&height=200&v=1dd2b13a6299960\",\"width\":\"400w\"},{\"src\":\"/media/2iynpapz/luisi-verdis-requiem_2550x1275px_medikon.jpg?rxy=0.4693187243831811,0.3922480620155039&width=340&height=191&v=1dd2b13a6299960\",\"width\":\"340w\"}]}],\"alt\":\"Luisi & Verdis Requiem\"},\"differentCardImage\":false,\"entryType\":\"event\",\"ticketLink\":\"https://billetter.drkoncerthuset.dk/da/buyingflow/tickets/30974/87439/\",\"showMultipleDatesLabel\":false,\"allDatesOnSameDay\":false,\"title\":\"Luisi & Verdis Requiem\",\"subTitle\":\"\",\"isSidebar\":false,\"venue\":\"Koncertsalen\",\"yearMonth\":\"2026-10\",\"dateTime\":\"29. oktober 2026 KL. 19.30\",\"dateHeader\":\"torsdag 29. oktober\",\"ensembleLabel\":\"DR Symfoniorkestret\",\"secondaryEnsembleLabel\":\"DR Koncertkoret\",\"ensembleIcon\":\"/media/iaan5svq/group.svg\",\"titleClass\":\"headline--xsmall\",\"themeColor\":\"#f0005a\",\"eventBackground\":\"#000000\",\"eventBackgroundAnimate\":\"#000000\",\"badge\":null,\"isInProgress\":false,\"ctaLabel\":\"Venteliste\",\"info\":{\"label\":\"DR Symfoniorkestret | DR Koncertkoret | BBC Singers | Fabio Luisi dirigent | Saimir Pirgu tenor | Deniz Uzun sopran\",\"headline\":\"Luisi & Verdis Requiem\",\"description\":\"Et storslået og dramatisk mesterværk med gigantisk kor og stærke solister, der skal opleves live.\"},\"isMainEvent\":false,\"isHighlighted\":true,\"category\":[1450,19559],\"ensembles\":[1210,1844],\"orderDate\":\"2026-10-29T19:30:00\",\"allCategoriesNames\":[\"Klassisk\",\"U30 halv pris\"]},{\"imageAspectRatio\":2,\"eventId\":17471,\"eventimId\":\"85392\",\"showUSPText\":false,\"url\":\"/kalender/2026/freja-kirk/freja-kirk-hey-freja/\",\"image\":{\"defaultUrl\":\"/media/xg1dig42/event_30510.jpg?width=1600&height=800&v=1dc55658511daf0\",\"responsiveImg\":[{\"sizes\":\"400px\",\"mediaQuery\":null,\"srcSetSources\":[{\"src\":\"/media/xg1dig42/event_30510.jpg?width=400&height=200&v=1dc55658511daf0\",\"width\":\"400w\"},{\"src\":\"/media/xg1dig42/event_30510.jpg?width=340&height=191&v=1dc55658511daf0\",\"width\":\"340w\"}]}],\"alt\":\"Freja Kirk\"},\"differentCardImage\":false,\"entryType\":\"event\",\"ticketLink\":\"https://billetter.drkoncerthuset.dk/da/buyingflow/tickets/30510/85392/\",\"showMultipleDatesLabel\":false,\"allDatesOnSameDay\":false,\"title\":\"Freja Kirk\",\"subTitle\":\"Hey Freja\",\"isSidebar\":false,\"venue\":\"Studie 2\",\"yearMonth\":\"2026-10\",\"dateTime\":\"29. oktober 2026 KL. 20.00\",\"dateHeader\":\"torsdag 29. oktober\",\"ensembleLabel\":null,\"secondaryEnsembleLabel\":null,\"ensembleIcon\":null,\"titleClass\":\"headline--xsmall\",\"themeColor\":\"#4F6FFF\",\"eventBackground\":\"#000000\",\"eventBackgroundAnimate\":\"#000000\",\"badge\":null,\"isInProgress\":false,\"ctaLabel\":\"Få billetter tilbage\",\"info\":{\"label\":\"\",\"headline\":\"Freja Kirk\",\"description\":\"Efter et år med festivaler, anmelderroste koncerter og sit første dansksprogede album giver Freja Kirk en intim koncert i Studie 2 fyldt med soul, pop og ærlighed.\"},\"isMainEvent\":false,\"isHighlighted\":true,\"category\":[1852],\"ensembles\":[],\"orderDate\":\"2026-10-29T20:00:00\",\"allCategoriesNames\":[\"Folk/Country\"]},{\"imageAspectRatio\":2,\"eventId\":17935,\"eventimId\":\"87483\",\"showUSPText\":false,\"url\":\"/kalender/2026/luisi-verdis-requiem/luisi-verdis-requiem-1/\",\"image\":{\"defaultUrl\":\"/media/2iynpapz/luisi-verdis-requiem_2550x1275px_medikon.jpg?rxy=0.4693187243831811,0.3922480620155039&width=1600&height=800&v=1dd2b13a6299960\",\"responsiveImg\":[{\"sizes\":\"400px\",\"mediaQuery\":null,\"srcSetSources\":[{\"src\":\"/media/2iynpapz/luisi-verdis-requiem_2550x1275px_medikon.jpg?rxy=0.4693187243831811,0.3922480620155039&width=400&height=200&v=1dd2b13a6299960\",\"width\":\"400w\"},{\"src\":\"/media/2iynpapz/luisi-verdis-requiem_2550x1275px_medikon.jpg?rxy=0.4693187243831811,0.3922480620155039&width=340&height=191&v=1dd2b13a6299960\",\"width\":\"340w\"}]}],\"alt\":\"Luisi & Verdis Requiem\"},\"differentCardImage\":false,\"entryType\":\"event\",\"ticketLink\":\"https://billetter.drkoncerthuset.dk/da/buyingflow/tickets/30974/87483/\",\"showMultipleDatesLabel\":false,\"allDatesOnSameDay\":false,\"title\":\"Luisi & Verdis Requiem\",\"subTitle\":\"\",\"isSidebar\":false,\n…[afkortet]"
+  },
+  {
+   "url": "https://policy.app.cookieinformation.com/cookie-data/drkoncerthuset.dk/cabl.json",
+   "method": "GET",
+   "post": "",
+   "status": 200,
+   "ct": "application/json",
+   "body": "{\"metadata\":{\"last_updated\":\"2026-10-23T19:13:51.097Z\",\"autoblocking_enabled\":false},\"cookies\":[{\"name\":\".AspNetCore.Antiforgeryxxx\",\"domain\":\"www.drkoncerthuset.dk\",\"category\":\"cookie_cat_necessary\"},{\"name\":\"_sn_n\",\"domain\":\"www.drkoncerthuset.dk\",\"category\":\"cookie_cat_necessary\"},{\"name\":\"laravel_session\",\"domain\":\"tracking.heycommerce.dk\",\"category\":\"cookie_cat_necessary\"},{\"name\":\"XSRF-TOKEN\",\"domain\":\"bi.heyloyalty.com\",\"category\":\"cookie_cat_necessary\"},{\"name\":\"laravel_session\",\"domain\":\"bi.heyloyalty.com\",\"category\":\"cookie_cat_necessary\"},{\"name\":\"CookieInformationConsent_xxx\",\"domain\":\"policy.app.cookieinformation.com\",\"category\":\"cookie_cat_necessary\"},{\"name\":\"SNS\",\"domain\":\"www.drkoncerthuset.dk\",\"category\":\"cookie_cat_necessary\"},{\"name\":\"CookieInformationConsent\",\"domain\":\"www.drkoncerthuset.dk\",\"category\":\"cookie_cat_necessary\"},{\"name\":\"CookieInformationConfig\",\"domain\":\"policy.app.cookieinformation.com\",\"category\":\"cookie_cat_necessary\"},{\"name\":\"XSRF-TOKEN\",\"domain\":\"tracking.heycommerce.dk\",\"category\":\"cookie_cat_necessary\"},{\"name\":\"_pk_sesxxx\",\"domain\":\"www.drkoncerthuset.dk\",\"category\":\"cookie_cat_necessary\"},{\"name\":\"_pk_idxxx\",\"domain\":\"www.drkoncerthuset.dk\",\"category\":\"cookie_cat_necessary\"},{\"name\":\"UserIdentity\",\"domain\":\"www.drkoncerthuset.dk\",\"category\":\"cookie_cat_functional\"},{\"name\":\"__cf_bm\",\"domain\":\".linkedin.com\",\"category\":\"cookie_cat_functional\"},{\"name\":\"_pk_sesxxx\",\"domain\":\"www.drkoncerthuset.dk\",\"category\":\"cookie_cat_statistic\"},{\"name\":\"sp_landing\",\"domain\":\".spotify.com\",\"category\":\"cookie_cat_statistic\"},{\"name\":\"_sn_a\",\"domain\":\"www.drkoncerthuset.dk\",\"category\":\"cookie_cat_statistic\"},{\"name\":\"sp_t\",\"domain\":\".spotify.com\",\"category\":\"cookie_cat_statistic\"},{\"name\":\"_pk_idxxx\",\"domain\":\"www.drkoncerthuset.dk\",\"category\":\"cookie_cat_statistic\"},{\"name\":\"lidc\",\"domain\":\".linkedin.com\",\"category\":\"cookie_cat_marketing\"},{\"name\":\"__Secure-ROLLOUT_TOKEN\",\"domain\":\".youtube.com\",\"category\":\"cookie_cat_marketing\"},{\"name\":\"NID\",\"domain\":\".google.com\",\"category\":\"cookie_cat_marketing\"},{\"name\":\"xxxrsaSession\",\"domain\":\"www.drkoncerthuset.dk\",\"category\":\"cookie_cat_marketing\"},{\"name\":\"_sn_m\",\"domain\":\"www.drkoncerthuset.dk\",\"category\":\"cookie_cat_marketing\"},{\"name\":\"FPAU\",\"domain\":\".drkoncerthuset.dk\",\"category\":\"cookie_cat_marketing\"},{\"name\":\"li_gc\",\"domain\":\".linkedin.com\",\"category\":\"cookie_cat_marketing\"},{\"name\":\"YSC\",\"domain\":\".youtube.com\",\"category\":\"cookie_cat_marketing\"},{\"name\":\"__Secure-YNID\",\"domain\":\".youtube.com\",\"category\":\"cookie_cat_marketing\"},{\"name\":\"IDE\",\"domain\":\".doubleclick.net\",\"category\":\"cookie_cat_marketing\"},{\"name\":\"_gtmeec\",\"domain\":\".drkoncerthuset.dk\",\"category\":\"cookie_cat_marketing\"},{\"name\":\"_fbp\",\"domain\":\".drkoncerthuset.dk\",\"category\":\"cookie_cat_marketing\"},{\"name\":\"bcookie\",\"domain\":\".linkedin.com\",\"category\":\"cookie_cat_marketing\"},{\"name\":\"_dcid\",\"domain\":\".drkoncerthuset.dk\",\"category\":\"cookie_cat_marketing\"},{\"name\":\"_gcl_au\",\"domain\":\".drkoncerthuset.dk\",\"category\":\"cookie_cat_marketing\"},{\"name\":\"VISITOR_INFO1_LIVE\",\"domain\":\".youtube.com\",\"category\":\"cookie_cat_marketing\"},{\"name\":\"VISITOR_PRIVACY_METADATA\",\"domain\":\".youtube.com\",\"category\":\"cookie_cat_marketing\"},{\"name\":\"x4D1GERBWBn5JqricnjQ4xYpDMgRR3B3rsa\",\"domain\":\"www.drkoncerthuset.dk\",\"category\":\"cookie_cat_unclassified\"},{\"name\":\"euconsent-v2\",\"domain\":\"drkoncerthuset.dk\",\"category\":\"cookie_cat_necessary\"}]}"
+  },
+  {
+   "url": "https://analytics.google.com/g/collect?a=adblocker_check",
+   "method": "HEAD",
+   "post": "",
+   "status": 204,
+   "ct": "text/plain",
+   "body": ""
+  }
+ ],
+ "links": [
+  {
+   "h": "javascript:TogglePage(this, 'coiPage-3');",
+   "t": "Om cookies"
+  },
+  {
+   "h": "https://business.safety.google/privacy/",
+   "t": "Googles privatlivspolitik"
+  },
+  {
+   "h": "https://www.microsoft.com/en-us/privacy/privacystatement",
+   "t": "Microsoft, ASP.NET - Privatlivspolitik(opens in a new tab)"
+  },
+  {
+   "h": "https://sleeknote.com/privacy-policy",
+   "t": "Sleeknote - Privatlivspolitik(opens in a new tab)"
+  },
+  {
+   "h": "https://laravel.com/",
+   "t": "Laravel - Privatlivspolitik(opens in a new tab)"
+  },
+  {
+   "h": "https://laravel.com/",
+   "t": "Laravel - Privatlivspolitik(opens in a new tab)"
+  },
+  {
+   "h": "https://cookieinformation.com/cookie-and-privacy-policy/",
+   "t": "Cookie Information - Privatlivspolitik(opens in a new tab)"
+  },
+  {
+   "h": "https://sleeknote.com/privacy-policy",
+   "t": "Sleeknote - Privatlivspolitik(opens in a new tab)"
+  },
+  {
+   "h": "https://cookieinformation.com/cookie-and-privacy-policy/",
+   "t": "Cookie Information - Privatlivspolitik(opens in a new tab)"
+  },
+  {
+   "h": "https://cookieinformation.com/cookie-and-privacy-policy/",
+   "t": "Cookie Information - Privatlivspolitik(opens in a new tab)"
+  },
+  {
+   "h": "https://piwik.pro/privacy-policy",
+   "t": "Piwik PRO - Privatlivspolitik(opens in a new tab)"
+  },
+  {
+   "h": "https://piwik.pro/privacy-policy",
+   "t": "Piwik PRO - Privatlivspolitik(opens in a new tab)"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/persondata-og-cookiepolitik/",
+   "t": "DR Koncerthuset - Privatlivspolitik(opens in a new tab)"
+  },
+  {
+   "h": "https://www.cloudflare.com/privacypolicy/",
+   "t": "Cloudflare - Privatlivspolitik(opens in a new tab)"
+  },
+  {
+   "h": "https://piwik.pro/privacy-policy",
+   "t": "Piwik PRO - Privatlivspolitik(opens in a new tab)"
+  },
+  {
+   "h": "https://www.spotify.com/dk/legal/privacy-policy",
+   "t": "Spotify - Privatlivspolitik(opens in a new tab)"
+  },
+  {
+   "h": "https://sleeknote.com/privacy-policy",
+   "t": "Sleeknote - Privatlivspolitik(opens in a new tab)"
+  },
+  {
+   "h": "https://www.spotify.com/dk/legal/privacy-policy",
+   "t": "Spotify - Privatlivspolitik(opens in a new tab)"
+  },
+  {
+   "h": "https://piwik.pro/privacy-policy",
+   "t": "Piwik PRO - Privatlivspolitik(opens in a new tab)"
+  },
+  {
+   "h": "https://www.linkedin.com/legal/privacy-policy",
+   "t": "LinkedIn - Privatlivspolitik(opens in a new tab)"
+  },
+  {
+   "h": "https://policies.google.com/technologies/partner-sites?hl=en",
+   "t": "Youtube, Google - Privatlivspolitik(opens in a new tab)"
+  },
+  {
+   "h": "https://policies.google.com/technologies/partner-sites?hl=en",
+   "t": "Google - Privatlivspolitik(opens in a new tab)"
+  },
+  {
+   "h": "https://www.raptorsmartadvisor.com/privacy-policy",
+   "t": "Raptor Services - Privatlivspolitik(opens in a new tab)"
+  },
+  {
+   "h": "https://sleeknote.com/privacy-policy",
+   "t": "Sleeknote - Privatlivspolitik(opens in a new tab)"
+  },
+  {
+   "h": "https://policies.google.com/technologies/partner-sites?hl=en",
+   "t": "Google Ads - Privatlivspolitik(opens in a new tab)"
+  },
+  {
+   "h": "https://www.linkedin.com/legal/privacy-policy",
+   "t": "LinkedIn - Privatlivspolitik(opens in a new tab)"
+  },
+  {
+   "h": "https://policies.google.com/technologies/partner-sites?hl=en",
+   "t": "Youtube, Google - Privatlivspolitik(opens in a new tab)"
+  },
+  {
+   "h": "https://policies.google.com/technologies/partner-sites?hl=en",
+   "t": "Youtube, Google - Privatlivspolitik(opens in a new tab)"
+  },
+  {
+   "h": "https://policies.google.com/technologies/partner-sites?hl=en",
+   "t": "Google Marketing Platform - Privatlivspolitik(opens in a new tab)"
+  },
+  {
+   "h": "https://www.facebook.com/privacy/policy/?entry_point=data_policy_redirect&entry=0",
+   "t": "Meta Platforms, Inc - Privatlivspolitik(opens in a new tab)"
+  },
+  {
+   "h": "https://www.facebook.com/privacy/explanation",
+   "t": "Facebook - Privatlivspolitik(opens in a new tab)"
+  },
+  {
+   "h": "https://www.linkedin.com/legal/privacy-policy",
+   "t": "LinkedIn - Privatlivspolitik(opens in a new tab)"
+  },
+  {
+   "h": "https://stape.io/privacy-notice",
+   "t": "Stape - Privatlivspolitik(opens in a new tab)"
+  },
+  {
+   "h": "https://policies.google.com/technologies/partner-sites?hl=en",
+   "t": "Google - Privatlivspolitik(opens in a new tab)"
+  },
+  {
+   "h": "https://policies.google.com/technologies/partner-sites?hl=en",
+   "t": "Youtube, Google - Privatlivspolitik(opens in a new tab)"
+  },
+  {
+   "h": "https://policies.google.com/technologies/partner-sites?hl=en",
+   "t": "Youtube, Google - Privatlivspolitik(opens in a new tab)"
+  },
+  {
+   "h": "https://cookieinformation.com/",
+   "t": "Cookie Information"
+  },
+  {
+   "h": "https://tools.google.com/dlpage/gaoptout",
+   "t": "Du kan fravælge cookies fra Google Analytics her"
+  },
+  {
+   "h": "https://support.microsoft.com/en-us/help/17442/windows-internet-explorer-delete-manage-cookies#ie=ie-11",
+   "t": "Internet Explorer"
+  },
+  {
+   "h": "https://support.microsoft.com/en-us/help/4027947/microsoft-edge-delete-cookies",
+   "t": "Microsoft Edge"
+  },
+  {
+   "h": "https://support.mozilla.org/en-US/kb/delete-cookies-remove-info-websites-stored",
+   "t": "Mozilla Firefox"
+  },
+  {
+   "h": "https://support.google.com/chrome/answer/95647?hl=en",
+   "t": "Google Chrome"
+  },
+  {
+   "h": "https://www.opera.com/help/tutorials/security/cookies",
+   "t": "Opera"
+  },
+  {
+   "h": "https://support.apple.com/en-us/HT201265",
+   "t": "Safari"
+  },
+  {
+   "h": "https://www.macromedia.com/support/documentation/en/flashplayer/help/settings_manager07.html",
+   "t": "Flash cookies"
+  },
+  {
+   "h": "https://support.apple.com/en-us/HT1677",
+   "t": "Apple"
+  },
+  {
+   "h": "https://timeread.hubpages.com/hub/How-to-delete-internet-cookies-on-your-Droid-or-any-Android-device",
+   "t": "Android"
+  },
+  {
+   "h": "https://support.microsoft.com/en-us/help/11696/windows-phone-7",
+   "t": "Windows 7"
+  },
+  {
+   "h": "javascript:TogglePage(this, 'coiPage-1')",
+   "t": "Du ændrer dit samtykke ved at klikke her"
+  },
+  {
+   "h": "https://cookieinformation.com/",
+   "t": "Cookie Information"
+  },
+  {
+   "h": "https://cookieinformation.com/",
+   "t": "ved at klikke her"
+  },
+  {
+   "h": "https://cookieinformation.com/",
+   "t": "Cookie Information"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/kalender/",
+   "t": "KALENDER"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/ensembler/dr-symfoniorkestret/",
+   "t": "DR SYMFONIORKESTRET"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/ensembler/dr-pigekoret/",
+   "t": "DR PIGEKORET"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/ensembler/dr-big-band/",
+   "t": "DR BIG BAND"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/ensembler/dr-vokalensemblet/",
+   "t": "DR VOKALENSEMBLET"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/ensembler/dr-koncertkoret/",
+   "t": "DR KONCERTKORET"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/ensembler/dr-korskolen/",
+   "t": "DR KORSKOLEN"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/sider/familiekoncerter/",
+   "t": "FAMILIEKONCERTER"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/ensembler/dr-musikariet/",
+   "t": "SKOLEKONCERTER"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/ensembler/dr-musikariet/undervisningsmateriale/",
+   "t": "UNDERVISNING"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/ensembler/dr-musikariet/skolernes-sangdag/",
+   "t": "SKOLERNES SANGDAG"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/dit-besoeg/mad-og-drikke/restaurant-klang/",
+   "t": "RESTAURANT KLANG"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/dit-besoeg/mad-og-drikke/barer/",
+   "t": "BARER I DR KONCERTHUSET"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/dit-besoeg/rundvisninger/for-boern/",
+   "t": "FOR BØRN"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/dit-besoeg/rundvisninger/rundvisning-i-dr-koncerthuset-og-dr-byen/",
+   "t": "ØVRIGE RUNDVISNINGER"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/dit-besoeg/billetter-og-gavekort/billettyper-og-rabatter/",
+   "t": "BILLETTYPER OG RABATTER"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/dit-besoeg/billetter-og-gavekort/gavekort/",
+   "t": "GAVEKORT"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/dit-besoeg/praktisk-information/",
+   "t": "FØR/UNDER/EFTER DIT BESØG"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/artikler/",
+   "t": "ARTIKLER"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/om-dr-koncerthuset/lej-koncerthuset/koncerter/",
+   "t": "TIL KONCERTER"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/om-dr-koncerthuset/lej-koncerthuset/konferencer-og-events/",
+   "t": "TIL KONFERENCER OG EVENTS"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/venue/koncertsalen/",
+   "t": "KONCERTSALEN"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/venue/studie-1/",
+   "t": "STUDIE 1"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/venue/studie-2/",
+   "t": "STUDIE 2"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/venue/studie-3/",
+   "t": "STUDIE 3"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/venue/studie-4/",
+   "t": "STUDIE 4"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/om-dr-koncerthuset/kontakt/kontakt-os/",
+   "t": "KONTAKT OS"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/dit-besoeg/billetter-og-gavekort/gavekort/",
+   "t": "GAVEKORT"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/kalender/",
+   "t": "Kalender"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/",
+   "t": "Forside"
+  },
+  {
+   "h": "https://billetter.drkoncerthuset.dk/da/buyingflow/order/",
+   "t": "Kurv"
+  },
+  {
+   "h": "https://billetter.drkoncerthuset.dk/da/login/",
+   "t": "Profil"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/kalender/2026/signe-moldes-roadshow-1/signe-moldes-roadshow/",
+   "t": "VOXHALL, ÅRHUS Signe Moldes Roadshow"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/kalender/2026/signe-moldes-roadshow-1/signe-moldes-roadshow/",
+   "t": "28. OKTOBER 2026 KL. 19.30"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/kalender/2026/signe-moldes-roadshow-1/signe-moldes-roadshow/",
+   "t": "Læs mere"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/kalender/2026/luisi-verdis-requiem/luisi-verdis-requiem/",
+   "t": "KONCERTSALEN DR Symfoniorkestret & DR Koncertkoret Luisi & Verdis Requiem"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/kalender/2026/luisi-verdis-requiem/luisi-verdis-requiem/",
+   "t": "29. OKTOBER 2026 KL. 19.30"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/kalender/2026/luisi-verdis-requiem/luisi-verdis-requiem/",
+   "t": "Venteliste"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/kalender/2026/freja-kirk/freja-kirk-hey-freja/",
+   "t": "STUDIE 2 Freja Kirk Hey Freja"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/kalender/2026/freja-kirk/freja-kirk-hey-freja/",
+   "t": "29. OKTOBER 2026 KL. 20.00"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/kalender/2026/freja-kirk/freja-kirk-hey-freja/",
+   "t": "Få billetter tilbage"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/kalender/2026/luisi-verdis-requiem/luisi-verdis-requiem-1/",
+   "t": "KONCERTSALEN DR Symfoniorkestret & DR Koncertkoret Luisi & Verdis Requiem"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/kalender/2026/luisi-verdis-requiem/luisi-verdis-requiem-1/",
+   "t": "30. OKTOBER 2026 KL. 19.30"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/kalender/2026/luisi-verdis-requiem/luisi-verdis-requiem-1/",
+   "t": "Venteliste"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/kalender/",
+   "t": "VIS 200+ KONCERTER I KALENDEREN"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/kalender/2027/dr-big-band-joyce-moreno-jobim-for-evigt/",
+   "t": "DR BIG BAND & JOYCE MORENO Bossa nova møder bigband, når vokallegenden Joyce Moreno og DR Big Band hylder mesteren Antonio Carlos Jobim med brasilianske rytmer "
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/kalender/2026/genevieve-stokes/",
+   "t": "GENEVIEVE STOKES Oplev klaverbåren indiepop fyldt med dybde, store følelser og intime bekendelser, når Genevieve Stokes indtager Studie 3 til sin første koncert"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/ensembler/dr-symfoniorkestret/om-orkestret/chefdirigent/#koncerter",
+   "t": "FABIO LUISI PÅ PODIET Stjernedirigenten Fabio Luisi fejrer 10-års jubilæum som chefdirigent for DR Symfoniorkestret. Oplev ham på podiet i den nye sæson. SE KON"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/kalender/2027/kwamie-liv/",
+   "t": "KWAMIE LIV Efter fem års musikalsk pause er Kwamie Liv tilbage med singlen ’No one Owns the Sunrise’. Nu gør en af landets smukkeste og mest anmelderroste stemm"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/kalender/2027/dr-big-band-joyce-moreno-jobim-for-evigt/",
+   "t": "DR BIG BAND & JOYCE MORENO Bossa nova møder bigband, når vokallegenden Joyce Moreno og DR Big Band hylder mesteren Antonio Carlos Jobim med brasilianske rytmer "
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/kalender/2026/genevieve-stokes/",
+   "t": "GENEVIEVE STOKES Oplev klaverbåren indiepop fyldt med dybde, store følelser og intime bekendelser, når Genevieve Stokes indtager Studie 3 til sin første koncert"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/kalender/",
+   "t": "Se alle arrangementer"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/kalender/2027/mindekoncert-nicolai-munch-hansen/mindekoncert-nicolai-munch-hansen/",
+   "t": "STUDIE 2 Mindekoncert Nicolai Munch-Hansen"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/kalender/2027/mindekoncert-nicolai-munch-hansen/mindekoncert-nicolai-munch-hansen/",
+   "t": "20. FEBRUAR 2027 KL. 20.30"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/kalender/2027/mindekoncert-nicolai-munch-hansen/mindekoncert-nicolai-munch-hansen/",
+   "t": "LÆS MERE"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/kalender/2027/michael-learns-to-rock/",
+   "t": "Michael Learns To Rock MLTR | DK 2027"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/kalender/2027/michael-learns-to-rock/",
+   "t": "FLERE DATOER"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/kalender/2027/michael-learns-to-rock/",
+   "t": "LÆS MERE"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/kalender/2027/hermanos-gutierrez/",
+   "t": "Hermanos Gutiérrez"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/kalender/2027/hermanos-gutierrez/",
+   "t": "FLERE DATOER"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/kalender/2027/hermanos-gutierrez/",
+   "t": "LÆS MERE"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/kalender/2027/soeren-ulrik-thomsen-det-glemte-kvarter-x-aarhus-jazz-orchestra/soeren-ulrik-thomsen-det-glemte-kvarter-x-aarhus-jazz-orchestra/",
+   "t": "STUDIE 2 Søren Ulrik Thomsen & Det Glemte Kvarter x Aarhus Jazz Orchestra"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/kalender/2027/soeren-ulrik-thomsen-det-glemte-kvarter-x-aarhus-jazz-orchestra/soeren-ulrik-thomsen-det-glemte-kvarter-x-aarhus-jazz-orchestra/",
+   "t": "23. APRIL 2027 KL. 19.30"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/kalender/2027/soeren-ulrik-thomsen-det-glemte-kvarter-x-aarhus-jazz-orchestra/soeren-ulrik-thomsen-det-glemte-kvarter-x-aarhus-jazz-orchestra/",
+   "t": "LÆS MERE"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/kalender/2027/daniel-norgren/daniel-norgren/",
+   "t": "KONCERTSALEN Daniel Norgren"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/kalender/2027/daniel-norgren/daniel-norgren/",
+   "t": "28. APRIL 2027 KL. 20.00"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/kalender/2027/daniel-norgren/daniel-norgren/",
+   "t": "LÆS MERE"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/kalender/2027/dorthe-gerlach/dorthe-gerlach-live-2027/",
+   "t": "STUDIE 2 Dorthe Gerlach Live 2027"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/kalender/2027/dorthe-gerlach/dorthe-gerlach-live-2027/",
+   "t": "08. MAJ 2027 KL. 20.30"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/kalender/2027/dorthe-gerlach/dorthe-gerlach-live-2027/",
+   "t": "LÆS MERE"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/kalender/2027/beth-gibbons/beth-gibbons-lives-outgrown/",
+   "t": "KONCERTSALEN Beth Gibbons Lives Outgrown"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/kalender/2027/beth-gibbons/beth-gibbons-lives-outgrown/",
+   "t": "12. JULI 2027 KL. 20.00"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/kalender/2027/beth-gibbons/beth-gibbons-lives-outgrown/",
+   "t": "LÆS MERE"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/kalender/2027/alex-vargas/",
+   "t": "Alex Vargas Solo 2027"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/kalender/2027/alex-vargas/",
+   "t": "FLERE DATOER"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/kalender/2027/alex-vargas/",
+   "t": "LÆS MERE"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/ensembler/dr-symfoniorkestret/koncertvaelger/",
+   "t": "Prøv vores koncertvælger Få en god start - og find dit perfekte koncertmatch. Svar på 8 hurtige spørgsmål og se, hvilke koncerter med DR Symfoniorkestret der pa"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/sider/rabat-til-unge-under-30/",
+   "t": "50% rabat til unge Er du under 30 år? Oplev koncerter til halv pris. Billetter fra 85 kr. SE KONCERTER MED RABAT"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/ensembler/dr-symfoniorkestret/klassisk-fredag/",
+   "t": "Klassisk Fredag Skal vi redde din fredag? Kom til Klassisk Fredag og få de bedste weekendkalorier, der findes. Storslåede værker, store følelser og koncerter, d"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/dit-besoeg/mad-og-drikke/restaurant-klang/",
+   "t": "Restaurant KLANG I Restaurant KLANG spiller kvalitet, værtskab og smag sammen med husets unikke kulturoplevelser og arkitektur. Hos os kan du nyde småretter i f"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/dit-besoeg/mad-og-drikke/barer/",
+   "t": "Velkommen i baren Kom i god tid og nyd stemningen i DR Koncerthuset. Vi byder på alt fra vin og øl til cocktails, kaffe og te. LÆS MERE"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/ensembler/dr-symfoniorkestret/",
+   "t": "DR Symfoniorkestret Lyden af DR Symfoniorkestrets store, varme orkesterklang kan få taget til at løfte sig i Koncertsalen – uanset om orkestret spiller store kl"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/ensembler/dr-big-band/",
+   "t": "DR Big Band DR Big Band skaber unikke musikoplevelser i spændingsfeltet mellem klassisk bigbandjazz og vilde eksperimenter. Kom med ind i jazzens verden med DR "
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/ensembler/dr-pigekoret/",
+   "t": "DR Pigekoret DR Pigekoret er et stærkt musikalsk fællesskab. Se korets koncerter og dyk ned i video, lyd og billeder. LÆS MERE OG SE KONCERTER"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/ensembler/dr-vokalensemblet/",
+   "t": "DR Vokalensemblet I selskab med DR Vokalensemblet kan du opleve kormusik i alle former. Læs mere om korets koncerter – og vær selv med til at synge både korværk"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/ensembler/dr-koncertkoret/",
+   "t": "DR Koncertkoret Når DR Koncertkoret tager plads på scenen i Koncertsalen, kan man opleve den store, flotte klang af 74 professionelle sangstemmer. Se korets kon"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/artikler/2026/oktober/dr-big-band-og-miho-hazama-vender-tilbage-til-japan-med-anmelderrost-album/",
+   "t": "NYHEDER | ARTIKEL • DR BIG BAND DR Big Band og Miho Hazama vender tilbage til Japan med anmelderrost album"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/artikler/2026/oktober/se-billederne-dr-big-band-aabnede-saesonen-med-et-brag-af-en-danmarksturne/",
+   "t": "NYHEDER | ARTIKEL • DR BIG BAND Se billederne: DR Big Band åbnede sæsonen med et brag af en Danmarksturné"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/artikler/2026/oktober/efteraarsferien-fyldte-dr-koncerthuset-med-lyd-leg-og-nysgerrige-oerer/",
+   "t": "NYHEDER | ARTIKEL • DR MUSIKARIET Efterårsferien fyldte DR Koncerthuset med lyd, leg og nysgerrige ører"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/artikler/2026/oktober/fem-af-landets-mest-lovende-nye-artister-indtog-studie-2-til-p3s-naeste/",
+   "t": "NYHEDER | ARTIKEL Fem af landets mest lovende nye artister indtog Studie 2 til P3s Næste"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/kalender/",
+   "t": "KALENDER"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/artikler/",
+   "t": "FORTÆLLINGER"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/venue/koncertsalen/",
+   "t": "KONCERTSALEN"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/venue/studie-1/",
+   "t": "STUDIE 1"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/venue/studie-2/",
+   "t": "STUDIE 2"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/venue/studie-3/",
+   "t": "STUDIE 3"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/venue/studie-4/",
+   "t": "STUDIE 4"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/nyheder/",
+   "t": "TILMELD NYHEDSBREV"
+  },
+  {
+   "h": "mailto:drkoncerthuset@dr.dk",
+   "t": "drkoncerthuset@dr.dk"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/om-dr-koncerthuset/kontakt/kontakt-os/",
+   "t": "Se Billetkontorets åbningstider"
+  },
+  {
+   "h": "https://www.findsmiley.dk/app/575074",
+   "t": "Se DR Koncerthusets smiley-rapporter"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/persondata-og-cookiepolitik/",
+   "t": "Læs om persondata- og cookiepolitik"
+  },
+  {
+   "h": "https://www.drkoncerthuset.dk/salgs-og-leveringsbetingelser/",
+   "t": "Læs om salgs- og leveringsbetingelser"
+  }
+ ]
+}

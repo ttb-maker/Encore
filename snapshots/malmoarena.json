@@ -1,0 +1,1122 @@
+{
+ "url": "https://www.malmoarena.com/evenemang",
+ "status": 200,
+ "err": "",
+ "finalUrl": "https://www.malmoarena.com/evenemang",
+ "calls": [
+  {
+   "url": "https://app-eu1.hubspot.com/content-tools-menu/api/v1/tools-menu/has-permission-json?portalId=143366277",
+   "method": "GET",
+   "post": "",
+   "status": 204,
+   "ct": "",
+   "body": ""
+  },
+  {
+   "url": "https://forms-eu1.hscollectedforms.net/collected-forms/v1/config/json?portalId=143366277&utk=",
+   "method": "GET",
+   "post": "",
+   "status": 200,
+   "ct": "application/json;charset=utf-8",
+   "body": "{\"portalId\":143366277,\"submissionsApiDomain\":\"forms.hubspot.com\",\"reportScraperTest\":false,\"formCaptureEnabled\":true,\"token\":-1338805227}"
+  },
+  {
+   "url": "https://cta-eu1.hubspot.com/web-interactives/public/v1/embed/combinedConfigs?portalId=143366277&currentUrl=https%3A%2F%2Fwww.malmoarena.com%2Fevenemang&contentId=103542197721&isMobile=true",
+   "method": "GET",
+   "post": "",
+   "status": 200,
+   "ct": "application/json;charset=utf-8",
+   "body": "{\"sortedAudienceConfigs\":[],\"requestedConfigs\":[],\"gates\":[]}"
+  },
+  {
+   "url": "https://app.ragge.ai/api/v1/external_chatbot/get_token_and_settings",
+   "method": "POST",
+   "post": "{\"origin_url\":\"https://www.malmoarena.com\",\"locale\":\"sv\"}",
+   "status": 200,
+   "ct": "application/json",
+   "body": "{\"token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb25maWdfaWQiOiJmM2NjZDZkNC1mNWVlLTRhZTktODE3OC1iODBjMTI5ZjhjNTMiLCJ1c2VyX2lkIjoiMTUzNDRhNzMtYjc1Mi00ODQwLTk3YjgtYjY2YzAzNDA1OTU4IiwidW5pdF9pZCI6ImEzNDFhOTJjLTdhZDktNDUzNS04YzUzLWI3MjUxNTBiZTcwMyIsIm9yZ19pZCI6ImYwNWNiNzAxLTliMDEtNDk3Yi1iZDFkLTllNWUyNjI4NzNjZCIsImNvbW1vbl91bml0X2lkIjoiNThjZDU3OWMtNzZlNi00OGViLWFkZDctNzZlOWRkNGJlOTBkIiwiZXhwIjoxNzkzMDk1MzUxfQ.1D56HjITUWXKYKJkeVyuGf6fWAZP3zcggIerJy2jXDs\",\"settings\":{\"height\":null,\"width\":null,\"theme\":\"#0d0d0d\",\"color\":null,\"is_activated\":true,\"assistant_name\":\"AI Support\",\"assistant_logo_url\":\"icon:smart-toy\",\"valid_domains\":[\"malmoarena.com\",\"https://app.ragge.ai\"],\"background_preview_url\":\"https://www.malmoarena.com\",\"welcome_message\":\"Hej! Hur kan jag hjälpa dig idag?\",\"privacy_policy_link\":\"https://www.malmoarena.com/om-malmo-arena/vara-policies/integritetspolicy\",\"privacy_policy_explanation\":\"\",\"button_type\":\"Rektangel\",\"button_text\":\"Chatta!\",\"example_questions\":[\"Vilka spelningar har ni i höst?\",\"Var kan jag parkera bilen?\",\"Hur bokar jag bord i restaurangen?\"],\"button_animation_delay\":null,\"bubble_message\":null,\"bubble_delay\":null,\"widget_config_desktop\":{\"corner\":\"bottom-right\",\"offset_x\":20,\"offset_y\":20,\"button_type\":null,\"theme\":null,\"button_color\":\"#bd0a2e\",\"width\":null,\"height\":null,\"launcher_style\":null},\"widget_config_mobile\":{\"corner\":\"bottom-right\",\"offset_x\":20,\"offset_y\":20,\"button_type\":null,\"theme\":null,\"button_color\":null,\"width\":null,\"height\":null,\"launcher_style\":null},\"launcher_style\":null,\"launcher_icon_source\":null,\"launcher_glow\":null,\"launcher_size\":null,\"launcher_resolved_glow_shadow\":null,\"launcher_resolved_hover_color\":null,\"launcher_resolved_icon_fg\":null,\"home_contact_card_enabled\":false,\"home_contact_card_label\":null,\"home_contact_card_target_type\":null,\"home_contact_card_target_value\":null,\"home_contact_card_email\":null,\"home_contact_card_phone\":null,\"home_contact_card_website\":null},\"widget_use_chat_run\":true}"
+  },
+  {
+   "url": "https://js-eu1.hs-banner.com/v2/activity/view",
+   "method": "POST",
+   "post": "{\"bannerGeoLocation\":\"\",\"bannerPolicyId\":100199316,\"bannerType\":\"OPT_IN\",\"domain\":\"www.malmoarena.com\",\"portalId\":143366277,\"contentId\":103542197721}",
+   "status": 204,
+   "ct": "",
+   "body": ""
+  },
+  {
+   "url": "https://app.ragge.ai/api/v1/client-traces",
+   "method": "POST",
+   "post": "{\"resourceSpans\":[{\"resource\":{\"attributes\":[{\"key\":\"browser.language\",\"value\":{\"stringValue\":\"da-DK\"}},{\"key\":\"service.name\",\"value\":{\"stringValue\":\"ragge-frontend-v2\"}},{\"key\":\"service.version\",\"value\":{\"stringValue\":\"7d9a7fd70\"}},{\"key\":\"telemetry.sdk.language\",\"value\":{\"stringValue\":\"webjs\"}},{\"key\":\"telemetry.sdk.name\",\"value\":{\"stringValue\":\"logfire-browser\"}},{\"key\":\"deployment.environment.name\",\"value\":{\"stringValue\":\"prod\"}},{\"key\":\"telemetry.sdk.version\",\"value\":{\"stringValue\":\"0.25.0\"}},{\"key\":\"browser.brands\",\"value\":{\"arrayValue\":{\"values\":[{\"stringValue\":\"Chromium 130\"},{\"stringValue\":\"HeadlessChrome 130\"},{\"stringValue\":\"Not?A_Brand 99\"}]}}},{\"key\":\"browser.mobile\",\"value\":{\"boolValue\":false}},{\"key\":\"browser.platform\",\"value\":{\"stringValue\":\"iOS\"}}],\"droppedAttributesCount\":0},\"scopeSpans\":[{\"scope\":{\"name\":\"logfire\"},\"spans\":[{\"traceId\":\"01a17c98cdbcd9429e4c836ca28ab03f\",\"spanId\":\"66db23d3ad614ba5\",\"name\":\"logfire-browser configured\",\"kind\":1,\"startTimeUnixNano\":\"1793091751356000000\",\"endTimeUnixNano\":\"1793091751356300000\",\"attributes\":[{\"key\":\"environment\",\"value\":{\"stringValue\":\"prod\"}},{\"key\":\"logfire.msg_template\",\"value\":{\"stringValue\":\"logfire-browser configured\"}},{\"key\":\"logfire.msg\",\"value\":{\"stringValue\":\"logfire-browser configured\"}},{\"key\":\"logfire.level_num\",\"value\":{\"intValue\":9}},{\"key\":\"logfire.tags\",\"value\":{\"arrayValue\":{\"values\":[]}}},{\"key\":\"logfire.span_type\",\"value\":{\"stringValue\":\"log\"}}],\"droppedAttributesCount\":0,\"events\":[],\"droppedEventsCount\":0,\"status\":{\"code\":0},\"links\":[],\"droppedLinksCount\":0,\"flags\":257}]}]}]}",
+   "status": 200,
+   "ct": "application/json",
+   "body": "{}"
+  }
+ ],
+ "links": [
+  {
+   "h": "https://www.malmoarena.com/evenemang",
+   "t": "Evenemang"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang",
+   "t": "Evenemang"
+  },
+  {
+   "h": "https://www.malmoarena.com/moten-event?hsLang=sv",
+   "t": "Möten & Event"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang/biljetter?hsLang=sv",
+   "t": "Biljetter"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang/arenalayout?hsLang=sv",
+   "t": "Arenalayout"
+  },
+  {
+   "h": "https://www.malmoarena.com/mat-dryck?hsLang=sv",
+   "t": "Mat & Dryck"
+  },
+  {
+   "h": "https://www.malmoarena.com/mat-dryck?hsLang=sv",
+   "t": "Mat & Dryck"
+  },
+  {
+   "h": "https://www.malmoarena.com/mat-dryck/lunch?hsLang=sv",
+   "t": "Lunch"
+  },
+  {
+   "h": "https://malmoarenahotel.com/mat-och-dryck/nilssons-restaurang-bar/",
+   "t": "Nilssons @ Malmö Arena Hotel Opens a new window"
+  },
+  {
+   "h": "https://malmoarenahotel.com/mat-och-dryck/skybar/",
+   "t": "Skybar @ Malmö Arena Hotel Opens a new window"
+  },
+  {
+   "h": "https://www.malmoarena.com/mat-dryck-1?hsLang=sv",
+   "t": "Evenemangsmenyer"
+  },
+  {
+   "h": "https://www.malmoarena.com/mat-dryck/hockeymenyer?hsLang=sv",
+   "t": "Hockeysäsongen 26/27"
+  },
+  {
+   "h": "https://www.malmoarena.com/mat-dryck/barer-malmo-arena?hsLang=sv",
+   "t": "Barer Malmö Arena"
+  },
+  {
+   "h": "https://www.malmoarena.com/mat-dryck/kiosk-fast-food?hsLang=sv",
+   "t": "Kiosk & fast food"
+  },
+  {
+   "h": "https://www.malmoarena.com/mat-dryck/vara-restauranger?hsLang=sv",
+   "t": "Våra restauranger"
+  },
+  {
+   "h": "https://www.malmoarena.com/om-malmo-arena?hsLang=sv",
+   "t": "Om Malmö Arena"
+  },
+  {
+   "h": "https://www.malmoarena.com/om-malmo-arena?hsLang=sv",
+   "t": "Om Malmö Arena"
+  },
+  {
+   "h": "https://www.malmoarena.com/om-malmo-arena/fakta?hsLang=sv",
+   "t": "Fakta"
+  },
+  {
+   "h": "https://www.malmoarena.com/om-malmo-arena/fragor-svar?hsLang=sv",
+   "t": "Frågor & svar"
+  },
+  {
+   "h": "https://www.malmoarena.com/om-malmo-arena/kontakta-oss?hsLang=sv",
+   "t": "Kontakta oss"
+  },
+  {
+   "h": "https://www.malmoarena.com/om-malmo-arena/vara-policies?hsLang=sv",
+   "t": "Våra policies"
+  },
+  {
+   "h": "https://malmoarena.attract.reachmee.com/",
+   "t": "Karriär"
+  },
+  {
+   "h": "https://www.malmoarena.com/om-malmo-arena/vara-policies/hallbarhetspolicy?hsLang=sv",
+   "t": "Hållbarhet"
+  },
+  {
+   "h": "https://www.malmoarena.com/hitta-hit?hsLang=sv",
+   "t": "Hitta hit"
+  },
+  {
+   "h": "https://www.malmoarena.com/hitta-hit?hsLang=sv",
+   "t": "Hitta hit"
+  },
+  {
+   "h": "https://www.malmoarena.com/hitta-hit/entreer?hsLang=sv",
+   "t": "Entréer"
+  },
+  {
+   "h": "https://www.malmoarena.com/hitta-hit/parkeringsmojligheter?hsLang=sv",
+   "t": "Parkeringsmöjligheter"
+  },
+  {
+   "h": "https://www.malmoarena.com/premium?hsLang=sv",
+   "t": "Premium"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang",
+   "t": "SV"
+  },
+  {
+   "h": "https://www.malmoarena.com/en/events",
+   "t": "EN"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang",
+   "t": "NIMBLY CHILD"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang#main-content",
+   "t": "Skip to main content"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang",
+   "t": "EVENEMANG"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang",
+   "t": "Evenemang"
+  },
+  {
+   "h": "https://www.malmoarena.com/moten-event?hsLang=sv",
+   "t": "Möten & Event"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang/biljetter?hsLang=sv",
+   "t": "Biljetter"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang/arenalayout?hsLang=sv",
+   "t": "Arenalayout"
+  },
+  {
+   "h": "https://www.malmoarena.com/mat-dryck?hsLang=sv",
+   "t": "MAT & DRYCK"
+  },
+  {
+   "h": "https://www.malmoarena.com/mat-dryck?hsLang=sv",
+   "t": "Mat & Dryck"
+  },
+  {
+   "h": "https://www.malmoarena.com/mat-dryck/lunch?hsLang=sv",
+   "t": "Lunch"
+  },
+  {
+   "h": "https://malmoarenahotel.com/mat-och-dryck/nilssons-restaurang-bar/",
+   "t": "Nilssons @ Malmö Arena Hotel Opens a new window"
+  },
+  {
+   "h": "https://malmoarenahotel.com/mat-och-dryck/skybar/",
+   "t": "Skybar @ Malmö Arena Hotel Opens a new window"
+  },
+  {
+   "h": "https://www.malmoarena.com/mat-dryck-1?hsLang=sv",
+   "t": "Evenemangsmenyer"
+  },
+  {
+   "h": "https://www.malmoarena.com/mat-dryck/hockeymenyer?hsLang=sv",
+   "t": "Hockeysäsongen 26/27"
+  },
+  {
+   "h": "https://www.malmoarena.com/mat-dryck/barer-malmo-arena?hsLang=sv",
+   "t": "Barer Malmö Arena"
+  },
+  {
+   "h": "https://www.malmoarena.com/mat-dryck/kiosk-fast-food?hsLang=sv",
+   "t": "Kiosk & fast food"
+  },
+  {
+   "h": "https://www.malmoarena.com/mat-dryck/vara-restauranger?hsLang=sv",
+   "t": "Våra restauranger"
+  },
+  {
+   "h": "https://www.malmoarena.com/om-malmo-arena?hsLang=sv",
+   "t": "OM MALMÖ ARENA"
+  },
+  {
+   "h": "https://www.malmoarena.com/om-malmo-arena?hsLang=sv",
+   "t": "Om Malmö Arena"
+  },
+  {
+   "h": "https://www.malmoarena.com/om-malmo-arena/fakta?hsLang=sv",
+   "t": "Fakta"
+  },
+  {
+   "h": "https://www.malmoarena.com/om-malmo-arena/fragor-svar?hsLang=sv",
+   "t": "Frågor & svar"
+  },
+  {
+   "h": "https://www.malmoarena.com/om-malmo-arena/kontakta-oss?hsLang=sv",
+   "t": "Kontakta oss"
+  },
+  {
+   "h": "https://www.malmoarena.com/om-malmo-arena/vara-policies?hsLang=sv",
+   "t": "Våra policies"
+  },
+  {
+   "h": "https://malmoarena.attract.reachmee.com/",
+   "t": "Karriär"
+  },
+  {
+   "h": "https://www.malmoarena.com/om-malmo-arena/vara-policies/hallbarhetspolicy?hsLang=sv",
+   "t": "Hållbarhet"
+  },
+  {
+   "h": "https://www.malmoarena.com/hitta-hit?hsLang=sv",
+   "t": "HITTA HIT"
+  },
+  {
+   "h": "https://www.malmoarena.com/hitta-hit?hsLang=sv",
+   "t": "Hitta hit"
+  },
+  {
+   "h": "https://www.malmoarena.com/hitta-hit/entreer?hsLang=sv",
+   "t": "Entréer"
+  },
+  {
+   "h": "https://www.malmoarena.com/hitta-hit/parkeringsmojligheter?hsLang=sv",
+   "t": "Parkeringsmöjligheter"
+  },
+  {
+   "h": "https://www.malmoarena.com/premium?hsLang=sv",
+   "t": "PREMIUM"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang",
+   "t": "Svenska"
+  },
+  {
+   "h": "https://www.malmoarena.com/en/events",
+   "t": "English"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?hsLang=sv",
+   "t": "ALLA"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=1&hsLang=sv",
+   "t": "SPORT"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=2&hsLang=sv",
+   "t": "MUSIK & SHOW"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=3&hsLang=sv",
+   "t": "REDHAWKS"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=4&hsLang=sv",
+   "t": "ÖVRIGT"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=3&hsLang=sv",
+   "t": "Redhawks"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=3&hsLang=sv",
+   "t": "REDHAWKS"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang/redhawks-link%C3%B6pinghc_1_sve?hsLang=sv",
+   "t": "INFO"
+  },
+  {
+   "h": "https://redhawks.tmtickets.se/Events",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=2&hsLang=sv",
+   "t": "Musik & Show"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=2&hsLang=sv",
+   "t": "MUSIK & SHOW"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang/benjamin-ingrosso-what-happens-next?hsLang=sv",
+   "t": "INFO"
+  },
+  {
+   "h": "https://www.ticketmaster.se/event/benjamin-ingrosso-what-happens-next--biljetter/83862981?language=sv-se",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=3&hsLang=sv",
+   "t": "Redhawks"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=3&hsLang=sv",
+   "t": "REDHAWKS"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang/redhawks-hv71_1_sve?hsLang=sv",
+   "t": "INFO"
+  },
+  {
+   "h": "https://redhawks.tmtickets.se/Events",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=2&hsLang=sv",
+   "t": "Musik & Show"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=2&hsLang=sv",
+   "t": "MUSIK & SHOW"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang/lars-winnerb%C3%A4ck_sv?hsLang=sv",
+   "t": "INFO"
+  },
+  {
+   "h": "https://www.ticketmaster.se/venueartist/1625/97973",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=2&hsLang=sv",
+   "t": "Musik & Show"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=2&hsLang=sv",
+   "t": "MUSIK & SHOW"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang/bo-kaspers-ork?hsLang=sv",
+   "t": "INFO"
+  },
+  {
+   "h": "https://www.ticketmaster.se/event/8950627",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=3&hsLang=sv",
+   "t": "Redhawks"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=3&hsLang=sv",
+   "t": "REDHAWKS"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang/redhawks-v%C3%A4xj%C3%B6-lakers_1_sve?hsLang=sv",
+   "t": "INFO"
+  },
+  {
+   "h": "https://redhawks.tmtickets.se/Events",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=3&hsLang=sv",
+   "t": "Redhawks"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=3&hsLang=sv",
+   "t": "REDHAWKS"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang/redhawks-r%C3%B6gle-bk_1_sve?hsLang=sv",
+   "t": "INFO"
+  },
+  {
+   "h": "https://redhawks.tmtickets.se/Events",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=2&hsLang=sv",
+   "t": "Musik & Show"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=2&hsLang=sv",
+   "t": "MUSIK & SHOW"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang/timbuktu?hsLang=sv",
+   "t": "INFO"
+  },
+  {
+   "h": "https://www.ticketmaster.se/artist/timbuktu-biljetter/907460?venueId=1625",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=3&hsLang=sv",
+   "t": "Redhawks"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=3&hsLang=sv",
+   "t": "REDHAWKS"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang/redhawks-djurg%C3%A5rdens-if_1_sv?hsLang=sv",
+   "t": "INFO"
+  },
+  {
+   "h": "https://redhawks.tmtickets.se/Events",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=3&hsLang=sv",
+   "t": "Redhawks"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=3&hsLang=sv",
+   "t": "REDHAWKS"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang/redhawks-bryn%C3%A4s-if_2_sv?hsLang=sv",
+   "t": "INFO"
+  },
+  {
+   "h": "https://redhawks.tmtickets.se/Events",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=2&hsLang=sv",
+   "t": "Musik & Show"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=2&hsLang=sv",
+   "t": "MUSIK & SHOW"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang/tomten-ar-far?hsLang=sv",
+   "t": "INFO"
+  },
+  {
+   "h": "https://www.ticketmaster.se/venueartist/1625/1260563",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=2&hsLang=sv",
+   "t": "Musik & Show"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=2&hsLang=sv",
+   "t": "MUSIK & SHOW"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang/tomten-ar-far-0-2?hsLang=sv",
+   "t": "INFO"
+  },
+  {
+   "h": "https://www.ticketmaster.se/venueartist/1625/1260563",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=2&hsLang=sv",
+   "t": "Musik & Show"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=2&hsLang=sv",
+   "t": "MUSIK & SHOW"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang/tomten-ar-far-0?hsLang=sv",
+   "t": "INFO"
+  },
+  {
+   "h": "https://www.ticketmaster.se/venueartist/1625/1260563",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=2&hsLang=sv",
+   "t": "Musik & Show"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=2&hsLang=sv",
+   "t": "MUSIK & SHOW"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang/tomten-ar-far-01?hsLang=sv",
+   "t": "INFO"
+  },
+  {
+   "h": "https://www.ticketmaster.se/venueartist/1625/1260563",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=3&hsLang=sv",
+   "t": "Redhawks"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=3&hsLang=sv",
+   "t": "REDHAWKS"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang/redhawks-skellefte%C3%A5-aik_1_sv?hsLang=sv",
+   "t": "INFO"
+  },
+  {
+   "h": "https://redhawks.tmtickets.se/Events",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=3&hsLang=sv",
+   "t": "Redhawks"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=3&hsLang=sv",
+   "t": "REDHAWKS"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang/redhawks-link%C3%B6ping-hc_2_sv?hsLang=sv",
+   "t": "INFO"
+  },
+  {
+   "h": "https://redhawks.tmtickets.se/Events",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=3&hsLang=sv",
+   "t": "Redhawks"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=3&hsLang=sv",
+   "t": "REDHAWKS"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang/redhawks-v%C3%A4xj%C3%B6-lakers_2_sv?hsLang=sv",
+   "t": "INFO"
+  },
+  {
+   "h": "https://redhawks.tmtickets.se/Events",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=3&hsLang=sv",
+   "t": "Redhawks"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=3&hsLang=sv",
+   "t": "REDHAWKS"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang/redhawks-timr%C3%A5-ik_2_sv?hsLang=sv",
+   "t": "INFO"
+  },
+  {
+   "h": "https://redhawks.tmtickets.se/Events",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=3&hsLang=sv",
+   "t": "Redhawks"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=3&hsLang=sv",
+   "t": "REDHAWKS"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang/redhawks-lule%C3%A5-hockey_1_sv?hsLang=sv",
+   "t": "INFO"
+  },
+  {
+   "h": "https://redhawks.tmtickets.se/Events",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=3&hsLang=sv",
+   "t": "Redhawks"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=3&hsLang=sv",
+   "t": "REDHAWKS"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang/redhawks-hv71_2_sv?hsLang=sv",
+   "t": "INFO"
+  },
+  {
+   "h": "https://redhawks.tmtickets.se/Events",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=3&hsLang=sv",
+   "t": "Redhawks"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=3&hsLang=sv",
+   "t": "REDHAWKS"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang/redhawks-bj%C3%B6rkl%C3%B6ven_1_sv?hsLang=sv",
+   "t": "INFO"
+  },
+  {
+   "h": "https://redhawks.tmtickets.se/Events",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=3&hsLang=sv",
+   "t": "Redhawks"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=3&hsLang=sv",
+   "t": "REDHAWKS"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang/redhawks-f%C3%A4rjestad-bk_1_sv?hsLang=sv",
+   "t": "INFO"
+  },
+  {
+   "h": "https://redhawks.tmtickets.se/Events",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=2&hsLang=sv",
+   "t": "Musik & Show"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=2&hsLang=sv",
+   "t": "MUSIK & SHOW"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang/disney-on-ice_sv?hsLang=sv",
+   "t": "INFO"
+  },
+  {
+   "h": "https://www.ticketmaster.se/artist/3270?venueId=1625",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=2&hsLang=sv",
+   "t": "Musik & Show"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=2&hsLang=sv",
+   "t": "MUSIK & SHOW"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang/disney-on-ice_sv-1?hsLang=sv",
+   "t": "INFO"
+  },
+  {
+   "h": "https://www.ticketmaster.se/artist/3270?venueId=1625",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=2&hsLang=sv",
+   "t": "Musik & Show"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=2&hsLang=sv",
+   "t": "MUSIK & SHOW"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang/disney-on-ice_sv-2?hsLang=sv",
+   "t": "INFO"
+  },
+  {
+   "h": "https://www.ticketmaster.se/artist/3270?venueId=1625",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=2&hsLang=sv",
+   "t": "Musik & Show"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=2&hsLang=sv",
+   "t": "MUSIK & SHOW"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang/disney-on-ice_sv-2-0?hsLang=sv",
+   "t": "INFO"
+  },
+  {
+   "h": "https://www.ticketmaster.se/artist/3270?venueId=1625",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=2&hsLang=sv",
+   "t": "Musik & Show"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=2&hsLang=sv",
+   "t": "MUSIK & SHOW"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang/disney-on-ice_sv-2-0-0?hsLang=sv",
+   "t": "INFO"
+  },
+  {
+   "h": "https://www.ticketmaster.se/artist/3270?venueId=1625",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=2&hsLang=sv",
+   "t": "Musik & Show"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=2&hsLang=sv",
+   "t": "MUSIK & SHOW"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang/disney-on-ice_eng-2-0?hsLang=sv",
+   "t": "INFO"
+  },
+  {
+   "h": "https://www.ticketmaster.se/artist/3270?venueId=1625",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=2&hsLang=sv",
+   "t": "Musik & Show"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=2&hsLang=sv",
+   "t": "MUSIK & SHOW"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang/disney-on-ice_sv-2-0-1-0?hsLang=sv",
+   "t": "INFO"
+  },
+  {
+   "h": "https://www.ticketmaster.se/artist/3270?venueId=1625",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=3&hsLang=sv",
+   "t": "Redhawks"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=3&hsLang=sv",
+   "t": "REDHAWKS"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang/redhawks-skellefte%C3%A5-aik_2_sv?hsLang=sv",
+   "t": "INFO"
+  },
+  {
+   "h": "https://redhawks.tmtickets.se/Events",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=2&hsLang=sv",
+   "t": "Musik & Show"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=2&hsLang=sv",
+   "t": "MUSIK & SHOW"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang/rock-sensation-the-contract?hsLang=sv",
+   "t": "INFO"
+  },
+  {
+   "h": "https://www.ticketmaster.se/artist/rock-sensation-biljetter/1285483?venueId=1625&language=sv-se",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=3&hsLang=sv",
+   "t": "Redhawks"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=3&hsLang=sv",
+   "t": "REDHAWKS"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang/redhawks-r%C3%B6gle-bk_2_sv?hsLang=sv",
+   "t": "INFO"
+  },
+  {
+   "h": "https://redhawks.tmtickets.se/Events",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=2&hsLang=sv",
+   "t": "Musik & Show"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=2&hsLang=sv",
+   "t": "MUSIK & SHOW"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang/night-of-famous-musicals_sv?hsLang=sv",
+   "t": "INFO"
+  },
+  {
+   "h": "https://www.ticketmaster.se/event/1944342287",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=2&hsLang=sv",
+   "t": "Musik & Show"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=2&hsLang=sv",
+   "t": "MUSIK & SHOW"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang/melodifestivalen-2027?hsLang=sv",
+   "t": "INFO"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=2&hsLang=sv",
+   "t": "Musik & Show"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=2&hsLang=sv",
+   "t": "MUSIK & SHOW"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang/melodifestivalen-2027-0?hsLang=sv",
+   "t": "INFO"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=2&hsLang=sv",
+   "t": "Musik & Show"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=2&hsLang=sv",
+   "t": "MUSIK & SHOW"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang/melodifestivalen-2027-0-0?hsLang=sv",
+   "t": "INFO"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=3&hsLang=sv",
+   "t": "Redhawks"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=3&hsLang=sv",
+   "t": "REDHAWKS"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang/redhawks-%C3%B6rebro_2_sve?hsLang=sv",
+   "t": "INFO"
+  },
+  {
+   "h": "https://redhawks.tmtickets.se/Events",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=3&hsLang=sv",
+   "t": "Redhawks"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=3&hsLang=sv",
+   "t": "REDHAWKS"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang/redhawks-fr%C3%B6lunda_2_sve?hsLang=sv",
+   "t": "INFO"
+  },
+  {
+   "h": "https://redhawks.tmtickets.se/Events",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=3&hsLang=sv",
+   "t": "Redhawks"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=3&hsLang=sv",
+   "t": "REDHAWKS"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang/redhawks-lule%C3%A5-hockey_2_sv?hsLang=sv",
+   "t": "INFO"
+  },
+  {
+   "h": "https://redhawks.tmtickets.se/Events",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=3&hsLang=sv",
+   "t": "Redhawks"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=3&hsLang=sv",
+   "t": "REDHAWKS"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang/redhawks-f%C3%A4rjestad-bk_2_sv?hsLang=sv",
+   "t": "INFO"
+  },
+  {
+   "h": "https://redhawks.tmtickets.se/Events",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=3&hsLang=sv",
+   "t": "Redhawks"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=3&hsLang=sv",
+   "t": "REDHAWKS"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang/redhawks-djurg%C3%A5rdens-if_2_sv?hsLang=sv",
+   "t": "INFO"
+  },
+  {
+   "h": "https://redhawks.tmtickets.se/Events",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=3&hsLang=sv",
+   "t": "Redhawks"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=3&hsLang=sv",
+   "t": "REDHAWKS"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang/redhawks-bj%C3%B6rkl%C3%B6ven_2_sv?hsLang=sv",
+   "t": "INFO"
+  },
+  {
+   "h": "https://redhawks.tmtickets.se/Events",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=2&hsLang=sv",
+   "t": "Musik & Show"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=2&hsLang=sv",
+   "t": "MUSIK & SHOW"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang/bryan-adams-roll-with-the-punches?hsLang=sv",
+   "t": "INFO"
+  },
+  {
+   "h": "https://www.ticketmaster.se/artist/1629?venueId=1625&language=sv-se",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=2&hsLang=sv",
+   "t": "Musik & Show"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang?ecategories=2&hsLang=sv",
+   "t": "MUSIK & SHOW"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang/brit-floyd?hsLang=sv",
+   "t": "INFO"
+  },
+  {
+   "h": "https://www.ticketmaster.se/event/1255113262",
+   "t": "KÖP BILJETT"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang-v1",
+   "t": "Evenemang"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang/biljetter",
+   "t": "Biljetter"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang/arenalayout",
+   "t": "Arenalayout"
+  },
+  {
+   "h": "https://www.malmoarena.com/evenemang/premium",
+   "t": "Premium"
+  },
+  {
+   "h": "https://www.malmoarena.com/mat-dryck/lunch",
+   "t": "Lunch"
+  },
+  {
+   "h": "https://www.malmoarena.com/mat-dryck/hockeymenyer",
+   "t": "Hockeysäsongen"
+  },
+  {
+   "h": "https://www.malmoarena.com/mat-dryck/vara-restauranger",
+   "t": "Våra restauranger"
+  },
+  {
+   "h": "https://malmoarenahotel.com/",
+   "t": "Malmö Arena Hotel"
+  },
+  {
+   "h": "https://www.malmoarena.com/hitta-hit",
+   "t": "Hitta hit"
+  },
+  {
+   "h": "https://www.malmoarena.com/hitta-hit/entreer",
+   "t": "Entréer"
+  },
+  {
+   "h": "https://www.malmoarena.com/hitta-hit/parkeringsmojligheter",
+   "t": "Parkeringsmöjligheter"
+  },
+  {
+   "h": "https://www.malmoarena.com/om-malmo-arena/fakta",
+   "t": "Fakta"
+  },
+  {
+   "h": "https://www.malmoarena.com/om-malmo-arena/fragor-svar",
+   "t": "Frågor & svar"
+  },
+  {
+   "h": "https://www.malmoarena.com/om-malmo-arena/kontakta-oss",
+   "t": "Kontakta oss"
+  },
+  {
+   "h": "https://www.malmoarena.com/om-malmo-arena/vara-policies",
+   "t": "Våra policies"
+  },
+  {
+   "h": "https://malmoarena.attract.reachmee.com/",
+   "t": "Karriär"
+  },
+  {
+   "h": "https://se.linkedin.com/company/malm-arena",
+   "t": "LinkedIn"
+  },
+  {
+   "h": "https://www.instagram.com/malmoarena/",
+   "t": "Instagram"
+  },
+  {
+   "h": "tel:0406420400",
+   "t": "040-642 04 00"
+  },
+  {
+   "h": "tel:0406420444",
+   "t": "040-642 04 44"
+  },
+  {
+   "h": "tel:0775780000",
+   "t": "077-578 00 00"
+  },
+  {
+   "h": "mailto:info@malmoarena.com",
+   "t": "info@malmoarena.com"
+  },
+  {
+   "h": "https://143366277.hs-sites-eu1.com/om-malmo-arena/vara-policies/cookies-policy?hsLang=sv",
+   "t": "Cookies"
+  }
+ ]
+}

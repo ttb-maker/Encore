@@ -1,0 +1,650 @@
+<!DOCTYPE html><html lang="da" class="w3_user w3_start w3_js jsload" data-css="0" data-css-loaded="0"><head><script async="" src="https://scripts.clarity.ms/0.8.72/clarity.js"></script><script type="text/javascript" src="https://cncptx.com/prebid_builds/34073c78-364c-5538-ad1b-cabbe222f0f3.js" async=""></script><script type="text/javascript" src="https://cdn.adnuntius.com/adn.js"></script><script type="text/javascript" src="https://securepubads.g.doubleclick.net/tag/js/gpt.js" async=""></script><script async="" src="https://www.clarity.ms/tag/egqt4hd9el"></script><script type="text/javascript" src="//pm-widget.taboola.com/mediagroupdk-network/load.js"></script>
+
+
+    
+    <script type="text/javascript" async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-N4KJBX&amp;gtg_health=1"></script><script async="" src="https://assets.mailerlite.com/js/universal.js"></script><script async="" src="//cdn.taboola.com/libtrc/mediagroupdk-network/loader.js" id="tb_loader_script"></script><script async="" src="https://stp.gaffa.dk/bwykpkkgeudcl.js?bjzed=&amp;page=3"></script><script>var w3_lazy_load_by_px = 200, blank_image_webp_url = "https://d2pk8plgu825qi.cloudfront.net/wp-content/uploads/blank.pngw3.webp", google_fonts_delay_load = 1e4, w3_mousemoveloadimg = !1, w3_page_is_scrolled = !1, w3_lazy_load_js = 1, w3_excluded_js = 0; class w3_loadscripts { constructor(e) { this.triggerEvents = e, this.eventOptions = { passive: !0 }, this.userEventListener = this.triggerListener.bind(this), this.lazy_trigger, this.style_load_fired, this.lazy_scripts_load_fired = 0, this.scripts_load_fired = 0, this.scripts_load_fire = 0, this.excluded_js = w3_excluded_js, this.w3_lazy_load_js = w3_lazy_load_js, this.w3_fonts = "undefined" != typeof w3_googlefont ? w3_googlefont : [], this.w3_styles = [], this.w3_scripts = { normal: [], async: [], defer: [], lazy: [] }, this.allJQueries = [] } user_events_add(e) { this.triggerEvents.forEach(t => window.addEventListener(t, e.userEventListener, e.eventOptions)) } user_events_remove(e) { this.triggerEvents.forEach(t => window.removeEventListener(t, e.userEventListener, e.eventOptions)) } triggerListener_on_load() { "loading" === document.readyState ? document.addEventListener("DOMContentLoaded", this.load_resources.bind(this)) : this.load_resources() } triggerListener() { this.user_events_remove(this), this.lazy_scripts_load_fired = 1, this.add_html_class("w3_user"), "loading" === document.readyState ? (document.addEventListener("DOMContentLoaded", this.load_style_resources.bind(this)), this.scripts_load_fire || document.addEventListener("DOMContentLoaded", this.load_resources.bind(this))) : (this.load_style_resources(), this.scripts_load_fire || this.load_resources()) } async load_style_resources() { this.style_load_fired || (this.style_load_fired = !0, this.register_styles(), document.getElementsByTagName("html")[0].setAttribute("data-css", this.w3_styles.length), document.getElementsByTagName("html")[0].setAttribute("data-css-loaded", 0), this.preload_scripts(this.w3_styles), this.load_styles_preloaded()) } async load_styles_preloaded() { setTimeout(function (e) { document.getElementsByTagName("html")[0].classList.contains("css-preloaded") ? e.load_styles(e.w3_styles) : e.load_styles_preloaded() }, 200, this) } async load_resources() { this.scripts_load_fired || (this.scripts_load_fired = !0, this.hold_event_listeners(), this.exe_document_write(), this.register_scripts(), this.add_html_class("w3_start"), "function" == typeof w3_events_on_start_js && w3_events_on_start_js(), this.preload_scripts(this.w3_scripts.normal), this.preload_scripts(this.w3_scripts.defer), this.preload_scripts(this.w3_scripts.async), await this.load_scripts(this.w3_scripts.normal), await this.load_scripts(this.w3_scripts.defer), await this.load_scripts(this.w3_scripts.async), await this.execute_domcontentloaded(), await this.execute_window_load(), window.dispatchEvent(new Event("w3-scripts-loaded")), this.add_html_class("w3_js"), "function" == typeof w3_events_on_end_js && w3_events_on_end_js(), this.lazy_trigger = setInterval(this.w3_trigger_lazy_script, 500, this)) } async w3_trigger_lazy_script(e) { e.lazy_scripts_load_fired && (await e.load_scripts(e.w3_scripts.lazy), e.add_html_class("jsload"), clearInterval(e.lazy_trigger)) } add_html_class(e) { document.getElementsByTagName("html")[0].classList.add(e) } register_scripts() { document.querySelectorAll("script[type=lazyload_int]").forEach(e => { e.hasAttribute("data-src") ? e.hasAttribute("async") && !1 !== e.async ? this.w3_scripts.async.push(e) : e.hasAttribute("defer") && !1 !== e.defer || "module" === e.getAttribute("data-w3-type") ? this.w3_scripts.defer.push(e) : this.w3_scripts.normal.push(e) : this.w3_scripts.normal.push(e) }), document.querySelectorAll("script[type=lazyload_ext]").forEach(e => { this.w3_scripts.lazy.push(e) }) } register_styles() { document.querySelectorAll("link[data-href]").forEach(e => { this.w3_styles.push(e) }) } async execute_script(e) { return await this.repaint_frame(), new Promise(t => { let s = document.createElement("script"), a;[...e.attributes].forEach(e => { let t = e.nodeName; "type" !== t && "data-src" !== t && ("data-w3-type" === t && (t = "type", a = e.nodeValue), s.setAttribute(t, e.nodeValue)) }), e.hasAttribute("data-src") ? (s.setAttribute("src", e.getAttribute("data-src")), s.addEventListener("load", t), s.addEventListener("error", t)) : (s.text = e.text, t()), null !== e.parentNode && e.parentNode.replaceChild(s, e) }) } async execute_styles(e) { var t; let s; return t = e, void ((s = document.createElement("link")).href = t.getAttribute("data-href"), s.rel = "stylesheet", document.head.appendChild(s), t.parentNode.removeChild(t)) } async load_scripts(e) { let t = e.shift(); return t ? (await this.execute_script(t), this.load_scripts(e)) : Promise.resolve() } async load_styles(e) { let t = e.shift(); return t ? (this.execute_styles(t), this.load_styles(e)) : "loaded" } async load_fonts(e) { var t = document.createDocumentFragment(); e.forEach(e => { let s = document.createElement("link"); s.href = e, s.rel = "stylesheet", t.appendChild(s) }), setTimeout(function () { document.head.appendChild(t) }, google_fonts_delay_load) } preload_scripts(e) { var t = document.createDocumentFragment(), s = 0, a = this;[...e].forEach(i => { let r = i.getAttribute("data-src"), n = i.getAttribute("data-href"); if (r) { let d = document.createElement("link"); d.href = r, d.rel = "preload", d.as = "script", t.appendChild(d) } else if (n) { let l = document.createElement("link"); l.href = n, l.rel = "preload", l.as = "style", s++, e.length == s && (l.dataset.last = 1), t.appendChild(l), l.onload = function () { fetch(this.href).then(e => e.blob()).then(e => { a.update_css_loader() }).catch(e => { a.update_css_loader() }) }, l.onerror = function () { a.update_css_loader() } } }), document.head.appendChild(t) } update_css_loader() { document.getElementsByTagName("html")[0].setAttribute("data-css-loaded", parseInt(document.getElementsByTagName("html")[0].getAttribute("data-css-loaded")) + 1), document.getElementsByTagName("html")[0].getAttribute("data-css") == document.getElementsByTagName("html")[0].getAttribute("data-css-loaded") && document.getElementsByTagName("html")[0].classList.add("css-preloaded") } hold_event_listeners() { let e = {}; function t(t, s) { !function (t) { function s(s) { return e[t].eventsToRewrite.indexOf(s) >= 0 ? "w3-" + s : s } e[t] || (e[t] = { originalFunctions: { add: t.addEventListener, remove: t.removeEventListener }, eventsToRewrite: [] }, t.addEventListener = function () { arguments[0] = s(arguments[0]), e[t].originalFunctions.add.apply(t, arguments) }, t.removeEventListener = function () { arguments[0] = s(arguments[0]), e[t].originalFunctions.remove.apply(t, arguments) }) }(t), e[t].eventsToRewrite.push(s) } function s(e, t) { let s = e[t]; Object.defineProperty(e, t, { get: () => s || function () { }, set(a) { e["w3" + t] = s = a } }) } t(document, "DOMContentLoaded"), t(window, "DOMContentLoaded"), t(window, "load"), t(window, "pageshow"), t(document, "readystatechange"), s(document, "onreadystatechange"), s(window, "onload"), s(window, "onpageshow") } hold_jquery(e) { let t = window.jQuery; Object.defineProperty(window, "jQuery", { get: () => t, set(s) { if (s && s.fn && !e.allJQueries.includes(s)) { s.fn.ready = s.fn.init.prototype.ready = function (t) { if (void 0 !== t) return e.scripts_load_fired ? e.domReadyFired ? t.bind(document)(s) : document.addEventListener("w3-DOMContentLoaded", () => t.bind(document)(s)) : t.bind(document)(s), s(document) }; let a = s.fn.on; s.fn.on = s.fn.init.prototype.on = function () { if ("ready" == arguments[0]) { if (this[0] !== document) return a.apply(this, arguments), this; arguments[1].bind(document)(s) } if (this[0] === window) { function e(e) { return e.split(" ").map(e => "load" === e || 0 === e.indexOf("load.") ? "w3-jquery-load" : e).join(" ") } "string" == typeof arguments[0] || arguments[0] instanceof String ? arguments[0] = e(arguments[0]) : "object" == typeof arguments[0] && Object.keys(arguments[0]).forEach(t => { Object.assign(arguments[0], { [e(t)]: arguments[0][t] })[t] }) } return a.apply(this, arguments), this }, e.allJQueries.push(s) } t = s } }) } async execute_domcontentloaded() { this.domReadyFired = !0, await this.repaint_frame(), document.dispatchEvent(new Event("w3-DOMContentLoaded")), await this.repaint_frame(), window.dispatchEvent(new Event("w3-DOMContentLoaded")), await this.repaint_frame(), document.dispatchEvent(new Event("w3-readystatechange")), await this.repaint_frame(), document.w3onreadystatechange && document.w3onreadystatechange() } async execute_window_load() { await this.repaint_frame(), setTimeout(function () { window.dispatchEvent(new Event("w3-load")) }, 100), await this.repaint_frame(), window.w3onload && window.w3onload(), await this.repaint_frame(), this.allJQueries.forEach(e => e(window).trigger("w3-jquery-load")), window.dispatchEvent(new Event("w3-pageshow")), await this.repaint_frame(), window.w3onpageshow && window.w3onpageshow() } exe_document_write() { let e = new Map; document.write = document.writeln = function (t) { let s = document.currentScript, a = document.createRange(), i = s.parentElement, r = e.get(s); void 0 === r && (r = s.nextSibling, e.set(s, r)); let n = document.createDocumentFragment(); a.setStart(n, 0), n.appendChild(a.createContextualFragment(t)), i.insertBefore(n, r) } } async repaint_frame() { return new Promise(e => requestAnimationFrame(e)) } static execute() { let e = new w3_loadscripts(["keydown", "mousemove", "touchmove", "touchstart", "touchend", "wheel"]); e.load_fonts(e.w3_fonts), e.user_events_add(e), e.excluded_js || e.hold_jquery(e), e.w3_lazy_load_js || (e.scripts_load_fire = 1, e.triggerListener_on_load()); let t = setInterval(function e(s) { null != document.body && (document.body.getBoundingClientRect().top < -30 && s.triggerListener(), clearInterval(t)) }, 500, e) } } setTimeout(function () { w3_loadscripts.execute() }, 1e3);</script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link rel="preconnect" href="https://securepubads.g.doubleclick.net">
+    <link rel="preconnect" href="https://tags.tiqcdn.com">
+    <link rel="preconnect" href="https://macro.adnami.io">
+    <link rel="preconnect" href="https://cdn.cookielaw.org">
+    <meta name="format-detection" content="telephone=no">
+
+    <script type="text/javascript">
+
+        if (navigator.platform != "Linux x86_64") {
+            function appendHeadCode(code) {
+                var tempDiv = document.createElement('div');
+                tempDiv.innerHTML = code;
+                document.head.appendChild(tempDiv.firstChild);
+            }
+            appendHeadCode('<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Roboto:ital,wght@0,200;0,400;0,700;1,200;1,400&display=swap" rel="stylesheet">');
+        }
+    </script>
+    
+    
+<title>GAFFA Koncerter</title>
+<meta name="author" content="Gaffa">
+<!-- SEO Title -->
+<meta http-equiv="content-language" content="dk">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta http-equiv="cache-control" content="no-cache">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="-1">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<meta charset="utf-8">
+
+    <link rel="alternate" hreflang="da" href="https://gaffa.dk/live-api/">
+    <link rel="alternate" hreflang="sv-se" href="https://gaffa-backend.azurewebsites.net/se/live-api/">
+    <link rel="alternate" hreflang="nb" href="https://gaffa-backend.azurewebsites.net/no/live-api/">
+
+<!-- SEO Description -->
+<meta name="description" content="Se alle">
+
+<!-- Facebook and Twitter integration -->
+<meta name="type" content="website">
+
+
+<link rel="canonical" href="https://gaffa.dk/live-api/">
+    <meta name="keywords" content="GAFFA Live,Bedste koncerter,koncert,Festival">
+
+<link rel="apple-touch-icon" sizes="180x180" href="/static/Favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/static/Favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/static/Favicon/favicon-16x16.png">
+<link rel="mask-icon" href="/static/Favicon/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="shortcut icon" href="/static/Favicon/favicon.ico">
+
+<meta name="twitter:title" content="GAFFA Koncerter">
+<meta name="twitter:url" content="https://gaffa.dk/live-api/">
+<meta name="twitter:card" content="summary_large_image">
+
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="msapplication-config" content="/static/Favicon/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+<meta name="culture" content="da">
+<meta name="robots" content="index,follow">
+<meta property="og:locale" content="dk">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://gaffa.dk/live-api/">
+<meta property="og:title" content="GAFFA Koncerter">
+<meta property="og:description" content="Se alle">
+
+<!-- Open Graph Article Enrichment -->
+<meta property="article:published_time" content="09-08-2021 14:36:10">
+
+
+
+    <meta property="og:site_name" content="GAFFA Koncerter">
+
+   
+    <link rel="stylesheet" href="/Frontend/Styles/main.css?v=639178131902813626">
+
+    <script type="text/javascript">
+        if (navigator.platform != "Linux x86_64") {
+            var script = document.createElement('script');
+            script.src = 'https://macro.adnami.io/macro/spec/adsm.macro.29825fa7-f12f-4d6d-ab6d-e330b88eed57.js';
+            script.async = true;
+            document.head.appendChild(script);
+        }
+    </script>
+
+
+    <script>var adsmtag = adsmtag || {}; adsmtag.cmd = adsmtag.cmd || [];</script>
+        <script>window.googletag = window.googletag || { cmd: [] }; window.googletag.cmd.push(function () { window.googletag.pubads().set('page_url', 'gaffa.dk'); }); window.googletag.cmd.push(function () { window.googletag.pubads().setTargeting('gaffa.dk', 'frontpage'); }); window.domainConfig = "gaffa.dk";</script>
+    <link rel="preconnect" href="https://cdn.cookielaw.org">
+
+
+    <meta name="facebook-domain-verification" content="zlryquvyalzhep724nvc55pozhc4d1">
+<!-- Start of CMP  Concept X – Sourcepoint -->
+<script>"use strict";function _typeof(t){return(_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(t){return typeof t}:function(t){return t&&"function"==typeof Symbol&&t.constructor===Symbol&&t!==Symbol.prototype?"symbol":typeof t})(t)}!function(){var t=function(){var t,e,o=[],n=window,r=n;for(;r;){try{if(r.frames.__tcfapiLocator){t=r;break}}catch(t){}if(r===n.top)break;r=r.parent}t||(!function t(){var e=n.document,o=!!n.frames.__tcfapiLocator;if(!o)if(e.body){var r=e.createElement("iframe");r.style.cssText="display:none",r.name="__tcfapiLocator",e.body.appendChild(r)}else setTimeout(t,5);return!o}(),n.__tcfapi=function(){for(var t=arguments.length,n=new Array(t),r=0;r<t;r++)n[r]=arguments[r];if(!n.length)return o;"setGdprApplies"===n[0]?n.length>3&&2===parseInt(n[1],10)&&"boolean"==typeof n[3]&&(e=n[3],"function"==typeof n[2]&&n[2]("set",!0)):"ping"===n[0]?"function"==typeof n[2]&&n[2]({gdprApplies:e,cmpLoaded:!1,cmpStatus:"stub"}):o.push(n)},n.addEventListener("message",(function(t){var e="string"==typeof t.data,o={};if(e)try{o=JSON.parse(t.data)}catch(t){}else o=t.data;var n="object"===_typeof(o)&&null!==o?o.__tcfapiCall:null;n&&window.__tcfapi(n.command,n.version,(function(o,r){var a={__tcfapiReturn:{returnValue:o,success:r,callId:n.callId}};t&&t.source&&t.source.postMessage&&t.source.postMessage(e?JSON.stringify(a):a,"*")}),n.parameter)}),!1))};"undefined"!=typeof module?module.exports=t:t()}();</script> 
+ 
+ <script>
+  var userConsentedToAll = false;
+  var pubScriptLoaded     = false;
+
+
+  function loadPubScript() {
+    // If it's already loaded, bail out
+    if (pubScriptLoaded) return;
+    pubScriptLoaded = true;
+
+    var script = document.createElement('script');
+    script.src = 'https://cncptx.com/pubscript/gaffa.dk_prod.js';
+    script.async = true;
+    document.head.appendChild(script);
+  }
+
+
+  var hasFiredInteraction = false;
+  function userInteractionHandler() {
+    if (!hasFiredInteraction) {
+      hasFiredInteraction = true;
+      console.log("User interacted - loading pub script...");
+      loadPubScript();
+      detachUserInteractionListeners();
+    }
+  }
+
+  function attachUserInteractionListeners() {
+    document.addEventListener('mousemove',   userInteractionHandler);
+    document.addEventListener('scroll',      userInteractionHandler);
+    document.addEventListener('click',       userInteractionHandler);
+    document.addEventListener('touchstart',  userInteractionHandler);
+    document.addEventListener('touchmove',   userInteractionHandler);
+  }
+
+  function detachUserInteractionListeners() {
+    document.removeEventListener('mousemove',   userInteractionHandler);
+    document.removeEventListener('scroll',      userInteractionHandler);
+    document.removeEventListener('click',       userInteractionHandler);
+    document.removeEventListener('touchstart',  userInteractionHandler);
+    document.removeEventListener('touchmove',   userInteractionHandler);
+  }
+
+  // Initialize dataLayer if needed
+  window.dataLayer = window.dataLayer || [];
+  // Sourcepoint config with onConsentReady
+  window._sp_ = {
+    config: {
+      accountId: 1423,
+      baseEndpoint: 'https://cdn.privacy-mgmt.com',
+      events: {
+        onConsentReady: function (message_type, consentUUID, euconsent, info) {
+          console.log("=== onConsentReady fired ===");
+          console.log("consentedToAll = ", euconsent.consentedToAll);
+
+          dataLayer.push({
+            event:'consent_update',
+            consentedToAll: euconsent.consentedToAll
+          });
+
+          userConsentedToAll = euconsent.consentedToAll;
+
+          // If user consented => load immediately & remove listeners
+          if (userConsentedToAll === true) {
+            loadPubScript();
+            detachUserInteractionListeners();
+          } else {
+            // Not consented => attach user interaction events
+            attachUserInteractionListeners();
+          }
+        }
+      }
+    }
+  };
+  </script>
+
+
+  <script src="https://cdn.privacy-mgmt.com/wrapperMessagingWithoutDetection.js"></script>
+
+
+  <script>
+    window['gtag_enable_tcf_support'] = true;
+  </script>
+
+<!-- Google Tag Manager -->
+<script>!function(){"use strict";function l(e){for(var t=e,r=0,n=document.cookie.split(";");r<n.length;r++){var o=n[r].split("=");if(o[0].trim()===t)return o[1]}}function s(e){return localStorage.getItem(e)}function u(e){return window[e]}function A(e,t){e=document.querySelector(e);return t?null==e?void 0:e.getAttribute(t):null==e?void 0:e.textContent}var e=window,t=document,r="script",n="dataLayer",o="https://stp.gaffa.dk",a="",i="bwykkgeudcl",c="bjzed=&page=3",g="stapeUserId",v="",E="",d=!1;try{var d=!!g&&(m=navigator.userAgent,!!(m=new RegExp("Version/([0-9._]+)(.*Mobile)?.*Safari.*").exec(m)))&&16.4<=parseFloat(m[1]),f="stapeUserId"===g,I=d&&!f?function(e,t,r){void 0===t&&(t="");var n={cookie:l,localStorage:s,jsVariable:u,cssSelector:A},t=Array.isArray(t)?t:[t];if(e&&n[e])for(var o=n[e],a=0,i=t;a<i.length;a++){var c=i[a],c=r?o(c,r):o(c);if(c)return c}else console.warn("invalid uid source",e)}(g,v,E):void 0;d=d&&(!!I||f)}catch(e){console.error(e)}var m=e,g=(m[n]=m[n]||[],m[n].push({"gtm.start":(new Date).getTime(),event:"gtm.js"}),t.getElementsByTagName(r)[0]),v=I?"&bi="+encodeURIComponent(I):"",E=t.createElement(r),f=(d&&(i=8<i.length?i.replace(/([a-z]{8}$)/,"kp$1"):"kp"+i),!d&&a?a:o);E.async=!0,E.src=f+"/"+i+".js?"+c+v,null!=(e=g.parentNode)&&e.insertBefore(E,g)}();</script>
+<!-- End Google Tag Manager -->
+<!-- Start of Sleeknote signup and lead generation tool - www.sleeknote.com -->
+<script type="text/javascript" charset="utf-8" src="//sleeknotecustomerscripts.sleeknote.com/54672.js"></script><script id="sleeknoteScript">
+(function () {
+var sleeknoteScriptTag = document.createElement("script");
+sleeknoteScriptTag.type = "text/javascript";
+sleeknoteScriptTag.charset = "utf-8";
+sleeknoteScriptTag.src = ("//sleeknotecustomerscripts.sleeknote.com/54672.js");
+var s = document.getElementById("sleeknoteScript"); 
+s.parentNode.insertBefore(sleeknoteScriptTag, s); 
+})();
+</script>
+<!-- End of Sleeknote signup and lead generation tool - www.sleeknote.com -->
+
+<script>
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "egqt4hd9el");
+</script>
+
+<script sync="" id="ebx" data-src="//applets.ebxcdn.com/ebx.js"></script>
+
+<script defer="" src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js"></script>
+
+<script>
+window.OneSignalDeferred = window.OneSignalDeferred || [];
+OneSignalDeferred.push(function(OneSignal) {
+OneSignal.init({
+appId: "034aa216-f68e-4373-8a58-2e41ad38d0b8",
+});
+});
+</script>
+<!-- TABOOLA <HEAD> CODE -->
+<script type="text/javascript">
+  window._taboola = window._taboola || [];
+  _taboola.push({article:'auto'});
+  !function (e, f, u, i) {
+    if (!document.getElementById(i)){
+      e.async = 1;
+      e.src = u;
+      e.id = i;
+      f.parentNode.insertBefore(e, f);
+    }
+  }(document.createElement('script'),
+  document.getElementsByTagName('script')[0],
+  '//cdn.taboola.com/libtrc/mediagroupdk-network/loader.js',
+  'tb_loader_script');
+  if(window.performance && typeof window.performance.mark == 'function')
+    {window.performance.mark('tbl_ic');}
+</script>
+
+<script>window.googletag = window.googletag || { cmd: [] }; window.googletag.cmd.push(function () { window.googletag.pubads().set('page_url', 'gaffa.dk'); }); window.googletag.cmd.push(function () { window.googletag.pubads().setTargeting('gaffa.dk', 'frontpage'); }); window.domainConfig = "gaffa.dk";</script>
+
+    <script src="/App_Plugins/UmbracoForms/Assets/promise-polyfill/dist/polyfill.min.js" type="application/javascript"></script><script src="/App_Plugins/UmbracoForms/Assets/aspnet-client-validation/dist/aspnet-validation.min.js" type="application/javascript"></script>
+        <meta property="ip" content="104.209.7.231">
+
+
+    
+
+    
+
+
+    <style>
+        body:not(:has(.adnm-html-topscroll-frame-wrapper)) div#cncpt-dsk_top1 {
+            min-height: 80vh;
+        }
+
+        body:not(:has(.adnm-html-topscroll-frame-wrapper)) .nav__bar {
+            position: relative !important;
+        }
+    </style>
+<link rel="stylesheet" type="text/css" media="all" href="https://assets.mailerlite.com/css/universal.css"><script src="https://assets.mailerlite.com/jsonp/1240637/forms?callback=ml.fn.renderPopupsAndPromotions" async="true"></script><meta http-equiv="origin-trial" content="A+uXoByCfR5HCRAl94AWMQ8Y7DHd3670DSOPWj55vVOoaN/cUpF/r0yk6KbxjLIyaxJ2H3/YX4ZxkiI3srY5oQwAAABreyJvcmlnaW4iOiJodHRwczovL2Nkbi50YWJvb2xhLmNvbTo0NDMiLCJmZWF0dXJlIjoiU2NoZWR1bGVyWWllbGQiLCJleHBpcnkiOjE3MDk2ODMxOTksImlzVGhpcmRQYXJ0eSI6dHJ1ZX0="><style id="tbl-editorial-video-style"> video.tbl-editorial-video-element{width:auto;height:100%;pointer-events:none}video.tbl-editorial-video-element.tbl-ec-vertical{width:100%;height:auto}div.tbl-editorial-video-container{position:absolute;top:0;left:0;width:100%;height:100%;background-color:#fff;opacity:0;pointer-events:none;transition:opacity .4s ease-in-out;border-radius:8px;overflow:hidden;display:flex;align-items:center;justify-content:center}div.tbl-editorial-video-container.tbl-ec-playing{opacity:1;pointer-events:auto}</style><style id="tRecs-taboola-choice"> .trc_user_exclude_btn{background:url("//cdn.taboola.com/libtrc/static/thumbnails/f539211219b796ffbb49949997c764f0.png") no-repeat scroll 0 0 rgba(0,0,0,0);width:12px;height:12px;position:absolute;right:2px;top:2px;z-index:9000;cursor:pointer;visibility:hidden}.trc_exclude_undo_btn{font-family:Arial,Helvetica,sans-serif;font-size:11px;line-height:14px;font-weight:normal;color:#36c;text-decoration:underline;cursor:pointer;position:absolute;right:2px;top:2px;padding:0 1px;z-index:11000;visibility:hidden}.videoCube:hover .trc_user_exclude_btn,.videoCube_hover .trc_user_exclude_btn,.trc_user_excluded.videoCube:hover .trc_exclude_undo_btn,.trc_user_excluded.videoCube_hover .trc_exclude_undo_btn,.trc_exclude_undo_btn.trc_exclude_undo_btn_visible{visibility:visible}.videoCube.trc_user_excluded .trc_user_exclude_btn{visibility:hidden}.trc_fade{opacity:0;filter:alpha(opacity=0);visibility:hidden;transition:opacity 500ms 0s,visibility 0s 500ms;-webkit-transition:opacity 500ms 0s,visibility 0s 500ms}.trc_fade.trc_in,.trc_user_excluded .trc_exclude_overlay{visibility:visible;opacity:1;filter:alpha(opacity=100);transition-delay:0s,0s;-webkit-transition-delay:0s,0s}.trc_excludable .trc_exclude_overlay{position:absolute;z-index:10000;top:0;left:0;width:100%;height:100%;cursor:default;background-color:#fff}.videoCube.trc_user_excluded .trc_exclude_overlay{visibility:visible;opacity:.8;filter:alpha(opacity=80)}.videoCube.trc_user_excluded .thumbBlock{filter:grayscale(100%);-webkit-filter:grayscale(100%)}.videoCube.trc_user_excluded:hover a .video-label-box .video-title,.videoCube_hover.trc_user_excluded a .video-label-box .video-title{text-decoration:none}.videoCube.trc_user_excluded a .video-label-box *,.videoCube.trc_user_excluded:hover a .video-label-box *,.videoCube_hover.trc_user_excluded a .video-label-box *{color:#000;overflow:hidden;transition:color 500ms 0s;-webkit-transition:color 500ms 0s}</style><style id="tRecs-taboola-choice-popover-container"> .trc_popover{position:absolute;font-family:Arial,Helvetica,sans-serif;font-size:12px;line-height:16px;color:#000;cursor:default;top:0;right:0;z-index:2147483647;width:180px;padding:1px;text-align:left;white-space:normal;background-color:#fff;border:1px solid rgba(0,0,0,.2);border-radius:6px;box-shadow:0 5px 10px rgba(0,0,0,.2);background-clip:padding-box;-webkit-background-clip:padding;box-sizing:content-box}.trc_popover.trc_bottom{margin-top:10px}.trc_popover.trc_bottom .trc_popover_arrow{top:-11px;right:11px;margin-left:-11px;border-bottom-color:#999;border-bottom-color:rgba(0,0,0,.25);border-top-width:0}.trc_popover.trc_bottom .trc_popover_arrow:after{top:1px;margin-left:-10px;border-bottom-color:#fff;border-top-width:0}.trc_popover iframe{width:100%}.trc_popover .trc_popover_arrow,.trc_popover .trc_popover_arrow:after{position:absolute;display:block;width:0;height:0;border:solid rgba(0,0,0,0)}.trc_popover .trc_popover_arrow{border-width:11px}.trc_popover .trc_popover_arrow:after{border-width:10px;content:""}.trc_popover_fade{visibility:hidden;opacity:0;filter:alpha(opacity=0);transition:opacity 500ms 0s,visibility 0s 500ms;-webkit-transition:opacity 500ms 0s,visibility 0s 500ms}.trc_popover_fade.trc_popover_show{visibility:visible;opacity:1;filter:alpha(opacity=100);transition-delay:0s,0s;-webkit-transition-delay:0s,0s}</style><style id="tRecs-taboola-choice-popover-content"> .popupContentWrapper{font-family:Arial,Helvetica,sans-serif;font-weight:normal;font-size:12px;color:#000}.popupContentWrapper .trc_popover_title_wrapper{padding:8px 14px;margin:0;font-weight:bold;background-color:#f7f7f7;border-bottom:1px solid #ebebeb;border-radius:5px 5px 0 0}.popupContentWrapper .trc_popover_title{width:100%;display:inline-block;vertical-align:middle}.popupContentWrapper .trc_popover_content_wrapper{display:inline-block;float:left;padding:9px 14px}.popupContentWrapper .trc_popover_content_wrapper .trc_questionnaire_container label{float:left;clear:left;width:100%;cursor:pointer;line-height:20px;text-align:left}.popupContentWrapper .trc_popover_content{width:100%}.popupContentWrapper .trc_questionnaire_container .trc_questionnaire_title{margin:0 0 3px}.popupContentWrapper .trc_questionnaire_container input[type=radio]{float:left;cursor:pointer;margin:3px 4px 0 5px}.popupContentWrapper .trc_questionnaire_container_ie.trc_questionnaire_container input[type=radio]{margin:0 2px 0 0}</style><script type="text/javascript" src="//pm-widget.taboola.com/mediagroupdk-network/pmk-20220605.13.js" async="" crossorigin="anonymous"></script><style type="text/css"></style><link href="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" rel="preload" as="script"><script src="https://cncptx.com/pubscript/gaffa.dk_prod.js" async=""></script><script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.es6.js?v=160610" defer=""></script><meta http-equiv="origin-trial" content="AlK2UR5SkAlj8jjdEc9p3F3xuFYlF6LYjAML3EOqw1g26eCwWPjdmecULvBH5MVPoqKYrOfPhYVL71xAXI1IBQoAAAB8eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="><meta http-equiv="origin-trial" content="Amm8/NmvvQfhwCib6I7ZsmUxiSCfOxWxHayJwyU1r3gRIItzr7bNQid6O8ZYaE1GSQTa69WwhPC9flq/oYkRBwsAAACCeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="><meta http-equiv="origin-trial" content="A9nrunKdU5m96PSN1XsSGr3qOP0lvPFUB2AiAylCDlN5DTl17uDFkpQuHj1AFtgWLxpLaiBZuhrtb2WOu7ofHwEAAACKeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiQUlQcm9tcHRBUElNdWx0aW1vZGFsSW5wdXQiLCJleHBpcnkiOjE3NzQzMTA0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A93bovR+QVXNx2/38qDbmeYYf1wdte9EO37K9eMq3r+541qo0byhYU899BhPB7Cv9QqD7wIbR1B6OAc9kEfYCA4AAACQeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiQUlQcm9tcHRBUElNdWx0aW1vZGFsSW5wdXQiLCJleHBpcnkiOjE3NzQzMTA0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A1S5fojrAunSDrFbD8OfGmFHdRFZymSM/1ss3G+NEttCLfHkXvlcF6LGLH8Mo5PakLO1sCASXU1/gQf6XGuTBgwAAACQeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiQUlQcm9tcHRBUElNdWx0aW1vZGFsSW5wdXQiLCJleHBpcnkiOjE3NzQzMTA0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><script src="https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202610210101/pubads_impl.js?cb=122881802" async="" fetchpriority="high"></script><script esp-signal="true" src="https://static.criteo.net/js/ld/publishertag.ids.js"></script><script esp-signal="true" src="https://invstatic101.creativecdn.com/encrypted-signals/encrypted-tag-g.js"></script></head>
+<body class="static-navigation ">
+    
+
+        
+    <div data-component="adblock-detector" data-component-args="{&quot;url&quot;:&quot;/register/&quot;}" class="w3_bg"></div>
+<div id="cncpt-dsk_top1" style="text-align: center;" class="w3_bg" dublicatenoted="true" data-google-query-id="CPqC46Tr2ZcDFTvl_QUd7IAb6Q"><div id="google_ads_iframe_/23134911822/gaffa.dk_dev_dsk_top_0__container__" style="border: 0pt none; margin: auto; text-align: center; width: 1px; height: 2px;"><iframe frameborder="0" src="https://d14195d30448db3a0bf990af2768b4d4.safeframe.googlesyndication.com/safeframe/1-0-45/html/container.html" id="google_ads_iframe_/23134911822/gaffa.dk_dev_dsk_top_0" title="Tredjepartsannonceindhold" name="" scrolling="no" marginwidth="0" marginheight="0" width="1" height="2" data-is-safeframe="true" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="private-state-token-redemption;attribution-reporting" aria-label="Annonce" tabindex="0" data-google-container-id="2" style="border: 0px; vertical-align: bottom;" data-load-complete="true"></iframe></div></div>
+<div id="cncpt-mob_top1" style="text-align: center;" class="w3_bg"></div>
+    
+
+<nav class="nav" data-component="navigation" data-component-id="main-nav">
+
+    <div class="nav__bar w3_bg">
+        <div class="full-width-container nav__bar__inner w3_bg">
+
+            <!-- Logo -->
+            <div class="nav__bar__logo-container w3_bg">
+                <a href="/" class="nav__bar__logo">
+                    <img src="https://gaffacabana.blob.core.windows.net/gaffa-media/media/ea418328-7808-4b22-b891-f7ac060509a1/GaffaNeg-default.webp">
+                </a>
+            </div>
+
+            <div class="nav__bar__links w3_bg">
+                        <a href="/nyheder-fra-gaffa/" class="label nav__bar__link">
+                            Nyheder
+                        </a>
+                        <a href="/anmeldelser/" class="label nav__bar__link">
+                            Anmeldelser
+                        </a>
+                        <a href="/features-oversigtsside/" class="label nav__bar__link">
+                            Features
+                        </a>
+                        <a href="/debat-samfund-oversigtsside/" class="label nav__bar__link">
+                            Kultur
+                        </a>
+                        <a href="/2026-gaffa-talent-50/" class="label nav__bar__link">
+                            Talent 50
+                        </a>
+            </div>
+
+            <div class="nav__bar__tools w3_bg">
+
+                <div class="nav__bar__search-toggle w3_bg" data-navigation-toggle-search="">
+                    <svg class="svg-icon nav__bar__search-toggle--open">
+                        <use xlink:href="/static/spriteSheet.svg#search"></use>
+                    </svg>
+                    <svg class="svg-icon nav__bar__search-toggle--close">
+                        <use xlink:href="/static/spriteSheet.svg#close"></use>
+                    </svg>
+                </div>
+
+                    <a href="/register/" class="label nav__bar__link nav__bar__link--primary">
+                        <span class="nav__bar__link-text">Køb abonnement</span>
+                    </a>
+
+
+                    <a href="/login/" class="label nav__bar__link">
+                        Log ind
+                    </a>
+
+                <div class="nav__menu-toggle w3_bg" data-navigation-toggle-menu="">
+                    <span class="burger">
+                        <span class="burger__mid"></span>
+                    </span>
+                    <svg class="svg-icon">
+                        <use xlink:href="/static/spriteSheet.svg#close"></use>
+                    </svg>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="nav__shadow w3_bg" data-navigation-toggle-menu=""></div>
+
+    <div class="nav__menu w3_bg">
+        <div class="nav__menu__close w3_bg" data-navigation-toggle-menu="">
+            <svg class="svg-icon">
+                <use xlink:href="/static/spriteSheet.svg#close"></use>
+            </svg>
+        </div>
+
+        <div class="nav__menu__inner w3_bg">
+            <div class="nav__menu__primary w3_bg">
+                    <div class="nav__menu__menu-item w3_bg">
+
+                        <div class="nav__menu__menu-item-inner w3_bg">
+                            <a href="/nyheder-fra-gaffa/" class="label nav__menu__link">
+                                Nyheder
+                            </a>
+
+                        </div>
+
+                    </div>
+                    <div class="nav__menu__menu-item w3_bg">
+
+                        <div class="nav__menu__menu-item-inner w3_bg">
+                            <a href="/anmeldelser/" class="label nav__menu__link">
+                                Anmeldelser
+                            </a>
+
+                        </div>
+
+                    </div>
+                    <div class="nav__menu__menu-item w3_bg">
+
+                        <div class="nav__menu__menu-item-inner w3_bg">
+                            <a href="/features-oversigtsside/" class="label nav__menu__link">
+                                Features
+                            </a>
+
+                        </div>
+
+                    </div>
+                    <div class="nav__menu__menu-item w3_bg">
+
+                        <div class="nav__menu__menu-item-inner w3_bg">
+                            <a href="/debat-samfund-oversigtsside/" class="label nav__menu__link">
+                                Kultur
+                            </a>
+
+                        </div>
+
+                    </div>
+                    <div class="nav__menu__menu-item w3_bg">
+
+                        <div class="nav__menu__menu-item-inner w3_bg">
+                            <a href="/2026-gaffa-talent-50/" class="label nav__menu__link">
+                                Talent 50
+                            </a>
+
+                        </div>
+
+                    </div>
+            </div>
+
+            <div class="nav__menu__secondary w3_bg">
+                        <a class="label nav__menu__secondary-link" href="/magasinet/">
+                            <span>GAFFA magasinet</span>
+                            <svg class="svg-icon">
+                                <use xlink:href="/static/spriteSheet.svg#arrow-right"></use>
+                            </svg>
+                        </a>
+                        <a class="label nav__menu__secondary-link" href="/festivalguiden/festivalguiden/">
+                            <span>Festivalguiden</span>
+                            <svg class="svg-icon">
+                                <use xlink:href="/static/spriteSheet.svg#arrow-right"></use>
+                            </svg>
+                        </a>
+                        <a class="label nav__menu__secondary-link" href="/uddannelsesguiden/">
+                            <span>Uddannelsesguiden</span>
+                            <svg class="svg-icon">
+                                <use xlink:href="/static/spriteSheet.svg#arrow-right"></use>
+                            </svg>
+                        </a>
+                        <a class="label nav__menu__secondary-link" href="/gaffa-photo-awards/2025/">
+                            <span>Photo Awards 2025</span>
+                            <svg class="svg-icon">
+                                <use xlink:href="/static/spriteSheet.svg#arrow-right"></use>
+                            </svg>
+                        </a>
+                        <a class="label nav__menu__secondary-link" href="/om-gaffa/">
+                            <span>Om GAFFA</span>
+                            <svg class="svg-icon">
+                                <use xlink:href="/static/spriteSheet.svg#arrow-right"></use>
+                            </svg>
+                        </a>
+                        <a class="label nav__menu__secondary-link" target="_blank" href="https://media.gaffa.dk/dk/">
+                            <span>Media og Salg</span>
+                            <svg class="svg-icon">
+                                <use xlink:href="/static/spriteSheet.svg#arrow-right"></use>
+                            </svg>
+                        </a>
+                        <a class="label nav__menu__secondary-link" href="/min-side/">
+                            <span>GAFFA+ Min side</span>
+                            <svg class="svg-icon">
+                                <use xlink:href="/static/spriteSheet.svg#arrow-right"></use>
+                            </svg>
+                        </a>
+                        <a class="label nav__menu__secondary-link" href="/gaffa-mappe/gaffa-medlem/">
+                            <span>GAFFA+ Tilbud</span>
+                            <svg class="svg-icon">
+                                <use xlink:href="/static/spriteSheet.svg#arrow-right"></use>
+                            </svg>
+                        </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="nav__search-modal search-modal w3_bg" data-navigation-search-modal="" data-component="search" data-component-args="{&quot;baseUrl&quot;: &quot;/umbraco/api/search/typeahead&quot;, &quot;resultClass&quot;: &quot;search-modal__result&quot;}">
+
+        <div class="search-modal__inner grid-container w3_bg">
+                <form class="search-modal__form form" action="/sogeresultat/" method="GET" autocomplete="off">
+
+                    <div class="search-input search-input--dark w3_bg">
+                        <input class="search-input__field" type="text" name="q" placeholder="Søg" data-search-culture="da" value="" data-search-input="">
+
+                        <svg class="svg-icon search-input__icon">
+                            <use xlink:href="/static/spriteSheet.svg#search"></use>
+                        </svg>
+                    </div>
+                </form>
+
+            <div class="search-modal__results w3_bg" data-search-results=""></div>
+        </div>
+    </div>
+
+</nav>
+
+    <main>
+<div class="article-overview live-section-page w3_bg">
+    <div class="grid-container w3_bg">
+        <div class="row w3_bg">
+            <div class="col w3_bg">
+                <h1 class="article-overview__headline heading--h4 heading--uppercase">Næste koncert</h1>
+                <hr class="article-overview__hr">
+            </div>
+        </div>
+    </div>
+    <div class="grid-container w3_bg" data-component="overview-event" data-overview-culture="da" data-overview-index="0" data-overview-tab="1">
+        <div class="row w3_bg">
+            <nav>
+                <ul class="live-section-page__banner">
+                    <li class="heading live-section-page__banner__item live-section-page__banner__item--active"><a href="?tab=1">Denne uge</a></li>
+                    <li class="heading live-section-page__banner__item "><a href="?tab=2">Næste uge</a></li>
+                    <li class="heading live-section-page__banner__item "><a href="?tab=3">Næste 30 dage</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="row gy-4 gy-md-5 live-section-page__highlighted live-section-page__highlighted--centered w3_bg">
+                <div class="col-12 w3_bg"><h3 class="live-section-page__none-found">Ingen koncerter fundet</h3></div>
+        </div>
+        <div class="row w3_bg" data-overview-element="">
+
+        </div>
+    </div>
+</div></main>
+    
+<footer class="footer text">
+    <div class="grid-container w3_bg">
+        <div class="row w3_bg">
+            <div class="col-12 footer__logo w3_bg"><a href="/"><svg class="svg-icon"><use xlink:href="/static/spriteSheet.svg#gaffa"></use></svg></a></div>
+            <div class="col-12 footer__newsletter__heading w3_bg"><h4 class="text--center heading--h5">Få GAFFAs nyhedsmail</h4></div>
+            <div class="col-12 col-lg-2 w3_bg">
+                    <ul class="footer__links-building">
+                            <li class="footer__links-building__link"><a href="/om-gaffa/">Kontakt</a></li>
+                            <li class="footer__links-building__link"><a href="https://www.gaffashop.dk/" target="_blank">GAFFA Shop</a></li>
+                            <li class="footer__links-building__link"><a href="/cookie-og-privatlivspolitik/">Cookie og privatlivspolitik</a></li>
+                            <li class="footer__links-building__link"><a href="/gaffa-mappe/gaffa-medlemsbetingelser/">GAFFA+ medlemsbetingelser</a></li>
+                    </ul>
+            </div>
+            <div class="col-12 col-lg-8 footer__newsletter w3_bg" data-component="mailerlite-newsletter-form">
+                <p class="footer__newsletter__success">Du er nu tilmeldt nyhedsbrevet</p>
+                <p class="footer__newsletter__error">Der gik noget galt</p>
+                <form class="footer__newsletter__form" onsubmit="event.preventDefault(); submitNewsletter();" data-component="form">
+                    <div class="input-container w3_bg">
+                        <input type="email" name="Email" class="form-control input-field input-field--empty input-field--wide" data-validation-text="Angiv venligst gyldig email" data-required-text="Dette felt skal udfyldes " required="">
+                        <label for="Email" class="input-container__label">INDTAST DIN EMAILADRESSE </label>
+                        <input type="text" name="Culture" hidden="" value="da" class="input-field--full">
+                    </div>
+                    <div class="input-container w3_bg">
+                        <button type="submit" class="btn">Tilmeld</button>
+                    </div>
+                    <div class="input-container w3_bg">
+                        <input type="checkbox" id="Permission" class="form-check-input input-container__form-check input-field--full" name="Permission" value="Accepted permissions" data-required-text="Dette felt skal udfyldes " required="">
+                        <label for="Permission"><p>Ja tak, jeg ønsker at modtage GAFFAs nyhedsbrev og godkender derfor <a href="/cookie-og-privatlivspolitik/" title="Cookie og privatlivspolitik">cookie &amp; privatlivspolitik</a>.</p></label>
+                    </div>
+                </form>
+            </div>
+            <div class="col-12 col-lg-2 footer__social-media w3_bg">
+                <div class="footer__social-media__heading w3_bg">Følg os</div>
+                <ul class="footer__social-media__links">
+                        <li class="footer__social-media__link"><a href="https://da-dk.facebook.com/gaffadk"><svg class="svg-icon"><use xlink:href="/static/spriteSheet.svg#facebook"></use></svg></a></li>
+                                            <li class="footer__social-media__link"><a href="https://twitter.com/gaffa_dk?lang=da"><svg class="svg-icon"><use xlink:href="/static/spriteSheet.svg#twitter"></use></svg></a></li>
+                                            <li class="footer__social-media__link"><a href="https://www.instagram.com/gaffadk/?hl=da"><svg class="svg-icon"><use xlink:href="/static/spriteSheet.svg#instagram"></use></svg></a></li>
+                </ul>
+            </div>
+            <div class="col-12 col-lg-3 footer__copyright text--small w3_bg">© 2026 GAFFA. ALL RIGHTS RESERVED</div>
+            <div class="col-12 col-lg-6 w3_bg">
+                <ul class="footer__languages">
+                    <li class="footer__languages__link"><a href="https://gaffa.dk">DANMARK</a></li>
+                    <li class="footer__languages__link"><a href="https://gaffa.se">SVERIGE</a></li>
+                    <li class="footer__languages__link"><a href="https://gaffa.no">NORGE</a></li>
+                </ul>
+            </div>
+            
+        </div>
+    </div>
+</footer>
+    
+    <!-- MailerLite Universal -->
+<script>
+    (function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[])
+    .push(arguments);},l=d.createElement(e),l.async=1,l.src=u,
+    n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);})
+    (window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');
+    ml('account', '1240637');
+</script>
+<!-- End MailerLite Universal -->
+<!-- TABOOLA FLUSH CODE -->
+<script type="text/javascript">
+  window._taboola = window._taboola || [];
+  _taboola.push({flush: true});
+</script>
+        <div id="yb_anchor_wrapper" class="w3_bg">
+            <span class="anchor_title">ANNONCE</span>
+            <div id="anchor_ad" class="w3_bg" style="padding: 6px 20px 0px;">
+                <div id="cncpt-dsk_anchor" style="text-align: center; width: 930px;" class="w3_bg" dublicatenoted="true" data-google-query-id="CLKk4KTr2ZcDFf3NuAgdqp4krg"><div id="google_ads_iframe_/23134911822/gaffa.dk_dev_dsk_anchor_0__container__" style="border: 0pt none; margin: auto; text-align: center; width: 930px; height: 180px;"><iframe frameborder="0" src="https://d14195d30448db3a0bf990af2768b4d4.safeframe.googlesyndication.com/safeframe/1-0-45/html/container.html" id="google_ads_iframe_/23134911822/gaffa.dk_dev_dsk_anchor_0" title="Tredjepartsannonceindhold" name="" scrolling="no" marginwidth="0" marginheight="0" width="930" height="180" data-is-safeframe="true" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="private-state-token-redemption;attribution-reporting" aria-label="Annonce" tabindex="0" data-google-container-id="1" style="border: 0px; vertical-align: bottom;" data-load-complete="true"></iframe></div><span class="anchor_close" style="display: block;">x</span><span class="anchor_close" style="display: block;">x</span></div>
+
+                <div id="cncpt-mob_anchor" style="text-align: center;" class="w3_bg"></div>
+
+            </div>
+        </div>    <script>googletag.cmd.push(function () { googletag.pubads().addEventListener("slotRenderEnded", function (b) { if (!b.isEmpty) { var a = document.createElement("span"); a.classList.add("anchor_close"), a.style.display = "block", a.innerText = "x", a.addEventListener("click", function () { document.getElementById("yb_anchor_wrapper").style.display = "none", this.style.display = "none" }, !1), setTimeout(function () { document.querySelector("#anchor_ad > div").style.width = document.querySelector("#anchor_ad iframe").width + "px", document.querySelector("#anchor_ad iframe").parentNode.parentNode.appendChild(a), document.querySelector(".phone") && (document.querySelector(".phone #yb_anchor_wrapper").style.backgroundColor = "#f4f4f4", document.querySelector(".phone .anchor_title").style.display = "block"), Number(document.querySelector("#anchor_ad iframe").width) + 40 > window.innerWidth ? document.querySelector("#anchor_ad").style.padding = "6px 0 0 0" : document.querySelector("#anchor_ad").style.padding = "6px 20px 0" }, 500) } }) })</script>
+    <style type="text/css">
+        #yb_anchor_wrapper {
+            position: fixed;
+            bottom: 0px;
+            z-index: 9999999;
+            text-align: center;
+            left: 50%;
+            transform: translate(-50%, 0)
+        }
+
+        .phone #yb_anchor_wrapper {
+            width: 100%;
+            text-align: center
+        }
+
+        .phone #anchor_ad > div {
+            margin: 0 auto;
+            position: relative
+        }
+
+        .anchor_title {
+            display: none
+        }
+
+        .phone .anchor_title {
+            color: #000;
+            font-family: 'Roboto', Arial, sans-serif;
+            font-weight: 500;
+            font-size: 10px;
+            position: relative;
+            top: 5px
+        }
+
+        .anchor_close {
+            cursor: pointer;
+            color: #b2b2b2;
+            border: 1px solid #b2b2b2;
+            border-radius: 100%;
+            background: #fff;
+            line-height: 28px;
+            font-size: 31px;
+            font-family: arial, sans-serif;
+            position: absolute;
+            top: -6px;
+            right: 3px;
+            height: 33px;
+            width: 33px
+        }
+
+        .phone .anchor_close {
+            top: -16px;
+            right: -17px
+        }
+
+        .anchor_close:hover {
+            color: #fff;
+            background-color: #b2b2b2
+        }
+
+        @media only screen and (max-width: 359px) {
+            .phone .anchor_close {
+                top: -24px;
+                right: 0;
+                height: 23px;
+                width: 23px;
+                font-size: 20px;
+                line-height: 19px
+            }
+        }
+    </style>
+    <script src="/Frontend/Scripts/Gaffa.bundle.js?v=639056315340000000" type="text/javascript"></script>
+    <script>function w3_events_on_end_js() { document.getElementById("w3_bg_load").remove(), w3_bglazyload = 0, lazyloadimages(0), 0 == window.site_nav_link_burger && (jQuery(".hamburger").click(), window.site_nav_link_burger = !1) } function w3_start_img_load() { var t = this.scrollY; lazyloadimages(t), lazyloadiframes(t) } function w3_events_on_start_js() { convert_to_video_tag(document.getElementsByTagName("videolazy")), w3_start_img_load() } w3_bglazyload = 1, function () { var t = new Image; t.onload = function () { w3_hasWebP = !!(t.height > 0 && t.width > 0) }, t.onerror = function () { w3_hasWebP = !1 } }(), window.addEventListener("scroll", function (t) { w3_start_img_load() }, { passive: !0 }); var w3_is_mobile = window.matchMedia("(max-width: 767px)").matches ? 1 : 0, win_width = screen.availWidth, bodyRectMain = {}; function getDataUrl(t, e, a) { var o = document.createElement("canvas"), i = o.getContext("2d"), n = new Image; o.width = parseInt(e), o.height = parseInt(a), i.drawImage(n, 0, 0), t.src = o.toDataURL("image/png") } function lazyload_img(t, e, a, o) { for (var i = 0; i < t.length; i++)if ("LazyLoad" == t[i].getAttribute("data-class")) { var n = t[i], d = t[i].getBoundingClientRect(); if (0 != d.top && d.top - (a - e.top) < w3_lazy_load_by_px) { if (compStyles = window.getComputedStyle(t[i]), 0 == compStyles.getPropertyValue("opacity")) continue; if ("IFRAMELAZY" == n.tagName) { var r; n = document.createElement("iframe"); for (r = t[i].attributes.length - 1; r >= 0; --r)n.attributes.setNamedItem(t[i].attributes[r].cloneNode()); t[i].parentNode.replaceChild(n, t[i]) } var l = n.getAttribute("data-src") ? n.getAttribute("data-src") : n.src; w3_is_mobile && n.getAttribute("data-mob-src") && (l = n.getAttribute("data-mob-src")); var s = n.getAttribute("data-srcset") ? n.getAttribute("data-srcset") : ""; s || (n.onload = function () { this.setAttribute("data-done", "Loaded"), "function" == typeof w3speedup_after_iframe_img_load && w3speedup_after_iframe_img_load(this) }, n.onerror = function () { this.getAttribute("data-mob-src") && w3_is_mobile && this.getAttribute("data-src") && (this.src = this.getAttribute("data-src")) }), n.src = l, null != s & "" != s && (n.srcset = s), delete n.dataset.class } } } function w3_load_dynamic_blank_img(t) { for (var e = 0; e < t.length; e++)if ("LazyLoad" == t[e].getAttribute("data-class")) { var a = t[e].src; if (void 0 !== a && -1 == a.indexOf("data:") && null != t[e].getAttribute("width") && null != t[e].getAttribute("height")) { var o = parseInt(t[e].getAttribute("width")), i = parseInt(t[e].getAttribute("height")); getDataUrl(t[e], o, i) } } } function convert_to_video_tag(t) { const e = t.length > 0 ? t[0] : ""; if (e) { delete t[0]; var a, o = document.createElement("video"); for (a = e.attributes.length - 1; a >= 0; --a)o.attributes.setNamedItem(e.attributes[a].cloneNode()); o.innerHTML = e.innerHTML, e.parentNode.replaceChild(o, e), "string" == typeof o.getAttribute("data-poster") && o.setAttribute("poster", o.getAttribute("data-poster")), convert_to_video_tag(t) } } function lazyload_video(t, e, a, o, i) { for (var n = 0; n < t.length; n++) { t[n]; var d = t[n].getBoundingClientRect(); if (0 != d.top && d.top - (o - e.top) < w3_lazy_load_by_px) if (void 0 === t[n].getElementsByTagName("source")[0]) lazyload_video_source(t[n], a, o, i, d, e); else for (var r = t[n].getElementsByTagName("source"), l = 0; l < r.length; l++) { lazyload_video_source(r[l], a, o, i, d, e) } } } function lazyload_video_source(t, e, a, o, i, n) { if (void 0 !== t && "LazyLoad" == t.getAttribute("data-class") && 0 != i.top && i.top - (a - n.top) < w3_lazy_load_by_px) { var d = t.getAttribute("data-src") ? t.getAttribute("data-src") : t.src, r = t.getAttribute("data-srcset") ? t.getAttribute("data-srcset") : ""; null != t.srcset & "" != t.srcset && (t.srcset = r), void 0 === t.getElementsByTagName("source")[0] ? "SOURCE" == t.tagName ? (t.parentNode.src = d, t.parentNode.load(), null !== t.parentNode.getAttribute("autoplay") && t.parentNode.play()) : (t.src = d, t.load(), null !== t.getAttribute("autoplay") && t.play()) : t.parentNode.src = d, delete t.dataset.class, t.setAttribute("data-done", "Loaded") } } function lazyload_imgbgs(t, e, a, o) { for (var i = 0; i < t.length; i++) { var n = t[i], d = t[i].getBoundingClientRect(); d.top, e.top; d.top - (a - e.top) < w3_lazy_load_by_px && n.classList.add("w3_bg") } } function lazyloadimages(t) { var e = document.querySelectorAll("img[data-class=LazyLoad]"), a = document.querySelectorAll("div:not(.w3_js), section:not(.w3_js), iframelazy:not(.w3_js)"), o = document.getElementsByTagName("video"), i = document.getElementsByTagName("audio"), n = document.body.getBoundingClientRect(), d = window.innerHeight, r = screen.availWidth; "undefined" != typeof load_dynamic_img && (w3_load_dynamic_blank_img(e), delete load_dynamic_img), w3_bglazyload && (n.top < 50 && 1 == bodyRectMain.top || Math.abs(bodyRectMain.top) - Math.abs(n.top) < -50 || Math.abs(bodyRectMain.top) - Math.abs(n.top) > 50) && (bodyRectMain = n, lazyload_imgbgs(a, n, d, r)), lazyload_img(e, n, d, r), lazyload_video(o, n, t, d, r), lazyload_video(i, n, t, d, r) } function lazyloadiframes(t) { var e = document.body.getBoundingClientRect(), a = window.innerHeight, o = screen.availWidth; lazyload_img(document.querySelectorAll("iframelazy[data-class=LazyLoad]"), e, a, o) } bodyRectMain.top = 1, setInterval(function () { lazyloadiframes(top) }, 8e3), setInterval(function () { lazyloadimages(0) }, 3e3), document.addEventListener("click", function () { lazyloadimages(0) }), lazyloadimages(0);</script>
+<iframe name="__tcfapiLocator" style="display: none;"></iframe><script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092" integrity="sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==" data-cf-beacon="{&quot;version&quot;:&quot;2024.11.0&quot;,&quot;token&quot;:&quot;5302af4dc6c04a4d82393280db8f7ca4&quot;,&quot;r&quot;:1,&quot;spa&quot;:2}" crossorigin="anonymous"></script>
+
+<script type="text/javascript" id="" charset="">var dl={};(function(c){function d(){for(var a=0,b=arguments;a<b.length;a++)if(!b[a].event||b[a].event&&-1===b[a].event.indexOf("gtm.js")&&-1===b[a].event.indexOf("gtm.dom")&&-1===b[a].event.indexOf("gtm.load"))for(i in b[a])dl[i]=b[a][i]}var e=c.push;c.push=function(){d.apply(this,arguments);e.apply(c,arguments)};d.apply(c,c);window.utag&&window.utag.link(dl)})(window.dataLayer||[]);</script><script type="text/javascript" id="" charset="">var dl={};(function(c){function d(){for(var a=0,b=arguments;a<b.length;a++)if(!b[a].event||b[a].event&&-1===b[a].event.indexOf("gtm.js")&&-1===b[a].event.indexOf("gtm.dom")&&-1===b[a].event.indexOf("gtm.load"))for(i in b[a])dl[i]=b[a][i]}var e=c.push;c.push=function(){d.apply(this,arguments);e.apply(c,arguments)};d.apply(c,c);window.utag&&window.utag.link(dl)})(window.dataLayer||[]);</script><script type="text/javascript" id="" charset="">var dl={};(function(c){function d(){for(var a=0,b=arguments;a<b.length;a++)if(!b[a].event||b[a].event&&-1===b[a].event.indexOf("gtm.js")&&-1===b[a].event.indexOf("gtm.dom")&&-1===b[a].event.indexOf("gtm.load"))for(i in b[a])dl[i]=b[a][i]}var e=c.push;c.push=function(){d.apply(this,arguments);e.apply(c,arguments)};d.apply(c,c);window.utag&&window.utag.link(dl)})(window.dataLayer||[]);</script><script type="text/javascript" id="" charset="">window.didomiCheckApprovedConsents=function(a){a.includes("geolocation_data")&&a.includes("device_characteristics")&&a.includes("select_basic_ads")&&a.includes("create_ads_profile")&&a.includes("select_personalized_ads")&&a.includes("improve_products")&&a.includes("select_personalized_content")&&window.dataLayer.push({event:"cookie_cat_marketing"});a.includes("geolocation_data")&&a.includes("device_characteristics")&&a.includes("measure_ad_performance")&&a.includes("measure_content_performance")&&
+window.dataLayer.push({event:"cookie_cat_statistic"});a.includes("cookies")&&a.includes("create_content_profile")&&window.dataLayer.push({event:"cookie_cat_functional"})};window.didomiOnReady=window.didomiOnReady||[];window.didomiOnReady.push(function(){Didomi.on("consent.changed",function(){window.didomiCheckApprovedConsents(Didomi.getUserStatus().purposes.consent.enabled)})});window.didomiOnReady.push(function(a){window.didomiCheckApprovedConsents(a.getUserStatus().purposes.consent.enabled)});</script><script type="text/javascript" id="" charset="">var dl={};(function(c){function d(){for(var a=0,b=arguments;a<b.length;a++)if(!b[a].event||b[a].event&&-1===b[a].event.indexOf("gtm.js")&&-1===b[a].event.indexOf("gtm.dom")&&-1===b[a].event.indexOf("gtm.load"))for(i in b[a])dl[i]=b[a][i]}var e=c.push;c.push=function(){d.apply(this,arguments);e.apply(c,arguments)};d.apply(c,c);window.utag&&window.utag.link(dl)})(window.dataLayer||[]);</script><script type="text/javascript" id="" charset="">var dl={};(function(c){function d(){for(var a=0,b=arguments;a<b.length;a++)if(!b[a].event||b[a].event&&-1===b[a].event.indexOf("gtm.js")&&-1===b[a].event.indexOf("gtm.dom")&&-1===b[a].event.indexOf("gtm.load"))for(i in b[a])dl[i]=b[a][i]}var e=c.push;c.push=function(){d.apply(this,arguments);e.apply(c,arguments)};d.apply(c,c);window.utag&&window.utag.link(dl)})(window.dataLayer||[]);</script><script type="text/javascript" id="" charset="">var dl={};(function(c){function d(){for(var a=0,b=arguments;a<b.length;a++)if(!b[a].event||b[a].event&&-1===b[a].event.indexOf("gtm.js")&&-1===b[a].event.indexOf("gtm.dom")&&-1===b[a].event.indexOf("gtm.load"))for(i in b[a])dl[i]=b[a][i]}var e=c.push;c.push=function(){d.apply(this,arguments);e.apply(c,arguments)};d.apply(c,c);window.utag&&window.utag.link(dl)})(window.dataLayer||[]);</script><script type="text/javascript" id="" charset="">(function(){null==window.sessionStorage.getItem("dom_ready")&&window.sessionStorage.setItem("dom_ready",Math.floor(Date.now()/1E3));var c=setInterval(function(){if("yes"!=window.sessionStorage.getItem("dom_ready")){var a=Math.floor(Date.now()/1E3),b=parseInt(window.sessionStorage.getItem("dom_ready"));3<a-b&&(window.dataLayer=window.dataLayer||[],dataLayer.push({event:"light_engagement"}),clearInterval(c),window.sessionStorage.setItem("dom_ready","yes"))}},1E3)})();</script><script type="text/javascript" id="" charset="">var dl={};(function(c){function d(){for(var a=0,b=arguments;a<b.length;a++)if(!b[a].event||b[a].event&&-1===b[a].event.indexOf("gtm.js")&&-1===b[a].event.indexOf("gtm.dom")&&-1===b[a].event.indexOf("gtm.load"))for(i in b[a])dl[i]=b[a][i]}var e=c.push;c.push=function(){d.apply(this,arguments);e.apply(c,arguments)};d.apply(c,c);window.utag&&window.utag.link(dl)})(window.dataLayer||[]);</script><iframe marginwidth="0" marginheight="0" scrolling="no" frameborder="0" id="180cdf92b5b01f" width="0" height="0" src="about:blank" name="__pb_locator__" style="display: none; height: 0px; width: 0px; border: 0px;"></iframe><iframe src="https://gum.criteo.com/syncframe?origin=publishertagids&amp;topUrl=gaffa.dk&amp;gdpr=0&amp;gdpr_consent=#{&quot;bundle&quot;:{&quot;origin&quot;:0},&quot;optout&quot;:{&quot;value&quot;:false,&quot;origin&quot;:0},&quot;tld&quot;:&quot;gaffa.dk&quot;,&quot;topUrl&quot;:&quot;gaffa.dk&quot;,&quot;version&quot;:110116,&quot;origin&quot;:&quot;publishertagids&quot;,&quot;requestId&quot;:&quot;0.006390869975975155&quot;}" width="0" height="0" frameborder="0" sandbox="allow-scripts allow-same-origin" aria-hidden="true" tabindex="-1" title="Criteo GUM iframe" style="border-width: 0px; margin: 0px; display: none;"></iframe><iframe name="google_ads_top_frame" id="google_ads_top_frame" style="display: none; position: fixed; left: -999px; top: -999px; width: 0px; height: 0px;"></iframe><iframe src="https://www.google.com/recaptcha/api2/aframe" width="0" height="0" style="display: none;"></iframe><img src="https://d22i50b931b1j0.cloudfront.net/timing_track.gif?downlink=9.3&amp;Page_start=0&amp;ConceptAds_requested=4.249200000000012&amp;ConceptAds_downloaded=0.0754999999999999&amp;Consent_recieved=0.01589999999999403&amp;injectad_recieved=0&amp;First_prebid_auction_Started=0.07720000000001193&amp;First_GAM_request_initiated=1.1105999999999767&amp;First_response_from_GAM=0.06520000000001147&amp;First_ad_loaded=0.4122000000000119" style="display:none" alt="timing-pixel" id="concept-pixel"></body></html>
