@@ -1,7 +1,2 @@
-soundvenue	200		calls=11	links=213	raw=334543	rendered=409931
-soundvenue-musik	200		calls=7	links=170	raw=282497	rendered=344613
-soundvenue-koncerter	404		calls=7	links=22	raw=118605	rendered=145441
-soundvenue-live	200		calls=14	links=4	raw=64004	rendered=71990
-planb	200		calls=56	links=140	raw=21195	rendered=246812
-malmolive-program	200		calls=4	links=533	raw=33921	rendered=434830
-slagthuset-events	200		calls=48	links=241	raw=47410	rendered=286275
+sv-guide-nov	200		calls=12	links=131	raw=219190	rendered=309245
+sv-guide-okt	200		calls=12	links=123	raw=211633	rendered=326477

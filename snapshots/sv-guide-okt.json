@@ -1,0 +1,598 @@
+{
+ "url": "https://soundvenue.com/musik/2026/09/her-er-koncerterne-du-skal-opleve-i-oktober-aphaca-skriver-historie-694944",
+ "status": 200,
+ "err": "",
+ "finalUrl": "https://soundvenue.com/musik/2026/09/her-er-koncerterne-du-skal-opleve-i-oktober-aphaca-skriver-historie-694944",
+ "calls": [
+  {
+   "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-DJQGXNYXYN&gtm=45je6an1v9132026906za208zd9132026906xf1&_p=1793094434445&gcs=G100&gcd=13p3p3l3l5l1&npa=0&dma=0&are=1&cid=626539641.1793094435&frm=0&ngs=1&pscdl=denied&rcb=11&sr=1280x2000&uaa=arm&uab=64&uafvl=Chromium%3B130.0.6723.31%7CHeadlessChrome%3B130.0.6723.31%7CNot%253FA_Brand%3B99.0.0.0&uam=&uamb=0&uap=iOS&uapv=18_0&uaw=0&ul=da-dk&_s=1&tag_exp=115938465~115938469~118897920~118897930~120213116~120385423~120412527~120420415~120469145~120469153~121246026~121246034~123620775&sid=1793094434&sct=1&seg=0&dl=https%3A%2F%2Fsoundvenue.com%2Fmusik%2F2026%2F09%2Fher-er-koncerterne-du-skal-opleve-i-oktober-aphaca-skriver-historie-694944&dt=Her%20er%20koncerterne%2C%20du%20skal%20opleve%20i%20oktober%20%E2%80%93%20Aphaca%20skriver%20historie%20%2F%20Guide&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=635",
+   "method": "POST",
+   "post": "",
+   "status": 204,
+   "ct": "text/plain",
+   "body": ""
+  },
+  {
+   "url": "https://cmp.inmobi.com/geoip",
+   "method": "GET",
+   "post": "",
+   "status": 200,
+   "ct": "application/json",
+   "body": "{\"country\":\"usa\",\"region\":\"az\",\"city\":\"phoenix\"}"
+  },
+  {
+   "url": "https://cmp.inmobi.com/GVL-v3/vendor-list-trimmed-v1.json",
+   "method": "GET",
+   "post": "",
+   "status": 200,
+   "ct": "application/json",
+   "body": "{\"gvlSpecificationVersion\":3,\"vendorListVersion\":182,\"tcfPolicyVersion\":5,\"lastUpdated\":\"2026-10-22T16:00:18Z\",\"purposes\":{\"1\":{\"id\":1,\"name\":\"Store and/or access information on a device\",\"description\":\"Cookies, device or similar online identifiers (e.g. login-based identifiers, randomly assigned identifiers, network based identifiers) together with other information (e.g. browser type and information, language, screen size, supported technologies etc.) can be stored or read on your device to recognise it each time it connects to an app or to a website, for one or several of the purposes presented here.\",\"illustrations\":[\"Most purposes explained in this notice rely on the storage or accessing of information from your device when you use an app or visit a website. For example, a vendor or publisher might need to store a cookie on your device during your first visit on a website, to be able to recognise your device during your next visits (by accessing this cookie each time).\"]},\"2\":{\"id\":2,\"name\":\"Use limited data to select advertising\",\"description\":\"Advertising presented to you on this service can be based on limited data, such as the website or app you are using, your non-precise location, your device type or which content you are (or have been) interacting with (for example, to limit the number of times an ad is presented to you).\",\"illustrations\":[\"A car manufacturer wants to promote its electric vehicles to environmentally conscious users living in the city after office hours. The advertising is presented on a page with related content (such as an article on climate change actions) after 6:30 p.m. to users whose non-precise location suggests that they are in an urban zone.\",\"A large producer of watercolour paints wants to carry out an online advertising campaign for its latest watercolour range, diversifying its audience to reach as many amateur and professional artists as possible and avoiding showing the ad next to mismatched content (for instance, articles about how to paint your house). The number of times that the ad has been presented to you is detected and limited, to avoid presenting it too often.\"]},\"3\":{\"id\":3,\"name\":\"Create profiles for personalised advertising\",\"description\":\"Information about your activity on this service (such as forms you submit, content you look at) can be stored and combined with other information about you (for example, information from your previous activity on this service and other websites or apps) or similar users. This is then used to build or improve a profile about you (that might include possible interests and personal aspects). Your profile can be used (also later) to present advertising that appears more relevant based on your possible interests by this and other entities.\",\"illustrations\":[\"If you read several articles about the best bike accessories to buy, this information could be used to create a profile about your interest in bike accessories. Such a profile may be used or improved later on, on the same or a different website or app to present you with advertising for a particular bike accessory brand. If you also look at a configurator for a vehicle on a luxury car manufacturer website, this information could be combined with your interest in bikes to refine your profile and make an assumption that you are interested in luxury cycling gear.\",\"An apparel company wishes to promote its new line of high-end baby clothes. It gets in touch with an agency that has a network of clients with high income customers (such as high-end supermarkets) and asks the agency to create profiles of young parents or couples who can be assumed to be wealthy and to have a new child, so that these can later be used to present advertising within partner apps based on those profiles.\"]},\"4\":{\"id\":4,\"name\":\"Use profiles to select personalised advertising\",\"description\":\"Advertising presented to you on this service can be based on your advertising profiles, which can reflect your activity on this service or other websites or apps (like the forms you submit, content you look at), possible interests and personal aspects.\",\"illustrations\":[\"An online retailer wants to advertise a limited sale on running shoes. It wants to target advertising to users who previously looked at running shoes on its mobile app. Tracking technologies might be used to recognise that you have previously used the mobile app to consult running shoes, in order to present you with the corresponding advertisement on the app.\",\"A profile created for personalised advertising in relation to a person having searched for bike accessories on a website can be used to present the relevant advertisement for bike accessories on a mobile app of another organisation.\"]},\"5\":{\"id\":5,\"name\":\"Create profiles to personalise content\",\"description\":\"Information about your activity on this service (for instance, forms you submit, non-advertising content you look at) can be stored and combined with other information about you (such as your previous activity on this service or other websites or apps) or similar users. This is then used to build or improve a profile about you (which might for example include possible interests and personal aspects). Your profile can be used (also later) to present content that appears more relevant based on your possible interests, such as by adapting the order in which content is shown to you, so that it is even easier for you to find content that matches your interests.\",\"illustrations\":[\"You read several articles on how to build a treehouse on a social media platform. This information might be added to a profile to mark your interest in content related to outdoors as well as do-it-yourself guides (with the objective of allowing the personalisation of content, so that for example you are presented with more blog posts and articles on treehouses and wood cabins in the future).\",\"You have viewed three videos on space exploration across different TV apps. An unrelated news platform\n…[afkortet]"
+  },
+  {
+   "url": "https://soundvenue.com/entry_views.php",
+   "method": "POST",
+   "post": "action=entry_views&post_id=694944",
+   "status": 200,
+   "ct": "text/html; charset=UTF-8",
+   "body": ""
+  },
+  {
+   "url": "https://delivery.soundvenue.com/i?tzo=0&abv=92ca43&network=nhjy&noCookies=true&gdpr=0&tt=multi&screen=1280x2000&viewport=1280x2000",
+   "method": "POST",
+   "post": "{\"adUnits\":[{\"auId\":\"41e707\",\"targetId\":\"sva-mob1\",\"kv\":{\"svTags\":[\"all\",\"svmusik\",\"aphaca\",\"faza\",\"icekiid\",\"miaw\",\"sira jovina\",\"slayyyter\",\"id694944\"],\"svHeadtrack\":[\"all\",\"musik\"],\"svType\":[\"article\"],\"svSite\":\"soundvenue.com\",\"svDeviceSize\":\"desktop\",\"svUnit\":\"top\",\"svUnitGroup\":\"top\"}},{\"auId\":\"41e6ff\",\"targetId\":\"sva-mob_1x1\",\"kv\":{\"svTags\":[\"all\",\"svmusik\",\"aphaca\",\"faza\",\"icekiid\",\"miaw\",\"sira jovina\",\"slayyyter\",\"id694944\"],\"svHeadtrack\":[\"all\",\"musik\"],\"svType\":[\"article\"],\"svSite\":\"soundvenue.com\",\"svDeviceSize\":\"desktop\",\"svUnit\":\"ol\",\"svUnitGroup\":\"ol\"}},{\"auId\":\"41e6f3\",\"targetId\":\"sva-inarticle_mob_last\",\"kv\":{\"svTags\":[\"all\",\"svmusik\",\"aphaca\",\"faza\",\"icekiid\",\"miaw\",\"sira jovina\",\"slayyyter\",\"id694944\"],\"svHeadtrack\":[\"all\",\"musik\"],\"svType\":[\"article\"],\"svSite\":\"soundvenue.com\",\"svDeviceSize\":\"desktop\",\"svUnit\":\"ia-last\",\"svUnitGroup\":\"ia\"}},{\"auId\":\"41e6f3\",\"targetId\":\"sva-inarticle_mob_1\",\"kv\":{\"svTags\":[\"all\",\"svmusik\",\"aphaca\",\"faza\",\"icekiid\",\"miaw\",\"sira jovina\",\"slayyyter\",\"id694944\"],\"svHeadtrack\":[\"all\",\"musik\"],\"svType\":[\"article\"],\"svSite\":\"soundvenue.com\",\"svDeviceSize\":\"desktop\",\"svUnit\":\"ia-1\",\"svUnitGroup\":\"ia\"}},{\"auId\":\"41e6f3\",\"targetId\":\"sva-inarticle_mob_2\",\"kv\":{\"svTags\":[\"all\",\"svmusik\",\"aphaca\",\"faza\",\"icekiid\",\"miaw\",\"sira jovina\",\"slayyyter\",\"id694944\"],\"svHeadtrack\":[\"all\",\"musik\"],\"svType\":[\"article\"],\"svSite\":\"soundvenue.com\",\"svDeviceSize\":\"desktop\",\"svUnit\":\"ia-2\",\"svUnitGroup\":\"ia\"}},{\"auId\":\"41e6f3\",\"targetId\":\"sva-inarticle_mob_3\",\"kv\":{\"svTags\":[\"all\",\"svmusik\",\"aphaca\",\"faza\",\"icekiid\",\"miaw\",\"sira jovina\",\"slayyyter\",\"id694944\"],\"svHeadtrack\":[\"all\",\"musik\"],\"svType\":[\"article\"],\"svSite\":\"soundvenue.com\",\"svDeviceSize\":\"desktop\",\"svUnit\":\"ia-3\",\"svUnitGroup\":\"ia\"}},{\"auId\":\"41e6f3\",\"targetId\":\"sva-inarticle_mob_4\",\"kv\":{\"svTags\":[\"all\",\"svmusik\",\"aphaca\",\"faza\",\"icekiid\",\"miaw\",\"sira jovina\",\"slayyyter\",\"id694944\"],\"svHeadtrack\":[\"all\",\"musik\"],\"svType\":[\"article\"],\"svSite\":\"soundvenue.com\",\"svDeviceSize\":\"deskt\n…[afkortet]",
+   "status": 200,
+   "ct": "application/json;charset=utf-8",
+   "body": "{\n\n    \"adUnits\": [\n    \n        {\n        \"auId\": \"41e6f3\",\n        \"targetId\": \"sva-inarticle_mob_2\",\n        \n        \"html\": \"\\u003C!DOCTYPE html\\u003E\\n\\u003Chtml\\u003E\\n\\u003Chead\\u003E\\n    \\u003Cmeta charset=\\\"utf-8\\\"\\u003E\\n    \\u003Cstyle media=\\\"all\\\"\\u003E\\n        html, body, .responseCtr {\\n            margin: 0;\\n            padding: 0;\\n            outline: 0;\\n            border: 0;\\n            overflow: hidden;\\n        }\\n\\n        .responseCtr {\\n            display: inline-block;\\n            line-height: 0;\\n            vertical-align: top;\\n        }\\n\\n        .responseCtr a {\\n            line-height: 0;\\n        }\\n\\n        .responseCtr *, .responseCtr a * {\\n            line-height: normal;\\n        }\\n\\n        .responseCtr .contentWrapperPerItem {\\n            margin: 0;\\n            padding: 0;\\n            outline: 0;\\n            border: 0;\\n            display: inline-block;\\n            line-height: 0;\\n            vertical-align: top;\\n        }\\n\\n        a img {\\n            border: none;\\n            outline: none;\\n        }\\n\\n        img {\\n            margin: 0;\\n            padding: 0;\\n        }\\n\\n        /* need this displayNone class to ensure images are preloaded for smooth transition */\\n        img.displayNone {\\n            position: absolute;\\n            top: -99999px;\\n            left: -99999px;\\n        }\\n\\n        .contentWrapperTrailer {\\n            clear: both;\\n        }\\n    \\u003C/style\\u003E\\u003Cscript src=\\\"https://cdn.adnuntius.com/adn.js\\\"\\u003E\\u003C/script\\u003E\\n\\n\\u003C/head\\u003E\\n\\u003Cbody\\u003E\\n\\u003Cdiv id=\\\"adn-rsp-544909083\\\" data-network=\\\"41d30c\\\" data-au-id=\\\"41e6f3\\\" data-target-id=\\\"sva-inarticle_mob_2\\\" data-adserver-host=\\\"delivery.soundvenue.com\\\" class=\\\"responseCtr\\\"\\u003E\\n    \\u003Cdiv class=\\\"contentWrapperPerItem\\\" id=\\\"adn-id-1350464975\\\" data-line-item-id=\\\"be4ae3wryhev6kso\\\" data-creative-id=\\\"2ca84vt4hldehv82\\\" data-creative-width=\\\"1\\\" data-creative-height=\\\"1\\\" data-response-token=\\\"pX1QmcpwfXAdB9NVkY6MmGLj1XybChP-CL8SKWhSh-oAAAAQCtjQz9kbGWD4nuZy3q6HaHGLA4Oq-PeXUhCFPLiKIImj8k8APFSvWp7bwa7pQCpCy16GTytc_hi12WydwSZPsPfw2QxHeY6dqYwhCJBlkDwX4Hxk51dQZS6pMq83EjV1UM9CBosZoBVht7TGXb6UuOkOeIv3aEvZZBvBCkp8lazKoEsCD72IYuN5C6JtdZKfGCkuoj2bZei935h5mKw8eR1DuNAM9r14AdNjTmr2qvPTvknJ_bP--CQYcdQuU-AmYIT0v72MUqa8lzaR_HHVv_LOA9KG1r7YDkqreBESpNygdj_yBH7LaqA18sd5sdJAu93eKaGEmrT9ZTEXiFI8m1biR-PR6xLdyrbeiNstYqBYMMbLqwlHW8nFxduTi7qnJ9htvES1Kg\\\" \\u003E\\u003C!-- adnOptionContainerDiv --\\u003E\\n\\u003Cdiv class=\\\"Campaign Campaign--inArticle Campaign-idadn-id-1350464975\\\"\\u003E\\n  \\u003Cdiv id=\\\"cncpt-inarticle_dsk_last_front\\\" class=\\\"in-article-front in-article-size specialcode type_last waittoend_true\\\"\\u003E\\n    \\u003Cdiv class=\\\"in-article-top\\\"\\u003E\\u003C/div\\u003E\\n    \\u003Cdiv class=\\\"in-article-border-top\\\"\\u003E\\u003C/div\\u003E\\n    \\u003Cdiv class=\\\"in-article-bordertext-container\\\"\\u003E\\u003Cdiv class=\\\"in-article-bordertext\\\"\\u003EAnnonce\\u003C/div\\u003E\\u003C/div\\u003E\\n  \\u003C/div\\u003E \\n  \\u003Cdiv class=\\\"creative-container in-article-size\\\"\\u003E \\n  \\u003C/div\\u003E\\n  \\u003Cdiv id=\\\"cncpt-inarticle_dsk_2_back\\\" class=\\\"in-article-back specialcode in-article-size type_number_2 waittoend_true\\\" style=\\\"\\\"\\u003E\\n  \\t\\u003Cdiv class=\\\"in-article-border-bottom\\\"\\u003E\\u003C/div\\u003E\\n  \\u003C/div\\u003E  \\n\\u003C/div\\u003E \\n\\u003Cscript\\u003E\\n  // Globalt data object\\n  window.adDataStore = window.adDataStore || {}; \\n\\n  // Gem data med iframe ID som key\\n  window.adDataStore[adn.inIframe.getIframeId()] = {\\n    template: \\u0027midscroll_01_layer\\u0027,\\n    adnAdId: \\u0027adn-id-1350464975\\u0027,\\n    clickURL: \\u0027https://delivery.soundvenue.com/c/pX1QmcpwfXAdB9NVkY6MmGLj1XybChP-CL8SKWhSh-oAAAAQCtjQz9kbGWD4nuZy3q6HaHGLA4Oq-PeXUhCFPLiKIImj8k8APFSvWp7bwa7pQCpCy16GTytc_hi12WydwSZPsPfw2QxHeY6dqYwhCJBlkDwX4Hxk51dQZS6pMq83EjV1UM9CBosZoBVht7TGXb6UuOkOeIv3aEvZZBvBCkp8lazKoEsCD72IYuN5C6JtdZKfGCkuoj2bZei935h5mKw8eR1DuNAM9r14AdNjTmr2qvPTvknJ_bP--CQYcdQuU-AmYIT0v72MUqa8lzaR_HHVv_LOA9KG1r7YDkqreBESpNygdj_yBH7LaqA18sd5sdJAu93eKaGEmrT9ZTEXiFI8m1biR-PR6xLdyrbeiNstYqBYMMbLqwlHW8nFxduTi7qnJ9htvES1Kg\\u0027,\\n    landingPage: \\u0027https://politiken.dk/kampagner/art10484879/Kom-p%C3%A5-et-medie-der-tager-det-sociale-seri%C3%B8st?utm_source=soundvenue\\u0026utm_medium=midscroll+\\u0026utm_campaign=detsocialemedie\\u0027,\\n    templateType: \\u0027Original\\u0027,\\n    templateSize: \\u0027Normal\\u0027,\\n    background: {\\n      backgroundFormat: \\u0027Video\\u0027, \\n      backgroundImage: \\u0027\\u0027,\\n      backgroundImageMobile: \\u0027\\u0027,                \\n      backgroundVideo: \\u0027https://assets.soundvenue.com/cgbaag/0pvmrccq75tfbbgv6rvyv8z3rtpwj85bpgzppvtddvzr3ltfdd.mp4\\u0027,\\n      backgroundVideoMobile: \\u0027https://assets.soundvenue.com/cgbaag/zhdtv09rq5cb1gpvhdqwy1b0tdlhkj2fj791c1ps0gc012gfl2.mp4\\u0027,\\n      backgroundHTML: \\u0027\\u0027,                \\n      backgroundHTMLMobile: \\u0027\\u0027,    \\n      backgroundURL: \\u0027\\u0027,            \\n    }        \\n  }; \\n\\u003C/script\\u003E\\n\\u003Cscript\\u003E\\n(function() {\\n  const data = window.adDataStore[adn.inIframe.getIframeId()];\\n  const errors = [];\\n\\n\\n  if (window.adn_preview) {\\n      const urlParams = new URLSearchParams(window.location.search);\\n\\n      function setNestedProperty(obj, path, value) {\\n          const keys = path.split(\\u0027.\\u0027);\\n          let current = obj;\\n\\n          // Gå ned til næstsidste level\\n          for (let i = 0; i \\u003C keys.length - 1; i++) {\\n              if (!(keys[i] in current)) {\\n                  current[keys[i]] = {}; // Opret object hvis det ikke findes\\n              }\\n              current = current[keys[i]];\\n          }\\n\\n          // Sæt værdien på sidste key\\n          current[keys[keys.length - 1]] = value;\\n      }\\n\\n      // Derefter override med URL parametre\\n      for (const [key, value] of urlParams) {\\n          if (key.startsWith(\\u0027o_\\u0027)) {\\n              co\n…[afkortet]"
+  },
+  {
+   "url": "https://delivery.soundvenue.com/s?tzo=0&screen=1280x2000&rt=k9IPEQXd3m5p5qi3X1NqL5kLUaXl1U8xE4kDsnzNgUoAAAAQCtjQz9kbGWD4nuZy3q6HaHGLA4Oq-PeXUhCFPLiKIImj8k8APFSvWp7bwa7pQCpCy16GTytc_hi15TahwT476_Pw2QxHeI6dqYwhCJBloDwX4HxU51dQZS6pMq83EjV1UM9CBosZoBVht7TGXb6UuOkOeIv3aGrJZxCcDRgvkPLDoE1WDeSFZbAqAa9uc5bPT3x99GjPMrK6w5h9m-UpeUFfossG5K5zGsMoA2b06LHLuFPLua78-iABbt04FO0xP8zj4PuIU6u6gDCA623e97vfW4ye3LOZTFW3cQIB7JjkNDvtH3PMff95499ws9AM5cXHMr6Xjeu4ZCsQk08nlx75SO7c5hL6srPJxJ8ubLBzaN2WMob7Nh8PFeNuxThM",
+   "method": "POST",
+   "post": "{\"metaData\":{\"i\":\"0AAAAAaPmgdcGAQAAAADuoqMFAA==\",\"usi\":\"41d30c!adnck8a4a79dc78282b1c\"}}",
+   "status": 200,
+   "ct": "application/json",
+   "body": "{\"metaData\":{},\"network\":\"41d30c\"}"
+  },
+  {
+   "url": "https://delivery.soundvenue.com/b?tzo=0&tripTime=698&screen=1280x2000",
+   "method": "POST",
+   "post": "{\"rts\":[\"pX1QmcpwfXAdB9NVkY6MmGLj1XybChP-CL8SKWhSh-oAAAAQCtjQz9kbGWD4nuZy3q6HaHGLA4Oq-PeXUhCFPLiKIImj8k8APFSvWp7bwa7pQCpCy16GTytc_hi12WydwSZPsPfw2QxHeY6dqYwhCJBlkDwX4Hxk51dQZS6pMq83EjV1UM9CBosZoBVht7TGXb6UuOkOeIv3aEvZZBvBCkp8lazKoEsCD72IYuN5C6JtdZKfGCkuoj2bZei935h5mKw8eR1DuNAM9r14AdNjTmr2qvPTvknJ_bP--CQYcdQuU-AmYIT0v72MUqa8lzaR_HHVv_LOA9KG1r7YDkqreBESpNygdj_yBH7LaqA18sd5sdJAu93eKaGEmrT9ZTEXiFI8m1biR-PR6xLdyrbeiNstYqBYMMbLqwlHW8nFxduTi7qnJ9htvES1Kg\",\"k9IPEQXd3m5p5qi3X1NqL5kLUaXl1U8xE4kDsnzNgUoAAAAQCtjQz9kbGWD4nuZy3q6HaHGLA4Oq-PeXUhCFPLiKIImj8k8APFSvWp7bwa7pQCpCy16GTytc_hi15TahwT476_Pw2QxHeI6dqYwhCJBloDwX4HxU51dQZS6pMq83EjV1UM9CBosZoBVht7TGXb6UuOkOeIv3aGrJZxCcDRgvkPLDoE1WDeSFZbAqAa9uc5bPT3x99GjPMrK6w5h9m-UpeUFfossG5K5zGsMoA2b06LHLuFPLua78-iABbt04FO0xP8zj4PuIU6u6gDCA623e97vfW4ye3LOZTFW3cQIB7JjkNDvtH3PMff95499ws9AM5cXHMr6Xjeu4ZCsQk08nlx75SO7c5hL6srPJxJ8ubLBzaN2WMob7Nh8PFeNuxThM\",\"m4m4IhjBA4mpLez5fDEjVpTzov_g4JCr8xC-7lVe1akAAAAQCtjQz9kbGWD4nuZy3q6HaHGLA4Oq-PeXUhCFPLiKIImj8k8APFSvWp7bwa7pQCpCy16GTytc_hi1q2mdwfZ9a-RoTw2j7_oqOwWhaBp1WQtfB1PQLxIbUjSh8kWpSU53X5lAWdJPrRA1ueiXUrTEsbifTBj7apsWUAOUW0J6kaSY90RQX7LeMbp-AfZpfZPNG3t_8m3MM7G3noNhn-JjJVQD4s0H9bZyAtMjWGC15vHL4k3Xoeil5SAHc9suC7x7JYT0v7OREa62iyGR_GvV4PjeA8WYmqGeAFbqchcb7MPoND2rBHfad-8x8IJ5otsMq9eBM7yTge_wfm8LjlMhkQm9G_re5hL3jfSp1sQiLrtCONfTpzVGUfT3mB4wKNk7kZ0McsfahRZDTMFhRQ\",\"LohJJgR_QMqmJIJLFZSJS_Zn5jxsUhUiPxz3w66b5k4AAAAQCtjQz9kbGWD4nuZy3q6HaHGLA4Oq-PeXUhCFPLiKIImj8k8APFSvWp7bwa7pQCpCy16GTytc_hi1j3edwS5lqvfw2QxHeY6dqYwhCJBlkDwX4Hxk51dQZS6pMq83EjV1UM9CBosZoBVht7TGXb6UuOkOeIv3aEvZZBvBCkp8lazKoEsCD72IYuN5C6JtdZKfGCkuoj2bZei935h5mKw8eR1DuNAM9r14AdNjTmr2qvPTvknJ_bP--CQYcdQuU-AmYIT0v72MUqa8lzaR_HHVv_LOA9KG1r7YDkqreBESpNygdj_yBH7LaqA18sd5sdJAu93eKaGEmrT9ZTEXiFI8m1biR-PR6xLdyrbeiNstYqBYMMbLqwlHW8nFxL2ei7qnUv1tvES1Kg\",\"0FeROzS34HQYnhbswjlaKYXKcIpuXLP6E2sRgEsYHOwAAAAQCtjQz9kbGWD4nuZy3q6HaHGLA4Oq-PeXUhCFPLiKIImj8k8APFSvWp7bwa7pQCpCy16GTytc_hi1uQegwT4HmvXw2QxHeY6drowhCJBlkDwX4Nx4k3pCbS6p8oVDFz94WJwbU95Prkhm47vMV7TE67uejn74kGzJZxCcD\n…[afkortet]",
+   "status": 200,
+   "ct": "application/json",
+   "body": "{\"metaData\":{\"usi\":\"41d30c!adnck8a4a79dc78282b1c\"},\"network\":\"41d30c\"}"
+  },
+  {
+   "url": "https://delivery.soundvenue.com/v?tzo=0&screen=1280x2000&rt=k9IPEQXd3m5p5qi3X1NqL5kLUaXl1U8xE4kDsnzNgUoAAAAQCtjQz9kbGWD4nuZy3q6HaHGLA4Oq-PeXUhCFPLiKIImj8k8APFSvWp7bwa7pQCpCy16GTytc_hi15TahwT476_Pw2QxHeI6dqYwhCJBloDwX4HxU51dQZS6pMq83EjV1UM9CBosZoBVht7TGXb6UuOkOeIv3aGrJZxCcDRgvkPLDoE1WDeSFZbAqAa9uc5bPT3x99GjPMrK6w5h9m-UpeUFfossG5K5zGsMoA2b06LHLuFPLua78-iABbt04FO0xP8zj4PuIU6u6gDCA623e97vfW4ye3LOZTFW3cQIB7JjkNDvtH3PMff95499ws9AM5cXHMr6Xjeu4ZCsQk08nlx75SO7c5hL6srPJxJ8ubLBzaN2WMob7Nh8PFeNuxThM&v60=1&v70=1&v80=1&v90=1&v95=1&v100=1",
+   "method": "POST",
+   "post": "{\"metaData\":{\"usi\":\"41d30c!adnck8a4a79dc78282b1c\"}}",
+   "status": 200,
+   "ct": "application/json",
+   "body": "{\"metaData\":{},\"network\":\"41d30c\"}"
+  },
+  {
+   "url": "https://assets.adnami.io/assets/7aa74fa4-04aa-4c84-b446-2c02d62ecd8b/midscroll_mobile_banner_placeholder/video_mp4/20261012105559_bygh/dash.mpd?639274016437378620",
+   "method": "GET",
+   "post": "",
+   "status": 200,
+   "ct": "application/dash+xml",
+   "body": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<MPD xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n\txmlns=\"urn:mpeg:dash:schema:mpd:2011\"\n\txmlns:xlink=\"http://www.w3.org/1999/xlink\"\n\txsi:schemaLocation=\"urn:mpeg:DASH:schema:MPD:2011 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd\"\n\tprofiles=\"urn:mpeg:dash:profile:isoff-live:2011\"\n\ttype=\"static\"\n\tmediaPresentationDuration=\"PT17.2S\"\n\tmaxSegmentDuration=\"PT2.0S\"\n\tminBufferTime=\"PT4.0S\">\n\t<ProgramInformation>\n\t</ProgramInformation>\n\t<ServiceDescription id=\"0\">\n\t</ServiceDescription>\n\t<Period id=\"0\" start=\"PT0.0S\">\n\t\t<AdaptationSet id=\"0\" contentType=\"video\" startWithSAP=\"1\" segmentAlignment=\"true\" bitstreamSwitching=\"true\" frameRate=\"25/1\" maxWidth=\"1080\" maxHeight=\"1920\" par=\"9:16\" lang=\"und\">\n\t\t\t<Representation id=\"0\" mimeType=\"video/mp4\" codecs=\"avc1.640032\" bandwidth=\"210423\" width=\"720\" height=\"1280\" sar=\"1:1\">\n\t\t\t\t<BaseURL>dash-stream0.mp4</BaseURL>\n\t\t\t\t<SegmentList timescale=\"1000000\" duration=\"2000000\" startNumber=\"1\">\n\t\t\t\t\t<Initialization range=\"0-859\" />\n\t\t\t\t\t<SegmentURL mediaRange=\"860-49942\" indexRange=\"860-911\" />\n\t\t\t\t\t<SegmentURL mediaRange=\"49943-84334\" indexRange=\"49943-49994\" />\n\t\t\t\t\t<SegmentURL mediaRange=\"84335-168783\" indexRange=\"84335-84386\" />\n\t\t\t\t\t<SegmentURL mediaRange=\"168784-212905\" indexRange=\"168784-168835\" />\n\t\t\t\t\t<SegmentURL mediaRange=\"212906-283084\" indexRange=\"212906-212957\" />\n\t\t\t\t\t<SegmentURL mediaRange=\"283085-346930\" indexRange=\"283085-283136\" />\n\t\t\t\t\t<SegmentURL mediaRange=\"346931-378724\" indexRange=\"346931-346982\" />\n\t\t\t\t\t<SegmentURL mediaRange=\"378725-451530\" indexRange=\"378725-378776\" />\n\t\t\t\t\t<SegmentURL mediaRange=\"451531-475678\" indexRange=\"451531-451582\" />\n\t\t\t\t</SegmentList>\n\t\t\t</Representation>\n\t\t\t<Representation id=\"1\" mimeType=\"video/mp4\" codecs=\"avc1.640032\" bandwidth=\"618350\" width=\"720\" height=\"1280\" sar=\"1:1\">\n\t\t\t\t<BaseURL>dash-stream1.mp4</BaseURL>\n\t\t\t\t<SegmentList timescale=\"1000000\" duration=\"2000000\" startNumber=\"1\">\n\t\t\t\t\t<Initialization range=\"0-859\" />\n\t\t\t\t\t<SegmentURL mediaRange=\"860-164282\" indexRange=\"860-911\" />\n\t\t\t\t\t<SegmentURL mediaRange=\"164283-282104\" indexRange=\"164283-164334\" />\n\t\t\t\t\t<SegmentURL mediaRange=\"282105-510606\" indexRange=\"282105-282156\" />\n\t\t\t\t\t<SegmentURL mediaRange=\"510607-658458\" indexRange=\"510607-510658\" />\n\t\t\t\t\t<SegmentURL mediaRange=\"658459-839280\" indexRange=\"658459-658510\" />\n\t\t\t\t\t<SegmentURL mediaRange=\"839281-1048164\" indexRange=\"839281-839332\" />\n\t\t\t\t\t<SegmentURL mediaRange=\"1048165-1158361\" indexRange=\"1048165-1048216\" />\n\t\t\t\t\t<SegmentURL mediaRange=\"1158362-1339466\" indexRange=\"1158362-1158413\" />\n\t\t\t\t\t<SegmentURL mediaRange=\"1339467-1414329\" indexRange=\"1339467-1339518\" />\n\t\t\t\t</SegmentList>\n\t\t\t</Representation>\n\t\t\t<Representation id=\"2\" mimeType=\"video/mp4\" codecs=\"avc1.640033\" bandwidth=\"1376554\" width=\"1080\" height=\"1920\" sar=\"1:1\">\n\t\t\t\t<BaseURL>dash-stream2.mp4</BaseURL>\n\t\t\t\t<SegmentList timescale=\"1000000\" duration=\"2000000\" startNumber=\"1\">\n\t\t\t\t\t<Initialization range=\"0-859\" />\n\t\t\t\t\t<SegmentURL mediaRange=\"860-335834\" indexRange=\"860-911\" />\n\t\t\t\t\t<SegmentURL mediaRange=\"335835-623782\" indexRange=\"335835-335886\" />\n\t\t\t\t\t<SegmentURL mediaRange=\"623783-1030326\" indexRange=\"623783-623834\" />\n\t\t\t\t\t<SegmentURL mediaRange=\"1030327-1396514\" indexRange=\"1030327-1030378\" />\n\t\t\t\t\t<SegmentURL mediaRange=\"1396515-1769168\" indexRange=\"1396515-1396566\" />\n\t\t\t\t\t<SegmentURL mediaRange=\"1769169-2140493\" indexRange=\"1769169-1769220\" />\n\t\t\t\t\t<SegmentURL mediaRange=\"2140494-2474170\" indexRange=\"2140494-2140545\" />\n\t\t\t\t\t<SegmentURL mediaRange=\"2474171-2909760\" indexRange=\"2474171-2474222\" />\n\t\t\t\t\t<SegmentURL mediaRange=\"2909761-3120820\" indexRange=\"2909761-2909812\" />\n\t\t\t\t</SegmentList>\n\t\t\t</Representation>\n\t\t\t<Representation id=\"3\" mimeType=\"video/mp4\" codecs=\"avc1.640033\" bandwidth=\"723867\" width=\"1080\" height=\"1920\" sar=\"1:1\">\n\t\t\t\t<BaseURL>dash-stream3.mp4</BaseURL>\n\t\t\t\t<SegmentList timescale=\"1000000\" duration=\"2000000\" startNumber=\"1\">\n\t\t\t\t\t<Initialization range=\"0-860\" />\n\t\t\t\t\t<SegmentURL mediaRange=\"861-183351\" indexRange=\"861-912\" />\n\t\t\t\t\t<SegmentURL mediaRange=\"183352-331608\" indexRange=\"183352-183403\" />\n\t\t\t\t\t<SegmentURL mediaRange=\"331609-616866\" indexRange=\"331609-331660\" />\n\t\t\t\t\t<SegmentURL mediaRange=\"616867-776137\" indexRange=\"616867-616918\" />\n\t\t\t\t\t<SegmentURL mediaRange=\"776138-994433\" indexRange=\"776138-776189\" />\n\t\t\t\t\t<SegmentURL mediaRange=\"994434-1235603\" indexRange=\"994434-994485\" />\n\t\t\t\t\t<SegmentURL mediaRange=\"1235604-1370969\" indexRange=\"1235604-1235655\" />\n\t\t\t\t\t<SegmentURL mediaRange=\"1370970-1587165\" indexRange=\"1370970-1371021\" />\n\t\t\t\t\t<SegmentURL mediaRange=\"1587166-1665138\" indexRange=\"1587166-1587217\" />\n\t\t\t\t</SegmentList>\n\t\t\t</Representation>\n\t\t\t<Representation id=\"4\" mimeType=\"video/mp4\" codecs=\"avc1.640033\" bandwidth=\"360953\" width=\"1080\" height=\"1920\" sar=\"1:1\">\n\t\t\t\t<BaseURL>dash-stream4.mp4</BaseURL>\n\t\t\t\t<SegmentList timescale=\"1000000\" duration=\"2000000\" startNumber=\"1\">\n\t\t\t\t\t<Initialization range=\"0-860\" />\n\t\t\t\t\t<SegmentURL mediaRange=\"861-77915\" indexRange=\"861-912\" />\n\t\t\t\t\t<SegmentURL mediaRange=\"77916-141368\" indexRange=\"77916-77967\" />\n\t\t\t\t\t<SegmentURL mediaRange=\"141369-292680\" indexRange=\"141369-141420\" />\n\t\t\t\t\t<SegmentURL mediaRange=\"292681-371532\" indexRange=\"292681-292732\" />\n\t\t\t\t\t<SegmentURL mediaRange=\"371533-486513\" indexRange=\"371533-371584\" />\n\t\t\t\t\t<SegmentURL mediaRange=\"486514-592847\" indexRange=\"486514-486565\" />\n\t\t\t\t\t<SegmentURL mediaRange=\"592848-653552\" indexRange=\"592848-592899\" />\n\t\t\t\t\t<SegmentURL mediaRange=\"653553-775962\" indexRange=\"653553-653604\" />\n\t\t\t\t\t<SegmentURL mediaRange=\"775963-814517\" indexRange=\"775963-776014\" />\n\t\t\t\t</SegmentList>\n\t\t\t</Representation>\n\t\t\t<Representation id=\"5\" mimeType=\"video/mp4\" codecs=\"avc1.640032\" bandwidth=\"311941\" width=\"720\" height=\"1280\" sar=\"1:1\">\n\t\t\t\t<BaseURL>dash-stream5.mp4</BaseURL>\n\t\t\t\t<SegmentList timescale=\"1000000\" duration=\"2000000\" startNumber=\"1\">\n\t\t\t\t\t<Initialization range=\"0-859\" />\n\t\t\t\t\t<SegmentURL mediaRange\n…[afkortet]"
+  },
+  {
+   "url": "https://assets.adnami.io/assets/7aa74fa4-04aa-4c84-b446-2c02d62ecd8b/midscroll_mobile_banner_placeholder/video_mp4/20261012105559_bygh/dash-stream12.webm?639274016437378620",
+   "method": "GET",
+   "post": "",
+   "status": 206,
+   "ct": "video/webm",
+   "body": "\u001aEߣ�B��\u0001B��\u0001B�\u0004B�\bB��webmB��\u0002B��\u0002\u0018S�g\u0001�������\u0011M�t�M��S��\u0015I�fS���M��S��\u0016T�kS���M��S��\u0012T�gS��\u0001(�\u0001\u0000\u0000\u0000\u0000\u0000\u0000h\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0015I�f�*ױ�\u000fB@M��Lavf62.12.102WA�Lavf62.12.102\u0016T�k֮\u0001\u0000\u0000\u0000\u0000\u0000\u0000Mׁ\rsň�WQ=��\u0016~��\u0000\"���und��\u0000��V_VP9��\u0001#ツ\u0002bZ\u0000����\u0002к�\u0005\u0000��\u0002U��U��\u0001U��\u0001U��\u0001U��\u0001\u0012T�g�ss�c��gȚE��ENCODERD��Lavf62.12.102\u001fC�u$\u001f��\u0000�\"\u0002a�\u0000\u0000��I�B@,�O�\u00008$\u001c\u0018H\u0010\b���������>�����\u001d\u0003�>�ܿ���?�������\u0017����ٿ\u000f���o������{����\u001f�����\u0017�n������>��T��;����?������Y~��}w����]\\x\u001f����E�Q�\u000b3\u001f�辻���K�w_,{�����Owt��_���G�_�*����?i�S�^��\u0007��s�t�L�����>I��\u001f��\u0013�z�K�6_���\u0002��\\���~\u001f��S����~7���ݮ����k�������=���+R�\\S�\u0004-�dj�OO���{��~\u0017�oٟ���\u0001�q�X\u0000\u0000\u0001\u000e�~X���8�?��\u0006��,\\\\��m�`�\u0012���Z�\u0017�����b\u001f�.�uv��[�O7�MS.�\u001bV�\t��\u0014m��G\n\u0003���\u00151v��M\u001c��]��m��ĔN��;9\f�>�\u0004�\u0018\u0015A�\u001f\u0016�0H�����\u000f�L5V\u001e�)�۵��0R�XY�\u001a��d�bHڧ��\u001f���0�u�\u001bC�t�1��\u0018��Q�\u0006�\u001f\u0000b6Л�=>Vc�e���V\t0�Ծ����\u0013h�\u000fD\u000b�\tߛ�#\u00024x\u0003�3��\u0006���v�\t-'��+ͥR�ߣ��Z$���Y6\u0014\u0010/�+��t�p����Jd��цߛ�\u0019��Nb��_h���!��͇^\u0002\u0017��\u0004�L��%<�fj�M��P�`T9��@� �@\u001b�\u000f�W�\u0010�qF��C/w�\"��P����4�\u001c���)k&�\t�7\u0010�p'��\t�!\u001d��\u000eU\u000b��\f�(����qP�bd�\u001e��6��Z����*�\u0006=eD����k:Q\u001f\u0010��_\"�n����|�s��\u0012iݳ��Z��)�l�Bv\u001e���I�8\u0012�8\u001d\u0017q��\t�\"R\u0012!��4�o��m`&\u0007�\f�N(1\u0012�\u0001�1d@�(0��\u0010��Y�d�V?K��e[5ʤ�gb��?�\b�M\u0010U��a�6-��1�\\Q=�������\f�\u001b'�����D���o�$�fcn�\u001b���\u001dDǤ�}�yU��\r��$>;\u001e�\u0010m\\��>��D�\fW�Z�\u0019\u0003�\u0012/�h\u001c7ӿ��l�\u0001\u0000!�W�0�9X���\u0001o˗�5\t\u0014�!�L`�\u0019D�g��8�7�\u0004f�k/�z�\u0003��\b\u001d�k*�[��\u000bp(om_�&;\u0004o�w��nmz�ѾXIA���\u00182C\u000bR�CC�\u0004��H��ǡ��i\u0018��\u000f��+0�3Kw\u0014`9�X�o2���Cy��B�� #�Q\u001c���\u0003����۫F����\u001a��y\n��5?̃�ޜ�=�]1�rSf\u000fk�e\u001e\u0002_B�qI�w�\u0012\"���¾�\u001e\u000f�l3n@�+��%���k�\u0007\u000f�Ba\u001f+4�5���{\u000f��\"Y\u00044\u0003���^��:�\b]\b��BC$09!㯶O�\u001fJV�A�r�\"\u0016��\u0018U\r\u0000��P}��q�Z;ZZ-Iҋ\r&���\u0012]�I�^����J\rȇU;}}!�\b�\u001e^?����?���\r1_E����'�\u0018YP˙\u0017��\u000eKY� �\u0019����\u000b)dv\u000f�c�H;�\u0005\u0003�\u0012\u0003\u001d�\u0011�\u0003\"�x;`\u0010ҕ���Z�2�P\fX�\u001f���VO�Y\rEv�\u0002)� \u0019*�g,��;u��}�j�sA:d�\u000f઩|�%��qHW�\u0019�b_\u0001@����.�S�X�G����Y��$����\u0007�2Un�d�˒��]�Y��.�G�]s�w��e���X\u0012\u0007y=�;�\u000f'���~�A\u0011#I�\\y!\u0004��|\u000f\u0000;7<��G�,\u000f�]�@�K���L��'M�\u0001̼\u000bS*\u00184<s\u0004ι�U]���3�=+��@���{����\u0005M}#rt�ys��d�W9��G0)��4��[�ѕ�f#`�\u001d�\u001b^�]\\�b�\u001a��\u0016\u0000e�\u001aZ����Z �\u0013aNs��`�M�O�c/re�Zjץ{|TS�-d{\t�jO0O����t���Cb��y�q0�VK����,\u0013���3j�u1;�Ǫ��:\u0004\u0011Ɨ�0�\u0014����r')��_9R��9/Ғ5\u0007�o�n'f��g��v����Lf�\u001f�ep}��<HG�-��`C�8\u001dD>\u001d����m\t\u0002\u0011(H��$���Oz�D�n��\u0017�1�!��΅�R[|<%��$�>����\u001dk\u0018S�) ����(M��[�\u001f\t|�UG\"���̕i�\u0016��\f��̸X�Oԙ�HU׎�\u001a^!r��rȆ5�ĔC\u0000����JO鈴�\u001c���ecs�\u0016���i��\u000f�\u0011�Ph�\n�|�Z�{���\u000fs\u001c����\u001a�\u0010�F�L�\u001d�a5�>�I�D\"�;��^Wy��.\u001cK�|Q\u0016����\tcw^\u0018�7\u0003+��\t4�Bq����8tW��\\���\r�ǁnV�r�R�ySH[�#�����j������[\u0002}n�$Q\u0016�\u000ft0�\u0004�\u001c��Is\u0005�9�r�P�y\u0019\u0015��$>L\u00139C��,-N�*�j�A\u0010o4����Q\u0015�\u001f(�IB|5�\n�L\"��l��\r�\"�j\u000fk�]�kc��{��������\u001c�(�����N�\u0016�V��\u00147/Ȯ��S�L�\u001e(:����L�K��ݒ��\f\u0003����� :�˃��\u0010\u0010\u0014��~\b�Lw���f��΅�5 g��\u0012V\fU�\u00133�s��g�\u001crZU����\u0019�!\u000e��\u001e�\u001e\u0006��'w��<�X/JDC�;S�lH�Fr�\b��I�q�\u001d\"��\f\"�x�\n�0����~�,�����L.��w2~mIN�=^�p�\u0001�=��#�\r���\n�t�@��B�����+���pj:��;=�\u000b�b�p�\u001aP�e���T��\u0016�\u001d�NZ~\u0006]w��ܭ�^��Y� �K�$�l�{QyW>P\u0010��}\u001e\u001d\u0019JnU2��$������\u0016��\\F\u0019���ΧG��J��E[�O\u0017_:\u0001�IƬM\u001d���v�U~��p|rE��H\u0006��L�\u0011����>\u000f��\u000e�\u001e�i�\u001e_��p&�1��ɦ\u001bP\u001a�4�2%�t%U((\u0000~��L\r\n�M3��jE��KR������ٚ%\u0005�c�j��N4��6w_\u0019�\u001f1\u0004�\u0019�_�zb\u0005�:�(|gY�&��S���G\u000f�R?\u001dj\u0019!�\u0013'�\u001a=�ݔt�,\u001eڍ���\u0018��ի�\u0003ˠ��\t4��vV�\u000e$^��1~u�9\u001b�y\u00198\u0006��\\p�{O,\u0011Gm����#&�;�b\u0003����\b79١H��\u001e�X��\n�ښP�\u001cn�Pb�N\u001fT\f^!�\u001c�_C�_�\n�7K�=�T��)�\u0006v��ۼ�\u0018\u0007\u0002�g\u0004�M>\u0015�XSJ��=�Oش\u0013�YI=�ҭ��x�q\f��օcd|�;�smم\u001d��%26��\u0012�.\u0004�/\f�mW�\\�Z\r��x�\\��J\nxωh�s�PD�\u0019���H+��K50���w\u000e��!�}L�\u0000\u000b֡Rp�R�v�8\bs�\u0016��\u000b���u������>����bG�\u001f\b\u0015�Q�,�T\u0001��?Gkۭ_\u0000WN�\u0016���[�6=��&\u001c\u0013�\u001d�\u001f���{z��C�B���~S�7�s��;\u0002\u001d}Ǻ<�\"�%�dc��}̨u���¡oKSWhW�u��W�T��21\f\u0018�\u0004Ϸ�.~e���������\u0010\u0014�\u0013����\u0010z�\u00024!(\fA��\u0013�Gs\u0002��U���/$)\r�\u001b?�ce�_9�\u0018��f�E,C��)����)��kkk�!_<*�?Pn6\u0017q���\u0002�\u0006�p|Ȓ�|�\"�\u001dx�\u000f����Z\u0003lΐ�@��:�\u0001X�u�\b�\u001b%+�a\u0011\u0007VǤ��B�\"�0��x��;=Ie�yK�4�3_*�\u001a�\u0018h��\u0005��Z8�<\u001e\u001c\u0007���\t�JydA\u001c�7*\u0019V�nߒ�l�È7�*))\u0013/\u0019\u0018I��\u001c_�_K'�\u0004�\u001e�q{g�\u000bF�\u0005�\u0003D��|���,�n��\\��Q�ĵ&��\\��r�c`�\u0017\u0012Q��\\�\u001e�4@����)c\u0005F�f��\u001b�K(�Ya\u0018�xR�4,\u0017\u0018�`�d�p�\u0015}�e\u0002r��c�\u0010o�\u0000���|.�\u001f�Ӂ�Y̢X_�5T�xҵz�C�A\t���D�S\u000f�R��q<\u000b��iv���\u0016�/�S\u0003q��n��)VX�2�\u0006S�O\u000ep�c\u0015���Q\u001d4�\n������t����4�[$\u000et���\b\n\u0018Cj�\u001bh#�\u001c��\u0012�bo�ǔ�'���d� �+�uxO�V~G\u001b\u001dai����\u000b�W~CJ\f+4�|+\u0017�\u001d��էP+�1f.h��`�\u001eN/��\u001a���\u001b,��\\��;X4�p�`3JTÔE�h��\fм�\u0003Bu晞QM����rg\u0014h�8�\u0005J\u000e����oe�\\�\u00185���Q+!�+\u00048���||�-�!��\u0006|\"\u001e\u0017\u0001�\u0001\t�\n\u001d�E\u001a\n��Xjоu�j�F�1[�`�� �(����y]_�Չ��Ɇq�\rٓ��5F���D��������i�V�\n��\u001b͌�^���OB\\T�s�9���\t�I�u\b�\u0016�4LҌ�n�\u0015zk��nGtK�Wrf�[\u0005\f)��d�\u000f6?�J���\u0013���W<�\u00157�\\\u0001�\nȥ\u0011��$xl��\u0002p��E\u000f��*�H⺗�r���\u0013��LZ�ܢ���Ǐ�1s�\u0006hp�ҧѤ�p򏹢���}��X���j#z\f\u0012�Ǌ\r�\u0005���\u0010�����w\u0007�m��(�\u0003\u0011\n15j�}��;I�/\u0002A���T�\u0005yܷ\u0017kޛ9�XK�$?,\tV��V\b\u001b��\u0006\u001e�\u0000��2�}�I\u001fM��\u0000��T~�IæD�\u0017�PV�A]vLH�F\u0004��L\u001a��lm���ƫBa�9\r�\u0012��\u001f�21�P�gC/\u000b\u0004M\u000bĐ��f�a\u0014�d���Ot�\u00078�۶�L\r}�`�>\"<&F��O\u0017G�N��Xw��[�q���U\u001a�tw��$��O2�ӷ�㈔��}w�9݌�i\u001f\n�,��G�\r��:]�y\u0010h�\u000e��\\�:CK\t����\u001a��:�^[S\u000bGJ�jT2�\tpQpA\u0013�\"Ȍ�'��ķ\u0000\u0013*�\b��G��0�：>��\u0012D�;�T������k���\u0015\u001c?2�t`�y�f�ٌؠ�+��{\u0007s�1�NR��\u0000�u�y\u0003b'���[jC;\u000e��O�D���\nc7�\tC,�2�\u001c<�X\u0006M�B|��~��/0K\"c���/f|��{y�\u0002�\u0018J�+�h�8�\u0001�Vk�ȯ�5�K�g������9X��̷\u0012\u0001,خ�.�D\u001a���X�X\u001b�}A�[l\u0002̱��/�\bs6�\u0004;�|u��\u0001��\u0016���Mu�7����\r�S�\u001d��FQσ�\u0016����/�*�R�+�\"I��~\u0014X/�\u0005Mj\u0007�>lߢC\u0010�o�O\u0013�%#m�i���ђ���ڛ�\n��A�*hV#N�4���c\u000e�ι�ގ�)�D�D\bM\u0012��.�W�8�픚C�z\\-3 ���D�\u001d|ey�w\u0015��V\u001a�\u0019xL�\u001dJ}Ϯ�\u0002���\b%{�^&�\\�*��x8;���)�J�O\\��t�����7�;q���Q��[���^�\u0016,#\r\n�8�Ӏv�ע�{o5.W�b�\"jGfQr�ۉ�\u0003Y��`zR9�S�\u00127�&��5�L\u000e��6^�\u001dj��8�H\u001a1'\f\u001al-�\"�VC.�f`.\u0004�� �p�ߥ�߄J�\u0012T�1Ǹ�\u0017\u000b��W+B�8r��\u001e<\u000f�\u001f\u0019�ttԲ��N��\u000f�,'{\u0016������EsA�~�Gn�\u0001��@s��\u000fQ����5�v�:�V�Q������n�\u0010�\u000b��*�$���+q�~ԋ�(���n\f*8QUA��\\r����W�\u0017\u0012\fkQ�8G\u000e��}������Q�8���B�\u001e��#/�I�RӀ�\u0017�Sy�t\u0014\u0005�.Jp���e���y�\u0013\nZ93�C�}{\u001eYX����hER��\u0005�\u0000�j\"��X�\u0001x)��hڃ���\n\u0004f7W�\n�E\u0017qa�Hz�(r`�G�\u000f��:�=�A�Ӽ]{����\t�hW^�D�v�R\u0015��\"\\a9@\u0001�D=E|����[�\b_�;��X�A�\u0014\u001e%\u0002\u0006\u0015h�\\\u0007˥�N\u0015rA�?\u0004g��OVܶ�����/\u001c~K\u000e6�S\u0018��$)�yǦ�|R/E7\u0002zn\fc)��9dl�\\��%.\u0006�&;�V^\u001c��d�,�!V�#~s�($�\u0004�TVp^h��t�\u0019���:\u0013��jVr*\"0��-�\"gn�1Y39=qʃ��1�\u000f�(z%PՇA_g8� 7jl\\���\u001b�|>≗�\u001a���j����i\u0019�&�u.B�(f�K�1\\�=�J���`�FŶ8N���\u0013d�\f\u001c�@�7����|\u001f����M�H\u001ev\u0007��\u001f\u001a�\u001f��\u00067�`��e�����L\u0001��\u0006�\u001d��0v��\u001c����������'\u0013i�iA4�c��zi8�9\u0019U�|�\u001b\u0016H\u0003}�R\u000e\u00164��I�ݺ41�2�'��(�\u0000�'Ǝ�a~ns��t��+����_`\u000b�EeF��j~������j)��W��T�|y��=$�b�A��\\c$�n���$`*�q\u001aw|im^��ѱ~�˕����p�l~vo�k\u0019�V@B�F�/�+��G\u001d&\u0011�x\"���Z\u0005���N����j\u0019��u��18k\u001e4��-Sl�(���m���\u0012gq��J�t\nky�F\u001b��mBI.��\u001b:�g|�<�Xp�'����\u0013u��\u001eP�\u001e\u0013ېr\u0016M�R7\u0007 Q\f,JN8�~\u0011��A�9\u000f\fX\u0013��:�AƁ�B`b ��0�S\u0006���y��1\u000b��\\�\u0014�\u001b� /U4��s��&p��\u0002R�$:�?L\u0019����_���\u0019=�*lh$�.Ǩ�����h7\u000e�De+�}�~�\u0006��Z�ͭUh�|ʠ�\u0018������(��\u0003�e\u000e[g�\t8���[���5��S��ք>\u0007\u001cUԙ�\u0001�\u0000BF-7���e@��(���6,\u0004�\nQ����@04M��݉p��z4��72��k��ܺ��C\u0005�\b��ޗd���ZC=�\t�T��Ϣx���q���:k�~�w\u0011j]\u0001F��u\n�97Q�\u0019P��6p��`�V���3L��NS�7��U\u000e�\u0013\u0003K\u001e�\u0016p\u0014Ը\u000f��G�0}7��;�S\u0010ov\u001ed3S�k�I�\u0004Ruf�[�\b� ���\u001e�(x��\u000b��\n…[afkortet]"
+  },
+  {
+   "url": "https://delivery.soundvenue.com/i?tzo=0&abv=92ca43&network=nhjy&noCookies=true&gdpr=0&tt=multi&screen=1280x2000&viewport=1280x2000",
+   "method": "POST",
+   "post": "{\"adUnits\":[{\"auId\":\"41e6ed\",\"targetId\":\"sva-content-top-mob\"}],\"kv\":{\"svTags\":[\"all\",\"svmusik\",\"aphaca\",\"faza\",\"icekiid\",\"miaw\",\"sira jovina\",\"slayyyter\",\"id694944\"],\"svHeadtrack\":[\"all\",\"musik\"],\"svType\":[\"article\"],\"svSite\":\"soundvenue.com\",\"svDeviceSize\":\"desktop\",\"svUnit\":\"content-top\",\"svUnitGroup\":\"content-top\"},\"headerBids\":[],\"duplicateFilter\":\"AAAACgAAAAAAU/jDAAAAAABUaLcAAAAAAFPOhQAAAAAAVGiIAAAAAABT+MIAAAAAAFRE2QAAAAAAU/4pAAAAAABT/1AAAAAAAFPOhAAAAAAAU/4oAAAAAA==\",\"context\":\"https://soundvenue.com/musik/2026/09/her-er-koncerterne-du-skal-opleve-i-oktober-aphaca-skriver-historie-694944\",\"canonical\":\"https://soundvenue.com/musik/2026/09/her-er-koncerterne-du-skal-opleve-i-oktober-aphaca-skriver-historie-694944\"}",
+   "status": 200,
+   "ct": "application/json;charset=utf-8",
+   "body": "{\n\n    \"adUnits\": [\n    \n        {\n        \"auId\": \"41e6ed\",\n        \"targetId\": \"sva-content-top-mob\",\n        \n        \"html\": \"\\u003C!DOCTYPE html\\u003E\\n\\u003Chtml\\u003E\\n\\u003Chead\\u003E\\n    \\u003Cmeta charset=\\\"utf-8\\\"\\u003E\\n    \\u003Cstyle media=\\\"all\\\"\\u003E\\n        html, body, .responseCtr {\\n            margin: 0;\\n            padding: 0;\\n            outline: 0;\\n            border: 0;\\n            overflow: hidden;\\n        }\\n\\n        .responseCtr {\\n            display: inline-block;\\n            line-height: 0;\\n            vertical-align: top;\\n        }\\n\\n        .responseCtr a {\\n            line-height: 0;\\n        }\\n\\n        .responseCtr *, .responseCtr a * {\\n            line-height: normal;\\n        }\\n\\n        .responseCtr .contentWrapperPerItem {\\n            margin: 0;\\n            padding: 0;\\n            outline: 0;\\n            border: 0;\\n            display: inline-block;\\n            line-height: 0;\\n            vertical-align: top;\\n        }\\n\\n        a img {\\n            border: none;\\n            outline: none;\\n        }\\n\\n        img {\\n            margin: 0;\\n            padding: 0;\\n        }\\n\\n        /* need this displayNone class to ensure images are preloaded for smooth transition */\\n        img.displayNone {\\n            position: absolute;\\n            top: -99999px;\\n            left: -99999px;\\n        }\\n\\n        .contentWrapperTrailer {\\n            clear: both;\\n        }\\n    \\u003C/style\\u003E\\u003Cscript src=\\\"https://cdn.adnuntius.com/adn.js\\\"\\u003E\\u003C/script\\u003E\\n\\n\\u003C/head\\u003E\\n\\u003Cbody\\u003E\\n\\u003Cdiv id=\\\"adn-rsp-1261439417\\\" data-network=\\\"41d30c\\\" data-au-id=\\\"41e6ed\\\" data-target-id=\\\"sva-content-top-mob\\\" data-adserver-host=\\\"delivery.soundvenue.com\\\" class=\\\"responseCtr\\\"\\u003E\\n    \\n\\u003C/div\\u003E\\n\\u003Cscript\\u003E\\n//\\u003C![CDATA[\\n(function() {\\n    var matchedAdCount = 0;\\n    if (window.adn \\u0026\\u0026 adn.inIframe \\u0026\\u0026 adn.inIframe.processAdResponse) {\\n        return adn.inIframe.processAdResponse({ matchedAdCount: matchedAdCount });\\n    }\\n    window.adn = window.adn || {};\\n    adn.calls = adn.calls || [];\\n    adn.calls.push(function() {\\n        adn.inIframe.processAdResponse({ matchedAdCount: matchedAdCount });\\n    });\\n})();\\n//]]\\u003E\\n\\u003C/script\\u003E\\u003C/body\\u003E\\n\\u003C/html\\u003E\",\n        \"matchedAdCount\": 0,\n        \"responseId\": \"\",\n        \n        \"rts\": []\n        }\n     ],\n    \"metaData\": {\n    \n        \"t\": \"\",\n    \n        \"usi\": \"41d30c!adnckabb420f85beb4f61\",\n    \n        \"sessionId\": \"752c6d6b773c60cefbb4d16177ffd1ee\"\n    \n    },\n    \"network\": \"41d30c\",\n    \"duplicateFilter\": \"AAAACgAAAAAAU/4pAAAAAABT+MIAAAAAAFRoiAAAAAAAU/4oAAAAAABTzoUAAAAAAFRE2QAAAAAAU/jDAAAAAABTzoQAAAAAAFRotwAAAAAAU/9QAAAAAA==\",\n    \"segments\": [],\n    \"keywords\": []\n\n}"
+  },
+  {
+   "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-DJQGXNYXYN&gtm=45je6an1v9132026906za200zd9132026906xf1&_p=1793094434445&gcs=G100&gcd=13p3p3l3l5l1&npa=0&dma=0&tcfd=10000&_eu=gA&are=1&cid=626539641.1793094435&frm=0&ngs=1&pscdl=denied&rcb=11&sr=1280x2000&uaa=arm&uab=64&uafvl=Chromium%3B130.0.6723.31%7CHeadlessChrome%3B130.0.6723.31%7CNot%253FA_Brand%3B99.0.0.0&uam=&uamb=0&uap=iOS&uapv=18_0&uaw=0&ul=da-dk&_s=2&tag_exp=115938465~115938469~118897920~118897930~120213116~120385423~120412527~120420415~120469145~120469153~121246026~121246034~123620775&sid=1793094434&sct=1&seg=0&dl=https%3A%2F%2Fsoundvenue.com%2Fmusik%2F2026%2F09%2Fher-er-koncerterne-du-skal-opleve-i-oktober-aphaca-skriver-historie-694944&dt=Her%20er%20koncerterne%2C%20du%20skal%20opleve%20i%20oktober%20%E2%80%93%20Aphaca%20skriver%20historie%20%2F%20Guide&en=Pageload&ep.event_category=Consent&ep.event_label=Deny&epn.value=1&_et=233&tfd=5869",
+   "method": "POST",
+   "post": "",
+   "status": 204,
+   "ct": "text/plain",
+   "body": ""
+  }
+ ],
+ "links": [
+  {
+   "h": "https://delivery.soundvenue.com/c/k9IPEQXd3m5p5qi3X1NqL5kLUaXl1U8xE4kDsnzNgUoAAAAQCtjQz9kbGWD4nuZy3q6HaHGLA4Oq-PeXUhCFPLiKIImj8k8APFSvWp7bwa7pQCpCy16GTytc_hi15TahwT476_Pw2QxHeI6dqYwhCJBloDwX4HxU51dQZS6pMq83EjV1UM9CBosZoBVht7TGXb6UuOkOeIv3aGrJZxCcDRgvkPLDoE1WDeSFZbAqAa9uc5bPT3x99GjPMrK6w5h9m-UpeUFfossG5K5zGsMoA2b06LHLuFPLua78-iABbt04FO0xP8zj4PuIU6u6gDCA623e97vfW4ye3LOZTFW3cQIB7JjkNDvtH3PMff95499ws9AM5cXHMr6Xjeu4ZCsQk08nlx75SO7c5hL6srPJxJ8ubLBzaN2WMob7Nh8PFeNuxThM?ct=2501&r=https%3A%2F%2Fparajumpers.soundvenue.com%2Fparajumpers-fylder-20-aar%3Futm_source%3DSoundvenue%26utm_medium%3DBanner%26utm_campaign%3DParajumpers%2520-%2520Jubil%25C3%25A6umsudstilling%26utm_content%3DOverlay",
+   "t": "Fra Alaska til Milano Fashion Week – kom bag kulissen på Parajumpers’ 20-års jubilæum SPONSORERET"
+  },
+  {
+   "h": "https://soundvenue.com/",
+   "t": "Soundvenue"
+  },
+  {
+   "h": "https://soundvenue.com/musik",
+   "t": "MUSIK"
+  },
+  {
+   "h": "https://soundvenue.com/film",
+   "t": "FILM+SERIER"
+  },
+  {
+   "h": "https://soundvenue.com/kultur",
+   "t": "KULTUR"
+  },
+  {
+   "h": "https://live.soundvenue.com/",
+   "t": "SOUNDVENUE LIVE"
+  },
+  {
+   "h": "https://soundvenue.com/tilmeld-nyhedsbrev",
+   "t": "NYHEDSBREVE"
+  },
+  {
+   "h": "https://soundvenue.com/om-soundvenue",
+   "t": "OM SOUNDVENUE"
+  },
+  {
+   "h": "https://media.soundvenue.com/?utm_source=Soundvenue&utm_medium=Link&utm_campaign=Soundvenue%20-%20Mediasite&utm_content=Menu",
+   "t": "ANNONCERING"
+  },
+  {
+   "h": "https://soundvenue.com/kontakt",
+   "t": "KONTAKT"
+  },
+  {
+   "h": "https://soundvenue.com/author/Malthe+Hjort",
+   "t": "MALTHE HJORT"
+  },
+  {
+   "h": "javascript:svRepromt();",
+   "t": "ÆNDRING AF DIT SAMTYKKE"
+  },
+  {
+   "h": "https://soundvenue.com/tag/sira-jovina",
+   "t": "Sira Jovina"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/05/debutalbummet-det-man-vander-vokser-er-et-vildt-bevis-paa-hvor-langt-sira-jovina-allerede-er-naaet-676606",
+   "t": "det stærke debutalbum ‘Det, du vander, vokser’"
+  },
+  {
+   "h": "javascript:svRepromt();",
+   "t": "ÆNDRING AF DIT SAMTYKKE"
+  },
+  {
+   "h": "https://tix.to/faza?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAcGRvZgJleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAae5Xy7ghpcHm9ZHLZxWM7QUsZYHm0lynuZvDoLU7j78mGREqs6v6f4supPm1w_aem_o82hh_YESopDlATBxUE9mQ",
+   "t": "turné"
+  },
+  {
+   "h": "https://soundvenue.com/tag/faza",
+   "t": "Faza"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2025/11/fortvivlelse-og-forelskelse-flyder-sammen-paa-danske-fazas-medrivende-debutalbum-651354",
+   "t": "sidste års ‘Noget må gi’"
+  },
+  {
+   "h": "javascript:svRepromt();",
+   "t": "ÆNDRING AF DIT SAMTYKKE"
+  },
+  {
+   "h": "https://soundvenue.com/tag/icekiid",
+   "t": "Icekiid"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/05/icekiid-lyder-endelig-interesseret-i-at-udfordre-sig-selv-paa-epen-kaotisk-kunst-677781",
+   "t": "ep’en ‘Kaotisk kunst’"
+  },
+  {
+   "h": "javascript:svRepromt();",
+   "t": "ÆNDRING AF DIT SAMTYKKE"
+  },
+  {
+   "h": "https://soundvenue.com/tag/aphaca",
+   "t": "Aphaca"
+  },
+  {
+   "h": "https://www.tv2kosmopol.dk/koebenhavn/det-er-fuldstaendig-vanvittigt-her-er-fire-nedslag-i-aphacas-lynkarriere-11c47",
+   "t": "TV 2 Kosmopol"
+  },
+  {
+   "h": "javascript:svRepromt();",
+   "t": "ÆNDRING AF DIT SAMTYKKE"
+  },
+  {
+   "h": "https://soundvenue.com/tag/slayyyter",
+   "t": "Slayyyter"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/07/de-10-bedste-internationale-album-i-foerste-halvdel-af-2026-683253",
+   "t": "vi kårede det til halvårets bedste album"
+  },
+  {
+   "h": "https://delivery.soundvenue.com/c/LohJJgR_QMqmJIJLFZSJS_Zn5jxsUhUiPxz3w66b5k4AAAAQCtjQz9kbGWD4nuZy3q6HaHGLA4Oq-PeXUhCFPLiKIImj8k8APFSvWp7bwa7pQCpCy16GTytc_hi1j3edwS5lqvfw2QxHeY6dqYwhCJBlkDwX4Hxk51dQZS6pMq83EjV1UM9CBosZoBVht7TGXb6UuOkOeIv3aEvZZBvBCkp8lazKoEsCD72IYuN5C6JtdZKfGCkuoj2bZei935h5mKw8eR1DuNAM9r14AdNjTmr2qvPTvknJ_bP--CQYcdQuU-AmYIT0v72MUqa8lzaR_HHVv_LOA9KG1r7YDkqreBESpNygdj_yBH7LaqA18sd5sdJAu93eKaGEmrT9ZTEXiFI8m1biR-PR6xLdyrbeiNstYqBYMMbLqwlHW8nFxL2ei7qnUv1tvES1Kg?ct=2501&r=https%3A%2F%2Fkunsthalcharlottenborg.soundvenue.com%2Famalie-smith%3Futm_source%3DSoundvenue%26utm_medium%3DBanner%26utm_campaign%3DKunsthal%2520Charlottenborg%2520-%2520Amalie%2520Smith%26utm_content%3DIn-article",
+   "t": "Få en åndelig vitaminpille på Kunsthal Charlottenborg Få en åndelig vitaminpille – oplev Amalie Smiths soloudstilling på Kunsthal Charlottenborg I sin mest omfa"
+  },
+  {
+   "h": "javascript:svRepromt();",
+   "t": "ÆNDRING AF DIT SAMTYKKE"
+  },
+  {
+   "h": "https://soundvenue.com/tag/miaw",
+   "t": "Miaw"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/06/roskilde-festival-bedst-som-man-troede-miaw-ville-gaa-all-in-paa-eurodance-og-crazy-frog-skiftede-de-gear-684196",
+   "t": "fem stjerner på Roskilde Festival"
+  },
+  {
+   "h": "https://kin.dk/yor2026/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAcGRvZgJleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAacMGSzM-HcR28_vGxxP3rDyXUQ3bc15qxAW95OQrKvNAAaYwRSQtrS0ebU4bA_aem_8ocUss6R20dGaYA1oV7P-Q",
+   "t": "turné"
+  },
+  {
+   "h": "https://bnds.us/hepjin",
+   "t": "turné"
+  },
+  {
+   "h": "https://liftoff.dk/vilma-crow?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAcGRvZgJleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAac0aYELliaONFBlCAE7vnRtOUPOZAtPQy54Bbo6fG2cLIbQrjxd7NPw47KrCw_aem_ydK1rpxwK1rsNfkOtced2g",
+   "t": "turné"
+  },
+  {
+   "h": "https://tix.to/rosa?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQPOTM2NjE5NzQzMzkyNDU5AAGn-vkbDpEfY6OlkmfPrct1Vwv_4I87vUAKGW462NUvKQTPZbdob9c-Lsggcbc_aem_M10HWnmd6vhNcayQR2FuKA",
+   "t": "turné"
+  },
+  {
+   "h": "https://www.farveblind.com/shows",
+   "t": "turné"
+  },
+  {
+   "h": "https://www.ticketmaster.dk/artist/24507?utm_source=TM-google&utm_medium=cpc&utm_campaign=co:DK+%7C+cpn:Genre+%7C+chl:Gn+%7C+cat:Music+%7C+bud:TM+%7C+tp:TMDK+%7C+catID:10001&utm_content=an:Dizzee+Rascal+%7C+ed:13-10-2026+%7C+vn:TRAIN+%7C+a:24507+%7C+v:6621&gclsrc=aw.ds&gad_source=1&gad_campaignid=20260698470&gclid=CjwKCAjwtp7VBhBjEiwAJfpV-1oCeGQ8G31Nrdk0ozUr_A198QI_1_8bCOWiKHm7LhaTVSJEp98g3BoCqHsQAvD_BwE",
+   "t": "turné"
+  },
+  {
+   "h": "https://tix.to/barselona2026",
+   "t": "turné"
+  },
+  {
+   "h": "https://shor.by/saveus?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAcGRvZgJleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAafPJB_LLW5kns5qR-CihSSdnGJTyWvkjlg1vaEWkwtAmBTNNF39_2Cy9ZYzDg_aem_0OZzWRBAFKO43h2y7PqQPQ",
+   "t": "turné"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/aphaca-var-helt-i-oejenhoejde-med-den-vilde-forbandede-ungdom-i-parken-698514",
+   "t": "Aphaca var helt i øjenhøjde med den vilde, forbandede ungdom i Parken"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/miaws-ciao-er-som-en-droem-jeg-ikke-kan-huske-men-gerne-vil-tilbage-til-701108",
+   "t": "Dansk-hollandsk duos nye ep er som en drøm, jeg gerne vil tilbage til"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/maaske-boer-vi-sende-alle-bedsteforaeldre-til-sydkorea-med-en-youtuber-701571",
+   "t": "Så du det?"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/maaske-boer-vi-sende-alle-bedsteforaeldre-til-sydkorea-med-en-youtuber-701571",
+   "t": "SÅ DU DET?Måske bør vi sende alle bedsteforældre til Sydkorea med en youtuber"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/saveus-viste-i-royal-arena-at-han-er-klar-til-at-vaere-martin-fra-oerum-paa-dansk-701185",
+   "t": "Koncert"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/saveus-viste-i-royal-arena-at-han-er-klar-til-at-vaere-martin-fra-oerum-paa-dansk-701185",
+   "t": "KONCERTI Royal Arena viste Saveus, at han er klar til at være Martin fra Ørum igen"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/disse-gyserperler-skal-du-se-i-selskab-med-dine-venner-denne-halloween-700615",
+   "t": "Guide"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/disse-gyserperler-skal-du-se-i-selskab-med-dine-venner-denne-halloween-700615",
+   "t": "GUIDEDisse gyserperler skal du se i selskab med dine venner denne Halloween"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/droem-og-virkelighed-smelter-sammen-i-roegfyldte-lokaler-paa-fines-mystiske-jazz-dreams-700656",
+   "t": "Album"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/droem-og-virkelighed-smelter-sammen-i-roegfyldte-lokaler-paa-fines-mystiske-jazz-dreams-700656",
+   "t": "ALBUMDet er et hovedværk fra Københavns alternative musikscene"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/nathan-fielders-you-can-see-everything-har-endelig-faaet-dansk-premieredato-701886",
+   "t": "Nyhed"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/nathan-fielders-you-can-see-everything-har-endelig-faaet-dansk-premieredato-701886",
+   "t": "NYHEDTidens mest omtalte film har endelig fået dansk premieredato!"
+  },
+  {
+   "h": "https://delivery.soundvenue.com/c/yt2u16QGzcLOZosKfxWPDcki4yR10DtehV67JubajgQAAAAQCtjQz9kbGWD4nuZy3q6HaHGLA4Oq-PeXUhCFPLiKIImj8k8APFSvWp7bwa7pQCpCy16GTytc_hi1gS6cwX4f8-jw2QxHeY6dqYwhCJBlsDwX4HxE51dQZS6pMq83EjV1UM9CBosZoBVht7TGXb6UuOkOeIv3aEvZZBvBCkp8lazKoEsCD72IYuN5C6JtdZKfGCkuoj2bZei935h5mKw8eR1DuNAM9r14AdNjTmr2qvPTvknJ_bP--CQYcdQuU-AmYIT0v72MUqa8lzaR_HHVv_LOA9KG1r7YDkqreBESpNygdj_yBH7LaqA18sd5sdJAu93eKaGEmrT9ZTEXiFI8m1biR-PR6xLQyrbeiN8sYY1CONHOuDNHW8_vmxkwJco8jDOe2JoErRMTT68XhakATo32?ct=2501&r=https%3A%2F%2Fwww.telmore.dk%2Ftelmoreplay%2Fmobilabonnement-med-sport%2F%3Fcid%3D_dist_na_soundvenue_ongoing",
+   "t": "Spar penge i streamingbudgettet med Telmore Play: Alt på én regning – inklusive sport og live-tv"
+  },
+  {
+   "h": "https://delivery.soundvenue.com/c/hW4szkdqUwmEsrD1V5whlTCsBMMhx6orxrI6egIfw8IAAAAQCtjQz9kbGWD4nuZy3q6HaHGLA4Oq-PeXUhCFPLiKIImj8k8APFSvWp7bwa7pQCpCy16GTytc_hi1mzahwT5R6_Pw2QxHeY6dqYwhCJBlsDwX4HxE51dQZS6pMq83EjV1UM9CBosZoBVht7TGXb6UuOkOeIv3aEvZZBvBCkp8lazKoEsCD72IYuN5C6JtdZKfGCkuoj2bZei935h5mKw8eR1DuNAM9r14AdNjTmr2qvPTvknJ_bP--CQYcdQuU-AmYIT0v72MUqa8lzaR_HHVv_LOA9KG1r7YDkqreBESpNygdj_yBH7LaqA18sd5sdJAu93eKaGEmrT9ZTEXiFI8m1biR-PR6xLQyrbeiN8sYY1CONHOuDNHW8_vmxkwJco8jDOe2JoH0l4NT_R0o5cATo32?ct=2501&r=https%3A%2F%2Fparajumpers.soundvenue.com%2Fparajumpers-fylder-20-aar%3Futm_source%3DSoundvenue%26utm_medium%3DBanner%26utm_campaign%3DParajumpers%2520-%2520Jubil%25C3%25A6umsudstilling%26utm_content%3DNativespot",
+   "t": "20 kunstnere fra hele verden fik frie hænder til at genfortolke Parajumpers ikoniske Gobi-jakke. Se resultatet fra Milano Fashion Week."
+  },
+  {
+   "h": "https://delivery.soundvenue.com/c/y15hxLUnepHwti0yErfI0YQqvOoaQqU85msxFaaoIK4AAAAQCtjQz9kbGWD4nuZy3q6HaHGLA4Oq-PeXUhCFPLiKIImj8k8APFSvWp7bwa7pQCpCy16GTytc_hi1jXedwRh5qvfw2QxHeY6dqYwhCJBlsDwX4HxE51dQZS6pMq83EjV1UM9CBosZoBVht7TGXb6UuOkOeIv3aEvZZBvBCkp8lazKoEsCD72IYuN5C6JtdZKfGCkuoj2bZei935h5mKw8eR1DuNAM9r14AdNjTmr2qvPTvknJ_bP--CQYcdQuU-AmYIT0v72MUqa8lzaR_HHVv_LOA9KG1r7YDkqreBESpNygdj_yBH7LaqA18sd5sdJAu93eKaGEmrT9ZTEXiFI8m1biR-PR6xLQyrbeiN8sYY1CONHOuDNHW8_vmxkwJco8jDOe2JoG738TT_RW7JcATo32?ct=2501&r=https%3A%2F%2Fkunsthalcharlottenborg.soundvenue.com%2Famalie-smith%3Futm_source%3DSoundvenue%26utm_medium%3DBanner%26utm_campaign%3DKunsthal%2520Charlottenborg%2520-%2520Amalie%2520Smith%26utm_content%3DNativespot",
+   "t": "Få en åndelig vitaminpille – oplev Amalie Smiths soloudstilling på Kunsthal Charlottenborg"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/her-er-koncerterne-du-skal-opleve-i-november-en-sjaelden-mulighed-for-at-hoere-et-af-aarets-bedste-danske-album-live-701188",
+   "t": "GUIDE"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/her-er-koncerterne-du-skal-opleve-i-november-en-sjaelden-mulighed-for-at-hoere-et-af-aarets-bedste-danske-album-live-701188",
+   "t": "HER ER KONCERTERNE, DU SKAL OPLEVE I NOVEMBER – EN SJÆLDEN MULIGHED FOR AT HØRE ET AF ÅRETS BEDSTE DANSKE ALBUM LIVE"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/bekraeftet-jay-z-staar-for-naeste-aars-super-bowl-show-702026",
+   "t": "Nyhed"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/bekraeftet-jay-z-staar-for-naeste-aars-super-bowl-show-702026",
+   "t": "NYHED Bekræftet: Jay-Z står for næste års Super Bowl-show"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/droem-og-virkelighed-smelter-sammen-i-roegfyldte-lokaler-paa-fines-mystiske-jazz-dreams-700656",
+   "t": "Album"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/droem-og-virkelighed-smelter-sammen-i-roegfyldte-lokaler-paa-fines-mystiske-jazz-dreams-700656",
+   "t": "ALBUM Det er et hovedværk fra Københavns alternative musikscene"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/heldigvis-er-der-en-liderlig-soemand-i-tv-2s-satsede-jomfruprogram-702045",
+   "t": "SÅ DU DET?"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/heldigvis-er-der-en-liderlig-soemand-i-tv-2s-satsede-jomfruprogram-702045",
+   "t": "HELDIGVIS ER DER ÉN LIDERLIG SØMAND I TV 2’S SATSEDE JOMFRUPROGRAM"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/milad-avaz-amerikanske-film-naegtes-stoette-i-texas-paa-grund-af-abortskildring-702034",
+   "t": "NYHED"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/milad-avaz-amerikanske-film-naegtes-stoette-i-texas-paa-grund-af-abortskildring-702034",
+   "t": "DANSK FILMSKABERS AMERIKANSKE DEBUT NÆGTES STØTTE I TEXAS PÅ GRUND AF ABORT"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/mohamed-djeziri-faar-sit-gennembrud-jeg-er-her-for-at-repraesentere-nogle-af-de-skaebner-som-vi-kigger-vaek-fra-paa-gaden-701618",
+   "t": "INTERVIEW"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/mohamed-djeziri-faar-sit-gennembrud-jeg-er-her-for-at-repraesentere-nogle-af-de-skaebner-som-vi-kigger-vaek-fra-paa-gaden-701618",
+   "t": "»Jeg er her for at repræsentere nogle af de skæbner, som vi kigger væk fra på gaden«"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/jeg-taenkte-over-slutningen-paa-emma-rosenzweigs-nye-videovaerk-laenge-efter-jeg-forlod-det-701787",
+   "t": "ANBEFALING"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/jeg-taenkte-over-slutningen-paa-emma-rosenzweigs-nye-videovaerk-laenge-efter-jeg-forlod-det-701787",
+   "t": "Jeg tænkte over slutningen på Emma Rosenzweigs nye videoværk, længe efter jeg forlod det"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/disse-gyserperler-skal-du-se-i-selskab-med-dine-venner-denne-halloween-700615",
+   "t": "GUIDE"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/disse-gyserperler-skal-du-se-i-selskab-med-dine-venner-denne-halloween-700615",
+   "t": "Disse gyserperler skal du se i selskab med dine venner denne Halloween"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/maaske-boer-vi-sende-alle-bedsteforaeldre-til-sydkorea-med-en-youtuber-701571",
+   "t": "SÅ DU DET?"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/maaske-boer-vi-sende-alle-bedsteforaeldre-til-sydkorea-med-en-youtuber-701571",
+   "t": "Måske bør vi sende alle bedsteforældre til Sydkorea med en youtuber"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/manden-bag-tidens-mest-hypede-film-har-gjort-sindssyge-ting-i-aarevis-701155",
+   "t": "GUIDE"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/manden-bag-tidens-mest-hypede-film-har-gjort-sindssyge-ting-i-aarevis-701155",
+   "t": "Manden bag tidens mest hypede film har gjort sindssyge ting i årevis"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/soundvenue-streamer-tre-weekendanbefalinger-det-er-saa-godt-at-det-danske-forraeder-er-doedt-for-mig-701222",
+   "t": "SOUNDVENUE STREAMER"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/soundvenue-streamer-tre-weekendanbefalinger-det-er-saa-godt-at-det-danske-forraeder-er-doedt-for-mig-701222",
+   "t": "Weekendens tre streamingtip: Det er så godt, at det danske 'Forræder' er dødt for mig"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/tre-soundvenue-skribenter-han-boer-blive-den-nye-bond-701552",
+   "t": "CALLUM, JOSH, JACK?"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/tre-soundvenue-skribenter-han-boer-blive-den-nye-bond-701552",
+   "t": "Tre Soundvenue-skribenter: Han bør blive den nye Bond"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/hitproduceren-margo-xs-infiltrerer-popmaskinen-med-transpropaganda-og-hun-indroemmer-det-gerne-700858",
+   "t": "PORTRÆT"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/hitproduceren-margo-xs-infiltrerer-popmaskinen-med-transpropaganda-og-hun-indroemmer-det-gerne-700858",
+   "t": "Hitproducer infiltrerer popmaskinen med transpropaganda – og hun indrømmer det gerne"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/de-siger-monstrene-i-nyt-actionmestervaerk-er-grimme-der-er-noget-de-har-misforstaaet-701862",
+   "t": "Kommentar"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/de-siger-monstrene-i-nyt-actionmestervaerk-er-grimme-der-er-noget-de-har-misforstaaet-701862",
+   "t": "Kommentar De siger, monstrene i nyt actionmesterværk er grimme. Der er noget, de har misforstået"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/drs-kriseshow-afsloerer-at-danskere-taenker-ualmindeligt-meget-paa-deres-lort-700919",
+   "t": "Så du det?"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/drs-kriseshow-afsloerer-at-danskere-taenker-ualmindeligt-meget-paa-deres-lort-700919",
+   "t": "Så du det? DR’s kriseshow afslører, at danskere tænker ualmindeligt meget på deres lort"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/tom-cruises-bedste-rolle-var-en-blodig-homoerotisk-triumf-og-naesten-glemt-i-dag-700585",
+   "t": "Anbefaling"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/tom-cruises-bedste-rolle-var-en-blodig-homoerotisk-triumf-og-naesten-glemt-i-dag-700585",
+   "t": "Anbefaling Tom Cruises bedste rolle var en blodig homoerotisk triumf – og næsten glemt i dag"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/et-land-spytter-lige-nu-det-ene-staerke-rockband-ud-efter-det-andet-700695",
+   "t": "Bølge"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/et-land-spytter-lige-nu-det-ene-staerke-rockband-ud-efter-det-andet-700695",
+   "t": "Bølge Ét land spytter lige nu det ene stærke rockband ud efter det andet"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/to-nye-danske-comeback-album-giver-mig-haab-i-en-kaotisk-verden-700093",
+   "t": "Feature"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/to-nye-danske-comeback-album-giver-mig-haab-i-en-kaotisk-verden-700093",
+   "t": "Feature To nye danske comeback-album giver mig håb i en kaotisk verden"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/sacha-baron-cohens-originale-gangster-er-tilbage-og-folk-opfordrer-oejeblikkeligt-til-boykot-696567",
+   "t": "Feature"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/sacha-baron-cohens-originale-gangster-er-tilbage-og-folk-opfordrer-oejeblikkeligt-til-boykot-696567",
+   "t": "Feature Sacha Baron Cohens originale gangster er tilbage – og folk opfordrer øjeblikkeligt til boykot"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/grimes-nye-sange-viser-hvorfor-det-er-en-fejl-at-afskrive-hende-700045",
+   "t": "Kommentar"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/grimes-nye-sange-viser-hvorfor-det-er-en-fejl-at-afskrive-hende-700045",
+   "t": "Kommentar Desværre er Grimes det bedste, vi har"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/for-10-aar-siden-sluttede-serien-perfekt-den-boer-aldrig-genoplives-697995",
+   "t": "Anbefaling"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/for-10-aar-siden-sluttede-serien-perfekt-den-boer-aldrig-genoplives-697995",
+   "t": "Anbefaling For 10 år siden sluttede serien perfekt – den bør aldrig genoplives"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/elliott-crosset-hoves-filmfavoritter-vi-var-helt-faerdige-af-grin-og-vi-var-naermest-lykkelige-bagefter-697433",
+   "t": "Filmfavoritter"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/elliott-crosset-hoves-filmfavoritter-vi-var-helt-faerdige-af-grin-og-vi-var-naermest-lykkelige-bagefter-697433",
+   "t": "Filmfavoritter Elliott Crosset Hoves filmfavoritter: »Vi var helt færdige af grin, og vi var nærmest lykkelige bagefter«"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/kvinderne-var-i-undertal-til-p3-guld-det-stoppede-ikke-en-af-dem-i-at-stjaele-hele-showet-700228",
+   "t": "Kommentar"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/kvinderne-var-i-undertal-til-p3-guld-det-stoppede-ikke-en-af-dem-i-at-stjaele-hele-showet-700228",
+   "t": "Kommentar Kvinderne var i undertal til P3 Guld – det stoppede ikke én af dem i at stjæle hele showet"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/haab-for-digger-fem-ikoniske-filmklassikere-der-blev-savet-over-af-anmelderne-699995",
+   "t": "Feature"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/haab-for-digger-fem-ikoniske-filmklassikere-der-blev-savet-over-af-anmelderne-699995",
+   "t": "Feature Håb for ‘Digger’: Fem ikoniske filmklassikere, der blev savet over af anmelderne"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/soundvenue-streamer-tre-weekendanbefalinger-maa-denne-sjove-skoege-aldrig-laegge-mikrofonen-699758",
+   "t": "Soundvenue Streamer"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/soundvenue-streamer-tre-weekendanbefalinger-maa-denne-sjove-skoege-aldrig-laegge-mikrofonen-699758",
+   "t": "Soundvenue Streamer Weekendens tre streaming-tip: Må denne sjove skøge aldrig lægge mikrofonen"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/nyere-tids-syv-bedste-live-album-fra-fantastiske-cameron-winter-til-dansk-roskilde-triumf-699411",
+   "t": "Liste"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/nyere-tids-syv-bedste-live-album-fra-fantastiske-cameron-winter-til-dansk-roskilde-triumf-699411",
+   "t": "Liste Nyere tids syv bedste live-album – fra fantastiske Cameron Winter til dansk Roskilde-triumf"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/mere-girls-virker-som-verdens-bedste-ide-med-et-stort-men-699720",
+   "t": "Kommentar"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/mere-girls-virker-som-verdens-bedste-ide-med-et-stort-men-699720",
+   "t": "Kommentar Mere ‘Girls’ virker som verdens bedste idé – med ét stort men"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/det-er-et-af-verdens-mest-toneangivende-filmselskaber-nu-gaar-de-ind-i-musikken-697999",
+   "t": "A24 Music"
+  },
+  {
+   "h": "https://soundvenue.com/musik/2026/10/det-er-et-af-verdens-mest-toneangivende-filmselskaber-nu-gaar-de-ind-i-musikken-697999",
+   "t": "A24 Music Det er et af verdens mest toneangivende filmselskaber. Nu går de ind i musikken"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/censureret-mestervaerk-med-jesus-voldtaegt-blev-kaldt-satanisk-nu-kan-du-se-hele-herligheden-699390",
+   "t": "Feature"
+  },
+  {
+   "h": "https://soundvenue.com/film/2026/10/censureret-mestervaerk-med-jesus-voldtaegt-blev-kaldt-satanisk-nu-kan-du-se-hele-herligheden-699390",
+   "t": "Feature Mesterværk med Jesus-voldtægt blev kaldt satanisk – nu er hele herligheden tilbage i biografen"
+  },
+  {
+   "h": "https://soundvenue.com/privacy-policy",
+   "t": "privatlivspolitikken"
+  },
+  {
+   "h": "https://soundvenue.com/kontakt",
+   "t": "KONTAKT"
+  },
+  {
+   "h": "https://media.soundvenue.com/?utm_source=Soundvenue&utm_medium=Link&utm_campaign=Soundvenue%20-%20Mediasite&utm_content=Footer",
+   "t": "ANNONCERING"
+  },
+  {
+   "h": "https://studio.soundvenue.com/",
+   "t": "STUDIO"
+  },
+  {
+   "h": "https://soundvenue.com/persondata",
+   "t": "PERSONDATA"
+  },
+  {
+   "h": "javascript:svRepromt();",
+   "t": "ÆNDRE SAMTYKKE"
+  },
+  {
+   "h": "https://soundvenue.com/kontakt",
+   "t": "KONTAKT"
+  },
+  {
+   "h": "https://media.soundvenue.com/?utm_source=Soundvenue&utm_medium=Link&utm_campaign=Soundvenue%20-%20Mediasite&utm_content=Footer",
+   "t": "ANNONCERING"
+  },
+  {
+   "h": "https://studio.soundvenue.com/",
+   "t": "STUDIO"
+  },
+  {
+   "h": "https://soundvenue.com/persondata",
+   "t": "PERSONDATA"
+  },
+  {
+   "h": "javascript:svRepromt();",
+   "t": "ÆNDRE SAMTYKKE"
+  }
+ ]
+}
