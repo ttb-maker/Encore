@@ -1,7 +1,2 @@
-soundvenue https://soundvenue.com/
-soundvenue-musik https://soundvenue.com/musik
-soundvenue-koncerter https://soundvenue.com/koncerter
-soundvenue-live https://live.soundvenue.com/
-planb https://www.planbmalmo.com/
-malmolive-program https://malmolive.se/program
-slagthuset-events https://slagthuset.se/events
+sv-guide-nov https://soundvenue.com/musik/2026/10/her-er-koncerterne-du-skal-opleve-i-november-en-sjaelden-mulighed-for-at-hoere-et-af-aarets-bedste-danske-album-live-701188
+sv-guide-okt https://soundvenue.com/musik/2026/09/her-er-koncerterne-du-skal-opleve-i-oktober-aphaca-skriver-historie-694944
